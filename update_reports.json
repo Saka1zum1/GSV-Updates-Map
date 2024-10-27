@@ -1,0 +1,1664 @@
+[
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/g9w5PCtYriWgfHJj8",
+        "report_time": 1729957696,
+        "author": "houstonmediahd",
+        "panoid": "RoZke5AJqwLgyhvB2SOUaA",
+        "lat": 44.10077580622451,
+        "lng": -81.10854953304428,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "718 Concession Rd 14, Mildmay, Ontario",
+        "country": "CA",
+        "elevation": 282.89142,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/pC1ibcNyY9K3eWsd9",
+        "report_time": 1729957323,
+        "author": "deslagen",
+        "panoid": "ZxQTWw0nMFumA-33isxR6w",
+        "lat": 45.42597905487661,
+        "lng": 15.608610982718128,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Cerovac Vukmani\u0107ki, Karlovac County, HR",
+        "country": "HR",
+        "elevation": 126.46386,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "bc",
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Rn3PQ2AhKv95w1sC7",
+        "report_time": 1729955996,
+        "author": "iam_frost",
+        "panoid": "AK6eXxTiDxuKnuN5Mskmxw",
+        "lat": 54.22826595797598,
+        "lng": -125.76004172315817,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Centre St, Burns Lake, British Columbia",
+        "country": "CA",
+        "elevation": 718.5509,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/DHLWjFBDwdcHvQXg8",
+        "report_time": 1729955910,
+        "author": "skzk_",
+        "panoid": "ZMWIYwgFceUjZgWlfaiIOg",
+        "lat": 55.734070189891305,
+        "lng": 12.470311368725712,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "28 Hf. Moseh\u00f8j, S\u00f8borg, Capital Region of Denmark",
+        "country": "DK",
+        "elevation": 37.61357,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newcountry"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=pR6AoOVU1IY86b8b5wcDWg",
+        "report_time": 1729952894,
+        "author": "Update Tracker Bot",
+        "panoid": "pR6AoOVU1IY86b8b5wcDWg",
+        "lat": 55.742704551689584,
+        "lng": 12.331979094046764,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "85 Lindbjergvej, Ballerup, Capital Region of Denmark",
+        "country": "DK",
+        "elevation": 30.734072,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/tmps33c4ZGLN72Ds8",
+        "report_time": 1729951806,
+        "author": "frefromwig",
+        "panoid": "3GNKMXQyRm6IcSJ92MP0EA",
+        "lat": 46.05971864456087,
+        "lng": 13.845689465966743,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Gorenja Trebu\u0161a, Gorenja Trebu\u0161a, Tolmin",
+        "country": "SI",
+        "elevation": 754.72974,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/CDXf1meTJsdSBQn59",
+        "report_time": 1729949561,
+        "author": "krb10",
+        "panoid": "HVfynElN7AjhOc_cO_fXSA",
+        "lat": 47.16496777100783,
+        "lng": 24.87643011220516,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Colibi\u021ba, Bistri\u021ba-N\u0103s\u0103ud County, RO",
+        "country": "RO",
+        "elevation": 805.7299,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/bkyfoMHHX7PZRTX37",
+        "report_time": 1729947515,
+        "author": "frefromwig",
+        "panoid": "ii_UwQ78qCd48MAfQTd98w",
+        "lat": 56.27831334003645,
+        "lng": 26.316720391720207,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Prei\u013ci Municipality, LV",
+        "country": "LV",
+        "elevation": 96.332405,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newyear",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/um4suJptF9qM7d7y7",
+        "report_time": 1729947001,
+        "author": "frefromwig",
+        "panoid": "piJBcH-9yEH6fAokK6Zd3g",
+        "lat": 56.6703681012876,
+        "lng": 26.616524407930925,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Varak\u013c\u0101ni Municipality, LV",
+        "country": "LV",
+        "elevation": 99.28044,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=UyQSacXxyJsVTaFazD8PxQ",
+        "report_time": 1729946845,
+        "author": "Update Tracker Bot",
+        "panoid": "UyQSacXxyJsVTaFazD8PxQ",
+        "lat": 56.72570320696274,
+        "lng": 27.589412379171897,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Otrie Me\u017evidi, Ludza Municipality, LV",
+        "country": "LV",
+        "elevation": 120.66131,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=A_qlzSlop8U66yNhBe4vKw",
+        "report_time": 1729943092,
+        "author": "Update Tracker Bot",
+        "panoid": "A_qlzSlop8U66yNhBe4vKw",
+        "lat": 35.33715203304833,
+        "lng": 136.27412571576778,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "\u3055\u3056\u306a\u307f\u8857\u9053, Maibara, Shiga",
+        "country": "JP",
+        "elevation": 89.25173,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Hia89TdsOKTMszoaPHpcjg",
+        "report_time": 1729939590,
+        "author": "Update Tracker Bot",
+        "panoid": "Hia89TdsOKTMszoaPHpcjg",
+        "lat": 33.714855549035114,
+        "lng": 130.75974148137826,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "\u5927\u6d66\u6a4b, Fukuchi, Fukuoka",
+        "country": "JP",
+        "elevation": 19.818808,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=sTuzl-BNQPvMDMahG5Cf5A",
+        "report_time": 1729929114,
+        "author": "Update Tracker Bot",
+        "panoid": "sTuzl-BNQPvMDMahG5Cf5A",
+        "lat": 57.07926644536397,
+        "lng": 25.756384228793635,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "P30, C\u0113sis Municipality",
+        "country": "LV",
+        "elevation": 208.63531,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=JyF3lcX-s4exDATOYlxAbw",
+        "report_time": 1729919572,
+        "author": "Update Tracker Bot",
+        "panoid": "JyF3lcX-s4exDATOYlxAbw",
+        "lat": 45.826815283724514,
+        "lng": 14.289771832904174,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "E61, Unec, Cerknica",
+        "country": "SI",
+        "elevation": 522.313,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=RWI4iYPLoI0z3log2eOfaw",
+        "report_time": 1729914698,
+        "author": "Update Tracker Bot",
+        "panoid": "RWI4iYPLoI0z3log2eOfaw",
+        "lat": 34.505745839243886,
+        "lng": 136.67148538782618,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Ise, Mie, JP",
+        "country": "JP",
+        "elevation": 11.881839,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/bQFPjsZdsKWWnm376",
+        "report_time": 1729911988,
+        "author": ".jpeters",
+        "panoid": "8opr8y8-Y7TqtBFBYIt5DQ",
+        "lat": 45.87264055506979,
+        "lng": -116.40674987524304,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Rice Creek Rd, Cottonwood, Idaho",
+        "country": "US",
+        "elevation": 703.4731,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=E3ASyoQUwlS2JgFno1r1MQ",
+        "report_time": 1729911008,
+        "author": "Update Tracker Bot",
+        "panoid": "E3ASyoQUwlS2JgFno1r1MQ",
+        "lat": 53.398389712109555,
+        "lng": -6.467498048350599,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Hilltown, County Meath",
+        "country": "IE",
+        "elevation": 70.61852,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=IZzo7lEs85EutQo5tp2sIw",
+        "report_time": 1729900438,
+        "author": "Update Tracker Bot",
+        "panoid": "IZzo7lEs85EutQo5tp2sIw",
+        "lat": 32.2494486731718,
+        "lng": 131.33368128402634,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Saito, Miyazaki, JP",
+        "country": "JP",
+        "elevation": 482.56546,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen1update",
+            "newisland"
+        ],
+        "sv_link": "https://maps.app.goo.gl/PtX4T1MNpGEXCfcL6",
+        "report_time": 1729898681,
+        "author": "ddrrww",
+        "panoid": "a2zjW310jOk-FERE1h2o0A",
+        "lat": 45.99329388083817,
+        "lng": -84.33134747833839,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "363 S Hill Island Rd, Cedarville, Michigan",
+        "country": "US",
+        "elevation": 179.769,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/4pYMtWLYpzbV3KP89",
+        "report_time": 1729898681,
+        "author": "ddrrww",
+        "panoid": "OxZ9cdmOXSnCRV3tbubshA",
+        "lat": 43.64877233357613,
+        "lng": -86.53819021177931,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "72 N Lighthouse Dr, Mears, Michigan",
+        "country": "US",
+        "elevation": 185.29411,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/9tbgQJNUjNr1JLAB9",
+        "report_time": 1729896769,
+        "author": "deslagen",
+        "panoid": "VfOzAFsTW-g-d4jeM3cRJA",
+        "lat": 46.050726513973096,
+        "lng": 11.880971060006045,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "37 Via Carpene, Veneto",
+        "country": "IT",
+        "elevation": 496.2497,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MZFwaCZRovALb2m69",
+        "report_time": 1729896590,
+        "author": "deslagen",
+        "panoid": "1leWMJV7v8-4ED2Q4HHAug",
+        "lat": 50.02448935523253,
+        "lng": 15.745118557731194,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "2, Pardubice, Pardubice Region",
+        "country": "CZ",
+        "elevation": 223.67148,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/mCfsCbx8BkAvfgrS8",
+        "report_time": 1729896455,
+        "author": "deslagen",
+        "panoid": "rQW2uW2ka7P5AbgQ-6g1Jw",
+        "lat": 58.67844273291055,
+        "lng": 13.831544824690154,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "E20, V\u00e4stra G\u00f6taland County",
+        "country": "SE",
+        "elevation": 59.19567,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/UqzQo7pmtG7J1eWLA",
+        "report_time": 1729893444,
+        "author": "deslagen",
+        "panoid": "lSM2H5Jqr8dzv_WuPiAWVw",
+        "lat": 50.86868874958068,
+        "lng": -4.504310222584153,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Stibb Levels, England",
+        "country": "GB",
+        "elevation": 153.42592,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=eEIcyUQ6WA905yZeCd4WQg",
+        "report_time": 1729889963,
+        "author": "Update Tracker Bot",
+        "panoid": "eEIcyUQ6WA905yZeCd4WQg",
+        "lat": 56.592216201083275,
+        "lng": 25.549989248792393,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "A6, Aizkraukle Municipality",
+        "country": "LV",
+        "elevation": 96.70074,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=KOVh6_dqD2Js1_ihvU_KpA",
+        "report_time": 1729886429,
+        "author": "Update Tracker Bot",
+        "panoid": "KOVh6_dqD2Js1_ihvU_KpA",
+        "lat": 56.832364278468816,
+        "lng": 26.335565678722975,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "P84, Madona Municipality",
+        "country": "LV",
+        "elevation": 139.7912,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CNQIRQ2u6Hebf_bO-DKb3w",
+        "report_time": 1729886422,
+        "author": "Update Tracker Bot",
+        "panoid": "CNQIRQ2u6Hebf_bO-DKb3w",
+        "lat": 56.34705081720276,
+        "lng": 26.280195446345434,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "P63, L\u012bv\u0101ni Municipality",
+        "country": "LV",
+        "elevation": 96.91003,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RQ26E9J7AR3G95Gi6",
+        "report_time": 1729883617,
+        "author": "tobetelogi",
+        "panoid": "R-XgrNICK0-FEUNy-p0MVg",
+        "lat": 58.67014521818928,
+        "lng": 8.327690622171108,
+        "year": 2024,
+        "month": 7,
+        "date": "Jul 2024",
+        "address": "Agder, NO",
+        "country": "NO",
+        "elevation": 255.65848,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/YofRssFAJvnbqQuk8",
+        "report_time": 1729883617,
+        "author": "tobetelogi",
+        "panoid": "3WNUH2GhSAQAvNGzqiJWEw",
+        "lat": 58.93761502935296,
+        "lng": 7.78458656389369,
+        "year": 2024,
+        "month": 8,
+        "date": "Aug 2024",
+        "address": "Agder, NO",
+        "country": "NO",
+        "elevation": 489.9532,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Q4JQEYD7hHzWqf7R9",
+        "report_time": 1729883617,
+        "author": "tobetelogi",
+        "panoid": "vXAHytQpvNVNINFR4mGesQ",
+        "lat": 60.30716499680161,
+        "lng": 9.754143120467555,
+        "year": 2024,
+        "month": 6,
+        "date": "Jun 2024",
+        "address": "1370 Brekkebygdveien, Buskerud",
+        "country": "NO",
+        "elevation": 281.25302,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/mpyLGqHyqzCKKSCKA",
+        "report_time": 1729883617,
+        "author": "tobetelogi",
+        "panoid": "ORTjm0ukCHFtFrJSXhPvnw",
+        "lat": 59.551808601872146,
+        "lng": 7.92193288428912,
+        "year": 2024,
+        "month": 7,
+        "date": "Jul 2024",
+        "address": "Telemark, NO",
+        "country": "NO",
+        "elevation": 552.8595,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/9ZrcBctoME5Fx1hQ9",
+        "report_time": 1729883617,
+        "author": "tobetelogi",
+        "panoid": "y27LpAD4ryH9Qn9GbUjEDQ",
+        "lat": 59.3623183758257,
+        "lng": 7.944667616893664,
+        "year": 2024,
+        "month": 8,
+        "date": "Aug 2024",
+        "address": "504 Hylebuvegen, Telemark",
+        "country": "NO",
+        "elevation": 657.6775,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/5oPMXX7A3GzyjSfg7",
+        "report_time": 1729883617,
+        "author": "tobetelogi",
+        "panoid": "ZPqtalM2KYW9KK5J9VG_nQ",
+        "lat": 59.68464477642371,
+        "lng": 7.872351718452394,
+        "year": 2024,
+        "month": 7,
+        "date": "Jul 2024",
+        "address": "Telemark, NO",
+        "country": "NO",
+        "elevation": 694.80054,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RUeW6oQPyJB647889",
+        "report_time": 1729877176,
+        "author": "pepsho.142",
+        "panoid": "qTmAz1CkgC5QfTffb1PYUA",
+        "lat": 45.80424844645386,
+        "lng": 14.053871832934378,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Nanos, Ajdov\u0161\u010dina, SI",
+        "country": "SI",
+        "elevation": 1138.058,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/2HaZAk2oKqgNjNpAA",
+        "report_time": 1729876849,
+        "author": "pepsho.142",
+        "panoid": "lrjIiEDQe6K3CQyeDAwIrg",
+        "lat": 50.653179347974614,
+        "lng": 14.776103729870403,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Ku\u0159\u00edvody, Liberec Region, CZ",
+        "country": "CZ",
+        "elevation": 315.6091,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/acK5uZSqsCptbHCx6",
+        "report_time": 1729876684,
+        "author": "pepsho.142",
+        "panoid": "GWllX_qOGXe1ji3H2DWzdg",
+        "lat": 50.56513892154158,
+        "lng": 14.952038418827104,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "26817, Neveklovice, Central Bohemian Region",
+        "country": "CZ",
+        "elevation": 325.29422,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/B8s25YK2MFWQmgSh8",
+        "report_time": 1729876500,
+        "author": "pepsho.142",
+        "panoid": "wHv48mJzsBEDZrwSjyibNg",
+        "lat": 45.5055701187475,
+        "lng": 13.863104279793523,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Gra\u010di\u0161\u010de, Gra\u010di\u0161\u010de, Koper",
+        "country": "SI",
+        "elevation": 343.09937,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/mdBfM2vv2Qgmqoth9?g_st=ac",
+        "report_time": 1729876464,
+        "author": "juliosalg.",
+        "panoid": "zKArj-IV9qKW7sBH9Z932A",
+        "lat": -7.531641844374631,
+        "lng": -35.08299691978614,
+        "year": 2024,
+        "month": 8,
+        "date": "Aug 2024",
+        "address": "R. Joaquim Barbalho, State of Pernambuco",
+        "country": "BR",
+        "elevation": 62.839046,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=bn7viUMKyKXNPUh5nm9HCw",
+        "report_time": 1729875726,
+        "author": "Update Tracker Bot",
+        "panoid": "bn7viUMKyKXNPUh5nm9HCw",
+        "lat": 56.49053526580277,
+        "lng": 25.87809028891795,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "55 Br\u012bv\u012bbas iela, Jekabpils, J\u0113kabpils Municipality",
+        "country": "LV",
+        "elevation": 86.21383,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/k1WRQ1LXzPvsKtkU6",
+        "report_time": 1729869436,
+        "author": "deslagen",
+        "panoid": "mmCjddGcH9Q4ytJPJzEohg",
+        "lat": 46.45046913100504,
+        "lng": 9.327734491619037,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "3 Localit\u00e0 Mottaletta, Lombardy",
+        "country": "IT",
+        "elevation": 1353.569,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ggaLqguFU59UKtn99",
+        "report_time": 1729869157,
+        "author": "deslagen",
+        "panoid": "shW2tLQMZ06NX2Wb73xrzw",
+        "lat": 51.49493486658707,
+        "lng": -2.544998135694823,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "12 Parnell Rd, Stoke Gifford, England",
+        "country": "GB",
+        "elevation": 73.53852,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=7zd4leBrfEKycOxkT0woIA",
+        "report_time": 1729868360,
+        "author": "Update Tracker Bot",
+        "panoid": "7zd4leBrfEKycOxkT0woIA",
+        "lat": 46.052571976829476,
+        "lng": 11.509172702733293,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "33 SP109, Localit\u00e0 Produttiva I, Trentino-South Tyrol",
+        "country": "IT",
+        "elevation": 355.11395,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad",
+            "PegSkull"
+        ],
+        "sv_link": "https://maps.app.goo.gl/C1Anc4NQZT4ssdJ86",
+        "report_time": 1729867680,
+        "author": "vegetal.",
+        "panoid": "A3hZURxi532n0LBYrtLNmg",
+        "lat": -28.81829508933403,
+        "lng": 114.98383631228646,
+        "year": 2024,
+        "month": 2,
+        "date": "Feb 2024",
+        "address": "1010 Ellendale Rd, Ellendale, Western Australia",
+        "country": "AU",
+        "elevation": 181.28989,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/c8bsYFhorG8R1dNH7",
+        "report_time": 1729867427,
+        "author": ".jpeters",
+        "panoid": "ynlE8sqVdjoiCqZIBeApMw",
+        "lat": -33.53090235613316,
+        "lng": 138.79907761039843,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Booborowie, South Australia, AU",
+        "country": "AU",
+        "elevation": 493.40045,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nF71cbqx3tKwVwTy9",
+        "report_time": 1729867345,
+        "author": ".jpeters",
+        "panoid": "fEsM8QRao7rlyc1eWnItbg",
+        "lat": -33.923305876324484,
+        "lng": 120.05250398469877,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Hamersley Dr, Hopetoun, Western Australia",
+        "country": "AU",
+        "elevation": 12.086627,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/1PR2TyXmGKL9wqjd6",
+        "report_time": 1729866753,
+        "author": ".jpeters",
+        "panoid": "MFgXADUQkFqpgJI34TET1A",
+        "lat": 39.24606728665952,
+        "lng": -111.45600207326316,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Forest Rd 150, Utah",
+        "country": "US",
+        "elevation": 3129.6882,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/2skHUtes3RyVcpgp7",
+        "report_time": 1729866676,
+        "author": ".jpeters",
+        "panoid": "l6r7CLx7q90DGChp3bxhIA",
+        "lat": 41.402417708995785,
+        "lng": -119.68958452256378,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "County Rd 34, Gerlach, Nevada",
+        "country": "US",
+        "elevation": 1725.9564,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Gep4QHiwrWfNNdGL9",
+        "report_time": 1729865948,
+        "author": ".jpeters",
+        "panoid": "ra8-KTbtGFt1S8UNgh0y9Q",
+        "lat": 46.29693180161162,
+        "lng": 11.925975824938781,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Veneto, IT",
+        "country": "IT",
+        "elevation": 922.6517,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/hC7rG8nciHobSxiS8,",
+        "report_time": 1729865821,
+        "author": ".jpeters",
+        "panoid": "5UYeYDFPQeB_rg66WerEww",
+        "lat": 58.75710399944785,
+        "lng": 16.77968870521695,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "E4, S\u00f6dermanland County",
+        "country": "SE",
+        "elevation": 30.12928,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RPEFBv2yWRuYyTZM8",
+        "report_time": 1729861062,
+        "author": "deslagen",
+        "panoid": "TUEWhO3S8Y5Bejwv16cLSQ",
+        "lat": 56.59101453812521,
+        "lng": 25.88649063769872,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "J\u0113kabpils Municipality, LV",
+        "country": "LV",
+        "elevation": 89.70685,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newyear",
+            "newregion",
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/cJLHe2j4bhuY2rdF6",
+        "report_time": 1729858259,
+        "author": "deslagen",
+        "panoid": "v13pw6kLjcumUlIq2wZAUw",
+        "lat": 56.65771025705037,
+        "lng": 25.64862682065649,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Aizkraukle Municipality, LV",
+        "country": "LV",
+        "elevation": 116.83945,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newyear",
+            "newregion",
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/bYW4moJ6TYRAQyph7",
+        "report_time": 1729858259,
+        "author": "deslagen",
+        "panoid": "CPmGUqCaVlv1jQQJldT_Ig",
+        "lat": 42.45385049332594,
+        "lng": 26.05236990095515,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "A1, Sliven Province",
+        "country": "BG",
+        "elevation": 157.52264,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/hFpNckrUfR3yQvxEA",
+        "report_time": 1729858126,
+        "author": "deslagen",
+        "panoid": "AKtuwzghYr4eoo0Stedpzw",
+        "lat": -11.531292695465185,
+        "lng": -54.36938057563016,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "State of Mato Grosso, BR",
+        "country": "BR",
+        "elevation": 337.6055,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ZF4vMWL6aEttepQd7?g_st=ac",
+        "report_time": 1729857746,
+        "author": "juliosalg.",
+        "panoid": "mmPvm-ZikD5gBcc7CkFHQg",
+        "lat": -11.252279738992927,
+        "lng": -54.200697463207234,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "State of Mato Grosso, BR",
+        "country": "BR",
+        "elevation": 347.46683,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/i7qBYNWtnD6ZxLXQ7?g_st=ac",
+        "report_time": 1729857558,
+        "author": "juliosalg.",
+        "panoid": "S15Zq9S2_DYWdjTov9AvGg",
+        "lat": 46.338421810214875,
+        "lng": 19.84649450757088,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "40 Dorozsmai \u00fat, \u00dcll\u00e9s, Csongr\u00e1d",
+        "country": "HU",
+        "elevation": 101.01838,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newstreet"
+        ],
+        "sv_link": "https://maps.app.goo.gl/LxUfAdVLVaT82yH89?g_st=ac",
+        "report_time": 1729856404,
+        "author": "dobazala21",
+        "panoid": "NxVSgWy-wiRaW0ZtHthcjA",
+        "lat": 46.29952877966408,
+        "lng": 13.434022772556645,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "\u017daga, Tolmin, SI",
+        "country": "SI",
+        "elevation": 807.0184,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/eywrejdEdEKFVVgZ6",
+        "report_time": 1729856052,
+        "author": "deslagen",
+        "panoid": "RZHusIo1_9Qrv-lV2yfW2A",
+        "lat": 46.076193238911046,
+        "lng": 13.731910907056568,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Kal nad Kanalom, Kal nad Kanalom, Nova Gorica",
+        "country": "SI",
+        "elevation": 760.46875,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6G8SVQGbkBDsqJC66",
+        "report_time": 1729856052,
+        "author": "deslagen",
+        "panoid": "7xjlZoMomUdXY0ePyo2K0g",
+        "lat": 46.0761932,
+        "lng": 13.7319109,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Kal nad Kanalom, Nova Gorica",
+        "country": "SI",
+        "elevation": 760.46875,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/xYNBvd46n8FmS7Q29",
+        "report_time": 1729958337,
+        "author": "deslagen",
+        "panoid": "8m2wmdP5mAIHH9lIjq5DXA",
+        "lat": 50.451919798980924,
+        "lng": -4.091582374958803,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Upperton Ln, England",
+        "country": "GB",
+        "elevation": 96.481224,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/sXH2kRbvtH7EDxGL6",
+        "report_time": 1729958337,
+        "author": "deslagen",
+        "panoid": "odKfyx94MWTGIFKCSKzBuw",
+        "lat": 50.99366067068494,
+        "lng": -4.47937752764448,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "E Ball Hill, Hartland, England",
+        "country": "GB",
+        "elevation": 118.59972,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ombQNUX7KjD7kiaC6",
+        "report_time": 1729965645,
+        "author": "deslagen",
+        "panoid": "k__aE6p9K4BIuVlY6tGuig",
+        "lat": 47.23748826781953,
+        "lng": 24.814739098464738,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Tureac, Bistri\u021ba-N\u0103s\u0103ud County, RO",
+        "country": "RO",
+        "elevation": 597.05865,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/7h7ge88XJezreUK78",
+        "report_time": 1729965645,
+        "author": "deslagen",
+        "panoid": "QyC3f4EapPy4teZ4PrCyHA",
+        "lat": 47.21294123888699,
+        "lng": 24.844879414561717,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Mure\u0219enii B\u00e2rg\u0103ului, Bistri\u021ba-N\u0103s\u0103ud County, RO",
+        "country": "RO",
+        "elevation": 633.23663,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/C3Yj71Td8pBdyTnk8",
+        "report_time": 1729965645,
+        "author": "deslagen",
+        "panoid": "rSwModwH1W40fImh0tKulw",
+        "lat": 47.166202360217184,
+        "lng": 24.942005120415622,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Colibi\u021ba, Bistri\u021ba-N\u0103s\u0103ud County, RO",
+        "country": "RO",
+        "elevation": 812.3615,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/vsC5ZaVnroh324JKA",
+        "report_time": 1729965645,
+        "author": "deslagen",
+        "panoid": "w4EEccK5Bb8MiikeN23MCA",
+        "lat": 47.424401024351354,
+        "lng": 24.338526118642907,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "DC42, Bichigiu, Bistri\u021ba-N\u0103s\u0103ud County",
+        "country": "RO",
+        "elevation": 461.538,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/k81ZNi6mAvpSC9fQ6",
+        "report_time": 1729965645,
+        "author": "deslagen",
+        "panoid": "zvH2c4QDNMAFMSwAoYxrqA",
+        "lat": 47.2966608549583,
+        "lng": 24.087783186192702,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "DC37, Ciceu-Poieni, Bistri\u021ba-N\u0103s\u0103ud County",
+        "country": "RO",
+        "elevation": 382.04263,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/a1Lg28UFVzTXCthQ7",
+        "report_time": 1729965645,
+        "author": "deslagen",
+        "panoid": "jpKQxTG2zjsYbvEcjnrEBg",
+        "lat": 47.26610462895541,
+        "lng": 24.232644696919916,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "DC39, Mire\u0219, Bistri\u021ba-N\u0103s\u0103ud County",
+        "country": "RO",
+        "elevation": 462.8466,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/kjLBuspqgJu9svUN6",
+        "report_time": 1729965066,
+        "author": "deslagen",
+        "panoid": "_1tctI3J6aajQya24-T6gw",
+        "lat": 47.16477671894754,
+        "lng": 24.876478213462445,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Colibi\u021ba, Bistri\u021ba-N\u0103s\u0103ud County, RO",
+        "country": "RO",
+        "elevation": 805.4627,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/DhkYJ3LWiRtu1vDh6",
+        "report_time": 1729964852,
+        "author": "deslagen",
+        "panoid": "keJxulPFPeDZzFemOHiXQg",
+        "lat": 56.80402506005437,
+        "lng": 25.447105383290687,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Ogre Municipality, LV",
+        "country": "LV",
+        "elevation": 104.501854,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ofmyqBGViyeedwbE8",
+        "report_time": 1729964786,
+        "author": "deslagen",
+        "panoid": "Pmi6ppvlHSp6BMTQxPjBqw",
+        "lat": 46.27350435952009,
+        "lng": 14.324242090867305,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "E61, Malo Naklo, Kranj",
+        "country": "SI",
+        "elevation": 419.2905,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update",
+            "newstreet"
+        ],
+        "sv_link": "https://maps.app.goo.gl/knEoBttfSVR79ABt6",
+        "report_time": 1729989364,
+        "author": "angelchise",
+        "panoid": "04_3-5lolxXt5-aUrjqoiQ",
+        "lat": -33.74707215910287,
+        "lng": -61.9693154402279,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "1000 25 de Mayo, Venado Tuerto, Santa Fe Province",
+        "country": "AR",
+        "elevation": 119.34857,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/CVgNxydVGuu1hQZL9",
+        "report_time": 1729989179,
+        "author": "angelchise",
+        "panoid": "N25HmZKT7sA7FGnLRx9KkQ",
+        "lat": -34.00371708949864,
+        "lng": -61.9031576778583,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "C. 6, Mar\u00eda Teresa, Santa Fe Province",
+        "country": "AR",
+        "elevation": 110.58044,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MpoDsoSYawzrs6zB9",
+        "report_time": 1729989129,
+        "author": "angelchise",
+        "panoid": "njhKj03u0RhTLbRL0qQNSQ",
+        "lat": -33.87017930905555,
+        "lng": -62.09075932234396,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Sarmiento, San Eduardo, Santa Fe Province",
+        "country": "AR",
+        "elevation": 119.47818,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=miAFdShXOyysR4u8Uq8nXQ",
+        "report_time": 1729988429,
+        "author": "Update Tracker Bot",
+        "panoid": "miAFdShXOyysR4u8Uq8nXQ",
+        "lat": 49.56444136798673,
+        "lng": 17.21945435105836,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Olomouc, Olomouc Region, CZ",
+        "country": "CZ",
+        "elevation": 258.0574,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/8p7rAupsvXfUR2rS7",
+        "report_time": 1729985423,
+        "author": "deslagen",
+        "panoid": "D22pyxa1_3hqMCSpPGLJ_Q",
+        "lat": 50.908342026251916,
+        "lng": -4.008766069598667,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "B3217, England",
+        "country": "GB",
+        "elevation": 185.92657,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/V5oobizRCXQSBhm2A",
+        "report_time": 1729983812,
+        "author": "deslagen",
+        "panoid": "s8JG0VEkoaajvTIcRITTsw",
+        "lat": 53.38433606782027,
+        "lng": -6.471228371712606,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "County Kildare, IE",
+        "country": "IE",
+        "elevation": 62.5997,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/SHzZgVgfeauVnaBo7",
+        "report_time": 1729971567,
+        "author": "deslagen",
+        "panoid": "rjYyICqw8NEm5sg6biaUUg",
+        "lat": 46.315096539045804,
+        "lng": 14.252094730360024,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "A2, Ljubno, Radovljica",
+        "country": "SI",
+        "elevation": 453.32916,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/xgJ4CWdco8AkNGvRA",
+        "report_time": 1729965645,
+        "author": "deslagen",
+        "panoid": "05xWyg1gAvPIRzBCKAygKA",
+        "lat": 47.44136508003045,
+        "lng": 24.25806262695576,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "DJ172, Suplai, Bistri\u021ba-N\u0103s\u0103ud County",
+        "country": "RO",
+        "elevation": 642.31006,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/z4E1rBpPTUPQHYGp8",
+        "report_time": 1729964786,
+        "author": "deslagen",
+        "panoid": "pMkzVynb9oNxVPtukKTRgA",
+        "lat": 46.499625911879335,
+        "lng": 13.86726718343305,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Srednji Vrh, Srednji Vrh, Jesenice",
+        "country": "SI",
+        "elevation": 1230.4255,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/iRbM1qa6CKtLFWL57",
+        "report_time": 1729958337,
+        "author": "deslagen",
+        "panoid": "bYvWPbI_cJGcxsc4P2noTQ",
+        "lat": 50.661327756765466,
+        "lng": -4.153208942051673,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "England, GB",
+        "country": "GB",
+        "elevation": 165.5685,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=N5pnXP3UXrqd15TurOwChA",
+        "report_time": 1729995537,
+        "author": "Update Tracker Bot",
+        "panoid": "N5pnXP3UXrqd15TurOwChA",
+        "lat": 49.3042342906596,
+        "lng": 17.02931527756563,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "E462, Pustim\u011b\u0159, South Moravian Region",
+        "country": "CZ",
+        "elevation": 279.5401,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=nfSPVBtkAy1EwoAzBzPvNg",
+        "report_time": 1729995527,
+        "author": "Update Tracker Bot",
+        "panoid": "nfSPVBtkAy1EwoAzBzPvNg",
+        "lat": 49.74985870718157,
+        "lng": 18.500653792968308,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "11, T\u011brlicko, Moravian-Silesian Region",
+        "country": "CZ",
+        "elevation": 293.3545,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=g9Tm3mrcuGFnYEqzexuV-A",
+        "report_time": 1730004551,
+        "author": "Update Tracker Bot",
+        "panoid": "g9Tm3mrcuGFnYEqzexuV-A",
+        "lat": 7.942567937269415,
+        "lng": 125.19255263709351,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Kapalong - Talaingod - Valencia Rd, Valencia City, Northern Mindanao",
+        "country": "PH",
+        "elevation": 327.95764,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=uwb1fBsyYt8bCJ8Gno9-3w",
+        "report_time": 1730003542,
+        "author": "Update Tracker Bot",
+        "panoid": "uwb1fBsyYt8bCJ8Gno9-3w",
+        "lat": 42.09621911244535,
+        "lng": 12.623841952902534,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "E35, Lazio",
+        "country": "IT",
+        "elevation": 38.57095,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=8e5uffkBW4B1xskJTIb5RA",
+        "report_time": 1730003274,
+        "author": "Update Tracker Bot",
+        "panoid": "8e5uffkBW4B1xskJTIb5RA",
+        "lat": 43.37865398244818,
+        "lng": -72.6034390524558,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "264 Cavendish Gulf Rd, Cavendish, Vermont",
+        "country": "US",
+        "elevation": 285.74066,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/uYK4QEkgA7jvzCLf6",
+        "report_time": 1730008971,
+        "author": "houstonmediahd",
+        "panoid": "ubUkBUt71dl6ag5fI0gwlg",
+        "lat": 42.234111042640826,
+        "lng": -73.04885215018122,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Massachusetts Tpke, Becket, Massachusetts",
+        "country": "US",
+        "elevation": 476.21613,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen1update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/awhUNthASq7igaxg8",
+        "report_time": 1730016034,
+        "author": "jhk314",
+        "panoid": "HmESepAdcfNkT44O2vUW9w",
+        "lat": 43.193318150586244,
+        "lng": -118.37299338758028,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "OR-78, Princeton, Oregon",
+        "country": "US",
+        "elevation": 1251.0564,
+        "generation": "gen4",
+        "provider": "sv_car"
+    }
+]
