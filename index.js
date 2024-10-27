@@ -12330,41 +12330,56 @@ panoramasLayer.addTo(ht).bringToFront()
 L.control.layers(baseMaps, overlayMaps, { position: "bottomleft" }).addTo(ht);
 
 let isRangeMode = true
+let isHeatmap = false
+let isCluster=true
 let update_data
+let filterdata
+let markers=[]
+let heatmapLayer
+const heatmap_on='./assets/heatmap.png'
+const heatmap_off='./assets/heatmap_off.png'
+const cluster_on='./assets/markers.svg'
+const cluster_off='./assets/marker.svg'
 const clustermarkers=L.markerClusterGroup()
 
+    
 function drawMarkers(data) {
-  clustermarkers.clearLayers()
+  clustermarkers.clearLayers(); // 清空聚合标记
+  markers.forEach(marker => ht.removeLayer(marker)); 
+  markers = []; 
 
   data.forEach(item => {
-    const { lat, lng, address, author, update_type, report_time, date, sv_link } = item;
-    const localTime = new Date(report_time * 1000).toLocaleString();
-    const popupContent = `
-      <strong>address:</strong> ${address}<br>
-      <strong>pano date:</strong> ${date}<br>
-      <strong>update type:</strong> ${update_type}<br>
-      <strong>report time:</strong> ${localTime}<br>
-      <strong>reporter:</strong> ${author}
-    `;
+      const { lat, lng, address, author, update_type, report_time, date, sv_link } = item;
+      const localTime = new Date(report_time * 1000).toLocaleString();
+      const popupContent = `
+          <strong>address:</strong> ${address}<br>
+          <strong>pano date:</strong> ${date}<br>
+          <strong>update type:</strong> ${update_type}<br>
+          <strong>report time:</strong> ${localTime}<br>
+          <strong>reporter:</strong> ${author}
+      `;
+      const marker = L.marker([lat, lng]);
+      marker.on('mouseover', function () {
+          this.bindPopup(popupContent).openPopup();
+      });
+      marker.on('mouseout', function () {
+          this.closePopup();
+      });
+      marker.on('click', function () {
+          window.open(sv_link, '_blank');
+      });
 
-    const marker = new L.marker([lat, lng]);
-
-    marker.on('mouseover', function () {
-      this.bindPopup(popupContent).openPopup();
-    });
-
-    marker.on('mouseout', function () {
-      this.closePopup();
-    });
-
-    marker.on('click', function () {
-      window.open(sv_link, '_blank')
-    });
-
-    clustermarkers.addLayer(marker);
+      if (isCluster) {
+          clustermarkers.addLayer(marker);
+      } else {
+          ht.addLayer(marker);
+      }
+      markers.push(marker); 
   });
 
-  clustermarkers.addTo(ht);
+  if (isCluster) {
+      clustermarkers.addTo(ht);
+  }
 }
 
 fetch('update_reports.json')
@@ -12376,6 +12391,7 @@ fetch('update_reports.json')
   })
   .then(data => {
     update_data = data
+    filterdata=data
     drawMarkers(data)
   })
   .catch(error => console.error('Error parsing json:', error));
@@ -12393,11 +12409,12 @@ const datepicker = new AirDatepicker('#calendar', {
       endDate = startDate + 86400
     }
 
-    const filterdata = update_data.filter(item => {
+    filterdata = update_data.filter(item => {
       return item.report_time >= startDate && item.report_time <= endDate;
     });
     if (filterdata) {
       drawMarkers(filterdata)
+      if(isHeatmap)drawHeatmap(filterdata)
     }
   },
   autoClose: false,
@@ -12417,13 +12434,57 @@ const datepicker = new AirDatepicker('#calendar', {
   }
 
 });
+datepicker.show();
 
-const toggleButton = document.getElementById('calendar-toggle');
-toggleButton.addEventListener('click', function () {
+const toggle_calendar = document.getElementById('calendar-toggle');
+toggle_calendar.addEventListener('click', function () {
   isRangeMode = !isRangeMode;
   datepicker.update({
     range: isRangeMode
   });
-  toggleButton.textContent = isRangeMode ? 'Range' : 'Single';
+  toggle_calendar.textContent = isRangeMode ? 'Range' : 'Single';
 });
-datepicker.show();
+
+function drawHeatmap(data) {
+  if (heatmapLayer) {
+    ht.removeLayer(heatmapLayer);
+  }
+  const heatData = data.map(item => [item.lat, item.lng, 100]); 
+  heatmapLayer = L.heatLayer(heatData, {     
+      radius: 10, 
+      blur: 5,
+      maxZoom: 20,
+      maxIntensity: 1,
+      gradient: {
+        0.25: 'rgba(255, 0, 0, 0.25)',  // 浅红色
+        0.5: 'rgba(255, 0, 0, 0.5)',  // 中等红色
+        0.75: 'rgba(255, 0, 0, 0.75)',  // 深红色
+        1.0: 'rgba(255, 0, 0, 1.0)'   // 最深红色
+    }}).addTo(ht);
+  }
+const toggle_heatmap = document.querySelector('.control.heatmap')
+toggle_heatmap.addEventListener('click', function () {
+  if (isHeatmap) {
+    isHeatmap = false;
+    toggle_heatmap.style.backgroundImage = `url('${heatmap_off}')`;
+    if (heatmapLayer) {
+      ht.removeLayer(heatmapLayer);
+    }
+} else {
+    isHeatmap = true;
+    toggle_heatmap.style.backgroundImage = `url('${heatmap_on}')`;
+    drawHeatmap(filterdata);
+}
+})
+const toggle_cluster = document.querySelector('.control.cluster')
+toggle_cluster.addEventListener('click', function () {
+  if (isCluster) {
+    isCluster = false;
+    toggle_cluster.style.backgroundImage = `url('${cluster_off}')`;
+    drawMarkers(filterdata)
+} else {
+  isCluster = true;
+  toggle_cluster.style.backgroundImage = `url('${cluster_on}')`;
+    drawMarkers(filterdata);
+}
+})
