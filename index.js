@@ -12487,4 +12487,22 @@ toggle_cluster.addEventListener('click', function () {
   toggle_cluster.style.backgroundImage = `url('${cluster_on}')`;
     drawMarkers(filterdata);
 }
-})
+});
+const copy_button = document.querySelector('.control.copy')
+copy_button.addEventListener('click', function () {
+  const formattedData = filterdata.map(item => ({
+      lat: item.lat,
+      lng: item.lng,
+      heading: 0,
+      pitch: 0,
+      zoom: 0,
+      panoId: item.panoId
+  }));
+
+  const formattedText = JSON.stringify(formattedData);
+  navigator.clipboard.writeText(formattedText).then(() => {
+      alert('JSON data has been copied to your clipboard');
+  }).catch(err => {
+      console.error('Failed to copy to clipboard', err);
+  });
+});
