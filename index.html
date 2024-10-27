@@ -3,11 +3,13 @@
 <head>
     <meta charset=utf-8>
     <title>VS Updates Map</title>
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.3/air-datepicker.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.3/air-datepicker.min.js"></script>
     <style type="text/css">
@@ -52,6 +54,18 @@
             height: 240px;
             font-size: 1.2rem;
         }
+        .control{
+            position: absolute;
+            width: 44px;
+            height: 44px;
+            z-index: 3;
+            cursor: pointer;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+	        background: #fff;
+	        border-radius: 5px;
+            background-position: 50%;
+            background-size:cover;
+        }
     </style>
 </head>
 <body>
@@ -59,6 +73,8 @@
     <div id="calendar">
         <button id="calendar-toggle">Range</button>
     </div>
+    <div class="control heatmap" style="right:10px; bottom: 10px; background-image: url('assets/heatmap_off.png')"></div>
+    <div class="control cluster" style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
 </body>
 <script type="text/javascript" src="./index.js"></script>
 </html>
