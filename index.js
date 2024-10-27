@@ -12330,30 +12330,41 @@ panoramasLayer.addTo(ht).bringToFront()
 L.control.layers(baseMaps, overlayMaps, { position: "bottomleft" }).addTo(ht);
 
 let isRangeMode = true
-let markers = []
 let update_data
 const clustermarkers=L.markerClusterGroup()
 
 function drawMarkers(data) {
-  markers.forEach(marker => marker.remove());
+  clustermarkers.clearLayers()
 
   data.forEach(item => {
     const { lat, lng, address, author, update_type, report_time, date, sv_link } = item;
-
     const localTime = new Date(report_time * 1000).toLocaleString();
-
     const popupContent = `
-                <strong>address:</strong> ${address}<br>
-                <strong>pano date:</strong> ${date}<br>
-                <strong>update type:</strong> ${update_type}<br>
-                <strong>report time:</strong> ${localTime}<br>
-                <strong>reporter:</strong> ${author}
-      `;
-    const marker = new L.marker([lat, lng])
-    marker.bindPopup(popupContent);
-    clustermarkers.addLayer(marker)
+      <strong>address:</strong> ${address}<br>
+      <strong>pano date:</strong> ${date}<br>
+      <strong>update type:</strong> ${update_type}<br>
+      <strong>report time:</strong> ${localTime}<br>
+      <strong>reporter:</strong> ${author}
+    `;
+
+    const marker = new L.marker([lat, lng]);
+
+    marker.on('mouseover', function () {
+      this.bindPopup(popupContent).openPopup();
+    });
+
+    marker.on('mouseout', function () {
+      this.closePopup();
+    });
+
+    marker.on('click', function () {
+      window.open(sv_link, '_blank')
+    });
+
+    clustermarkers.addLayer(marker);
   });
-  clustermarkers.addTo(ht)
+
+  clustermarkers.addTo(ht);
 }
 
 fetch('update_reports.json')
@@ -12372,10 +12383,9 @@ fetch('update_reports.json')
 const datepicker = new AirDatepicker('#calendar', {
   onSelect({ date }) {
     var startDate, endDate
-    if (date.length > 1) {
+    if (date.length > 1&&isRangeMode) {
       startDate = Math.floor(date[0].getTime() / 1000)
       endDate = Math.floor(date[1].getTime() / 1000)
-      markers.forEach(marker => marker.remove());
     }
     else {
       const localdate = new Date(date)
@@ -12417,5 +12427,3 @@ toggleButton.addEventListener('click', function () {
   toggleButton.textContent = isRangeMode ? 'Range' : 'Single';
 });
 datepicker.show();
-
-
