@@ -7398,5 +7398,235 @@
         "elevation": 931.8513,
         "generation": "gen4",
         "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=G8ypqbySQ9h0fr07PpHCTQ",
+        "report_time": 1730026078,
+        "author": "Update Tracker Bot",
+        "panoid": "G8ypqbySQ9h0fr07PpHCTQ",
+        "lat": 45.13320997180349,
+        "lng": 24.004863486541336,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Strada General Magheru, M\u0103ld\u0103re\u0219ti, V\u00e2lcea County",
+        "country": "RO",
+        "elevation": 430.23203,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PdMZEU5NEoeg4ONDJzvQbQ",
+        "report_time": 1730025586,
+        "author": "Update Tracker Bot",
+        "panoid": "PdMZEU5NEoeg4ONDJzvQbQ",
+        "lat": 53.19098945958966,
+        "lng": 5.824382168724368,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Leeuwarden, Friesland, NL",
+        "country": "NL",
+        "elevation": 2.0875406,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "gen3update"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=aVZVKFt4pVJzhHG0sR7r4g",
+        "report_time": 1730027520,
+        "author": "Update Tracker Bot",
+        "panoid": "aVZVKFt4pVJzhHG0sR7r4g",
+        "lat": 50.65622642806118,
+        "lng": 14.001830682331214,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "6 Hrbovick\u00e1, \u00dast\u00ed nad Labem, \u00dast\u00ed nad Labem Region",
+        "country": "CZ",
+        "elevation": 144.87138,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=JS8cBA9vMI3nWKRyEGUj4g",
+        "report_time": 1730029127,
+        "author": "Update Tracker Bot",
+        "panoid": "JS8cBA9vMI3nWKRyEGUj4g",
+        "lat": 52.601480294785354,
+        "lng": 5.6114937054116645,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "A6, Swifterbant, Flevoland",
+        "country": "NL",
+        "elevation": -0.728918,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/1qe47moFCVF1rCdN6?g_st=ic",
+        "report_time": 1730033222,
+        "author": "gabbystartenjoyer",
+        "panoid": "gU2snmKo4i4lThdgsjva0A",
+        "lat": 42.19128734216911,
+        "lng": -73.09147010142303,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "45 S Main Rd, Otis, Massachusetts",
+        "country": "US",
+        "elevation": 374.9595,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=q02xR-epbzcxe_xe1TjdtQ",
+        "report_time": 1730033206,
+        "author": "Update Tracker Bot",
+        "panoid": "q02xR-epbzcxe_xe1TjdtQ",
+        "lat": 45.1662594311835,
+        "lng": 24.79567713043451,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "654 DJ703I, Arge\u0219",
+        "country": "RO",
+        "elevation": 475.91302,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=GtjSgvGtcfmstNUrDlxmhw",
+        "report_time": 1730034157,
+        "author": "Update Tracker Bot",
+        "panoid": "GtjSgvGtcfmstNUrDlxmhw",
+        "lat": 51.03694617176768,
+        "lng": 4.450070931701807,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "E19, Mechelen, Flanders",
+        "country": "BE",
+        "elevation": 19.303745,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/LrrkaYjDxdFQ5iXPA",
+        "report_time": 1730037151,
+        "author": "unhook.",
+        "panoid": "lorqe7Ai2xWcEOKZrA-MKg",
+        "lat": 13.350314131089293,
+        "lng": 123.73945830766526,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Tabaco City, Bicol, PH",
+        "country": "PH",
+        "elevation": 6.7242074,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newcountry"
+        ],
+        "sv_link": "https://maps.app.goo.gl/aaihDJfr4A12mD4f9",
+        "report_time": 1730037070,
+        "author": "unhook.",
+        "panoid": "5DmA-WjeOkSl6RNsbChtjA",
+        "lat": 13.600033354456016,
+        "lng": 123.20050932087096,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Milaor, Bicol, PH",
+        "country": "PH",
+        "elevation": 11.002998,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=znQcuh2ijNf8zc_-ISpZBA",
+        "report_time": 1730036568,
+        "author": "Update Tracker Bot",
+        "panoid": "znQcuh2ijNf8zc_-ISpZBA",
+        "lat": 11.357232759576005,
+        "lng": 125.02596082148602,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "AH26, Santa Rita, Eastern Visayas",
+        "country": "PH",
+        "elevation": 13.413488,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=2cwvgZ42HK08U_MqifCjEA",
+        "report_time": 1730036561,
+        "author": "Update Tracker Bot",
+        "panoid": "2cwvgZ42HK08U_MqifCjEA",
+        "lat": 7.6143830947021796,
+        "lng": 125.63310857285538,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Kapalong - Talaingod - Valencia Rd, Kapalong, Davao Region",
+        "country": "PH",
+        "elevation": 48.703674,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/C4TMQKacV9QQcSDT7",
+        "report_time": 1730036049,
+        "author": ".jpeters",
+        "panoid": "iRDx_zugjoWFvyBu7IZWWQ",
+        "lat": 46.51828907617755,
+        "lng": 13.720518922740224,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Rate\u010de, Rate\u010de, Jesenice",
+        "country": "SI",
+        "elevation": 1246.1776,
+        "generation": "gen4",
+        "provider": "sv_car"
     }
 ]
