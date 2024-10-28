@@ -8405,25 +8405,6 @@
     },
     {
         "update_type": [
-            "newtown"
-        ],
-        "sv_link": "https://maps.app.goo.gl/KsddFx2UirMeDeei7",
-        "report_time": 1729706268,
-        "author": "angelchise",
-        "panoid": "nwe6HKS66roWG862Tt7tIw",
-        "lat": -36.634867817984166,
-        "lng": -57.79396480574444,
-        "year": 2024,
-        "month": 9,
-        "date": "Sep 2024",
-        "address": "Gral. San Mart\u00edn, General Guido, Buenos Aires Province",
-        "country": "AR",
-        "elevation": 16.35623,
-        "generation": "gen4",
-        "provider": "sv_car"
-    },
-    {
-        "update_type": [
             "newcountry"
         ],
         "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TrDfZRj3QOXJbFTpPjNY2Q",
@@ -8438,6 +8419,25 @@
         "address": "560 RN12, Entre R\u00edos Province",
         "country": "AR",
         "elevation": 42.267597,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=t_j3Vy-nuSCguU9FmNUSdg",
+        "report_time": 1730116152,
+        "author": "Update Tracker Bot",
+        "panoid": "t_j3Vy-nuSCguU9FmNUSdg",
+        "lat": -3.520231496942956,
+        "lng": -45.25961010634902,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "MA-342, State of Maranh\u00e3o",
+        "country": "BR",
+        "elevation": 15.70945,
         "generation": "gen4",
         "provider": "sv_car"
     }
