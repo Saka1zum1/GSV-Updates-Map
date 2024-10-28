@@ -1332,25 +1332,6 @@
         "report_time": 1729865821,
         "author": ".jpeters",
         "panoid": "5UYeYDFPQeB_rg66WerEww",
-        "lat": 46.3093767,
-        "lng": 9.941704,
-        "year": 2024,
-        "month":10,
-        "date": "Oct 2024",
-        "address": "Lombardy, Italy",
-        "country": "IT",
-        "elevation": 2008.47,
-        "generation": "gen4",
-        "provider": "sv_car"
-    },
-    {
-        "update_type": [
-            "newregion"
-        ],
-        "sv_link": "https://maps.app.goo.gl/RPEFBv2yWRuYyTZM8",
-        "report_time": 1729861062,
-        "author": "deslagen",
-        "panoid": "TUEWhO3S8Y5Bejwv16cLSQ",
         "lat": 58.75710399944785,
         "lng": 16.77968870521695,
         "year": 2024,
@@ -1364,14 +1345,12 @@
     },
     {
         "update_type": [
-            "newyear",
-            "newregion",
-            "gen3update"
+            "newregion"
         ],
-        "sv_link": "https://maps.app.goo.gl/cJLHe2j4bhuY2rdF6",
-        "report_time": 1729858259,
+        "sv_link": "https://maps.app.goo.gl/RPEFBv2yWRuYyTZM8",
+        "report_time": 1729861062,
         "author": "deslagen",
-        "panoid": "v13pw6kLjcumUlIq2wZAUw",
+        "panoid": "TUEWhO3S8Y5Bejwv16cLSQ",
         "lat": 56.59101453812521,
         "lng": 25.88649063769872,
         "year": 2024,
@@ -1389,10 +1368,10 @@
             "newregion",
             "gen3update"
         ],
-        "sv_link": "https://maps.app.goo.gl/bYW4moJ6TYRAQyph7",
+        "sv_link": "https://maps.app.goo.gl/cJLHe2j4bhuY2rdF6",
         "report_time": 1729858259,
         "author": "deslagen",
-        "panoid": "CPmGUqCaVlv1jQQJldT_Ig",
+        "panoid": "v13pw6kLjcumUlIq2wZAUw",
         "lat": 56.65771025705037,
         "lng": 25.64862682065649,
         "year": 2024,
@@ -1406,12 +1385,14 @@
     },
     {
         "update_type": [
-            "newregion"
+            "newyear",
+            "newregion",
+            "gen3update"
         ],
-        "sv_link": "https://maps.app.goo.gl/hFpNckrUfR3yQvxEA",
-        "report_time": 1729858126,
+        "sv_link": "https://maps.app.goo.gl/bYW4moJ6TYRAQyph7",
+        "report_time": 1729858259,
         "author": "deslagen",
-        "panoid": "AKtuwzghYr4eoo0Stedpzw",
+        "panoid": "CPmGUqCaVlv1jQQJldT_Ig",
         "lat": 42.45385049332594,
         "lng": 26.05236990095515,
         "year": 2024,
@@ -1425,12 +1406,12 @@
     },
     {
         "update_type": [
-            "newtown"
+            "newregion"
         ],
-        "sv_link": "https://maps.app.goo.gl/ZF4vMWL6aEttepQd7?g_st=ac",
-        "report_time": 1729857746,
-        "author": "juliosalg.",
-        "panoid": "mmPvm-ZikD5gBcc7CkFHQg",
+        "sv_link": "https://maps.app.goo.gl/hFpNckrUfR3yQvxEA",
+        "report_time": 1729858126,
+        "author": "deslagen",
+        "panoid": "AKtuwzghYr4eoo0Stedpzw",
         "lat": -11.531292695465185,
         "lng": -54.36938057563016,
         "year": 2024,
@@ -1446,16 +1427,16 @@
         "update_type": [
             "newtown"
         ],
-        "sv_link": "https://maps.app.goo.gl/i7qBYNWtnD6ZxLXQ7?g_st=ac",
-        "report_time": 1729857558,
+        "sv_link": "https://maps.app.goo.gl/ZF4vMWL6aEttepQd7?g_st=ac",
+        "report_time": 1729857746,
         "author": "juliosalg.",
-        "panoid": "S15Zq9S2_DYWdjTov9AvGg",
+        "panoid": "mmPvm-ZikD5gBcc7CkFHQg",
         "lat": -11.252279738992927,
         "lng": -54.200697463207234,
         "year": 2024,
         "month": 9,
         "date": "Sep 2024",
-        "address": "State of Mato Grosso, Brazil",
+        "address": "State of Mato Grosso, BR",
         "country": "BR",
         "elevation": 347.46683,
         "generation": "gen4",
@@ -1463,13 +1444,12 @@
     },
     {
         "update_type": [
-            "newroad",
-            "newstreet"
+            "newtown"
         ],
-        "sv_link": "https://maps.app.goo.gl/LxUfAdVLVaT82yH89?g_st=ac",
-        "report_time": 1729856404,
-        "author": "dobazala21",
-        "panoid": "NxVSgWy-wiRaW0ZtHthcjA",
+        "sv_link": "https://maps.app.goo.gl/i7qBYNWtnD6ZxLXQ7?g_st=ac",
+        "report_time": 1729857558,
+        "author": "juliosalg.",
+        "panoid": "S15Zq9S2_DYWdjTov9AvGg",
         "lat": 46.338421810214875,
         "lng": 19.84649450757088,
         "year": 2024,
@@ -1483,13 +1463,13 @@
     },
     {
         "update_type": [
-            "newregion",
-            "newroad"
+            "newroad",
+            "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/eywrejdEdEKFVVgZ6",
-        "report_time": 1729856052,
-        "author": "deslagen",
-        "panoid": "RZHusIo1_9Qrv-lV2yfW2A",
+        "sv_link": "https://maps.app.goo.gl/LxUfAdVLVaT82yH89?g_st=ac",
+        "report_time": 1729856404,
+        "author": "dobazala21",
+        "panoid": "NxVSgWy-wiRaW0ZtHthcjA",
         "lat": 46.29952877966408,
         "lng": 13.434022772556645,
         "year": 2024,
@@ -1506,10 +1486,10 @@
             "newregion",
             "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/6G8SVQGbkBDsqJC66",
+        "sv_link": "https://maps.app.goo.gl/eywrejdEdEKFVVgZ6",
         "report_time": 1729856052,
         "author": "deslagen",
-        "panoid": "7xjlZoMomUdXY0ePyo2K0g",
+        "panoid": "RZHusIo1_9Qrv-lV2yfW2A",
         "lat": 46.076193238911046,
         "lng": 13.731910907056568,
         "year": 2024,
@@ -1523,12 +1503,13 @@
     },
     {
         "update_type": [
-            "newregion"
+            "newregion",
+            "newroad"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=vGFvEvjpk5bPctQ1QwGR8w",
-        "report_time": 1729855765,
-        "author": "Update Tracker Bot",
-        "panoid": "vGFvEvjpk5bPctQ1QwGR8w",
+        "sv_link": "https://maps.app.goo.gl/6G8SVQGbkBDsqJC66",
+        "report_time": 1729856052,
+        "author": "deslagen",
+        "panoid": "7xjlZoMomUdXY0ePyo2K0g",
         "lat": 59.208143532674036,
         "lng": 14.182914787487782,
         "year": 2024,
@@ -1542,19 +1523,18 @@
     },
     {
         "update_type": [
-            "newregion",
-            "newroad"
+            "newregion"
         ],
-        "sv_link": "https://maps.app.goo.gl/vAkPv7YRjjanRCBB7",
-        "report_time": 1729855498,
-        "author": "deslagen",
-        "panoid": "df3lhNTJ2kGvwbD9-zIHeg",
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=vGFvEvjpk5bPctQ1QwGR8w",
+        "report_time": 1729855765,
+        "author": "Update Tracker Bot",
+        "panoid": "vGFvEvjpk5bPctQ1QwGR8w",
         "lat": 43.532941953217716,
         "lng": -7.606868709483861,
         "year": 2024,
         "month": 10,
         "date": "Oct 2024",
-        "address": "Ourol, Galicia, Spain",
+        "address": "Ourol, Galicia, ES",
         "country": "ES",
         "elevation": 474.25677,
         "generation": "gen4",
@@ -1562,12 +1542,13 @@
     },
     {
         "update_type": [
-            "newregion"
+            "newregion",
+            "newroad"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PmEQslxBgIANefxiaMiH_w",
-        "report_time": 1729849678,
-        "author": "Update Tracker Bot",
-        "panoid": "PmEQslxBgIANefxiaMiH_w",
+        "sv_link": "https://maps.app.goo.gl/vAkPv7YRjjanRCBB7",
+        "report_time": 1729855498,
+        "author": "deslagen",
+        "panoid": "df3lhNTJ2kGvwbD9-zIHeg",
         "lat": 50.08221564175401,
         "lng": 14.430991200328789,
         "year": 2024,
@@ -1581,12 +1562,12 @@
     },
     {
         "update_type": [
-            "newroad"
+            "newregion"
         ],
-        "sv_link": "https://maps.app.goo.gl/Yiqmyks5gwE8Jqjk9",
-        "report_time": 1729843610,
-        "author": "krb10",
-        "panoid": "fDRZjUAkKSYMssA68OZL4Q",
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PmEQslxBgIANefxiaMiH_w",
+        "report_time": 1729849678,
+        "author": "Update Tracker Bot",
+        "panoid": "PmEQslxBgIANefxiaMiH_w",
         "lat": 47.41637373131796,
         "lng": 24.57032007386573,
         "year": 2024,
@@ -1600,12 +1581,12 @@
     },
     {
         "update_type": [
-            "newregion"
+            "newroad"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=JEF0p-bGa59O2KazI8rpCw",
-        "report_time": 1729841335,
-        "author": "Update Tracker Bot",
-        "panoid": "JEF0p-bGa59O2KazI8rpCw",
+        "sv_link": "https://maps.app.goo.gl/Yiqmyks5gwE8Jqjk9",
+        "report_time": 1729843610,
+        "author": "krb10",
+        "panoid": "fDRZjUAkKSYMssA68OZL4Q",
         "lat": 45.89465930264961,
         "lng": 14.186552847199748,
         "year": 2024,
@@ -1621,10 +1602,10 @@
         "update_type": [
             "newregion"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oDHM79IScP1g75JlOjPVVQ",
-        "report_time": 1729835393,
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=JEF0p-bGa59O2KazI8rpCw",
+        "report_time": 1729841335,
         "author": "Update Tracker Bot",
-        "panoid": "oDHM79IScP1g75JlOjPVVQ",
+        "panoid": "JEF0p-bGa59O2KazI8rpCw",
         "lat": 45.657912580045654,
         "lng": 15.500530610136392,
         "year": 2024,
@@ -1640,10 +1621,10 @@
         "update_type": [
             "newregion"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0umkO4C3T5YwYsHlZ2-k0g",
-        "report_time": 1729834213,
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oDHM79IScP1g75JlOjPVVQ",
+        "report_time": 1729835393,
         "author": "Update Tracker Bot",
-        "panoid": "0umkO4C3T5YwYsHlZ2-k0g",
+        "panoid": "oDHM79IScP1g75JlOjPVVQ",
         "lat": 45.94516995127764,
         "lng": 14.285466044578865,
         "year": 2024,
@@ -1659,10 +1640,10 @@
         "update_type": [
             "newregion"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=jSvk_odwSq96pEHMN-I4AQ",
-        "report_time": 1729833896,
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0umkO4C3T5YwYsHlZ2-k0g",
+        "report_time": 1729834213,
         "author": "Update Tracker Bot",
-        "panoid": "jSvk_odwSq96pEHMN-I4AQ",
+        "panoid": "0umkO4C3T5YwYsHlZ2-k0g",
         "lat": 38.75491476663971,
         "lng": -8.658778841951774,
         "year": 2024,
@@ -1676,12 +1657,12 @@
     },
     {
         "update_type": [
-            "newtown"
+            "newregion"
         ],
-        "sv_link": "https://maps.app.goo.gl/yxLJMVgk9uJtVdTn6",
-        "report_time": 1729829639,
-        "author": "angelchise",
-        "panoid": "uefJdTM2mOKfUg7fqsBB2Q",
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=jSvk_odwSq96pEHMN-I4AQ",
+        "report_time": 1729833896,
+        "author": "Update Tracker Bot",
+        "panoid": "jSvk_odwSq96pEHMN-I4AQ",
         "lat": -35.59424063183397,
         "lng": -59.50750606150909,
         "year": 2024,
@@ -1695,12 +1676,12 @@
     },
     {
         "update_type": [
-            "newcountry"
+            "newtown"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=xDrcACgzUxDkivv82pQdBA",
-        "report_time": 1729825933,
-        "author": "Update Tracker Bot",
-        "panoid": "xDrcACgzUxDkivv82pQdBA",
+        "sv_link": "https://maps.app.goo.gl/yxLJMVgk9uJtVdTn6",
+        "report_time": 1729829639,
+        "author": "angelchise",
+        "panoid": "uefJdTM2mOKfUg7fqsBB2Q",
         "lat": 56.56414383358947,
         "lng": 27.36605542258572,
         "year": 2024,
@@ -1714,12 +1695,12 @@
     },
     {
         "update_type": [
-            "newroad"
+            "newcountry"
         ],
-        "sv_link": "https://maps.app.goo.gl/KwwWzoKAKkjKpTf57",
-        "report_time": 1729823652,
-        "author": "jhk314",
-        "panoid": "mapy4Z27N8ITmpti1Iu_kQ",
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=xDrcACgzUxDkivv82pQdBA",
+        "report_time": 1729825933,
+        "author": "Update Tracker Bot",
+        "panoid": "xDrcACgzUxDkivv82pQdBA",
         "lat": 42.09294503248706,
         "lng": -110.36799986039736,
         "year": 2024,
@@ -1733,19 +1714,18 @@
     },
     {
         "update_type": [
-            "newcountry",
-            "gen2update"
+            "newroad"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=m_RLvjiJMNdV5dpa4nWZAg",
-        "report_time": 1729821162,
-        "author": "Update Tracker Bot",
-        "panoid": "m_RLvjiJMNdV5dpa4nWZAg",
+        "sv_link": "https://maps.app.goo.gl/KwwWzoKAKkjKpTf57",
+        "report_time": 1729823652,
+        "author": "jhk314",
+        "panoid": "mapy4Z27N8ITmpti1Iu_kQ",
         "lat": 45.57857579969564,
         "lng": 15.478372791291076,
         "year": 2024,
         "month": 10,
         "date": "Oct 2024",
-        "address": "Slapno, Karlovac County, Croatia",
+        "address": "Slapno, Karlovac County, HR",
         "country": "HR",
         "elevation": 169.77257,
         "generation": "gen4",
@@ -1753,12 +1733,13 @@
     },
     {
         "update_type": [
-            "newroad"
+            "newcountry",
+            "gen2update"
         ],
-        "sv_link": "https://maps.app.goo.gl/kiBDgWfjfCTETDfX9",
-        "report_time": 1729820716,
-        "author": ".jpeters",
-        "panoid": "mxllBMACYrcBUYcXZ2ilxA",
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=m_RLvjiJMNdV5dpa4nWZAg",
+        "report_time": 1729821162,
+        "author": "Update Tracker Bot",
+        "panoid": "m_RLvjiJMNdV5dpa4nWZAg",
         "lat": 47.047355239196634,
         "lng": 12.919059238900264,
         "year": 2024,
@@ -1774,10 +1755,10 @@
         "update_type": [
             "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/4uAmUvZyyjXSohU86",
-        "report_time": 1729820641,
+        "sv_link": "https://maps.app.goo.gl/kiBDgWfjfCTETDfX9",
+        "report_time": 1729820716,
         "author": ".jpeters",
-        "panoid": "3DWWDzB_rQ5gEAnZL1jYFw",
+        "panoid": "mxllBMACYrcBUYcXZ2ilxA",
         "lat": 47.06774019157429,
         "lng": 12.770954613950147,
         "year": 2024,
@@ -1791,12 +1772,12 @@
     },
     {
         "update_type": [
-            "newregion"
+            "newroad"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=cEry7qZIsrite_UvuXptpg",
-        "report_time": 1729819795,
-        "author": "Update Tracker Bot",
-        "panoid": "cEry7qZIsrite_UvuXptpg",
+        "sv_link": "https://maps.app.goo.gl/4uAmUvZyyjXSohU86",
+        "report_time": 1729820641,
+        "author": ".jpeters",
+        "panoid": "3DWWDzB_rQ5gEAnZL1jYFw",
         "lat": 38.796554066666985,
         "lng": -8.376767318857029,
         "year": 2024,
@@ -1810,12 +1791,12 @@
     },
     {
         "update_type": [
-            "newcountry"
+            "newregion"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Gtk7LPUJl9PKem8mjD_I2w",
-        "report_time": 1729819696,
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=cEry7qZIsrite_UvuXptpg",
+        "report_time": 1729819795,
         "author": "Update Tracker Bot",
-        "panoid": "Gtk7LPUJl9PKem8mjD_I2w",
+        "panoid": "cEry7qZIsrite_UvuXptpg",
         "lat": 38.90336115345666,
         "lng": -8.4981680385706,
         "year": 2024,
@@ -1829,13 +1810,12 @@
     },
     {
         "update_type": [
-            "newregion",
-            "newroad"
+            "newcountry"
         ],
-        "sv_link": "https://maps.app.goo.gl/emYZPaSpr67iYQKe7",
-        "report_time": 1729811784,
-        "author": "unhook.",
-        "panoid": "-e9C9E5ySdTTKnBmZF1mQw",
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Gtk7LPUJl9PKem8mjD_I2w",
+        "report_time": 1729819696,
+        "author": "Update Tracker Bot",
+        "panoid": "Gtk7LPUJl9PKem8mjD_I2w",
         "lat": 37.300183644633655,
         "lng": 30.47131646061775,
         "year": 2024,
@@ -1849,12 +1829,13 @@
     },
     {
         "update_type": [
-            "newstreet"
+            "newregion",
+            "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/STtJFttkao7iLZ6u6",
-        "report_time": 1729809557,
-        "author": "meltinglce",
-        "panoid": "WDOLyFA68qF0vfbOg3tqug",
+        "sv_link": "https://maps.app.goo.gl/emYZPaSpr67iYQKe7",
+        "report_time": 1729811784,
+        "author": "unhook.",
+        "panoid": "-e9C9E5ySdTTKnBmZF1mQw",
         "lat": -37.16427270142707,
         "lng": -58.50642812276731,
         "year": 2024,
@@ -1868,14 +1849,13 @@
     },
     {
         "update_type": [
-            "newarea",
-            "newroad"
+            "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/NYSVEruf2YeGtGnv5",
-        "report_time": 1729809280,
-        "author": "clmpk",
-        "panoid": "N39K-XvUKEyoYfb5Er8j_A",
-         "lat": -29.658890858404135,
+        "sv_link": "https://maps.app.goo.gl/STtJFttkao7iLZ6u6",
+        "report_time": 1729809557,
+        "author": "meltinglce",
+        "panoid": "WDOLyFA68qF0vfbOg3tqug",
+        "lat": -29.658890858404135,
         "lng": -58.425390966697606,
         "year": 2024,
         "month": 9,
@@ -1888,13 +1868,14 @@
     },
     {
         "update_type": [
+            "newarea",
             "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/6g5CL7hw1AHLu9fm9",
-        "report_time": 1729801694,
-        "author": "darkshadowmhermc",
-        "panoid": "1yR5ySB9X3pSExSO6quG-Q",
-       "lat": 45.71232232854011,
+        "sv_link": "https://maps.app.goo.gl/NYSVEruf2YeGtGnv5",
+        "report_time": 1729809280,
+        "author": "clmpk",
+        "panoid": "N39K-XvUKEyoYfb5Er8j_A",
+        "lat": 45.71232232854011,
         "lng": 4.45632924557789,
         "year": 2024,
         "month": 10,
@@ -1909,10 +1890,10 @@
         "update_type": [
             "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/pKJKad9tzmpmeGkE9",
+        "sv_link": "https://maps.app.goo.gl/6g5CL7hw1AHLu9fm9",
         "report_time": 1729801694,
         "author": "darkshadowmhermc",
-        "panoid": "BGk4rMJ02WTXdOei-1G4kQ",
+        "panoid": "1yR5ySB9X3pSExSO6quG-Q",
         "lat": 46.735071080613466,
         "lng": 6.173921472869889,
         "year": 2024,
@@ -1926,12 +1907,12 @@
     },
     {
         "update_type": [
-            "gen2update"
+            "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/3uToWLZUT9Wu8Y7LA",
-        "report_time": 1729796553,
-        "author": "diamondarmorsteve",
-        "panoid": "EnWRj4WclwD5dX2OHiWmqg",
+        "sv_link": "https://maps.app.goo.gl/pKJKad9tzmpmeGkE9",
+        "report_time": 1729801694,
+        "author": "darkshadowmhermc",
+        "panoid": "BGk4rMJ02WTXdOei-1G4kQ",
         "lat": 39.68286931704852,
         "lng": -120.98428037830571,
         "year": 2024,
@@ -1945,12 +1926,12 @@
     },
     {
         "update_type": [
-            "newroad"
+            "gen2update"
         ],
-        "sv_link": "https://maps.app.goo.gl/1H3eiYJVDd7Ne6847",
+        "sv_link": "https://maps.app.goo.gl/3uToWLZUT9Wu8Y7LA",
         "report_time": 1729796553,
         "author": "diamondarmorsteve",
-        "panoid": "o3pw_rjxV8sZ5zcf64HLVw",
+        "panoid": "EnWRj4WclwD5dX2OHiWmqg",
         "lat": 39.37005059010043,
         "lng": -120.67604957418108,
         "year": 2024,
@@ -1964,13 +1945,12 @@
     },
     {
         "update_type": [
-            "gen2update",
-            "ariupdate"
+            "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/vfK4W6aLHUsFpCtu9",
+        "sv_link": "https://maps.app.goo.gl/1H3eiYJVDd7Ne6847",
         "report_time": 1729796553,
         "author": "diamondarmorsteve",
-        "panoid": "jYbGt6yvgJ04F8J4lN5VTA",
+        "panoid": "o3pw_rjxV8sZ5zcf64HLVw",
         "lat": 40.13969526086496,
         "lng": -120.9508846005607,
         "year": 2024,
@@ -1984,14 +1964,13 @@
     },
     {
         "update_type": [
-            "townsfirstnongen1L",
-            "townsfirstnongen1R",
-            "newstreet"
+            "gen2update",
+            "ariupdate"
         ],
-        "sv_link": "https://maps.app.goo.gl/deE3XdENNQNRR3Le9",
-        "report_time": 1729794522,
+        "sv_link": "https://maps.app.goo.gl/vfK4W6aLHUsFpCtu9",
+        "report_time": 1729796553,
         "author": "diamondarmorsteve",
-        "panoid": "9YKPp3rRui9QBM0x-ruRtw",
+        "panoid": "jYbGt6yvgJ04F8J4lN5VTA",
         "lat": 42.99577466671434,
         "lng": -98.42186296402323,
         "year": 2024,
@@ -2005,12 +1984,14 @@
     },
     {
         "update_type": [
+            "townsfirstnongen1L",
+            "townsfirstnongen1R",
             "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/HN5W1mxQKEHPtdiD7",
+        "sv_link": "https://maps.app.goo.gl/deE3XdENNQNRR3Le9",
         "report_time": 1729794522,
         "author": "diamondarmorsteve",
-        "panoid": "5rc8Pd4MZQdN1Bvxssp1Zw",
+        "panoid": "9YKPp3rRui9QBM0x-ruRtw",
         "lat": 42.85209268646394,
         "lng": -97.89312299695584,
         "year": 2024,
@@ -2026,10 +2007,10 @@
         "update_type": [
             "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/N3H5uVqD1mAq3Tnp8",
+        "sv_link": "https://maps.app.goo.gl/HN5W1mxQKEHPtdiD7",
         "report_time": 1729794522,
         "author": "diamondarmorsteve",
-        "panoid": "v-8HzZG6q1GfrS3bkf-WEw",
+        "panoid": "5rc8Pd4MZQdN1Bvxssp1Zw",
         "lat": 43.00750969768477,
         "lng": -98.06109001994064,
         "year": 2024,
@@ -2045,10 +2026,10 @@
         "update_type": [
             "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/jZ4tGAsxN3UmwLDf8",
+        "sv_link": "https://maps.app.goo.gl/N3H5uVqD1mAq3Tnp8",
         "report_time": 1729794522,
         "author": "diamondarmorsteve",
-        "panoid": "Oe4lFLZKlNqvFYVUxlFfEA",
+        "panoid": "v-8HzZG6q1GfrS3bkf-WEw",
         "lat": 43.07955729772137,
         "lng": -98.29350726304662,
         "year": 2024,
@@ -2062,14 +2043,12 @@
     },
     {
         "update_type": [
-            "townsfirstnongen1L",
-            "townsfirstnongen1R",
             "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/7ZbTxpH8zUNgTwYZ8",
+        "sv_link": "https://maps.app.goo.gl/jZ4tGAsxN3UmwLDf8",
         "report_time": 1729794522,
         "author": "diamondarmorsteve",
-        "panoid": "aiVU9j-TXy61q8nb6-mk_g",
+        "panoid": "Oe4lFLZKlNqvFYVUxlFfEA",
         "lat": 43.06733202204275,
         "lng": -98.53199949610789,
         "year": 2024,
@@ -2087,10 +2066,10 @@
             "townsfirstnongen1R",
             "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/Sr1VGFZ4mU9WS2vV6",
+        "sv_link": "https://maps.app.goo.gl/7ZbTxpH8zUNgTwYZ8",
         "report_time": 1729794522,
         "author": "diamondarmorsteve",
-        "panoid": "HBF650yzA1x9isXLCcnoyg",
+        "panoid": "aiVU9j-TXy61q8nb6-mk_g",
         "lat": 43.15621965134697,
         "lng": -98.5408354406798,
         "year": 2024,
@@ -2104,12 +2083,14 @@
     },
     {
         "update_type": [
-            "newroad"
+            "townsfirstnongen1L",
+            "townsfirstnongen1R",
+            "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/XvTgGVSv6ap8HXJw9",
+        "sv_link": "https://maps.app.goo.gl/Sr1VGFZ4mU9WS2vV6",
         "report_time": 1729794522,
         "author": "diamondarmorsteve",
-        "panoid": "C_EIzcm_iP-BxjJQlzXujw",
+        "panoid": "HBF650yzA1x9isXLCcnoyg",
         "lat": 43.16946614966321,
         "lng": -98.45763239530152,
         "year": 2024,
@@ -2123,12 +2104,13 @@
     },
     {
         "update_type": [
-            "newroad"
+            "newroad",
+            "Pegasm"
         ],
-        "sv_link": "https://maps.app.goo.gl/B6B4MNTznwtS2y1u8",
-        "report_time": 1729793458,
+        "sv_link": "https://maps.app.goo.gl/XvTgGVSv6ap8HXJw9",
+        "report_time": 1729794522,
         "author": "diamondarmorsteve",
-        "panoid": "oRkCROv4Z6GzjABCBMTIRA",
+        "panoid": "C_EIzcm_iP-BxjJQlzXujw",
         "lat": 43.68413727452855,
         "lng": -72.61953665949599,
         "year": 2024,
@@ -2142,12 +2124,12 @@
     },
     {
         "update_type": [
-            "gen1update"
+            "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/HHK4jkJxuCvuizAR8",
-        "report_time": 1729793384,
+        "sv_link": "https://maps.app.goo.gl/B6B4MNTznwtS2y1u8",
+        "report_time": 1729793458,
         "author": "diamondarmorsteve",
-        "panoid": "YEXYGLOUIxq0u4EDpdOcXA",
+        "panoid": "oRkCROv4Z6GzjABCBMTIRA",
         "lat": 40.638139481210686,
         "lng": -74.83286777349892,
         "year": 2024,
@@ -2161,12 +2143,12 @@
     },
     {
         "update_type": [
-            "gen3update"
+            "gen1update"
         ],
-        "sv_link": "https://maps.app.goo.gl/KGwjsoWUtZkWYJ6i8",
-        "report_time": 1729793257,
+        "sv_link": "https://maps.app.goo.gl/HHK4jkJxuCvuizAR8",
+        "report_time": 1729793384,
         "author": "diamondarmorsteve",
-        "panoid": "KkYESlvF-rLY9CfAilCo-g",
+        "panoid": "YEXYGLOUIxq0u4EDpdOcXA",
         "lat": 36.50536392750812,
         "lng": -89.19932015603543,
         "year": 2024,
@@ -2180,14 +2162,12 @@
     },
     {
         "update_type": [
-            "gen1update",
-            "townsfirstnongen1L",
-            "townsfirstnongen1R"
+            "gen3update"
         ],
-        "sv_link": "https://maps.app.goo.gl/3z6D8nBQkC9MmrJTA",
-        "report_time": 1729793109,
+        "sv_link": "https://maps.app.goo.gl/KGwjsoWUtZkWYJ6i8",
+        "report_time": 1729793257,
         "author": "diamondarmorsteve",
-        "panoid": "Fiziuffuo0raxE1q4lskzg",
+        "panoid": "KkYESlvF-rLY9CfAilCo-g",
         "lat": 38.059627511821056,
         "lng": -86.42925762505567,
         "year": 2024,
@@ -2201,12 +2181,14 @@
     },
     {
         "update_type": [
-            "gen1update"
+            "gen1update",
+            "townsfirstnongen1L",
+            "townsfirstnongen1R"
         ],
-        "sv_link": "https://maps.app.goo.gl/qdvagkqMZCLiaXT8A",
+        "sv_link": "https://maps.app.goo.gl/3z6D8nBQkC9MmrJTA",
         "report_time": 1729793109,
         "author": "diamondarmorsteve",
-        "panoid": "dhAUGecFVCMUNJFjeoZeGw",
+        "panoid": "Fiziuffuo0raxE1q4lskzg",
         "lat": 38.11288314769246,
         "lng": -86.45354576238232,
         "year": 2024,
@@ -2220,13 +2202,13 @@
     },
     {
         "update_type": [
-            "newroad"
+            "gen1update"
         ],
-        "sv_link": "https://maps.app.goo.gl/7uLbhKnUeAEM6BWR7",
+        "sv_link": "https://maps.app.goo.gl/qdvagkqMZCLiaXT8A",
         "report_time": 1729793109,
         "author": "diamondarmorsteve",
-        "panoid": "LQkGp_hatx1otIPhBarn-g",
-         "lat": 37.810059521990894,
+        "panoid": "dhAUGecFVCMUNJFjeoZeGw",
+        "lat": 37.810059521990894,
         "lng": -86.29266861119883,
         "year": 2024,
         "month": 9,
@@ -2241,10 +2223,10 @@
         "update_type": [
             "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/yJrxgj8QrxEnMzoa9",
-        "report_time": 1729792894,
-        "author": "unhook.",
-        "panoid": "tMegF-VldCwtJ_Imoy05_g",
+        "sv_link": "https://maps.app.goo.gl/7uLbhKnUeAEM6BWR7",
+        "report_time": 1729793109,
+        "author": "diamondarmorsteve",
+        "panoid": "LQkGp_hatx1otIPhBarn-g",
         "lat": 35.839617768845265,
         "lng": 36.14969923089202,
         "year": 2024,
@@ -2260,10 +2242,10 @@
         "update_type": [
             "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/49ZH8oZc7Nibb64M7",
-        "report_time": 1729792439,
-        "author": "diamondarmorsteve",
-        "panoid": "xEu7H1kMrlFBSQBGRZEbmQ",
+        "sv_link": "https://maps.app.goo.gl/yJrxgj8QrxEnMzoa9",
+        "report_time": 1729792894,
+        "author": "unhook.",
+        "panoid": "tMegF-VldCwtJ_Imoy05_g",
         "lat": 35.97971440116951,
         "lng": -100.54204518379444,
         "year": 2024,
@@ -2277,12 +2259,12 @@
     },
     {
         "update_type": [
-            "gen3update"
+            "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/XVmtVZpwD6iKZnxv5",
+        "sv_link": "https://maps.app.goo.gl/49ZH8oZc7Nibb64M7",
         "report_time": 1729792439,
         "author": "diamondarmorsteve",
-        "panoid": "1BIgpOaupi-eECLAO6X6aQ",
+        "panoid": "xEu7H1kMrlFBSQBGRZEbmQ",
         "lat": 36.221491298090584,
         "lng": -100.64862036182394,
         "year": 2024,
@@ -2296,18 +2278,18 @@
     },
     {
         "update_type": [
-            "newstreet"
+            "gen3update"
         ],
-        "sv_link": "https://maps.app.goo.gl/9A4TizAZnnzGf6iA6",
+        "sv_link": "https://maps.app.goo.gl/XVmtVZpwD6iKZnxv5",
         "report_time": 1729792439,
         "author": "diamondarmorsteve",
-        "panoid": "4Y_RP9tXQnMyQzK647YHfg",
+        "panoid": "1BIgpOaupi-eECLAO6X6aQ",
         "lat": 36.008924804502826,
         "lng": -100.26562737995489,
         "year": 2024,
         "month": 9,
         "date": "Sep 2024",
-        "address": "Glazier, Canadian, Texas, US",
+        "address": "Canadian, Texas, US",
         "country": "US",
         "elevation": 796.28345,
         "generation": "gen4",
@@ -2315,12 +2297,12 @@
     },
     {
         "update_type": [
-            "newroad"
+            "newstreet"
         ],
-        "sv_link": "https://maps.app.goo.gl/dhA3gGSwbPBXc3KS8",
-        "report_time": 1729792240,
+        "sv_link": "https://maps.app.goo.gl/9A4TizAZnnzGf6iA6",
+        "report_time": 1729792439,
         "author": "diamondarmorsteve",
-        "panoid": "Qd1s7Pox-2sCtl117N5IvQ",
+        "panoid": "4Y_RP9tXQnMyQzK647YHfg",
         "lat": 36.11318225332815,
         "lng": -98.61413357313428,
         "year": 2024,
@@ -2334,12 +2316,12 @@
     },
     {
         "update_type": [
-            "gen3update"
+            "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/Wtchy5UeHTYj9Zwo9",
+        "sv_link": "https://maps.app.goo.gl/dhA3gGSwbPBXc3KS8",
         "report_time": 1729792240,
         "author": "diamondarmorsteve",
-        "panoid": "qezVzlMSOAeARRNrWrNQuw",
+        "panoid": "Qd1s7Pox-2sCtl117N5IvQ",
         "lat": 36.1494815864223,
         "lng": -98.92714046134596,
         "year": 2024,
@@ -2353,12 +2335,12 @@
     },
     {
         "update_type": [
-            "newroad"
+            "gen3update"
         ],
-        "sv_link": "https://maps.app.goo.gl/EcqeXBiyJYswZ7mM9",
-        "report_time": 1729791222,
-        "author": "gabbystartenjoyer",
-        "panoid": "EfgnbP6KrZ1DXzWdSSCK0g",
+        "sv_link": "https://maps.app.goo.gl/Wtchy5UeHTYj9Zwo9",
+        "report_time": 1729792240,
+        "author": "diamondarmorsteve",
+        "panoid": "qezVzlMSOAeARRNrWrNQuw",
         "lat": 41.3982400337227,
         "lng": -72.39070185210981,
         "year": 2024,
@@ -2372,13 +2354,12 @@
     },
     {
         "update_type": [
-            "newyear",
-            "newregion"
+            "newroad"
         ],
-        "sv_link": "https://maps.app.goo.gl/ckkq1Bzs4y9i2Njz5",
-        "report_time": 1729790028,
-        "author": "adwsteve",
-        "panoid": "RkLxoiFMtBoD4X0Ub3hyDA",
+        "sv_link": "https://maps.app.goo.gl/EcqeXBiyJYswZ7mM9",
+        "report_time": 1729791222,
+        "author": "gabbystartenjoyer",
+        "panoid": "EfgnbP6KrZ1DXzWdSSCK0g",
         "lat": 41.497551202753186,
         "lng": 26.62108861895343,
         "year": 2024,
@@ -2392,20 +2373,40 @@
     },
     {
         "update_type": [
+            "newyear",
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ckkq1Bzs4y9i2Njz5",
+        "report_time": 1729790028,
+        "author": "adwsteve",
+        "panoid": "RkLxoiFMtBoD4X0Ub3hyDA",
+        "lat": 50.71193388806571,
+        "lng": -4.0309354788137375,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "England, GB",
+        "country": "GB",
+        "elevation": 257.28647,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
             "gen2update"
         ],
         "sv_link": "https://maps.app.goo.gl/BN1gEZsyRBUpZgQU7",
         "report_time": 1729783303,
         "author": "deslagen",
         "panoid": "uNlT0UBHwi-ZhBRw6YF9UQ",
-        "lat": 50.71193388806571,
-        "lng": -4.0309354788137375,
+        "lat": 54.61012744906729,
+        "lng": -2.8081091432329948,
         "year": 2024,
-        "month": 9,
-        "date": "Sep 2024",
-        "address": "Dartmoor National Park, England, United Kingdom",
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "England, GB",
         "country": "GB",
-        "elevation": 257.28647,
+        "elevation": 197.51773,
         "generation": "gen4",
         "provider": "sv_car"
     },
@@ -2417,25 +2418,6 @@
         "report_time": 1729782822,
         "author": "deslagen",
         "panoid": "UIR3MgLl_1k_whHvsXUaDQ",
-        "lat": 54.61012744906729,
-        "lng": -2.8081091432329948,
-        "year": 2024,
-        "month": 10,
-        "date": "Oct 2024",
-        "address": "HIllcroft Park, England, United Kingdom",
-        "country": "GB",
-        "elevation": 197.51773,
-        "generation": "gen4",
-        "provider": "sv_car"
-    },
-    {
-        "update_type": [
-            "newregion"
-        ],
-        "sv_link": "https://maps.app.goo.gl/ByEfUSNXtPhprfXm9",
-        "report_time": 1729776899,
-        "author": "deslagen",
-        "panoid": "2gvNO7PmUaU68bUmgxBCWg",
         "lat": 46.00219968740103,
         "lng": 13.576314166798001,
         "year": 2024,
@@ -2451,10 +2433,10 @@
         "update_type": [
             "newregion"
         ],
-        "sv_link": "https://maps.app.goo.gl/hHjSM6WaRyraXQnG9",
+        "sv_link": "https://maps.app.goo.gl/ByEfUSNXtPhprfXm9",
         "report_time": 1729776899,
         "author": "deslagen",
-        "panoid": "23g4Pevws_wijtA5kjceBA",
+        "panoid": "2gvNO7PmUaU68bUmgxBCWg",
         "lat": 46.11023227989885,
         "lng": 14.471720725917347,
         "year": 2024,
@@ -2464,16 +2446,16 @@
         "country": "SI",
         "elevation": 301.40677,
         "generation": "gen4",
-        "provider": "sv_car",
+        "provider": "sv_car"
     },
     {
         "update_type": [
             "newregion"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wz2kOIf9R48Ud7Fe9aGTzg",
-        "report_time": 1729773784,
-        "author": "Update Tracker Bot",
-        "panoid": "wz2kOIf9R48Ud7Fe9aGTzg",
+        "sv_link": "https://maps.app.goo.gl/hHjSM6WaRyraXQnG9",
+        "report_time": 1729776899,
+        "author": "deslagen",
+        "panoid": "23g4Pevws_wijtA5kjceBA",
         "lat": 46.2330743941673,
         "lng": 14.43282575443219,
         "year": 2024,
@@ -2489,18 +2471,37 @@
         "update_type": [
             "newregion"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ptX-szWL3KNiOxjze4Qg7w",
-        "report_time": 1729773767,
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wz2kOIf9R48Ud7Fe9aGTzg",
+        "report_time": 1729773784,
         "author": "Update Tracker Bot",
-        "panoid": "ptX-szWL3KNiOxjze4Qg7w",
-        "lat": 45.939784,
-        "lng": 14.032713,
+        "panoid": "wz2kOIf9R48Ud7Fe9aGTzg",
+        "lat": 45.939783976830945,
+        "lng": 14.032713289510294,
         "year": 2024,
         "month": 10,
         "date": "Oct 2024",
         "address": "27 \u010crni Vrh, \u010crni Vrh, Idrija",
         "country": "SI",
         "elevation": 720.07214,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ptX-szWL3KNiOxjze4Qg7w",
+        "report_time": 1729773767,
+        "author": "Update Tracker Bot",
+        "panoid": "ptX-szWL3KNiOxjze4Qg7w",
+        "lat": 33.46721262287178,
+        "lng": 129.7543714283629,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Matsuura, Nagasaki, JP",
+        "country": "JP",
+        "elevation": 43.625935,
         "generation": "gen4",
         "provider": "sv_car"
     },
@@ -2513,16 +2514,6 @@
         "report_time": 1729773626,
         "author": "clmpk",
         "panoid": "ah85vXogJ2la_TZUGU4Flg",
-
-    },
-    {
-        "update_type": [
-            "newregion"
-        ],
-        "sv_link": "https://maps.app.goo.gl/LqbbmC4YQkFDKr489",
-        "report_time": 1729773626,
-        "author": "clmpk",
-        "panoid": "ojxCcjlNCWeK4Me93J8Fqw",
         "lat": 33.434243970132734,
         "lng": 129.78225595127384,
         "year": 2024,
@@ -2532,16 +2523,16 @@
         "country": "JP",
         "elevation": 24.428825,
         "generation": "gen4",
-        "provider": "sv_car",
+        "provider": "sv_car"
     },
     {
         "update_type": [
             "newregion"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=F_Y_6n1a576qjxPoNabGbA",
-        "report_time": 1729768817,
-        "author": "Update Tracker Bot",
-        "panoid": "F_Y_6n1a576qjxPoNabGbA",
+        "sv_link": "https://maps.app.goo.gl/LqbbmC4YQkFDKr489",
+        "report_time": 1729773626,
+        "author": "clmpk",
+        "panoid": "ojxCcjlNCWeK4Me93J8Fqw",
         "lat": 36.245789002774565,
         "lng": 139.52954721160842,
         "year": 2024,
@@ -2555,12 +2546,12 @@
     },
     {
         "update_type": [
-            "gen3update"
+            "newregion"
         ],
-        "sv_link": "https://maps.app.goo.gl/jiLn7gxrUSC2599T6",
-        "report_time": 1729764934,
-        "author": "._salad",
-        "panoid": "1HC35It41KyyVu7HhrPwdA",
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=F_Y_6n1a576qjxPoNabGbA",
+        "report_time": 1729768817,
+        "author": "Update Tracker Bot",
+        "panoid": "F_Y_6n1a576qjxPoNabGbA",
         "lat": 22.833807861814552,
         "lng": 89.53755777230441,
         "year": 2024,
@@ -2574,12 +2565,12 @@
     },
     {
         "update_type": [
-            "newroad"
+            "gen3update"
         ],
-        "sv_link": "https://maps.app.goo.gl/HqCFyXnfHvVx97tw5",
-        "report_time": 1729762189,
+        "sv_link": "https://maps.app.goo.gl/jiLn7gxrUSC2599T6",
+        "report_time": 1729764934,
         "author": "._salad",
-        "panoid": "UN0dDmkuLkwyfjsChQ58Cg",
+        "panoid": "1HC35It41KyyVu7HhrPwdA",
         "lat": 22.483830417431363,
         "lng": 89.5201791468053,
         "year": 2024,
@@ -2593,12 +2584,12 @@
     },
     {
         "update_type": [
-            "newcountry"
+            "newroad"
         ],
-        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=EnJP7zsM6Fo6h2J9ToBioQ",
-        "report_time": 1729747341,
-        "author": "Update Tracker Bot",
-        "panoid": "EnJP7zsM6Fo6h2J9ToBioQ",
+        "sv_link": "https://maps.app.goo.gl/HqCFyXnfHvVx97tw5",
+        "report_time": 1729762189,
+        "author": "._salad",
+        "panoid": "UN0dDmkuLkwyfjsChQ58Cg",
         "lat": 53.45980835231992,
         "lng": -6.268391704388497,
         "year": 2024,
@@ -2612,12 +2603,12 @@
     },
     {
         "update_type": [
-            "newtown"
+            "newcountry"
         ],
-        "sv_link": "https://maps.app.goo.gl/pfmoi5nevs332i6bA",
-        "report_time": 1729740506,
-        "author": "angelchise",
-        "panoid": "1vxVms70MHE9ypLORpDEHg",
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=EnJP7zsM6Fo6h2J9ToBioQ",
+        "report_time": 1729747341,
+        "author": "Update Tracker Bot",
+        "panoid": "EnJP7zsM6Fo6h2J9ToBioQ",
         "lat": -35.50840672553195,
         "lng": -59.51346293892801,
         "year": 2024,
@@ -2626,6 +2617,25 @@
         "address": "Av. Sarmiento, Del Carril, Buenos Aires Province",
         "country": "AR",
         "elevation": 40.02846,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/pfmoi5nevs332i6bA",
+        "report_time": 1729740506,
+        "author": "angelchise",
+        "panoid": "1vxVms70MHE9ypLORpDEHg",
+        "lat": 36.13555376038674,
+        "lng": 140.27279897027447,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Ishioka, Ibaraki, JP",
+        "country": "JP",
+        "elevation": 25.952625,
         "generation": "gen4",
         "provider": "sv_car"
     },
