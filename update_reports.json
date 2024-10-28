@@ -7628,5 +7628,425 @@
         "elevation": 1246.1776,
         "generation": "gen4",
         "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/cQcHjRWvjVg8h5rm8",
+        "report_time": 1730042373,
+        "author": "krb10",
+        "panoid": "L4BocbZCNEdPrswwLwq-ow",
+        "lat": 45.187152560552256,
+        "lng": 24.088121281966917,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "DJ646A, V\u00e2lcea County",
+        "country": "RO",
+        "elevation": 670.5081,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ep6kRfHJpTgD46RBA",
+        "report_time": 1730044558,
+        "author": "holland238",
+        "panoid": "fcaWBnT1k2NrRGo2US5Vlw",
+        "lat": 43.23251855634958,
+        "lng": -74.11801239335367,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "114 Airport Rd, Northville, New York",
+        "country": "US",
+        "elevation": 323.98828,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/DYNgvk2Y2d1RjQ1n7",
+        "report_time": 1730045690,
+        "author": "deslagen",
+        "panoid": "ZLJaPxjK1AG5DbCO_Gv0jQ",
+        "lat": 47.39996192648362,
+        "lng": 18.978132249724773,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "M0, Budapest",
+        "country": "HU",
+        "elevation": 105.52566,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/jWWt3BAFbA2UBkXH6",
+        "report_time": 1730045539,
+        "author": "deslagen",
+        "panoid": "aq7-Zbw7LG84IKTrqNaxug",
+        "lat": 36.48321246459871,
+        "lng": -4.991739269433352,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "3 C. Sp Tolox, San Pedro de Alc\u00e1ntara, Andalusia",
+        "country": "ES",
+        "elevation": 33.635654,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nTyPef6S9txfafvF9",
+        "report_time": 1730045486,
+        "author": "deslagen",
+        "panoid": "qg_tl0o9eLHWzSXdlQ9Vgg",
+        "lat": 56.511323350209416,
+        "lng": 26.481571036304075,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "J\u0113kabpils Municipality, LV",
+        "country": "LV",
+        "elevation": 103.818306,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/3pFQ9d7j4VXJWAi19",
+        "report_time": 1730045486,
+        "author": "deslagen",
+        "panoid": "38rvxF7IquAH-ht0lkPOow",
+        "lat": 56.51979008237396,
+        "lng": 26.364186382872738,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "J\u0113kabpils Municipality, LV",
+        "country": "LV",
+        "elevation": 103.46084,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fa7Du57PMNVEgf8X7",
+        "report_time": 1730044905,
+        "author": "deslagen",
+        "panoid": "pVwaWoLo3Z0c3sUGvtcupw",
+        "lat": 48.774209132378616,
+        "lng": 14.816540547394926,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Pyhrabruck, Pyhrabruck, Lower Austria",
+        "country": "AT",
+        "elevation": 528.25665,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/TBjKKV8oCPB7dkg89",
+        "report_time": 1730044804,
+        "author": "deslagen",
+        "panoid": "uyhAIWWSeXqht3QDS7gskw",
+        "lat": 42.73502374996143,
+        "lng": 10.15275488228559,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "8690 Strada Provinciale 25, Fetovaia, Tuscany",
+        "country": "IT",
+        "elevation": 34.779163,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/UW9hf7KHdzYRnzLs7",
+        "report_time": 1730044804,
+        "author": "deslagen",
+        "panoid": "cUNl76NK4UuW3CBfCr_9rQ",
+        "lat": 42.804589655016656,
+        "lng": 10.163021319498418,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "25 Via di Maciarello, Tuscany",
+        "country": "IT",
+        "elevation": 112.55529,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nZVMZqvTib9NePvcA",
+        "report_time": 1730044804,
+        "author": "deslagen",
+        "panoid": "LFpqWsYNG08BwAo1QwPL6g",
+        "lat": 42.77138813413092,
+        "lng": 10.38913910657448,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "2 Via Cariglio, Tuscany",
+        "country": "IT",
+        "elevation": 23.929707,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/1bD2hkQQqW2remyg7",
+        "report_time": 1730044804,
+        "author": "deslagen",
+        "panoid": "e7C_NckFMmRYKiTAht_t1g",
+        "lat": 42.778685002988496,
+        "lng": 10.224424943350988,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Tuscany, IT",
+        "country": "IT",
+        "elevation": 174.7506,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/p3WmkPzeG65dFAUP8",
+        "report_time": 1730044804,
+        "author": "deslagen",
+        "panoid": "jrvxZg_-zjB0ZJLtbyPJlw",
+        "lat": 42.77375752638938,
+        "lng": 10.254754958788633,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Tuscany, IT",
+        "country": "IT",
+        "elevation": 47.7934,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newstreet"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RhfnyoMDej6BAzXz6",
+        "report_time": 1730044558,
+        "author": "holland238",
+        "panoid": "b2s3CLGqqy40za5g6F0LTQ",
+        "lat": 43.22472702231632,
+        "lng": -74.17410006267929,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "111 S 2nd St, Northville, New York",
+        "country": "US",
+        "elevation": 245.5582,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/xPNT5aixDVBCTmrDA",
+        "report_time": 1730044558,
+        "author": "holland238",
+        "panoid": "VpeYy1FgaM6vcWk6ucjdjA",
+        "lat": 42.833629588369206,
+        "lng": -74.54622243094413,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "678 Mapletown Rd, Canajoharie, New York",
+        "country": "US",
+        "elevation": 300.63052,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6r7ReAUowF9xggAx7",
+        "report_time": 1730044558,
+        "author": "holland238",
+        "panoid": "pjvomkWthct8HeTxiKLKUA",
+        "lat": 42.83212798499036,
+        "lng": -74.5412295786603,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "114 Co Hwy 92, Canajoharie, New York",
+        "country": "US",
+        "elevation": 302.1765,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fdEVGDYpXWGUhSRo6",
+        "report_time": 1730051003,
+        "author": "ddrrww",
+        "panoid": "cgHypcEFif3seA7DhkFEFQ",
+        "lat": 45.69315488247048,
+        "lng": -84.91448782453911,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "36 E Gill Rd, Levering, Michigan",
+        "country": "US",
+        "elevation": 269.36237,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/s39zKF2yyMpajY2EA",
+        "report_time": 1730050685,
+        "author": "deslagen",
+        "panoid": "nr3X2HkS1tRxap6SL5vZLQ",
+        "lat": 53.128033754606605,
+        "lng": 5.786385885134648,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "6 Noardein, Wijtgaard, Friesland",
+        "country": "NL",
+        "elevation": 1.14488,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/L7z6sBkxNnN3Mmvm6",
+        "report_time": 1730050685,
+        "author": "deslagen",
+        "panoid": "o1NNgCfx5LIhzwfwo-8c6w",
+        "lat": 53.14761102787734,
+        "lng": 6.897009464747075,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "N33, Muntendam, Groningen",
+        "country": "NL",
+        "elevation": 1.3749126,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ahyyxqAfBkhz36AC6",
+        "report_time": 1730050685,
+        "author": "deslagen",
+        "panoid": "ZcHqt1E2z0t-QBYoriJLrQ",
+        "lat": 52.973834902727106,
+        "lng": 6.554979000014533,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "2 Graswijk, Assen, Drenthe",
+        "country": "NL",
+        "elevation": 12.956465,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/k6MPgw8777sqgB5g7",
+        "report_time": 1730061798,
+        "author": "deslagen",
+        "panoid": "01425Hap708RJGx4nMbd0g",
+        "lat": 42.535383385684696,
+        "lng": 26.410900738471614,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "A1, Jambol",
+        "country": "BG",
+        "elevation": 154.33432,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=dBf-Q-uDiW3GzLXqZ0-swQ",
+        "report_time": 1730064043,
+        "author": "Update Tracker Bot",
+        "panoid": "dBf-Q-uDiW3GzLXqZ0-swQ",
+        "lat": 36.367598071277655,
+        "lng": 139.70518647412192,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "\u770c\u9053269\u53f7, Tochigi",
+        "country": "JP",
+        "elevation": 56.9014,
+        "generation": "gen4",
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen1update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/CTSjFNzGu3bTQ7gt8",
+        "report_time": 1730071253,
+        "author": "pencilvulture",
+        "panoid": "VTCShxzf7FJgSIV46bn7CQ",
+        "lat": 46.28915722833612,
+        "lng": -122.27241742120692,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "21000 Spirit Lake Hwy, Toutle, Washington",
+        "country": "US",
+        "elevation": 783.3931,
+        "generation": "gen4",
+        "provider": "sv_car"
     }
 ]
