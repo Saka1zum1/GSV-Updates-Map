@@ -12344,7 +12344,7 @@ const clustermarkers=L.markerClusterGroup()
 
     
 function drawMarkers(data) {
-  clustermarkers.clearLayers(); // 清空聚合标记
+  clustermarkers.clearLayers();
   markers.forEach(marker => ht.removeLayer(marker)); 
   markers = []; 
 
@@ -12456,10 +12456,10 @@ function drawHeatmap(data) {
       maxZoom: 20,
       maxIntensity: 1,
       gradient: {
-        0.25: 'rgba(255, 0, 0, 0.25)',  // 浅红色
-        0.5: 'rgba(255, 0, 0, 0.5)',  // 中等红色
-        0.75: 'rgba(255, 0, 0, 0.75)',  // 深红色
-        1.0: 'rgba(255, 0, 0, 1.0)'   // 最深红色
+        0.25: 'rgba(255, 0, 0, 0.25)',
+        0.5: 'rgba(255, 0, 0, 0.5)', 
+        0.75: 'rgba(255, 0, 0, 0.75)',
+        1.0: 'rgba(255, 0, 0, 1.0)' 
     }}).addTo(ht);
   }
 const toggle_heatmap = document.querySelector('.control.heatmap')
@@ -12496,7 +12496,9 @@ copy_button.addEventListener('click', function () {
       heading: 0,
       pitch: 0,
       zoom: 0,
-      panoId: item.panoId
+      panoId: item.panoId,
+      extra:{
+       tags: [item.date, ...item.update_type]}
   }));
 
   const formattedText = JSON.stringify(formattedData);
