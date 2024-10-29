@@ -12333,6 +12333,7 @@ let isRangeMode = true
 let isHeatmap = false
 let isCluster=true
 let update_data
+let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[,]}
 let filterdata
 let markers=[]
 let heatmapLayer
@@ -12342,8 +12343,20 @@ const cluster_on='./assets/markers.svg'
 const cluster_off='./assets/marker.svg'
 const clustermarkers=L.markerClusterGroup()
 const specialDates = {
-  '10/29/2024': 'om'
+  '2024-09-05T22:33:00Z': 'is',
+  '2024-10-01T02:59:00Z': 'li',
+  '2024-10-28T22:38:00Z': 'om',
+  '2024-10-14T20:00:00Z': 'fo',
 };
+
+
+function isDateInRange(date, startDate, endDate) {
+  return date >= startDate && date <= endDate;
+}
+
+function getFlagUrl(countryCode) {
+  return `https://flagicons.lipis.dev/flags/4x3/${countryCode}.svg`;
+}
 
 function drawMarkers(data) {
   clustermarkers.clearLayers();
@@ -12351,12 +12364,13 @@ function drawMarkers(data) {
   markers = []; 
 
   data.forEach(item => {
-      const { lat, lng, address, author, update_type, report_time, date, sv_link } = item;
+      const { lat, lng, address, author, update_type, report_time, date, sv_link,elevation } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
       const popupContent = `
-          <strong>address:</strong> ${address}<br>
+
+                    <strong>update type:</strong> ${update_type}<br>
           <strong>pano date:</strong> ${date}<br>
-          <strong>update type:</strong> ${update_type}<br>
+          <strong>elevation:</strong> ${elevation.toFixed(2)}<br>
           <strong>report time:</strong> ${localTime}<br>
           <strong>reporter:</strong> ${author}
       `;
@@ -12401,36 +12415,38 @@ fetch('update_reports.json')
 
 const datepicker = new AirDatepicker('#calendar', {
   onSelect({ date }) {
-    var startDate, endDate
     if (date.length > 1&&isRangeMode) {
-      startDate = Math.floor(date[0].getTime() / 1000)
-      endDate = Math.floor(date[1].getTime() / 1000)
+      filter_check.report_date[0] = Math.floor(date[0].getTime() / 1000)
+      filter_check.report_date[1] = Math.floor(date[1].getTime() / 1000)
     }
     else {
       const localdate = new Date(date)
-      startDate = Math.floor(localdate.getTime() / 1000)
-      endDate = startDate + 86400
+      filter_check.report_date[0] = Math.floor(localdate.getTime() / 1000)
+      filter_check.report_date[1] = filter_check.report_date[0] + 86400
     }
+    applyFilters()
 
-    filterdata = update_data.filter(item => {
-      return item.report_time >= startDate && item.report_time <= endDate;
-    });
-    if (filterdata) {
-      drawMarkers(filterdata)
-      if(isHeatmap)drawHeatmap(filterdata)
-    }
   },
   onRenderCell({ date, cellType }) {
     if (cellType === 'day') {
-      const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' });
-      if (specialDates[formattedDate]) {
-          return {
-              html: `<img class="emoji" src="https://flagicons.lipis.dev/flags/4x3/${specialDates[formattedDate]}.svg" alt="Special Date">`,
-              classes: '-custom-emoji-'
-          };
-      }
-  }
+        const startOfDay = new Date(date);
+        startOfDay.setHours(0, 0, 0, 0);
+        const endOfDay = new Date(date);
+        endOfDay.setHours(23, 59, 59, 999);
+
+        for (const [timestamp, countryCode] of Object.entries(specialDates)) {
+            const specialDate = new Date(timestamp);
+            if (isDateInRange(specialDate, startOfDay, endOfDay)) {
+                const flagUrl = getFlagUrl(countryCode);
+                return {
+                    html: `<img class="emoji" src="${flagUrl}" alt="Special Date">`,
+                    classes: 'custom-cell'
+                };
+            }
+        }
+    }
 },
+
   autoClose: false,
   singleDatePicker: true,
   range: isRangeMode,
@@ -12522,3 +12538,47 @@ copy_button.addEventListener('click', function () {
       console.error('Failed to copy to clipboard', err);
   });
 });
+
+const filter_type=document.querySelector('.filter.type')
+const checkboxContainer = document.getElementById('checkboxContainer-type');
+filter_type.setAttribute('data-state', 'inactive')
+filter_type.addEventListener('click', function () {
+  if (this.getAttribute('data-state')=='inactive'){
+    checkboxContainer.style.display='block'
+    this.setAttribute('data-state', 'active');
+    this.classList.add('active')
+  }
+  else{
+    this.setAttribute('data-state', 'inactive')
+    checkboxContainer.style.display='none'
+    this.classList.remove('active');
+  }
+});
+document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
+  checkbox.addEventListener('change', function () {
+      const type = this.dataset.type;
+      if (this.checked) {
+          filter_check.type.push(type);
+      } else {
+          filter_check.type = filter_check.type.filter(t => t !== type);
+      }
+      applyFilters();
+  });
+});
+
+function intersect(array1, array2) {
+  return array1.some(element => array2.includes(element));
+}
+
+function applyFilters() {
+  console.log(filter_check.type)
+  filterdata = update_data.filter(item => {
+      const inDateRange = item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
+      const matchesType = filter_check.type.length === 0 || intersect(filter_check.type, item.update_type)
+      return inDateRange && matchesType;
+  });
+
+  if (filterdata) {
+      drawMarkers(filterdata);
+  }
+}
