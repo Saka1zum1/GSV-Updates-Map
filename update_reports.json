@@ -20044,5 +20044,131 @@
         "country": "OM",
         "elevation": 161.14099,
         "provider": "sv_car"
-    }
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6fPFjvFpdYck5CUN8",
+        "report_time": 1730160644,
+        "author": "brainy_",
+        "panoid": "Q-suTioPu4yIOkeVW7pRzA",
+        "lat": 18.461209497357185,
+        "lng": 52.49136010187059,
+        "year": 2024,
+        "month": 6,
+        "date": "Jun 2024",
+        "address": "Dhofar Governorate, OM",
+        "country": "OM",
+        "elevation": 354.83017,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/4yenaBnMX7VTmLXD8?g_st=ac",
+        "report_time": 1730160491,
+        "author": "_steevn",
+        "panoid": "rUbGyR5VAPn_54ZZivjiUg",
+        "lat": -7.572495647762236,
+        "lng": -46.152870296467846,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "MA-140, State of Maranh\u00e3o",
+        "country": "BR",
+        "elevation": 297.2265,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/LRQw5ReGPCHBm71XA",
+        "report_time": 1730160379,
+        "author": "senpaiii.",
+        "panoid": "dkUyk3UuMc9TX7_NQQuKsg",
+        "lat": 26.161612616494207,
+        "lng": 56.1694266342698,
+        "year": 2024,
+        "month": 7,
+        "date": "Jul 2024",
+        "address": "02, Khasab, Musandam Governorate",
+        "country": "OM",
+        "elevation": 6.2844596,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/YEk9Xnq7efEMtJ9g8",
+        "report_time": 1730160007,
+        "author": "fedeemp4",
+        "panoid": "gGFZmPg7R1pZeB5vTcaB-g",
+        "lat": 23.650904511183978,
+        "lng": 58.1307891532687,
+        "year": 2024,
+        "month": 6,
+        "date": "Jun 2024",
+        "address": "A Salam St, Seeb, Muscat Governorate",
+        "country": "OM",
+        "elevation": 28.091534,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NnoSJWiu7PXQCQuo7",
+        "report_time": 1730159891,
+        "author": "fedeemp4",
+        "panoid": "lzqGts1XRnGpCTIlnzfiNg",
+        "lat": 19.950288018126884,
+        "lng": 56.28659599306032,
+        "year": 2024,
+        "month": 7,
+        "date": "Jul 2024",
+        "address": "Haima, Al Wusta Governorate, OM",
+        "country": "OM",
+        "elevation": 131.71072,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/4hxkksBdNuJ2sHqC8",
+        "report_time": 1730161009,
+        "author": "bob7bot",
+        "panoid": "VXZwOAt6ar6mG-h8wpWMIw",
+        "lat": -33.03724401862482,
+        "lng": -68.27959389200731,
+        "year": 2024,
+        "month": 9,
+        "date": "Sep 2024",
+        "address": "Carril Zapata, Mendoza Province",
+        "country": "AR",
+        "elevation": 634.70636,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Ap1tg7a3pSVeHpKi8",
+        "report_time": 1730160891,
+        "author": "deslagen",
+        "panoid": "Po9fQ7lPAJO9UzCd1-sjlQ",
+        "lat": 43.72937702459173,
+        "lng": -118.8005619277797,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "73437 Rattlesnake Rd, Burns, Oregon",
+        "country": "US",
+        "elevation": 1426.2537,
+        "provider": "sv_car"
+    }    
 ]
