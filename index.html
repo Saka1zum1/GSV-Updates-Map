@@ -37,22 +37,35 @@
         }   
         #calendar-toggle {
             position: absolute;
-            width: 44px;
+            width: 46px;
             height: 18px;
             top: 14px;
-            left: 36px;
+            left: 38px;
             background-color: #5cc4ef;
             color: white;
             border: 1px;
             border-radius: 5px;
             cursor: pointer;
+            text-align: center;
             font-size: 12px;
             z-index: 3;
         }
         .air-datepicker {
-            width: 300px;
-            height: 240px;
+            width: 320px;
+            max-height: 280px;
             font-size: 1.2rem;
+        }
+        .filter{
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            z-index: 3;
+            cursor: pointer;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+	        background: #fff;
+	        border-radius: 5px;
+            background-position: 50%;
+            background-size:cover;
         }
         .control{
             position: absolute;
@@ -66,11 +79,40 @@
             background-position: 50%;
             background-size:cover;
         }
-	.emoji {
+        .checkbox-container {
+            position: absolute;
+            display: none;
+            background-color: #f9f9f9;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 5px;
+            border-radius: 5px;
+            z-index: 4;
+        }
+        .checkbox-item {
+            display: flex;
+            width: 60px;
+            height: 20px;
+            align-items: center;
+            margin-bottom: 5px;
+            z-index: 4;
+        }
+        .checkbox-item img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            z-index: 4;
+            margin: 10px;
+        }
+        #checkboxContainer-type {
+            left:96px;
+            top: 20px;
+        }
+        .emoji {
             display: block;
             width: 20px;
             height: 20px; 
         }
+
     </style>
 </head>
 <body>
@@ -81,6 +123,45 @@
     <div class="control heatmap" style="right:10px; bottom: 10px; background-image: url('assets/heatmap_off.png')"></div>
     <div class="control cluster" style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
     <div class="control copy" style="right:110px; bottom: 10px; background-image: url('assets/copy.svg')"></div>
+    <div class="filter type" style="left:10px; top: 20px; background-image: url('assets/pegman.gif')"></div>
+    <div class="checkbox-container" id="checkboxContainer-type">
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newcountry">
+            <img src="assets/newcountry.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newregion">
+            <img src="assets/newregion.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newarea">
+            <img src="assets/newarea.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newroad">
+            <img src="assets/newroad.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newstreet">
+            <img src="assets/newstreet.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newtown">
+            <img src="assets/newtown.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newyear">
+            <img src="assets/newyear.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="gen1update">
+            <img src="assets/gen1update.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="gen3update">
+            <img src="assets/gen3update.webp">
+        </div>
+    </div>
 </body>
 <script type="text/javascript" src="./index.js"></script>
 </html>
