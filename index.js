@@ -12341,8 +12341,10 @@ const heatmap_off='./assets/heatmap_off.png'
 const cluster_on='./assets/markers.svg'
 const cluster_off='./assets/marker.svg'
 const clustermarkers=L.markerClusterGroup()
+const specialDates = {
+  '10/29/2024': 'om'
+};
 
-    
 function drawMarkers(data) {
   clustermarkers.clearLayers();
   markers.forEach(marker => ht.removeLayer(marker)); 
@@ -12396,6 +12398,7 @@ fetch('update_reports.json')
   })
   .catch(error => console.error('Error parsing json:', error));
 
+
 const datepicker = new AirDatepicker('#calendar', {
   onSelect({ date }) {
     var startDate, endDate
@@ -12417,6 +12420,17 @@ const datepicker = new AirDatepicker('#calendar', {
       if(isHeatmap)drawHeatmap(filterdata)
     }
   },
+  onRenderCell({ date, cellType }) {
+    if (cellType === 'day') {
+      const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' });
+      if (specialDates[formattedDate]) {
+          return {
+              html: `<img class="emoji" src="https://flagicons.lipis.dev/flags/4x3/${specialDates[formattedDate]}.svg" alt="Special Date">`,
+              classes: '-custom-emoji-'
+          };
+      }
+  }
+},
   autoClose: false,
   singleDatePicker: true,
   range: isRangeMode,
@@ -12456,10 +12470,10 @@ function drawHeatmap(data) {
       maxZoom: 20,
       maxIntensity: 1,
       gradient: {
-        0.25: 'rgba(255, 0, 0, 0.25)',
-        0.5: 'rgba(255, 0, 0, 0.5)', 
+        0.25: 'rgba(255, 0, 0, 0.25)', 
+        0.5: 'rgba(255, 0, 0, 0.5)',
         0.75: 'rgba(255, 0, 0, 0.75)',
-        1.0: 'rgba(255, 0, 0, 1.0)' 
+        1.0: 'rgba(255, 0, 0, 1.0)'
     }}).addTo(ht);
   }
 const toggle_heatmap = document.querySelector('.control.heatmap')
