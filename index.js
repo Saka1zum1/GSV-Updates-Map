@@ -12333,7 +12333,7 @@ let isRangeMode = true
 let isHeatmap = false
 let isCluster=true
 let update_data
-let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[,]}
+let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[]}
 let filterdata
 let markers=[]
 let heatmapLayer
