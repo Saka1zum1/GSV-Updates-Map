@@ -12347,6 +12347,7 @@ const specialDates = {
   '2024-10-01T02:59:00Z': 'li',
   '2024-10-28T22:38:00Z': 'om',
   '2024-10-14T20:00:00Z': 'fo',
+  '2024-09-08T03:50:00Z': 'ec',
 };
 
 
@@ -12367,10 +12368,9 @@ function drawMarkers(data) {
       const { lat, lng, address, author, update_type, report_time, date, sv_link,elevation } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
       const popupContent = `
-
-                    <strong>update type:</strong> ${update_type}<br>
+          <strong>update type:</strong> ${update_type}<br>
           <strong>pano date:</strong> ${date}<br>
-          <strong>elevation:</strong> ${elevation.toFixed(2)}<br>
+          <strong>elevation:</strong> ${elevation.toFixed(2)}m<br>
           <strong>report time:</strong> ${localTime}<br>
           <strong>reporter:</strong> ${author}
       `;
@@ -12464,7 +12464,33 @@ const datepicker = new AirDatepicker('#calendar', {
   }
 
 });
-datepicker.show();
+
+const monthPicker = new AirDatepicker('#monthpicker', {
+  view: 'months', 
+  minView: 'months',
+  range:true,
+  onSelect({ date }) {
+    if (date.length > 1) {
+        const startMonth = date[0].toLocaleString('default', { month: 'short' });
+        const startYear = date[0].getFullYear();
+        const endMonth = date[1].toLocaleString('default', { month: 'short' });
+        const endYear = date[1].getFullYear();
+        filter_check.pano_date = [`${startMonth} ${startYear}`, `${endMonth} ${endYear}`];
+    } else {
+        const singleMonth = date[0].toLocaleString('default', { month: 'short' });
+        const singleYear = date[0].getFullYear()
+        filter_check.pano_date = [`${singleMonth} ${singleYear}`, `${singleMonth} ${singleYear}`];
+    }
+    applyFilters();
+},
+  autoClose: true,
+  locale: {
+      months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+      monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  }
+});
+
+
 
 const toggle_calendar = document.getElementById('calendar-toggle');
 toggle_calendar.addEventListener('click', function () {
@@ -12570,15 +12596,51 @@ function intersect(array1, array2) {
   return array1.some(element => array2.includes(element));
 }
 
+function monthInRange(pano_date, monthRange) {
+  const [startMonth, startYear] = monthRange[0].split(' ');
+  const [endMonth, endYear] = monthRange[1].split(' ');
+
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+  const startIndex = months.indexOf(startMonth);
+  const endIndex = months.indexOf(endMonth);
+  const panoIndex = months.indexOf(pano_date.split(' ')[0]);
+  const panoYear = pano_date.split(' ')[1];
+
+  if (startYear === endYear) {
+      return panoYear === startYear && panoIndex >= startIndex && panoIndex <= endIndex;
+  } else {
+      return (panoYear === startYear && panoIndex >= startIndex) ||
+             (panoYear === endYear && panoIndex <= endIndex) ||
+             (panoYear > startYear && panoYear < endYear);
+  }
+}
+
 function applyFilters() {
-  console.log(filter_check.type)
   filterdata = update_data.filter(item => {
       const inDateRange = item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
-      const matchesType = filter_check.type.length === 0 || intersect(filter_check.type, item.update_type)
-      return inDateRange && matchesType;
+      
+      const matchesType = filter_check.type.length === 0 || intersect(filter_check.type, item.update_type);
+      
+      const inMonthRange = filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
+      
+      return inDateRange && matchesType && inMonthRange;
   });
 
   if (filterdata) {
       drawMarkers(filterdata);
+      if (isHeatmap) drawHeatmap(filterdata);
   }
 }
+
+const filter_date=document.querySelector('.filter.date')
+let ismp=false
+filter_date.addEventListener('click',function(){
+  if(!ismp){
+    ismp=true
+    document.getElementById('monthpicker').style.display='block'}
+  else {
+    ismp=false
+    document.getElementById('monthpicker').style.display='none'}
+  
+})
