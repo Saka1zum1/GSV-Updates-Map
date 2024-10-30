@@ -79598,5 +79598,33 @@
         "date": "Jan 2024",
         "country": "TR",
         "elevation": 2042.5406
+    },
+    {
+        "update_type": [
+            "gen1update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/AocVFvy9aqg4ZvHi6",
+        "report_time": 1730310738,
+        "author": "deslagen",
+        "panoid": "2GoTf31t64bISYKPoBGUyA",
+        "lat": 44.71995787687002,
+        "lng": -116.44311325560555,
+        "date": "Oct 2024",
+        "country": "US",
+        "elevation": 891.7813
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/AqQe6yihBPhD5KbQ9",
+        "report_time": 1730328882,
+        "author": "unhook.",
+        "panoid": "2ayJqHrymzlSjHp-RL-T_g",
+        "lat": 38.778724659458696,
+        "lng": 42.13943638658285,
+        "date": "Nov 2023",
+        "country": "TR",
+        "elevation": 1942.3973
     }
 ]
