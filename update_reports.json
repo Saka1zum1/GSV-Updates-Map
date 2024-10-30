@@ -25951,8 +25951,8 @@
         "year": 2023,
         "month": 9,
         "date": "Sep 2023",
-        "address": null,
-        "country": null,
+        "address": "Museu Diocesà, Carrer del Mirador, Palma, Illes Balears",
+        "country": "ES",
         "elevation": -49.607212,
         "provider": "trekker"
     },
@@ -94113,5 +94113,146 @@
         "country": "TR",
         "elevation": 883.9739,
         "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Afyx9pMJCgNgxiQ55c0a7Q",
+        "report_time": 1730217354,
+        "author": "Update Tracker Bot",
+        "panoid": "Afyx9pMJCgNgxiQ55c0a7Q",
+        "lat": 49.81457423707325,
+        "lng": 6.0980689646693635,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "15 N7, Colmar-Berg, Mersch",
+        "country": "LU",
+        "elevation": 211.8336,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/SgLBchKQ6afwHjed8",
+        "report_time": 1730218531,
+        "author": "dou_dou_dou",
+        "panoid": "QspDLmRmWD0FJFwTwX8ZNw",
+        "lat": 42.14684062268122,
+        "lng": 139.41661539364543,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Hokkaid\u014d Rte 39, Okushiri, Hokkaido",
+        "country": "JP",
+        "elevation": 7.8596096,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=tk4LIfKes-TPjJ1Ad_usvQ",
+        "report_time": 1730231234,
+        "author": "Update Tracker Bot",
+        "panoid": "tk4LIfKes-TPjJ1Ad_usvQ",
+        "lat": 40.12964349752877,
+        "lng": 141.26806274095313,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Kotsunagi Tunnel, Ichinohe, Iwate",
+        "country": "JP",
+        "elevation": 319.87387,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://www.google.com/maps/@?api=1&map_action=pano&pano=-wQTwnOWYiYOWkcNflRUsg",
+        "report_time": 1730238374,
+        "author": "Update Tracker Bot",
+        "panoid": "-wQTwnOWYiYOWkcNflRUsg",
+        "lat": 40.353717608885674,
+        "lng": 141.3506509710071,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Nambu, Aomori, JP",
+        "country": "JP",
+        "elevation": 200.1395,
+        "provider": "sv_car"
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/VgF4Kh8r448iXqCa6",
+        "report_time": 1730246637,
+        "author": "deslagen",
+        "panoid": "SmPRScy-urQjNnad9Bzg9w",
+        "lat": 31.190406130467576,
+        "lng": -95.39006698705832,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "Crockett Rd, Lovelady, Texas",
+        "country": "US",
+        "elevation": 82.130394,
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NQAkitdvLWL6NdWY6",
+        "report_time": 1730246637,
+        "author": "deslagen",
+        "panoid": "NtHFKPJC4Az7Mq8bkylMdg",
+        "lat": 32.13353958718846,
+        "lng": -88.37309988068206,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "779 Rock Gap Rd, Butler, Alabama",
+        "country": "US",
+        "elevation": 153.70923,
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Pok6vfNrLVNabktK7",
+        "report_time": 1730246637,
+        "author": "deslagen",
+        "panoid": "s9mh0bQRv7ZgG8vuaTJ2ig",
+        "lat": 46.43227438947422,
+        "lng": -121.8401302689513,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "2002 Cispus Rd, Randle, Washington",
+        "country": "US",
+        "elevation": 401.20184,
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/yRkERcNAMYW8ejjX6",
+        "report_time": 1730246637,
+        "author": "deslagen",
+        "panoid": "BItTzOe9gHKomUO5eR5kig",
+        "lat": 48.410968508110635,
+        "lng": -92.81313096655879,
+        "year": 2024,
+        "month": 10,
+        "date": "Oct 2024",
+        "address": "9469 River Pk Dr, Orr, Minnesota",
+        "country": "US",
+        "elevation": 372.21646
     }
 ]
