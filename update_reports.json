@@ -94184,8 +94184,7 @@
         "date": "Oct 2024",
         "address": "Nambu, Aomori, JP",
         "country": "JP",
-        "elevation": 200.1395,
-        "provider": "sv_car"
+        "elevation": 200.1395
     },
     {
         "update_type": [
@@ -94202,7 +94201,7 @@
         "date": "Oct 2024",
         "address": "Crockett Rd, Lovelady, Texas",
         "country": "US",
-        "elevation": 82.130394,
+        "elevation": 82.130394
     },
     {
         "update_type": [
@@ -94219,7 +94218,7 @@
         "date": "Oct 2024",
         "address": "779 Rock Gap Rd, Butler, Alabama",
         "country": "US",
-        "elevation": 153.70923,
+        "elevation": 153.70923
     },
     {
         "update_type": [
@@ -94236,7 +94235,7 @@
         "date": "Oct 2024",
         "address": "2002 Cispus Rd, Randle, Washington",
         "country": "US",
-        "elevation": 401.20184,
+        "elevation": 401.20184
     },
     {
         "update_type": [
