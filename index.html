@@ -34,6 +34,14 @@
             top: 10px;  
             border: none; 
             z-index: 2;
+        }
+        #monthpicker {
+            display: none;
+            position: absolute;
+            left:100px;
+            top: 120px;  
+            border: none; 
+            z-index: 2;
         }   
         #calendar-toggle {
             position: absolute;
@@ -120,10 +128,12 @@
     <div id="calendar">
         <button id="calendar-toggle">Range</button>
     </div>
+    <div id="monthpicker"></div>
     <div class="control heatmap" style="right:10px; bottom: 10px; background-image: url('assets/heatmap_off.png')"></div>
     <div class="control cluster" style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
     <div class="control copy" style="right:110px; bottom: 10px; background-image: url('assets/copy.svg')"></div>
-    <div class="filter type" style="left:10px; top: 20px; background-image: url('assets/pegman.gif')"></div>
+    <div class="filter type" style="left:15px; top: 20px; background-image: url('assets/pegman_hi.gif')"></div>
+    <div class="filter date" style="left:15px; top: 120px; background-image: url('assets/pegman_map.gif')"></div>
     <div class="checkbox-container" id="checkboxContainer-type">
         <div class="checkbox-item">
             <input type="checkbox" data-type="newcountry">
@@ -138,16 +148,16 @@
             <img src="assets/newarea.webp">
         </div>
         <div class="checkbox-item">
-            <input type="checkbox" data-type="newroad">
-            <img src="assets/newroad.webp">
+            <input type="checkbox" data-type="newtown">
+            <img src="assets/newtown.webp">
         </div>
         <div class="checkbox-item">
             <input type="checkbox" data-type="newstreet">
             <img src="assets/newstreet.webp">
         </div>
         <div class="checkbox-item">
-            <input type="checkbox" data-type="newtown">
-            <img src="assets/newtown.webp">
+            <input type="checkbox" data-type="newroad">
+            <img src="assets/newroad.webp">
         </div>
         <div class="checkbox-item">
             <input type="checkbox" data-type="newyear">
@@ -160,6 +170,14 @@
         <div class="checkbox-item">
             <input type="checkbox" data-type="gen3update">
             <img src="assets/gen3update.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newisland">
+            <img src="assets/newisland.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="newtrekker">
+            <img src="assets/newtrekker.webp">
         </div>
     </div>
 </body>
