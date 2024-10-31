@@ -12560,6 +12560,7 @@ ht.on("draw:edited", (e) => {
 })
 
 ht.on("draw:deleted", () => {
+  filter_check.poly=[]
   applyFilters()
 })
 
@@ -12722,4 +12723,3 @@ filter_date.addEventListener('click',function(){
     document.getElementById('monthpicker').style.display='none'}
   
 })
-
