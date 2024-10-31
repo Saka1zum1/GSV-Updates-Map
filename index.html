@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw-src.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.rawgit.com/hayeswise/Leaflet.PointInPolygon/v1.0.0/wise-leaflet-pip.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
     <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.3/air-datepicker.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.3/air-datepicker.min.js"></script>
     <style type="text/css">
@@ -81,7 +84,7 @@
             height: 44px;
             z-index: 3;
             cursor: pointer;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.4);
 	        background: #fff;
 	        border-radius: 5px;
             background-position: 50%;
@@ -98,16 +101,15 @@
         }
         .checkbox-item {
             display: flex;
-            width: 60px;
+            width: 64px;
             height: 20px;
             align-items: center;
-            margin-bottom: 5px;
+            margin: 10px;
             z-index: 4;
         }
         .checkbox-item img {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
+            width: 24px;
+            height: 24px;
             z-index: 4;
             margin: 10px;
         }
