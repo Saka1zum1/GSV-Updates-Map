@@ -12302,7 +12302,6 @@ const overlayMaps = {
   "Panoramas(requires close zoom 16+)": panoramasLayer
 };
 
-
 const q0 = Qo(Se.get("zoom"), 2)
   , kl = (Se.get("center") ?? "0,0").split(",")
   , H0 = [Qo(kl[0], 0), Qo(kl[1], 0)]
@@ -12323,11 +12322,38 @@ ht.getPane("labelPane").style.zIndex = 300;
 ht.getPane("panoramasPane").style.zIndex = 400;
 ht.getPane("coveragePane").style.zIndex = 200;
 
+var drawnItems = new L.FeatureGroup().addTo(ht);
+var drawControl = new L.Control.Draw({
+  edit: {
+      featureGroup: drawnItems,
+      poly: {
+          allowIntersection: false
+      }
+  },
+  draw: {
+      polygon: {
+          allowIntersection: false,
+          showArea: true
+      },
+      polyline: false,
+      circle: false,
+      marker: false,
+      circlemarker: false
+  },
+  position: 'bottomleft',
+
+});
+ht.on(L.Draw.Event.CREATED, function (event) {
+  var layer = event.layer;
+  drawnItems.addLayer(layer);
+});
+
 
 roadmapLayer.addTo(ht);
 gsvLayer2.addTo(ht);
 panoramasLayer.addTo(ht).bringToFront()
 L.control.layers(baseMaps, overlayMaps, { position: "bottomleft" }).addTo(ht);
+drawControl.addTo(ht)
 
 let isRangeMode = true
 let isHeatmap = false
@@ -12343,17 +12369,22 @@ const cluster_on='./assets/markers.svg'
 const cluster_off='./assets/marker.svg'
 const clustermarkers=L.markerClusterGroup()
 const specialDates = {
-  '2024-09-05T22:33:00Z': 'is',
-  '2024-10-01T02:59:00Z': 'li',
   '2024-10-28T22:38:00Z': 'om',
   '2024-10-14T20:00:00Z': 'fo',
+  '2024-10-01T02:59:00Z': 'li',
   '2024-09-08T03:50:00Z': 'ec',
-  '2024-05-08T18:49:00Z': 'mn',
-  '2024-07-17T15:23:00Z': 'sm',
-  '2024-04-25T16:30:00Z': 'mt',
+  '2024-09-05T22:33:00Z': 'is',
+  '2024-07-17T14:41:00Z': 'sm',
+  '2024-05-08T20:49:00Z': 'mn',
+  '2024-04-25T16:08:00Z': 'mt',
   '2024-04-19T01:04:00Z': 'lb',
   '2024-03-22T14:54:00Z': 'kz',
-  '2023-09-29T03:53:00Z': 'mc'
+  '2023-09-29T00:04:00Z': 'kh',
+  '2023-09-29T00:05:00Z': 'pa',
+  '2023-09-29T03:53:00Z': 'mc',
+  '2023-08-01T03:10:00Z': 'il',
+  '2023-07-24T20:03:00Z': 'de',
+
 };
 
 
@@ -12404,6 +12435,17 @@ function drawMarkers(data) {
   }
 }
 
+function isInPolygon(polygon) {
+  const bounds = polygon.getBounds();
+  const x_min = bounds.getEast();
+  const x_max = bounds.getWest();
+  const y_min = bounds.getSouth();
+  const y_max = bounds.getNorth();
+  const lat = (Math.asin(Math.random() * (Math.sin(y_max * Math.PI / 180) - Math.sin(y_min * Math.PI / 180)) + Math.sin(y_min * Math.PI / 180))) * 180 / Math.PI;
+  const lng = x_min + Math.random() * (x_max - x_min);
+  return { lat: lat, lng: lng };
+}
+
 fetch('update_reports.json')
   .then(response => {
     if (!response.ok) {
@@ -12418,12 +12460,11 @@ fetch('update_reports.json')
   })
   .catch(error => console.error('Error parsing json:', error));
 
-
 const datepicker = new AirDatepicker('#calendar', {
   onSelect({ date }) {
     if (date.length > 1&&isRangeMode) {
       filter_check.report_date[0] = Math.floor(date[0].getTime() / 1000)
-      filter_check.report_date[1] = Math.floor(date[1].getTime() / 1000)
+      filter_check.report_date[1] = Math.floor(date[1].getTime() / 1000)+ 86400
     }
     else {
       const localdate = new Date(date)
@@ -12440,17 +12481,26 @@ const datepicker = new AirDatepicker('#calendar', {
         const endOfDay = new Date(date);
         endOfDay.setHours(23, 59, 59, 999);
 
+        const matchingDates = [];
+
         for (const [timestamp, countryCode] of Object.entries(specialDates)) {
             const specialDate = new Date(timestamp);
             if (isDateInRange(specialDate, startOfDay, endOfDay)) {
-                const flagUrl = getFlagUrl(countryCode);
-                return {
-                    html: `<img class="emoji" src="${flagUrl}" alt="Special Date">`,
-                    classes: 'custom-cell'
-                };
+                matchingDates.push({ timestamp, countryCode });
             }
         }
-    }
+
+        if (matchingDates.length > 0) {
+          const randomIndex = Math.floor(Math.random() * matchingDates.length);
+          const initialFlagUrl = getFlagUrl(matchingDates[randomIndex].countryCode);
+          return {
+              html: `<div class="custom-cell">
+                          <img class="emoji" src="${initialFlagUrl}">
+                      </div>`,
+              classes: 'custom-cell'
+          };
+      }
+  }
 },
 
   autoClose: false,
@@ -12496,6 +12546,49 @@ const monthPicker = new AirDatepicker('#monthpicker', {
   }
 });
 
+ht.on("draw:created", (e) => {
+  const polygon = e.layer;
+  ht.addLayer(polygon);
+
+  filterdata = filterdata.filter(item => {
+
+    const point = L.latLng(item.lat, item.lng);
+        
+    const pointInPolygon = polygon.contains(point);
+    return pointInPolygon;
+  });
+
+
+  if (filterdata.length > 0) {
+      drawMarkers(filterdata);
+      if (isHeatmap) drawHeatmap(filterdata);
+  }
+  
+})
+ht.on("draw:edited", (e) => {
+  e.layers.eachLayer((layer) => {
+    const polygon = layer;
+    ht.addLayer(polygon);
+
+    filterdata = filterdata.filter(item => {
+
+      const point = L.latLng(item.lat, item.lng);
+          
+      const pointInPolygon = polygon.contains(point);
+      return pointInPolygon;
+    });
+
+
+    if (filterdata.length > 0) {
+        drawMarkers(filterdata);
+        if (isHeatmap) drawHeatmap(filterdata);
+    }
+  })
+})
+
+ht.on("draw:deleted", () => {
+  applyFilters(update_data)
+})
 
 
 const toggle_calendar = document.getElementById('calendar-toggle');
@@ -12650,3 +12743,4 @@ filter_date.addEventListener('click',function(){
     document.getElementById('monthpicker').style.display='none'}
   
 })
+
