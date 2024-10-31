@@ -12359,7 +12359,7 @@ let isRangeMode = true
 let isHeatmap = false
 let isCluster=true
 let update_data
-let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[]}
+let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[],poly:[]}
 let filterdata
 let markers=[]
 let heatmapLayer
@@ -12547,47 +12547,20 @@ const monthPicker = new AirDatepicker('#monthpicker', {
 });
 
 ht.on("draw:created", (e) => {
-  const polygon = e.layer;
-  ht.addLayer(polygon);
-
-  filterdata = filterdata.filter(item => {
-
-    const point = L.latLng(item.lat, item.lng);
-        
-    const pointInPolygon = polygon.contains(point);
-    return pointInPolygon;
-  });
-
-
-  if (filterdata.length > 0) {
-      drawMarkers(filterdata);
-      if (isHeatmap) drawHeatmap(filterdata);
-  }
-  
+  ht.addLayer(e.layer);
+  filter_check.poly.push(e.layer)
+  applyFilters()
 })
 ht.on("draw:edited", (e) => {
+  filter_check.poly=[]
   e.layers.eachLayer((layer) => {
-    const polygon = layer;
-    ht.addLayer(polygon);
-
-    filterdata = filterdata.filter(item => {
-
-      const point = L.latLng(item.lat, item.lng);
-          
-      const pointInPolygon = polygon.contains(point);
-      return pointInPolygon;
-    });
-
-
-    if (filterdata.length > 0) {
-        drawMarkers(filterdata);
-        if (isHeatmap) drawHeatmap(filterdata);
-    }
+    filter_check.poly.push(layer)
   })
+  applyFilters()
 })
 
 ht.on("draw:deleted", () => {
-  applyFilters(update_data)
+  applyFilters()
 })
 
 
@@ -12717,13 +12690,19 @@ function monthInRange(pano_date, monthRange) {
 
 function applyFilters() {
   filterdata = update_data.filter(item => {
+
       const inDateRange = item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
       
       const matchesType = filter_check.type.length === 0 || intersect(filter_check.type, item.update_type);
       
       const inMonthRange = filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
-      
-      return inDateRange && matchesType && inMonthRange;
+
+      let pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
+        const point = L.latLng(item.lat, item.lng);
+        const poly = L.polygon(latlngs);
+        return poly.contains(point);
+      }));
+      return inDateRange && matchesType && inMonthRange && pointInPolygon;
   });
 
   if (filterdata) {
