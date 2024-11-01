@@ -12209,12 +12209,7 @@ function drawHeatmap(data) {
       blur: 5,
       maxZoom: 20,
       maxIntensity: 1,
-      gradient: {
-        0.25: 'rgba(255, 0, 0, 0.25)', 
-        0.5: 'rgba(255, 0, 0, 0.5)',
-        0.75: 'rgba(255, 0, 0, 0.75)',
-        1.0: 'rgba(255, 0, 0, 1.0)'
-    }}).addTo(ht);
+}).addTo(ht);
   }
 const toggle_heatmap = document.querySelector('.control.heatmap')
 toggle_heatmap.addEventListener('click', function () {
@@ -12223,11 +12218,13 @@ toggle_heatmap.addEventListener('click', function () {
     toggle_heatmap.style.backgroundImage = `url('${heatmap_off}')`;
     if (heatmapLayer) {
       ht.removeLayer(heatmapLayer);
+      drawMarkers(filterdata)
     }
 } else {
     isHeatmap = true;
     toggle_heatmap.style.backgroundImage = `url('${heatmap_on}')`;
     drawHeatmap(filterdata);
+    drawMarkers([])
 }
 })
 const toggle_cluster = document.querySelector('.control.cluster')
@@ -12334,8 +12331,9 @@ function applyFilters() {
   });
 
   if (filterdata) {
-      drawMarkers(filterdata);
       if (isHeatmap) drawHeatmap(filterdata);
+      else drawMarkers(filterdata);
+
   }
 }
 
