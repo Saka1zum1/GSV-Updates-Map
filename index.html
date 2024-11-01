@@ -115,12 +115,19 @@
         }
         #checkboxContainer-type {
             left:96px;
-            top: 20px;
+            top: 50px;
         }
         .emoji {
             display: block;
             width: 20px;
             height: 20px; 
+        }
+        .filter-flag{
+            position :absolute;
+            top : 2px;
+            right : 2px;
+            width :16px;
+            height: 12px;
         }
 
     </style>
@@ -134,8 +141,9 @@
     <div class="control heatmap" style="right:10px; bottom: 10px; background-image: url('assets/heatmap_off.png')"></div>
     <div class="control cluster" style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
     <div class="control copy" style="right:110px; bottom: 10px; background-image: url('assets/copy.svg')"></div>
-    <div class="filter type" style="left:15px; top: 20px; background-image: url('assets/pegman_hi.gif')"></div>
-    <div class="filter date" style="left:15px; top: 120px; background-image: url('assets/pegman_map.gif')"></div>
+    <div class="filter type" style="left:15px; top: 70px; background-image: url('assets/pegman_hi.gif')"></div>
+    <div class="filter date" style="left:15px; top: 170px; background-image: url('assets/pegman_look.gif')"></div>
+    <div class="filter country" style="left:15px; top: 270px; background-image: url('assets/pegman_map.gif')"></div>
     <div class="checkbox-container" id="checkboxContainer-type">
         <div class="checkbox-item">
             <input type="checkbox" data-type="newcountry">
@@ -168,6 +176,10 @@
         <div class="checkbox-item">
             <input type="checkbox" data-type="gen1update">
             <img src="assets/gen1update.webp">
+        </div>
+        <div class="checkbox-item">
+            <input type="checkbox" data-type="gen2update">
+            <img src="assets/gen2update.webp">
         </div>
         <div class="checkbox-item">
             <input type="checkbox" data-type="gen3update">
