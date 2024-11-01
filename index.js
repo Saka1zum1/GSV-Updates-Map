@@ -12650,7 +12650,9 @@ toggle_line_color.addEventListener('click', function () {
   current_color_index = (current_color_index + 1) % color_keys.length
   const newTileUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
   ht.removeLayer(gsvLayer2);
+  ht.removeControl(opacityControl)
   gsvLayer2 = L.tileLayer(newTileUrl, { pane: "coveragePane" }).addTo(ht);
+  opacityControl=L.control.opacityControl([gsvLayer,gsvLayer2,gsvLayer3]).addTo(ht)
 
 });
 
