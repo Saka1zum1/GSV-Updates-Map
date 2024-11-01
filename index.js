@@ -11786,344 +11786,8 @@ const Sa = class Sa extends Mu {
   }
 }
   ;
-ze = new WeakMap;
-let Si = Sa;
-function Al(t) {
-  return new Mu(`${Jo}?hl=en-US&lyrs={layers}&style={style}&x={x}&y={y}&z={z}`, {
-    style: "",
-    ...t
-  })
-}
-class Iu extends Si {
-  constructor(e) {
-    const s = [];
-    (e.showOfficial ?? !0) && s.push({
-      frontend: $r.OFFICIAL,
-      tiled: !0,
-      imageFormat: Cr.PHOTOSPHERE
-    }),
-      (e.showUnofficial ?? !0) && (s.push({
-        frontend: $r.USER_PHOTO,
-        tiled: !0,
-        imageFormat: Cr.PHOTOSPHERE
-      }),
-        s.push({
-          frontend: $r.USER_UPLOADED,
-          tiled: !0,
-          imageFormat: Cr.PHOTOSPHERE
-        }));
-    const r = mg(new pg({
-      strategies: s,
-      unknownBool: !0,
-      unknownBool2: !0
-    }))
-      , n = vg(new bg({
-        showUserContent: !1,
-        useDetailedLines: e.useDetailedLines ?? !0
-      }));
-    super({
-      query: {
-        tile: {}
-      },
-      layers: [{
-        type: Bs.OVERLAY,
-        layerName: "svv",
-        layerOptions: [{
-          key: "cc",
-          value: r
-        }, {
-          key: "svl",
-          value: n
-        }]
-      }],
-      options: {
-        language: "en",
-        region: "US",
-        styles: [{
-          type: et.BASEMAP,
-          params: [{
-            key: "set",
-            value: "Roadmap"
-          }]
-        }, {
-          type: et.SMARTMAPS,
-          params: [{
-            key: "smartmaps"
-          }]
-        }]
-      },
-      renderOptions: {
-        scale: devicePixelRatio
-      }
-    })
-  }
-}
-function _r(t) {
-  return new Iu(t)
-}
-var is;
-class T0 extends L.GridLayer {
-  constructor(s) {
-    super(s);
-    p(this, is, null)
-  }
-  setUrl(s) {
-    i(this, is) != null && i(this, is).source.getKey() === s || (g(this, is, new L0(s)),
-      i(this, is).getHeader(),
-      this.redraw())
-  }
-  createTile(s, r) {
-    if (i(this, is) == null) {
-      const h = L.DomUtil.create("div", "leaflet-tile");
-      return queueMicrotask(() => r(void 0, h)),
-        h
-    }
-    const n = new AbortController
-      , o = n.signal
-      , a = document.createElement("img");
-    Object.assign(a, {
-      width: 256,
-      height: 256,
-      cancel: () => n.abort()
-    });
-    const l = i(this, is);
-    return (async () => {
-      try {
-        const h = await l.getZxy(s.z, s.x, s.y, o);
-        if (h) {
-          const u = new Blob([h.data], {
-            type: "image/png"
-          })
-            , c = window.URL.createObjectURL(u);
-          a.src = c,
-            await a.decode()
-        }
-        Object.assign(a, {
-          cancel: void 0
-        }),
-          r(void 0, a)
-      } catch (h) {
-        h instanceof Error && h.name !== "AbortError" && r(h)
-      }
-    }
-    )(),
-      a
-  }
-}
-is = new WeakMap;
-const Ol = {
-  same: [86, 159, 185, 132],
-  add: [255, 0, 255, 132],
-  remove: [255, 0, 0, 132]
-}
-  , j0 = {
-    same: [18, 158, 175, 206],
-    add: [255, 0, 255, 206],
-    remove: [255, 0, 0, 206]
-  };
-function Po(t) {
-  var s;
-  const e = document.createElement("canvas");
-  return e.width = t.width,
-    e.height = t.height,
-    (s = e.getContext("2d")) == null || s.drawImage(t, 0, 0),
-    e
-}
-function xl(t, e, s) {
-  const r = e.getContext("2d")
-    , n = s.getContext("2d")
-    , o = r.getImageData(0, 0, e.width, e.height)
-    , a = n.getImageData(0, 0, s.width, s.height);
-  for (let l = 0; l < o.data.length; l += 4)
-    o.data[l + 3] - a.data[l + 3] > 127 ? a.data.set(t.remove, l) : a.data[l + 3] - o.data[l + 3] > 127 ? a.data.set(t.add, l) : o.data[l + 3] > 1 && a.data[l + 3] > 1 && a.data.set(t.same, l);
-  return n.putImageData(a, 0, 0),
-    createImageBitmap(s)
-}
-function M0(t, e, s) {
-  const r = s.z - e.z
-    , n = t.width / 2 ** r
-    , o = {
-      x: n * (s.x - e.x * 2 ** r),
-      y: n * (s.y - e.y * 2 ** r)
-    }
-    , a = document.createElement("canvas");
-  return a.width = t.width,
-    a.height = t.height,
-    a.getContext("2d").drawImage(t, o.x, o.y, n, n, 0, 0, t.width, t.height),
-    a
-}
 
-class qi extends T0 {
-  constructor(e) {
-    super(e)
-  }
-  setFrom(e) {
-    this.options.from !== e.id && (this.options.from = e.id,
-      this.options.maxNativeZoom = e.max_zoom,
-      this.options.opacity = e.tile_type === "svmap" ? .5 : 1,
-      this.setUrl(e.pmtiles))
-  }
-}
-class I0 extends Iu {
-  constructor() {
-    super({
-      showOfficial: !0,
-      showUnofficial: !1,
-      useDetailedLines: !0
-    })
-  }
-  getTileRequest(e) {
-    const s = super.getTileRequest(e);
-    s.renderOptions.scale = 1;
-    const r = e.z >= 15 ? 4 + (e.z - 14) / 2 : e.z >= 10 ? 4 : 9;
-    let n = s.options.styles.find(a => a.type === et.STYLERS);
-    n == null && (n = new Os({
-      type: et.STYLERS,
-      params: [{
-        key: "styles",
-        value: ""
-      }]
-    }),
-      s.options.styles = [...s.options.styles, n]);
-    const o = n.params.find(a => a.key === "styles");
-    return o != null && (o.value = Au([{
-      elementType: "geometry.fill",
-      stylers: [{
-        color: "#569fb9",
-        weight: r
-      }]
-    }, {
-      elementType: "geometry.stroke",
-      stylers: [{
-        visibility: "off"
-      }]
-    }])),
-      s
-  }
-}
-const F0 = new I0;
-var Ur, hs, $e;
-class R0 extends L.GridLayer {
-  constructor(s) {
-    super(s);
-    p(this, Ur);
-    p(this, hs);
-    p(this, $e);
-    g(this, hs, new qi(s)),
-      g(this, $e, new qi(s))
-  }
-  createTile(s, r) {
-    if (this.options.from == null || this.options.to == null) {
-      const h = L.DomUtil.create("div", "leaflet-tile");
-      return queueMicrotask(() => r(void 0, h)),
-        h
-    }
-    const n = L.DomUtil.create("canvas", "leaflet-tile");
-    new Image,
-      new Image;
-    const o = this.getTileSize();
-    n.width = o.x,
-      n.height = o.y;
-    const a = n.getContext("2d")
-      , l = i(this, hs).options.maxNativeZoom ?? 0;
-    if (s.z > l && this.options.to === "now") {
-      const h = s.z - l
-        , u = Object.assign(at.point(Math.floor(s.x / 2 ** h), Math.floor(s.y / 2 ** h)), {
-          z: l
-        });
-      return Promise.all([new Promise((c, d) => {
-        i(this, hs).createTile(u, (f, y) => {
-          f ? d(f) : c(y)
-        }
-        )
-      }
-      ), new Promise((c, d) => {
-        i(this, $e).createTile(s, (f, y) => {
-          f ? d(f) : c(y)
-        }
-        )
-      }
-      )]).then(([c, d]) => {
-        const f = s.z >= 15 ? j0 : Ol;
-        return xl({
-          ...f,
-          remove: [0, 0, 0, 0]
-        }, M0(c, u, s), Po(d))
-      }
-      ).then(c => {
-        a.drawImage(c, 0, 0),
-          r(void 0, n)
-      }
-      ).catch(c => {
-        r(c)
-      }
-      ),
-        n
-    }
-    return Promise.all([new Promise((h, u) => {
-      i(this, hs).createTile(s, (c, d) => {
-        c ? u(c) : h(d)
-      }
-      )
-    }
-    ), new Promise((h, u) => {
-      i(this, $e).createTile(s, (c, d) => {
-        c ? u(c) : h(d)
-      }
-      )
-    }
-    )]).then(([h, u]) => xl(Ol, Po(h), Po(u))).then(h => {
-      a.drawImage(h, 0, 0),
-        r(void 0, n)
-    }
-    ).catch(h => {
-      console.error(h),
-        r(h)
-    }
-    ),
-      n
-  }
-  setRange(s, r) {
-    this.options.from === s.id && this.options.to === r.id || (this.options.from = s.id,
-      this.options.to = r.id,
-      r.id === "now" ? this.options.maxNativeZoom = r.max_zoom : this.options.maxNativeZoom = Math.min(s.max_zoom, r.max_zoom),
-      (s.tile_type === "vtdeprecated" || s.tile_type === "mts") && (r.id === "now" || r.tile_type === "svmap") && s.max_zoom > 9 && (s = {
-        ...s,
-        max_zoom: 9
-      }),
-      i(this, hs).setFrom(s),
-      r.id === "now" ? g(this, $e, F0) : (i(this, $e) instanceof qi || g(this, $e, new qi(i(this, Ur), this.options)),
-        i(this, $e).setFrom(r)),
-      this.redraw())
-  }
-}
-Ur = new WeakMap,
-  hs = new WeakMap,
-  $e = new WeakMap;
-const U0 = 17;
-async function Fu(t) {
-  const e = new cg({
-    context: {
-      client: "maps_sv.tactile"
-    },
-    tile: {
-      x: t.x,
-      y: t.y,
-      zoom: U0
-    }
-  })
-    , s = new URL("https://www.google.com/maps/photometa/ac/v1");
-  s.searchParams.set("pb", dg(e));
-  const r = await fetch(s.toString(), {
-    referrerPolicy: "no-referrer"
-  })
-    , n = JSON.parse((await r.text()).replace(/^\)\]\}'\n/, ""));
-  return new fg(n).panoramas.panoramas
-}
-function B0({ x: t, y: e, z: s }) {
-  const r = Math.pow(2, s);
-  return [t / r * 360 - 180, Math.atan(Math.sinh(Math.PI - 2 * Math.PI * (e + 1) / r)) / Math.PI * 180, (t + 1) / r * 360 - 180, Math.atan(Math.sinh(Math.PI - 2 * Math.PI * e / r)) / Math.PI * 180]
-}
+
 class N0 extends L.GridLayer {
   constructor(e = {}) {
     super({
@@ -12181,90 +11845,50 @@ class N0 extends L.GridLayer {
       o
   }
 }
-const Sl = new Ep
-  , _l = "https://d2atosiu2fuyaw.cloudfront.net/"
-  , El = new Si({
-    query: {
-      tile: {
-        size: 256
-      }
-    },
-    layers: [{
-      type: Bs.ROADMAP,
-      layerName: "m"
-    }],
-    options: {
-      language: "en",
-      region: "US",
-      styles: [{
-        type: et.BASEMAP,
-        params: [{
-          key: "set",
-          value: "Roadmap"
-        }]
-      }, {
-        type: et.SMARTMAPS,
-        params: [{
-          key: "smartmaps"
-        }]
-      }]
-    },
-    outputFormat: 0
-  })
-  , V0 = new Si({
-    query: {
-      tile: {
-        size: 256
-      }
-    },
-    layers: [{
-      type: Bs.ROADMAP,
-      layerName: "m"
-    }, {
-      type: Bs.TERRAIN_RELIEF,
-      layerName: "shading"
-    }, {
-      type: Bs.TERRAIN_CONTOURS,
-      layerName: "contours"
-    }],
-    options: {
-      language: "en",
-      region: "US",
-      styles: [{
-        type: et.BASEMAP,
-        params: [{
-          key: "set",
-          value: "Terrain"
-        }]
-      }, {
-        type: et.SMARTMAPS,
-        params: [{
-          key: "smartmaps"
-        }]
-      }, {
-        type: et.TERRAIN
-      }, {
-        type: et.TERRAIN_ROADS
-      }]
-    },
-    outputFormat: 0
-  })
-  , er = class er extends L.TileLayer {
-    constructor(e = {}) {
-      super(er.LIGHT_URL, e)
-    }
+
+L.tileLayer.baiDuTileLayer = function (param, options) { return new L.TileLayer.BaiDuTileLayer(param, options); };
+
+L.Control.OpacityControl = L.Control.extend({
+  options: {
+      position: 'topleft'
+  },
+
+  initialize: function (layers, options) {
+      this.layers = layers; 
+      L.setOptions(this, options);
+  },
+
+  onAdd: function (map) {
+      var container = L.DomUtil.create('div', 'leaflet-control-opacity');
+      container.style.backgroundColor = '#fff';
+      container.style.width = '110px';
+      container.style.height = '28px';
+      container.style.boxShadow = 'rgba(0, 0, 0, 0.3) 0px 1px 4px -1px';
+      container.style.borderRadius = '5px';
+      container.innerHTML = `
+          <input type="range" id="opacity-slider" min="0" max="100" value="100" step="10" style="margin:5px; width:100px">
+      `;
+
+      L.DomEvent.disableClickPropagation(container);
+      L.DomEvent.disableScrollPropagation(container);
+      
+      L.DomEvent.on(container.querySelector('#opacity-slider'), 'input', function (e) {
+          var opacity = e.target.value / 100;
+          this._currentOpacity = opacity;
+
+          this.layers.forEach(layer => {
+              layer.setOpacity(opacity);
+          });
+      }.bind(this));
+
+      return container;
   }
-  ;
-tn(er, "LIGHT_URL", "https://cartodb-basemaps-a.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png"),
-  tn(er, "DARK_URL", "https://cartodb-basemaps-a.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png");
-let ar = er;
-const Se = new URLSearchParams(location.hash.slice(1));
-function Qo(t, e) {
-  if (t == null)
-    return e;
-  const s = Number(t);
-  return Number.isFinite(s) ? s : e
-}
+});
+
+L.control.opacityControl = function(opts) {
+    return new L.Control.OpacityControl(opts);
+};
+
 const roadmapBaseLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:l|p.v:off,s.t:1|s.e:g.s|p.v:on!5m1!5f1.5");
 const roadmapLabelsLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35",
   { pane: "labelPane" });
@@ -12302,13 +11926,11 @@ const overlayMaps = {
   "Panoramas(requires close zoom 16+)": panoramasLayer
 };
 
-const q0 = Qo(Se.get("zoom"), 2)
-  , kl = (Se.get("center") ?? "0,0").split(",")
-  , H0 = [Qo(kl[0], 0), Qo(kl[1], 0)]
-  , ht = L.map("map", {
+const 
+  ht = L.map("map", {
     minZoom: 1,
-    zoom: q0,
-    center: H0,
+    center:[0,120],
+    zoom:2,
     preferCanvas: true,
     zoomControl: false,
     worldCopyJump: true,
@@ -12354,12 +11976,13 @@ gsvLayer2.addTo(ht);
 panoramasLayer.addTo(ht).bringToFront()
 L.control.layers(baseMaps, overlayMaps, { position: "bottomleft" }).addTo(ht);
 drawControl.addTo(ht)
+var opacityControl=L.control.opacityControl([gsvLayer,gsvLayer2,gsvLayer3]).addTo(ht)
 
 let isRangeMode = true
 let isHeatmap = false
 let isCluster=true
 let update_data
-let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[],poly:[]}
+let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[],poly:[],country:null}
 let filterdata
 let markers=[]
 let heatmapLayer
@@ -12402,15 +12025,17 @@ function drawMarkers(data) {
   markers = []; 
 
   data.forEach(item => {
-      const { lat, lng, address, author, update_type, report_time, date, sv_link,elevation } = item;
+      const { lat, lng, author, update_type, report_time, date, sv_link,elevation } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
       const popupContent = `
-          <strong>update type:</strong> ${update_type}<br>
-          <strong>pano date:</strong> ${date}<br>
-          <strong>elevation:</strong> ${elevation.toFixed(2)}m<br>
-          <strong>report time:</strong> ${localTime}<br>
-          <strong>reporter:</strong> ${author}
-      `;
+        <strong>update type:</strong> ${update_type.map(type => 
+          `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
+        ).join(' ')}<br>
+        <strong>pano date:</strong> ${date}<br>
+        <strong>elevation:</strong> ${elevation.toFixed(2)}m<br>
+        <strong>report time:</strong> ${localTime}<br>
+        <strong>reporter:</strong> ${author}`;
+  
       const marker = L.marker([lat, lng]);
       marker.on('mouseover', function () {
           this.bindPopup(popupContent).openPopup();
@@ -12698,12 +12323,14 @@ function applyFilters() {
       
       const inMonthRange = filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
 
+      const matchesCountry = !filter_check.country || item.country===filter_check.country.toUpperCase()
+
       let pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
         const point = L.latLng(item.lat, item.lng);
         const poly = L.polygon(latlngs);
         return poly.contains(point);
       }));
-      return inDateRange && matchesType && inMonthRange && pointInPolygon;
+      return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry;
   });
 
   if (filterdata) {
@@ -12721,5 +12348,26 @@ filter_date.addEventListener('click',function(){
   else {
     ismp=false
     document.getElementById('monthpicker').style.display='none'}
+  
+})
+
+const filter_country=document.querySelector('.filter.country')
+const filter_flag = document.createElement('img');
+filter_flag.className='filter-flag'
+filter_country.addEventListener('click',function(){
+  if(!filter_check.country){
+    const countryCode = prompt("please enter a country code：")
+    if (countryCode) {
+      filter_check.country = countryCode;
+      filter_flag.src = `${getFlagUrl(countryCode)}`;
+      filter_country.appendChild(filter_flag)
+      applyFilters()
+    }
+}
+  else {
+    filter_check.country=null
+    filter_country.removeChild(filter_flag)
+    applyFilters()
+    }
   
 })
