@@ -113427,5 +113427,199 @@
         "date": "Oct 2024",
         "country": "US",
         "elevation": 525.0629
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/hQuMxnMsv6QpjWSa6",
+        "report_time": 1730403698,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "UpcixLt2z9RtyyJp6lguIQ",
+        "lat": 22.964808975703292,
+        "lng": 89.49859135030248,
+        "date": "May 2024",
+        "country": "BD",
+        "elevation": 9.2639475
+    },
+    {
+        "update_type": [],
+        "sv_link": "https://maps.app.goo.gl/gEBu1Hxd9TmYLxR6A",
+        "report_time": 1730405896,
+        "author": "Frost",
+        "panoid": "6TzuRPoVV4AgYj6ivcCeoQ",
+        "lat": 49.03410580075287,
+        "lng": -104.87465360858218,
+        "date": "Sep 2024",
+        "country": "CA",
+        "elevation": 668.3636
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ji9UVAGQfUmFD3RP8",
+        "report_time": 1730411367,
+        "author": "Diamond Armor Steve",
+        "panoid": "-CNAEcrLzN-bjLM_z0KMyQ",
+        "lat": 48.97356052272772,
+        "lng": -99.82701501956431,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 645.7035
+    },
+    {
+        "update_type": [
+            "newstreet"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Ax9jYqdaAq9GdwkZ8",
+        "report_time": 1730411367,
+        "author": "Diamond Armor Steve",
+        "panoid": "_dp4ZHBEm3nrAQk89BpeFw",
+        "lat": 48.86130665616098,
+        "lng": -99.61747305767913,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 553.36224
+    },
+    {
+        "update_type": [
+            "gen1update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MpFD5rbs6pU3XVW58",
+        "report_time": 1730411367,
+        "author": "Diamond Armor Steve",
+        "panoid": "1wLAJtoVrjbv2-zS6f7lLg",
+        "lat": 48.95253142140963,
+        "lng": -99.3786395216314,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 485.71884
+    },
+    {
+        "update_type": [
+            "newstreet"
+        ],
+        "sv_link": "https://maps.app.goo.gl/EYN6L3Bib4hCgF4UA",
+        "report_time": 1730411367,
+        "author": "Diamond Armor Steve",
+        "panoid": "yDaap5S2FDyO-lkA9hO79A",
+        "lat": 48.84001940016193,
+        "lng": -99.75099010655147,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 593.7546
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/sKTL5nQGh6z9Rv7N9",
+        "report_time": 1730411083,
+        "author": "Diamond Armor Steve",
+        "panoid": "gKkrm8Ap36ibG6_4Tfm3Uw",
+        "lat": 40.597315849937615,
+        "lng": -85.07615237365059,
+        "date": "Oct 2024",
+        "country": "US",
+        "elevation": 263.66068
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/egTLR1vihCiSTXy68",
+        "report_time": 1730411022,
+        "author": "Diamond Armor Steve",
+        "panoid": "oDLiu9K59fyiWQ2RxV3klA",
+        "lat": 42.25994511939466,
+        "lng": -75.2285333285419,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 546.17267
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/orF629Sq7G8qkA386",
+        "report_time": 1730410978,
+        "author": "Diamond Armor Steve",
+        "panoid": "lHfnqwxi6wlfidjrxEtSOg",
+        "lat": 37.062064656259594,
+        "lng": -79.30358304190803,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 240.12773
+    },
+    {
+        "update_type": [
+            "newstreet"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fGqs3Ys4h25idxwY6",
+        "report_time": 1730409442,
+        "author": "Diamond Armor Steve",
+        "panoid": "q3CroPjvHCevFz5RWnQlWw",
+        "lat": 44.32947562064161,
+        "lng": -84.77784584039483,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 350.69006
+    },
+    {
+        "update_type": [
+            "gen1update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HQMV83P9A51tUW3H8",
+        "report_time": 1730409336,
+        "author": "Diamond Armor Steve",
+        "panoid": "l07gUP8zt2JneJyEQwqN7Q",
+        "lat": 42.49056894865674,
+        "lng": -88.08669043242199,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 249.59346
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/cGW3EVCiXQiuQNKg8",
+        "report_time": 1730409254,
+        "author": "Diamond Armor Steve",
+        "panoid": "12OnPXVUznfuhCWv0lotzg",
+        "lat": 44.38380854505168,
+        "lng": -97.19903692322514,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 545.99274
+    },
+    {
+        "update_type": [
+            "gen1update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/dwxbcQe376LPswSa6",
+        "report_time": 1730409062,
+        "author": "Diamond Armor Steve",
+        "panoid": "GQnxxa0dOeA3d2us44OdbA",
+        "lat": 36.83602293843721,
+        "lng": -120.69879310834646,
+        "date": "Sep 2024",
+        "country": "US",
+        "elevation": 82.491844
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6i16HzFoAGp1Jtka7",
+        "report_time": 1730408787,
+        "author": "Diamond Armor Steve",
+        "panoid": "rB0cesLIZK5hYP8PpQut8Q",
+        "lat": 34.17433970230975,
+        "lng": -104.99773471718245,
+        "date": "Oct 2024",
+        "country": "US",
+        "elevation": 1587.1108
     }
 ]
