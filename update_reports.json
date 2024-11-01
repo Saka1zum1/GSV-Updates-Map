@@ -113621,5 +113621,4249 @@
         "date": "Oct 2024",
         "country": "US",
         "elevation": 1587.1108
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/gudh1mgoFJBNnoERA",
+        "report_time": 1730444917,
+        "author": "Tobetelogi",
+        "panoid": "kQMm0N-bpmVOxcUpgzzmGQ",
+        "lat": 60.00822168949939,
+        "lng": 6.5582293885981615,
+        "date": "Sep 2024",
+        "country": "NO",
+        "elevation": 117.409485
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/eeq4khsKnyZxTrnf6",
+        "report_time": 1730444917,
+        "author": "Tobetelogi",
+        "panoid": "kcZ_Ymfvfk5pyrs-HJ8HVg",
+        "lat": 59.683648371627065,
+        "lng": 6.7584804346350955,
+        "date": "Sep 2024",
+        "country": "NO",
+        "elevation": 252.19725
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/GcVnvfasQgXH8xzX6",
+        "report_time": 1730441171,
+        "author": "jpeters",
+        "panoid": "aPhc4HlZHutT81eSKR1JpQ",
+        "lat": 39.319050862836384,
+        "lng": 44.053345473065825,
+        "date": "Dec 2023",
+        "country": "TR",
+        "elevation": 2402.9941
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/DmZkHAJXDvVaeWPt8",
+        "report_time": 1730435707,
+        "author": "DerZiggi",
+        "panoid": "FrC3klFPhvqVMFSR1O5dQA",
+        "lat": -27.625721084941695,
+        "lng": 30.71346166148453,
+        "date": "Aug 2024",
+        "country": "ZA",
+        "elevation": 1319.0653
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/CFxpksqxJCAQydMG7",
+        "report_time": 1730424956,
+        "author": "chise",
+        "panoid": "1_DD8IfL60xk48zESQWmMA",
+        "lat": -31.31448961096226,
+        "lng": -60.03278639931187,
+        "date": "Sep 2024",
+        "country": "AR",
+        "elevation": 82.61794
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/FxAwJgGhHoiRrgD88",
+        "report_time": 1730424956,
+        "author": "chise",
+        "panoid": "0VcxuyAvm8XEnnkvt_-BCw",
+        "lat": -31.111440021128157,
+        "lng": -59.845863355598475,
+        "date": "Oct 2024",
+        "country": "AR",
+        "elevation": 37.9682
+    },
+    {
+        "update_type": [
+            "newisland",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ZuV9bZmih9hctH5i6",
+        "report_time": 1730455413,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "70vEbREIiJI12fGUNfsbEw",
+        "lat": 11.1302058155883,
+        "lng": 72.72227257854685,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 27.231842
+    },
+    {
+        "update_type": [
+            "newisland",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/jzqKii7sARDyaup3A",
+        "report_time": 1730455372,
+        "author": "mpk",
+        "panoid": "5PlDf5p389Ybye6b_-0ChQ",
+        "lat": 10.848178953497378,
+        "lng": 72.18902094865832,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 22.96061
+    },
+    {
+        "update_type": [
+            "newisland",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Wxb8aBP1o9rzAAAy5",
+        "report_time": 1730455372,
+        "author": "mpk",
+        "panoid": "2AvOeNV1s7IYOT1K0p4q8Q",
+        "lat": 11.185449586661695,
+        "lng": 72.76228026780005,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 26.073473
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newisland",
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/oDhZmNNqFivbeHw67",
+        "report_time": 1730455150,
+        "author": "mpk",
+        "panoid": "_eQn6SJ-jZ-viEa2DasfXw",
+        "lat": 10.56760754156687,
+        "lng": 72.63930369464879,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 23.357656
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/bTWnjUwHEVHh7zZa9",
+        "report_time": 1730454730,
+        "author": "mpk",
+        "panoid": "c4Np-R-VkOYQAcldRzLmNQ",
+        "lat": 22.027185372101265,
+        "lng": 78.12525128494595,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 515.17926
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/CYxwS5zb9F4gu67m8",
+        "report_time": 1730129125,
+        "author": "mpk",
+        "panoid": "mZBxbVo7SU0-IIB5sdDiLw",
+        "lat": 23.234126857783238,
+        "lng": 77.46675558576386,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 511.9659
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HAbzZZASsYaRnE1cA",
+        "report_time": 1730038632,
+        "author": "mpk",
+        "panoid": "9DKoqyOWgbzheakkEz3gGQ",
+        "lat": 25.651727171047693,
+        "lng": 92.00784185532184,
+        "date": "Sep 2024",
+        "country": "IN",
+        "elevation": 929.03033
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HZ1951tRa2PuiiX28",
+        "report_time": 1730028957,
+        "author": "Steve",
+        "panoid": "031ZZUzBDRg4a_LKYM2_lQ",
+        "lat": 25.54544239915411,
+        "lng": 92.10543423298967,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 1279.4053
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/VvZszhGM5CmrFgek9",
+        "report_time": 1729506684,
+        "author": "mpk",
+        "panoid": "eKegQU5HXt4g4Wf3lvJOkg",
+        "lat": 24.01371502858036,
+        "lng": 91.83592293155576,
+        "date": "Sep 2024",
+        "country": "IN",
+        "elevation": 83.50856
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/itmWRJ6sabAdjfVMA",
+        "report_time": 1729163802,
+        "author": "mpk",
+        "panoid": "HDv7e6NOV6ki3unAzkD12A",
+        "lat": 18.441631168326474,
+        "lng": 78.85331933242806,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 348.94742
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/EkD4bRBno9bcBUTw9",
+        "report_time": 1729035492,
+        "author": "mpk",
+        "panoid": "5o5FPx7bh1iA0s0tbPnWCg",
+        "lat": 24.04500051495555,
+        "lng": 92.19801430883236,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 76.90711
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/3HVnz6yqNEs12hkD8",
+        "report_time": 1729026542,
+        "author": "mpk",
+        "panoid": "iPxhYKNey_jO7wnElZLcsg",
+        "lat": 24.163713341135725,
+        "lng": 92.10752428190693,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 62.273964
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/b1XRr8rwM4JDSh3z6",
+        "report_time": 1728894059,
+        "author": "mpk",
+        "panoid": "wmNV3uJTT4Ei3yKANNqG6Q",
+        "lat": 18.449603282038254,
+        "lng": 79.14415807086772,
+        "date": "Sep 2024",
+        "country": "IN",
+        "elevation": 302.70462
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/GZ1qZoS9YXvz2RTT6",
+        "report_time": 1728840914,
+        "author": "Steve",
+        "panoid": "NMpZmuxTCLMCAbEOfallIg",
+        "lat": 24.237926810481124,
+        "lng": 92.29617538216004,
+        "date": "Oct 2024",
+        "country": "IN",
+        "elevation": 80.19891
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6vSk17T7QCGHdJA8A",
+        "report_time": 1727363733,
+        "author": "mpk",
+        "panoid": "3kaqCGJLGJ6n4I2SkFpGSA",
+        "lat": 29.05802139794752,
+        "lng": 75.71561771297182,
+        "date": "Sep 2024",
+        "country": "IN",
+        "elevation": 232.27109
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/9QtEtnWKrkUZDzwu5",
+        "report_time": 1727363733,
+        "author": "mpk",
+        "panoid": "hCUf1lnwN9kLUtZCECoX7w",
+        "lat": 16.055892678266638,
+        "lng": 73.45984013322779,
+        "date": "Aug 2024",
+        "country": "IN",
+        "elevation": 32.98834
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Y9Qp2z2MMEmCZM1ZA",
+        "report_time": 1727270363,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "uEvz1rp7jBwXU9Dj5jQm7A",
+        "lat": 34.208891414983114,
+        "lng": 77.6192699591933,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 4123.141
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/QBctgSwTco4A1e4N9",
+        "report_time": 1727028966,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "YD0q2sJk6XsCJPEJKL8UDw",
+        "lat": 25.15949248412897,
+        "lng": 80.76885788368651,
+        "date": "Sep 2024",
+        "country": "IN",
+        "elevation": 174.83438
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nc7MCdrqX3DC9z7t5",
+        "report_time": 1727028966,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "dUZSah61MgfefCHrPSoYuQ",
+        "lat": 27.45061401404952,
+        "lng": 79.48928877178436,
+        "date": "Sep 2024",
+        "country": "IN",
+        "elevation": 172.538
+    },
+    {
+        "update_type": [
+            "newcountry"
+        ],
+        "sv_link": "https://maps.app.goo.gl/jAENVEjuYgpwtxUw8",
+        "report_time": 1726992145,
+        "author": "mpk",
+        "panoid": "5c3rKcih1Riy9-gG4npHOg",
+        "lat": 16.049401137474955,
+        "lng": 73.5446427066351,
+        "date": "Sep 2024",
+        "country": "IN",
+        "elevation": 162.57353
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/FKSFD5srHvrjQbmX9",
+        "report_time": 1725878992,
+        "author": "mpk",
+        "panoid": "72nkPiVc7YKDU2sWwOKWOQ",
+        "lat": 17.224957717172156,
+        "lng": 73.85671144638756,
+        "date": "Aug 2024",
+        "country": "IN",
+        "elevation": 910.3259
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/TrGg9acp71zmynys8",
+        "report_time": 1725561286,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "rzjsKyxr_7-7bbeHEgL6OQ",
+        "lat": 6.600534991869136,
+        "lng": 4.495811201167479,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 53.46402
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/YzMXHxcwFc4L77ss6",
+        "report_time": 1725560909,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "GTdiki_hIIGGug6k8gWifQ",
+        "lat": 7.6193352616144665,
+        "lng": 4.74197566672338,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 370.93967
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/pFbGJWU69PX7L9BF9",
+        "report_time": 1725377010,
+        "author": "tariksissemongko",
+        "panoid": "PPb40xrabMibNVtfFhuHmw",
+        "lat": 28.466050618766676,
+        "lng": 79.64549764958966,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 201.50877
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/1LPD6rskCsjdJQB1A",
+        "report_time": 1725376802,
+        "author": "tariksissemongko",
+        "panoid": "TwXKojzg9FiSCYfurYLw2Q",
+        "lat": 29.450720536119086,
+        "lng": 74.45923051586882,
+        "date": "Aug 2024",
+        "country": "IN",
+        "elevation": 220.84976
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/d3a9N7knyDnET1R3A",
+        "report_time": 1725313290,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "E9tt0iRczYhvEZkD_AJs0w",
+        "lat": 4.739835809690178,
+        "lng": 6.855850089437832,
+        "date": "Jun 2024",
+        "country": "NG",
+        "elevation": 3.7344072
+    },
+    {
+        "update_type": [
+            "newregion",
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nRt7T2Axxowjhbi46",
+        "report_time": 1725312389,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "w9-Ocww3XXmzDuxdR_IGfQ",
+        "lat": 6.598291211941808,
+        "lng": 3.50048599104822,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 13.70659
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/68paNCWZRYH2cKGW7",
+        "report_time": 1725311835,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "1cUB09SRMYKIac6eRY_SYg",
+        "lat": 9.16252119401112,
+        "lng": 7.36568991455433,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 442.39032
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/GkNBNe1mD6qbcQam7",
+        "report_time": 1725268765,
+        "author": "macca",
+        "panoid": "LrGFBx7C23YyfCA7vvo64Q",
+        "lat": 4.546287633867529,
+        "lng": 8.00278567221898,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 14.108806
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/kvwX4TUxR9xX8EAQ6",
+        "report_time": 1725126085,
+        "author": "mpk",
+        "panoid": "wQYL5LSZptJ3NE2pzCgalw",
+        "lat": 30.87750049562081,
+        "lng": 76.12691148900775,
+        "date": "Aug 2024",
+        "country": "IN",
+        "elevation": 287.51523
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/w3sSc8jBq7ydrztdA",
+        "report_time": 1725114721,
+        "author": "Alok",
+        "panoid": "A9gV0R3DIe7cRZRtMN3Qxg",
+        "lat": 12.361155063794968,
+        "lng": 92.77030150817679,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 36.80531
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newsquare",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fpTU9GYVbJDa5wGk6",
+        "report_time": 1725055074,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "wx4_JXWbQxlgcjfWFZWPFg",
+        "lat": 12.464567071252274,
+        "lng": 92.89541685025985,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 43.061733
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NR6vXkDR6xZKwtce8",
+        "report_time": 1725041417,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "SLHMARrYpX-z8sHF1OsI7A",
+        "lat": 6.471049707659468,
+        "lng": 3.254284710449857,
+        "date": "Aug 2024",
+        "country": "NG",
+        "elevation": -1.9629793
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/WgtcJ22Duei1k9yA7",
+        "report_time": 1725021784,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "fkdnkWncsz9eAlhat6MJJg",
+        "lat": 12.701317906242341,
+        "lng": 92.88930508577431,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 41.408676
+    },
+    {
+        "update_type": [
+            "newisland",
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/D7eJSBzHegdrZjVB9",
+        "report_time": 1724957791,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "ibZdWO6KJ9JL6lSwFV64Xw",
+        "lat": 12.13781996584847,
+        "lng": 92.79427430361324,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 27.088224
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/R3AW2HBjcb8oyFZJ6",
+        "report_time": 1724932369,
+        "author": "tariksissemongko",
+        "panoid": "giLw69ychTKgg-kOeOxlrw",
+        "lat": 28.68168385261243,
+        "lng": 79.44584290483903,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 207.17899
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/B3nW76uNWUTqA5LB7",
+        "report_time": 1724932128,
+        "author": "tariksissemongko",
+        "panoid": "d6c5yC_Xw5CyHwvKsHo_EA",
+        "lat": 25.082712378864898,
+        "lng": 72.9837229487104,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 286.27496
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ZZVzd3opn2zXcrqz5",
+        "report_time": 1724932003,
+        "author": "tariksissemongko",
+        "panoid": "LKPVkDeiadoNWDScIWEqug",
+        "lat": 22.857969172681088,
+        "lng": 81.67732929820087,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 884.69855
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/kebVQaVrh5cjbM3n8",
+        "report_time": 1724931184,
+        "author": "Alok",
+        "panoid": "AWwXHjw9FWo-3uCl8asG1g",
+        "lat": 10.6782700283952,
+        "lng": 92.54309961886403,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 81.43736
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ZHPTKRRyRXf4GMqh7",
+        "report_time": 1724867571,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "a9gpErll_ArsCYMhcOnkgw",
+        "lat": 11.71215572441885,
+        "lng": 92.61461671207408,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 45.665356
+    },
+    {
+        "update_type": [
+            "newsquare",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/M9xUnYfcKgxRMZee8",
+        "report_time": 1724867571,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "mccjuDFesk3qE-sTL5JoMg",
+        "lat": 11.667725348778523,
+        "lng": 92.65289537449613,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 51.385353
+    },
+    {
+        "update_type": [
+            "newsquare",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/PkdXdMKpDhMRBQJt9",
+        "report_time": 1724867571,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "0cs1ntTk7WNL-TNwoaSpeA",
+        "lat": 11.710300685424714,
+        "lng": 92.71371174717697,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 69.41297
+    },
+    {
+        "update_type": [
+            "newsquare",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/hcBkar8XbtZxxd5b6",
+        "report_time": 1724867571,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "c0Y2GBhgpzRLEpTAs_O1XA",
+        "lat": 11.581918173415888,
+        "lng": 92.65603073452782,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 47.534897
+    },
+    {
+        "update_type": [
+            "newsquare",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/DYPZ3tNq7wbF8VBw8",
+        "report_time": 1724867571,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "zJgVdZBT3_r9QHdFpBi4xw",
+        "lat": 11.630839894773688,
+        "lng": 92.71301081027383,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 77.60805
+    },
+    {
+        "update_type": [
+            "newsquare",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/zPKZDj8HDQCPBPSq7",
+        "report_time": 1724867571,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "FsVMIXVWh2Bqaj7oCYvz4A",
+        "lat": 11.650836060983924,
+        "lng": 92.74811428872049,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 139.37926
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/TRfFddfZUAFJ3mTe9",
+        "report_time": 1724620611,
+        "author": "mpk",
+        "panoid": "JK1_P25bKekf9tDG8J_Wng",
+        "lat": 29.22881541707273,
+        "lng": 75.55331128103757,
+        "date": "Aug 2024",
+        "country": "IN",
+        "elevation": 229.02988
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newstreet"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HbwF7tp8WH4oAFV87",
+        "report_time": 1724619375,
+        "author": "slashP",
+        "panoid": "7jvj6fummJpYxroldAMkCg",
+        "lat": 22.09043145672751,
+        "lng": 69.70886300790058,
+        "date": "Aug 2024",
+        "country": "IN",
+        "elevation": 120.7571
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/o3DyzM9LtMfFssMKA",
+        "report_time": 1724619375,
+        "author": "slashP",
+        "panoid": "R71LsHXiENmLemcaoOgiIw",
+        "lat": 31.24569903177946,
+        "lng": 76.93410507767516,
+        "date": "Aug 2024",
+        "country": "IN",
+        "elevation": 1553.3146
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/L64qzojTQUV3zW5e7",
+        "report_time": 1724579569,
+        "author": "mpk",
+        "panoid": "ZrBvGYWTacWmU-o3--OY2A",
+        "lat": 24.357261780261908,
+        "lng": 71.4451580385492,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 32.748398
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MNz1dtfM2Cj6xygU8",
+        "report_time": 1724450129,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "_g12hUT9cSOsUGGCfh0EEw",
+        "lat": 9.199557288192379,
+        "lng": 7.175330229674885,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 431.28354
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/sPXnqYGG6TxQF6qHA",
+        "report_time": 1724436565,
+        "author": "Alex*",
+        "panoid": "P-3JolW54nuq9YjOZhBMlw",
+        "lat": 8.969356256850476,
+        "lng": 7.422252175195216,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 475.5152
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/s24FLL1L1sHYwR7U9?g_st=ac",
+        "report_time": 1724394006,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "1-hgoGl_H9IlzA7TcMhBGA",
+        "lat": 10.655327186229679,
+        "lng": 92.57899497451392,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 31.830376
+    },
+    {
+        "update_type": [
+            "newbadcam",
+            "newregion",
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/sEMzzfQESzQZQV5W7?g_st=ac",
+        "report_time": 1724310213,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "uNxZcfY1zA_COxOebfDycA",
+        "lat": 5.216981580331732,
+        "lng": 6.205092800882774,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 18.349745
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/uw27UK5DaRCU4vRr5?g_st=ac",
+        "report_time": 1724309154,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "poZpMx2TqO7uppxwaS_5CQ",
+        "lat": 12.878463811241371,
+        "lng": 92.91004359987403,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 27.171719
+    },
+    {
+        "update_type": [
+            "newisland",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/4h2BNBCa9Z6FckM97",
+        "report_time": 1724307764,
+        "author": "hakesh5boni",
+        "panoid": "ypVa8KYO2cJBC3vbLvWuCw",
+        "lat": 10.73612499580957,
+        "lng": 92.56604815758342,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 37.046177
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ez6pK3DoSqfaoYgL8",
+        "report_time": 1723985277,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "T1gxcV5GmHnXfenOoAv4Jg",
+        "lat": 4.9931037384263375,
+        "lng": 8.330155488443742,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 57.37696
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/XyfD2Trh2ohz936M6",
+        "report_time": 1723840837,
+        "author": "Alex*",
+        "panoid": "I62ErXhiI-cg_NRL8DLbVQ",
+        "lat": 7.4437763417603735,
+        "lng": 4.351285612228565,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 226.57304
+    },
+    {
+        "update_type": [
+            "newbadcam",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/zSA7ooTmxEngBSQTA",
+        "report_time": 1723741845,
+        "author": "Alex*",
+        "panoid": "AJ5wlzs76deYS8buN_E30A",
+        "lat": 5.159003341599541,
+        "lng": 7.709980407475851,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 87.709526
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/BCfNzg8Xq7ezokoK9",
+        "report_time": 1723708651,
+        "author": "Alex*",
+        "panoid": "x7WegSk7I6uYSsx5u0YnvQ",
+        "lat": 6.668914361364744,
+        "lng": 6.316730767919427,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 369.1272
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/2wpCyxwyQsQ2vbC89",
+        "report_time": 1723706900,
+        "author": "mpk",
+        "panoid": "KNpdE1Xrh_6gDp78RtKaFw",
+        "lat": 32.14416824475273,
+        "lng": 78.23534123861033,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 3800.9316
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/5cKKSR2fnRVdXXTYA",
+        "report_time": 1723706900,
+        "author": "mpk",
+        "panoid": "vD69QfFQdw5amVFsAW3l6w",
+        "lat": 32.21389040202479,
+        "lng": 78.11534826698188,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 4713.0474
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/WADyoM5K9tfsd6os8",
+        "report_time": 1723706900,
+        "author": "mpk",
+        "panoid": "Yqb9p9dE57d15eihPo2KMg",
+        "lat": 32.42265156439445,
+        "lng": 77.9358535622007,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 3881.863
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/T7sWTFhXZ5tFFmMq8",
+        "report_time": 1723625770,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "yVHD3PsVmGfv2ZMSRLb13Q",
+        "lat": 5.236034320080941,
+        "lng": 6.749436305063934,
+        "date": "Jun 2024",
+        "country": "NG",
+        "elevation": 34.756104
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/pnwCGMjN1zvKxgx8A",
+        "report_time": 1723485875,
+        "author": "mpk",
+        "panoid": "B5u2tSAvfD7Us30lwN9hwQ",
+        "lat": 32.09125642961232,
+        "lng": 78.21344303715169,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 3886.7053
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/E1wwFa3SdiiN9VTw6",
+        "report_time": 1723485491,
+        "author": "mpk",
+        "panoid": "ooLQOaNRsrnjPUgX5_hq_g",
+        "lat": 32.39166788265341,
+        "lng": 77.25811993601445,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 3406.775
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/XcJxL5XoSAyn6bBp9",
+        "report_time": 1723441981,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "apbzceSxuEym5lWyDZL-kw",
+        "lat": 34.06648656537443,
+        "lng": 77.54534437377471,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3547.4192
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/xtqnA1RQDhJFozH19",
+        "report_time": 1723370586,
+        "author": "Alok",
+        "panoid": "E9-UXTIdL25zYI-iMduP_Q",
+        "lat": 24.68348548941689,
+        "lng": 93.99810755998138,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 808.008
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RSER4gW4t3QdRzTx7",
+        "report_time": 1723335154,
+        "author": "mpk",
+        "panoid": "hNEHUgKFpFF-D7LNnze1wg",
+        "lat": 19.865747673655616,
+        "lng": 72.79546518945115,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 24.676588
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/7CSoCdgq6YPt87cR7",
+        "report_time": 1723332665,
+        "author": "Duskron",
+        "panoid": "rVPkMcGUxk22CUFdDwxnVA",
+        "lat": 24.325306949540202,
+        "lng": 92.83683123109192,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 529.5883
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nqhk6huzAsavtXHW9",
+        "report_time": 1723325891,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "n0jtb6M8SAqDPB_Hy7tcaA",
+        "lat": 11.72453313944301,
+        "lng": 92.68981092653956,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 42.876266
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/pFsygS3DR2tcQJSD8",
+        "report_time": 1723312101,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "Pp5CvTJCMCI5iO3zbg45mg",
+        "lat": 31.556657026889372,
+        "lng": 77.41476604241663,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 2598.0334
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/vxeA6jzTjtoL3iy16",
+        "report_time": 1723311977,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "CWUbAxJ5qrrH_iJTUZ9_iA",
+        "lat": 31.847674997493975,
+        "lng": 77.16247134222426,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1115.6692
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fxa7xYyCRGaX2qp56",
+        "report_time": 1723297655,
+        "author": "Alex*",
+        "panoid": "dvBfhfJJY6UtcYLMmQkzoA",
+        "lat": 4.56127088860512,
+        "lng": 7.453050005771899,
+        "date": "Jun 2024",
+        "country": "NG",
+        "elevation": 11.262711
+    },
+    {
+        "update_type": [
+            "newsquare",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/gLqsbp5euG7Yvdqk6",
+        "report_time": 1723186193,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "6VFQW_jFlLSXjZPfQl7fMQ",
+        "lat": 11.719471703130061,
+        "lng": 92.6557359733815,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 64.37169
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/2dE14Vpm9GDchiNe6",
+        "report_time": 1723186193,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "33yVgpgcEJkD7ICqJ1wl7w",
+        "lat": 11.680195879995376,
+        "lng": 92.6288464347182,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 43.29147
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ku285e51BsRowzx1A",
+        "report_time": 1723186193,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "vzSnZu5gF763wjYi04xqlQ",
+        "lat": 11.674717507835258,
+        "lng": 92.64874052660191,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 106.29041
+    },
+    {
+        "update_type": [
+            "newbadcam",
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HTXtT1CuJVsAoGi79",
+        "report_time": 1723131523,
+        "author": "Alex*",
+        "panoid": "68Lkzc2LRZNDpJNqz-7ZRw",
+        "lat": 7.006567990520502,
+        "lng": 6.7312949719519475,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 36.350662
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/iAnBzqnsyUR876wCA",
+        "report_time": 1723130010,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "GHXtLlPq1CkgFJ_7Y29S_w",
+        "lat": 11.652487276999997,
+        "lng": 92.7317833583364,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 45.819817
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ZbU7FAxSNRXoe4dh6",
+        "report_time": 1722841089,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "fnhOKDG37ipYuzv06716TQ",
+        "lat": 31.958935755090046,
+        "lng": 77.11401713766854,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1211.9897
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/TqEezQNpZB7jnQVH7",
+        "report_time": 1722529031,
+        "author": "mpk",
+        "panoid": "47c7iG84TmVyE9b1poGZKw",
+        "lat": 26.03762071439055,
+        "lng": 80.2396796257815,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 147.93887
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MBoXr3JgcbBbzgbj7",
+        "report_time": 1722501953,
+        "author": "Alok",
+        "panoid": "WDaU2K6VmtgPsAkKVfPxmA",
+        "lat": 20.030645127870226,
+        "lng": 72.75101433116005,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 30.890427
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NdSxigtWv6nTNQLU8",
+        "report_time": 1722501526,
+        "author": "Alok",
+        "panoid": "9Asu-Eup-DtsKkXRKDdtpQ",
+        "lat": 22.479926896491573,
+        "lng": 92.96756983022225,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 493.06427
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/yp1Y2nXPTN56QoyJA",
+        "report_time": 1722501254,
+        "author": "Alok",
+        "panoid": "ttaVWXQNAgme0m6maSODqw",
+        "lat": 30.853423547447658,
+        "lng": 77.07058914827228,
+        "date": "Jul 2024",
+        "country": "IN",
+        "elevation": 1487.3494
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/y8qD3P6nL2SEYFSL6",
+        "report_time": 1722362035,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "OWh5aYmApT_64KLZo-I6HQ",
+        "lat": 4.960924250599897,
+        "lng": 8.350518737311292,
+        "date": "Jul 2024",
+        "country": "NG",
+        "elevation": 48.094772
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/9qUVWrceXfNSfmtN8",
+        "report_time": 1722193244,
+        "author": "Alok",
+        "panoid": "y1gusKTBxLn8zHwNo3pPhg",
+        "lat": 32.2094738839275,
+        "lng": 78.06678953543869,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 3624.617
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MMRcAkNmTnrUZjdK8",
+        "report_time": 1722193151,
+        "author": "Alok",
+        "panoid": "1WhUL-ui6S0Wd-AdLVfvYw",
+        "lat": 32.010507982012285,
+        "lng": 77.31585385263782,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1604.864
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Yejion9BUTyQirkz9",
+        "report_time": 1722155752,
+        "author": "Alok",
+        "panoid": "2fIUFyM9ORxmO7EvB7PCyA",
+        "lat": 32.00149740986606,
+        "lng": 77.42616647289725,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 2172.3987
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/oHBn9fvSDTyTuwuR8",
+        "report_time": 1722154974,
+        "author": "Alok",
+        "panoid": "VANvHgY-JoWHkz9ktwnuWA",
+        "lat": 27.878075742101945,
+        "lng": 95.68484203019797,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 162.66895
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/KLXuy52r8uZKHoKB8",
+        "report_time": 1722154788,
+        "author": "Alok",
+        "panoid": "YWtEvWAoXYbpUSgvuWU9Aw",
+        "lat": 27.303385360664716,
+        "lng": 93.97154333513956,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 173.40405
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/V2TYVp5GDa65EeqX6",
+        "report_time": 1722153991,
+        "author": "Alok",
+        "panoid": "p4fCkf9qRWzcXsz98vRWUg",
+        "lat": 11.566205452478256,
+        "lng": 92.65998397193943,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 54.440704
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/oMz5ZCEaooK4u33e8",
+        "report_time": 1722065979,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "ASWRbyvOZA9ismFYSI6WFA",
+        "lat": 32.01067852058366,
+        "lng": 77.44869456953427,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 2461.1292
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/WfmVHFaqsSCcnDPr5",
+        "report_time": 1722011787,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "7rdBik-WCG8_7e2wFWipKw",
+        "lat": 32.34281682193986,
+        "lng": 77.99728522856704,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 4055.893
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/JAojwpyde1WY5zsb8",
+        "report_time": 1721992916,
+        "author": "mpk",
+        "panoid": "hkWYRlX-eIZ4JCgGQz7ynQ",
+        "lat": 11.59230844429422,
+        "lng": 92.64971052374095,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 40.317513
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/o49KwKrPFBHnP1eZ7",
+        "report_time": 1721960487,
+        "author": "Duskron",
+        "panoid": "oXNIGaWkQSE-jEOBCHfupw",
+        "lat": 32.272930677528166,
+        "lng": 78.08757011646365,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 4379.445
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/gXjW8tVcokSLFZ5x8",
+        "report_time": 1721940017,
+        "author": "sundrenched",
+        "panoid": "pbWs-Yx49NLFUcnzAgJvsQ",
+        "lat": 11.670098680611044,
+        "lng": 92.74271880260545,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 48.928883
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/yLTXpjN7pHujP3Qm8",
+        "report_time": 1721940017,
+        "author": "sundrenched",
+        "panoid": "gHeJMxfBTnIx3pXWy1PtpA",
+        "lat": 11.656897072731132,
+        "lng": 92.7477132633634,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 56.622524
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/xmh5AaBFymPUVx8i9",
+        "report_time": 1721888143,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "_rZ0zmTUZrTrKO3G764Jxw",
+        "lat": 11.63784384374944,
+        "lng": 92.7357401095302,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 27.147514
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/XcG5MnhR3SzcrwhB9",
+        "report_time": 1721849683,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "eZXkU5arRnlmrkY0h2ySnA",
+        "lat": 27.291012040307685,
+        "lng": 88.24680990924664,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1479.3257
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RBxTpZNCgFo2vhBWA",
+        "report_time": 1721830392,
+        "author": "sundrenched",
+        "panoid": "fqoGLE4YObAOsqFTsHEt5w",
+        "lat": 11.67407902500087,
+        "lng": 92.73849092763407,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 29.690012
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/3JTEb34W1sqzCNfE9",
+        "report_time": 1721812180,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "su4BkLLPCluoQN-kmbKQrw",
+        "lat": 31.832197163228194,
+        "lng": 74.69160996518589,
+        "date": "Aug 2022",
+        "country": "IN",
+        "elevation": 248.44237
+    },
+    {
+        "update_type": [
+            "newbadcam",
+            "newisland",
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/qZXcL7qZwNzWpHdx5",
+        "report_time": 1721725827,
+        "author": "macca",
+        "panoid": "6hggKTmdN2pKQ1KvDCAKAg",
+        "lat": 11.63648467645384,
+        "lng": 92.66427381264629,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 38.03549
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/UyV1Wq7XzGXt8x286",
+        "report_time": 1721724675,
+        "author": "Alok",
+        "panoid": "ir2vPUEQx2XMppVWEkTZ9w",
+        "lat": 23.697363433194273,
+        "lng": 92.6017386060374,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1167.7749
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/qRscJ5kcyLTxZM968",
+        "report_time": 1721673487,
+        "author": "Alok",
+        "panoid": "MAt1SAJVD8dDRp1EPtnzqQ",
+        "lat": 25.513921057606073,
+        "lng": 90.60454520127158,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 286.5779
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NbJE2KMjErJmx8yB9",
+        "report_time": 1721668712,
+        "author": "Duskron",
+        "panoid": "lfFPnfrxIKCm_UUmT2_D5w",
+        "lat": 32.42537941242427,
+        "lng": 77.21836957872017,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 3139.7605
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/H64GjesPQynVsVZN9",
+        "report_time": 1721632486,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "3JfuE_vdeeBhYtta6qupgw",
+        "lat": 31.59719126117645,
+        "lng": 77.34530132745871,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1977.5254
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MuoCPWfDGKKH1rpf8",
+        "report_time": 1721629148,
+        "author": "Past\u00e8queHach\u00e9e",
+        "panoid": "MnMf86F7HwFpKhR2lDWqGw",
+        "lat": 32.56428515425103,
+        "lng": 75.93958752752675,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1160.5472
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6gwsEL4CrSZQPPEX9",
+        "report_time": 1721594819,
+        "author": "Duskron",
+        "panoid": "hoKZOB9bfmx6z2tciLElng",
+        "lat": 32.514141500387396,
+        "lng": 77.03618222671712,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 3485.9978
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ieyTMrye4xWRGjm2A",
+        "report_time": 1721549768,
+        "author": "macca",
+        "panoid": "QYWiHz5_Uld51wLADdOf-Q",
+        "lat": 32.81637409728222,
+        "lng": 77.45961595936186,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 4674.098
+    },
+    {
+        "update_type": [
+            "newbadcam",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/S5xJjn6bdVpbt8LG7",
+        "report_time": 1721459938,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "FY4lyR5Afcd7ALfZgWXzsg",
+        "lat": 4.833741104064448,
+        "lng": 7.006840851739879,
+        "date": "Jun 2024",
+        "country": "NG",
+        "elevation": 13.413785
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/TSSxBKoPRjEJX6z27",
+        "report_time": 1721374838,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "dF5CHbbeKGl08nKI4TyiTA",
+        "lat": 32.09438122486613,
+        "lng": 76.54306855662527,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1254.1969
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/YKnPWEfSv83w4VzU9",
+        "report_time": 1721374838,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "DcTMsMAcWxpj70w-tE-Q5Q",
+        "lat": 32.07968868491821,
+        "lng": 76.19035152400347,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 880.69635
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/9suHS74PkMLeoDLi6",
+        "report_time": 1721374608,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "sMmKONTY_eQwCxsAk9UH1A",
+        "lat": 34.108604330575176,
+        "lng": 77.8338810371605,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 5317.398
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/K4V1Mdgz3ufxh5h98",
+        "report_time": 1721334816,
+        "author": "sundrenched",
+        "panoid": "eii2PgpciDdRuYngQno_KQ",
+        "lat": 34.13628944948869,
+        "lng": 77.56828511812614,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3324.024
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/e5gb7Dau2yXCY1KVA",
+        "report_time": 1721334690,
+        "author": "sundrenched",
+        "panoid": "g4ebI7gVkO0dWewHqxjZqQ",
+        "lat": 33.91742693580391,
+        "lng": 77.73117907461058,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3400.657
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/cHR5znqgVxuexhFs5",
+        "report_time": 1721334690,
+        "author": "sundrenched",
+        "panoid": "VWwlS60quzp8dJACGQg8cA",
+        "lat": 34.04970231982596,
+        "lng": 77.74781206131803,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3718.459
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/tyrKk5K2kwmXTt8G8",
+        "report_time": 1721289515,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "mxk5Z1ZfXITxqF6le7ex8w",
+        "lat": 34.0533395222389,
+        "lng": 77.5390364087971,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3643.4
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/LqNrYeVg8RdtangB7",
+        "report_time": 1721289515,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "mCqs4cZmx5Uq8eHR1kDo8w",
+        "lat": 34.10777341665354,
+        "lng": 77.58107854151365,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3232.28
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/wjD6rXsdz8D1Cb5z8",
+        "report_time": 1721289515,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "q9RMD04ez5GoOFMRcJJ4VQ",
+        "lat": 33.960015195045536,
+        "lng": 77.79155082849539,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3625.8464
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fncZ2pKn9dgMmUpi6",
+        "report_time": 1721289402,
+        "author": "tariksissemongko",
+        "panoid": "QIOVg9mWzDaLj17PUgHIBw",
+        "lat": 14.918411263723375,
+        "lng": 79.4770983469052,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 126.19607
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ZqWJu19uJVgxkCe47",
+        "report_time": 1721219588,
+        "author": "mpk",
+        "panoid": "M_2pv6yAnMprsjNR2dvzyA",
+        "lat": 32.072788351603606,
+        "lng": 76.50602690756614,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1104.5103
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/rUwjH2J6SmHEMxDW8",
+        "report_time": 1721199696,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "5Y9s8nLuwYpkx7BWzb17lw",
+        "lat": 34.17178161065531,
+        "lng": 77.59355837562815,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3617.2627
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/c5XaL5RJTzKH33pm9",
+        "report_time": 1721198581,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "WWe6bxCbqDJ0kyx_1S0cng",
+        "lat": 34.08063573522783,
+        "lng": 77.41784450616487,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3598.4063
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/wqYGExX6ymx1yifY6",
+        "report_time": 1721074029,
+        "author": "Noel",
+        "panoid": "NzaRt2buHEelBKuv3Rz_xA",
+        "lat": 32.16021800011037,
+        "lng": 75.45504455030743,
+        "date": "Jun 2023",
+        "country": "IN",
+        "elevation": 295.26236
+    },
+    {
+        "update_type": [
+            "newsquare",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NysiusF3u9mDv43K8",
+        "report_time": 1721054330,
+        "author": "sundrenched",
+        "panoid": "Nf2zPj3Or_UPo_IL2D3Nig",
+        "lat": 34.08735195966959,
+        "lng": 77.67719347676652,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3496.3052
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/hUMp8iJ5n9MVDvoe9",
+        "report_time": 1721047870,
+        "author": "mpk",
+        "panoid": "Aa1y-Zf2529_pGiIuKF7vg",
+        "lat": 34.02008037684379,
+        "lng": 77.68433372287761,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3299.0405
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/eCvnMZdgQ8cZK2nV9",
+        "report_time": 1721046118,
+        "author": "mpk",
+        "panoid": "iCbye-EK0Wy5vhPS_j1RfQ",
+        "lat": 31.79465785800837,
+        "lng": 75.3995387134924,
+        "date": "Aug 2023",
+        "country": "IN",
+        "elevation": 277.73505
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/1JHxT5Zaxbinh4ff6",
+        "report_time": 1721030547,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "SKiU9o6IuY9PSbFdtMd9Dw",
+        "lat": 32.20624859083348,
+        "lng": 75.54153035601472,
+        "date": "Jul 2023",
+        "country": "IN",
+        "elevation": 303.15543
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/xgyApykYx3xpfT689",
+        "report_time": 1721030547,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "ZK0Xx0B4_d7Z5-p6qhCuBw",
+        "lat": 31.93522309916252,
+        "lng": 75.27659196206795,
+        "date": "Jul 2023",
+        "country": "IN",
+        "elevation": 274.30804
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RaJZ1eYqZpCtvegu8",
+        "report_time": 1721030547,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "5P51SlQWoJNgM0RjzpET1A",
+        "lat": 32.10697158760859,
+        "lng": 76.31282778842842,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 754.8058
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6UEGmdBDFfoeWYzT7",
+        "report_time": 1721030547,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "MQfhfDHXKRjRKKbEik9n1Q",
+        "lat": 32.04649352177855,
+        "lng": 75.39961785935316,
+        "date": "Jul 2023",
+        "country": "IN",
+        "elevation": 293.02966
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ahUfWafJBCh1wb3D7",
+        "report_time": 1721030547,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "5J64MOXCg6zRDRSlPV46Jw",
+        "lat": 31.936249077485616,
+        "lng": 75.64785391785311,
+        "date": "Aug 2023",
+        "country": "IN",
+        "elevation": 288.11282
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/kcT54UttEGHYqiaw8",
+        "report_time": 1721030547,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "GGSv1Ymxb0ZFHd43Z0IjZw",
+        "lat": 31.964951126070915,
+        "lng": 75.70180468848444,
+        "date": "Dec 2023",
+        "country": "IN",
+        "elevation": 307.30655
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Y2nHFuNbVaBaYMGH9",
+        "report_time": 1720951633,
+        "author": "Franz",
+        "panoid": "Q4cLRbC-EOYOAlxBKgoDRQ",
+        "lat": 34.12383261845264,
+        "lng": 77.51611723062476,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3208.3657
+    },
+    {
+        "update_type": [
+            "newsquare"
+        ],
+        "sv_link": "https://maps.app.goo.gl/L7Ew6g3QrqEBEi6X9",
+        "report_time": 1720945074,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "gYLtVvmByJi96G4Gq9qaQg",
+        "lat": 32.247480219227754,
+        "lng": 77.19099779178687,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1926.578
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/YhRpVuDuzDAM13wV8",
+        "report_time": 1720873885,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "fE5hK9WtlxbrQTrzvsOGqg",
+        "lat": 31.820446232345002,
+        "lng": 74.76644097585863,
+        "date": "Aug 2022",
+        "country": "IN",
+        "elevation": 256.196
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/2rStHpWRnEWNPrtu7",
+        "report_time": 1720872153,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "ag9162CYa39PrvKYT_61hA",
+        "lat": 32.54832001481533,
+        "lng": 75.95033385520331,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1659.4424
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/UMWUqQPGqf5zwsuU7",
+        "report_time": 1720852929,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "BZKIA9wa_4RutXWPcI3PKQ",
+        "lat": 32.465782612191774,
+        "lng": 77.13517287281259,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 3070.902
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NLiiLDxE28FjGfLT8",
+        "report_time": 1720852929,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "1quvwDmVmH1NXkr0yArMwQ",
+        "lat": 32.466903646034055,
+        "lng": 77.13551811431248,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 3132.374
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Drcjv7T4HHQt7wGi8",
+        "report_time": 1720792903,
+        "author": "Unhook",
+        "panoid": "MqLi6_sD2OR-O7hK2QaNZQ",
+        "lat": 32.44030953514866,
+        "lng": 77.16906278035849,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 3093.72
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/XZcg1brcWSV1AykLA",
+        "report_time": 1720791042,
+        "author": "Noel",
+        "panoid": "E-LHo-aT4sU6j_RoJkDTdQ",
+        "lat": 34.07345987007195,
+        "lng": 77.64006414189333,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3276.146
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MKtnWJRW7HRyrPwD7",
+        "report_time": 1720790832,
+        "author": "mpk",
+        "panoid": "ABrj5D5unjt5ZlDSb_T5Dg",
+        "lat": 34.04710706931361,
+        "lng": 77.93045670507777,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 5385.768
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/FZDYDHcU4HeXtXUr5",
+        "report_time": 1720790644,
+        "author": "mpk",
+        "panoid": "8q-1KVoxqNopy2pevVXC0g",
+        "lat": 32.136013741583994,
+        "lng": 75.47495967586103,
+        "date": "Jun 2023",
+        "country": "IN",
+        "elevation": 298.4358
+    },
+    {
+        "update_type": [
+            "newsquare",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/WmQo858hwUVzNPxw8",
+        "report_time": 1720760666,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "cgAMmQFrCViBnPOWl8aRMQ",
+        "lat": 34.18515788108207,
+        "lng": 77.59557023454983,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3717.4778
+    },
+    {
+        "update_type": [],
+        "sv_link": "https://maps.app.goo.gl/psCM77wcTPF1jGY36",
+        "report_time": 1720760666,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "CvDwJ3Dl0Sp27NWX2PNNWA",
+        "lat": 34.15190447424701,
+        "lng": 77.57623287298803,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3423.3337
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Fe49niEvZUG9kCvv9",
+        "report_time": 1720757966,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "qeRac9tDT-sa21Z_hZYPug",
+        "lat": 32.243606854045225,
+        "lng": 76.3329841505585,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1783.8075
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/z8AoLEetJw3UZzKK6",
+        "report_time": 1720731758,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "zjHk0V2pjRhcGBET4lnrwA",
+        "lat": 31.81297909077948,
+        "lng": 75.2015802732886,
+        "date": "Aug 2022",
+        "country": "IN",
+        "elevation": 262.0431
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/hbsdCDwxrc1QqaNe8",
+        "report_time": 1720729982,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "rf8PB8isCcU53TSpeqicWg",
+        "lat": 32.2244755476315,
+        "lng": 77.20384674407757,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1992.0054
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HE22EMqsPPQMQDWq5",
+        "report_time": 1720713543,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "i0iXn_O63Std6ys4UDaURw",
+        "lat": 31.81972759180361,
+        "lng": 75.21270867266901,
+        "date": "Jun 2023",
+        "country": "IN",
+        "elevation": 260.61755
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/VzwsLfKBxh5cQviN6",
+        "report_time": 1720681532,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "XrlRnELAaVffqHqvW6boZw",
+        "lat": 31.871276774750683,
+        "lng": 77.15914332103365,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1110.8412
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ZgMiKxp3pQzSkwLV7",
+        "report_time": 1720681532,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "jN18qQED3YrfFqn3VRBcsQ",
+        "lat": 32.537562260826505,
+        "lng": 75.97474822962704,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 2076.0723
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/KdGMoo3UVsthLVQv7",
+        "report_time": 1720679424,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "0XmAG1DRtSQ7Fs8TcHwBSA",
+        "lat": 32.613050963524614,
+        "lng": 75.91677455201989,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 728.0587
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/wTRaZgd5Ro1rAiFw8",
+        "report_time": 1720678010,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "wKr38XDKpc73hFo3TUqG_A",
+        "lat": 32.898644454433615,
+        "lng": 74.73769231381797,
+        "date": "May 2023",
+        "country": "IN",
+        "elevation": 363.37747
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Xf3C2xr5DeRcJ25i6",
+        "report_time": 1720678010,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "I7zAZY99U3_Bp2Q4XIT5dA",
+        "lat": 32.76732538401505,
+        "lng": 75.04436758109617,
+        "date": "May 2023",
+        "country": "IN",
+        "elevation": 634.4992
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HxBP5Xzk7GP1K1qy5",
+        "report_time": 1720678010,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "zq4qCH3B_UcLOwwTPar_Bg",
+        "lat": 32.38284767754607,
+        "lng": 75.51941869639452,
+        "date": "May 2023",
+        "country": "IN",
+        "elevation": 364.9349
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/BvR4yzfvLiKGFRwVA",
+        "report_time": 1720671140,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "7gD0D69pkuW9c0S3pt3UuA",
+        "lat": 32.27295280873128,
+        "lng": 75.65504648527448,
+        "date": "Jul 2023",
+        "country": "IN",
+        "elevation": 360.08014
+    },
+    {
+        "update_type": [
+            "newbadcam",
+            "newregion",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/mb3UnzAWQTdGARWF8",
+        "report_time": 1720669431,
+        "author": "Franz",
+        "panoid": "cy6bs_qj5y6bO7gm4iwWcg",
+        "lat": 32.99262737183126,
+        "lng": 74.66952282033435,
+        "date": "May 2023",
+        "country": "IN",
+        "elevation": 689.5424
+    },
+    {
+        "update_type": [
+            "newbadcam",
+            "newregion",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6gUHYEospc7pSHaE9",
+        "report_time": 1720669431,
+        "author": "Franz",
+        "panoid": "VjG1DYykbP1gYsdBsdiHrg",
+        "lat": 34.16643954110709,
+        "lng": 77.58329314044657,
+        "date": "Oct 2023",
+        "country": "IN",
+        "elevation": 3525.5466
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nUgzRL6fyig8eSyS6",
+        "report_time": 1720669431,
+        "author": "Franz",
+        "panoid": "DtkL58riY9HwHElbwhBMFw",
+        "lat": 32.724040358683325,
+        "lng": 74.87037934523754,
+        "date": "Jun 2023",
+        "country": "IN",
+        "elevation": 348.64258
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MiYzLBsxUs9jFfhm8",
+        "report_time": 1720615636,
+        "author": "mpk",
+        "panoid": "YIQqUXJq0bz8y0XRW93Crw",
+        "lat": 31.542258629738612,
+        "lng": 77.79649512409426,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1551.2343
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NtwfXCzgqs9UDX1a8",
+        "report_time": 1720601485,
+        "author": "mpk",
+        "panoid": "Z2cP84OjR8tUtbGlpL8qag",
+        "lat": 12.416400083457342,
+        "lng": 75.36356362573993,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 778.68005
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/46aCmbChPnBaBbjo7",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "LFHE9uJYsY4IZVCriU2kEw",
+        "lat": 26.26121424886685,
+        "lng": 94.05855605921136,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 155.50334
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fdZJKDZx85QibpvFA",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "Vh1cW1E5FwlPrIoq6o5JVg",
+        "lat": 26.461364651826887,
+        "lng": 84.6524114709385,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 93.39068
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/EhBAxtZmvHFEYRCEA",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "SSHJ1eVFzr8GrjES2LEL3g",
+        "lat": 23.408103698267325,
+        "lng": 85.66317109529702,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 590.5785
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/L5puPrfZWrqUXp8Q9",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "ce8ITKZ57zpdqcsWhluxlg",
+        "lat": 26.726544333128405,
+        "lng": 95.26671289208795,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1363.423
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/tDBNxCWApXUWS7Nw7",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "0A13lrxwPC5RqqVNJkp3sA",
+        "lat": 27.378184374679176,
+        "lng": 93.91409562332285,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 322.14285
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Ec1MEMBLswQKUGqC8",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "5njO5E68Tov4RSCQzrertw",
+        "lat": 23.703771679454235,
+        "lng": 92.62951331940447,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 846.8301
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/qtjuosUfbGZnArjNA",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "xXhvRpx7MJuKLATs7D5QCQ",
+        "lat": 23.62520464156919,
+        "lng": 92.78635448204334,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 214.6802
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/jENLXyzq2Yqq5VCq8",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "kffN50pnANZ9bOh7hsOadg",
+        "lat": 23.437835328530635,
+        "lng": 92.77791809003205,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1377.8413
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/9dVZTV1jEchBv1Ug6",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "pGsqcKcp4elm7aZe7XSGkw",
+        "lat": 17.598240195852547,
+        "lng": 81.71532490438567,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 425.2727
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/39vPbYyH25MdjhGj7",
+        "report_time": 1720596988,
+        "author": "mpk",
+        "panoid": "mHSmk0Dk0wPV5ibpMfhFEg",
+        "lat": 30.560481229173245,
+        "lng": 78.17697769744674,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1691.9677
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HGTFxvMBXWG27FTq7",
+        "report_time": 1720522065,
+        "author": "mpk",
+        "panoid": "LMHsXV5_H_6ZAd6CdhhD9Q",
+        "lat": 25.280261848529772,
+        "lng": 83.84298047471637,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 96.8668
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/skawDNYHxDHZU1zd9",
+        "report_time": 1720522065,
+        "author": "mpk",
+        "panoid": "ixcjiv4_L5qBbMA5MJw5mw",
+        "lat": 12.417668445720423,
+        "lng": 76.00407752005559,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 889.81714
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/eCrhvcpznPzZscAx8",
+        "report_time": 1720522065,
+        "author": "mpk",
+        "panoid": "J4duHaBP-NiBcQt5x0Kcog",
+        "lat": 11.771052551059784,
+        "lng": 79.12497147206864,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 127.7483
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ioJbSuKbbqMTLM2u8",
+        "report_time": 1720479346,
+        "author": "mpk",
+        "panoid": "qoTIK7VhdXL5ceCUZe8bcA",
+        "lat": 17.480286142037695,
+        "lng": 81.25154722086515,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 72.88882
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/2GYasL6LUjyXop8z9",
+        "report_time": 1720479346,
+        "author": "mpk",
+        "panoid": "yt3ubXHJfQeeLQX9VKtCDw",
+        "lat": 22.29989280312872,
+        "lng": 83.50150965870064,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 436.31686
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/otWxFk2jquu4WWfJ7",
+        "report_time": 1720479346,
+        "author": "mpk",
+        "panoid": "-IHEwXCfEisxBN9c_xo1lg",
+        "lat": 20.442112896334898,
+        "lng": 86.06271988578355,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 40.03551
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/c6zhuRSziZBGH43RA",
+        "report_time": 1720479346,
+        "author": "mpk",
+        "panoid": "Gx6DoWhP_fZP8hdI3N1uKw",
+        "lat": 18.809022763551123,
+        "lng": 78.1609753157774,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 385.5003
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/CY9J7GEzhyCGCAdu8",
+        "report_time": 1720194692,
+        "author": "Simon't",
+        "panoid": "wzQ8JZQwuyGYHt7Fk1sRQw",
+        "lat": 25.6905162900309,
+        "lng": 90.01750206267387,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 54.81111
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/5mPQ5sUoby4DV6fx7",
+        "report_time": 1719992064,
+        "author": "mpk",
+        "panoid": "ujqEuU1DOI8npwQVxlIA_A",
+        "lat": 25.58369279375347,
+        "lng": 90.2292301464894,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 382.88748
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/6Cs9LMq7gbPaAoJs7",
+        "report_time": 1719992064,
+        "author": "mpk",
+        "panoid": "CO8oy19X22oIffq9j4icSA",
+        "lat": 27.517728129048567,
+        "lng": 94.70414500123519,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 124.2278
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/jFQTNYYNyzfCM5Pn8",
+        "report_time": 1719941347,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "FFm_ok3-MlfVJ6IPtld2KQ",
+        "lat": 31.11867568406781,
+        "lng": 77.03934779867996,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1125.9644
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/upDohMbA2mgGCZhJ8",
+        "report_time": 1719941347,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "nYCFdURQa-PlvXlpLx4aVQ",
+        "lat": 31.159372721105235,
+        "lng": 77.06628127742422,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1693.403
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/x5jTHKvJN7ou9zug9",
+        "report_time": 1719919583,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "6jaLwU1Ne85TScql0y4o7A",
+        "lat": 31.181025067241432,
+        "lng": 77.04203890451477,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 1582.9623
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/xngtwnjfaACWWJ2d6",
+        "report_time": 1719919128,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "iw3FHcwbKx0jzaeKZSgoxw",
+        "lat": 31.173740150238704,
+        "lng": 77.2016485571071,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 2183.1555
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/TF2QbrXdU5PdCUZo8",
+        "report_time": 1719917501,
+        "author": "mpk",
+        "panoid": "jaWcbKFqOUng9noqs7o4Wg",
+        "lat": 29.1060936468592,
+        "lng": 76.27210808693908,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 253.63626
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/VTUcr5PKTMcoczXz8",
+        "report_time": 1719917501,
+        "author": "mpk",
+        "panoid": "d7GsVI8imRApOK_X2zwTbA",
+        "lat": 30.66688157719978,
+        "lng": 75.72654771446831,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 264.61487
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/8NjNfAvsYmqu1KHUA",
+        "report_time": 1719916729,
+        "author": "mpk",
+        "panoid": "HrxA1QWdlalkVKT366ngcQ",
+        "lat": 29.864546291202483,
+        "lng": 79.31369685810179,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 933.3216
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/p4mru4DnGzbPAe9F6",
+        "report_time": 1719836613,
+        "author": "mpk",
+        "panoid": "MNDibTqXmtUr1HwO5RF6uQ",
+        "lat": 24.727665540874394,
+        "lng": 74.52408763492595,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 461.01672
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/G2GQLVsbiyz3J9LN8",
+        "report_time": 1719836286,
+        "author": "mpk",
+        "panoid": "qXjZ7tVc8ffNfvjos38abw",
+        "lat": 20.839840236899395,
+        "lng": 77.92918594563115,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 357.81485
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/iQaszkpKBrcuvCBw9",
+        "report_time": 1719818855,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "7KPfZJ_l50ZypCM6YTEnSg",
+        "lat": 20.939091841617092,
+        "lng": 78.118232826865,
+        "date": "Jun 2024",
+        "country": "IN",
+        "elevation": 321.30008
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/DwdxmoDweDFb7GRr8",
+        "report_time": 1719761091,
+        "author": "mpk",
+        "panoid": "c93DoHuUAN49wHT2QCXPyg",
+        "lat": 25.722184428211097,
+        "lng": 91.85575746753399,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 749.6404
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fgYJdgsgH2p5rWjP9",
+        "report_time": 1719731075,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "6tmAfvCVWWfceK9xRraX_Q",
+        "lat": 5.49184258483277,
+        "lng": 5.784993715074068,
+        "date": "Jun 2024",
+        "country": "NG",
+        "elevation": 9.516394
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/bwixcPrEmJtwkGZ38",
+        "report_time": 1719731075,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "6tmAfvCVWWfceK9xRraX_Q",
+        "lat": 5.49184258483277,
+        "lng": 5.784993715074068,
+        "date": "Jun 2024",
+        "country": "NG",
+        "elevation": 9.516394
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Kx9KDkgMoqY32g8Y8",
+        "report_time": 1719731075,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "xB4GVivAM8JKgcdAYLpFkA",
+        "lat": 5.802842138626963,
+        "lng": 6.1222364264685645,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 29.814405
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RPDuaux6bhJzSxQe6",
+        "report_time": 1719731075,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "T5vNi7oGv7UlD1G_RldHnQ",
+        "lat": 5.595763633114861,
+        "lng": 6.1903452096614755,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 13.577397
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ysZLDkvMrdXQL6GZA",
+        "report_time": 1719505696,
+        "author": "mpk",
+        "panoid": "M6DGoQE7_k47IUro0GR5jA",
+        "lat": 22.980774679139362,
+        "lng": 73.73429434205936,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 177.00296
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nUghWf1UfPwGo5wA9",
+        "report_time": 1719505696,
+        "author": "mpk",
+        "panoid": "CfuoOAc3L21Kjg0zbGN6Fw",
+        "lat": 25.236864420607073,
+        "lng": 71.49018643284045,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 75.21236
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/4DMrJPz6t5gD5nKx6",
+        "report_time": 1719407053,
+        "author": "Larissa Santos-de Oliveira",
+        "panoid": "avKmld35Q6R0gdgvP2SsjQ",
+        "lat": 28.546010463543816,
+        "lng": 75.60927365575611,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 275.821
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/GzEWLvvNZgSgCwHfA",
+        "report_time": 1719406291,
+        "author": "K\u00fcgul",
+        "panoid": "S5zOqsPx2vBbFWTiyVU64g",
+        "lat": 30.615882195275656,
+        "lng": 75.4913296006608,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 257.47983
+    },
+    {
+        "update_type": [
+            "newbadcam",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/J4gpxkEiwRLbet1T8",
+        "report_time": 1718657579,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "ZOpUnqA4dYU6MzuMMSyQdQ",
+        "lat": 6.2437472817621265,
+        "lng": 6.188380981392987,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 114.1479
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/hqGGFtzgADGeH6Hm9",
+        "report_time": 1717701367,
+        "author": "Noel",
+        "panoid": "DeNFmkmy-vi0vQK_NCYdSA",
+        "lat": 23.45622157421341,
+        "lng": 69.87546346895067,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 20.65933
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/7aTsXJgVYesVo4dGA",
+        "report_time": 1717628192,
+        "author": "dutchsquid",
+        "panoid": "WTrCNaWzyeA0YESntbsMIQ",
+        "lat": 27.73363835262395,
+        "lng": 95.78333865015439,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 157.76733
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/4yRWEbb3T7npgLsk8",
+        "report_time": 1717343868,
+        "author": "dutchsquid",
+        "panoid": "1sDH2gYkHB84SYz3rhPPfA",
+        "lat": 23.284035128828194,
+        "lng": 91.43864511035791,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 63.531105
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/rBrtYDoZMzCwzepe9",
+        "report_time": 1717330480,
+        "author": "mpk",
+        "panoid": "oRD1O8bSDqK9xBZLy_GeMA",
+        "lat": 27.010254799980032,
+        "lng": 95.1825912142086,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 336.39084
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/RJoGcNuuuJg5H1ww9",
+        "report_time": 1717262101,
+        "author": "mpk",
+        "panoid": "1R-NoS1A_3FbUAqsXQgvRA",
+        "lat": 27.11481294337034,
+        "lng": 95.41320896408293,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 252.88551
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/pnCeTU9WzNsAnRPW7",
+        "report_time": 1717255895,
+        "author": "dutchsquid",
+        "panoid": "GsrhPBunHGn5eXjB_HBsKA",
+        "lat": 26.822504989688138,
+        "lng": 95.38605893013299,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1044.0034
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/EmiSUfSviyyTxffv9",
+        "report_time": 1717247853,
+        "author": "mpk",
+        "panoid": "Tah7Zs7VefUTGkuThXc-Lg",
+        "lat": 27.023236512895345,
+        "lng": 95.18825408257638,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 153.10536
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/c4JPw9VehdZCqMSi8",
+        "report_time": 1717128874,
+        "author": "dutchsquid",
+        "panoid": "UQs8dxNUCuqnsCslOpVM7g",
+        "lat": 26.01055258747085,
+        "lng": 93.8129857847182,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 162.2338
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/92uLRx6Jgt2kurMs8",
+        "report_time": 1717128736,
+        "author": "dutchsquid",
+        "panoid": "km9pjq0-nroz93XN4feQLw",
+        "lat": 23.847076936507737,
+        "lng": 91.88351571341099,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 141.5763
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/3GEFqky3TWGqydbb6?g_st=ac",
+        "report_time": 1717070239,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "y6_qbPbI2n9uUmz3nfewGg",
+        "lat": 6.163073652394078,
+        "lng": 4.79277058585068,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 12.921935
+    },
+    {
+        "update_type": [
+            "newtown",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nSWUNUS1rYxWrBuT9",
+        "report_time": 1717065943,
+        "author": "mpk",
+        "panoid": "6-tTvrhedMjtkqKNlO9Fag",
+        "lat": 26.99213866333403,
+        "lng": 95.50884204832502,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 741.2203
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/HrQZqXtVQ59RbqEg7",
+        "report_time": 1717025669,
+        "author": "mpk",
+        "panoid": "9HQV5fodw5ED-nMKOpA8zA",
+        "lat": 27.267423396378298,
+        "lng": 88.1303277676621,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 1399.6353
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/hbqXMUygEd4UFBkD6",
+        "report_time": 1717024519,
+        "author": "mpk",
+        "panoid": "I0-ntTS3yE_4reBFfdJnvw",
+        "lat": 27.280282515295298,
+        "lng": 93.05219644236941,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 1003.33075
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/jVchmy5HG8scYPko6",
+        "report_time": 1717009033,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "fejZ4Gq3GR2ssMmHOvrVLw",
+        "lat": 7.149453828237426,
+        "lng": 3.3242953405801767,
+        "date": "May 2024",
+        "country": "NG",
+        "elevation": 33.908913
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/AAgDFbbhGW3fi5Bw6",
+        "report_time": 1716997530,
+        "author": "mpk",
+        "panoid": "WzgP2WpAGrrwp2N6XkrZMQ",
+        "lat": 26.773378933085233,
+        "lng": 94.456868750071,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 131.56378
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/wu8nPtKBpAAN9vdP7",
+        "report_time": 1716934332,
+        "author": "mpk",
+        "panoid": "BOr__I7dJBQesDeVFK9F4Q",
+        "lat": 23.757276253121482,
+        "lng": 92.5598747557033,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 825.4862
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/999fgaBxXi7berSM7",
+        "report_time": 1716909461,
+        "author": "mpk",
+        "panoid": "XXJRmQRhE_1FH3EPjlzBaA",
+        "lat": 27.039681265524035,
+        "lng": 88.26709154383735,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 2181.7236
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Gva6Y9ByExXaYJE27",
+        "report_time": 1716909461,
+        "author": "mpk",
+        "panoid": "8S1On1ZIFG3YFtHbyfWn-w",
+        "lat": 28.16252000192927,
+        "lng": 78.8975584534263,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 203.81258
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/G7xehLeBQkdSwc7p8",
+        "report_time": 1716904949,
+        "author": "mpk",
+        "panoid": "FL3rIJHpEnpCxs83c5_k9Q",
+        "lat": 24.771545898723858,
+        "lng": 93.84404917299416,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 799.8357
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/etYZHJw1g2ECGuMQ7",
+        "report_time": 1716904949,
+        "author": "mpk",
+        "panoid": "cAhXukH-apxM6Jf726m4IQ",
+        "lat": 20.83407708891479,
+        "lng": 80.7228879351818,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 391.3064
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Bxf3GvLuyNbHuK4FA",
+        "report_time": 1716904949,
+        "author": "mpk",
+        "panoid": "IGAuzFBtiCAP38kvaElKMA",
+        "lat": 12.06137914313555,
+        "lng": 75.64174113774232,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 145.7996
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/UwdjMV1KEGeKmHAQ6",
+        "report_time": 1716904949,
+        "author": "mpk",
+        "panoid": "_aUMxgZ0pIKuPVQ7iueejw",
+        "lat": 9.817304537424077,
+        "lng": 77.4158919496641,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 415.67374
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/v7vzXpuSq34c9Phx9",
+        "report_time": 1716904259,
+        "author": "macca",
+        "panoid": "Q2wfSt_InYA_59u2GRA4Dw",
+        "lat": 26.893475195530296,
+        "lng": 95.37291907294397,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 420.60532
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newregion",
+            "newbadcam"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Gkebs1KmVbMhCS2bA",
+        "report_time": 1716901078,
+        "author": "hakesh5boni",
+        "panoid": "eofaurSurC96-3YvPNoiUA",
+        "lat": 24.858823581951484,
+        "lng": 93.89860753096515,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 819.586
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/n2La8MYXaWJriMM88",
+        "report_time": 1716628399,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "ksGHnMiKFMEscd3pyikBaQ",
+        "lat": 15.66848245502592,
+        "lng": 74.7372483245926,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 719.0145
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/n6FMCLEsUBmzTsx78",
+        "report_time": 1716628399,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "PGl9mDhVTu_VBTCwPYZhPw",
+        "lat": 20.218201060841388,
+        "lng": 76.42057647585746,
+        "date": "May 2024",
+        "country": "IN",
+        "elevation": 595.9585
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/KFbnCF5e5kJPCyRx6",
+        "report_time": 1716553981,
+        "author": "vegetal",
+        "panoid": "Cp_QIR6W_2KXcg_lAo5nsg",
+        "lat": 29.421134179699656,
+        "lng": 79.65741007685479,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 1930.922
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/qzVr1Q1JkbJjgAii6",
+        "report_time": 1716115817,
+        "author": "vegetal",
+        "panoid": "p39WHI8g-5kF7e6tIxV-oQ",
+        "lat": 27.216986334067514,
+        "lng": 88.33181658471915,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 731.4266
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/KstArUByHGooTJhNA",
+        "report_time": 1715280285,
+        "author": "Noel",
+        "panoid": "Gbe01H_DWBY2xcdLR3GvLw",
+        "lat": 23.80053058389815,
+        "lng": 71.87973818772973,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 70.83435
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/FxeCVkdJAopBmYUs8",
+        "report_time": 1715280189,
+        "author": "Noel",
+        "panoid": "2q7tc6g41Neny2Ep642vzQ",
+        "lat": 17.19668868019052,
+        "lng": 77.84987369383592,
+        "date": "Mar 2024",
+        "country": "IN",
+        "elevation": 596.30725
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/aXrhR4MWKcM9JBNr9",
+        "report_time": 1715280099,
+        "author": "Noel",
+        "panoid": "a6FYB-xwToKbKvNs--gLQA",
+        "lat": 15.727287364209971,
+        "lng": 76.26014044056096,
+        "date": "Mar 2024",
+        "country": "IN",
+        "elevation": 624.6452
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/BoxZiJSMSSv3r3r28",
+        "report_time": 1715279984,
+        "author": "Noel",
+        "panoid": "NPgWYiGyk3kSRwRhp_mGGA",
+        "lat": 11.191590976816075,
+        "lng": 76.7216792404558,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 482.26648
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/yuU3TyN9v55KYGRz7",
+        "report_time": 1715068844,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "aC8yLRy1PUlNOM5EOqqguA",
+        "lat": 34.53915984690115,
+        "lng": 36.02301407617946,
+        "date": "Nov 2022",
+        "country": "LB",
+        "elevation": 47.984447
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/1XJsfbWDo2spunsH8",
+        "report_time": 1715065554,
+        "author": "Past\u00e8queHach\u00e9e",
+        "panoid": "6dBx1EvaghwG2yeyHMp85A",
+        "lat": 33.77789869632132,
+        "lng": 35.77658322893178,
+        "date": "Nov 2021",
+        "country": "LB",
+        "elevation": 1606.0128
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/a8Hxuxa66KZ4sTw17",
+        "report_time": 1714995186,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "P8_GrQPvwYXKt_xxqgnMdw",
+        "lat": 34.56731332104746,
+        "lng": 36.27188964854486,
+        "date": "Dec 2022",
+        "country": "LB",
+        "elevation": 632.2967
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/dLHFS1nJXQmNpeSL6",
+        "report_time": 1714995186,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "PpNJb6nKhfc2Idga31PtDg",
+        "lat": 34.37275900474036,
+        "lng": 36.001506881279056,
+        "date": "Mar 2023",
+        "country": "LB",
+        "elevation": 1208.7461
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Shh4gPEoAu6qoLQC8",
+        "report_time": 1714649370,
+        "author": "mpk",
+        "panoid": "voxVGC7vY-Gwy0eku1mvDg",
+        "lat": 26.352582182482926,
+        "lng": 94.16847094797096,
+        "date": "Mar 2024",
+        "country": "IN",
+        "elevation": 152.58017
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Ya9uCheLpAcH5RjFA",
+        "report_time": 1714581428,
+        "author": "K\u00fcgul",
+        "panoid": "7vFAFFKKmYwNOXO7Rz2EsQ",
+        "lat": 23.400347619013058,
+        "lng": 91.32314848940433,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 48.35029
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/z36B1tVPRDiX38f58",
+        "report_time": 1714567076,
+        "author": "Alok",
+        "panoid": "5sP8UyHBH6xlX37t1B9VMA",
+        "lat": 28.15212492272092,
+        "lng": 95.06304143338573,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 257.0242
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/kDeskXeg8WQYAh1EA",
+        "report_time": 1714476388,
+        "author": "Alok",
+        "panoid": "TiASdF40cWLMd-7-AQuhHA",
+        "lat": 27.172654309709916,
+        "lng": 92.21408174625977,
+        "date": "Mar 2024",
+        "country": "IN",
+        "elevation": 2057.6233
+    },
+    {
+        "update_type": [
+            "newroad",
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/NZa6mA5YLrJphbFg8",
+        "report_time": 1714393339,
+        "author": "Alok",
+        "panoid": "Vt8xQtrQJXYC1O1Pt5tC7A",
+        "lat": 27.425984891970625,
+        "lng": 93.74926828508484,
+        "date": "Mar 2024",
+        "country": "IN",
+        "elevation": 990.6448
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ymNq1qhJvuseobtN8",
+        "report_time": 1714324687,
+        "author": "Alok",
+        "panoid": "Dvw0RVCvxoHaCfIHBXT7gw",
+        "lat": 21.62419191165673,
+        "lng": 85.2880481253684,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 575.0205
+    },
+    {
+        "update_type": [],
+        "sv_link": "https://maps.app.goo.gl/1ukWtJ8JSuZotAhTA",
+        "report_time": 1714324687,
+        "author": "Alok",
+        "panoid": "2Ldo1l_OkXrNeriS0JFtbQ",
+        "lat": 21.270342987160312,
+        "lng": 85.71892896620285,
+        "date": "Mar 2024",
+        "country": "IN",
+        "elevation": 490.6685
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/uppqKSGqP1ZoSEVz8",
+        "report_time": 1714244260,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "y2etNBsHMfen-Z0U2gqDbg",
+        "lat": 34.0422200000198,
+        "lng": 35.96461468767577,
+        "date": "Aug 2023",
+        "country": "LB",
+        "elevation": 1906.6157
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Vgq6CLEHeDQf2poH6",
+        "report_time": 1714200631,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "ov3TkpGqGc84UtQuZmDl5g",
+        "lat": 34.42373396655384,
+        "lng": 36.22878984981521,
+        "date": "Dec 2022",
+        "country": "LB",
+        "elevation": 1791.467
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/tK5FFjrCNYfCGUGu6",
+        "report_time": 1714200281,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "q061-CAn_5J5AQhI9RF40w",
+        "lat": 33.56485075904169,
+        "lng": 35.37483650054657,
+        "date": "Sep 2021",
+        "country": "LB",
+        "elevation": 12.544792
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/1rhgcxBipQYQmJ79A",
+        "report_time": 1714131682,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "NhOoWtwzNFnUhg1qlGEcmQ",
+        "lat": 33.643609680613125,
+        "lng": 35.401992770905785,
+        "date": "Sep 2021",
+        "country": "LB",
+        "elevation": 24.725742
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/kgp2YSbJW9j4e3iX7",
+        "report_time": 1714123494,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "Rqi0s87rw4jmfI58YwYXUQ",
+        "lat": 34.50642396740867,
+        "lng": 35.979376075191176,
+        "date": "Jul 2021",
+        "country": "LB",
+        "elevation": 34.346466
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/2pDbMQAku5BCyJBu5",
+        "report_time": 1714123494,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "7CrbB_wzSFO4kBGDdEL_QA",
+        "lat": 34.50326544234805,
+        "lng": 35.970927417355824,
+        "date": "Aug 2021",
+        "country": "LB",
+        "elevation": 26.478247
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/F6L7aWA7pmmpus8ZA",
+        "report_time": 1714108208,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "wPOs0CmHtzMMeb9miTaMWA",
+        "lat": 34.248893127128106,
+        "lng": 36.05183051853487,
+        "date": "May 2023",
+        "country": "LB",
+        "elevation": 1985.0183
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/cnV465XVVxoNsAmc7",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "OtbdnrAArAuZ31RXDAOgKQ",
+        "lat": 23.881828093482913,
+        "lng": 72.22804053078372,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 112.39039
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/MVC6C3jZRVqb1YZb6",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "uHO9fQieV6JdR0EMmSalbQ",
+        "lat": 22.456114144667712,
+        "lng": 82.28588454233736,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 364.26807
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/vMKqycTLirtJYr5D7",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "_8iDvR3t2AYdboc4_9OdTw",
+        "lat": 24.326972962952027,
+        "lng": 83.64538616289995,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 244.12201
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/geh5rA7dbU65L3PGA",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "K_Y8AVE38eV2JkuIzV1y_w",
+        "lat": 21.744267820716185,
+        "lng": 87.35150562505399,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 28.080412
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/k56G6aXbUwj9d18L9",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "kzI2s5uY5WJAZ3sujREguw",
+        "lat": 13.860913949863262,
+        "lng": 75.82177692441775,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 696.6045
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/H2YYzEjhXwYm6wPc7",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "KRPafbz0Pow_F31ukGiT9Q",
+        "lat": 26.648411439626674,
+        "lng": 88.89461675838932,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 110.651024
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/jDGXgnnh2rxw5FPJ7",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "G0lfMx02ed6OWyjJUn9Efw",
+        "lat": 14.009655121933855,
+        "lng": 78.07169823642181,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 631.7137
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Wub6Z1N6vvCqHitH6",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "SQu5GJEJhDqvArvTtGIWJQ",
+        "lat": 11.112730414492454,
+        "lng": 76.60703439503304,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 557.3094
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/EYXao7MXwqtJPe6J7",
+        "report_time": 1714075246,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "ImuA3HAd57-x3lvcaYoexQ",
+        "lat": 28.033506192283603,
+        "lng": 73.94351396598587,
+        "date": "Apr 2024",
+        "country": "IN",
+        "elevation": 297.7053
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/742kcGfwVQmepkN39",
+        "report_time": 1714044115,
+        "author": "Past\u00e8queHach\u00e9e",
+        "panoid": "a1hmHwXcVjWLaXRshq6bew",
+        "lat": 34.12817909190919,
+        "lng": 35.7844069260418,
+        "date": "Jul 2023",
+        "country": "LB",
+        "elevation": 1280.1223
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ZKnB75jsYP2csHHn6",
+        "report_time": 1714043961,
+        "author": "Past\u00e8queHach\u00e9e",
+        "panoid": "ivmX_hteaQm2tLJAErPF0g",
+        "lat": 34.22094206428796,
+        "lng": 35.751585941444056,
+        "date": "Jun 2023",
+        "country": "LB",
+        "elevation": 584.7022
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/QtRowJrCnPae7kvH8",
+        "report_time": 1713979412,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "yYVekY6qyysuM0YgT87ztA",
+        "lat": 34.256763674002215,
+        "lng": 35.65839285897841,
+        "date": "Jun 2023",
+        "country": "LB",
+        "elevation": 12.212183
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Hp7cRvDU4oPv4jSa6",
+        "report_time": 1713978887,
+        "author": "LATV1JA",
+        "panoid": "rrnqSVHcI6nC3wp_TtUNag",
+        "lat": 34.463872283732535,
+        "lng": 36.03694428305088,
+        "date": "Jan 2023",
+        "country": "LB",
+        "elevation": 509.8508
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/1QDhxbKsJCWbsMLC6",
+        "report_time": 1713960318,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "qB1gpeSM91Rn-HNcEJI6gQ",
+        "lat": 33.86896931189637,
+        "lng": 35.946931556022605,
+        "date": "Nov 2021",
+        "country": "LB",
+        "elevation": 954.2472
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/u5sXepYohpJDx5Dz5",
+        "report_time": 1713959849,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "3fEamfFW7fc_2UY7SEXJhQ",
+        "lat": 34.083144830291786,
+        "lng": 35.649021433941456,
+        "date": "Jul 2023",
+        "country": "LB",
+        "elevation": 14.272894
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Xe9UYq1KgRivQ1Kp6",
+        "report_time": 1713947731,
+        "author": "maccem",
+        "panoid": "yVMOrOCr2zynPbKYK_eepQ",
+        "lat": 34.12905901162891,
+        "lng": 35.64235456965543,
+        "date": "Jul 2023",
+        "country": "LB",
+        "elevation": 13.063794
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/r2Qe7c8jgVYE34hu9",
+        "report_time": 1713943280,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "H4dZPzY3XsHT8cg0LSeiIw",
+        "lat": 34.21847629517634,
+        "lng": 35.94654750411673,
+        "date": "May 2023",
+        "country": "LB",
+        "elevation": 1737.7058
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/kxSjJihteBcF3w9W6",
+        "report_time": 1713939123,
+        "author": "Past\u00e8queHach\u00e9e",
+        "panoid": "cMv00XIW2adXZ_AM0KNbMw",
+        "lat": 34.4664012501253,
+        "lng": 36.03616203749242,
+        "date": "Jan 2023",
+        "country": "LB",
+        "elevation": 502.5547
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/KTii844yb2Pbk2YY9",
+        "report_time": 1713939058,
+        "author": "Past\u00e8queHach\u00e9e",
+        "panoid": "ApiqIImaBl6hnVY1OUAq_w",
+        "lat": 34.23086386046694,
+        "lng": 35.860660113684915,
+        "date": "Jul 2023",
+        "country": "LB",
+        "elevation": 1165.5643
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/zfvkkgwALJUYfCnp7",
+        "report_time": 1713938955,
+        "author": "Past\u00e8queHach\u00e9e",
+        "panoid": "ygbs0rCOKIZTpjFBmFW4Lg",
+        "lat": 34.43954006432779,
+        "lng": 35.83066663201654,
+        "date": "Jun 2023",
+        "country": "LB",
+        "elevation": 15.104527
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/uyvJsQRcZ7aJACdL7",
+        "report_time": 1713874593,
+        "author": "Franz",
+        "panoid": "jNlS60PF_t3Cj2VRklETyw",
+        "lat": 34.38181542617771,
+        "lng": 35.77982882564967,
+        "date": "Aug 2022",
+        "country": "LB",
+        "elevation": 37.310894
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/rQDnm8ZEUsEKzG2t6",
+        "report_time": 1713874593,
+        "author": "Franz",
+        "panoid": "Ddh0tLjU3rKdHq4-FJAMXQ",
+        "lat": 34.18977144438559,
+        "lng": 35.653511127595046,
+        "date": "Aug 2021",
+        "country": "LB",
+        "elevation": 193.39825
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/a1N4MKY8DXLvJ4PD9",
+        "report_time": 1713770125,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoid": "Zi0Uzx5y6ZsPUwGVB1kzUw",
+        "lat": 34.42025874582579,
+        "lng": 35.87226287102903,
+        "date": "Feb 2023",
+        "country": "LB",
+        "elevation": 107.85331
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/ogLZJC5iJZu9fLBk9",
+        "report_time": 1713767294,
+        "author": "Alex*",
+        "panoid": "MWX5NK_b1S2_C4OcuNRswg",
+        "lat": 34.44860997567162,
+        "lng": 35.92464571267562,
+        "date": "Mar 2023",
+        "country": "LB",
+        "elevation": 454.08075
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/nbiRrHBUePM7dBWy8",
+        "report_time": 1713767151,
+        "author": "Alex*",
+        "panoid": "ZLsjrnvdPpjwJ4F96Jj6Bw",
+        "lat": 34.02109943981552,
+        "lng": 35.69494202303794,
+        "date": "Aug 2023",
+        "country": "LB",
+        "elevation": 666.72125
+    },
+    {
+        "update_type": [
+            "newarea",
+            "gen3update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/x6wyGy6nCcN5ziMK7",
+        "report_time": 1713767016,
+        "author": "Alex*",
+        "panoid": "LA3Szu7eoBhFJ3mGqriOtg",
+        "lat": 33.94328599117558,
+        "lng": 35.64510592453488,
+        "date": "Sep 2021",
+        "country": "LB",
+        "elevation": 87.52868
+    },
+    {
+        "update_type": [
+            "newarea",
+            "newcountry"
+        ],
+        "sv_link": "https://maps.app.goo.gl/fb4XD5Gf84v6kPop7",
+        "report_time": 1713766197,
+        "author": "Past\u00e8queHach\u00e9e",
+        "panoid": "u8q_Q2ygeCl1JX8vsigcKA",
+        "lat": 34.24644004124467,
+        "lng": 35.73536887230681,
+        "date": "Jun 2023",
+        "country": "LB",
+        "elevation": 219.34183
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Lh4nvGCqbbZyfdWs6",
+        "report_time": 1713674825,
+        "author": "Franz",
+        "panoid": "dpe6UwP-o4Qkd1Vn2c-Ong",
+        "lat": 34.04977008153636,
+        "lng": 35.80488408079104,
+        "date": "Sep 2023",
+        "country": "LB",
+        "elevation": 1587.7719
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/sXfuW3xq1TykANEAA",
+        "report_time": 1713619534,
+        "author": "Franz",
+        "panoid": "ESwbkZZ1p_pOAgcbJ99Ehg",
+        "lat": 34.42628798914487,
+        "lng": 35.976808556998364,
+        "date": "Jun 2021",
+        "country": "LB",
+        "elevation": 372.56998
+    },
+    {
+        "update_type": [
+            "newcountry",
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/J2sxHmNFWEuBNoAJ8",
+        "report_time": 1713619534,
+        "author": "Franz",
+        "panoid": "FdhppvCoyycuilqgoHTNeg",
+        "lat": 34.42798735211765,
+        "lng": 35.97911361277651,
+        "date": "Jul 2021",
+        "country": "LB",
+        "elevation": 331.4932
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/9kepzMA4u4B4Y4NMA",
+        "report_time": 1713614650,
+        "author": "sundrenched",
+        "panoid": "qGftqLBoOEDCgIrYo78P0Q",
+        "lat": 34.0661536803182,
+        "lng": 35.80701445388347,
+        "date": "Aug 2023",
+        "country": "LB",
+        "elevation": 1271.6998
+    },
+    {
+        "update_type": [
+            "newarea"
+        ],
+        "sv_link": "https://maps.app.goo.gl/M4Lq38e3HajQTTio9",
+        "report_time": 1713606135,
+        "author": "Alex*",
+        "panoid": "8dZ_jT7zoJH9wKBNVzV5nQ",
+        "lat": 34.06296858157528,
+        "lng": 35.653391115458994,
+        "date": "Aug 2023",
+        "country": "LB",
+        "elevation": 28.006426
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/sfRHKwADsg4Q7Jkj9",
+        "report_time": 1730465738,
+        "author": "jpeters",
+        "panoid": "87y-OOirW8bV8-KX_78wiw",
+        "lat": 40.93025622673086,
+        "lng": 43.642796772675034,
+        "date": "Nov 2023",
+        "country": "TR",
+        "elevation": 2097.965
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/CxiF4APkGhi1XcpYA",
+        "report_time": 1730468983,
+        "author": "Jordeter",
+        "panoid": "M-xSF3J6Q-6Mlj0T1hbwwA",
+        "lat": -28.922234295450533,
+        "lng": 31.499302284755654,
+        "date": "Sep 2024",
+        "country": "ZA",
+        "elevation": 326.82944
     }
 ]
