@@ -6061,7 +6061,7 @@ function applyFilters() {
   filterdata = dataToFilter.filter(item => {
       const inDateRange = isPeak || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
       
-      const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.update_type);
+      const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.types);
       
       const inMonthRange = filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
   
@@ -6303,11 +6303,9 @@ toggle_cluster.addEventListener('click', function () {
 const toggle_peak = document.querySelector('.control.peak')
 toggle_peak.addEventListener('click', function () {
   if (isPeak) {
-    isCluster =true
     isPeak = false;
     applyFilters()
 } else {
-  isCluster = false
   isPeak = true;
   applyFilters()
 }
@@ -6323,7 +6321,7 @@ copy_button.addEventListener('click', function () {
       zoom: 0,
       panoId: item.panoId,
       extra:{
-       tags: [item.author,item.date, ...item.update_type||[]]}
+       tags: [item.author,item.date, ...item.types||[]]}
   }));
 
   const formattedText = JSON.stringify(formattedData);
