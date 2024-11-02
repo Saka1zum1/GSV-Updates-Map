@@ -5962,23 +5962,22 @@ function drawMarkers(data) {
   markers = []; 
 
   data.forEach(item => {
-      var { lat, lng, author, update_type, report_time, date, sv_link,elevation,panoId } = item;
+      const { lat, lng, author, types, report_time, date,altitude,panoId } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
       var popupContent
-      if(update_type){
+      if(types){
         popupContent= `
-          <strong>update type:</strong> ${update_type.map(type => 
+          <strong>update type:</strong> ${types.map(type => 
             `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
           ).join(' ')}<br>
           <strong>pano date:</strong> ${date}<br>
-          <strong>elevation:</strong> ${elevation.toFixed(2)}m<br>
+          <strong>elevation:</strong> ${altitude}m<br>
           <strong>report time:</strong> ${localTime}<br>
           <strong>reporter:</strong> ${author}`}
       else{
-        sv_link=`https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`
         popupContent= `
         <strong>pano date:</strong> ${date}<br>
-        <strong>elevation:</strong> ${elevation.toFixed(2)}m<br>`
+        <strong>elevation:</strong> ${altitude}m<br>`
 
       }
   
@@ -5990,7 +5989,8 @@ function drawMarkers(data) {
           this.closePopup();
       });
       marker.on('click', function () {
-          window.open(sv_link, '_blank');
+        const sv_link=`https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`
+        window.open(sv_link, '_blank');
       });
 
       if (isCluster) {
@@ -6323,7 +6323,7 @@ copy_button.addEventListener('click', function () {
       zoom: 0,
       panoId: item.panoId,
       extra:{
-       tags: [item.date, ...item.update_type||[]]}
+       tags: [item.author,item.date, ...item.update_type||[]]}
   }));
 
   const formattedText = JSON.stringify(formattedData);

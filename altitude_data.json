@@ -5,7 +5,7 @@
         "lng": 56.17774019184877,
         "date": "Jan 2017",
         "country": "AE",
-        "elevation": 679.3655
+        "altitude": 679.3655
     },
     {
         "panoId": "3Uo2LeUVedRp4WlxHKUddg",
@@ -13,7 +13,7 @@
         "lng": 1.7195603395267625,
         "date": "Oct 2014",
         "country": "AD",
-        "elevation": 2410.616
+        "altitude": 2410.616
     },
     {
         "panoId": "RLMN0-bH201ptI9ccndjbg",
@@ -21,7 +21,7 @@
         "lng": 19.734871089277465,
         "date": "Jun 2016",
         "country": "AL",
-        "elevation": 1686.5819
+        "altitude": 1686.5819
     },
     {
         "panoId": "aRiksuaBfUQpbllmFRT1EA",
@@ -29,7 +29,7 @@
         "lng": -66.47573052107153,
         "date": "Dec 2023",
         "country": "AR",
-        "elevation": 4551.607
+        "altitude": 4551.607
     },
     {
         "panoId": "kbg6Xr6W53ttej0na8CGCg",
@@ -37,7 +37,7 @@
         "lng": 12.831549215481218,
         "date": "Jul 2022",
         "country": "AT",
-        "elevation": 2570.3867
+        "altitude": 2570.3867
     },
     {
         "panoId": "k9zeYZvHjSBhudA5tZQ4WQ",
@@ -45,7 +45,7 @@
         "lng": 147.13277590925938,
         "date": "Oct 2022",
         "country": "AU",
-        "elevation": 1837.4753
+        "altitude": 1837.4753
     },
     {
         "panoId": "-FpXTQGF5PZ7RRFf6q2qyg",
@@ -53,7 +53,7 @@
         "lng": 17.13111716291142,
         "date": "May 2024",
         "country": "BA",
-        "elevation": 460.30527
+        "altitude": 460.30527
     },
     {
         "panoId": "KsS6Zy3onffuDy5RtdWdfw",
@@ -61,7 +61,7 @@
         "lng": 92.4120528583523,
         "date": "Apr 2024",
         "country": "BD",
-        "elevation": 716.52094
+        "altitude": 716.52094
     },
     {
         "panoId": "rrovmdcf1oDDKk057Vl_Mw",
@@ -69,7 +69,7 @@
         "lng": 6.092948993660218,
         "date": "Apr 2009",
         "country": "BE",
-        "elevation": 694.91833
+        "altitude": 694.91833
     },
     {
         "panoId": "kJWpf5fueHicidPQ4exyJg",
@@ -77,7 +77,7 @@
         "lng": 24.60047860224687,
         "date": "Jul 2024",
         "country": "BG",
-        "elevation": 2001.961
+        "altitude": 2001.961
     },
     {
         "panoId": "U_AUSl0qUMfWpsQCWNeCYg",
@@ -85,7 +85,7 @@
         "lng": -68.12954329726793,
         "date": "Mar 2015",
         "country": "BO",
-        "elevation": 4765.949
+        "altitude": 4765.949
     },
     {
         "panoId": "A0thRZTjCqcxcOFdDs0y-g",
@@ -93,7 +93,7 @@
         "lng": -44.7040206295903,
         "date": "Mar 2015",
         "country": "BR",
-        "elevation": 2447.2573
+        "altitude": 2447.2573
     },
     {
         "panoId": "o5p_VGr9fUlMa9Dtbi7uOA",
@@ -101,7 +101,7 @@
         "lng": 25.32379861544929,
         "date": "Jun 2012",
         "country": "BW",
-        "elevation": 1385.5529
+        "altitude": 1385.5529
     },
     {
         "panoId": "14x0_qT8qqepr3DorB6y2w",
@@ -109,7 +109,7 @@
         "lng": -114.9890271,
         "date": "Sep 2023",
         "country": "CA",
-        "elevation": 2206.7493
+        "altitude": 2206.7493
     },
     {
         "panoId": "ESzHprVczONPCTsaXTu3EA",
@@ -117,7 +117,7 @@
         "lng": 7.170910437440397,
         "date": "Jun 2024",
         "country": "CH",
-        "elevation": 2475.803
+        "altitude": 2475.803
     },
     {
         "panoId": "qLls2gyFqIMenHwZwfP2FA",
@@ -125,7 +125,7 @@
         "lng": -67.50476058532142,
         "date": "Sep 2012",
         "country": "CL",
-        "elevation": 4829.4526
+        "altitude": 4829.4526
     },
     {
         "panoId": "55wv0zCH6z3SMyoVM0AHvA",
@@ -133,7 +133,7 @@
         "lng": 121.27548412265925,
         "date": "Sep 2013",
         "country": "CN",
-        "elevation": 3283.2861
+        "altitude": 3283.2861
     },
     {
         "panoId": "3JYqF8s25uLy5dW7Tug51w",
@@ -141,7 +141,7 @@
         "lng": -72.35631554586728,
         "date": "Feb 2014",
         "country": "CO",
-        "elevation": 4181.1694
+        "altitude": 4181.1694
     },
     {
         "panoId": "E1uik0aNicybnIjkiRsWJw",
@@ -149,7 +149,7 @@
         "lng": 17.239602291394775,
         "date": "Mar 2012",
         "country": "CZ",
-        "elevation": 1304.8624
+        "altitude": 1304.8624
     },
     {
         "panoId": "Im2MlAmc8wG_1S3rNjyOYQ",
@@ -157,7 +157,7 @@
         "lng": 8.040384197064242,
         "date": "Nov 2022",
         "country": "DE",
-        "elevation": 1236.7021
+        "altitude": 1236.7021
     },
     {
         "panoId": "pXtrUvmbqUNFIcT78Wuvgw",
@@ -165,7 +165,7 @@
         "lng": 9.83083021713964,
         "date": "Jul 2009",
         "country": "DK",
-        "elevation": 172.91599
+        "altitude": 172.91599
     },
     {
         "panoId": "WAmgvyYPg1MxR873xiGO-w",
@@ -173,7 +173,7 @@
         "lng": -78.87497844376487,
         "date": "Dec 2014",
         "country": "EC",
-        "elevation": 4361.171
+        "altitude": 4361.171
     },
     {
         "panoId": "4B51BYXNYj0ZXLe7i1d9DQ",
@@ -181,7 +181,7 @@
         "lng": 27.056183889408086,
         "date": "Aug 2011",
         "country": "EE",
-        "elevation": 284.94925
+        "altitude": 284.94925
     },
     {
         "panoId": "04wK-D8Jfxm7eDWqkM7SGA",
@@ -189,7 +189,7 @@
         "lng": -3.3843271920487723,
         "date": "Nov 2009",
         "country": "ES",
-        "elevation": 2527.3533
+        "altitude": 2527.3533
     },
     {
         "panoId": "2ZrVcCsVOni1SikoI9penw",
@@ -197,7 +197,7 @@
         "lng": 20.936848159104773,
         "date": "Jul 2019",
         "country": "FI",
-        "elevation": 575.3671
+        "altitude": 575.3671
     },
     {
         "panoId": "_7r5Y6CeiNhrMMeINsEhbQ",
@@ -205,7 +205,7 @@
         "lng": 6.807187116371348,
         "date": "Sep 2008",
         "country": "FR",
-        "elevation": 2805.9688
+        "altitude": 2805.9688
     },
     {
         "panoId": "qmayn5WKoHUaWC__vgU5Dw",
@@ -213,7 +213,7 @@
         "lng": -3.4101083273771726,
         "date": "Jul 2023",
         "country": "GB",
-        "elevation": 672.58826
+        "altitude": 672.58826
     },
     {
         "panoId": "BW3pfpUI8QRg28wSPVIAvA",
@@ -221,7 +221,7 @@
         "lng": -91.95513526320377,
         "date": "Nov 2016",
         "country": "GT",
-        "elevation": 3510.8394
+        "altitude": 3510.8394
     },
     {
         "panoId": "hWAcjepcnOBrRmeC3YI01g",
@@ -229,7 +229,7 @@
         "lng": 21.814119054762564,
         "date": "Sep 2023",
         "country": "GR",
-        "elevation": 2021.7
+        "altitude": 2021.7
     },
     {
         "panoId": "U-aVbIKAh61MYt1yP5Xvaw",
@@ -237,7 +237,7 @@
         "lng": -1.401830807164576,
         "date": "Apr 2016",
         "country": "GH",
-        "elevation": 521.06976
+        "altitude": 521.06976
     },
     {
         "panoId": "U66dAzr747JNCLPWpGnARw",
@@ -245,7 +245,7 @@
         "lng": 20.008462037665407,
         "date": "Jun 2013",
         "country": "HU",
-        "elevation": 1014.4095
+        "altitude": 1014.4095
     },
     {
         "panoId": "rZ0RN2pvB2EAj8E4garzQg",
@@ -253,7 +253,7 @@
         "lng": 17.05935331896101,
         "date": "Sep 2011",
         "country": "HR",
-        "elevation": 1332.7179
+        "altitude": 1332.7179
     },
     {
         "panoId": "9NsfZLvbWJsAGEFqPbBzcQ",
@@ -261,7 +261,7 @@
         "lng": 112.9519046206712,
         "date": "Nov 2013",
         "country": "ID",
-        "elevation": 2748.791
+        "altitude": 2748.791
     },
     {
         "panoId": "dE9em5Qjy_VMkqTjWqRV_g",
@@ -269,7 +269,7 @@
         "lng": -6.308347525987602,
         "date": "May 2019",
         "country": "IE",
-        "elevation": 525.88776
+        "altitude": 525.88776
     },
     {
         "panoId": "W4PPo2tPR5svivqcDNAU_g",
@@ -277,7 +277,7 @@
         "lng": 35.7726152555765,
         "date": "Oct 2012",
         "country": "IL",
-        "elevation": 1239.1255
+        "altitude": 1239.1255
     },
     {
         "panoId": "LlD9Zr5HsCCtvgMazo5XPg",
@@ -285,7 +285,7 @@
         "lng": -15.701586190217931,
         "date": "Jul 2024",
         "country": "IS",
-        "elevation": 731.4785
+        "altitude": 731.4785
     },
     {
         "panoId": "qTBZ7G4qgNwRyuJf0JFi2Q",
@@ -293,7 +293,7 @@
         "lng": 77.93044973154478,
         "date": "Oct 2023",
         "country": "IN",
-        "elevation": 5386.059
+        "altitude": 5386.059
     },
     {
         "panoId": "ccaF5cMZCx-4Qfn6LNRizQ",
@@ -301,7 +301,7 @@
         "lng": 6.979630016826287,
         "date": "Sep 2024",
         "country": "FR",
-        "elevation": 2746.9673
+        "altitude": 2746.9673
     },
     {
         "panoId": "JtMdATBqeo4nhQ1Ak_VR6w",
@@ -309,7 +309,7 @@
         "lng": 138.73350460530057,
         "date": "Jun 2022",
         "country": "JP",
-        "elevation": 2380.496
+        "altitude": 2380.496
     },
     {
         "panoId": "XZMdXPiyxi4oCbdoiRZOFw",
@@ -317,7 +317,7 @@
         "lng": 35.435033886849304,
         "date": "Feb 2017",
         "country": "JO",
-        "elevation": 1695.058
+        "altitude": 1695.058
     },
     {
         "panoId": "QayYsXCXA69kTgBLo1NYzA",
@@ -325,7 +325,7 @@
         "lng": 35.42770640848769,
         "date": "Jan 2022",
         "country": "KE",
-        "elevation": 3344.624
+        "altitude": 3344.624
     },
     {
         "panoId": "RovncY_8vALs6LZF-AyfbQ",
@@ -333,7 +333,7 @@
         "lng": 75.03638257658051,
         "date": "Oct 2015",
         "country": "KG",
-        "elevation": 3237.846
+        "altitude": 3237.846
     },
     {
         "panoId": "tTuDkUkL8CFrO1fkd_9lPg",
@@ -341,7 +341,7 @@
         "lng": 104.00764498657016,
         "date": "Jun 2023",
         "country": "KH",
-        "elevation": 1070.6094
+        "altitude": 1070.6094
     },
     {
         "panoId": "HEO-xOi6R_wUTvKWkVb-3A",
@@ -349,7 +349,7 @@
         "lng": 76.97860856099398,
         "date": "Mar 2023",
         "country": "KZ",
-        "elevation": 2609.415
+        "altitude": 2609.415
     },
     {
         "panoId": "ddc4hmXAuZSFD7t3AvqPfw",
@@ -357,7 +357,7 @@
         "lng": 102.12859445962737,
         "date": "Jan 2016",
         "country": "LA",
-        "elevation": 328.809
+        "altitude": 328.809
     },
     {
         "panoId": "UeiAWWqQtAVgSCTTYhpC9w",
@@ -365,7 +365,7 @@
         "lng": 80.7750173642183,
         "date": "Sep 2015",
         "country": "LK",
-        "elevation": 2489.0752
+        "altitude": 2489.0752
     },
     {
         "panoId": "nmIiArc9H8kMXlU7Hiz-mw",
@@ -373,7 +373,7 @@
         "lng": 36.060826675048006,
         "date": "May 2023",
         "country": "LB",
-        "elevation": 2338.99
+        "altitude": 2338.99
     },
     {
         "panoId": "WaJ3HMFDYE3VFf5djYIEQw",
@@ -381,7 +381,7 @@
         "lng": 28.72798235435354,
         "date": "Dec 2012",
         "country": "LS",
-        "elevation": 3274.7622
+        "altitude": 3274.7622
     },
     {
         "panoId": "emXN5iOoIZMXlGW2HB0Kpg",
@@ -389,7 +389,7 @@
         "lng": 25.603218786455415,
         "date": "May 2023",
         "country": "LT",
-        "elevation": 286.29648
+        "altitude": 286.29648
     },
     {
         "panoId": "zmq6b9ZQYIMyW9qrcZ8wcw",
@@ -397,7 +397,7 @@
         "lng": 25.99586632027248,
         "date": "Jul 2023",
         "country": "LV",
-        "elevation": 276.07745
+        "altitude": 276.07745
     },
     {
         "panoId": "xdvFLi7B3q3wRq1MXXL0kA",
@@ -405,7 +405,7 @@
         "lng": 6.037225649960471,
         "date": "Mar 2023",
         "country": "LU",
-        "elevation": 561.28625
+        "altitude": 561.28625
     },
     {
         "panoId": "4eDLoUlHRAPFFRRdzKT7ew",
@@ -413,7 +413,7 @@
         "lng": 19.050539896231438,
         "date": "Jul 2016",
         "country": "ME",
-        "elevation": 1908.7712
+        "altitude": 1908.7712
     },
     {
         "panoId": "tmQtEt6HTLdF-rACRuvRXA",
@@ -421,7 +421,7 @@
         "lng": 20.85417211135508,
         "date": "Jun 2015",
         "country": "MK",
-        "elevation": 1218.2405
+        "altitude": 1218.2405
     },
     {
         "panoId": "rFuPEjUHlFzySHr6uaHmPQ",
@@ -429,7 +429,7 @@
         "lng": 92.29951125858823,
         "date": "Jun 2024",
         "country": "MN",
-        "elevation": 2860.3
+        "altitude": 2860.3
     },
     {
         "panoId": "Vq4j3crbfdfqzCrk7vVDwg",
@@ -437,7 +437,7 @@
         "lng": 14.384162529627817,
         "date": "Nov 2016",
         "country": "MT",
-        "elevation": 252.77489
+        "altitude": 252.77489
     },
     {
         "panoId": "Y-Q1S3WGXMkksil_L4zeHg",
@@ -445,7 +445,7 @@
         "lng": -97.15133163700179,
         "date": "Nov 2023",
         "country": "MX",
-        "elevation": 4039.363
+        "altitude": 4039.363
     },
     {
         "panoId": "enna1Vw6MIJgrv7r3zvfRw",
@@ -453,7 +453,7 @@
         "lng": 101.38282696966722,
         "date": "Nov 2013",
         "country": "MY",
-        "elevation": 2012.752
+        "altitude": 2012.752
     },
     {
         "panoId": "X4bNicV5Vbq4uM3eKDaVUg",
@@ -461,7 +461,7 @@
         "lng": 9.390892171792768,
         "date": "Jul 2022",
         "country": "NG",
-        "elevation": 1405.0625
+        "altitude": 1405.0625
     },
     {
         "panoId": "XPW_rAfB5ljhyh2Mq9RcwQ",
@@ -469,7 +469,7 @@
         "lng": 6.020466000752848,
         "date": "Sep 2015",
         "country": "NL",
-        "elevation": 327.99588
+        "altitude": 327.99588
     },
     {
         "panoId": "NX8W2OfkNELJTeeCbSLBQg",
@@ -477,7 +477,7 @@
         "lng": 8.370360331824191,
         "date": "Aug 2010",
         "country": "NO",
-        "elevation": 1864.2397
+        "altitude": 1864.2397
     },
     {
         "panoId": "rcWqZduWpEzkdH-XdscDeg",
@@ -485,7 +485,7 @@
         "lng": 175.52685470077898,
         "date": "Mar 2024",
         "country": "NZ",
-        "elevation": 1633.3651
+        "altitude": 1633.3651
     },
     {
         "panoId": "c9ApNKyXU5ZMXB8QgSMhKA",
@@ -493,7 +493,7 @@
         "lng": -82.56664881721,
         "date": "Feb 2023",
         "country": "PA",
-        "elevation": 1975.7942
+        "altitude": 1975.7942
     },
     {
         "panoId": "nnFtGNVSPnNR45y1D_15ow",
@@ -501,7 +501,7 @@
         "lng": -69.793435943527,
         "date": "Oct 2022",
         "country": "PE",
-        "elevation": 4999.953
+        "altitude": 4999.953
     },
     {
         "panoId": "TGDYqadFggoeNkbizG_o_A",
@@ -509,7 +509,7 @@
         "lng": 120.78950753410085,
         "date": "Mar 2016",
         "country": "PH",
-        "elevation": 2559.7559
+        "altitude": 2559.7559
     },
     {
         "panoId": "OkcMiIFQVdETyxZJ19R2fA",
@@ -517,7 +517,7 @@
         "lng": 15.635640119758122,
         "date": "Sep 2022",
         "country": "PL",
-        "elevation": 1202.0016
+        "altitude": 1202.0016
     },
     {
         "panoId": "fuj_y9Cl1iQfc_YYLOPC0w",
@@ -525,7 +525,7 @@
         "lng": -7.612496047814838,
         "date": "Aug 2018",
         "country": "PT",
-        "elevation": 1995.7487
+        "altitude": 1995.7487
     },
     {
         "panoId": "_wUrwv4w17_Nwa8fbaS2Uw",
@@ -533,7 +533,7 @@
         "lng": 35.11768302988049,
         "date": "Oct 2012",
         "country": "PS",
-        "elevation": 1001.16046
+        "altitude": 1001.16046
     },
     {
         "panoId": "4aeVMEVQfcbwvUnIStoQnA",
@@ -541,7 +541,7 @@
         "lng": 50.96982188280441,
         "date": "Mar 2023",
         "country": "QA",
-        "elevation": 79.100075
+        "altitude": 79.100075
     },
     {
         "panoId": "HQKNwgImtyjdNt75wEwBrQ",
@@ -549,7 +549,7 @@
         "lng": 23.65776149219826,
         "date": "Sep 2021",
         "country": "RO",
-        "elevation": 2135.518
+        "altitude": 2135.518
     },
     {
         "panoId": "0MICgT3-rUei-Gzh_dXO3g",
@@ -557,7 +557,7 @@
         "lng": 22.17395289856162,
         "date": "Aug 2014",
         "country": "RS",
-        "elevation": 1429.7281
+        "altitude": 1429.7281
     },
     {
         "panoId": "zYwfYH9NG05fvdphNGYBcg",
@@ -565,7 +565,7 @@
         "lng": 42.593450672338335,
         "date": "Apr 2021",
         "country": "RU",
-        "elevation": 2379.8823
+        "altitude": 2379.8823
     },
     {
         "panoId": "SAqIgrDoajkmPLCcOIgtuw",
@@ -573,7 +573,7 @@
         "lng": 29.44388762931955,
         "date": "Oct 2023",
         "country": "RW",
-        "elevation": 2477.9448
+        "altitude": 2477.9448
     },
     {
         "panoId": "J3bTDNEbKNNJa71p2du7og",
@@ -581,7 +581,7 @@
         "lng": 12.847620278933181,
         "date": "Jun 2019",
         "country": "SE",
-        "elevation": 1006.11346
+        "altitude": 1006.11346
     },
     {
         "panoId": "ps9iNJyLPd9VhV7oIYQDig",
@@ -589,7 +589,7 @@
         "lng": 13.641807607814297,
         "date": "Sep 2013",
         "country": "SI",
-        "elevation": 2052.4822
+        "altitude": 2052.4822
     },
     {
         "panoId": "VNjmg9UV_hKgnTP6zEDWDA",
@@ -597,7 +597,7 @@
         "lng": 20.06062752127465,
         "date": "May 2012",
         "country": "SK",
-        "elevation": 1375.1135
+        "altitude": 1375.1135
     },
     {
         "panoId": "yFnnUunz393EDA7ZqZufLQ",
@@ -605,7 +605,7 @@
         "lng": -12.082861990247764,
         "date": "Dec 2021",
         "country": "SN",
-        "elevation": 199.67442
+        "altitude": 199.67442
     },
     {
         "panoId": "yU_SFGcBxDMnTJRBgDnl4Q",
@@ -613,7 +613,7 @@
         "lng": 6.612027408406164,
         "date": "Feb 2023",
         "country": "ST",
-        "elevation": 1167.4204
+        "altitude": 1167.4204
     },
     {
         "panoId": "azdSo6TzE15Z5OjFho4u0g",
@@ -621,7 +621,7 @@
         "lng": 98.48046814837875,
         "date": "Jul 2022",
         "country": "TH",
-        "elevation": 2529.5884
+        "altitude": 2529.5884
     },
     {
         "panoId": "odGPeHsoV84TdlZ_OckK6Q",
@@ -629,7 +629,7 @@
         "lng": 42.899905433456546,
         "date": "Aug 2022",
         "country": "TR",
-        "elevation": 2987.0134
+        "altitude": 2987.0134
     },
     {
         "panoId": "mW0ap6uAODasKK7pEyTqAQ",
@@ -637,7 +637,7 @@
         "lng": 24.670181640669536,
         "date": "May 2015",
         "country": "UA",
-        "elevation": 974.46783
+        "altitude": 974.46783
     },
     {
         "panoId": "UwJkIYzPBU1Fvz7w20FV8g",
@@ -645,7 +645,7 @@
         "lng": -105.64269059466149,
         "date": "Jun 2008",
         "country": "US",
-        "elevation": 4310.7153
+        "altitude": 4310.7153
     },
     {
         "panoId": "6C5kBxEeE0qouso1BJRAVA",
@@ -653,7 +653,7 @@
         "lng": -54.65653109298905,
         "date": "Sep 2015",
         "country": "UY",
-        "elevation": 410.40244
+        "altitude": 410.40244
     },
     {
         "panoId": "WWf7N740pNqqD4j1JvzGqQ",
@@ -661,7 +661,7 @@
         "lng": 28.628953732961822,
         "date": "Oct 2010",
         "country": "ZA",
-        "elevation": 2155.5168
+        "altitude": 2155.5168
     },
     {
         "panoId": "Br2oCAVR7lTU90AIZtau7w",
@@ -669,7 +669,7 @@
         "lng": 12.449234933112013,
         "date": "Jul 2015",
         "country": "SM",
-        "elevation": 732.00366
+        "altitude": 732.00366
     },
     {
         "panoId": "LtyOvWNGNFWo_IYWqj7hlg",
@@ -677,7 +677,7 @@
         "lng": 32.6150513356419,
         "date": "Apr 2015",
         "country": "UG",
-        "elevation": 1307.5454
+        "altitude": 1307.5454
     },
     {
         "panoId": "hqGbTOonZGX6uoJk_aiVTg",
@@ -685,7 +685,7 @@
         "lng": -69.13072374657405,
         "date": "Feb 2018",
         "country": "CW",
-        "elevation": 180.23431
+        "altitude": 180.23431
     },
     {
         "panoId": "zSluh4OdDya3OeB8fk5Efw",
@@ -693,7 +693,7 @@
         "lng": 31.032075439012214,
         "date": "May 2013",
         "country": "SZ",
-        "elevation": 1629.2339
+        "altitude": 1629.2339
     },
     {
         "panoId": "19MpXW7wrzA32mVsduMbcg",
@@ -701,7 +701,7 @@
         "lng": 103.81845816628106,
         "date": "Jan 2009",
         "country": "SG",
-        "elevation": 95.84772
+        "altitude": 95.84772
     },
     {
         "panoId": "Zx9gzl0Qqqltge-y76E0IQ",
@@ -709,7 +709,7 @@
         "lng": 89.34322844737258,
         "date": "May 2013",
         "country": "BT",
-        "elevation": 3837.301
+        "altitude": 3837.301
     },
     {
         "panoId": "-JymQgeK-Pd-4LblTZbOVQ",
@@ -717,7 +717,7 @@
         "lng": 10.376388290175958,
         "date": "Jul 2016",
         "country": "TN",
-        "elevation": 197.29373
+        "altitude": 197.29373
     },
     {
         "panoId": "QABfr8vkK2B4S1X4QkC-BQ",
@@ -725,7 +725,7 @@
         "lng": -64.83468782898268,
         "date": "Jun 2015",
         "country": "BM",
-        "elevation": 79.60879
+        "altitude": 79.60879
     },
     {
         "panoId": "GlII42eYopLtv5-Y-cnK2g",
@@ -733,7 +733,7 @@
         "lng": 126.4630914117692,
         "date": "May 2015",
         "country": "KR",
-        "elevation": 1098.8538
+        "altitude": 1098.8538
     },
     {
         "panoId": "BCnjOqRWQuA4SKJe4L47Dw",
@@ -741,7 +741,7 @@
         "lng": 7.413021809407729,
         "date": "Jun 2014",
         "country": "FR",
-        "elevation": 138.58423
+        "altitude": 138.58423
     },
     {
         "panoId": "jPJfjG5i8xrP649xztJlPQ",
@@ -749,7 +749,7 @@
         "lng": -51.684927713791694,
         "date": "Oct 2014",
         "country": "GL",
-        "elevation": 253.26991
+        "altitude": 253.26991
     },
     {
         "panoId": "zXm7PhD66psWX3octHCU8g",
@@ -757,7 +757,7 @@
         "lng": -6.95704402489033,
         "date": "Jun 2024",
         "country": "FO",
-        "elevation": 562.7879
+        "altitude": 562.7879
     },
     {
         "panoId": "51nLj_y5ola19PELXxkFEg",
@@ -765,7 +765,7 @@
         "lng": 9.609109294900698,
         "date": "Aug 2024",
         "country": "LI",
-        "elevation": 1622.5325
+        "altitude": 1622.5325
     },
     {
         "panoId": "TWblL9K2uqQvJNfFp_RzjQ",
@@ -773,6 +773,6 @@
         "lng": 57.62736183049937,
         "date": "Sep 2024",
         "country": "OM",
-        "elevation": 2403.0703
+        "altitude": 2403.0703
     }
 ]
