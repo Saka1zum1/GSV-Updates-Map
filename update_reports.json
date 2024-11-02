@@ -117865,5 +117865,176 @@
         "date": "Sep 2024",
         "country": "ZA",
         "elevation": 326.82944
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/mvbyyQNyPUqahT7X6",
+        "report_time": 1730476778,
+        "author": "DeSlagen",
+        "panoid": "966iTYn4L2S1tsbMzXPVIQ",
+        "lat": 44.96171600504649,
+        "lng": 6.606731163691011,
+        "date": "Oct 2024",
+        "country": "FR",
+        "elevation": 2361.5325
+    },
+    {
+        "update_type": [
+            "newtown"
+        ],
+        "sv_link": "https://maps.app.goo.gl/uZS9TbygBGuq5uc28",
+        "report_time": 1730476778,
+        "author": "DeSlagen",
+        "panoid": "nxk4j5RPDgnKtC5cmcZ6jA",
+        "lat": 44.92474993233795,
+        "lng": 6.713883524955007,
+        "date": "Oct 2024",
+        "country": "FR",
+        "elevation": 1856.3188
+    },
+    {
+        "update_type": [
+            "gen1update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/t82bYS32qQHKMNci7",
+        "report_time": 1730476648,
+        "author": "DeSlagen",
+        "panoid": "nbNXn5Vg3sEVGZurnI1xtA",
+        "lat": 45.32407300603653,
+        "lng": 6.318999345744386,
+        "date": "Oct 2024",
+        "country": "FR",
+        "elevation": 472.9077
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/pdGVXZ9BEftxMPV99",
+        "report_time": 1730476648,
+        "author": "DeSlagen",
+        "panoid": "VNmJaDq7Fk9nEseujOs4JQ",
+        "lat": 45.07021621939571,
+        "lng": 6.623584240005838,
+        "date": "Oct 2024",
+        "country": "FR",
+        "elevation": 1766.9386
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/9HAHeVaz2AK3SA7A6",
+        "report_time": 1730475930,
+        "author": "DeSlagen",
+        "panoid": "FINPLRexdy-I_ayZSvCpKg",
+        "lat": 40.290087057293604,
+        "lng": 15.861766595486253,
+        "date": "Oct 2024",
+        "country": "IT",
+        "elevation": 691.6936
+    },
+    {
+        "update_type": [
+            "newregion"
+        ],
+        "sv_link": "https://maps.app.goo.gl/BdwPEDtdDM9c9bjy8",
+        "report_time": 1730475810,
+        "author": "DeSlagen",
+        "panoid": "ZAlJ3d6V8ePmXbf_ttV_7w",
+        "lat": 39.9302433652764,
+        "lng": -0.0013305938282635152,
+        "date": "Oct 2024",
+        "country": "ES",
+        "elevation": 4.3346705
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/vDydVZzMS196gkwQA",
+        "report_time": 1730479670,
+        "author": "Jordeter",
+        "panoid": "nkJWfJfTlphlKdT_8tlGYw",
+        "lat": -33.591932901924125,
+        "lng": 18.952946429653753,
+        "date": "Sep 2024",
+        "country": "ZA",
+        "elevation": 90.92086
+    },
+    {
+        "update_type": [
+            "newregion",
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/pcqLWmzrH8DMn2Z77",
+        "report_time": 1730479670,
+        "author": "Jordeter",
+        "panoid": "_yPpzfh-0UMIW1uTb5ltww",
+        "lat": -28.584458557233635,
+        "lng": 26.175349086394515,
+        "date": "Sep 2024",
+        "country": "ZA",
+        "elevation": 1315.1527
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/Vhiu8qMLbxBqfLZm7",
+        "report_time": 1730477381,
+        "author": "vegetal",
+        "panoid": "w0Z8Tzg9Bz3inDWHo1blCA",
+        "lat": 45.067342760703966,
+        "lng": 6.410210571088824,
+        "date": "Oct 2024",
+        "country": "FR",
+        "elevation": 2534.534
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/mdYWryHR4mMAUf5F8",
+        "report_time": 1730508091,
+        "author": "DeSlagen",
+        "panoid": "AhjoLARy-H5NQcZmsQ3GlA",
+        "lat": 55.28173424127746,
+        "lng": -4.776680453276285,
+        "date": "Aug 2024",
+        "country": "GB",
+        "elevation": 141.31416
+    },
+    {
+        "update_type": [
+            "newroad"
+        ],
+        "sv_link": "https://maps.app.goo.gl/JznsCVxWXSUsYR1Z7",
+        "report_time": 1730508091,
+        "author": "DeSlagen",
+        "panoid": "N1gVQGUbalxxbBMPH9boSQ",
+        "lat": 55.19379246255191,
+        "lng": -4.756442139363113,
+        "date": "Aug 2024",
+        "country": "GB",
+        "elevation": 86.20063
+    },
+    {
+        "update_type": [
+            "gen2update"
+        ],
+        "sv_link": "https://maps.app.goo.gl/aFZWiEFQFptwmujN7",
+        "report_time": 1730508091,
+        "author": "DeSlagen",
+        "panoid": "lSfSzy9yWyW0lHmjANxAPw",
+        "lat": 55.40762784692839,
+        "lng": -4.743271131214917,
+        "date": "Aug 2024",
+        "country": "GB",
+        "elevation": 118.05566
     }
 ]
