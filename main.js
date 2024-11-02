@@ -6058,7 +6058,7 @@ function applyFilters() {
 
   const dataToFilter = isPeak ? altitude_data : update_data;
 
-  const filterdata = dataToFilter.filter(item => {
+  filterdata = dataToFilter.filter(item => {
       const inDateRange = isPeak || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
       
       const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.update_type);
@@ -6323,7 +6323,7 @@ copy_button.addEventListener('click', function () {
       zoom: 0,
       panoId: item.panoId,
       extra:{
-       tags: [item.date, ...item.update_type]}
+       tags: [item.date, ...item.update_type||[]]}
   }));
 
   const formattedText = JSON.stringify(formattedData);
