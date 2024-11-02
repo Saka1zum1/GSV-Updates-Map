@@ -12346,8 +12346,7 @@ const overlayMaps = {
   "Panoramas(requires close zoom 16+)": panoramasLayer
 };
 
-const 
-  ht = L.map("map", {
+const ht = L.map("map", {
     minZoom: 1,
     center:[0,0],
     zoom:2,
@@ -12401,9 +12400,9 @@ var opacityControl=L.control.opacityControl([gsvLayer,gsvLayer2,gsvLayer3]).addT
 let isRangeMode = true
 let isHeatmap = false
 let isCluster=true
-let update_data
+let isPeak=false
+let update_data,altitude_data,filterdata
 let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[],poly:[],country:null}
-let filterdata
 let markers=[]
 let heatmapLayer
 const heatmap_on='./assets/heatmap.png'
@@ -12445,16 +12444,25 @@ function drawMarkers(data) {
   markers = []; 
 
   data.forEach(item => {
-      const { lat, lng, author, update_type, report_time, date, sv_link,elevation } = item;
+      var { lat, lng, author, update_type, report_time, date, sv_link,elevation,panoId } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
-      const popupContent = `
-        <strong>update type:</strong> ${update_type.map(type => 
-          `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
-        ).join(' ')}<br>
+      var popupContent
+      if(update_type){
+        popupContent= `
+          <strong>update type:</strong> ${update_type.map(type => 
+            `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
+          ).join(' ')}<br>
+          <strong>pano date:</strong> ${date}<br>
+          <strong>elevation:</strong> ${elevation.toFixed(2)}m<br>
+          <strong>report time:</strong> ${localTime}<br>
+          <strong>reporter:</strong> ${author}`}
+      else{
+        sv_link=`https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`
+        popupContent= `
         <strong>pano date:</strong> ${date}<br>
-        <strong>elevation:</strong> ${elevation.toFixed(2)}m<br>
-        <strong>report time:</strong> ${localTime}<br>
-        <strong>reporter:</strong> ${author}`;
+        <strong>elevation:</strong> ${elevation.toFixed(2)}m<br>`
+
+      }
   
       const marker = L.marker([lat, lng]);
       marker.on('mouseover', function () {
@@ -12491,6 +12499,72 @@ function isInPolygon(polygon) {
   return { lat: lat, lng: lng };
 }
 
+function drawHeatmap(data) {
+  if (heatmapLayer) {
+    ht.removeLayer(heatmapLayer);
+  }
+  const heatData = data.map(item => [item.lat, item.lng, 100]); 
+  heatmapLayer = L.heatLayer(heatData, {     
+      radius: 10, 
+      blur: 5,
+      maxZoom: 20,
+      maxIntensity: 1,
+}).addTo(ht);
+}
+
+function intersect(array1, array2) {
+  return array1.some(element => array2.includes(element));
+}
+
+function monthInRange(pano_date, monthRange) {
+  const [startMonth, startYear] = monthRange[0].split(' ');
+  const [endMonth, endYear] = monthRange[1].split(' ');
+
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+  const startIndex = months.indexOf(startMonth);
+  const endIndex = months.indexOf(endMonth);
+  const panoIndex = months.indexOf(pano_date.split(' ')[0]);
+  const panoYear = pano_date.split(' ')[1];
+
+  if (startYear === endYear) {
+      return panoYear === startYear && panoIndex >= startIndex && panoIndex <= endIndex;
+  } else {
+      return (panoYear === startYear && panoIndex >= startIndex) ||
+             (panoYear === endYear && panoIndex <= endIndex) ||
+             (panoYear > startYear && panoYear < endYear);
+  }
+}
+
+function applyFilters() {
+
+  const dataToFilter = isPeak ? altitude_data : update_data;
+
+  const filterdata = dataToFilter.filter(item => {
+      const inDateRange = isPeak || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
+      
+      const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.update_type);
+      
+      const inMonthRange = filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
+  
+      const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
+  
+      const pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
+          const point = L.latLng(item.lat, item.lng);
+          const poly = L.polygon(latlngs);
+          return poly.contains(point);
+      }));
+  
+      return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry;
+  });
+  if (filterdata) {
+      if (isHeatmap) drawHeatmap(filterdata);
+      else drawMarkers(filterdata);
+
+  }
+}
+
+
 fetch('update_reports.json')
   .then(response => {
     if (!response.ok) {
@@ -12502,6 +12576,18 @@ fetch('update_reports.json')
     update_data = data
     filterdata=data
     drawMarkers(data)
+  })
+  .catch(error => console.error('Error parsing json:', error));
+
+fetch('altitude_data.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network error!');
+    }
+    return response.json();
+  })
+  .then(data => {
+    altitude_data = data
   })
   .catch(error => console.error('Error parsing json:', error));
 
@@ -12596,6 +12682,7 @@ ht.on("draw:created", (e) => {
   filter_check.poly.push(e.layer)
   applyFilters()
 })
+
 ht.on("draw:edited", (e) => {
   filter_check.poly=[]
   e.layers.eachLayer((layer) => {
@@ -12665,18 +12752,6 @@ toggle_calendar.addEventListener('click', function () {
   toggle_calendar.textContent = isRangeMode ? 'Range' : 'Single';
 });
 
-function drawHeatmap(data) {
-  if (heatmapLayer) {
-    ht.removeLayer(heatmapLayer);
-  }
-  const heatData = data.map(item => [item.lat, item.lng, 100]); 
-  heatmapLayer = L.heatLayer(heatData, {     
-      radius: 10, 
-      blur: 5,
-      maxZoom: 20,
-      maxIntensity: 1,
-}).addTo(ht);
-  }
 const toggle_heatmap = document.querySelector('.control.heatmap')
 toggle_heatmap.addEventListener('click', function () {
   if (isHeatmap) {
@@ -12692,7 +12767,8 @@ toggle_heatmap.addEventListener('click', function () {
     drawHeatmap(filterdata);
     drawMarkers([])
 }
-})
+});
+
 const toggle_cluster = document.querySelector('.control.cluster')
 toggle_cluster.addEventListener('click', function () {
   if (isCluster) {
@@ -12705,6 +12781,20 @@ toggle_cluster.addEventListener('click', function () {
     drawMarkers(filterdata);
 }
 });
+
+const toggle_peak = document.querySelector('.control.peak')
+toggle_peak.addEventListener('click', function () {
+  if (isPeak) {
+    isCluster =true
+    isPeak = false;
+    applyFilters()
+} else {
+  isCluster = false
+  isPeak = true;
+  applyFilters()
+}
+});
+
 const copy_button = document.querySelector('.control.copy')
 copy_button.addEventListener('click', function () {
   const formattedData = filterdata.map(item => ({
@@ -12753,55 +12843,6 @@ document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(check
   });
 });
 
-function intersect(array1, array2) {
-  return array1.some(element => array2.includes(element));
-}
-
-function monthInRange(pano_date, monthRange) {
-  const [startMonth, startYear] = monthRange[0].split(' ');
-  const [endMonth, endYear] = monthRange[1].split(' ');
-
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-
-  const startIndex = months.indexOf(startMonth);
-  const endIndex = months.indexOf(endMonth);
-  const panoIndex = months.indexOf(pano_date.split(' ')[0]);
-  const panoYear = pano_date.split(' ')[1];
-
-  if (startYear === endYear) {
-      return panoYear === startYear && panoIndex >= startIndex && panoIndex <= endIndex;
-  } else {
-      return (panoYear === startYear && panoIndex >= startIndex) ||
-             (panoYear === endYear && panoIndex <= endIndex) ||
-             (panoYear > startYear && panoYear < endYear);
-  }
-}
-
-function applyFilters() {
-  filterdata = update_data.filter(item => {
-
-      const inDateRange = item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
-      
-      const matchesType = filter_check.type.length === 0 || intersect(filter_check.type, item.update_type);
-      
-      const inMonthRange = filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
-
-      const matchesCountry = !filter_check.country || item.country===filter_check.country.toUpperCase()
-
-      let pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
-        const point = L.latLng(item.lat, item.lng);
-        const poly = L.polygon(latlngs);
-        return poly.contains(point);
-      }));
-      return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry;
-  });
-
-  if (filterdata) {
-      if (isHeatmap) drawHeatmap(filterdata);
-      else drawMarkers(filterdata);
-
-  }
-}
 
 const filter_date=document.querySelector('.filter.date')
 let ismp=false
@@ -12823,7 +12864,7 @@ filter_country.addEventListener('click',function(){
     const countryCode = prompt("please enter a country code：")
     if (countryCode) {
       filter_check.country = countryCode;
-      filter_flag.src = `${getFlagUrl(countryCode)}`;
+      filter_flag.src = `${getFlagUrl(countryCode.toLowerCase())}`;
       filter_country.appendChild(filter_flag)
       applyFilters()
     }
@@ -12835,4 +12876,3 @@ filter_country.addEventListener('click',function(){
     }
   
 })
-
