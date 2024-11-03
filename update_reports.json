@@ -110513,5 +110513,45 @@
         "date": "Oct 2024",
         "country": "ID",
         "altitude": 333.24
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1730612588,
+        "author": "DerZiggi",
+        "panoId": "OG6h2qqoPhvl646_VkeGiQ",
+        "lat": 22.77666,
+        "lng": 57.62101,
+        "date": "Oct 2024",
+        "country": "OM",
+        "altitude": 412.21
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730614795,
+        "author": "jpeters",
+        "panoId": "89P5Vn1ipr_NTEnnTEaqgA",
+        "lat": 44.82047,
+        "lng": 6.46045,
+        "date": "Oct 2024",
+        "country": "FR",
+        "altitude": 1796.3
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730614724,
+        "author": "jpeters",
+        "panoId": "zt8clsianpv1ZT3cyXgoPA",
+        "lat": 44.67079,
+        "lng": 6.782,
+        "date": "Oct 2024",
+        "country": "FR",
+        "altitude": 1689.31
     }
 ]

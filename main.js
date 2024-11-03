@@ -5963,7 +5963,7 @@ function drawMarkers(data) {
   markers = []; 
 
   data.forEach(item => {
-      const { lat, lng, author, types, report_time, date,altitude,panoId,attach } = item;
+      const { lat, lng, author, types, report_time, date,altitude,panoId,attach,links } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
       var popupContent
       if(types){
@@ -5977,10 +5977,9 @@ function drawMarkers(data) {
           <strong>reporter:</strong> ${author}`}
       else if (attach) {
         popupContent = `
-          <strong>pano date:</strong> ${date}<br>
           <strong>report time:</strong> ${localTime}<br>
           <strong>reporter:</strong> ${author}<br>
-          <img src="${attach}" style="max-width: 100%; height: auto;">
+          <img src="https://cdn.discordapp.com/attachments/774703077172838430${attach}" style="max-width: 100%; height: auto;">
         `;
       }
       else{
@@ -5998,8 +5997,9 @@ function drawMarkers(data) {
           this.closePopup();
       });
       marker.on('click', function () {
-        const sv_link=`https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`
-        window.open(sv_link, '_blank');
+        var link=`https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`
+        if(isSpot) link=links[0]
+        window.open(link, '_blank');
       });
 
       if (isCluster) {
@@ -6326,10 +6326,11 @@ toggle_cluster.addEventListener('click', function () {
 const toggle_peak = document.querySelector('.control.peak')
 toggle_peak.addEventListener('click', function () {
   if (isPeak) {
-    isPeak = false;
+    isPeak = false
     applyFilters()
 } else {
-  isPeak = true;
+  isPeak = true
+  isSpot = false
   applyFilters()
 }
 });
@@ -6340,7 +6341,8 @@ toggle_spot.addEventListener('click', function () {
     isSpot = false;
     applyFilters()
 } else {
-  isSpot = true;
+  isSpot = true
+  isPeak = false
   applyFilters()
 }
 });
