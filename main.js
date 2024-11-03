@@ -5979,7 +5979,7 @@ function drawMarkers(data) {
         popupContent = `
           <strong>report time:</strong> ${localTime}<br>
           <strong>reporter:</strong> ${author}<br>
-          <img src="https://cdn.discordapp.com/attachments/774703077172838430${attach}" style="max-width: 100%; height: auto;">
+          <img src="https://cdn.discordapp.com/attachments/${attach}" style="max-width: 100%; height: auto;">
         `;
       }
       else{
@@ -6314,10 +6314,12 @@ const toggle_cluster = document.querySelector('.control.cluster')
 toggle_cluster.addEventListener('click', function () {
   if (isCluster) {
     isCluster = false;
+    toggle_cluster.setAttribute('data-text', 'Enable Cluster Markers')
     toggle_cluster.style.backgroundImage = `url('${cluster_off}')`;
     drawMarkers(filterdata)
 } else {
   isCluster = true;
+  toggle_cluster.setAttribute('data-text', 'Disable Cluster Markers')
   toggle_cluster.style.backgroundImage = `url('${cluster_on}')`;
     drawMarkers(filterdata);
 }

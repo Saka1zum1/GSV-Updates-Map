@@ -86,6 +86,25 @@
             background-position: 50%;
             background-size:cover;
         }
+        .filter::after {
+            content: attr(data-text);
+            position: relative;
+            top: 20px; 
+            left: 72px;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+            border-radius: 4px;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .filter:hover::after {
+            opacity: 1;
+        }
         #color-board{
             position: absolute;
             width: 26px;
@@ -111,6 +130,26 @@
 	        border-radius: 5px;
             background-position: 50%;
             background-size:cover;
+        }
+        .control::after {
+            content: attr(data-text);
+            position: absolute;
+            top: -30px; 
+            left: 15px;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+            border-radius: 4px;
+            white-space: nowrap;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .control:hover::after {
+            opacity: 1;
         }
         .checkbox-container {
             position: absolute;
@@ -161,14 +200,14 @@
     </div>
     <div id="monthpicker"></div>
     <div id="color-board"></div>
-    <div class="control heatmap" style="right:10px; bottom: 10px; background-image: url('assets/heatmap_off.png')"></div>
-    <div class="control cluster" style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
-    <div class="control copy" style="right:110px; bottom: 10px; background-image: url('assets/copy.svg')"></div>
-    <div class="control peak" style="right:160px; bottom: 10px; background-image: url('assets/pegman_peak.png')"></div>
-    <div class="control spot" style="right:210px; bottom: 10px; background-image: url('assets/pegman_spot.png')"></div>
-    <div class="filter type" style="left:15px; top: 70px; background-image: url('assets/pegman_hi.gif')"></div>
-    <div class="filter date" style="left:15px; top: 170px; background-image: url('assets/pegman_look.gif')"></div>
-    <div class="filter country" style="left:15px; top: 270px; background-image: url('assets/pegman_map.gif')"></div>
+    <div class="control heatmap" data-text="Heatmap" style="right:10px; bottom: 10px; background-image: url('assets/heatmap_off.png')"></div>
+    <div class="control cluster" data-text="Disable Cluster Markers" style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
+    <div class="control copy" data-text="Copy as JSON" style="right:110px; bottom: 10px; background-image: url('assets/copy.svg')"></div>
+    <div class="control peak" data-text="Peak Locations" style="right:160px; bottom: 10px; background-image: url('assets/pegman_peak.png')"></div>
+    <div class="control spot" data-text="Car Spotted Locations" style="right:210px; bottom: 10px; background-image: url('assets/pegman_spot.png')"></div>
+    <div class="filter type" data-text="Filter by update types" style="left:15px; top: 70px; background-image: url('assets/pegman_hi.gif')"></div>
+    <div class="filter date" data-text="Filter by pano month" style="left:15px; top: 170px; background-image: url('assets/pegman_look.gif')"></div>
+    <div class="filter country" data-text="Filter by country" style="left:15px; top: 270px; background-image: url('assets/pegman_map.gif')"></div>
     <div class="checkbox-container" id="checkboxContainer-type">
         <div class="checkbox-item">
             <input type="checkbox" data-type="newcountry">
