@@ -5919,7 +5919,8 @@ let isRangeMode = true
 let isHeatmap = false
 let isCluster=true
 let isPeak=false
-let update_data,altitude_data,filterdata
+let isSpot=false
+let update_data,altitude_data,spots_data,filterdata
 let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[],poly:[],country:null}
 let markers=[]
 let heatmapLayer
@@ -5962,7 +5963,7 @@ function drawMarkers(data) {
   markers = []; 
 
   data.forEach(item => {
-      const { lat, lng, author, types, report_time, date,altitude,panoId } = item;
+      const { lat, lng, author, types, report_time, date,altitude,panoId,attach } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
       var popupContent
       if(types){
@@ -5974,6 +5975,14 @@ function drawMarkers(data) {
           <strong>elevation:</strong> ${altitude}m<br>
           <strong>report time:</strong> ${localTime}<br>
           <strong>reporter:</strong> ${author}`}
+      else if (attach) {
+        popupContent = `
+          <strong>pano date:</strong> ${date}<br>
+          <strong>report time:</strong> ${localTime}<br>
+          <strong>reporter:</strong> ${author}<br>
+          <img src="${attach}" style="max-width: 100%; height: auto;">
+        `;
+      }
       else{
         popupContent= `
         <strong>pano date:</strong> ${date}<br>
@@ -6055,8 +6064,10 @@ function monthInRange(pano_date, monthRange) {
 }
 
 function applyFilters() {
-
-  const dataToFilter = isPeak ? altitude_data : update_data;
+  var dataToFilter
+  if (isPeak) dataToFilter= altitude_data
+  else if (isSpot) dataToFilter= spots_data
+  else dataToFilter=update_data
 
   filterdata = dataToFilter.filter(item => {
       const inDateRange = isPeak || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
@@ -6106,6 +6117,18 @@ fetch('altitude_data.json')
   })
   .then(data => {
     altitude_data = data
+  })
+  .catch(error => console.error('Error parsing json:', error));
+
+  fetch('spots.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network error!');
+    }
+    return response.json();
+  })
+  .then(data => {
+    spots_data = data
   })
   .catch(error => console.error('Error parsing json:', error));
 
@@ -6307,6 +6330,17 @@ toggle_peak.addEventListener('click', function () {
     applyFilters()
 } else {
   isPeak = true;
+  applyFilters()
+}
+});
+
+const toggle_spot = document.querySelector('.control.spot')
+toggle_spot.addEventListener('click', function () {
+  if (isSpot) {
+    isSpot = false;
+    applyFilters()
+} else {
+  isSpot = true;
   applyFilters()
 }
 });
