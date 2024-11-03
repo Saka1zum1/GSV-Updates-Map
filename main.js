@@ -6074,7 +6074,7 @@ function applyFilters() {
       
       const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.types);
       
-      const inMonthRange = filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
+      const inMonthRange = isSpot|| filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
   
       const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
   
@@ -6356,8 +6356,14 @@ copy_button.addEventListener('click', function () {
       pitch: 0,
       zoom: 0,
       panoId: item.panoId,
-      extra:{
-       tags: [item.author,item.date, ...item.types||[]]}
+      extra: {
+        tags: [
+          item.author || null, 
+          item.country || null, 
+          item.date || null, 
+          ...(item.types || [])
+        ].filter(Boolean)
+      }
   }));
 
   const formattedText = JSON.stringify(formattedData);
