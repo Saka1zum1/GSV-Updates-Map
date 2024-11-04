@@ -5963,7 +5963,7 @@ function drawMarkers(data) {
   markers = []; 
 
   data.forEach(item => {
-      const { lat, lng, author, types, report_time, date,altitude,panoId,attach,links } = item;
+      const { lat, lng, author, types, report_time, date,altitude,panoId,links,id,spot_type } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
       var popupContent
       if(types){
@@ -5975,13 +5975,13 @@ function drawMarkers(data) {
           <strong>elevation:</strong> ${altitude}m<br>
           <strong>report time:</strong> ${localTime}<br>
           <strong>reporter:</strong> ${author}`}
-      else if (attach) {
+      else if (links) {
         popupContent = `
-          <strong>report time:</strong> ${localTime}<br>
-          <strong>reporter:</strong> ${author}<br>
-          <img src="https://cdn.discordapp.com/attachments/${attach}" style="max-width: 100%; height: auto;">
+          <strong>spot type:</strong> ${spot_type}<br>
+          <strong>archived time:</strong> ${localTime}<br>
+          <strong>archived by:</strong> ${author}<br>
         `;
-      }
+      } // <img src="/images/${id}.jpg" style="max-width: 100%; height: auto;">
       else{
         popupContent= `
         <strong>pano date:</strong> ${date}<br>

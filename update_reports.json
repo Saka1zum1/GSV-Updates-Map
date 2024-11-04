@@ -114104,5 +114104,85 @@
         "date": "Sep 2024",
         "country": "US",
         "altitude": 2973.62
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730702783,
+        "author": "WaveBoy",
+        "panoId": "jX7RyJgsEnjr9NfGViChUQ",
+        "lat": 42.79112,
+        "lng": 10.32491,
+        "date": "Oct 2024",
+        "country": "IT",
+        "altitude": 45.71
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730711197,
+        "author": "Update Tracker Bot",
+        "panoId": "k-ybbIlDPh-LZoKn5oyf2A",
+        "lat": 24.09587,
+        "lng": 120.63458,
+        "date": "Oct 2024",
+        "country": "CN",
+        "altitude": 28.94
+    },
+    {
+        "types": [
+            "townsfirstnongen1L",
+            "townsfirstnongen1R"
+        ],
+        "report_time": 1728302490,
+        "author": "Diamond Armor Steve",
+        "panoId": "nRw1UhAQGKZz2e47QYNZ7A",
+        "lat": 37.1511,
+        "lng": -81.24036,
+        "date": "Jul 2024",
+        "country": "US",
+        "altitude": 703.98
+    },
+    {
+        "types": [
+            "townsfirstnongen1L",
+            "townsfirstnongen1R"
+        ],
+        "report_time": 1728302427,
+        "author": "Diamond Armor Steve",
+        "panoId": "j3ADlm8eNUN7GODg-o5CkA",
+        "lat": 37.13474,
+        "lng": -81.41403,
+        "date": "Jul 2024",
+        "country": "US",
+        "altitude": 849.37
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730729178,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "panoId": "GHBUrZ5nlPVHzCEXN7gtHQ",
+        "lat": 14.14573,
+        "lng": 100.56938,
+        "date": "Oct 2024",
+        "country": "TH",
+        "altitude": 5.73
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730728334,
+        "author": "Franz",
+        "panoId": "tCcAZc9-5DSR3vRqeCpsWA",
+        "lat": 23.68734,
+        "lng": 56.62928,
+        "date": "Oct 2024",
+        "country": "OM",
+        "altitude": 781.07
     }
 ]
