@@ -113883,5 +113883,226 @@
         "date": "Oct 2024",
         "country": "CN",
         "altitude": 7.73
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730681496,
+        "author": "Diamond Armor Steve",
+        "panoId": "2m6kzZOHxjxJfV7ZiXv7QQ",
+        "lat": 41.59418,
+        "lng": -80.09276,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 377.66
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1730681263,
+        "author": "Diamond Armor Steve",
+        "panoId": "GyDorq9HaKCzjVxOGw9z1w",
+        "lat": 41.64875,
+        "lng": -93.85678,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 310.21
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1730681117,
+        "author": "Diamond Armor Steve",
+        "panoId": "uLMMWX0A5oc_6K-A2k6qdw",
+        "lat": 42.31298,
+        "lng": -93.43426,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 365.79
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1730680963,
+        "author": "Diamond Armor Steve",
+        "panoId": "CmZqSszq33Frz2pWbPNWEQ",
+        "lat": 39.60367,
+        "lng": -88.61647,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 210.65
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1730680887,
+        "author": "Diamond Armor Steve",
+        "panoId": "6Iqj_yi6IP7MSatBnmmnXQ",
+        "lat": 40.12314,
+        "lng": -88.85557,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 225.05
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1730680787,
+        "author": "Diamond Armor Steve",
+        "panoId": "LymPzrZqYsJCYXuqXEDXpw",
+        "lat": 35.23804,
+        "lng": -92.37386,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 106.04
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730680477,
+        "author": "Diamond Armor Steve",
+        "panoId": "O5GRcPKtc73jymixs1--vw",
+        "lat": 42.79541,
+        "lng": -91.12883,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 227.24
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730680216,
+        "author": "Diamond Armor Steve",
+        "panoId": "xz3xVMNQFdQ8SYFAMqd3_w",
+        "lat": 45.03286,
+        "lng": -105.87275,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 1043.54
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730680074,
+        "author": "Diamond Armor Steve",
+        "panoId": "g5sBQkJBcgbUUbjZCfWCDA",
+        "lat": 42.01691,
+        "lng": -104.73085,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 1562.56
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730680013,
+        "author": "Diamond Armor Steve",
+        "panoId": "wEcZWCCCQ2OvbYxQa7izvg",
+        "lat": 38.19921,
+        "lng": -113.28796,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 1585.48
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1730680013,
+        "author": "Diamond Armor Steve",
+        "panoId": "aZB_vd7CdTcq3xHUef9KlA",
+        "lat": 37.8012,
+        "lng": -113.91639,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 1677.31
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730679756,
+        "author": "Diamond Armor Steve",
+        "panoId": "EisN12gJaPc1hXNVfaTwfg",
+        "lat": 34.54338,
+        "lng": -87.92035,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 182.88
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1730679595,
+        "author": "Diamond Armor Steve",
+        "panoId": "rnjjBGGwD7nVKwzoBhTuRg",
+        "lat": 40.80313,
+        "lng": -124.16737,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 6.95
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1730679472,
+        "author": "Diamond Armor Steve",
+        "panoId": "n005pc3jKXIloN6WIofz2g",
+        "lat": 41.44538,
+        "lng": -123.50641,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 222.9
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730679295,
+        "author": "Diamond Armor Steve",
+        "panoId": "HD64R6VH3u_78lpwwfb7yA",
+        "lat": 35.3304,
+        "lng": -94.57894,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 133.4
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730679066,
+        "author": "Diamond Armor Steve",
+        "panoId": "lBv0nWZR-cWifOMD1NQcWg",
+        "lat": 37.77099,
+        "lng": -80.8698,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 589.99
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730693396,
+        "author": "GrauSterne",
+        "panoId": "_b-7qCOTG6JNSjPHAs9YQA",
+        "lat": 38.04927,
+        "lng": -119.25862,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 2973.62
     }
 ]
