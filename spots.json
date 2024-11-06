@@ -8651,7 +8651,7 @@
         "country": "FR",
         "spot_type": "Gen4"
     },
-        {
+    {
         "id": "1303335670516944958",
         "links": [
             "https://www.facebook.com/watch/?v=1092918859111606",
@@ -8664,6 +8664,61 @@
         "lng": 18.0305575,
         "country": "BA",
         "spot_type": "Gen4"
+    },
+    {
+        "id": "1303402665794998272",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.reddit.com/r/southafrica/comments/1gk6tid/going_to_become_an_internet_celebrity_in_a_year/#lightbox",
+            "https://maps.app.goo.gl/ypGaziLoWEtDXVdH8"
+        ],
+        "report_time": 1730825811,
+        "author": "Tobetelogi",
+        "panoId": "bA7G1qgjPjqsx6Tf5QvjCg",
+        "lat": -27.65266,
+        "lng": 32.4214,
+        "country": "ZA"
+    },
+    {
+        "id": "1303424105202192445",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@mariano_ret085/video/7433437965822594309",
+            "https://maps.app.goo.gl/aCvod7h343EZ7MeZ6"
+        ],
+        "report_time": 1730830923,
+        "author": "Redpork",
+        "panoId": "WyaBJhlOGFSez16BBVTR6A",
+        "lat": -4.15555,
+        "lng": -38.11603,
+        "country": "BR"
+    },
+    {
+        "id": "1303420632968597515",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@francielfcs/video/7431690975375838469",
+            "https://maps.app.goo.gl/o2bms8R3qDDfh5Zx8"
+        ],
+        "report_time": 1730830095,
+        "author": "Redpork",
+        "panoId": "imJkqI6yvD5WC-SFLyvERA",
+        "lat": -10.2916,
+        "lng": -37.02258,
+        "country": "BR"
+    },
+    {
+        "id": "1303426235585790023",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10234422948130405&set=a.1989027200725",
+            "https://maps.app.goo.gl/R9hpnyPXYKh4hPgN6"
+        ],
+        "report_time": 1730831431,
+        "author": "Ethan",
+        "panoId": "k7nJx2eVS6Pa0UkkuH4jxA",
+        "lat": -34.15599,
+        "lng": 22.10215,
+        "country": "ZA"
     }
-
 ]

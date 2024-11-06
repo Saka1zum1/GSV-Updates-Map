@@ -114254,5 +114254,145 @@
         "date": "Sep 2024",
         "country": "GB",
         "altitude": 12.28
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730780734,
+        "author": "Update Tracker Bot",
+        "id": "1303213599799644271",
+        "panoId": "x6gaXjaODyEcsprK0p9kAQ",
+        "lat": -6.11033,
+        "lng": 106.6906,
+        "date": "Oct 2024",
+        "country": "ID",
+        "altitude": 12.86
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730834150,
+        "author": "Tobetelogi",
+        "id": "1303437643547283476",
+        "panoId": "It23_Z5TvOAvuMxD_Amn_A",
+        "lat": 63.08251,
+        "lng": 7.6243,
+        "date": "Jun 2024",
+        "country": "NO",
+        "altitude": 22.21
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730834150,
+        "author": "Tobetelogi",
+        "id": "1303437643547283476",
+        "panoId": "gdMLrhoX3DeimvcYzm1vjQ",
+        "lat": 62.98669,
+        "lng": 7.63817,
+        "date": "Jun 2024",
+        "country": "NO",
+        "altitude": 149.12
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1730834150,
+        "author": "Tobetelogi",
+        "id": "1303437643547283476",
+        "panoId": "geGXiohddnFEBNrG0rhuXg",
+        "lat": 62.9423,
+        "lng": 7.52061,
+        "date": "Jun 2024",
+        "country": "NO",
+        "altitude": 40.67
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730839360,
+        "author": "Tobetelogi",
+        "id": "1303459494168363070",
+        "panoId": "15TxGAOgG8jv6KnJqCOTGw",
+        "lat": 24.75812,
+        "lng": 120.98508,
+        "date": "Oct 2024",
+        "country": "CN",
+        "altitude": 75.23
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730839242,
+        "author": "Update Tracker Bot",
+        "id": "1303459001266212996",
+        "panoId": "_kR7WBpniE4MzOilg1GliA",
+        "lat": 24.66235,
+        "lng": 120.84398,
+        "date": "Oct 2024",
+        "country": "CN",
+        "altitude": 24.07
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730844812,
+        "author": "Update Tracker Bot",
+        "id": "1303482363031978106",
+        "panoId": "BVVcqq7pTZ01yQJty2x0-w",
+        "lat": -6.13152,
+        "lng": 106.75306,
+        "date": "Oct 2024",
+        "country": "ID",
+        "altitude": 6.0
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1730848189,
+        "author": "DeSlagen",
+        "id": "1303496525489377420",
+        "panoId": "4Jnnog0SZJFnMH3iL6gzcQ",
+        "lat": 52.97846,
+        "lng": -4.37311,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 228.57
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1730848189,
+        "author": "DeSlagen",
+        "id": "1303496525489377420",
+        "panoId": "Baj4TGjPuadVxAnvvZbDww",
+        "lat": 52.99879,
+        "lng": -4.42384,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 6.76
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1730848189,
+        "author": "DeSlagen",
+        "id": "1303496525489377420",
+        "panoId": "A28WKmSlTMSRMin-T7Q2Sw",
+        "lat": 52.99253,
+        "lng": -4.43412,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 58.35
     }
 ]
