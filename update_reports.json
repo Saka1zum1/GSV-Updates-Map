@@ -114394,5 +114394,47 @@
         "date": "Aug 2024",
         "country": "GB",
         "altitude": 58.35
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730849931,
+        "author": "Update Tracker Bot",
+        "id": "1303503830360526921",
+        "panoId": "17y9UqRZbwgvTva8R9f4cw",
+        "lat": 24.10333,
+        "lng": 120.58107,
+        "date": "Oct 2024",
+        "country": "CN",
+        "altitude": 29.83
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730853505,
+        "author": "Update Tracker Bot",
+        "id": "1303518823265337415",
+        "panoId": "UIc9pdkv6BtfEgxNwnErzg",
+        "lat": 24.85164,
+        "lng": 121.20279,
+        "date": "Oct 2024",
+        "country": "CN",
+        "altitude": 267.54
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730886186,
+        "author": "DeSlagen",
+        "id": "1303655894860566538",
+        "panoId": "MyBu1tuiHLjRs6je1rzhxA",
+        "lat": 47.5797,
+        "lng": 13.25601,
+        "date": "Oct 2024",
+        "country": "AT",
+        "altitude": 509.75
     }
 ]

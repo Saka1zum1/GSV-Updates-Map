@@ -5827,6 +5827,43 @@ L.control.opacityControl = function(opts) {
     return new L.Control.OpacityControl(opts);
 };
 
+let colorOptions={
+
+  Default:['1098ad','99e9f2'],
+
+  Crimson:['f03e3e','ffc9c9'],
+
+  Deep_Pink:['d6336c','fcc2d7'],
+
+  Blue_Violet:['ae3ec9','eebefa'],
+
+  Slate_Blue:['7048e8','d0bfff'],
+
+  Royal_Blue:['4263eb','bac8ff'],
+
+  Dodger_Blue: ['1c7ed6','a5d8ff'],
+
+  Sea_Green:['0ca678','96f2d7'],
+
+  Lime_Green:['37b24d','b2f2bb'],
+
+  OliveDrab:['74b816','d8f5a2'],
+
+  Orange:['f59f00','ffec99'],
+
+  Dark_Orange:['f76707','ffd8a8'],
+
+  Brown:['bd5f1b','f7ca9e'],
+}
+let color_preference = parseInt(JSON.parse(localStorage.getItem('color_preference')));
+if(!color_preference) {
+  color_preference=0
+  localStorage.setItem('color_preference', JSON.stringify(0));
+}
+const color_keys = Object.keys(colorOptions);
+var selectedColor = color_keys[color_preference];
+var [backgroundcolor,borderColor] = colorOptions[selectedColor];
+
 const roadmapBaseLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:l|p.v:off,s.t:1|s.e:g.s|p.v:on!5m1!5f1.5");
 const roadmapLabelsLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35",
   { pane: "labelPane" });
@@ -5843,7 +5880,7 @@ const cartoLightLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fas
 const cartoDarkLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png", { subdomains: ["a", "b", "c"] });
 const gsvLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m7!8m6!1m3!1i{z}!2i{x}!3i{y}!2i9!3x1!2m8!1e2!2ssvv!4m2!1scc!2s*211m3*211e2*212b1*213e2*211m3*211e3*212b1*213e2*212b1*214b1!4m2!1ssvl!2s*211b0*212b1!3m8!2sen!3sus!5e1105!12m4!1e68!2m2!1sset!2sRoadmap!4e0!5m4!1e0!8m2!1e1!1e1!6m6!1e12!2i2!11e0!39b0!44e0!50e0",
   { pane: "coveragePane" });
-var gsvLayer2 = L.tileLayer("https://www.google.com/maps/vt?pb=!1m7!8m6!1m3!1i{z}!2i{x}!3i{y}!2i9!3x1!2m8!1e2!2ssvv!4m2!1scc!2s*211m3*211e2*212b1*213e2*212b1*214b1!4m2!1ssvl!2s*211b0*212b1!3m8!2sen!3sus!5e1105!12m4!1e68!2m2!1sset!2sRoadmap!4e0!5m4!1e0!8m2!1e1!1e1!6m6!1e12!2i2!11e0!39b0!44e0!50e0",
+var gsvLayer2 = L.tileLayer(`https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`,
   { pane: "coveragePane" });
 const gsvLayer3 = L.tileLayer("https://www.google.com/maps/vt?pb=!1m7!8m6!1m3!1i{z}!2i{x}!3i{y}!2i9!3x1!2m8!1e2!2ssvv!4m2!1scc!2s*211m3*211e3*212b1*213e2*212b1*214b1!4m2!1ssvl!2s*211b0*212b1!3m8!2sen!3sus!5e1105!12m4!1e68!2m2!1sset!2sRoadmap!4e0!5m4!1e0!8m2!1e1!1e1!6m6!1e12!2i2!11e0!39b0!44e0!50e0",
   { pane: "coveragePane" });
@@ -6237,50 +6274,24 @@ ht.on("draw:deleted", () => {
   applyFilters()
 })
 
-let colorOptions={
 
-  Default:['1098ad','99e9f2'],
-
-  Crimson:['f03e3e','ffc9c9'],
-
-  Deep_Pink:['d6336c','fcc2d7'],
-
-  Blue_Violet:['ae3ec9','eebefa'],
-
-  Slate_Blue:['7048e8','d0bfff'],
-
-  Royal_Blue:['4263eb','bac8ff'],
-
-  Dodger_Blue: ['1c7ed6','a5d8ff'],
-
-  Sea_Green:['0ca678','96f2d7'],
-
-  Lime_Green:['37b24d','b2f2bb'],
-
-  OliveDrab:['74b816','d8f5a2'],
-
-  Orange:['f59f00','ffec99'],
-
-  Dark_Orange:['f76707','ffd8a8'],
-
-  Brown:['bd5f1b','f7ca9e'],
-}
 const toggle_line_color=document.getElementById('color-board')
-let current_color_index = 1;
-const color_keys = Object.keys(colorOptions);
-toggle_line_color.addEventListener('click', function () {
-  
-  const selectedColor = color_keys[current_color_index];
-  const [backgroundcolor,borderColor] = colorOptions[selectedColor];
+toggle_line_color.style.background = `#${backgroundcolor}`;
+toggle_line_color.style.borderColor = `#${borderColor}`;
 
+toggle_line_color.addEventListener('click', function () {
+  color_preference = (color_preference + 1) % color_keys.length
+  selectedColor = color_keys[color_preference];
+  [backgroundcolor,borderColor] = colorOptions[selectedColor];
   toggle_line_color.style.background = `#${backgroundcolor}`;
   toggle_line_color.style.borderColor = `#${borderColor}`;
-  current_color_index = (current_color_index + 1) % color_keys.length
   const newTileUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
   ht.removeLayer(gsvLayer2);
   ht.removeControl(opacityControl)
   gsvLayer2 = L.tileLayer(newTileUrl, { pane: "coveragePane" }).addTo(ht);
   opacityControl=L.control.opacityControl([gsvLayer,gsvLayer2,gsvLayer3]).addTo(ht)
+  console.log(color_preference)
+  localStorage.setItem('color_preference', JSON.stringify(color_preference));
 
 });
 
