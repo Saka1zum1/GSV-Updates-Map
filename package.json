@@ -11,7 +11,7 @@
     "node-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "@netlify/functions": "^2.0.0"
+     "@netlify/plugin-functions-installation": "^4.0.0"
   },
   "engines": {
     "node": "16.x"
