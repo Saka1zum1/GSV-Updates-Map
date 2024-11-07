@@ -15666,5 +15666,61 @@
         "lat": 33.97945,
         "lng": 132.29427,
         "country": "JP"
+    },
+    {
+        "id": "1303811988358561942",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.instagram.com/p/DB8duZsA0W6/",
+            "https://maps.app.goo.gl/X7YEyGdwebDdDmaU6"
+        ],
+        "report_time": 1730923401,
+        "author": "Redpork",
+        "panoId": "Q29sB2ZZwH4rLqWAo40X8A",
+        "lat": 47.88343,
+        "lng": -3.55043,
+        "country": "FR"
+    },
+    {
+        "id": "1303805601922547724",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@asahel_flores/video/7433446619107970310?q=asahel_flores&t=1730921768473",
+            "https://maps.app.goo.gl/C4rm8izk8RXtcFuE6"
+        ],
+        "report_time": 1730921879,
+        "author": "Redpork",
+        "panoId": "3-VnRgqG1cysSSsy2oCRAA",
+        "lat": 18.35439,
+        "lng": -96.1669,
+        "country": "MX"
+    },
+    {
+        "id": "1303809094100189267",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@ecolimaecouninfor28/video/7433953493959871749",
+            "https://maps.app.goo.gl/FPVLy9YKF8JUBb518"
+        ],
+        "report_time": 1730922711,
+        "author": "Redpork",
+        "panoId": "pxPPdQO-254hFFvwPPsPQA",
+        "lat": -2.13418,
+        "lng": -79.89153,
+        "country": "EC"
+    },
+    {
+        "id": "1303422176405225513",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@danielgpla/video/7431975920480587013",
+            "https://maps.app.goo.gl/WGVaNSAsWDhut6WU8"
+        ],
+        "report_time": 1730830463,
+        "author": "Redpork",
+        "panoId": "O5QAsh7axbsUWBvkzY9DdQ",
+        "lat": -21.87739,
+        "lng": -42.67143,
+        "country": "BR"
     }
 ]
