@@ -1,7 +1,7 @@
-exports.handler = async function(event, context) {
-  const { default: fetch } = await import('node-fetch');
-  
+const { default: fetch } = await import('node-fetch');
+const cache = {}; 
 
+exports.handler = async function(event, context) {
   const discordToken = process.env.DISCORD_TOKEN;
   const { channel_id, message_id } = event.queryStringParameters;
   
@@ -11,14 +11,31 @@ exports.handler = async function(event, context) {
       body: JSON.stringify({ error: 'Missing channel_id or message_id' })
     };
   }
-  else if (!channel_id in ["774703077172838430","1148013283006218352"]){
+
+ 
+  const validChannels = ["774703077172838430", "1148013283006218352"];
+  if (!validChannels.includes(channel_id)) {
     return {
       statusCode: 400,
       body: JSON.stringify({ error: 'Wrong channel_id' })
     };
   }
 
+
+  const cacheKey = `${channel_id}-${message_id}`;
+
+
+  if (cache[cacheKey] && (Date.now() - cache[cacheKey].timestamp) < 15000) {  
+    return {
+      statusCode: 429,
+      body: JSON.stringify({ error: 'Too many requests. Please wait before retrying.' })
+    };
+  }
+
   try {
+ 
+    cache[cacheKey] = { timestamp: Date.now() };
+
     const url = `https://discord.com/api/v9/channels/${channel_id}/messages?around=${message_id}&limit=1`;
 
     const response = await fetch(url, {
