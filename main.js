@@ -5992,8 +5992,9 @@ async function fetchCachedImage(channel_id, id) {
     return cache[cacheKey];
   }
   const img_url = await fetch_attachments(channel_id, id);
-  cache[cacheKey] = img_url;
-  return img_url;
+  if(img_url){
+    cache[cacheKey] = img_url;
+    return img_url};
 }
 
 
