@@ -5985,6 +5985,28 @@ const specialDates = {
 
 };
 
+async function fetch_attachments(channel_id, message_id) {
+  const url = `/.netlify/functions/discord-api?channel_id=${channel_id}&message_id=${message_id}`;
+
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    if (data) {
+      return data.attachmentUrl;
+    } else {
+      console.log('No attachments found.');
+      return [];
+    }
+  } catch (error) {
+    console.error('Error fetching attachments:', error);
+    return [];
+  }
+}
 
 function isDateInRange(date, startDate, endDate) {
   return date >= startDate && date <= endDate;
@@ -6003,31 +6025,31 @@ function drawMarkers(data) {
       const { lat, lng, author, types, report_time, date,altitude,panoId,links,id,spot_type } = item;
       const localTime = new Date(report_time * 1000).toLocaleString();
       var popupContent
-      if(types){
-        popupContent= `
-          <strong>update type:</strong> ${types.map(type => 
-            `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
-          ).join(' ')}<br>
-          <strong>pano date:</strong> ${date}<br>
-          <strong>elevation:</strong> ${altitude}m<br>
-          <strong>report time:</strong> ${localTime}<br>
-          <strong>reporter:</strong> ${author}`}
-      else if (links) {
-        popupContent = `
-          <strong>spot type:</strong> ${spot_type}<br>
-          <strong>archived time:</strong> ${localTime}<br>
-          <strong>archived by:</strong> ${author}<br>
-        `;
-      } // <img src="/images/${id}.jpg" style="max-width: 100%; height: auto;">
-      else{
-        popupContent= `
-        <strong>pano date:</strong> ${date}<br>
-        <strong>elevation:</strong> ${altitude}m<br>`
-
-      }
-  
       const marker = L.marker([lat, lng]);
       marker.on('mouseover', function () {
+        if(types){
+          popupContent= `
+            <strong>update type:</strong> ${types.map(type => 
+              `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
+            ).join(' ')}<br>
+            <strong>pano date:</strong> ${date}<br>
+            <strong>elevation:</strong> ${altitude}m<br>
+            <strong>report time:</strong> ${localTime}<br>
+            <strong>reporter:</strong> ${author}`}
+        else if (links) {
+          fetch_attachments('774703077172838430',id)
+          popupContent = `
+            <strong>spot type:</strong> ${spot_type}<br>
+            <strong>archived time:</strong> ${localTime}<br>
+            <strong>archived by:</strong> ${author}<br>
+          `;
+        } // <img src="/images/${id}.jpg" style="max-width: 100%; height: auto;">
+        else{
+          popupContent= `
+          <strong>pano date:</strong> ${date}<br>
+          <strong>elevation:</strong> ${altitude}m<br>`
+  
+        }  
           this.bindPopup(popupContent).openPopup();
       });
       marker.on('mouseout', function () {
