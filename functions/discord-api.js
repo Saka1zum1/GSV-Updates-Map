@@ -25,6 +25,8 @@ exports.handler = async function(event, context) {
     });
 
     if (!response.ok) {
+      const textResponse = await response.text();
+      console.log('Error Response Text:', textResponse);
       return {
         statusCode: response.status,
         body: JSON.stringify({ error: `Failed to fetch message. Status: ${response.status}` })
