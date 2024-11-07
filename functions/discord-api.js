@@ -50,7 +50,7 @@ exports.handler = async function(event, context) {
     const response = await fetch(url, {
       method: 'GET',
       headers: {
-        'Authorization': `Bot ${discordToken}`,
+        'Authorization': discordToken,
         'Content-Type': 'application/json'
       }
     });
