@@ -5990,15 +5990,13 @@ async function fetch_attachments(channel_id, message_id) {
   try {
     const response = await fetch(url);
     if (!response.ok) {
-      const textResponse = await response.text();
-      console.log('Error Response Text:', textResponse); 
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
     const data = await response.json();
 
     if (data) {
-      console.log(data)
+      return data.attachmentUrl
     } else {
       console.log('No attachments found.');
       return [];
@@ -6023,51 +6021,69 @@ function drawMarkers(data) {
   markers = []; 
 
   data.forEach(item => {
-      const { lat, lng, author, types, report_time, date,altitude,panoId,links,id,spot_type } = item;
-      const localTime = new Date(report_time * 1000).toLocaleString();
-      var popupContent
-      const marker = L.marker([lat, lng]);
-      marker.on('mouseover', function () {
-        if(types){
-          popupContent= `
-            <strong>update type:</strong> ${types.map(type => 
-              `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
-            ).join(' ')}<br>
-            <strong>pano date:</strong> ${date}<br>
-            <strong>elevation:</strong> ${altitude}m<br>
-            <strong>report time:</strong> ${localTime}<br>
-            <strong>reporter:</strong> ${author}`}
-        else if (links) {
-          fetch_attachments('774703077172838430',id)
-          popupContent = `
-            <strong>spot type:</strong> ${spot_type}<br>
-            <strong>archived time:</strong> ${localTime}<br>
-            <strong>archived by:</strong> ${author}<br>
-          `;
-        } // <img src="/images/${id}.jpg" style="max-width: 100%; height: auto;">
-        else{
-          popupContent= `
-          <strong>pano date:</strong> ${date}<br>
-          <strong>elevation:</strong> ${altitude}m<br>`
+    const { lat, lng, author, types, report_time, date, altitude, panoId, links, id, spot_type } = item;
+    const localTime = new Date(report_time * 1000).toLocaleString();
+    let popupContent = '';
+    const marker = L.marker([lat, lng]);
   
-        }  
-          this.bindPopup(popupContent).openPopup();
-      });
-      marker.on('mouseout', function () {
-          this.closePopup();
-      });
-      marker.on('click', function () {
-        var link=`https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`
-        if(isSpot) link=links[0]
-        window.open(link, '_blank');
-      });
+    marker.on('mouseover', async function () {
+      if (types) {
+        popupContent = `
+          <strong>update type:</strong> ${types.map(type => 
+            `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
+          ).join(' ')}<br>
+          <strong>pano date:</strong> ${date}<br>
+          <strong>elevation:</strong> ${altitude}m<br>
+          <strong>report time:</strong> ${localTime}<br>
+          <strong>reporter:</strong> ${author}`;
+      } else if (links) {
 
-      if (isCluster) {
-          clustermarkers.addLayer(marker);
+        let channel_id;
+        if (spot_type === 'Gen4') {
+          channel_id = '774703077172838430'; 
+        } else {
+          channel_id = '1148013283006218352'; 
+        }
+  
+        const img_url = await fetch_attachments(channel_id, id);
+        popupContent = `
+          <strong>spot type:</strong> ${spot_type}<br>
+          <strong>archived time:</strong> ${localTime}<br>
+          <strong>archived by:</strong> ${author}<br>
+          <img src="${img_url}" style="max-width: 100%; height: auto;">
+        `;
       } else {
-          ht.addLayer(marker);
+
+        popupContent = `
+          <strong>pano date:</strong> ${date}<br>
+          <strong>elevation:</strong> ${altitude}m<br>`;
       }
-      markers.push(marker); 
+  
+      this.bindPopup(popupContent).openPopup();
+    });
+  
+
+    marker.on('mouseout', function () {
+      this.closePopup();
+    });
+  
+
+    marker.on('click', function () {
+      let link = `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`;
+      if (links && links.length > 0) {
+        link = links[0]; // If links exist, open the first one
+      }
+      window.open(link, '_blank');
+    });
+  
+
+    if (isCluster) {
+      clustermarkers.addLayer(marker);
+    } else {
+      ht.addLayer(marker);
+    }
+  
+    markers.push(marker);
   });
 
   if (isCluster) {
