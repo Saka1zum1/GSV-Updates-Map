@@ -5986,8 +5986,7 @@ const specialDates = {
 };
 
 async function fetch_attachments(channel_id, message_id) {
-  const url = `/.netlify/functions/discord-api?channel_id=${channel_id}&message_id=${message_id}`;
-
+  const url = `.netlify/functions/discord-api?channel_id=${channel_id}&message_id=${message_id}`;
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -5997,7 +5996,7 @@ async function fetch_attachments(channel_id, message_id) {
     const data = await response.json();
 
     if (data) {
-      return data.attachmentUrl;
+      console.log(data)
     } else {
       console.log('No attachments found.');
       return [];
