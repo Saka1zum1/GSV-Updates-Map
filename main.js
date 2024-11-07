@@ -6045,13 +6045,12 @@ function drawMarkers(data) {
           channel_id = '1148013283006218352'; 
         }
   
-        const img_url = await fetch_attachments(channel_id, id);
+        //const img_url = await fetch_attachments(channel_id, id);
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>
           <strong>archived time:</strong> ${localTime}<br>
           <strong>archived by:</strong> ${author}<br>
-          <img src="${img_url}" style="max-width: 100%; height: auto;">
-        `;
+        `; //<img src="${img_url}" style="max-width: 100%; height: auto;">
       } else {
 
         popupContent = `
