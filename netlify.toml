@@ -10,4 +10,4 @@
 
 
 [[plugins]]
-  package = "@netlify/plugin-functions-installation"
+  package = "@netlify/functions"
