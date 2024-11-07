@@ -114849,5 +114849,62 @@
         "date": "Sep 2024",
         "country": "FR",
         "altitude": 284.79
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730996280,
+        "author": "DeSlagen",
+        "id": "1304117663550668850",
+        "panoId": "hbojsCvGgqp-PfYn0RoP3w",
+        "lat": 38.78086,
+        "lng": -5.18437,
+        "date": "Oct 2024",
+        "country": "ES",
+        "altitude": 523.95
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730994868,
+        "author": "DeSlagen",
+        "id": "1304111742925672499",
+        "panoId": "VPu24-QG7eR7p88BMJREUA",
+        "lat": 47.78917,
+        "lng": 15.27604,
+        "date": "Oct 2024",
+        "country": "AT",
+        "altitude": 833.86
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730993406,
+        "author": "Rob",
+        "id": "1304105611688022046",
+        "panoId": "f6hOUlwZtjHZtxr2lUpy8g",
+        "lat": 45.03733,
+        "lng": 27.54972,
+        "date": "Oct 2024",
+        "country": "RO",
+        "altitude": 26.85
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1730993344,
+        "author": "Rob",
+        "id": "1304105349850333345",
+        "panoId": "muJLsUuyz7dr4DSpjuOaCw",
+        "lat": 45.18085,
+        "lng": 28.79041,
+        "date": "Oct 2024",
+        "country": "RO",
+        "altitude": 6.99
     }
 ]
