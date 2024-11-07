@@ -1,9 +1,8 @@
 const fetch = require('node-fetch'); 
 exports.handler = async function(event,context) {
-  console.log('Fetching attachments for channel:', channel_id, 'and message:', message_id)
   const discordToken = process.env.DISCORD_TOKEN;
   const { channel_id, message_id } = event.queryStringParameters;
-  
+  console.log('Fetching attachments for channel:', channel_id, 'and message:', message_id)
   if (!channel_id || !message_id) {
     return {
       statusCode: 400,
