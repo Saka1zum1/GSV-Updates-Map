@@ -114610,5 +114610,89 @@
         "date": "Oct 2024",
         "country": "OM",
         "altitude": 56.92
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1730978245,
+        "author": "Aedan",
+        "id": "1304042021580832819",
+        "panoId": "RGn9hqs-mBuE1TNE_97oVA",
+        "lat": 45.68007,
+        "lng": -84.88305,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 237.05
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1730973337,
+        "author": "diederiklieftink",
+        "id": "1304021432560521276",
+        "panoId": "cu2YuxIY3-L2046knP9giw",
+        "lat": 47.68448,
+        "lng": 13.62459,
+        "date": "Oct 2024",
+        "country": "AT",
+        "altitude": 478.34
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730963767,
+        "author": "Update Tracker Bot",
+        "id": "1303981293666701364",
+        "panoId": "iez7kphLCxAJVCBknJmkRA",
+        "lat": 24.75202,
+        "lng": 120.93291,
+        "date": "Oct 2024",
+        "country": "CN",
+        "altitude": 53.4
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1730939861,
+        "author": "1xqd",
+        "id": "1303881025658814504",
+        "panoId": "My2pKE1mR47vPv_scj62gg",
+        "lat": -37.80537,
+        "lng": 175.99706,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "altitude": 178.5
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1730988723,
+        "author": "Tobetelogi",
+        "id": "1304085967325364225",
+        "panoId": "RMOiyzdpqvsWEl2I6zlX3g",
+        "lat": 59.57287,
+        "lng": 6.65862,
+        "date": "Oct 2024",
+        "country": "NO",
+        "altitude": 114.29
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1730987285,
+        "author": "Tobetelogi",
+        "id": "1304079935341858917",
+        "panoId": "i_TG63h5RKxqbzYnn_cvPA",
+        "lat": 59.76691,
+        "lng": 6.78249,
+        "date": "Oct 2024",
+        "country": "NO",
+        "altitude": 396.86
     }
 ]
