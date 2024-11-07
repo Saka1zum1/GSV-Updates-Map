@@ -5985,6 +5985,17 @@ const specialDates = {
 
 };
 
+async function fetchCachedImage(channel_id, id) {
+  const cacheKey = `${channel_id}-${id}`;
+  if (cache[cacheKey]) {
+    return cache[cacheKey];
+  }
+  const img_url = await fetch_attachments(channel_id, id);
+  cache[cacheKey] = img_url;
+  return img_url;
+}
+
+
 async function fetch_attachments(channel_id, message_id) {
   const url = `.netlify/functions/discord-api?channel_id=${channel_id}&message_id=${message_id}`;
   try {
@@ -6045,12 +6056,13 @@ function drawMarkers(data) {
           channel_id = '1148013283006218352'; 
         }
   
-        //const img_url = await fetch_attachments(channel_id, id);
+        const img_url = await fetchCachedImage(channel_id, id);
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>
           <strong>archived time:</strong> ${localTime}<br>
           <strong>archived by:</strong> ${author}<br>
-        `; //<img src="${img_url}" style="max-width: 100%; height: auto;">
+          <img src="${img_url}" style="max-width: 100%; height: auto;">
+        `;
       } else {
 
         popupContent = `
