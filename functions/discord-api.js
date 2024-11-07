@@ -1,5 +1,14 @@
-const { default: fetch } = await import('node-fetch');
+let fetch;
+
+async function init() {
+  const { default: fetched } = await import('node-fetch');
+  fetch = fetched;
+}
+
+init();
+
 const cache = {}; 
+
 
 exports.handler = async function(event, context) {
   const discordToken = process.env.DISCORD_TOKEN;
