@@ -9,7 +9,9 @@
   "dependencies": {
     "node-fetch": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@netlify/plugin-functions-installation": "^4.0.0"
+  },
   "engines": {
     "node": "16.x"
   }
