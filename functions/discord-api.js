@@ -33,11 +33,11 @@ exports.handler = async function(event) {
 
 
     if (data.length > 0) {
-      const attachments = data[0].attachments || [];
-      const attachmentUrls = attachments.map(attachment => attachment.url);
+      const attachments = data[0].attachments;
+      const attachmentUrl = attachments[0].url
       return {
         statusCode: 200,
-        body: JSON.stringify({ attachmentUrls })
+        body: JSON.stringify({ attachmentUrl })
       };
     } else {
       return {
