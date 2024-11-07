@@ -1,7 +1,6 @@
 exports.handler = async function(event, context) {
   const { default: fetch } = await import('node-fetch');
-
-  console.log('Fetching attachments for channel:', event.queryStringParameters.channel_id, 'and message:', event.queryStringParameters.message_id);
+  
 
   const discordToken = process.env.DISCORD_TOKEN;
   const { channel_id, message_id } = event.queryStringParameters;
@@ -12,6 +11,12 @@ exports.handler = async function(event, context) {
       body: JSON.stringify({ error: 'Missing channel_id or message_id' })
     };
   }
+  else if (!channel_id in ["774703077172838430","1148013283006218352"]){
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: 'Wrong channel_id' })
+    };
+  }
 
   try {
     const url = `https://discord.com/api/v9/channels/${channel_id}/messages?around=${message_id}&limit=1`;
@@ -19,7 +24,7 @@ exports.handler = async function(event, context) {
     const response = await fetch(url, {
       method: 'GET',
       headers: {
-        'Authorization': discordToken,
+        'Authorization': `Bot ${discordToken}`,
         'Content-Type': 'application/json'
       }
     });
