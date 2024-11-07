@@ -7,7 +7,3 @@
 
 
   command = "npm run build"  
-
-
-[[plugins]]
-  package = "@netlify/functions"
