@@ -1,0 +1,13 @@
+[build]
+  
+  publish = "public"  
+  
+  
+  functions = "netlify/functions"  
+
+
+  command = "npm run build"  
+
+
+[[plugins]]
+  package = "@netlify/plugin-functions-installation"
