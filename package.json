@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "GSV-Updates-Map",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "node-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "@netlify/functions": "^4.0.0"
+    "@netlify/functions": "^2.0.0"
   },
   "engines": {
     "node": "16.x"
