@@ -5990,6 +5990,7 @@ async function fetch_attachments(channel_id, message_id) {
   try {
     const response = await fetch(url);
     if (!response.ok) {
+      console.log(response.text())
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
