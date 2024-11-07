@@ -5960,6 +5960,7 @@ let isSpot=false
 let update_data,altitude_data,spots_data,filterdata
 let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[],poly:[],country:null}
 let markers=[]
+let cache={}
 let heatmapLayer
 const heatmap_on='./assets/heatmap.png'
 const heatmap_off='./assets/heatmap_off.png'
