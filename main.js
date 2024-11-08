@@ -6012,11 +6012,11 @@ async function fetch_attachments(channel_id, message_id) {
       return data.attachmentUrl
     } else {
       console.log('No attachments found.');
-      return [];
+      return null;
     }
   } catch (error) {
     console.error('Error fetching attachments:', error);
-    return [];
+    return null;
   }
 }
 

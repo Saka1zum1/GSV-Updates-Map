@@ -15736,5 +15736,19 @@
         "lat": -21.59679,
         "lng": -46.88985,
         "country": "BR"
+    },
+    {
+        "id": "1304149786357665905",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/tvvargem/videos/1053174469622168",
+            "https://maps.app.goo.gl/BjhmqyoBAskpJAaD9"
+        ],
+        "report_time": 1731003938,
+        "author": "Redpork",
+        "panoId": "L_rWbqGY0o_6mZC-0r35Pg",
+        "lat": -21.82734,
+        "lng": -46.88765,
+        "country": "BR"
     }
 ]
