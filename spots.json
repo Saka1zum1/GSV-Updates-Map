@@ -15750,5 +15750,59 @@
         "lat": -21.82734,
         "lng": -46.88765,
         "country": "BR"
+    },
+    {
+        "id": "1304408612998742097",
+        "spot_type": "Gen4",
+        "links": [
+            "https://youtu.be/8yrWNrNUAQM?si=FlC5cE7KK_e0TL3r",
+            "https://maps.app.goo.gl/HJZkCmGimgeqtxd18"
+        ],
+        "report_time": 1731065648,
+        "author": "Kemmy",
+        "panoId": "Nn-g3EaqQSusk_y4LyAdZQ",
+        "lat": -7.63353,
+        "lng": 111.51949,
+        "country": "ID"
+    },
+    {
+        "id": "1303953095541260330",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo?fbid=8377796719015596&set=a.123164027812281",
+            "https://maps.app.goo.gl/kApcBen2i8sLwW3t9"
+        ],
+        "report_time": 1730957044,
+        "author": "Redpork",
+        "panoId": "AF1QipNAeHRwfGTptzLoPRjoPxkA4rKtCES-yJg3tiZ5",
+        "lat": 45.62294,
+        "lng": -106.66614,
+        "country": "US"
+    },
+    {
+        "id": "1299324282228310158",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/MichaelDeNobrega/videos/3973591182967069",
+            "https://maps.app.goo.gl/GQDVHwTxMiTkR7CPA"
+        ],
+        "report_time": 1729853449,
+        "author": "Tobetelogi",
+        "panoId": "KVkc35EPDXltRJbG3jqw5w",
+        "lat": -34.13885,
+        "lng": 22.10965,
+        "country": "ZA"
+    },
+        {
+        "id": "1304383028151324724",
+        "spot_type": "Gen4",
+        "links": [
+            "https://maps.app.goo.gl/YbMoF6YzbpADAPEi8"
+        ],
+        "report_time": 1731059528,
+        "author": "Tobetelogi",
+        "lat": 43.8197206,
+        "lng": 18.3364847,
+        "country": "BA"
     }
 ]
