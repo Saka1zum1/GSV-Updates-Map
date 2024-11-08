@@ -15793,16 +15793,31 @@
         "lng": 22.10965,
         "country": "ZA"
     },
-        {
+    {
         "id": "1304383028151324724",
         "spot_type": "Gen4",
         "links": [
             "https://maps.app.goo.gl/YbMoF6YzbpADAPEi8"
         ],
+        "panoId": null,
         "report_time": 1731059528,
         "author": "Tobetelogi",
         "lat": 43.8197206,
         "lng": 18.3364847,
         "country": "BA"
+    },
+    {
+        "id": "1304444222916530188",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=122123830352424710&set=pcb.122123830442424710",
+            "https://maps.app.goo.gl/UQ35HdCiHhUA48ui9"
+        ],
+        "report_time": 1731074138,
+        "author": "Tobetelogi",
+        "panoId": "JKKast2vx7JdHoeu2KY_wQ",
+        "lat": 31.03518,
+        "lng": -104.85383,
+        "country": "US"
     }
 ]

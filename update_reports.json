@@ -115653,5 +115653,33 @@
         "date": "Oct 2024",
         "country": "AR",
         "altitude": 656.26
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1731075411,
+        "author": "DeSlagen",
+        "id": "1304449563351978044",
+        "panoId": "soaipH_YrbVLG70SGb5ibg",
+        "lat": 36.43881,
+        "lng": -5.71833,
+        "date": "Nov 2024",
+        "country": "ES",
+        "altitude": 63.86
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731072197,
+        "author": "jpeters",
+        "id": "1304436082116530278",
+        "panoId": "N9Bbb2v1vj3NhYnJMjs88Q",
+        "lat": 41.143,
+        "lng": -123.15472,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 690.31
     }
 ]
