@@ -15722,5 +15722,19 @@
         "lat": -21.87739,
         "lng": -42.67143,
         "country": "BR"
+    },
+    {
+        "id": "1304149341891592233",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/reel/1561401641190838",
+            "https://maps.app.goo.gl/ZdYxxNmMai9fpoSKA"
+        ],
+        "report_time": 1731003833,
+        "author": "Redpork",
+        "panoId": "JqgvzeKqodRh51RrtPz2Tw",
+        "lat": -21.59679,
+        "lng": -46.88985,
+        "country": "BR"
     }
 ]
