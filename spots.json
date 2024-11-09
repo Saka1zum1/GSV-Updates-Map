@@ -15819,5 +15819,117 @@
         "lat": 31.03518,
         "lng": -104.85383,
         "country": "US"
+    },
+    {
+        "id": "1304629147523612764",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@quc.bo5325/video/7431818644352404743",
+            "https://maps.app.goo.gl/DZ95SEjARqBx4QWJA"
+        ],
+        "report_time": 1731118227,
+        "author": "Redpork",
+        "panoId": "AF1QipNiElUFdmdvtlMl1OZ6rPF9E4zl1sm2vlX4FFWf",
+        "lat": 18.32507,
+        "lng": 105.90763,
+        "country": "VN"
+    },
+    {
+        "id": "1304622820856168569",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.reddit.com/r/geoguessr/comments/1gmxnje/i_got_a_picture_of_it",
+            "https://maps.app.goo.gl/ngF4zVHMuSP3xXJn8"
+        ],
+        "report_time": 1731118227,
+        "author": "Redpork",
+        "panoId": "AF1QipPelI3fD9BRFnHcNRbMrpAkb6ZC9OnQP74DlPqm",
+        "lat": 18.343749,
+        "lng": 105.890483,
+        "country": "VN"
+    },
+    {
+        "id": "1304543094653456434",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@bettyjojacks/video/7434577312797953322",
+            "https://maps.app.goo.gl/3xUJd4YP7zcem1Wb6"
+        ],
+        "report_time": 1731097711,
+        "author": "Redpork",
+        "panoId": "HP5PaqaQYCMTJ6bZ3r8XbQ",
+        "lat": 44.00941,
+        "lng": -107.96533,
+        "country": "US"
+    },
+    {
+        "id": "1257493677253722213",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10161026240769003&set=a.140291669002",
+            "https://maps.app.goo.gl/Lgg3jpsBgmivWeze8"
+        ],
+        "report_time": 1719880255,
+        "author": "Larissa Santos-de Oliveira",
+        "panoId": "88iOO4IpJSk46zrIxOCRYA",
+        "lat": 41.58071,
+        "lng": -84.00518,
+        "country": "US"
+    },
+    {
+        "id": "1139698814035435521",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/1477335338/posts/pfbid02n6zz5tPRqs1mQH6k1xDyGqNRNku7BdPt5VhbuoBaBVocdF9KijiatnLcMzqLdJRwl/",
+            "https://maps.app.goo.gl/BQ4tvhCd1sQia8Y47"
+        ],
+        "report_time": 1691795771,
+        "author": "macca",
+        "panoId": "ErQWOpW6xBC_7r8p8OmdZQ",
+        "lat": 46.4669,
+        "lng": -90.14785,
+        "country": "US"
+    },
+    {
+        "id": "1139616863333138462",
+        "spot_type": "Gen4",
+        "links": [
+            "https://instagram.com/stories/congliocchidiuncane/3167051269342848219?utm_source=ig_story_item_share&igshid=MTc4MmM1YmI2Ng==",
+            "https://maps.app.goo.gl/c19GgrczL3Uc7R17A"
+        ],
+        "report_time": 1691776233,
+        "author": "Pizzetta",
+        "panoId": "rQps6BsIj3ppoSG9Ggh4jQ",
+        "lat": 45.72957,
+        "lng": 8.99898,
+        "country": "IT"
+    },
+    {
+        "id": "1111702519299711017",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10160902856932154&set=a.60728202153",
+            "https://maps.app.goo.gl/ihhEWb9DuAeYeqvJA"
+        ],
+        "report_time": 1685120935,
+        "author": "Redpork",
+        "panoId": "by-KxZs-Bl9RRluBd-MvLg",
+        "lat": 39.1477,
+        "lng": -123.19036,
+        "country": "US"
+    },
+    {
+        "id": "1103532591828705291",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/steven.dunn.9081323/videos/230401046260937",
+            "https://maps.app.goo.gl/XBdQ1yiYSqrLBzBB6"
+        ],
+        "report_time": 1683173072,
+        "author": "Redpork",
+        "panoId": "TeE49uiHoyLkGbTm44I6LQ",
+        "lat": 35.29677,
+        "lng": -77.69174,
+        "country": "US"
     }
 ]
