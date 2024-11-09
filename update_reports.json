@@ -116467,5 +116467,404 @@
         "date": "Oct 2024",
         "country": "AR",
         "altitude": 652.67
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1731113762,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1304610420207648880",
+        "panoId": "oZPxz_x2qzeX7l_HPSmaIA",
+        "lat": 17.36293,
+        "lng": 79.16828,
+        "date": "Oct 2024",
+        "country": "IN",
+        "altitude": 295.74
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1731113762,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1304610420207648880",
+        "panoId": "GW01dbRpjOZkEnOpN34-Jw",
+        "lat": 16.42905,
+        "lng": 78.23818,
+        "date": "Oct 2024",
+        "country": "IN",
+        "altitude": 496.46
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1731113762,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1304610420207648880",
+        "panoId": "UI9Yo2M5wy_HWZUUvDrCVg",
+        "lat": 17.58363,
+        "lng": 77.53613,
+        "date": "Oct 2024",
+        "country": "IN",
+        "altitude": 672.45
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1731113762,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1304610420207648880",
+        "panoId": "MKX0SgGwcjNF38f2HoCL9w",
+        "lat": 17.81537,
+        "lng": 78.59815,
+        "date": "Oct 2024",
+        "country": "IN",
+        "altitude": 588.96
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1731146645,
+        "author": "glebovski",
+        "id": "1304748342622031965",
+        "panoId": "kYuN2Cb209AkRVc00m1jjQ",
+        "lat": -31.53241,
+        "lng": -60.04994,
+        "date": "Oct 2024",
+        "country": "AR",
+        "altitude": 83.95
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1731146645,
+        "author": "glebovski",
+        "id": "1304748342622031965",
+        "panoId": "DG6oNLuKDszs-S59EtdMYQ",
+        "lat": -31.98774,
+        "lng": -59.28014,
+        "date": "Oct 2024",
+        "country": "AR",
+        "altitude": 64.19
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1731146645,
+        "author": "glebovski",
+        "id": "1304748342622031965",
+        "panoId": "cKHVacWvKyZ0T1s-d8-biQ",
+        "lat": -32.08129,
+        "lng": -59.30529,
+        "date": "Oct 2024",
+        "country": "AR",
+        "altitude": 74.72
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731146645,
+        "author": "glebovski",
+        "id": "1304748342622031965",
+        "panoId": "694bA2LyLV3B-Vqb2Su_Rw",
+        "lat": -32.81479,
+        "lng": -66.09321,
+        "date": "Oct 2024",
+        "country": "AR",
+        "altitude": 1638.63
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731154322,
+        "author": "Tobetelogi",
+        "id": "1304780540016066600",
+        "panoId": "k2k3cVBsKlCqNVDujU-uyg",
+        "lat": 62.77609,
+        "lng": 7.45019,
+        "date": "Aug 2024",
+        "country": "NO",
+        "altitude": 107.32
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1731154246,
+        "author": "Tobetelogi",
+        "id": "1304780223765807175",
+        "panoId": "9Xmap7ktZUUHJQ7bbVGRkw",
+        "lat": 62.85783,
+        "lng": 7.57246,
+        "date": "Jul 2024",
+        "country": "NO",
+        "altitude": 119.88
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731153623,
+        "author": "GeoGamr\ud83c\uddfa\ud83c\udde6",
+        "id": "1304777609149943853",
+        "panoId": "UFMkg8I85HNESkIjMmjClg",
+        "lat": 48.60051,
+        "lng": -93.40374,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 342.93
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1731147688,
+        "author": "Tobetelogi",
+        "id": "1304752714135240704",
+        "panoId": "d6DDS-6q1Oh6BrBfsq_ZBw",
+        "lat": 59.73361,
+        "lng": 7.63339,
+        "date": "Sep 2024",
+        "country": "NO",
+        "altitude": 588.51
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731162671,
+        "author": "Steve",
+        "id": "1304815559606665246",
+        "panoId": "WP-3fjvBo60UR0fWxq4l5g",
+        "lat": 47.14143,
+        "lng": 18.42598,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 119.02
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731162671,
+        "author": "Steve",
+        "id": "1304815559606665246",
+        "panoId": "O1PswiyfHb0TMg5qj3t7Hg",
+        "lat": 46.88808,
+        "lng": 16.60042,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 240.84
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731162671,
+        "author": "Steve",
+        "id": "1304815559606665246",
+        "panoId": "5TdaUVBxXOQ73Kjv6aErUw",
+        "lat": 46.94539,
+        "lng": 16.60211,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 250.9
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731162671,
+        "author": "Steve",
+        "id": "1304815559606665246",
+        "panoId": "YNU4eJK50LHhseLqr4TtLQ",
+        "lat": 47.71266,
+        "lng": 17.63649,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 114.71
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "GosPp_U75gpWgNq_v5cARA",
+        "lat": 63.0391,
+        "lng": 7.93102,
+        "date": "Jun 2024",
+        "country": "NO",
+        "altitude": 70.74
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "i41RsVJK_YvpL6FMIPM0pg",
+        "lat": 63.10027,
+        "lng": 8.02669,
+        "date": "Jun 2024",
+        "country": "NO",
+        "altitude": 8.98
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "fBYIE7vf7ppDfSzPZt15gQ",
+        "lat": 63.02745,
+        "lng": 8.14245,
+        "date": "Jun 2024",
+        "country": "NO",
+        "altitude": 33.05
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "vnQGtW1jcYfOiHYWXtQsCw",
+        "lat": 62.95733,
+        "lng": 8.3322,
+        "date": "Aug 2024",
+        "country": "NO",
+        "altitude": 9.35
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "M2TxlOhssqImIe0JFik7uA",
+        "lat": 62.97295,
+        "lng": 8.47007,
+        "date": "Aug 2024",
+        "country": "NO",
+        "altitude": 55.86
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "GtF4KuBXTW1DBUfcQ6mi6A",
+        "lat": 62.95715,
+        "lng": 8.48995,
+        "date": "Aug 2024",
+        "country": "NO",
+        "altitude": 13.8
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "kR3t92EpHcpqjDDYsK6HUg",
+        "lat": 62.88884,
+        "lng": 8.53319,
+        "date": "Aug 2024",
+        "country": "NO",
+        "altitude": 40.63
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "yTlsq0FEylawqLcygTGx3w",
+        "lat": 62.73821,
+        "lng": 8.71052,
+        "date": "Aug 2024",
+        "country": "NO",
+        "altitude": 283.73
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731162278,
+        "author": "Tobetelogi",
+        "id": "1304813908657176728",
+        "panoId": "MBqLVxt0E6XqTt89qY5WVw",
+        "lat": 63.11317,
+        "lng": 8.35363,
+        "date": "Aug 2024",
+        "country": "NO",
+        "altitude": 99.31
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731157310,
+        "author": "jpeters",
+        "id": "1304793072193765376",
+        "panoId": "MjdZcM0e8kP5sijxruP4Cg",
+        "lat": 47.20178,
+        "lng": 12.84798,
+        "date": "Sep 2024",
+        "country": "AT",
+        "altitude": 1113.96
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1731154246,
+        "author": "Tobetelogi",
+        "id": "1304780223765807175",
+        "panoId": "BBWi5TFEIzd1oYC4taNlew",
+        "lat": 62.85474,
+        "lng": 7.56305,
+        "date": "Jul 2024",
+        "country": "NO",
+        "altitude": 132.03
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731162671,
+        "author": "Steve",
+        "id": "1304815559606665246",
+        "panoId": "9cbR9XZdBG_7rCeUjCsmJQ",
+        "lat": 46.66069,
+        "lng": 17.29624,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 128.92
     }
 ]

@@ -15931,5 +15931,19 @@
         "lat": 35.29677,
         "lng": -77.69174,
         "country": "US"
+    },
+    {
+        "id": "1304631026936446976",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@trangdks/video/7418783060658883848",
+            "https://maps.app.goo.gl/ceUJM9sYmV8wXUtbA"
+        ],
+        "report_time": 1731118675,
+        "author": "vegetal",
+        "panoId": "AF1QipNHPnhWYHRfxdbX65eWkdAJXOhGfrPb5zH1RjL7",
+        "lat": 21.11399,
+        "lng": 105.99258,
+        "country": "VN"
     }
 ]
