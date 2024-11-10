@@ -116866,5 +116866,62 @@
         "date": "Oct 2024",
         "country": "HU",
         "altitude": 128.92
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1731201859,
+        "author": "DeSlagen",
+        "id": "1304979923823362088",
+        "panoId": "Kq0D2GTasP0D7a0xDGxM9g",
+        "lat": 46.8888,
+        "lng": 16.16187,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 382.99
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1731201777,
+        "author": "DeSlagen",
+        "id": "1304979579747700736",
+        "panoId": "RH658Zn3uIYNSPsINbGCMg",
+        "lat": 43.52517,
+        "lng": 0.14118,
+        "date": "Oct 2024",
+        "country": "FR",
+        "altitude": 169.95
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731201583,
+        "author": "DeSlagen",
+        "id": "1304978768531554405",
+        "panoId": "sud6ZmCBzmOoa7VCzfp3GQ",
+        "lat": 46.91814,
+        "lng": 13.56852,
+        "date": "Oct 2024",
+        "country": "AT",
+        "altitude": 879.97
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731206369,
+        "author": "HoustonMediaHD",
+        "id": "1304998843120877640",
+        "panoId": "ywWyhEyDW9cdc4Noy56F5w",
+        "lat": 29.9252,
+        "lng": -93.88496,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 3.94
     }
 ]

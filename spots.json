@@ -15945,5 +15945,145 @@
         "lat": 21.11399,
         "lng": 105.99258,
         "country": "VN"
+    },
+    {
+        "id": "1255966977516900486",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=7701068299930476&set=a.1088306074540098",
+            "https://maps.app.goo.gl/89oYciC5Tmhe1F6HA"
+        ],
+        "report_time": 1719516262,
+        "author": "Larissa Santos-de Oliveira",
+        "panoId": "ZO3pPZQFgIgMGCBGGI74Tw",
+        "lat": 44.59683,
+        "lng": -75.15045,
+        "country": "US"
+    },
+    {
+        "id": "1304900709396906076",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.bejarenmadrid.es/el-coche-de-google-maps-recorre-bejar/",
+            "https://maps.app.goo.gl/7Pedx33YYcD1rfVz5"
+        ],
+        "report_time": 1731182973,
+        "author": "Tobetelogi",
+        "panoId": "s84hIyR7SSvebsT67xPN0g",
+        "lat": 40.38457,
+        "lng": -5.76616,
+        "country": "ES"
+    },
+    {
+        "id": "1039628845122322574",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/100037942792121/posts/pfbid02DxdSff1EcSFPVimBB4FfmWtLn7hE2F3he3Q5SSbZNqE7kX58VNszSug9WQLYShiLl/?sfnsn=mo",
+            "https://maps.app.goo.gl/tyZ1rDfASdpQZy3HA"
+        ],
+        "report_time": 1667937232,
+        "author": "frefromwig",
+        "panoId": "eNkBt2EFxyXXe4tHx99ibg",
+        "lat": 43.31617,
+        "lng": -73.65422,
+        "country": "US"
+    },
+    {
+        "id": "1301992956856635414",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10221887771822118&set=a.3385898904931",
+            "https://maps.app.goo.gl/JABUuWA4qA9uSgR9A"
+        ],
+        "report_time": 1730489710,
+        "author": "Tobetelogi",
+        "panoId": "raPbn71FOykTkKnHEiJjdw",
+        "lat": 21.48858,
+        "lng": -158.03973,
+        "country": "US"
+    },
+    {
+        "id": "1291059228408156233",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10160678029383865&set=pcb.10160678029613865",
+            "https://maps.app.goo.gl/A9pBSgsbgw1hA7Y5A"
+        ],
+        "report_time": 1727882906,
+        "author": "\u8c46\u8c46\u5196",
+        "panoId": "OA7kXnQBFpAVOX1lbaoW9Q",
+        "lat": 35.30591,
+        "lng": -98.99151,
+        "country": "US"
+    },
+    {
+        "id": "1303537361082388531",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10160839642663752&set=a.10154119992918752",
+            "https://maps.app.goo.gl/eDSX7bbuKLks4CQw6"
+        ],
+        "report_time": 1730857925,
+        "author": "Redpork",
+        "panoId": "23l6k7PMd-KEnEalCrVs1w",
+        "lat": 32.8123,
+        "lng": -94.95278,
+        "country": "US"
+    },
+    {
+        "id": "1098686942792667226",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@nickredsicker/video/7224187077074701610",
+            "https://maps.app.goo.gl/eKFwYxeiAZnkXHit8"
+        ],
+        "report_time": 1682017779,
+        "author": "xdTAGCLAN",
+        "panoId": "-E7l47vpDHDy6pKccvXXSg",
+        "lat": 43.04465,
+        "lng": -76.56436,
+        "country": "US"
+    },
+    {
+        "id": "1108225253613785120",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10222871829211637",
+            "https://maps.app.goo.gl/kWtzwbPTPQ4icVNS6"
+        ],
+        "report_time": 1684291890,
+        "author": "Redpork",
+        "panoId": "5nkWkPUkefta0O_yGVXKvw",
+        "lat": 32.10453,
+        "lng": -96.48018,
+        "country": "US"
+    },
+    {
+        "id": "1113778606318030878",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=9716806418337126&set=p.9716806418337126&type=3",
+            "https://maps.app.goo.gl/dYUQFhv3cF57qykf9"
+        ],
+        "report_time": 1685615912,
+        "author": "Larissa Santos-de Oliveira",
+        "panoId": "wL8SMTjgd6706Mpmm_jBjQ",
+        "lat": 30.95351,
+        "lng": -84.56714,
+        "country": "US"
+    },
+    {
+        "id": "1267874115545731144",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=26982012224731307&set=gm.3682482595415027&idorvanity=1481532268843415",
+            "https://maps.app.goo.gl/khNghgRywjMxto5z7"
+        ],
+        "report_time": 1722355145,
+        "author": "xdTAGCLAN",
+        "panoId": "OxgDQLxFQS4ZLe9Www9Jqg",
+        "lat": 43.18494,
+        "lng": -88.74512,
+        "country": "US"
     }
 ]
