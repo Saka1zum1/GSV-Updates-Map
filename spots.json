@@ -16085,5 +16085,75 @@
         "lat": 43.18494,
         "lng": -88.74512,
         "country": "US"
+    },
+    {
+        "id": "1305019374888812566",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.threads.net/@ypfmica/post/DCCQ_yuJNy0",
+            "https://maps.app.goo.gl/ZCyiYKPKLDPRbXef8"
+        ],
+        "report_time": 1731211265,
+        "author": "Redpork",
+        "panoId": "o8HCuDLgXc_j-cvVVTNeFw",
+        "lat": -43.22844,
+        "lng": -65.29933,
+        "country": "AR"
+    },
+    {
+        "id": "1304996380884078702",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/BintuluInfoFromBintuluWithLove%2Fphotos%2Fhai-abam-mun-kitak-urang-jumpa-nya-tok-tepi-jalan-boh-polah-gaya-pelik2-lak-satu%2F971082301725174%2F",
+            "https://maps.app.goo.gl/Kc6fhg23uGFwvniV9"
+        ],
+        "report_time": 1731205782,
+        "author": "Aedan",
+        "panoId": "YdnkhDLp5V82UJpakkgVGw",
+        "lat": 3.17869,
+        "lng": 113.04907,
+        "country": "MY"
+    },
+    {
+        "id": "1305101142161625089",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/share/r/14uABr9x6N/",
+            "https://maps.app.goo.gl/zSmbFvtr5kbTGDUUA"
+        ],
+        "report_time": 1731230759,
+        "author": "\u8c46\u8c46\u5196",
+        "panoId": "0bb5Tm8bkyu_dhQchE76nw",
+        "lat": 41.92302,
+        "lng": 140.18698,
+        "country": "JP"
+    },
+    {
+        "id": "1305100885650571276",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/share/r/14uABr9x6N/",
+            "https://maps.app.goo.gl/Au7rHGT3BPPHo3Ej7"
+        ],
+        "report_time": 1731230698,
+        "author": "\u8c46\u8c46\u5196",
+        "panoId": "dt1AkMwPEeIpGNlTlq0dMA",
+        "lat": 41.92719,
+        "lng": 140.1914,
+        "country": "JP"
+    },
+    {
+        "id": "1305099007533518909",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=1644601886432833&set=p.1644601886432833&type=3",
+            "https://maps.app.goo.gl/oypwihiPF7udnKGQ7"
+        ],
+        "report_time": 1731230250,
+        "author": "Larissa Santos-de Oliveira",
+        "panoId": "uexfibRMht7oy7qnV17enQ",
+        "lat": 3.17184,
+        "lng": 113.03996,
+        "country": "MY"
     }
 ]
