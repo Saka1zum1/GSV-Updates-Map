@@ -117316,5 +117316,47 @@
         "date": "Oct 2024",
         "country": "US",
         "altitude": 486.29
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731318036,
+        "author": "Alok",
+        "id": "1305467205059608579",
+        "panoId": "nweWItBh8rUtbHN4CeEi9w",
+        "lat": 42.34293,
+        "lng": -110.53079,
+        "date": "Sep 2024",
+        "country": "US",
+        "altitude": 2310.95
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731318036,
+        "author": "Alok",
+        "id": "1305467205059608579",
+        "panoId": "uwwVxDYijTyJlClo28r7XQ",
+        "lat": 48.9381,
+        "lng": -67.18616,
+        "date": "Aug 2024",
+        "country": "CA",
+        "altitude": 4.73
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1731329860,
+        "author": "kallashi!",
+        "id": "1305516799755944008",
+        "panoId": "RmHB3j_bE56baW3kVN0Xaw",
+        "lat": 40.30315,
+        "lng": -121.00567,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 1548.06
     }
 ]

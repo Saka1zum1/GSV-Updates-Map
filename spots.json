@@ -16169,5 +16169,19 @@
         "lat": 40.35447,
         "lng": 15.82476,
         "country": "IT"
+    },
+    {
+        "id": "1305487523048587284",
+        "spot_type": "Gen4",
+        "links": [
+            "https://youtu.be/iECXw2HWArw?si=HAeYKPhbTiIvzD9j",
+            "https://maps.app.goo.gl/4jCFJnd4kPFpx54v9"
+        ],
+        "report_time": 1731322880,
+        "author": "Kemmy",
+        "panoId": "AgX_GQdnXbNAFatDV_4PSQ",
+        "lat": -7.86438,
+        "lng": 111.46955,
+        "country": "ID"
     }
 ]
