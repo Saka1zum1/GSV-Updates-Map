@@ -16155,5 +16155,19 @@
         "lat": 3.17184,
         "lng": 113.03996,
         "country": "MY"
+    },
+    {
+        "id": "1305133654246293586",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1004752764998946&set=pcb.1004462581694631&",
+            "https://maps.app.goo.gl/cahXkm4Hdh7iT8qZ6"
+        ],
+        "report_time": 1731238511,
+        "author": "Tobetelogi",
+        "panoId": "Hfad66e2jxvH73WhCrQcyw",
+        "lat": 40.35447,
+        "lng": 15.82476,
+        "country": "IT"
     }
 ]
