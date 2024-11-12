@@ -16239,5 +16239,19 @@
         "lat": -39.02539,
         "lng": -67.59602,
         "country": "AR"
+    },
+    {
+        "id": "1305892160448626810",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.threads.net/@taizo3c/post/DCQejBBvtH2",
+            "https://maps.app.goo.gl/xdvyXzr4NZca4dCb9"
+        ],
+        "report_time": 1731419353,
+        "author": "\u8c46\u8c46\u5196",
+        "panoId": "o0hTT_Wn6usHHnPCJdq9zA",
+        "lat": 34.28441,
+        "lng": 134.048,
+        "country": "JP"
     }
 ]
