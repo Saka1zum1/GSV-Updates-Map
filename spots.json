@@ -16183,5 +16183,61 @@
         "lat": -7.86438,
         "lng": 111.46955,
         "country": "ID"
+    },
+    {
+        "id": "1305605253458296945",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=558127030260733&set=a.220081854065254",
+            "https://maps.app.goo.gl/wqwb5NBBfJz37DWD7"
+        ],
+        "report_time": 1731350949,
+        "author": "Redpork",
+        "panoId": "bmIlglblo5Wxi4O73h9EOw",
+        "lat": 40.70474,
+        "lng": -84.15057,
+        "country": "US"
+    },
+    {
+        "id": "1305610534183506033",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@fordbaxr6/video/7432942930739875079",
+            "https://maps.app.goo.gl/ogcbHbsqjqN4rjU78"
+        ],
+        "report_time": 1731352208,
+        "author": "Redpork",
+        "panoId": "2QbEO-niC0EwEV8SB_it7g",
+        "lat": -37.90293,
+        "lng": 144.66056,
+        "country": "AU"
+    },
+    {
+        "id": "1305613220807184384",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@yulsanni/video/7433178804618562822",
+            "https://maps.app.goo.gl/CPYuoT8dzM1bAKN46"
+        ],
+        "report_time": 1731352848,
+        "author": "vegetal",
+        "panoId": "Nq0_y9t_dVNGISgxVm_e2g",
+        "lat": -18.00753,
+        "lng": -70.2473,
+        "country": "PE"
+    },
+    {
+        "id": "1305607155885281280",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@fasqndo/video/7431789168470052101",
+            "https://maps.app.goo.gl/nkAKBxkrwchbxVSK6"
+        ],
+        "report_time": 1731351402,
+        "author": "Redpork",
+        "panoId": "XGIoGjSaNw-UIfOHluxP8w",
+        "lat": -39.02539,
+        "lng": -67.59602,
+        "country": "AR"
     }
 ]
