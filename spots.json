@@ -16253,5 +16253,19 @@
         "lat": 34.28441,
         "lng": 134.048,
         "country": "JP"
+    },
+    {
+        "id": "1305983926157836399",
+        "spot_type": "Gen4",
+        "links": [
+            "https://x.com/TimTierney/status/1856363847356936254/photo/1",
+            "https://maps.app.goo.gl/AoHxcm3Ged888a7X7"
+        ],
+        "report_time": 1731441232,
+        "author": "Redpork",
+        "panoId": "TFT7qyLWHMqwLsO9PJlh-w",
+        "lat": 45.44966,
+        "lng": -75.58858,
+        "country": "CA"
     }
 ]
