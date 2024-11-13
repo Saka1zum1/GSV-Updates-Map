@@ -16267,5 +16267,19 @@
         "lat": 45.44966,
         "lng": -75.58858,
         "country": "CA"
+    },
+    {
+        "id": "1306054675031920671",
+        "spot_type": "Gen4",
+        "links": [
+            "https://web.facebook.com/photo/?fbid=954293740069331&set=a.474559674709409",
+            "https://maps.app.goo.gl/JBbcWSYH9NpZFJ7B8"
+        ],
+        "report_time": 1731458099,
+        "author": "chise",
+        "panoId": "VLTQzMQ_9iYryrRAoC7fAQ",
+        "lat": -23.181,
+        "lng": -46.85865,
+        "country": "BR"
     }
 ]

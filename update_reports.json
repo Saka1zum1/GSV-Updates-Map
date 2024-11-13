@@ -118251,5 +118251,457 @@
         "date": "Oct 2024",
         "country": "AT",
         "altitude": 661.63
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731491207,
+        "author": "jpeters",
+        "id": "1306193538786136094",
+        "panoId": "uejRjWlTPnDKprd_VAC9VQ",
+        "lat": 42.32198,
+        "lng": -120.17833,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 2106.72
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731487828,
+        "author": "DerZiggi",
+        "id": "1306179368024019025",
+        "panoId": "tiyNhx8676vY_iCYCv7gEQ",
+        "lat": 32.86187,
+        "lng": -80.01556,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 12.11
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1731479901,
+        "author": "chise",
+        "id": "1306146117364486154",
+        "panoId": "gkhC4m8q0iMRADKhNvOG-w",
+        "lat": -0.17391,
+        "lng": -78.31481,
+        "date": "Sep 2024",
+        "country": "EC",
+        "altitude": 2590.32
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731479785,
+        "author": "chise",
+        "id": "1306145630854320158",
+        "panoId": "HNcSl-MIa2loTGz12VAs9w",
+        "lat": -0.13732,
+        "lng": -78.2874,
+        "date": "Oct 2024",
+        "country": "EC",
+        "altitude": 2811.95
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731479303,
+        "author": "chise",
+        "id": "1306143610646822934",
+        "panoId": "7-tYhK-9mxxn4dG6T3XPUQ",
+        "lat": 0.04797,
+        "lng": -78.14634,
+        "date": "Oct 2024",
+        "country": "EC",
+        "altitude": 2823.61
+    },
+    {
+        "types": [
+            "ariupdate"
+        ],
+        "report_time": 1731479127,
+        "author": "chise",
+        "id": "1306142871480565760",
+        "panoId": "7fkyUxxvm0EpRph_o2D2fQ",
+        "lat": -0.10937,
+        "lng": -78.29698,
+        "date": "Oct 2024",
+        "country": "EC",
+        "altitude": 2635.93
+    },
+    {
+        "types": [
+            "ariupdate"
+        ],
+        "report_time": 1731478961,
+        "author": "chise",
+        "id": "1306142176417419274",
+        "panoId": "KMAKFyQ9XYYskkTKL8uBGw",
+        "lat": -0.09119,
+        "lng": -78.33061,
+        "date": "Oct 2024",
+        "country": "EC",
+        "altitude": 2436.4
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1731478557,
+        "author": "DerZiggi",
+        "id": "1306140479376588851",
+        "panoId": "EaZ_f1uCpZzBunXt4DVCLw",
+        "lat": -0.20308,
+        "lng": -78.37585,
+        "date": "Oct 2024",
+        "country": "EC",
+        "altitude": 2414.32
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731478094,
+        "author": "Update Tracker Bot",
+        "id": "1306138537262977075",
+        "panoId": "0n8hsyqqolbSmpDyxIusYw",
+        "lat": 46.27305,
+        "lng": 19.67339,
+        "date": "Nov 2024",
+        "country": "HU",
+        "altitude": 125.82
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731466609,
+        "author": "HoustonMediaHD",
+        "id": "1306090369036849212",
+        "panoId": "5Dvc9f0pAJBdgOjIUGz-bg",
+        "lat": 34.85697,
+        "lng": -80.80815,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 182.17
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731464112,
+        "author": "DanolD",
+        "id": "1306079891841876098",
+        "panoId": "cXDK0_czP6SHKMO3yJ0QWg",
+        "lat": 43.83812,
+        "lng": -66.11968,
+        "date": "Sep 2024",
+        "country": "CA",
+        "altitude": 20.42
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731461571,
+        "author": "DanolD",
+        "id": "1306069236250050651",
+        "panoId": "JfhsYj8n3C6LQv1hZysLhw",
+        "lat": 45.21624,
+        "lng": 15.75628,
+        "date": "Nov 2024",
+        "country": "HR",
+        "altitude": 155.23
+    },
+    {
+        "types": [
+            "newgen4",
+            "newregion",
+            "newyear",
+            "gen3update"
+        ],
+        "report_time": 1731459507,
+        "author": "JHK",
+        "id": "1306060579571765319",
+        "panoId": "1-nmeTpwiy8HM5e2AYuFwA",
+        "lat": 46.3436,
+        "lng": -63.75621,
+        "date": "Sep 2024",
+        "country": "CA",
+        "altitude": 18.16
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "6gYsyvuGOcu2xA6-C4_r9w",
+        "lat": 47.51874,
+        "lng": 17.002,
+        "date": "Nov 2024",
+        "country": "HU",
+        "altitude": 131.95
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "Fvim7AOFAkIdLum-D4WxEA",
+        "lat": 47.40095,
+        "lng": 16.88906,
+        "date": "Nov 2024",
+        "country": "HU",
+        "altitude": 157.16
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "GuGwVmmIPVm-TQDfaiM51w",
+        "lat": 47.01335,
+        "lng": 16.88868,
+        "date": "Nov 2024",
+        "country": "HU",
+        "altitude": 168.91
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "swPAAK_e5cw734dQEP-Quw",
+        "lat": 46.87713,
+        "lng": 16.15464,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 287.42
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "7keHXy-jbH2YJi1irpuCAg",
+        "lat": 47.38773,
+        "lng": 17.03619,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 143.6
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "wvkjllQHIqp4vnp3s4O_nA",
+        "lat": 47.21841,
+        "lng": 16.93377,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 159.68
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "ulj9iO9YTK-5DPeIRQSboQ",
+        "lat": 47.15276,
+        "lng": 17.00816,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 191.76
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "te66GMPvNYgslatxtmvtxQ",
+        "lat": 46.97367,
+        "lng": 16.28183,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 220.08
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "dL5tAZmr_XXsiLE_RpbrgA",
+        "lat": 46.87252,
+        "lng": 16.25986,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 336.43
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458934,
+        "author": "DeSlagen",
+        "id": "1306058175740379157",
+        "panoId": "Ogp-cpo10PaaPxysJ8H8mg",
+        "lat": 46.87597,
+        "lng": 16.2009,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 358.13
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "UaJH-_ZIUnZGTNzk6dhxZw",
+        "lat": 45.78087,
+        "lng": 18.39714,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 91.3
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "UJIrn_s1xy94dmURzMt8ig",
+        "lat": 45.83009,
+        "lng": 18.59245,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 102.46
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "40dTG302Mvu1pEO0c5qZ_g",
+        "lat": 45.9379,
+        "lng": 18.46832,
+        "date": "Nov 2024",
+        "country": "HU",
+        "altitude": 111.32
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "qMhiCt9wnKPCs4zd_rPJ8w",
+        "lat": 45.97909,
+        "lng": 18.79024,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 83.43
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "cVRUtYqcL8FyDwi1JIWHCw",
+        "lat": 46.02385,
+        "lng": 18.79903,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 85.61
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "_CULch_yyTwl_U7pTb_5JQ",
+        "lat": 45.92846,
+        "lng": 18.75722,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 88.72
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "OAFE2KCHb7mt1lggt0WL9w",
+        "lat": 45.97378,
+        "lng": 19.04042,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 91.03
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "su5uO0IAhbRZ2EdLvwFQtQ",
+        "lat": 46.10809,
+        "lng": 18.80766,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 87.45
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731458174,
+        "author": "DeSlagen",
+        "id": "1306054989638271078",
+        "panoId": "74ooMEBV1bQJWSFb_0jFuw",
+        "lat": 46.16747,
+        "lng": 19.08618,
+        "date": "Oct 2024",
+        "country": "HU",
+        "altitude": 145.62
     }
 ]
