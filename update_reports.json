@@ -118703,5 +118703,261 @@
         "date": "Oct 2024",
         "country": "HU",
         "altitude": 145.62
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731500440,
+        "author": "glebovski",
+        "id": "1306232262605406208",
+        "panoId": "wRORqEUg-AsAzFz2rZRGhg",
+        "lat": -33.02269,
+        "lng": -58.51059,
+        "date": "Oct 2024",
+        "country": "AR",
+        "altitude": 6.05
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731500440,
+        "author": "glebovski",
+        "id": "1306232262605406208",
+        "panoId": "YkqJ6DfOAWRSsOFLNnIZEw",
+        "lat": -33.02963,
+        "lng": -58.52404,
+        "date": "Oct 2024",
+        "country": "AR",
+        "altitude": 9.76
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731500440,
+        "author": "glebovski",
+        "id": "1306232262605406208",
+        "panoId": "2oWrn3yAUA6o1LiWpJGEKA",
+        "lat": -33.03021,
+        "lng": -58.54147,
+        "date": "Oct 2024",
+        "country": "AR",
+        "altitude": 14.28
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731500440,
+        "author": "glebovski",
+        "id": "1306232262605406208",
+        "panoId": "bt8ElzQ1w3pTad3hTR1IwA",
+        "lat": -33.01716,
+        "lng": -58.54066,
+        "date": "Oct 2024",
+        "country": "AR",
+        "altitude": 13.9
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731502000,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1306238806554316850",
+        "panoId": "IOXdHRKsVetcNFnizswKJg",
+        "lat": -0.13723,
+        "lng": -78.28621,
+        "date": "Oct 2024",
+        "country": "EC",
+        "altitude": 2826.51
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731502000,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1306238806554316850",
+        "panoId": "lu9ZAHF6wnFHbk0vWU1TPg",
+        "lat": -0.03186,
+        "lng": -78.31772,
+        "date": "Oct 2024",
+        "country": "EC",
+        "altitude": 2258.46
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731502000,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1306238806554316850",
+        "panoId": "nnaNwvrDInPG04hZSk_8Iw",
+        "lat": -0.17452,
+        "lng": -78.31595,
+        "date": "Sep 2024",
+        "country": "EC",
+        "altitude": 2580.35
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731502000,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1306238806554316850",
+        "panoId": "ipixMujkpjeHfKw4J3iYFQ",
+        "lat": -0.17861,
+        "lng": -78.30768,
+        "date": "Sep 2024",
+        "country": "EC",
+        "altitude": 2709.33
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731502000,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1306238806554316850",
+        "panoId": "a5fwjHFwSaZRkmS8YvoCww",
+        "lat": -0.16254,
+        "lng": -78.29682,
+        "date": "Oct 2024",
+        "country": "EC",
+        "altitude": 2798.49
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731502000,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1306238806554316850",
+        "panoId": "2yh5OPOX23WrMmvnTENEEw",
+        "lat": -0.21932,
+        "lng": -78.34789,
+        "date": "Sep 2024",
+        "country": "EC",
+        "altitude": 2567.01
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1731511533,
+        "author": "Alok",
+        "id": "1306278790594564166",
+        "panoId": "GxaCjAiew4fhWYk7YX_muw",
+        "lat": -3.55992,
+        "lng": -52.20354,
+        "date": "Aug 2024",
+        "country": "BR",
+        "altitude": 143.03
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1731511533,
+        "author": "Alok",
+        "id": "1306278790594564166",
+        "panoId": "zd3Qb-01xhLh20driqBMcg",
+        "lat": -3.99559,
+        "lng": -54.66471,
+        "date": "Aug 2024",
+        "country": "BR",
+        "altitude": 91.49
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1731511533,
+        "author": "Alok",
+        "id": "1306278790594564166",
+        "panoId": "M_peevXVUH9aBd4mFszNnQ",
+        "lat": -3.87179,
+        "lng": -54.21186,
+        "date": "Aug 2024",
+        "country": "BR",
+        "altitude": 104.45
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1731511533,
+        "author": "Alok",
+        "id": "1306278790594564166",
+        "panoId": "G4Enz3S0hEwr9p6dbHMXyQ",
+        "lat": -4.14445,
+        "lng": -50.22808,
+        "date": "Aug 2024",
+        "country": "BR",
+        "altitude": 117.53
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731518124,
+        "author": "DeSlagen",
+        "id": "1306306438632574987",
+        "panoId": "1mOqXXEdDv1IL9uChQ3kKw",
+        "lat": 45.77607,
+        "lng": 15.94809,
+        "date": "Nov 2024",
+        "country": "HR",
+        "altitude": 118.63
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731518124,
+        "author": "DeSlagen",
+        "id": "1306306438632574987",
+        "panoId": "AKVGEZmUzRPeUHLaroGadA",
+        "lat": 45.67545,
+        "lng": 15.75287,
+        "date": "Nov 2024",
+        "country": "HR",
+        "altitude": 137.65
+    },
+    {
+        "types": [
+            "new_brunswick",
+            "newroad"
+        ],
+        "report_time": 1731530508,
+        "author": "Frost",
+        "id": "1306358377378742313",
+        "panoId": "F3VAJ4npTpu2PNvWPf0VPQ",
+        "lat": 46.12996,
+        "lng": -64.05361,
+        "date": "Sep 2024",
+        "country": "CA",
+        "altitude": 18.46
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1731536060,
+        "author": "HoustonMediaHD",
+        "id": "1306381666889240596",
+        "panoId": "Ax-oGOoAh_nOOLLxhXn5gg",
+        "lat": 29.85243,
+        "lng": -95.74394,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 44.07
     }
 ]

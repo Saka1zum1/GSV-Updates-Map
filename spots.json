@@ -16281,5 +16281,33 @@
         "lat": -23.181,
         "lng": -46.85865,
         "country": "BR"
+    },
+    {
+        "id": "1306337654182510642",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.tiktok.com/@juanpabl315/video/7434582633251605815",
+            "https://maps.app.goo.gl/EujRdaBj8DEHAcrC9"
+        ],
+        "report_time": 1731525567,
+        "author": "Redpork",
+        "panoId": "9ThoLk4H7kMJyqjImzjOLQ",
+        "lat": 20.11227,
+        "lng": -101.93434,
+        "country": "MX"
+    },
+    {
+        "id": "1306339671030104086",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.instagram.com/p/DCDBNdDveh-/?img_index=1",
+            "https://maps.app.goo.gl/HBGuNNTCzaJr6bqm9"
+        ],
+        "report_time": 1731526048,
+        "author": "Redpork",
+        "panoId": "RyYiI05dG7MGvYfZZtNxVw",
+        "lat": 32.61086,
+        "lng": -93.29149,
+        "country": "US"
     }
 ]
