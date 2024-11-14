@@ -16309,5 +16309,19 @@
         "lat": 32.61086,
         "lng": -93.29149,
         "country": "US"
+    },
+    {
+        "id": "1306579419946815601",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.instagram.com/reel/DCTjNJKSu34/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/xu8H2Xah6DSZ9eeV6"
+        ],
+        "report_time": 1731583208,
+        "author": "Kemmy",
+        "panoId": "2JbVWmXZi2dHWPVbV3d6Uw",
+        "lat": -7.87836,
+        "lng": 111.46137,
+        "country": "ID"
     }
 ]
