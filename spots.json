@@ -16323,5 +16323,19 @@
         "lat": -7.87836,
         "lng": 111.46137,
         "country": "ID"
+    },
+    {
+        "id": "1306495096690184223",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/share/1D16hptdcc/?",
+            "https://maps.app.goo.gl/trTQJHmRjbnDPfFHA"
+        ],
+        "report_time": 1731563104,
+        "author": "Redpork",
+        "panoId": "lwCMgfsqTqgLvAAUxypV8A",
+        "lat": 21.25868,
+        "lng": -86.7502,
+        "country": "MX"
     }
 ]
