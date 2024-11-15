@@ -16337,5 +16337,19 @@
         "lat": 21.25868,
         "lng": -86.7502,
         "country": "MX"
+    },
+    {
+        "id": "1306807308600217681",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=8933368346713322&set=p.8933368346713322&type=3",
+            "https://maps.app.goo.gl/yLDUaKrQCTgV9Ka47"
+        ],
+        "report_time": 1731637541,
+        "author": "Redpork",
+        "panoId": "rT5_RLn8Qw_zdfX1BTv3ew",
+        "lat": 18.23575,
+        "lng": -96.14297,
+        "country": "MX"
     }
 ]
