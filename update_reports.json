@@ -120642,5 +120642,244 @@
         "date": "Oct 2024",
         "country": "US",
         "altitude": 887.38
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731732891,
+        "author": "Update Tracker Bot",
+        "id": "1307207235717562391",
+        "panoId": "vq2zeCZwiibtKoVjiS5HQQ",
+        "lat": 47.80198,
+        "lng": -97.07802,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 262.8
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731736562,
+        "author": "Lubec",
+        "id": "1307222630285185034",
+        "panoId": "i_kGJxgt3nvJDKj8-Q91Uw",
+        "lat": 46.82861,
+        "lng": -64.9473,
+        "date": "Oct 2024",
+        "country": "CA",
+        "altitude": 7.15
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731736562,
+        "author": "Lubec",
+        "id": "1307222630285185034",
+        "panoId": "53mUdd-iphX_MZb04ddXGQ",
+        "lat": 47.04768,
+        "lng": -64.96518,
+        "date": "Oct 2024",
+        "country": "CA",
+        "altitude": 10.43
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731736562,
+        "author": "Lubec",
+        "id": "1307222630285185034",
+        "panoId": "gqXNvPYymvGnW2KYYNTAnw",
+        "lat": 46.9294,
+        "lng": -65.16269,
+        "date": "Oct 2024",
+        "country": "CA",
+        "altitude": 43.1
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731736562,
+        "author": "Lubec",
+        "id": "1307222630285185034",
+        "panoId": "lZM6vs7Yyu7BdpQacLe0ig",
+        "lat": 46.65818,
+        "lng": -65.53174,
+        "date": "Oct 2024",
+        "country": "CA",
+        "altitude": 92.18
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731736562,
+        "author": "Lubec",
+        "id": "1307222630285185034",
+        "panoId": "OBikLY7vKV_ti1NoEcFs6Q",
+        "lat": 46.57698,
+        "lng": -64.95612,
+        "date": "Sep 2024",
+        "country": "CA",
+        "altitude": 8.53
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731736562,
+        "author": "Lubec",
+        "id": "1307222630285185034",
+        "panoId": "zpzlW5szCCDPAxw6hb6t5Q",
+        "lat": 47.60719,
+        "lng": -67.41668,
+        "date": "Oct 2024",
+        "country": "CA",
+        "altitude": 236.2
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731740410,
+        "author": "Update Tracker Bot",
+        "id": "1307238772575961120",
+        "panoId": "2YTuZKV5hNVZDnv8caX1XQ",
+        "lat": 34.16909,
+        "lng": 134.45686,
+        "date": "Nov 2024",
+        "country": "JP",
+        "altitude": 59.88
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731740174,
+        "author": "Aedan",
+        "id": "1307237782405775411",
+        "panoId": "wsoZSTMmvXuey-QoePwdXQ",
+        "lat": 59.08726,
+        "lng": 10.42805,
+        "date": "Nov 2024",
+        "country": "NO",
+        "altitude": 10.92
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1731739715,
+        "author": "Update Tracker Bot",
+        "id": "1307235856389767168",
+        "panoId": "w4TW1Gnl2xhW65WdwsSfhA",
+        "lat": 59.48117,
+        "lng": 9.10319,
+        "date": "Nov 2024",
+        "country": "NO",
+        "altitude": 206.42
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731738452,
+        "author": "Update Tracker Bot",
+        "id": "1307230560174735442",
+        "panoId": "1tP2jyNrPrJ8upXojGef5g",
+        "lat": 43.57015,
+        "lng": -89.11182,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 315.98
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1731738154,
+        "author": "Aedan",
+        "id": "1307229307466416158",
+        "panoId": "98ItAv-oe1HlwQRX5AP9_Q",
+        "lat": 37.35376,
+        "lng": -107.68841,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 2352.78
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731737698,
+        "author": "Aedan",
+        "id": "1307227398504452248",
+        "panoId": "6xUk6Fe3VeJEhiQ1J3uO3A",
+        "lat": 44.59209,
+        "lng": -111.74221,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 2030.72
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1731742128,
+        "author": "Update Tracker Bot",
+        "id": "1307245975437443122",
+        "panoId": "VqMYn3L-MrpFY2163tnjXQ",
+        "lat": 37.03284,
+        "lng": 21.98436,
+        "date": "Nov 2024",
+        "country": "GR",
+        "altitude": 40.51
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731741720,
+        "author": "vegetal",
+        "id": "1307244267416059926",
+        "panoId": "dhaJ4Oz9-3z4PrF0oj4f4A",
+        "lat": 46.22595,
+        "lng": -63.7337,
+        "date": "Sep 2024",
+        "country": "CA",
+        "altitude": 43.13
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731741720,
+        "author": "vegetal",
+        "id": "1307244267416059926",
+        "panoId": "bCCz2raOh0nGK9xvwHnxeA",
+        "lat": 46.2635,
+        "lng": -63.15585,
+        "date": "Sep 2024",
+        "country": "CA",
+        "altitude": 9.5
+    },
+    {
+        "types": [
+            "newcountry",
+            "gen3update"
+        ],
+        "report_time": 1731741571,
+        "author": "Update Tracker Bot",
+        "id": "1307243639390343240",
+        "panoId": "8_IdGtNGeFTYKnnMxVnlHg",
+        "lat": -12.14297,
+        "lng": -76.99427,
+        "date": "Aug 2024",
+        "country": "PE",
+        "altitude": 91.12
     }
 ]
