@@ -5732,12 +5732,11 @@ class N0 extends L.GridLayer {
     super({
       ...e,
       minZoom: 16,
-      minNativeZoom: 17,
       maxNativeZoom: 17
     })
   }
   createTile(e, s) {
-    if (e.z !== 17) {
+    if (e.z < 16) {
       const f = L.DomUtil.create("div", "leaflet-tile");
       return queueMicrotask(() => s(void 0, f)),
         f
@@ -5785,105 +5784,150 @@ class N0 extends L.GridLayer {
   }
 }
 
-
-L.Control.OpacityControl = L.Control.extend({
-  options: {
-      position: 'topleft'
-  },
-
+L.MultiTileLayer = L.TileLayer.extend({
   initialize: function (layers, options) {
-      this.layers = layers; 
-      L.setOptions(this, options);
+
+    this.layers = layers;
+
+    L.TileLayer.prototype.initialize.call(this, options);
   },
 
-  onAdd: function (map) {
-      var container = L.DomUtil.create('div', 'leaflet-control-opacity');
-      container.style.backgroundColor = '#fff';
-      container.style.width = '110px';
-      container.style.height = '28px';
-      container.style.boxShadow = 'rgba(0, 0, 0, 0.3) 0px 1px 4px -1px';
-      container.style.borderRadius = '5px';
-      container.innerHTML = `
-          <input type="range" id="opacity-slider" min="0" max="100" value="100" step="10" style="margin:5px; width:100px">
-      `;
+  getTileSize: function () {
+    return new L.Point(256, 256);
+  },
 
-      L.DomEvent.disableClickPropagation(container);
-      L.DomEvent.disableScrollPropagation(container);
-      
-      L.DomEvent.on(container.querySelector('#opacity-slider'), 'input', function (e) {
-          var opacity = e.target.value / 100;
-          this._currentOpacity = opacity;
+  createTile: function (coords, done) {
 
-          this.layers.forEach(layer => {
-              layer.setOpacity(opacity);
-          });
-      }.bind(this));
+    const containerDiv = document.createElement("div");
+    containerDiv.style.position = 'absolute';
 
-      return container;
+    const tilePromises = this.layers.map(layer => {
+      const tile = layer.createTile(coords, done);
+      tile.style.position = 'absolute';
+      tile.style.width = '256';
+      tile.style.height = '256px';
+      containerDiv.appendChild(tile);
+
+      return new Promise(resolve => {
+        tile.addEventListener('load', resolve, { once: true });
+      });
+    });
+
+    Promise.all(tilePromises).then(() => {
+      done(null, containerDiv);
+    });
+
+    return containerDiv;
+  },
+  releaseTile: function (tile) {
+    let index = 0;
+    for (const child of tile.children) {
+      if (child instanceof HTMLElement) {
+        this.layers[index]?.releaseTile(child);
+        index += 1;
+      }
+    }
   }
 });
 
-L.control.opacityControl = function(opts) {
-    return new L.Control.OpacityControl(opts);
+L.Control.OpacityControl = L.Control.extend({
+  options: {
+    position: 'topleft'
+  },
+
+  initialize: function (layers, options) {
+    this.layers = layers;
+    L.setOptions(this, options);
+  },
+
+  onAdd: function (map) {
+    var container = L.DomUtil.create('div', 'leaflet-control-opacity');
+    container.style.backgroundColor = '#fff';
+    container.style.width = '110px';
+    container.style.height = '28px';
+    container.style.boxShadow = 'rgba(0, 0, 0, 0.3) 0px 1px 4px -1px';
+    container.style.borderRadius = '5px';
+    container.innerHTML = `
+          <input type="range" id="opacity-slider" min="0" max="100" value="100" step="10" style="margin:5px; width:100px">
+      `;
+
+    L.DomEvent.disableClickPropagation(container);
+    L.DomEvent.disableScrollPropagation(container);
+
+    L.DomEvent.on(container.querySelector('#opacity-slider'), 'input', function (e) {
+      var opacity = e.target.value / 100;
+      this._currentOpacity = opacity;
+
+      this.layers.forEach(layer => {
+        layer.setOpacity(opacity);
+      });
+    }.bind(this));
+
+    return container;
+  }
+});
+
+L.control.opacityControl = function (opts) {
+  return new L.Control.OpacityControl(opts);
 };
 
-let colorOptions={
+let colorOptions = {
 
-  Default:['1098ad','99e9f2'],
+  Default: ['1098ad', '99e9f2'],
 
-  Crimson:['f03e3e','ffc9c9'],
+  Crimson: ['f03e3e', 'ffc9c9'],
 
-  Deep_Pink:['d6336c','fcc2d7'],
+  Deep_Pink: ['d6336c', 'fcc2d7'],
 
-  Blue_Violet:['ae3ec9','eebefa'],
+  Blue_Violet: ['ae3ec9', 'eebefa'],
 
-  Slate_Blue:['7048e8','d0bfff'],
+  Slate_Blue: ['7048e8', 'd0bfff'],
 
-  Royal_Blue:['4263eb','bac8ff'],
+  Royal_Blue: ['4263eb', 'bac8ff'],
 
-  Dodger_Blue: ['1c7ed6','a5d8ff'],
+  Dodger_Blue: ['1c7ed6', 'a5d8ff'],
 
-  Sea_Green:['0ca678','96f2d7'],
+  Sea_Green: ['0ca678', '96f2d7'],
 
-  Lime_Green:['37b24d','b2f2bb'],
+  Lime_Green: ['37b24d', 'b2f2bb'],
 
-  OliveDrab:['74b816','d8f5a2'],
+  OliveDrab: ['74b816', 'd8f5a2'],
 
-  Orange:['f59f00','ffec99'],
+  Orange: ['f59f00', 'ffec99'],
 
-  Dark_Orange:['f76707','ffd8a8'],
+  Dark_Orange: ['f76707', 'ffd8a8'],
 
-  Brown:['bd5f1b','f7ca9e'],
+  Brown: ['bd5f1b', 'f7ca9e'],
 }
 let color_preference = parseInt(JSON.parse(localStorage.getItem('color_preference')));
-if(!color_preference) {
-  color_preference=0
+if (!color_preference) {
+  color_preference = 0
   localStorage.setItem('color_preference', JSON.stringify(0));
 }
 const color_keys = Object.keys(colorOptions);
 var selectedColor = color_keys[color_preference];
-var [backgroundcolor,borderColor] = colorOptions[selectedColor];
+var [backgroundcolor, borderColor] = colorOptions[selectedColor];
 
-const roadmapBaseLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:l|p.v:off,s.t:1|s.e:g.s|p.v:on!5m1!5f1.5");
+const roadmapBaseLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:l|p.v:off,s.t:1|s.e:g.s|p.v:on!5m1!5f1.5", { maxZoom: 20 });
 const roadmapLabelsLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35",
-  { pane: "labelPane" });
+  { pane: "labelPane", maxZoom: 20 });
 const roadmapLayer = L.layerGroup([roadmapBaseLayer, roadmapLabelsLayer]);
-const satelliteBaseLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m7!8m6!1m3!1i{z}!2i{x}!3i{y}!2i9!3x1!2m2!1e1!2sm!3m3!2sen!3sus!5e1105!4e0!5m4!1e0!8m2!1e1!1e1!6m6!1e12!2i2!11e0!39b0!44e0!50e0");
+const satelliteBaseLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m7!8m6!1m3!1i{z}!2i{x}!3i{y}!2i9!3x1!2m2!1e1!2sm!3m3!2sen!3sus!5e1105!4e0!5m4!1e0!8m2!1e1!1e1!6m6!1e12!2i2!11e0!39b0!44e0!50e0", { maxZoom: 18 });
 const satelliteLabelsLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m7!8m6!1m3!1i{z}!2i{x}!3i{y}!2i9!3x1!2m2!1e0!2sm!3m5!2sen!3sus!5e1105!12m1!1e4!4e0!5m4!1e0!8m2!1e1!1e1!6m6!1e12!2i2!11e0!39b0!44e0!50e0",
-  { pane: "labelPane" });
+  { pane: "labelPane", maxZoom: 20 });
 const satelliteLayer = L.layerGroup([satelliteBaseLayer, satelliteLabelsLayer]);
-const terrainBaseLayer = L.tileLayer("https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!2m2!1e5!2sshading!2m2!1e6!2scontours!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:l|p.v:off,s.t:1|s.e:g.s|p.v:on!5m1!5f1.5");
+const terrainBaseLayer = L.tileLayer("https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!2m2!1e5!2sshading!2m2!1e6!2scontours!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sTerrain!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:l|p.v:off,s.t:1|s.e:g.s|p.v:on!5m1!5f1.5", { maxZoom: 20 });
 const terrainLabelsLayer = roadmapLabelsLayer;
 const terrainLayer = L.layerGroup([terrainBaseLayer, terrainLabelsLayer]);
-const osmLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' });
-const cartoLightLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", { subdomains: ["a", "b", "c"] });
-const cartoDarkLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png", { subdomains: ["a", "b", "c"] });
+const osmLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors', maxZoom: 18 });
+const cartoLightLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", { subdomains: ["a", "b", "c"], maxZoom: 20 });
+const cartoDarkLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png", { subdomains: ["a", "b", "c"], maxZoom: 20 });
 const gsvLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m7!8m6!1m3!1i{z}!2i{x}!3i{y}!2i9!3x1!2m8!1e2!2ssvv!4m2!1scc!2s*211m3*211e2*212b1*213e2*211m3*211e3*212b1*213e2*212b1*214b1!4m2!1ssvl!2s*211b0*212b1!3m8!2sen!3sus!5e1105!12m4!1e68!2m2!1sset!2sRoadmap!4e0!5m4!1e0!8m2!1e1!1e1!6m6!1e12!2i2!11e0!39b0!44e0!50e0",
-  { pane: "coveragePane" });
+  { pane: "coveragePane", maxZoom: 20 });
 var gsvLayer2 = L.tileLayer(`https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`,
-  { pane: "coveragePane" });
+  { pane: "coveragePane", maxZoom: 20 });
 const gsvLayer3 = L.tileLayer("https://www.google.com/maps/vt?pb=!1m7!8m6!1m3!1i{z}!2i{x}!3i{y}!2i9!3x1!2m8!1e2!2ssvv!4m2!1scc!2s*211m3*211e3*212b1*213e2*212b1*214b1!4m2!1ssvl!2s*211b0*212b1!3m8!2sen!3sus!5e1105!12m4!1e68!2m2!1sset!2sRoadmap!4e0!5m4!1e0!8m2!1e1!1e1!6m6!1e12!2i2!11e0!39b0!44e0!50e0",
-  { pane: "coveragePane" });
+  { pane: "coveragePane", maxZoom: 20 });
 const baseMaps = {
   Roadmap: roadmapLayer,
   Satellite: satelliteLayer,
@@ -5902,14 +5946,14 @@ const overlayMaps = {
 };
 
 const ht = L.map("map", {
-    minZoom: 1,
-    center:[0,0],
-    zoom:2,
-    preferCanvas: true,
-    zoomControl: false,
-    worldCopyJump: true,
-    attributionControl: false
-  });
+  minZoom: 1,
+  center: [0, 0],
+  zoom: 2,
+  preferCanvas: true,
+  zoomControl: false,
+  worldCopyJump: true,
+  attributionControl: false,
+});
 
 ht.createPane("labelPane");
 ht.createPane("panoramasPane")
@@ -5921,20 +5965,20 @@ ht.getPane("coveragePane").style.zIndex = 200;
 var drawnItems = new L.FeatureGroup().addTo(ht);
 var drawControl = new L.Control.Draw({
   edit: {
-      featureGroup: drawnItems,
-      poly: {
-          allowIntersection: false
-      }
+    featureGroup: drawnItems,
+    poly: {
+      allowIntersection: false
+    }
   },
   draw: {
-      polygon: {
-          allowIntersection: false,
-          showArea: true
-      },
-      polyline: false,
-      circle: false,
-      marker: false,
-      circlemarker: false
+    polygon: {
+      allowIntersection: false,
+      showArea: true
+    },
+    polyline: false,
+    circle: false,
+    marker: false,
+    circlemarker: false
   },
   position: 'bottomleft',
 
@@ -5944,29 +5988,28 @@ ht.on(L.Draw.Event.CREATED, function (event) {
   drawnItems.addLayer(layer);
 });
 
-
 roadmapLayer.addTo(ht);
-gsvLayer2.addTo(ht);
+gsvLayer2.addTo(ht)
 panoramasLayer.addTo(ht).bringToFront()
 L.control.layers(baseMaps, overlayMaps, { position: "bottomleft" }).addTo(ht);
 drawControl.addTo(ht)
-var opacityControl=L.control.opacityControl([gsvLayer,gsvLayer2,gsvLayer3]).addTo(ht)
+var opacityControl = L.control.opacityControl([gsvLayer, gsvLayer2, gsvLayer3]).addTo(ht)
 
 let isRangeMode = true
 let isHeatmap = false
-let isCluster=true
-let isPeak=false
-let isSpot=false
-let update_data,altitude_data,spots_data,filterdata
-let filter_check={report_date:[1167580800,1924963199],type:[],pano_date:[],poly:[],country:null}
-let markers=[]
-let cache={}
+let isCluster = true
+let isPeak = false
+let isSpot = false
+let update_data, altitude_data, spots_data, filterdata
+let filter_check = { report_date: [1167580800, 1924963199], type: [], pano_date: [], poly: [], country: null }
+let markers = []
+let cache = {}
 let heatmapLayer
-const heatmap_on='./assets/heatmap.png'
-const heatmap_off='./assets/heatmap_off.png'
-const cluster_on='./assets/markers.svg'
-const cluster_off='./assets/marker.svg'
-const clustermarkers=L.markerClusterGroup()
+const heatmap_on = './assets/heatmap.png'
+const heatmap_off = './assets/heatmap_off.png'
+const cluster_on = './assets/markers.svg'
+const cluster_off = './assets/marker.svg'
+const clustermarkers = L.markerClusterGroup()
 const specialDates = {
   '2024-10-28T22:38:00Z': 'om',
   '2024-10-14T20:00:00Z': 'fo',
@@ -5992,9 +6035,10 @@ async function fetchCachedImage(channel_id, id) {
     return cache[cacheKey];
   }
   const img_url = await fetch_attachments(channel_id, id);
-  if(img_url){
+  if (img_url) {
     cache[cacheKey] = img_url;
-    return img_url};
+    return img_url
+  };
 }
 
 
@@ -6030,35 +6074,37 @@ function getFlagUrl(countryCode) {
 
 function drawMarkers(data) {
   clustermarkers.clearLayers();
-  markers.forEach(marker => ht.removeLayer(marker)); 
-  markers = []; 
+  markers.forEach(marker => ht.removeLayer(marker));
+  markers = [];
 
   data.forEach(item => {
     const { lat, lng, author, types, report_time, date, altitude, panoId, links, id, spot_type } = item;
     const localTime = new Date(report_time * 1000).toLocaleString();
     let popupContent = '';
     const marker = L.marker([lat, lng]);
-  
+
     marker.on('mouseover', async function () {
+      var img_url=`https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`
       if (types) {
         popupContent = `
-          <strong>update type:</strong> ${types.map(type => 
-            `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
-          ).join(' ')}<br>
+          <strong>update type:</strong> ${types.map(type =>
+          `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
+        ).join(' ')}<br>
           <strong>pano date:</strong> ${date}<br>
           <strong>elevation:</strong> ${altitude}m<br>
           <strong>report time:</strong> ${localTime}<br>
-          <strong>reporter:</strong> ${author}`;
+          <strong>reporter:</strong> ${author}<br>
+          <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       } else if (links) {
 
         let channel_id;
         if (spot_type === 'Gen4') {
-          channel_id = '774703077172838430'; 
+          channel_id = '774703077172838430';
         } else {
-          channel_id = '1148013283006218352'; 
+          channel_id = '1148013283006218352';
         }
-  
-        const img_url = await fetchCachedImage(channel_id, id);
+
+        img_url = await fetchCachedImage(channel_id, id);
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>
           <strong>archived time:</strong> ${localTime}<br>
@@ -6066,20 +6112,22 @@ function drawMarkers(data) {
           <img src="${img_url}" style="max-width: 100%; height: auto;">
         `;
       } else {
-
         popupContent = `
           <strong>pano date:</strong> ${date}<br>
-          <strong>elevation:</strong> ${altitude}m<br>`;
+          <strong>elevation:</strong> ${altitude}m<br>
+          <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       }
-  
-      this.bindPopup(popupContent).openPopup();
+
+      this.bindPopup(popupContent, {
+        autoPan: true,
+      }).openPopup();
     });
-  
+
 
     marker.on('mouseout', function () {
       this.closePopup();
     });
-  
+
 
     marker.on('click', function () {
       let link = `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`;
@@ -6088,19 +6136,19 @@ function drawMarkers(data) {
       }
       window.open(link, '_blank');
     });
-  
+
 
     if (isCluster) {
       clustermarkers.addLayer(marker);
     } else {
       ht.addLayer(marker);
     }
-  
+
     markers.push(marker);
   });
 
   if (isCluster) {
-      clustermarkers.addTo(ht);
+    clustermarkers.addTo(ht);
   }
 }
 
@@ -6119,13 +6167,13 @@ function drawHeatmap(data) {
   if (heatmapLayer) {
     ht.removeLayer(heatmapLayer);
   }
-  const heatData = data.map(item => [item.lat, item.lng, 100]); 
-  heatmapLayer = L.heatLayer(heatData, {     
-      radius: 10, 
-      blur: 5,
-      maxZoom: 20,
-      maxIntensity: 1,
-}).addTo(ht);
+  const heatData = data.map(item => [item.lat, item.lng, 100]);
+  heatmapLayer = L.heatLayer(heatData, {
+    radius: 10,
+    blur: 5,
+    maxZoom: 20,
+    maxIntensity: 1,
+  }).addTo(ht);
 }
 
 function intersect(array1, array2) {
@@ -6144,40 +6192,40 @@ function monthInRange(pano_date, monthRange) {
   const panoYear = pano_date.split(' ')[1];
 
   if (startYear === endYear) {
-      return panoYear === startYear && panoIndex >= startIndex && panoIndex <= endIndex;
+    return panoYear === startYear && panoIndex >= startIndex && panoIndex <= endIndex;
   } else {
-      return (panoYear === startYear && panoIndex >= startIndex) ||
-             (panoYear === endYear && panoIndex <= endIndex) ||
-             (panoYear > startYear && panoYear < endYear);
+    return (panoYear === startYear && panoIndex >= startIndex) ||
+      (panoYear === endYear && panoIndex <= endIndex) ||
+      (panoYear > startYear && panoYear < endYear);
   }
 }
 
 function applyFilters() {
   var dataToFilter
-  if (isPeak) dataToFilter= altitude_data
-  else if (isSpot) dataToFilter= spots_data
-  else dataToFilter=update_data
+  if (isPeak) dataToFilter = altitude_data
+  else if (isSpot) dataToFilter = spots_data
+  else dataToFilter = update_data
 
   filterdata = dataToFilter.filter(item => {
-      const inDateRange = isPeak || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
-      
-      const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.types);
-      
-      const inMonthRange = isSpot|| filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
-  
-      const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
-  
-      const pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
-          const point = L.latLng(item.lat, item.lng);
-          const poly = L.polygon(latlngs);
-          return poly.contains(point);
-      }));
-  
-      return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry;
+    const inDateRange = isPeak || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
+
+    const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.types);
+
+    const inMonthRange = isSpot || filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
+
+    const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
+
+    const pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
+      const point = L.latLng(item.lat, item.lng);
+      const poly = L.polygon(latlngs);
+      return poly.contains(point);
+    }));
+
+    return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry;
   });
   if (filterdata) {
-      if (isHeatmap) drawHeatmap(filterdata);
-      else drawMarkers(filterdata);
+    if (isHeatmap) drawHeatmap(filterdata);
+    else drawMarkers(filterdata);
 
   }
 }
@@ -6192,7 +6240,7 @@ fetch('update_reports.json')
   })
   .then(data => {
     update_data = data
-    filterdata=data
+    filterdata = data
     drawMarkers(data)
   })
   .catch(error => console.error('Error parsing json:', error));
@@ -6209,7 +6257,7 @@ fetch('altitude_data.json')
   })
   .catch(error => console.error('Error parsing json:', error));
 
-  fetch('spots.json')
+fetch('spots.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network error!');
@@ -6221,11 +6269,22 @@ fetch('altitude_data.json')
   })
   .catch(error => console.error('Error parsing json:', error));
 
+function get_avatar(id,avatar_id){
+  return `https://cdn.discordapp.com/avatars/${id}/${avatar_id}.webp`
+}
+
+/*const authorMonthDiv = document.querySelector('.author.month');
+const authorWeekDiv = document.querySelector('.author.week');
+
+authorMonthDiv.style.backgroundImage = `url(${get_avatar("575338164269613066","a56792efc15ce9213f3bd6d2acbe418f")})`;
+authorWeekDiv.style.backgroundImage = `url(${get_avatar("575338164269613066","a56792efc15ce9213f3bd6d2acbe418f")})`;*/
+
+
 const datepicker = new AirDatepicker('#calendar', {
   onSelect({ date }) {
-    if (date.length > 1&&isRangeMode) {
+    if (date.length > 1 && isRangeMode) {
       filter_check.report_date[0] = Math.floor(date[0].getTime() / 1000)
-      filter_check.report_date[1] = Math.floor(date[1].getTime() / 1000)+ 86400
+      filter_check.report_date[1] = Math.floor(date[1].getTime() / 1000) + 86400
     }
     else {
       const localdate = new Date(date)
@@ -6237,32 +6296,32 @@ const datepicker = new AirDatepicker('#calendar', {
   },
   onRenderCell({ date, cellType }) {
     if (cellType === 'day') {
-        const startOfDay = new Date(date);
-        startOfDay.setHours(0, 0, 0, 0);
-        const endOfDay = new Date(date);
-        endOfDay.setHours(23, 59, 59, 999);
+      const startOfDay = new Date(date);
+      startOfDay.setHours(0, 0, 0, 0);
+      const endOfDay = new Date(date);
+      endOfDay.setHours(23, 59, 59, 999);
 
-        const matchingDates = [];
+      const matchingDates = [];
 
-        for (const [timestamp, countryCode] of Object.entries(specialDates)) {
-            const specialDate = new Date(timestamp);
-            if (isDateInRange(specialDate, startOfDay, endOfDay)) {
-                matchingDates.push({ timestamp, countryCode });
-            }
+      for (const [timestamp, countryCode] of Object.entries(specialDates)) {
+        const specialDate = new Date(timestamp);
+        if (isDateInRange(specialDate, startOfDay, endOfDay)) {
+          matchingDates.push({ timestamp, countryCode });
         }
+      }
 
-        if (matchingDates.length > 0) {
-          const randomIndex = Math.floor(Math.random() * matchingDates.length);
-          const initialFlagUrl = getFlagUrl(matchingDates[randomIndex].countryCode);
-          return {
-              html: `<div class="custom-cell">
+      if (matchingDates.length > 0) {
+        const randomIndex = Math.floor(Math.random() * matchingDates.length);
+        const initialFlagUrl = getFlagUrl(matchingDates[randomIndex].countryCode);
+        return {
+          html: `<div class="custom-cell">
                           <img class="emoji" src="${initialFlagUrl}">
                       </div>`,
-              classes: 'custom-cell'
-          };
+          classes: 'custom-cell'
+        };
       }
-  }
-},
+    }
+  },
 
   autoClose: false,
   singleDatePicker: true,
@@ -6283,27 +6342,27 @@ const datepicker = new AirDatepicker('#calendar', {
 });
 
 const monthPicker = new AirDatepicker('#monthpicker', {
-  view: 'months', 
+  view: 'months',
   minView: 'months',
-  range:true,
+  range: true,
   onSelect({ date }) {
     if (date.length > 1) {
-        const startMonth = date[0].toLocaleString('default', { month: 'short' });
-        const startYear = date[0].getFullYear();
-        const endMonth = date[1].toLocaleString('default', { month: 'short' });
-        const endYear = date[1].getFullYear();
-        filter_check.pano_date = [`${startMonth} ${startYear}`, `${endMonth} ${endYear}`];
+      const startMonth = date[0].toLocaleString('default', { month: 'short' });
+      const startYear = date[0].getFullYear();
+      const endMonth = date[1].toLocaleString('default', { month: 'short' });
+      const endYear = date[1].getFullYear();
+      filter_check.pano_date = [`${startMonth} ${startYear}`, `${endMonth} ${endYear}`];
     } else {
-        const singleMonth = date[0].toLocaleString('default', { month: 'short' });
-        const singleYear = date[0].getFullYear()
-        filter_check.pano_date = [`${singleMonth} ${singleYear}`, `${singleMonth} ${singleYear}`];
+      const singleMonth = date[0].toLocaleString('default', { month: 'short' });
+      const singleYear = date[0].getFullYear()
+      filter_check.pano_date = [`${singleMonth} ${singleYear}`, `${singleMonth} ${singleYear}`];
     }
     applyFilters();
-},
+  },
   autoClose: true,
   locale: {
-      months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-      monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
   }
 });
 
@@ -6314,7 +6373,7 @@ ht.on("draw:created", (e) => {
 })
 
 ht.on("draw:edited", (e) => {
-  filter_check.poly=[]
+  filter_check.poly = []
   e.layers.eachLayer((layer) => {
     filter_check.poly.push(layer)
   })
@@ -6322,27 +6381,26 @@ ht.on("draw:edited", (e) => {
 })
 
 ht.on("draw:deleted", () => {
-  filter_check.poly=[]
+  filter_check.poly = []
   applyFilters()
 })
 
 
-const toggle_line_color=document.getElementById('color-board')
+const toggle_line_color = document.getElementById('color-board')
 toggle_line_color.style.background = `#${backgroundcolor}`;
 toggle_line_color.style.borderColor = `#${borderColor}`;
 
 toggle_line_color.addEventListener('click', function () {
   color_preference = (color_preference + 1) % color_keys.length
   selectedColor = color_keys[color_preference];
-  [backgroundcolor,borderColor] = colorOptions[selectedColor];
+  [backgroundcolor, borderColor] = colorOptions[selectedColor];
   toggle_line_color.style.background = `#${backgroundcolor}`;
   toggle_line_color.style.borderColor = `#${borderColor}`;
   const newTileUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
   ht.removeLayer(gsvLayer2);
   ht.removeControl(opacityControl)
   gsvLayer2 = L.tileLayer(newTileUrl, { pane: "coveragePane" }).addTo(ht);
-  opacityControl=L.control.opacityControl([gsvLayer,gsvLayer2,gsvLayer3]).addTo(ht)
-  console.log(color_preference)
+  opacityControl = L.control.opacityControl([gsvLayer, gsvLayer2, gsvLayer3]).addTo(ht)
   localStorage.setItem('color_preference', JSON.stringify(color_preference));
 
 });
@@ -6365,12 +6423,12 @@ toggle_heatmap.addEventListener('click', function () {
       ht.removeLayer(heatmapLayer);
       drawMarkers(filterdata)
     }
-} else {
+  } else {
     isHeatmap = true;
     toggle_heatmap.style.backgroundImage = `url('${heatmap_on}')`;
     drawHeatmap(filterdata);
     drawMarkers([])
-}
+  }
 });
 
 const toggle_cluster = document.querySelector('.control.cluster')
@@ -6380,12 +6438,12 @@ toggle_cluster.addEventListener('click', function () {
     toggle_cluster.setAttribute('data-text', 'Enable Cluster Markers')
     toggle_cluster.style.backgroundImage = `url('${cluster_off}')`;
     drawMarkers(filterdata)
-} else {
-  isCluster = true;
-  toggle_cluster.setAttribute('data-text', 'Disable Cluster Markers')
-  toggle_cluster.style.backgroundImage = `url('${cluster_on}')`;
+  } else {
+    isCluster = true;
+    toggle_cluster.setAttribute('data-text', 'Disable Cluster Markers')
+    toggle_cluster.style.backgroundImage = `url('${cluster_on}')`;
     drawMarkers(filterdata);
-}
+  }
 });
 
 const toggle_peak = document.querySelector('.control.peak')
@@ -6393,11 +6451,11 @@ toggle_peak.addEventListener('click', function () {
   if (isPeak) {
     isPeak = false
     applyFilters()
-} else {
-  isPeak = true
-  isSpot = false
-  applyFilters()
-}
+  } else {
+    isPeak = true
+    isSpot = false
+    applyFilters()
+  }
 });
 
 const toggle_spot = document.querySelector('.control.spot')
@@ -6405,85 +6463,87 @@ toggle_spot.addEventListener('click', function () {
   if (isSpot) {
     isSpot = false;
     applyFilters()
-} else {
-  isSpot = true
-  isPeak = false
-  applyFilters()
-}
+  } else {
+    isSpot = true
+    isPeak = false
+    applyFilters()
+  }
 });
 
 const copy_button = document.querySelector('.control.copy')
 copy_button.addEventListener('click', function () {
   const formattedData = filterdata.map(item => ({
-      lat: item.lat,
-      lng: item.lng,
-      heading: 0,
-      pitch: 0,
-      zoom: 0,
-      panoId: item.panoId,
-      extra: {
-        tags: [
-          item.author || null, 
-          item.country || null, 
-          item.date || null, 
-          ...(item.types || [])
-        ].filter(Boolean)
-      }
+    lat: item.lat,
+    lng: item.lng,
+    heading: 0,
+    pitch: 0,
+    zoom: 0,
+    panoId: item.panoId,
+    extra: {
+      tags: [
+        item.author || null,
+        item.country || null,
+        item.date || null,
+        ...(item.types || [])
+      ].filter(Boolean)
+    }
   }));
 
   const formattedText = JSON.stringify(formattedData);
   navigator.clipboard.writeText(formattedText).then(() => {
-      alert('JSON data has been copied to your clipboard');
+    alert('JSON data has been copied to your clipboard');
   }).catch(err => {
-      console.error('Failed to copy to clipboard', err);
+    console.error('Failed to copy to clipboard', err);
   });
 });
 
-const filter_type=document.querySelector('.filter.type')
+const filter_type = document.querySelector('.filter.type')
 const checkboxContainer = document.getElementById('checkboxContainer-type');
 filter_type.setAttribute('data-state', 'inactive')
 filter_type.addEventListener('click', function () {
-  if (this.getAttribute('data-state')=='inactive'){
-    checkboxContainer.style.display='block'
+  if (this.getAttribute('data-state') == 'inactive') {
+    checkboxContainer.style.display = 'block'
     this.setAttribute('data-state', 'active');
     this.classList.add('active')
   }
-  else{
+  else {
     this.setAttribute('data-state', 'inactive')
-    checkboxContainer.style.display='none'
+    checkboxContainer.style.display = 'none'
     this.classList.remove('active');
   }
 });
 document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
   checkbox.addEventListener('change', function () {
-      const type = this.dataset.type;
-      if (this.checked) {
-          filter_check.type.push(type);
-      } else {
-          filter_check.type = filter_check.type.filter(t => t !== type);
-      }
-      applyFilters();
+    const type = this.dataset.type;
+    if (this.checked) {
+      filter_check.type.push(type);
+    } else {
+      filter_check.type = filter_check.type.filter(t => t !== type);
+    }
+    applyFilters();
   });
 });
 
 
-const filter_date=document.querySelector('.filter.date')
-let ismp=false
-filter_date.addEventListener('click',function(){
-  if(!ismp){
-    ismp=true
-    document.getElementById('monthpicker').style.display='block'}
+const filter_date = document.querySelector('.filter.date')
+let ismp = false
+filter_date.addEventListener('click', function () {
+  if (!ismp) {
+    ismp = true
+    document.getElementById('monthpicker').style.display = 'block'
+  }
   else {
-    ismp=false
-    document.getElementById('monthpicker').style.display='none'}
-  
+    ismp = false
+    document.getElementById('monthpicker').style.display = 'none'
+  }
+
 })
 
-const filter_country=document.querySelector('.filter.country')
+const filter_country = document.querySelector('.filter.country')
 const filter_flag = document.createElement('img');
-filter_flag.className='filter-flag'
-filter_country.addEventListener('click',function(){
-  if(!filter_check.country){
+filter_flag.className = 'filter-flag'
+filter_country.addEventListener('click', function () {
+  if (!filter_check.country) {
     const countryCode = prompt("please enter a country code：")
     if (countryCode) {
       filter_check.country = countryCode;
@@ -6491,11 +6551,11 @@ filter_country.addEventListener('click',function(){
       filter_country.appendChild(filter_flag)
       applyFilters()
     }
-}
+  }
   else {
-    filter_check.country=null
+    filter_check.country = null
     filter_country.removeChild(filter_flag)
     applyFilters()
-    }
-  
+  }
+
 })
