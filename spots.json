@@ -16365,5 +16365,61 @@
         "lat": 51.65588,
         "lng": 5.04367,
         "country": "NL"
+    },
+    {
+        "id": "1307089241871749261",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10162168201554919&set=a.10150216188019919",
+            "https://maps.app.goo.gl/eCbumQQ27W3gg4VJ6"
+        ],
+        "report_time": 1731704759,
+        "author": "Redpork",
+        "panoId": "bbeiHzKWh8HNZYB-rR9krg",
+        "lat": 57.04603,
+        "lng": 9.93614,
+        "country": "DK"
+    },
+    {
+        "id": "1307086875651211457",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10161357495231359&set=a.468521281358",
+            "https://maps.app.goo.gl/N9zUMRxgU8jVmsnD8"
+        ],
+        "report_time": 1731704195,
+        "author": "Redpork",
+        "panoId": "-X7v5ic-ga1m1BDlJnRcCw",
+        "lat": 31.9806,
+        "lng": -102.14819,
+        "country": "US"
+    },
+    {
+        "id": "1307147058544902165",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.salamanca24horas.com/local/salamanca-actualiza-sus-calles-coche-google-street-view-se-pasea-por-ciudad_15132454_102.html",
+            "https://maps.app.goo.gl/89nh6cqauY54aSF88"
+        ],
+        "report_time": 1731718544,
+        "author": "chise",
+        "panoId": "g8vFmHdBD88TeB0iHO9NFA",
+        "lat": 40.97014,
+        "lng": -5.66594,
+        "country": "ES"
+    },
+    {
+        "id": "1307137855453270046",
+        "spot_type": "Gen4",
+        "links": [
+            "https://www.instagram.com/aparthosteriaplaza/p/DCIIDXDJRFt/",
+            "https://maps.app.goo.gl/2dgjNexcEJSeWVn66"
+        ],
+        "report_time": 1731716350,
+        "author": "chise",
+        "panoId": "3xEirp51R4jKKrmKNiT_6g",
+        "lat": -30.98031,
+        "lng": -64.48821,
+        "country": "AR"
     }
 ]
