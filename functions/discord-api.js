@@ -26,7 +26,7 @@ exports.handler = async function(event, context) {
       body: JSON.stringify({ error: 'Missing channel_id or message_id' })
     };
   }
-  else if (!["774703077172838430", "1148013283006218352"].includes(channel_id)){
+  else if (!["774703077172838430", "1148013283006218352", "1215020009307373649"].includes(channel_id)){
     return {
       statusCode: 400,
       body: JSON.stringify({ error: 'Wrong channel_id' })
