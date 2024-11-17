@@ -121419,5 +121419,19 @@
         "date": "Nov 2024",
         "country": "US",
         "altitude": 367.98
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731845010,
+        "author": "jpeters",
+        "id": "1307677494790586419",
+        "panoId": "VtujeVNAZC77hJljNK3qcQ",
+        "lat": 45.62214,
+        "lng": 7.698,
+        "date": "Nov 2024",
+        "country": "IT",
+        "altitude": 1482.42
     }
 ]
