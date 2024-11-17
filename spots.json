@@ -20509,5 +20509,19 @@
         "lat": 69.09331,
         "lng": 18.59278,
         "country": "NO"
+    },
+    {
+        "id": "1220396599746756688",
+        "spot_type": "Gen4",
+        "links": [
+            "https://maps.app.goo.gl/HhHjqmiXJLcPfpPV6",
+            "https://maps.app.goo.gl/HhHjqmiXJLcPfpPV6"
+        ],
+        "report_time": 1711035623,
+        "author": "xdTAGCLAN",
+        "panoId": "puVO8BsBosGKlJEo8uVk_g",
+        "lat": 52.20333,
+        "lng": 5.38862,
+        "country": "NL"
     }
 ]
