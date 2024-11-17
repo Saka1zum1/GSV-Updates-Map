@@ -6103,6 +6103,9 @@ function drawMarkers(data) {
         else if (spot_type ==='Gen4/H1'){
           channel_id = '1215020009307373649'
         }
+        else if (spot_type ==='Gen1/2'){
+          channel_id = '1212017951406952498'
+        }
         else {
           channel_id = '1148013283006218352';
         }
