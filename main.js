@@ -6096,14 +6096,16 @@ function drawMarkers(data) {
           <strong>reporter:</strong> ${author}<br>
           <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       } else if (links) {
-
         let channel_id;
         if (spot_type === 'Gen4') {
           channel_id = '774703077172838430';
-        } else {
+        } 
+        else if (spot_type ==='Gen4/H1'){
+          channel_id = '1215020009307373649'
+        }
+        else {
           channel_id = '1148013283006218352';
         }
-
         img_url = await fetchCachedImage(channel_id, id);
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>
