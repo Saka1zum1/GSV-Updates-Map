@@ -121433,5 +121433,132 @@
         "date": "Nov 2024",
         "country": "IT",
         "altitude": 1482.42
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731852770,
+        "author": "Frost",
+        "id": "1307710045135441971",
+        "panoId": "1vWJ-_BAu0WZg3Yw4_Z89Q",
+        "lat": 49.90256,
+        "lng": -125.65408,
+        "date": "Oct 2024",
+        "country": "CA",
+        "altitude": 237.06
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1731851848,
+        "author": "DeSlagen",
+        "id": "1307706175923425370",
+        "panoId": "EegCzFJf91k2xO67k4Uebw",
+        "lat": 44.26333,
+        "lng": 10.04893,
+        "date": "Oct 2024",
+        "country": "IT",
+        "altitude": 466.88
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731851592,
+        "author": "DeSlagen",
+        "id": "1307705104467497022",
+        "panoId": "tp6k5vxtTe_2lzyn_QFqFQ",
+        "lat": 45.72987,
+        "lng": 7.63049,
+        "date": "Oct 2024",
+        "country": "IT",
+        "altitude": 994.91
+    },
+    {
+        "types": [
+            "newregion",
+            "gen2update"
+        ],
+        "report_time": 1731851268,
+        "author": "DeSlagen",
+        "id": "1307703742048501790",
+        "panoId": "aQNvdV3di-h0uSspgGpUHw",
+        "lat": 38.51404,
+        "lng": 22.73312,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 317.51
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731851078,
+        "author": "Tobetelogi",
+        "id": "1307702947295006871",
+        "panoId": "WMAtMnOq1T_hah_b2DtfTw",
+        "lat": 59.24138,
+        "lng": 10.40963,
+        "date": "Aug 2024",
+        "country": "NO",
+        "altitude": 27.74
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731849855,
+        "author": "Tobetelogi",
+        "id": "1307697818705854576",
+        "panoId": "prgTzsOKF48aVhEYtJdIgw",
+        "lat": 59.36602,
+        "lng": 9.95365,
+        "date": "Sep 2024",
+        "country": "NO",
+        "altitude": 107.11
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1731849523,
+        "author": "Tobetelogi",
+        "id": "1307696423034425355",
+        "panoId": "d8MbNGWwDjE5r6O7Dx7SBw",
+        "lat": 59.45839,
+        "lng": 10.34919,
+        "date": "Jun 2024",
+        "country": "NO",
+        "altitude": 43.97
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731853563,
+        "author": "Frost",
+        "id": "1307713369637130282",
+        "panoId": "j4kItN__iwaieUzYDo5zvw",
+        "lat": 45.65919,
+        "lng": -71.57934,
+        "date": "Sep 2024",
+        "country": "CA",
+        "altitude": 301.51
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1731851592,
+        "author": "DeSlagen",
+        "id": "1307705104467497022",
+        "panoId": "uQ8c6q-gL_UypMlx050nww",
+        "lat": 45.55488,
+        "lng": 7.78525,
+        "date": "Oct 2024",
+        "country": "IT",
+        "altitude": 1005.42
     }
 ]
