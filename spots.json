@@ -24647,11 +24647,25 @@
             "https://maps.app.goo.gl/zvb8xhUBw3sP4HgQA"
         ],
         "report_time": 1731678185,
-        "author": "豆豆冖",
+        "author": "\u8c46\u8c46\u5196",
         "spot_type": "Gen4",
         "panoId": "AF1QipMoiIa_4rkrvZcLDH_GmEZ4cVY2eBe8RNzXhMXC",
         "lat": 33.7241339,
         "lng": 135.9955158,
         "country": "JP"
+    },
+    {
+        "id": "1307697361493037187",
+        "links": [
+            "https://echodnia.eu/podkarpackie/do-rudnika-nad-sanem-zawital-samochod-google-maps/ar/8695463",
+            "https://maps.app.goo.gl/hN4UEmSWdLzd87p17"
+        ],
+        "report_time": 1731849746,
+        "author": "Jaki\u015b Bartu\u015b",
+        "spot_type": "Gen3",
+        "panoId": "peGMhFmrEg-7lKNezqlIPQ",
+        "lat": 50.43831,
+        "lng": 22.25542,
+        "country": "PL"
     }
 ]
