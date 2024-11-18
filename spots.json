@@ -24667,5 +24667,19 @@
         "lat": 50.43831,
         "lng": 22.25542,
         "country": "PL"
+    },
+    {
+        "id": "1308039915665100802",
+        "links": [
+            "https://www.facebook.com/photo?fbid=560793120031279&set=pcb.560793186697939",
+            "https://maps.app.goo.gl/GuTqP2CQqNaTWDhY9"
+        ],
+        "report_time": 1731931385,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "AF1QipMUzQaqb6BKfE9AJPeIAib4kDEdlHgIIC92T9S1",
+        "lat": 43.8200332,
+        "lng": 18.3366735,
+        "country": "BA"
     }
 ]
