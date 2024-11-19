@@ -24681,5 +24681,47 @@
         "lat": 43.8200332,
         "lng": 18.3366735,
         "country": "BA"
+    },
+    {
+        "id": "1308094770543071246",
+        "links": [
+            "https://am.dk/biler/brugte-biler/kia-e-niro-el-advance-204hk-5d-aut/AD4807663/",
+            "https://maps.app.goo.gl/gXdJxHoDSyddM4nG9"
+        ],
+        "report_time": 1731944496,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "2ATeIm3waxDwnKgL_dKcWQ",
+        "lat": 55.63816,
+        "lng": 12.28986,
+        "country": "DK"
+    },
+    {
+        "id": "1308083755554181142",
+        "links": [
+            "https://www.youtube.com/watch?v=WeZM7ktZFZ8",
+            "https://maps.app.goo.gl/wWRFFsK99UHJZ67P9"
+        ],
+        "report_time": 1731941870,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "vHXW8nZnPglBj8aDBZa4VA",
+        "lat": 39.67306,
+        "lng": -78.7165,
+        "country": "US"
+    },
+    {
+        "id": "1308176032691519588",
+        "links": [
+            "https://x.com/whoisgehh/status/1858506612182253619",
+            "https://maps.app.goo.gl/rPHzsJQJr4yvWNu97"
+        ],
+        "report_time": 1731963870,
+        "author": "sptzu",
+        "spot_type": "Gen4",
+        "panoId": "99R_2Ag64Q5Z3hknVeL7Bg",
+        "lat": -23.03766,
+        "lng": -45.57939,
+        "country": "BR"
     }
 ]
