@@ -24723,5 +24723,131 @@
         "lat": -23.03766,
         "lng": -45.57939,
         "country": "BR"
+    },
+    {
+        "id": "1307089867204853914",
+        "links": [
+            "https://x.com/josealbertoxruz/status/1857452152974967292/photo/1",
+            "https://maps.app.goo.gl/5g3aahynKebCUmym6"
+        ],
+        "report_time": 1731704908,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "hdV197LjRqNoHLLChTCiaw",
+        "lat": 36.4255,
+        "lng": -6.15301,
+        "country": "ES"
+    },
+    {
+        "id": "1307088310782660638",
+        "links": [
+            "https://www.facebook.com/doug.lackey1/videos/553280397515928",
+            "https://maps.app.goo.gl/sr3VCU5fbVQQi8HQ7"
+        ],
+        "report_time": 1731704537,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "gvXZ9M75RbOCbczyBofPGg",
+        "lat": 34.03028,
+        "lng": -94.72348,
+        "country": "US"
+    },
+    {
+        "id": "1307003596356718695",
+        "links": [
+            "https://www.facebook.com/photo?fbid=122109689510592245&set=a.122098964306592245",
+            "https://maps.app.goo.gl/j5s3Rpk1xiZxtkhR7"
+        ],
+        "report_time": 1731684340,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "dCylQx_JUrJeskNgSMykAg",
+        "lat": -38.62208,
+        "lng": 142.93274,
+        "country": "AU"
+    },
+    {
+        "id": "1306852147366989865",
+        "links": [
+            "https://www.instagram.com/reinan_couto_oficial/reel/DCUAzkBRx9m/",
+            "https://maps.app.goo.gl/vqXkMs1zK5geUPGf7"
+        ],
+        "report_time": 1731648232,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "qKYoZZhjtZwtKYzYuJQ7Cw",
+        "lat": -12.69339,
+        "lng": -39.69861,
+        "country": "BR"
+    },
+    {
+        "id": "1307003027869274233",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=4403578326633962&set=a.1774028292922325",
+            "https://maps.app.goo.gl/Vs9Xat6qDHZgcBDBA"
+        ],
+        "report_time": 1731684204,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": null,
+        "lat": 40.013687,
+        "lng": 0.032079,
+        "country": "ES"
+    },
+    {
+        "id": "1306664727837147166",
+        "links": [
+            "https://www.facebook.com/isladriverrobby/posts/pfbid0VE5mswpnaGj2qM7DBDGUN74AZULiSHdKr3MGqTgwYkRfyKnz5LYhyDATYLhzmSQ3l",
+            "https://maps.app.goo.gl/U54kDadJ38QDmtAEA"
+        ],
+        "report_time": 1731603547,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "dD1CSoskVLA9FswMervFvw",
+        "lat": 21.2247,
+        "lng": -86.7261,
+        "country": "MX"
+    },
+    {
+        "id": "1306318994827116645",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1060490102493213&set=pcb.1060490265826530",
+            "https://maps.app.goo.gl/qoUcTch8ParPGDUP6"
+        ],
+        "report_time": 1731521118,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "P-6Cz72gTsp3D6oUWDeR9Q",
+        "lat": 37.08461,
+        "lng": -94.52143,
+        "country": "US"
+    },
+    {
+        "id": "1308396325129158718",
+        "links": [
+            "https://www.instagram.com/p/DChffWAPzma/?igsh=NTc4MTIwNjQ2YQ==",
+            "https://maps.app.goo.gl/jWDNAVHUuhp8QNta7"
+        ],
+        "report_time": 1732016392,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "Go9qKT8sSDWyC6z8RWyAuA",
+        "lat": 39.02892,
+        "lng": -94.27271,
+        "country": "US"
+    },
+    {
+        "id": "1308390984949825566",
+        "links": [
+            "https://x.com/mkydf975/status/1858684229904986559?t=K-NFR5TNgbhYzDE5isXFRA&s=19",
+            "https://maps.app.goo.gl/CJsrmZoTJ2AAdaSW7"
+        ],
+        "report_time": 1732015119,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "lEdUDIA0OADr4jHC29D8Rw",
+        "lat": 33.577,
+        "lng": 130.3759,
+        "country": "JP"
     }
 ]
