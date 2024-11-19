@@ -122608,5 +122608,47 @@
         "date": "Nov 2024",
         "country": "IT",
         "altitude": 1032.73
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1732023866,
+        "author": "vegetal",
+        "id": "1308427673844060262",
+        "panoId": "eddBkIxR-2MPnj_ULPS5Fg",
+        "lat": 48.88937,
+        "lng": -104.7785,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 718.11
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732023647,
+        "author": "vegetal",
+        "id": "1308426755274707017",
+        "panoId": "lgcmGqGnHobWhLng-YTI5g",
+        "lat": 38.10631,
+        "lng": -76.93785,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 43.61
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732020899,
+        "author": "DerZiggi",
+        "id": "1308415226479251506",
+        "panoId": "onVQ7vgzwtQllYvIURcttQ",
+        "lat": 46.97326,
+        "lng": -123.81082,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 17.06
     }
 ]
