@@ -122889,5 +122889,236 @@
         "date": "Sep 2024",
         "country": "NZ",
         "altitude": 358.48
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1732094694,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308724748305305610",
+        "panoId": "c0IbFqpEZNWp5T3rUN0Qaw",
+        "lat": 39.12639,
+        "lng": 23.72526,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 77.55
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1732096723,
+        "author": "Aedan",
+        "id": "1308733255520096336",
+        "panoId": "MuWX0Qdf4diTfo-6e5T1NA",
+        "lat": 48.85841,
+        "lng": -104.14209,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 680.56
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732096412,
+        "author": "DerZiggi",
+        "id": "1308731952714612789",
+        "panoId": "xbYtWXCJydd5xzJWhPesyg",
+        "lat": 31.74927,
+        "lng": -110.3496,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 1341.27
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732096096,
+        "author": "Aedan",
+        "id": "1308730626949644320",
+        "panoId": "X3xCKZW3N6xhcaXe25wDGw",
+        "lat": 48.46187,
+        "lng": -105.25675,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 676.68
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732096096,
+        "author": "Aedan",
+        "id": "1308730626949644320",
+        "panoId": "dFDdXEuryMQRuyaIvY9rpA",
+        "lat": 48.8543,
+        "lng": -104.77679,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 687.18
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1732095811,
+        "author": "WaveBoy",
+        "id": "1308729430289551382",
+        "panoId": "-bgBWPBgCzvegtkjyOVX4Q",
+        "lat": 48.79148,
+        "lng": -104.62241,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 621.39
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1732095252,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308727088378806282",
+        "panoId": "45o6FSEO0ksb2plrqDXmYA",
+        "lat": 36.76349,
+        "lng": 24.52601,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 0.92
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1732095252,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308727088378806282",
+        "panoId": "oEneznKUAZZIKMHUuI8YTw",
+        "lat": 36.70782,
+        "lng": 24.46966,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 5.99
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1732095252,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308727088378806282",
+        "panoId": "JyXChT7aNygHn2Pkh8OL-A",
+        "lat": 36.74918,
+        "lng": 24.49667,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 10.28
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732040537,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1308497594426851422",
+        "panoId": "D0HCMccrJYW6RWm-9pB9xQ",
+        "lat": 36.6317,
+        "lng": 36.24461,
+        "date": "Oct 2024",
+        "country": "TR",
+        "altitude": 363.28
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1732105153,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308768614467375155",
+        "panoId": "U_Spd6-H0kPOvAoEm0gdOA",
+        "lat": 39.08278,
+        "lng": 23.7106,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 6.27
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1732105153,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308768614467375155",
+        "panoId": "7b3KuG8SYxigfYlmBgSHiQ",
+        "lat": 39.0882,
+        "lng": 23.74438,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 69.56
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732105153,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308768614467375155",
+        "panoId": "pD7hKOG-o5xo5lbbbDrQaw",
+        "lat": 39.16447,
+        "lng": 23.90113,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 54.94
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732105153,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308768614467375155",
+        "panoId": "L5ZESx1MvW9fJjDEQr557Q",
+        "lat": 36.69782,
+        "lng": 24.46928,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 4.83
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1732105153,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1308768614467375155",
+        "panoId": "oaIdUmd5ENxHKNxIXFmo-Q",
+        "lat": 36.74099,
+        "lng": 24.48332,
+        "date": "Oct 2024",
+        "country": "GR",
+        "altitude": 45.36
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732109551,
+        "author": "kallashi!",
+        "id": "1308787061435928686",
+        "panoId": "ncmGKNWRVNivTnZgRIwk6A",
+        "lat": 42.78416,
+        "lng": -70.85835,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 8.05
     }
 ]
