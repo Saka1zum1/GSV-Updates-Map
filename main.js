@@ -6009,7 +6009,7 @@ const heatmap_on = './assets/heatmap.png'
 const heatmap_off = './assets/heatmap_off.png'
 const cluster_on = './assets/markers.svg'
 const cluster_off = './assets/marker.svg'
-const clustermarkers = L.markerClusterGroup()
+const clustermarkers = new L.MarkerClusterGroup()
 const specialDates = {
   '2024-10-28T22:38:00Z': 'om',
   '2024-10-14T20:00:00Z': 'fo',
