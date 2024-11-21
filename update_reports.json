@@ -123120,5 +123120,48 @@
         "date": "Nov 2024",
         "country": "US",
         "altitude": 8.05
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732126754,
+        "author": "Tobetelogi",
+        "id": "1308859216634576968",
+        "panoId": "G3iDjG05PozVbu-9lAigtg",
+        "lat": -6.90769,
+        "lng": -36.86567,
+        "date": "Oct 2024",
+        "country": "BR",
+        "altitude": 341.13
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732125892,
+        "author": "Update Tracker Bot",
+        "id": "1308855599605223434",
+        "panoId": "43hYwFJMG_BbEc1qOTWxig",
+        "lat": -28.93317,
+        "lng": -49.51624,
+        "date": "Oct 2024",
+        "country": "BR",
+        "altitude": 6.1
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1732126754,
+        "author": "Tobetelogi",
+        "id": "1308859216634576968",
+        "panoId": "1vofC0r71er4h89rVvPN1A",
+        "lat": -9.92697,
+        "lng": -37.35322,
+        "date": "Oct 2024",
+        "country": "BR",
+        "altitude": 202.78
     }
 ]
