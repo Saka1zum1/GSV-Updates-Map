@@ -124737,5 +124737,331 @@
         "date": "Nov 2024",
         "country": "ES",
         "altitude": 548.23
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732287618,
+        "author": "Tobetelogi",
+        "id": "1309533930264989859",
+        "panoId": "7Kev78RQ0jmkFAL9mUljMQ",
+        "lat": 59.4134,
+        "lng": 9.06644,
+        "date": "Oct 2024",
+        "country": "NO",
+        "altitude": 68.33
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1732292180,
+        "author": "Tobetelogi",
+        "id": "1309553063085871206",
+        "panoId": "94CvGjL9OtvfrEG-nYSvDQ",
+        "lat": 60.184,
+        "lng": 8.57776,
+        "date": "Oct 2024",
+        "country": "NO",
+        "altitude": 1153.39
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732291140,
+        "author": "Update Tracker Bot",
+        "id": "1309548700762243194",
+        "panoId": "8iUu6rgr6n0ZAMUU3Wka_Q",
+        "lat": 40.82767,
+        "lng": -96.11018,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 367.04
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732296703,
+        "author": "Update Tracker Bot",
+        "id": "1309572032291147927",
+        "panoId": "dltsQm20KoLxDibKUWK3UQ",
+        "lat": 40.69662,
+        "lng": -94.22385,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 375.71
+    },
+    {
+        "types": [
+            "newstreet",
+            "newroad"
+        ],
+        "report_time": 1732295398,
+        "author": "LATV1JA",
+        "id": "1309566558695194775",
+        "panoId": "FnE9q4EWjPoGjEsVO3Ltdw",
+        "lat": 56.48135,
+        "lng": 23.06805,
+        "date": "Jul 2024",
+        "country": "LV",
+        "altitude": 79.48
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732302325,
+        "author": "Update Tracker Bot",
+        "id": "1309595615902044223",
+        "panoId": "wzY3o4PRwYdxgbnvlTWniQ",
+        "lat": 39.22637,
+        "lng": -94.67931,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 297.03
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732306247,
+        "author": "K\u00fcgul",
+        "id": "1309612062460088350",
+        "panoId": "heHl_7WD-mKtRRlULL2pig",
+        "lat": 36.14478,
+        "lng": -106.69497,
+        "date": "Oct 2024",
+        "country": "US",
+        "altitude": 2364.74
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732306247,
+        "author": "K\u00fcgul",
+        "id": "1309612062460088350",
+        "panoId": "ss9wNbxG1OWkE_1d9MkkyA",
+        "lat": 36.55543,
+        "lng": -106.33491,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 3051.82
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1732306077,
+        "author": "Update Tracker Bot",
+        "id": "1309611349923467355",
+        "panoId": "XW2OMiNOKlpAQ9CXYTs-wg",
+        "lat": 38.96588,
+        "lng": -85.5865,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 235.54
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732305683,
+        "author": "mpk",
+        "id": "1309609696860307478",
+        "panoId": "3xBuqqyADgdrxmCfrEeYVw",
+        "lat": 37.75504,
+        "lng": 140.45842,
+        "date": "Jun 2024",
+        "country": "JP",
+        "altitude": 74.25
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732305497,
+        "author": "Woly",
+        "id": "1309608918657531915",
+        "panoId": "PACJ8ODGRPUl07pmc-KRgA",
+        "lat": 35.00826,
+        "lng": 135.77474,
+        "date": "Sep 2023",
+        "country": "JP",
+        "altitude": 42.48
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732305371,
+        "author": "Woly",
+        "id": "1309608390065913907",
+        "panoId": "LS1bT8z3TWwUTsoMfjqVjA",
+        "lat": 35.70136,
+        "lng": 139.74493,
+        "date": "Jun 2024",
+        "country": "JP",
+        "altitude": 9.48
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732305310,
+        "author": "Woly",
+        "id": "1309608132816932915",
+        "panoId": "xCgP6RVoNweAyxJuzzcrPA",
+        "lat": 36.55817,
+        "lng": 139.8923,
+        "date": "Jun 2024",
+        "country": "JP",
+        "altitude": 107.85
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732305192,
+        "author": "Woly",
+        "id": "1309607640577343608",
+        "panoId": "y1iB92bszLay5ZDiYtnAsg",
+        "lat": 38.26167,
+        "lng": 140.88179,
+        "date": "May 2024",
+        "country": "JP",
+        "altitude": 37.76
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732305139,
+        "author": "Woly",
+        "id": "1309607417767530497",
+        "panoId": "LWnHeoxWk_jlUXuAUzvDZg",
+        "lat": 31.57011,
+        "lng": 130.55049,
+        "date": "Sep 2024",
+        "country": "JP",
+        "altitude": 7.15
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732305099,
+        "author": "Woly",
+        "id": "1309607247592296563",
+        "panoId": "YopaDqYoeb7A0S2G57TERA",
+        "lat": 35.01817,
+        "lng": 135.74214,
+        "date": "Aug 2023",
+        "country": "JP",
+        "altitude": 45.87
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732310905,
+        "author": "Ethan",
+        "id": "1309631601679929374",
+        "panoId": "157M7b_Y5Bghfh7PVmL-DQ",
+        "lat": 41.99661,
+        "lng": -77.10816,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 365.47
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732314714,
+        "author": "Woly",
+        "id": "1309647576055677009",
+        "panoId": "L_pPGc_L6mWS5xawo1PigA",
+        "lat": 34.5998,
+        "lng": 133.77029,
+        "date": "Oct 2024",
+        "country": "JP",
+        "altitude": 4.34
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732313358,
+        "author": "Woly",
+        "id": "1309641888311021639",
+        "panoId": "ZNBABEN_7m1ZHozaWoCrsg",
+        "lat": 35.62053,
+        "lng": 139.74467,
+        "date": "May 2023",
+        "country": "JP",
+        "altitude": 3.1
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732313114,
+        "author": "Woly",
+        "id": "1309640866536624168",
+        "panoId": "FwE2Lvyi5wG3_nCVfO6voQ",
+        "lat": 35.66276,
+        "lng": 139.75838,
+        "date": "Mar 2023",
+        "country": "JP",
+        "altitude": 4.76
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732312561,
+        "author": "Woly",
+        "id": "1309638545496866897",
+        "panoId": "h86Gpem5WlcRG6FDDXYISg",
+        "lat": 35.66159,
+        "lng": 139.75937,
+        "date": "Aug 2024",
+        "country": "JP",
+        "altitude": 1.04
+    },
+    {
+        "types": [
+            "newcountry",
+            "newyear"
+        ],
+        "report_time": 1732312078,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1309636522592571432",
+        "panoId": "B6Dgr9Eka2jU-VcYzafmNg",
+        "lat": 43.73752,
+        "lng": 7.42718,
+        "date": "Oct 2024",
+        "country": "MC",
+        "altitude": 12.33
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732315670,
+        "author": "Woly",
+        "id": "1309651585194000415",
+        "panoId": "drBR3BVgkaIVZhT_MzRjiQ",
+        "lat": 33.58505,
+        "lng": 130.49156,
+        "date": "Jun 2024",
+        "country": "JP",
+        "altitude": 30.22
     }
 ]

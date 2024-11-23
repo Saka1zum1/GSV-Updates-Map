@@ -25003,5 +25003,19 @@
         "lat": -23.52382,
         "lng": -46.67116,
         "country": "BR"
+    },
+    {
+        "id": "1309488316906733671",
+        "links": [
+            "https://www.instagram.com/reel/DCpcOn5yD1g/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/k1SW1pe1FXV1mDE89"
+        ],
+        "report_time": 1732276743,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "SRlDmmojb0NAe-RBGakmng",
+        "lat": -34.07198,
+        "lng": -60.09467,
+        "country": "AR"
     }
 ]
