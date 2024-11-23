@@ -125189,5 +125189,404 @@
         "date": "Sep 2024",
         "country": "JP",
         "altitude": 14.64
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732338523,
+        "author": "Update Tracker Bot",
+        "id": "1309747437841158156",
+        "panoId": "JTY0FmEuYJSSs6lPrwYytw",
+        "lat": -34.0247,
+        "lng": 18.56714,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "altitude": 31.34
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1732338286,
+        "author": "Update Tracker Bot",
+        "id": "1309746444726571021",
+        "panoId": "tIVi4T1WZNr68NFFvf-vFg",
+        "lat": -31.33073,
+        "lng": 19.10812,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "altitude": 693.54
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732349542,
+        "author": "Update Tracker Bot",
+        "id": "1309793655850008617",
+        "panoId": "qq25JSb7oUxOFuwJbmdcnw",
+        "lat": -29.60197,
+        "lng": 30.29466,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "altitude": 1057.02
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732347864,
+        "author": "HoustonMediaHD",
+        "id": "1309786620534194227",
+        "panoId": "Kj4-xg--d3qUKb5Bw_l8UQ",
+        "lat": 29.80556,
+        "lng": -95.79734,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 44.64
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732355403,
+        "author": "tariksissemongko",
+        "id": "1309818237445341244",
+        "panoId": "L9wfi4wsWjJuRS3CTzOZpA",
+        "lat": -6.33609,
+        "lng": 107.03704,
+        "date": "Oct 2024",
+        "country": "ID",
+        "altitude": 39.78
+    },
+    {
+        "types": [
+            "newregion",
+            "gen2update"
+        ],
+        "report_time": 1732359923,
+        "author": "Unhook",
+        "id": "1309837197528006746",
+        "panoId": "dw4wTQn7S5H5x-7kUSL3SA",
+        "lat": -25.49028,
+        "lng": 28.67803,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "altitude": 1289.68
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732359923,
+        "author": "Unhook",
+        "id": "1309837197528006746",
+        "panoId": "ASWlO1-KrkSwzpKJ27lpAA",
+        "lat": -26.56914,
+        "lng": 27.72943,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "altitude": 1477.84
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "uRDfIKVvqojEWuz_wyGbyA",
+        "lat": 51.48039,
+        "lng": -3.17929,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 12.46
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "jZgWkM8FedNiPDfx8Whv1Q",
+        "lat": 51.58616,
+        "lng": -2.99316,
+        "date": "Jul 2024",
+        "country": "GB",
+        "altitude": 14.3
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "lxlncRMZPyWcfwPH2zZ-XQ",
+        "lat": 51.45778,
+        "lng": -2.5894,
+        "date": "Jun 2024",
+        "country": "GB",
+        "altitude": 10.2
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "KJDX7Q4CpQZtNJh8iRUEWg",
+        "lat": 51.38131,
+        "lng": -2.36,
+        "date": "Jun 2024",
+        "country": "GB",
+        "altitude": 26.2
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "Nu0_f3ju2FluhcTkcIN_8A",
+        "lat": 50.72391,
+        "lng": -3.53095,
+        "date": "Sep 2024",
+        "country": "GB",
+        "altitude": 44.06
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "gBfn03wngsXjGtySpCwvoA",
+        "lat": 53.74447,
+        "lng": -0.34011,
+        "date": "Sep 2024",
+        "country": "GB",
+        "altitude": 5.09
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "H4HShzhtgCSYoEmKdy_y8w",
+        "lat": 50.72053,
+        "lng": -1.87831,
+        "date": "Jul 2024",
+        "country": "GB",
+        "altitude": 14.07
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "WHOueejVo-38IRUK-_v7gQ",
+        "lat": 51.86459,
+        "lng": -2.24475,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 19.47
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "SJ0fH-_5JKyfiC3WlU-myQ",
+        "lat": 51.7526,
+        "lng": -1.25809,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 66.41
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "-3-w_gh7dAyWzWNllvAGbw",
+        "lat": 52.23765,
+        "lng": -0.89558,
+        "date": "Jul 2024",
+        "country": "GB",
+        "altitude": 77.38
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "-3-w_gh7dAyWzWNllvAGbw",
+        "lat": 52.23765,
+        "lng": -0.89558,
+        "date": "Jul 2024",
+        "country": "GB",
+        "altitude": 77.38
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "Ws4ubm-K-GCSc4-_4shEyg",
+        "lat": 52.20523,
+        "lng": 0.12069,
+        "date": "Jul 2024",
+        "country": "GB",
+        "altitude": 9.05
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "GbGHZj-VSkgGHXNi6xobhg",
+        "lat": 51.38275,
+        "lng": 0.52508,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 5.9
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "Fxp48mQbR4oGU2-c0-dQlQ",
+        "lat": 52.62896,
+        "lng": 1.29468,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 15.66
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "PsVtNM_BwKSK7JQmRQxC_Q",
+        "lat": 53.48152,
+        "lng": -2.24564,
+        "date": "Jul 2024",
+        "country": "GB",
+        "altitude": 37.82
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "8Ua8Fi3EAYVrrLVq-G0i7g",
+        "lat": 53.37992,
+        "lng": -1.46966,
+        "date": "Jun 2024",
+        "country": "GB",
+        "altitude": 81.42
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "kjPaNBDzcqQSmgA5qaARtA",
+        "lat": 53.9601,
+        "lng": -1.08197,
+        "date": "Jul 2024",
+        "country": "GB",
+        "altitude": 17.23
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "fLKpwcbLlZ61c1boWuOIEw",
+        "lat": 54.57539,
+        "lng": -1.23709,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 6.49
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "CBHGeKa1_d57r8wL2FeT1w",
+        "lat": 56.46061,
+        "lng": -2.96992,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 11.3
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1732359752,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1309836481069584437",
+        "panoId": "CBHGeKa1_d57r8wL2FeT1w",
+        "lat": 56.46061,
+        "lng": -2.96992,
+        "date": "Aug 2024",
+        "country": "GB",
+        "altitude": 11.3
     }
 ]
