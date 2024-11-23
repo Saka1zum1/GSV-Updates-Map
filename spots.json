@@ -25017,5 +25017,117 @@
         "lat": -34.07198,
         "lng": -60.09467,
         "country": "AR"
+    },
+    {
+        "id": "1306796325370724432",
+        "links": [
+            "https://www.tiktok.com/@mtl_stories/video/7425760799009819909",
+            "https://maps.app.goo.gl/U9EAtBu2dRidzq7w9"
+        ],
+        "report_time": 1731634923,
+        "author": "Woly",
+        "spot_type": "Gen4",
+        "panoId": "AF1QipP1V8whaKfLbXsOzYeKQFDosUpUFXSyiHRaTis6",
+        "lat": 45.47831,
+        "lng": -73.57401,
+        "country": "CA"
+    },
+    {
+        "id": "1300899168973226035",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1096022019196614&set=a.449263297205826",
+            "https://maps.app.goo.gl/BBSFD4P2zmGNdJRy8"
+        ],
+        "report_time": 1730228931,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "b1sKB6sMkV7_Lv0oKHotkQ",
+        "lat": 40.59488,
+        "lng": 17.11294,
+        "country": "IT"
+    },
+    {
+        "id": "1309224037964316672",
+        "links": [
+            "https://tiempodeloeste.com/nota.php?id_noticia=8926",
+            "https://maps.app.goo.gl/3gMJff94oRofKhaXA"
+        ],
+        "report_time": 1732213734,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "qgVwv0aUHTx6Ueh37npmVw",
+        "lat": -35.49456,
+        "lng": -62.97347,
+        "country": "AR"
+    },
+    {
+        "id": "1309529450047602719",
+        "links": [
+            "https://www.tiktok.com/@charlypi/video/7438439627486154040",
+            "https://maps.app.goo.gl/GDj7e7C5UZYV28Bq8"
+        ],
+        "report_time": 1732286550,
+        "author": "Larissa Santos-de Oliveira",
+        "spot_type": "Gen4",
+        "panoId": null,
+        "lat": 19.3841426,
+        "lng": -99.2320228,
+        "country": "MX"
+    },
+    {
+        "id": "1309547236522459137",
+        "links": [
+            "https://www.youtube.com/watch?v=eQNj3URtVAQ&ab_channel=Haakonsen",
+            "https://maps.app.goo.gl/aKHaojJPC7GxP3L76"
+        ],
+        "report_time": 1732290791,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4/H1",
+        "panoId": "GjhtIuIx2ZFaDaeI_oDmZw",
+        "lat": 63.1165243,
+        "lng": 7.7691871,
+        "country": "NO"
+    },
+    {
+        "id": "1309369999714156665",
+        "links": [
+            "https://www.tiktok.com/@googlemapsfun/video/7274282425738366240",
+            "https://maps.app.goo.gl/onZARCHRbvv1FXh29"
+        ],
+        "report_time": 1732248534,
+        "author": "hellhound#1981",
+        "spot_type": "Gen4/H1",
+        "panoId": "dFDR9cWVZOIM8Y9JB98Vow",
+        "lat": 40.4011478,
+        "lng": -74.763602,
+        "country": "US"
+    },
+    {
+        "id": "1309133316821356614",
+        "links": [
+            "https://x.com/Garlemald/status/908650410298056704?t=bh822kPjLp-754E7cRSfWA&s=19",
+            "https://maps.app.goo.gl/KV6QEhCKnKdjRGvs9"
+        ],
+        "report_time": 1732192105,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4/H1",
+        "panoId": "QEEcPNd7v2ClpnSDASrh8g",
+        "lat": 35.655571,
+        "lng": 139.7062836,
+        "country": "JP"
+    },
+    {
+        "id": "1309529450047602719",
+        "links": [
+            "https://www.tiktok.com/@charlypi/video/7438439627486154040",
+            "https://maps.app.goo.gl/GDj7e7C5UZYV28Bq8"
+        ],
+        "report_time": 1732286550,
+        "author": "Larissa Santos-de Oliveira",
+        "spot_type": "Gen4",
+        "panoId": null,
+        "lat": 19.3841426,
+        "lng": -99.2320228,
+        "country": "MX"
     }
 ]

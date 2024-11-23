@@ -125063,5 +125063,131 @@
         "date": "Jun 2024",
         "country": "JP",
         "altitude": 30.22
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732331773,
+        "author": "Woly",
+        "id": "1309719127274815589",
+        "panoId": "uULC0dWBKeBesuqJS1Sgeg",
+        "lat": 36.65404,
+        "lng": 138.1869,
+        "date": "Jun 2024",
+        "country": "JP",
+        "altitude": 372.35
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732331531,
+        "author": "Woly",
+        "id": "1309718112299520031",
+        "panoId": "oGC1ml2hTh0OiZEXcJTQ7g",
+        "lat": 36.56213,
+        "lng": 136.65382,
+        "date": "May 2024",
+        "country": "JP",
+        "altitude": 18.63
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732331276,
+        "author": "Woly",
+        "id": "1309717041397370930",
+        "panoId": "WG-JmiaqhH2mMH9ZI0-LQg",
+        "lat": 35.49959,
+        "lng": 134.22831,
+        "date": "Sep 2024",
+        "country": "JP",
+        "altitude": 9.28
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732330818,
+        "author": "Woly",
+        "id": "1309715122285051974",
+        "panoId": "PiAJd1VkQWSH_uBmJyPPgQ",
+        "lat": 34.34296,
+        "lng": 134.04901,
+        "date": "Jul 2024",
+        "country": "JP",
+        "altitude": 4.66
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732330764,
+        "author": "astro_furball",
+        "id": "1309714896073654322",
+        "panoId": "3HmM0P4eJqZKKaGcMp9WsA",
+        "lat": 33.8811,
+        "lng": 130.87681,
+        "date": "Jun 2024",
+        "country": "JP",
+        "altitude": 5.49
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732330498,
+        "author": "Woly",
+        "id": "1309713780212760576",
+        "panoId": "AQaRj9MgcUqPO5D6hsEQjg",
+        "lat": 34.82933,
+        "lng": 134.68944,
+        "date": "Sep 2024",
+        "country": "JP",
+        "altitude": 13.79
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732330287,
+        "author": "Woly",
+        "id": "1309712893868249098",
+        "panoId": "PAULHP_f2yCJhtPcLtlw8w",
+        "lat": 34.6669,
+        "lng": 133.91494,
+        "date": "Sep 2024",
+        "country": "JP",
+        "altitude": 4.27
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732333332,
+        "author": "Woly",
+        "id": "1309725664978534421",
+        "panoId": "noUJVzX0G3v7JBqvbOpalA",
+        "lat": 33.95621,
+        "lng": 130.94486,
+        "date": "Jul 2024",
+        "country": "JP",
+        "altitude": 4.38
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732332377,
+        "author": "Woly",
+        "id": "1309721660257075300",
+        "panoId": "Uic8kAUJVi0P88mFv06CFA",
+        "lat": 32.79869,
+        "lng": 130.71136,
+        "date": "Sep 2024",
+        "country": "JP",
+        "altitude": 14.64
     }
 ]
