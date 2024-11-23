@@ -25129,5 +25129,33 @@
         "lat": 19.3841426,
         "lng": -99.2320228,
         "country": "MX"
+    },
+    {
+        "id": "1309767713085853777",
+        "links": [
+            "https://bsky.app/profile/lastgenerationx.bsky.social/post/3lbd6yqrpgc2d",
+            "https://maps.app.goo.gl/R9KVE4ZVzL15Ao449"
+        ],
+        "report_time": 1732343357,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "SjLz5kalzofjGz_pXj2cjg",
+        "lat": 35.9991945,
+        "lng": -115.1037751,
+        "country": "US"
+    },
+    {
+        "id": "1309864973828096092",
+        "links": [
+            "https://x.com/dreamcast0/status/1860059566517682199/photo/1",
+            "https://maps.app.goo.gl/g3nB31mZFcq8iexX7"
+        ],
+        "report_time": 1732366545,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "bA3LOoQwpuo3GWmlOf9aRQ",
+        "lat": 38.8902631,
+        "lng": -104.7568765,
+        "country": "US"
     }
 ]
