@@ -25157,5 +25157,19 @@
         "lat": 38.8902631,
         "lng": -104.7568765,
         "country": "US"
+    },
+    {
+        "id": "1310057575059820634",
+        "links": [
+            "https://www.tiktok.com/@angelesmoreira_/video/7435443575531392312",
+            "https://maps.app.goo.gl/r657EMckLkCCY37S8"
+        ],
+        "report_time": 1732412465,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "q-Pj9B6BB1ISHn9WQlFqhA",
+        "lat": 40.7080623,
+        "lng": -74.015622,
+        "country": "US"
     }
 ]
