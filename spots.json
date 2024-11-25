@@ -25199,5 +25199,19 @@
         "lat": 35.4949646,
         "lng": 139.6021118,
         "country": "JP"
+    },
+    {
+        "id": "1310448129203638312",
+        "links": [
+            "https://www.tiktok.com/@cesaracevedo51/video/7439865566258531639",
+            "https://maps.app.goo.gl/yWgNgqwBL1HLd8ZWA"
+        ],
+        "report_time": 1732505580,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "9Qf9YCRCirhlzvcvPpKZYA",
+        "lat": 18.9227756,
+        "lng": -103.8821249,
+        "country": "MX"
     }
 ]

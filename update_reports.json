@@ -127166,5 +127166,120 @@
         "date": "Oct 2024",
         "country": "ES",
         "altitude": 68.31
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1732530358,
+        "author": "Steve",
+        "id": "1310552053164015716",
+        "panoId": "qX-e62XxH1GU0FTaoyx5Qw",
+        "lat": -22.87203,
+        "lng": 144.341,
+        "date": "Aug 2024",
+        "country": "AU",
+        "altitude": 231.47
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1732530358,
+        "author": "Steve",
+        "id": "1310552053164015716",
+        "panoId": "IZWdlXuaZBTrb61HmM-sjg",
+        "lat": -22.59779,
+        "lng": 144.5386,
+        "date": "Aug 2024",
+        "country": "AU",
+        "altitude": 222.44
+    },
+    {
+        "types": [
+            "newregion",
+            "gen1update"
+        ],
+        "report_time": 1732527244,
+        "author": "macca",
+        "id": "1310538994596974593",
+        "panoId": "FBOy0v6wu2m26CGrmMOMww",
+        "lat": -35.76062,
+        "lng": 136.88802,
+        "date": "Oct 2024",
+        "country": "AU",
+        "altitude": 299.69
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732523411,
+        "author": "Rob",
+        "id": "1310522913971114004",
+        "panoId": "MjgcuUygm4l8zBRQbV8vgA",
+        "lat": 46.18123,
+        "lng": 23.67516,
+        "date": "Sep 2024",
+        "country": "RO",
+        "altitude": 229.98
+    },
+    {
+        "types": [
+            "newregion",
+            "gen1update"
+        ],
+        "report_time": 1732517225,
+        "author": "HoustonMediaHD",
+        "id": "1310496969055277116",
+        "panoId": "5WmBxeCnK4tHcEDoHjByDw",
+        "lat": 42.00088,
+        "lng": -77.12721,
+        "date": "Nov 2024",
+        "country": "US",
+        "altitude": 305.18
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732513664,
+        "author": "DerZiggi",
+        "id": "1310482032408662046",
+        "panoId": "0yv_enm5DAK2ycwxiJAnsg",
+        "lat": 22.69031,
+        "lng": -98.88585,
+        "date": "Sep 2024",
+        "country": "MX",
+        "altitude": 67.49
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732513247,
+        "author": "DerZiggi",
+        "id": "1310480283958640690",
+        "panoId": "gKXPhOPnl6YkV7LBBwGFrg",
+        "lat": 19.74211,
+        "lng": -102.05109,
+        "date": "Sep 2024",
+        "country": "MX",
+        "altitude": 2115.88
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1732513118,
+        "author": "DerZiggi",
+        "id": "1310479743610785862",
+        "panoId": "__fsh4CHruewXOy-PSX76Q",
+        "lat": 20.86346,
+        "lng": -87.71584,
+        "date": "Sep 2024",
+        "country": "MX",
+        "altitude": 28.68
     }
 ]
