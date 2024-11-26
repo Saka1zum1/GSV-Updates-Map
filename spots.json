@@ -25213,5 +25213,47 @@
         "lat": 18.9227756,
         "lng": -103.8821249,
         "country": "MX"
+    },
+    {
+        "id": "1310596742089277450",
+        "links": [
+            "https://youtu.be/zsSbghJfIeY?si=E5CPZYPsJhnnvmx5",
+            "https://maps.app.goo.gl/ywxL31trnsmuYd5r8"
+        ],
+        "report_time": 1732541013,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "0qFH7xt611_tJyNC-vkHtA",
+        "lat": 46.5094045,
+        "lng": -84.2979947,
+        "country": "CA"
+    },
+    {
+        "id": "1310847071837749349",
+        "links": [
+            "https://maps.app.goo.gl/ogmGvzkBkJumXkJs8",
+            "https://maps.app.goo.gl/ogmGvzkBkJumXkJs8"
+        ],
+        "report_time": 1732600696,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "ve-CX7tykizVFdpWLWQu5w",
+        "lat": -34.1912764,
+        "lng": -58.9446557,
+        "country": "AR"
+    },
+    {
+        "id": "1310937062354194468",
+        "links": [
+            "https://m39.hamazo.tv/a9947581.html",
+            "https://maps.app.goo.gl/KezsLvbUGX13RbFJA"
+        ],
+        "report_time": 1732622151,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "3m1EEmwl1BKf1JLtZwVQPw",
+        "lat": 34.7066154,
+        "lng": 137.7288666,
+        "country": "JP"
     }
 ]
