@@ -128306,5 +128306,19 @@
         "date": "Oct 2024",
         "country": "US",
         "altitude": 377.51
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732700452,
+        "author": "Frost",
+        "id": "1311265481679962122",
+        "panoId": "4-JFNrsWJkkIuZLA2caQew",
+        "lat": 47.40714,
+        "lng": -78.68278,
+        "date": "Oct 2024",
+        "country": "CA",
+        "altitude": 347.84
     }
 ]
