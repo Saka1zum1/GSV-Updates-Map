@@ -25255,5 +25255,47 @@
         "lat": 34.7066154,
         "lng": 137.7288666,
         "country": "JP"
+    },
+    {
+        "id": "1311044142478135377",
+        "links": [
+            "https://maps.app.goo.gl/xkEH45kD6TUHZuN77",
+            "https://maps.app.goo.gl/xkEH45kD6TUHZuN77"
+        ],
+        "report_time": 1732647681,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "WzH8ey6GeeVXgdO1nAZwPQ",
+        "lat": 52.1648415,
+        "lng": 5.3536799,
+        "country": "NL"
+    },
+    {
+        "id": "1311053963692478494",
+        "links": [
+            "https://x.com/m3frm9/status/1861474456046092734",
+            "https://maps.app.goo.gl/RiKsuT4JPjDQRMmj8"
+        ],
+        "report_time": 1732650023,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "-NZ9Lh6i70ClS5hW2lyaEw",
+        "lat": 40.691457,
+        "lng": -74.2892319,
+        "country": "US"
+    },
+    {
+        "id": "1311121524870352989",
+        "links": [
+            "https://www.facebook.com/photo?fbid=28136339175957238&set=pcb.28136340159290473",
+            "https://maps.app.goo.gl/M79MGtWznAWir2kR8"
+        ],
+        "report_time": 1732666130,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "0wTo0cvzXop8lAHxZqRQUg",
+        "lat": -38.8684631,
+        "lng": -62.0739105,
+        "country": "AR"
     }
 ]
