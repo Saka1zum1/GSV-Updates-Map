@@ -128630,5 +128630,145 @@
         "date": "Sep 2024",
         "country": "MX",
         "altitude": 2226.4
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732720074,
+        "author": "Alok",
+        "id": "1311347779553202186",
+        "panoId": "x_y8nMOVhdaCmacFBx1RLg",
+        "lat": -3.47004,
+        "lng": 114.9277,
+        "date": "Oct 2024",
+        "country": "ID",
+        "altitude": 52.35
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1732720074,
+        "author": "Alok",
+        "id": "1311347779553202186",
+        "panoId": "HxzOhCWx_Yg4tqNbEpIcwQ",
+        "lat": -2.27903,
+        "lng": 113.9936,
+        "date": "Oct 2024",
+        "country": "ID",
+        "altitude": 12.96
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732324677,
+        "author": "jpeters",
+        "id": "1309689366658154606",
+        "panoId": "C3ikZBqHLKQojX6eNGnGyA",
+        "lat": 36.76865,
+        "lng": 21.85081,
+        "date": "Nov 2024",
+        "country": "GR",
+        "altitude": 150.04
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732723111,
+        "author": "chise",
+        "id": "1311360518266818581",
+        "panoId": "zgYfy3hca6bMw0X6UmRNQA",
+        "lat": -8.0369,
+        "lng": -76.6356,
+        "date": "Apr 2024",
+        "country": "PE",
+        "altitude": 477.57
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1732722784,
+        "author": "astro_furball",
+        "id": "1311359145609396275",
+        "panoId": "voo_9r82s9EucKWcobG-yg",
+        "lat": 51.50615,
+        "lng": -0.01908,
+        "date": "Jan 2024",
+        "country": "GB",
+        "altitude": 6.99
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1732709868,
+        "author": "jpeters",
+        "id": "1311304972729843753",
+        "panoId": "M2MSgYnNjOWtviB2IvpBCA",
+        "lat": 45.39823,
+        "lng": 6.30879,
+        "date": "Oct 2024",
+        "country": "FR",
+        "altitude": 1533.35
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1732723045,
+        "author": "chise",
+        "id": "1311360242679812126",
+        "panoId": "NHamlkfXQk6_FvyL5uKePw",
+        "lat": -8.11989,
+        "lng": -76.57899,
+        "date": "Apr 2024",
+        "country": "PE",
+        "altitude": 488.19
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1732723423,
+        "author": "chise",
+        "id": "1311361826109521960",
+        "panoId": "ZI6FANkvWfsrefdELArPyA",
+        "lat": 19.57182,
+        "lng": -101.9049,
+        "date": "Sep 2024",
+        "country": "MX",
+        "altitude": 2614.54
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1732723423,
+        "author": "chise",
+        "id": "1311361826109521960",
+        "panoId": "QnjkV3Cq7FisW2brNhVhig",
+        "lat": 19.57039,
+        "lng": -101.93904,
+        "date": "Sep 2024",
+        "country": "MX",
+        "altitude": 2369.06
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1732723423,
+        "author": "chise",
+        "id": "1311361826109521960",
+        "panoId": "0UGLjnw1dzCNOIXyBsRA-w",
+        "lat": 19.37954,
+        "lng": -101.66544,
+        "date": "Sep 2024",
+        "country": "MX",
+        "altitude": 2311.96
     }
 ]
