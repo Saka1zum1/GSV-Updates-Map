@@ -25311,5 +25311,33 @@
         "lat": -21.7614448,
         "lng": -43.3449132,
         "country": "BR"
+    },
+    {
+        "id": "1311514040249618487",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10227483944748307&set=a.1143465750867",
+            "https://maps.app.goo.gl/SzW39g34VLHEX4RL9"
+        ],
+        "report_time": 1732759713,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "bioM-ei7tWoGTCUqf6hvlw",
+        "lat": 20.026637,
+        "lng": -155.6720111,
+        "country": "US"
+    },
+    {
+        "id": "1311492714759454785",
+        "links": [
+            "https://www.tiktok.com/@fridaythe13th77/video/7442023971970665771",
+            "https://maps.app.goo.gl/AJ5Pk2NRjNTwbBHi7"
+        ],
+        "report_time": 1732754629,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "Hme5RfoMycvEkZacnL-uLg",
+        "lat": 38.4570082,
+        "lng": -81.4991489,
+        "country": "US"
     }
 ]
