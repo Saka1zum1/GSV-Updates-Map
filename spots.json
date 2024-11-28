@@ -25297,5 +25297,19 @@
         "lat": -38.8684631,
         "lng": -62.0739105,
         "country": "AR"
+    },
+    {
+        "id": "1311369618534695053",
+        "links": [
+            "https://x.com/plantaojf/status/1861752450048270586",
+            "https://maps.app.goo.gl/1cWBRfB4zpgxY19i8"
+        ],
+        "report_time": 1732725281,
+        "author": "sptzu",
+        "spot_type": "Gen4",
+        "panoId": "LWjt8FOW7CpZrpS_pjpTpw",
+        "lat": -21.7614448,
+        "lng": -43.3449132,
+        "country": "BR"
     }
 ]
