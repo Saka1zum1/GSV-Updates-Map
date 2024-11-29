@@ -25339,5 +25339,61 @@
         "lat": 38.4570082,
         "lng": -81.4991489,
         "country": "US"
+    },
+    {
+        "id": "1311491921444606004",
+        "links": [
+            "https://www.tiktok.com/@atosfloriano/video/7441605509347691832",
+            "https://maps.app.goo.gl/kbMpRj8X7JoMLjYg9"
+        ],
+        "report_time": 1732754440,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "_jbdScl411AQg0dBSXiVMQ",
+        "lat": -22.9577156,
+        "lng": -49.8517107,
+        "country": "BR"
+    },
+    {
+        "id": "1311489297735614555",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1128099898883012&set=pcb.1128099922216343",
+            "https://maps.app.goo.gl/5nvi7yG9zCDqrNkd7"
+        ],
+        "report_time": 1732753814,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "nsEv3MZUyEgYGULrFHNB-A",
+        "lat": 19.9853,
+        "lng": -102.2814007,
+        "country": "MX"
+    },
+    {
+        "id": "1311487942669111407",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1144890994308908&set=a.386814826783199",
+            "https://maps.app.goo.gl/XXqibQWwUvAJbkVb7"
+        ],
+        "report_time": 1732753491,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "wxo0F3LnVoovTIaiEY2QuQ",
+        "lat": 20.2149639,
+        "lng": -100.882703,
+        "country": "MX"
+    },
+    {
+        "id": "1311741650015490181",
+        "links": [
+            "https://maps.app.goo.gl/gC1buz3APxW7hLFq5",
+            "https://maps.app.goo.gl/gC1buz3APxW7hLFq5"
+        ],
+        "report_time": 1732813980,
+        "author": "HoustonMediaHD",
+        "spot_type": "Gen4",
+        "panoId": "5Jy4ekItwwF9sNay04tegw",
+        "lat": 35.7399673,
+        "lng": -78.805674,
+        "country": "US"
     }
 ]
