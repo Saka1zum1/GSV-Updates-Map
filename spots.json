@@ -25061,17 +25061,17 @@
         "country": "AR"
     },
     {
-        "id": "1309529450047602719",
+        "id": "1310224357229858937",
         "links": [
-            "https://www.tiktok.com/@charlypi/video/7438439627486154040",
+            "https://www.youtube.com/watch?v=QpySCK8YugI",
             "https://maps.app.goo.gl/GDj7e7C5UZYV28Bq8"
         ],
-        "report_time": 1732286550,
+        "report_time": 1732452204,
         "author": "salad",
         "spot_type": "Gen4",
         "panoId": null,
-        "lat": 19.3841426,
-        "lng": -99.2320228,
+        "lat": 19.38414,
+        "lng": -99.23202,
         "country": "MX"
     },
     {
@@ -25465,5 +25465,33 @@
         "lat": 49.4402816,
         "lng": 27.404404,
         "country": "UA"
+    },
+    {
+        "id": "1312374118032605286",
+        "links": [
+            "https://x.com/band_aid03jp/status/1862670434388648355?t=NcGmTfU-rFyPEgem7rlu_A&s=19",
+            "https://www.google.com/maps/@34.448326,135.37209,3a,75.0y,56.505436h,82.13975t/data=!3m4!1e1!3m2!1sSV1Id55ZeNVSB4pXJBQlLQ!2e0"
+        ],
+        "report_time": 1732964772,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "SV1Id55ZeNVSB4pXJBQlLQ",
+        "lat": 34.448326,
+        "lng": 135.37209,
+        "country": "JP"
+    },
+    {
+        "id": "1312374927575486504",
+        "links": [
+            "https://x.com/3rdneru/status/1862741620774642044?t=nLrgo0lwljGBlu7y41b4fg&s=19",
+            "https://maps.app.goo.gl/6zx7SojT5yxrUKBM6"
+        ],
+        "report_time": 1732964965,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "pt01wmSXp9kAEyafLHkP7w",
+        "lat": 35.008012,
+        "lng": 136.669501,
+        "country": "JP"
     }
 ]
