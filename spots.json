@@ -25493,5 +25493,47 @@
         "lat": 35.008012,
         "lng": 136.669501,
         "country": "JP"
+    },
+    {
+        "id": "1312421107084558417",
+        "links": [
+            "https://www.facebook.com/permalink.php?story_fbid=pfbid0bQC6ES2uLAu4x5YNJbphp9mmMKvuaaB2hT8RbtK8aEsSFqzD3rXhvGk6xKb6DFuRl&id=104606471568660",
+            "https://maps.app.goo.gl/j8zv1rkb6x3ydEXKA"
+        ],
+        "report_time": 1732975975,
+        "author": "redlaserkiwi",
+        "spot_type": "Gen4/H1",
+        "panoId": null,
+        "lat": 3.1492588,
+        "lng": 101.7170562,
+        "country": "MY"
+    },
+    {
+        "id": "1312419023132299346",
+        "links": [
+            "https://www.youtube.com/watch?v=y3L04EEWIOM",
+            "https://maps.app.goo.gl/PWcttWxPp6n5G67aA"
+        ],
+        "report_time": 1732975478,
+        "author": "redlaserkiwi",
+        "spot_type": "Gen4/H1",
+        "panoId": "CY0BxwKpR4iDp7SVHwgbLQ",
+        "lat": 2.5783199,
+        "lng": 102.038027,
+        "country": "MY"
+    },
+    {
+        "id": "1312409680043311186",
+        "links": [
+            "https://imgur.com/google-streetcar-malaysia-U8UPnCr",
+            "https://maps.app.goo.gl/ML3CGoxLtgG4JRaN7"
+        ],
+        "report_time": 1732973251,
+        "author": "redlaserkiwi",
+        "spot_type": "Gen3",
+        "panoId": "bVzgA7PKBm19DJpGtsyW_A",
+        "lat": 3.1044745,
+        "lng": 101.6385715,
+        "country": "MY"
     }
 ]
