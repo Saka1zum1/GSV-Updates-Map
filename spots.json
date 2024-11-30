@@ -25395,5 +25395,75 @@
         "lat": 35.7399673,
         "lng": -78.805674,
         "country": "US"
+    },
+    {
+        "id": "1312101511282819172",
+        "links": [
+            "https://www.facebook.com/share/v/1A82C9Q3eq/?mibextid=UalRPS",
+            "https://maps.app.goo.gl/9YFtUzbXtKraZmXM6"
+        ],
+        "report_time": 1732899777,
+        "author": "Ethan",
+        "spot_type": "Gen4",
+        "panoId": "Q_Nko8Q4Ii_MPOW8mv9xbQ",
+        "lat": 33.1050383,
+        "lng": -88.5471359,
+        "country": "US"
+    },
+    {
+        "id": "1312032874027024427",
+        "links": [
+            "https://x.com/ANCOIxVoice/status/1862358006631211269?t=01B_x0OlPqgaX06V55VWoA&s=19",
+            "https://maps.app.goo.gl/V9giT6AWoXY7BAEm9"
+        ],
+        "report_time": 1732883413,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "Ae-jU8IpzDF7I6irLtyDKw",
+        "lat": 34.273469,
+        "lng": 133.768301,
+        "country": "JP"
+    },
+    {
+        "id": "1312162487382310983",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10166518396690447&set=pcb.10166518400105447",
+            "https://maps.app.goo.gl/RVxQw6uyMVfEcUmE7"
+        ],
+        "report_time": 1732914315,
+        "author": "Ethan",
+        "spot_type": "Gen4/H1",
+        "panoId": "CXmZzdvmJ3kXvFx84p_iag",
+        "lat": 41.9856476,
+        "lng": -73.9881934,
+        "country": "US"
+    },
+    {
+        "id": "1312158224421486604",
+        "links": [
+            "https://theshopsofcanmore.panomax.com/",
+            "https://maps.app.goo.gl/5GeizGGX1ap4mwJUA"
+        ],
+        "report_time": 1732913299,
+        "author": "Ethan",
+        "spot_type": "Gen4/H1",
+        "panoId": "aSOF3Qr4c3dEdzXsT6nGsg",
+        "lat": 51.089931,
+        "lng": -115.3484491,
+        "country": "CA"
+    },
+    {
+        "id": "1311873926531649556",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=925690497481061&set=a.389445987772184",
+            "https://maps.app.goo.gl/Kmo4Vkh2ZQWTRPAZ7"
+        ],
+        "report_time": 1732845517,
+        "author": "hellhound#1981",
+        "spot_type": "Gen3",
+        "panoId": "lUqW0u17yeN4SOrcaR58-Q",
+        "lat": 49.4402816,
+        "lng": 27.404404,
+        "country": "UA"
     }
 ]
