@@ -1847,7 +1847,7 @@
         "date": "Sep 2024",
         "country": "AT",
         "altitude": 921.67,
-        "region": "K\u00e4rnten"
+        "region": "Carinthia"
     },
     {
         "types": [
@@ -55244,7 +55244,7 @@
         "date": "Jun 2024",
         "country": "ID",
         "altitude": 366.34,
-        "region": "Sulawesi Selatan"
+        "region": "South Sulawesi"
     },
     {
         "types": [
@@ -71243,7 +71243,7 @@
         "date": "Jun 2024",
         "country": "RO",
         "altitude": 150.45,
-        "region": "Maramure\u0219"
+        "region": "Maramure\u0219 County"
     },
     {
         "types": [
@@ -123272,7 +123272,7 @@
         "date": "Oct 2024",
         "country": "AT",
         "altitude": 478.34,
-        "region": "Ober\u00f6sterreich"
+        "region": "Upper-Austria"
     },
     {
         "types": [
@@ -124645,7 +124645,7 @@
         "date": "Oct 2024",
         "country": "AT",
         "altitude": 405.89,
-        "region": "Nieder\u00f6sterreich"
+        "region": "Lower Austria"
     },
     {
         "types": [
@@ -124660,7 +124660,7 @@
         "date": "Oct 2024",
         "country": "AT",
         "altitude": 485.02,
-        "region": "Nieder\u00f6sterreich"
+        "region": "Lower Austria"
     },
     {
         "types": [
@@ -129017,7 +129017,7 @@
         "date": "Oct 2024",
         "country": "ID",
         "altitude": 10.07,
-        "region": "Sulawesi Tengah"
+        "region": "Central Sulawesi"
     },
     {
         "types": [
@@ -129080,7 +129080,7 @@
         "date": "Oct 2024",
         "country": "RO",
         "altitude": 493.95,
-        "region": "Jude\u021bul Mure\u0219"
+        "region": "Mure\u0219"
     },
     {
         "types": [
@@ -129322,7 +129322,7 @@
         "date": "Oct 2024",
         "country": "RO",
         "altitude": 194.2,
-        "region": "Jude\u021bul Maramure\u0219"
+        "region": "Maramure\u0219 County"
     },
     {
         "types": [
@@ -130747,7 +130747,7 @@
         "date": "Nov 2024",
         "country": "RO",
         "altitude": 211.27,
-        "region": "Maramure\u0219"
+        "region": "Maramure\u0219 County"
     },
     {
         "types": [
@@ -133149,7 +133149,7 @@
         "date": "Oct 2024",
         "country": "RO",
         "altitude": 1909.18,
-        "region": "Jude\u021bul D\u00e2mbovi\u021ba"
+        "region": "D\u00e2mbovi\u021ba Country"
     },
     {
         "types": [
@@ -141308,22 +141308,6 @@
     },
     {
         "types": [
-            "newregion",
-            "gen3update"
-        ],
-        "report_time": 1733013589,
-        "author": "beefsalad",
-        "id": "1312578871706521622",
-        "panoId": "aHr1RsQdfmNCYYW5Un681A",
-        "lat": -41.20129,
-        "lng": 175.21241,
-        "date": "Sep 2024",
-        "country": "NZ",
-        "region": "Wellington",
-        "altitude": 9.79
-    },
-    {
-        "types": [
             "newroad"
         ],
         "report_time": 1733017137,
@@ -141471,5 +141455,82 @@
         "country": "US",
         "region": "Maine",
         "altitude": 254.42
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1733013589,
+        "author": "beefsalad",
+        "id": "1312578871706521622",
+        "panoId": "aHr1RsQdfmNCYYW5Un681A",
+        "lat": -41.20129,
+        "lng": 175.21241,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Wellington",
+        "altitude": 9.79
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1733042287,
+        "author": "Aedan",
+        "id": "1312699239070957589",
+        "panoId": "KG6acLVp1RaWWIwAyN8Fxw",
+        "lat": -0.95044,
+        "lng": 113.97199,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "Central Kalimantan",
+        "altitude": 90.85
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733041166,
+        "author": "Aedan",
+        "id": "1312694537822408744",
+        "panoId": "4HhqnkSDtjk3DPzLM7uy3A",
+        "lat": 48.96879,
+        "lng": -105.67292,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Montana",
+        "altitude": 746.08
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733041166,
+        "author": "Aedan",
+        "id": "1312694537822408744",
+        "panoId": "oQ9PQ6it4psIt6nOV8xW2Q",
+        "lat": 48.76519,
+        "lng": -106.52284,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Montana",
+        "altitude": 924.2
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1733041001,
+        "author": "Aedan",
+        "id": "1312693845565378570",
+        "panoId": "zhtMOehCSYq1JmYptoxTfA",
+        "lat": 48.13427,
+        "lng": -106.3561,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Montana",
+        "altitude": 631.69
     }
 ]

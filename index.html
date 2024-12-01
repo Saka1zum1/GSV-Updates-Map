@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>        
+
+<head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7CBKXYFQZ"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-E7CBKXYFQZ');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-E7CBKXYFQZ');
     </script>
-    <meta charset=utf-8>
+    <meta charset="UTF-8">
     <title>VS Updates Map</title>
     <link rel="icon" href="./assets/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw-src.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.3/air-datepicker.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.3/air-datepicker.min.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://cdn.rawgit.com/hayeswise/Leaflet.PointInPolygon/v1.0.0/wise-leaflet-pip.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
@@ -32,6 +32,7 @@
             padding: 0;
             height: 100%;
         }
+
         #map {
             position: absolute;
             border: none;
@@ -39,21 +40,24 @@
             z-index: 1;
             height: 100%;
         }
+
         #calendar {
-            position: absolute;
+            position: fixed;
             right: 10px;
-            top: 10px;  
-            border: none; 
-            z-index: 3;
+            top: 10px;
+            border: none;
+            z-index: 1;
         }
+
         #monthpicker {
             display: none;
             position: absolute;
-            left:96px;
-            top: 120px;  
-            border: none; 
+            left: 96px;
+            top: 120px;
+            border: none;
             z-index: 4;
-        }   
+        }
+
         #calendar-toggle {
             position: absolute;
             width: 46px;
@@ -69,27 +73,64 @@
             font-size: 12px;
             z-index: 3;
         }
+
+        .author {
+            position: absolute;
+            width: 36px;
+            height: 36px;
+            background-color: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 50%;
+            background-position: 50%;
+            background-size: cover;
+            opacity: 1;
+            z-index: 3;
+        }
+
+        .author::after {
+            content: attr(data-text);
+            position: relative;
+            top: 40px;
+            right: 0px;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+            border-radius: 4px;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .author:hover::after {
+            opacity: 1;
+        }
+
         .air-datepicker {
             width: 320px;
             max-height: 280px;
             font-size: 1.2rem;
         }
-        .filter{
+
+        .filter {
             position: absolute;
             width: 64px;
             height: 64px;
             z-index: 3;
             cursor: pointer;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-	        background: #fff;
-	        border-radius: 5px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+            background: #fff;
+            border-radius: 5px;
             background-position: 50%;
-            background-size:cover;
+            background-size: cover;
         }
+
         .filter::after {
             content: attr(data-text);
             position: relative;
-            top: 20px; 
+            top: 20px;
             left: 81px;
             transform: translateX(-50%);
             background-color: #333;
@@ -105,36 +146,39 @@
         .filter:hover::after {
             opacity: 1;
         }
-        #color-board{
+
+        #color-board {
             position: absolute;
             width: 26px;
             height: 26px;
-            left:150px;
-            top:10px;
+            left: 150px;
+            top: 10px;
             z-index: 3;
             cursor: pointer;
-	        background: #1098ad;
-            border-color:#99e9f2;
+            background: #1098ad;
+            border-color: #99e9f2;
             border-style: solid;
             border-width: 1px;
-	        border-radius: 5px;
+            border-radius: 5px;
         }
-        .control{
+
+        .control {
             position: absolute;
             width: 44px;
             height: 44px;
             z-index: 3;
             cursor: pointer;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.4);
-	        background: #fff;
-	        border-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+            background: #fff;
+            border-radius: 5px;
             background-position: 50%;
-            background-size:cover;
+            background-size: cover;
         }
+
         .control::after {
             content: attr(data-text);
             position: absolute;
-            top: -30px; 
+            top: -30px;
             left: 15px;
             transform: translateX(-50%);
             background-color: #333;
@@ -151,6 +195,7 @@
         .control:hover::after {
             opacity: 1;
         }
+
         .checkbox-container {
             position: absolute;
             display: none;
@@ -160,6 +205,7 @@
             border-radius: 5px;
             z-index: 4;
         }
+
         .checkbox-item {
             display: flex;
             width: 64px;
@@ -168,31 +214,43 @@
             margin: 10px;
             z-index: 4;
         }
+
         .checkbox-item img {
             width: 24px;
             height: 24px;
             z-index: 4;
             margin: 10px;
         }
+
         #checkboxContainer-type {
-            left:96px;
+            left: 96px;
             top: 50px;
         }
+
         .emoji {
             display: block;
             width: 20px;
-            height: 20px; 
+            height: 20px;
         }
-        .filter-flag{
-            position :absolute;
-            top : 2px;
-            right : 2px;
-            width :16px;
+
+        .filter-flag {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            width: 16px;
             height: 12px;
         }
 
+        li {
+            white-space: nowrap;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            width: 300px;
+            display: flex;
+        }
     </style>
 </head>
+
 <body>
     <div id="map"></div>
     <div id="calendar">
@@ -200,14 +258,25 @@
     </div>
     <div id="monthpicker"></div>
     <div id="color-board"></div>
-    <div class="control heatmap" data-text="Heatmap" style="right:10px; bottom: 10px; background-image: url('assets/heatmap_off.png')"></div>
-    <div class="control cluster" data-text="Disable Cluster Markers" style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
-    <div class="control copy" data-text="Copy as JSON" style="right:110px; bottom: 10px; background-image: url('assets/copy.svg')"></div>
-    <div class="control peak" data-text="Peak Locations" style="right:160px; bottom: 10px; background-image: url('assets/pegman_peak.png')"></div>
-    <div class="control spot" data-text="Car Spotted Locations" style="right:210px; bottom: 10px; background-image: url('assets/pegman_spot.png')"></div>
-    <div class="filter type" data-text="Filter by update types" style="left:15px; top: 70px; background-image: url('assets/pegman_hi.gif')"></div>
-    <div class="filter date" data-text="Filter by pano month" style="left:15px; top: 170px; background-image: url('assets/pegman_look.gif')"></div>
-    <div class="filter country" data-text="Filter by country" style="left:15px; top: 270px; background-image: url('assets/pegman_map.gif')"></div>
+    <div class="control heatmap" data-text="Heatmap"
+        style="right:10px; bottom: 10px; background-image: url('assets/heatmap_off.png')"></div>
+    <div class="control cluster" data-text="Disable Cluster Markers"
+        style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
+    <div class="control copy" data-text="Copy as JSON"
+        style="right:110px; bottom: 10px; background-image: url('assets/copy.svg')"></div>
+    <div class="control region" data-text="Find Specific Region"
+        style="right:160px; bottom: 10px; background-image: url('assets/puzzle.svg'); background-size: 32px; background-repeat: no-repeat;">
+    </div>
+    <div class="control peak" data-text="Peak Locations"
+        style="right:210px; bottom: 10px; background-image: url('assets/pegman_peak.png')"></div>
+    <div class="control spot" data-text="Car Spotted Locations"
+        style="right:260px; bottom: 10px; background-image: url('assets/pegman_spot.png')"></div>
+    <div class="filter type" data-text="Filter by update types"
+        style="left:15px; top: 70px; background-image: url('assets/pegman_hi.gif')"></div>
+    <div class="filter date" data-text="Filter by pano month"
+        style="left:15px; top: 170px; background-image: url('assets/pegman_look.gif')"></div>
+    <div class="filter country" data-text="Filter by country"
+        style="left:15px; top: 270px; background-image: url('assets/pegman_map.gif')"></div>
     <div class="checkbox-container" id="checkboxContainer-type">
         <div class="checkbox-item">
             <input type="checkbox" data-type="newcountry">
@@ -271,5 +340,8 @@
         </div>
     </div>
 </body>
+
+<script type="text/javascript" src="/src/MarkerCluster.js"></script>
 <script type="text/javascript" src="./main.js"></script>
+
 </html>

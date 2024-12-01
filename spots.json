@@ -25577,5 +25577,47 @@
         "lat": 43.5581085,
         "lng": -73.6548608,
         "country": "US"
+    },
+    {
+        "id": "1312665262574665789",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10232111877210926&set=pcb.10232111877490933",
+            "https://maps.app.goo.gl/Rp89Hk5dciZQ7YKJ8"
+        ],
+        "report_time": 1733034186,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "epvwDjk01gxV2fKJbrSygA",
+        "lat": 19.4721389,
+        "lng": -155.5922066,
+        "country": "US"
+    },
+    {
+        "id": "1312632444436086844",
+        "links": [
+            "https://www.facebook.com/photo?fbid=28164221666496426&set=pcb.1357349322096772",
+            "https://maps.app.goo.gl/DYLS3asVBcs7vW3dA"
+        ],
+        "report_time": 1733026362,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": null,
+        "lat": 43.5950556,
+        "lng": -90.1927778,
+        "country": "US"
+    },
+    {
+        "id": "1312773522925289553",
+        "links": [
+            "https://www.facebook.com/wavehomestay/posts/%E4%BB%8A%E5%A4%A9-%E6%9C%89%E4%B8%80%E4%BD%8D-%E5%A4%A7%E7%89%8C%E5%8F%88%E7%A5%9E%E7%A7%98%E3%81%AE%E5%98%89%E5%AE%BE%E6%82%84%E6%82%84%E7%9A%84%E6%9D%A5%E5%88%B0-%E8%83%A1%E9%A1%BB%E6%B8%AF-%E8%BF%99%E4%B8%AA%E5%B0%8F%E5%B0%8F%E6%B8%94%E6%9D%91%E4%B9%9F%E5%88%B0-%E6%B5%B7%E6%B5%AA%E6%BB%94%E6%BB%94-%E6%B0%91%E5%AE%BF-%E4%B8%80%E6%8B%8D-%E5%AE%83-%E5%B0%B1%E6%98%AF-google-map-%E5%AE%9D%E6%9E%B6-%E8%BF%9F%E4%B8%80%E4%BA%9B-%E5%A4%A7%E5%AE%B6%E5%B0%B1%E5%8F%AF%E4%BB%A5%E5%9C%A8-googl/1431286600436398/",
+            "https://maps.app.goo.gl/FK26NHoM6nrbRwCdA"
+        ],
+        "report_time": 1733059998,
+        "author": "redlaserkiwi",
+        "spot_type": "Gen3",
+        "panoId": "gagxCr7dWj8XDPo6m-o9hQ",
+        "lat": 3.1728051,
+        "lng": 101.3102501,
+        "country": "MY"
     }
 ]
