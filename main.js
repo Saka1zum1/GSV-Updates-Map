@@ -6181,7 +6181,6 @@ function drawMarkers(data) {
 }
 
 function createSearchPopup() {
-  isRegion=true
   const popup = document.createElement('div');
   popup.style.position = 'fixed';
   popup.style.top = '50%';
@@ -6235,6 +6234,11 @@ function createSearchPopup() {
             filter_check.region = region;
             document.body.removeChild(popup);
             applyFilters()
+            isRegion=true
+            LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35"
+            roadmapLabelsLayer.setUrl(LabelsUrl)
+            terrainLabelsLayer.setUrl(LabelsUrl)
+            satelliteLabelsLayer.setUrl(LabelsUrl)
           });
 
           resultList.appendChild(listItem);
@@ -6632,13 +6636,15 @@ copy_button.addEventListener('click', function () {
 
 const region_button = document.querySelector('.control.region')
 region_button.addEventListener('click', function () {
-  if(!isRegion){
-    createSearchPopup()
-    isRegion=true}
+  if(!isRegion) createSearchPopup()
   else{
     isRegion=false
     filter_check.region=null
     applyFilters()
+    LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35"
+    roadmapLabelsLayer.setUrl(LabelsUrl)
+    terrainLabelsLayer.setUrl(LabelsUrl)
+    satelliteLabelsLayer.setUrl(LabelsUrl)
   }
 });
 
@@ -6695,10 +6701,6 @@ filter_country.addEventListener('click', function () {
       filter_flag.src = `${getFlagUrl(countryCode.toLowerCase())}`;
       filter_country.appendChild(filter_flag)
       applyFilters()
-      LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35"
-      roadmapLabelsLayer.setUrl(LabelsUrl)
-      terrainLabelsLayer.setUrl(LabelsUrl)
-      satelliteLabelsLayer.setUrl(LabelsUrl)
     }
   }
   else {
