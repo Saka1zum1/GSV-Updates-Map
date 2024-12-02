@@ -6103,10 +6103,12 @@ function drawMarkers(data) {
 
   data.forEach(item => {
     const { lat, lng, author, types, report_time, date, altitude, panoId, links, id, spot_type, region } = item;
-    const localTime = new Date(report_time * 1000).toLocaleString();
+    if(report_time){
+      var localTime = new Date(report_time * 1000).toLocaleString();
+
+    }
     let popupContent = '';
     const marker = L.marker([lat, lng]);
-
     marker.on('mouseover', async function () {
       var img_url = `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`
       if (types) {
@@ -6118,10 +6120,10 @@ function drawMarkers(data) {
           <strong>region:</strong> ${region}<br>
           <strong>elevation:</strong> ${altitude}m<br>
           <strong>report time:</strong> ${localTime}<br>
-          <strong>reporter:</strong> ${author}<br>
+          <strong>report by:</strong> ${author}<br>
           <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       } else if (links) {
-        let channel_id;
+        /*let channel_id;
         if (spot_type === 'Gen4') {
           channel_id = '774703077172838430';
         }
@@ -6130,8 +6132,7 @@ function drawMarkers(data) {
         }
         else {
           channel_id = '1148013283006218352';
-        }
-
+        }*/
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp` //await fetchCachedImage(channel_id, id);
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>

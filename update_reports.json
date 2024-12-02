@@ -142269,5 +142269,50 @@
         "country": "AU",
         "region": "Western Australia",
         "altitude": 293.97
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733142111,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1313117933572194375",
+        "panoId": "gFjyyrF3mPjVRDCIniJ5tQ",
+        "lat": 43.60664,
+        "lng": -1.00949,
+        "date": "Nov 2024",
+        "country": "FR",
+        "region": "Nouvelle-Aquitaine",
+        "altitude": 72.75
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733136168,
+        "author": "Steve",
+        "id": "1313093003509895168",
+        "panoId": "hO0qvJ5xdXCpLsS63Ho2Pw",
+        "lat": 26.95151,
+        "lng": 75.93014,
+        "date": "Nov 2024",
+        "country": "IN",
+        "region": "Rajasthan",
+        "altitude": 413.65
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733066764,
+        "author": "mpk",
+        "id": "1312801904958505080",
+        "panoId": "0-AP_6Zhbwc-cAF2LVqWAA",
+        "lat": 19.06522,
+        "lng": 72.85692,
+        "date": "Nov 2024",
+        "country": "IN",
+        "region": "Maharashtra",
+        "altitude": 20.73
     }
 ]
