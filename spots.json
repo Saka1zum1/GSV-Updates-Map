@@ -25619,5 +25619,33 @@
         "lat": 3.1728051,
         "lng": 101.3102501,
         "country": "MY"
+    },
+    {
+        "id": "1312899017323184128",
+        "links": [
+            "https://maps.app.goo.gl/m4maAaGx585AwpaJ8",
+            "https://maps.app.goo.gl/m4maAaGx585AwpaJ8"
+        ],
+        "report_time": 1733089918,
+        "author": "Teksit",
+        "spot_type": "Gen4/H1",
+        "panoId": "9LYq2JW87seZcZhQLKCf0A",
+        "lat": 47.8127923,
+        "lng": 7.2557918,
+        "country": "FR"
+    },
+    {
+        "id": "1312732844434391100",
+        "links": [
+            "https://www.youtube.com/watch?v=pKd5i3s1rFM&t=3m17s",
+            "https://maps.app.goo.gl/PwAdsFH3ddaEknku5"
+        ],
+        "report_time": 1733050299,
+        "author": "Rob",
+        "spot_type": "Gen4/H1",
+        "panoId": "DpmFvPDXmktvge-8PDseAg",
+        "lat": 44.4389808,
+        "lng": 26.1227395,
+        "country": "RO"
     }
 ]

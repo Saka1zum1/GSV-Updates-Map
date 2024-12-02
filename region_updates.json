@@ -11189,6 +11189,21 @@
                 "country": "PH",
                 "altitude": 351.56,
                 "region": "Calabarzon"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733077490,
+                "author": "Update Tracker Bot",
+                "id": "1312846892081615011",
+                "panoId": "20Ods75a-aJZC0ovNBDnmw",
+                "lat": 13.8194,
+                "lng": 121.11659,
+                "date": "Nov 2024",
+                "country": "PH",
+                "region": "Calabarzon",
+                "altitude": 115.87
             }
         },
         "Gitnang Kabisayaan": {},
@@ -19906,6 +19921,21 @@
                 "country": "BR",
                 "altitude": 123.49,
                 "region": "State of Bahia"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733088434,
+                "author": "Tobetelogi",
+                "id": "1312892796142747773",
+                "panoId": "sUMWBPYEMf2wainUizDo-A",
+                "lat": -12.74795,
+                "lng": -38.77546,
+                "date": "Nov 2024",
+                "country": "BR",
+                "region": "State of Bahia",
+                "altitude": 21.58
             }
         },
         "State of Mato Grosso": {
@@ -32618,6 +32648,21 @@
             }
         },
         "Central Sulawesi": {
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1731689171,
+                "author": "Tobetelogi",
+                "id": "1307023858284499044",
+                "panoId": "7XUYyHJevWYODQVv2Kaydw",
+                "lat": -0.8178,
+                "lng": 119.62185,
+                "date": "Oct 2024",
+                "country": "ID",
+                "altitude": 10.07,
+                "region": "Sulawesi Tengah"
+            },
             "Jul": {
                 "types": [
                     "newregion"
@@ -32665,6 +32710,21 @@
             }
         },
         "South Sulawesi": {
+            "Jun": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1722361502,
+                "author": "Alex*",
+                "panoId": "WUa8coQaoZw0FbaAPB8LvA",
+                "lat": -4.93686,
+                "lng": 119.84477,
+                "date": "Jun 2024",
+                "country": "ID",
+                "altitude": 366.34,
+                "region": "Sulawesi Selatan"
+            },
             "Aug": {
                 "types": [
                     "newregion"
@@ -32942,23 +33002,6 @@
                 "altitude": 31.4
             }
         },
-        "Kalimantan Timur": {
-            "Jul": {
-                "types": [
-                    "newregion",
-                    "newroad"
-                ],
-                "report_time": 1724490723,
-                "author": "Unhook",
-                "panoId": "xY74D5MUA4bIZU1IX_uYtA",
-                "lat": -0.30335,
-                "lng": 116.98179,
-                "date": "Jul 2024",
-                "country": "ID",
-                "altitude": 38.33,
-                "region": "Kalimantan Timur"
-            }
-        },
         "Central Java": {
             "Jul": {
                 "types": [
@@ -33018,23 +33061,6 @@
                 "country": "ID",
                 "altitude": 220.61,
                 "region": "Central Java"
-            }
-        },
-        "Sulawesi Selatan": {
-            "Jun": {
-                "types": [
-                    "newregion",
-                    "newroad"
-                ],
-                "report_time": 1722361502,
-                "author": "Alex*",
-                "panoId": "WUa8coQaoZw0FbaAPB8LvA",
-                "lat": -4.93686,
-                "lng": 119.84477,
-                "date": "Jun 2024",
-                "country": "ID",
-                "altitude": 366.34,
-                "region": "Sulawesi Selatan"
             }
         },
         "East Nusa Tenggara": {
@@ -33211,6 +33237,21 @@
                 "country": "ID",
                 "altitude": 54.58,
                 "region": "East Kalimantan"
+            },
+            "Jul": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1724490723,
+                "author": "Unhook",
+                "panoId": "xY74D5MUA4bIZU1IX_uYtA",
+                "lat": -0.30335,
+                "lng": 116.98179,
+                "date": "Jul 2024",
+                "country": "ID",
+                "altitude": 38.33,
+                "region": "Kalimantan Timur"
             }
         },
         "Special Region of Yogyakarta": {
@@ -33247,23 +33288,6 @@
                 "country": "ID",
                 "altitude": 8.96,
                 "region": "West Sulawesi"
-            }
-        },
-        "Sulawesi Tengah": {
-            "Oct": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1731689171,
-                "author": "Tobetelogi",
-                "id": "1307023858284499044",
-                "panoId": "7XUYyHJevWYODQVv2Kaydw",
-                "lat": -0.8178,
-                "lng": 119.62185,
-                "date": "Oct 2024",
-                "country": "ID",
-                "altitude": 10.07,
-                "region": "Sulawesi Tengah"
             }
         }
     },

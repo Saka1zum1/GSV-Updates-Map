@@ -43718,7 +43718,7 @@
         "date": "Jul 2024",
         "country": "ID",
         "altitude": 38.33,
-        "region": "Kalimantan Timur"
+        "region": "East Kalimantan"
     },
     {
         "types": [
@@ -141532,5 +141532,381 @@
         "country": "US",
         "region": "Montana",
         "altitude": 631.69
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733064591,
+        "author": "jpeters",
+        "id": "1312792789041287268",
+        "panoId": "SFC59yykUHMRwvvO38VzFA",
+        "lat": 30.81128,
+        "lng": -103.94468,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Texas",
+        "altitude": 1347.61
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733074112,
+        "author": "glebovski",
+        "id": "1312832722045108354",
+        "panoId": "gpWV7mxZ7c4EWyiYch-rKA",
+        "lat": -21.13942,
+        "lng": -44.91492,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais",
+        "altitude": 867.96
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733074112,
+        "author": "glebovski",
+        "id": "1312832722045108354",
+        "panoId": "hh27TJYhmRB5HSoOi2ceAA",
+        "lat": -20.94335,
+        "lng": -44.92299,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais",
+        "altitude": 969.15
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733074112,
+        "author": "glebovski",
+        "id": "1312832722045108354",
+        "panoId": "3aln7z-5unmDb68h8bsfhw",
+        "lat": -21.02049,
+        "lng": -44.32333,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais",
+        "altitude": 1079.33
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733073896,
+        "author": "glebovski",
+        "id": "1312831816079511573",
+        "panoId": "C7jt_dgZzW-NYlc-G6quLw",
+        "lat": -21.93392,
+        "lng": -51.5142,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo",
+        "altitude": 389.86
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733073761,
+        "author": "glebovski",
+        "id": "1312831252570705930",
+        "panoId": "IuklbnlXhi9MNt4inIENOw",
+        "lat": -21.9301,
+        "lng": -51.5206,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo",
+        "altitude": 366.51
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733073673,
+        "author": "glebovski",
+        "id": "1312830883836854313",
+        "panoId": "anKG6M6x9rpwTlLMD2gmRw",
+        "lat": -23.33913,
+        "lng": -54.60298,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Mato Grosso do Sul",
+        "altitude": 366.06
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733073544,
+        "author": "glebovski",
+        "id": "1312830340561375353",
+        "panoId": "pejCCc_Dr2THck7ys74qfg",
+        "lat": -23.24122,
+        "lng": -54.48398,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Mato Grosso do Sul",
+        "altitude": 368.76
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733073544,
+        "author": "glebovski",
+        "id": "1312830340561375353",
+        "panoId": "cwueFxrwtASDH6v5a8l2sQ",
+        "lat": -23.47902,
+        "lng": -54.86662,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Mato Grosso do Sul",
+        "altitude": 334.18
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733077490,
+        "author": "Update Tracker Bot",
+        "id": "1312846892081615011",
+        "panoId": "20Ods75a-aJZC0ovNBDnmw",
+        "lat": 13.8194,
+        "lng": 121.11659,
+        "date": "Nov 2024",
+        "country": "PH",
+        "region": "Calabarzon",
+        "altitude": 115.87
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733076877,
+        "author": "Ethan",
+        "id": "1312844320247648267",
+        "panoId": "Cv7gSgq1TAFmnJ35Wo9E2w",
+        "lat": 36.53429,
+        "lng": -109.06424,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona",
+        "altitude": 1935.43
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733076877,
+        "author": "Ethan",
+        "id": "1312844320247648267",
+        "panoId": "nmXgub055M2EEJSabUvNXA",
+        "lat": 38.3421,
+        "lng": -80.37427,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "West Virginia",
+        "altitude": 730.96
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733076877,
+        "author": "Ethan",
+        "id": "1312844320247648267",
+        "panoId": "7aAXoPjKwJ9vGC96RwWw4A",
+        "lat": 45.80644,
+        "lng": -121.27035,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Washington",
+        "altitude": 720.63
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733076877,
+        "author": "Ethan",
+        "id": "1312844320247648267",
+        "panoId": "nbryvwf3i4OWelrtezf1tg",
+        "lat": 30.81203,
+        "lng": -103.94681,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Texas",
+        "altitude": 1352.87
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733076877,
+        "author": "Ethan",
+        "id": "1312844320247648267",
+        "panoId": "XB7zJo-WVK-gso8Olh0WNg",
+        "lat": 36.35932,
+        "lng": -85.46901,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Tennessee",
+        "altitude": 289.72
+    },
+    {
+        "types": [
+            "gen1update",
+            "newstreet"
+        ],
+        "report_time": 1733076425,
+        "author": "Ethan",
+        "id": "1312842424934207529",
+        "panoId": "xFKrkZPQW7XSPjrYZAlqzA",
+        "lat": 48.10194,
+        "lng": -105.64874,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Montana",
+        "altitude": 637.46
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733088434,
+        "author": "Tobetelogi",
+        "id": "1312892796142747773",
+        "panoId": "sUMWBPYEMf2wainUizDo-A",
+        "lat": -12.74795,
+        "lng": -38.77546,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Bahia",
+        "altitude": 21.58
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733094976,
+        "author": "DeSlagen",
+        "id": "1312920234122022952",
+        "panoId": "Z2kDyajXIdJ4F1YfvmmuBA",
+        "lat": 43.20636,
+        "lng": -72.8817,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Vermont",
+        "altitude": 429.16
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733094976,
+        "author": "DeSlagen",
+        "id": "1312920234122022952",
+        "panoId": "0OVHZLLKP-UC-nfgIVl5Yw",
+        "lat": 43.26106,
+        "lng": -72.87167,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Vermont",
+        "altitude": 445.83
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733094976,
+        "author": "DeSlagen",
+        "id": "1312920234122022952",
+        "panoId": "v-jK3VhE1LDBQyeflogQIA",
+        "lat": 43.24852,
+        "lng": -72.89393,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Vermont",
+        "altitude": 517.6
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733094734,
+        "author": "DeSlagen",
+        "id": "1312919218056073277",
+        "panoId": "aiQIWbdp1Do-NfO3LUVMjg",
+        "lat": 36.3344,
+        "lng": -110.08256,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona",
+        "altitude": 2022.14
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733094734,
+        "author": "DeSlagen",
+        "id": "1312919218056073277",
+        "panoId": "iGyU8Q5pYYV5AYzDz-1nOQ",
+        "lat": 36.22879,
+        "lng": -110.44071,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona",
+        "altitude": 1943.19
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733094734,
+        "author": "DeSlagen",
+        "id": "1312919218056073277",
+        "panoId": "0TbDivEZzKnAS-4oFPcwew",
+        "lat": 36.40028,
+        "lng": -109.87527,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona",
+        "altitude": 1950.75
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733094734,
+        "author": "DeSlagen",
+        "id": "1312919218056073277",
+        "panoId": "HTACK2N7wjcKChEihafJCg",
+        "lat": 36.36469,
+        "lng": -109.62393,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona",
+        "altitude": 1619.87
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1733094734,
+        "author": "DeSlagen",
+        "id": "1312919218056073277",
+        "panoId": "ImP8z2vQIj-Tqqaf0qyXvw",
+        "lat": 36.05184,
+        "lng": -110.48108,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona",
+        "altitude": 1813.01
     }
 ]
