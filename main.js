@@ -6132,7 +6132,7 @@ function drawMarkers(data) {
           channel_id = '1148013283006218352';
         }
 
-        img_url = await fetchCachedImage(channel_id, id);
+        img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp` //await fetchCachedImage(channel_id, id);
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>
           <strong>archived time:</strong> ${localTime}<br>
@@ -6181,7 +6181,13 @@ function drawMarkers(data) {
 }
 
 function createSearchPopup() {
-  const popup = document.createElement('div');
+  let popup = document.getElementById('serach-popup');
+
+  if (popup)return 
+  else {
+    popup = document.createElement('div');
+    popup.id = 'serach-popup';
+  }
   popup.style.position = 'fixed';
   popup.style.top = '50%';
   popup.style.left = '50%';
@@ -6233,8 +6239,8 @@ function createSearchPopup() {
           listItem.addEventListener('click', function () {
             filter_check.region = region;
             document.body.removeChild(popup);
-            applyFilters()
             isRegion=true
+            applyFilters()
             LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35"
             roadmapLabelsLayer.setUrl(LabelsUrl)
             terrainLabelsLayer.setUrl(LabelsUrl)
@@ -6636,7 +6642,8 @@ copy_button.addEventListener('click', function () {
 
 const region_button = document.querySelector('.control.region')
 region_button.addEventListener('click', function () {
-  if(!isRegion) createSearchPopup()
+  if(!isRegion) {
+    createSearchPopup()}
   else{
     isRegion=false
     filter_check.region=null

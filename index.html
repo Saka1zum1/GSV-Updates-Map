@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw-src.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.3/air-datepicker.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/TwemojiCountryFlags.woff2"
+        rel="stylesheet">
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://cdn.rawgit.com/hayeswise/Leaflet.PointInPolygon/v1.0.0/wise-leaflet-pip.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
@@ -25,12 +27,18 @@
     <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.5.3/air-datepicker.min.js"></script>
     <style type="text/css">
+        @font-face {
+            font-family: "TwemojiCountryFlags";
+            src: url("https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/TwemojiCountryFlags.woff2") format("woff2");
+        }
+
         html,
         body {
             background-color: transparent;
             margin: 0;
             padding: 0;
             height: 100%;
+            font-family: "TwemojiCountryFlags", sans-serif;
         }
 
         #map {
@@ -243,7 +251,7 @@
 
         li {
             white-space: nowrap;
-            overflow:hidden;
+            overflow: hidden;
             text-overflow: ellipsis;
             width: 300px;
             display: flex;
