@@ -66,12 +66,10 @@
             z-index: 4;
         }
 
-        #calendar-toggle {
+        .calendar.toggle {
             position: absolute;
             width: 46px;
             height: 18px;
-            top: 14px;
-            left: 38px;
             background-color: #5cc4ef;
             color: white;
             border: 1px;
@@ -262,7 +260,8 @@
 <body>
     <div id="map"></div>
     <div id="calendar">
-        <button id="calendar-toggle">Range</button>
+        <button class="calendar toggle mode" style="top:14px; left:38px">Range</button>
+        <button class="calendar toggle view" style="top:14px; right:38px">Day</button>
     </div>
     <div id="monthpicker"></div>
     <div id="color-board"></div>
@@ -277,7 +276,7 @@
     </div>
     <div class="control peak" data-text="Peak Locations"
         style="right:210px; bottom: 10px; background-image: url('assets/pegman_peak.png')"></div>
-    <div class="control spot" data-text="Car Spotted Locations"
+    <div class="control spot" data-text="Where the Google car is"
         style="right:260px; bottom: 10px; background-image: url('assets/pegman_spot.png')"></div>
     <div class="filter type" data-text="Filter by update types"
         style="left:15px; top: 70px; background-image: url('assets/pegman_hi.gif')"></div>

@@ -142404,5 +142404,245 @@
         "country": "CO",
         "region": "Cundinamarca",
         "altitude": 2551.35
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733186233,
+        "author": "DeSlagen",
+        "id": "1313302994804150272",
+        "panoId": "Zr9qVbFnEwzHPN98LgbKrQ",
+        "lat": 36.75407,
+        "lng": -108.80232,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Mexico",
+        "altitude": 1643.1
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733186233,
+        "author": "DeSlagen",
+        "id": "1313302994804150272",
+        "panoId": "h9Ht-GVlXLhot4UC-XzwEw",
+        "lat": 36.2815,
+        "lng": -108.7076,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Mexico",
+        "altitude": 1694.06
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733186233,
+        "author": "DeSlagen",
+        "id": "1313302994804150272",
+        "panoId": "qJxeUxDFVyZSoXREoplglQ",
+        "lat": 36.48568,
+        "lng": -108.50232,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Mexico",
+        "altitude": 1636.81
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733186233,
+        "author": "DeSlagen",
+        "id": "1313302994804150272",
+        "panoId": "p8y_f3CrmKHaROy8PI_mUg",
+        "lat": 36.23533,
+        "lng": -108.80187,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Mexico",
+        "altitude": 1808.52
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733186233,
+        "author": "DeSlagen",
+        "id": "1313302994804150272",
+        "panoId": "EdkLIF5bSBRrGLt-ymhd7g",
+        "lat": 36.45708,
+        "lng": -108.59775,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Mexico",
+        "altitude": 1634.92
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733186233,
+        "author": "DeSlagen",
+        "id": "1313302994804150272",
+        "panoId": "VhBGOwWpZ2LtFhGwRTzbWw",
+        "lat": 36.20511,
+        "lng": -108.77691,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Mexico",
+        "altitude": 1768.77
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733186233,
+        "author": "DeSlagen",
+        "id": "1313302994804150272",
+        "panoId": "Ef9dj1cbl77UuY3rmFDecg",
+        "lat": 36.16677,
+        "lng": -108.66225,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Mexico",
+        "altitude": 1743.11
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733202757,
+        "author": "1xqd",
+        "id": "1313372299352604797",
+        "panoId": "uJhgDioZ2FWl5CU7VFFbVg",
+        "lat": -40.38007,
+        "lng": 175.60844,
+        "date": "Oct 2024",
+        "country": "NZ",
+        "region": "Manawat\u016b-Whanganui",
+        "altitude": 34.65
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733202694,
+        "author": "1xqd",
+        "id": "1313372036457959435",
+        "panoId": "QQK9PEwfFIxUyyxl6w8fyA",
+        "lat": -40.32525,
+        "lng": 175.63918,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Manawat\u016b-Whanganui",
+        "altitude": 52.03
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733202211,
+        "author": "1xqd",
+        "id": "1313370010164400158",
+        "panoId": "l4kCskxZx9_ATsvK06gEtg",
+        "lat": -40.02214,
+        "lng": 176.39297,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay",
+        "altitude": 202.41
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1733202091,
+        "author": "1xqd",
+        "id": "1313369505677840464",
+        "panoId": "bH4GDwR5c517RQpE2vIaCA",
+        "lat": -40.05741,
+        "lng": 176.39456,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay",
+        "altitude": 226.57
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733202934,
+        "author": "1xqd",
+        "id": "1313373043304828970",
+        "panoId": "POmFturXVGPj-JXTnOJR4Q",
+        "lat": -37.89453,
+        "lng": 175.69341,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Waikato",
+        "altitude": 124.78
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1733207225,
+        "author": "1xqd",
+        "id": "1313391041621135433",
+        "panoId": "syDwZr1YAvrwz6KB1UXQ_Q",
+        "lat": -37.98882,
+        "lng": 177.12859,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Bay of Plenty",
+        "altitude": 9.27
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733206844,
+        "author": "1xqd",
+        "id": "1313389440927793253",
+        "panoId": "UQXved_Gfj_jEi7_Ba7BGw",
+        "lat": -39.41823,
+        "lng": 176.8583,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay",
+        "altitude": 5.18
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733218686,
+        "author": "Update Tracker Bot",
+        "id": "1313439112157597736",
+        "panoId": "k9umd8F4LzOVBEiQ35ZYMg",
+        "lat": 24.41712,
+        "lng": 120.77505,
+        "date": "Nov 2024",
+        "country": "CN",
+        "region": "Miaoli County",
+        "altitude": 275.78
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733221660,
+        "author": "Alok",
+        "id": "1313451585224839178",
+        "panoId": "qKLTQJzmm95OMo6eC09QCA",
+        "lat": -0.98179,
+        "lng": 113.86364,
+        "date": "Oct 2024",
+        "country": "ID",
+        "region": "Central Kalimantan",
+        "altitude": 102.09
     }
 ]

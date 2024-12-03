@@ -5603,7 +5603,8 @@
                 "altitude": 42.72,
                 "region": "Finnmark"
             }
-        }
+        },
+        "Nordland": {}
     },
     "CZ": {
         "Moravian-Silesian Region": {
@@ -10783,7 +10784,9 @@
                 "altitude": 165.64,
                 "region": "Rhode Island"
             }
-        }
+        },
+        "Hawaii": {},
+        "Alaska": {}
     },
     "BD": {
         "Barisal Division": {
@@ -12758,7 +12761,8 @@
                 "altitude": 68.56,
                 "region": "Northern Ireland"
             }
-        }
+        },
+        "Newport": {}
     },
     "IE": {
         "County Kildare": {
@@ -14712,7 +14716,9 @@
                 "altitude": 25.43,
                 "region": "Prince Edward Island"
             }
-        }
+        },
+        "Yukon": {},
+        "Northwest Territories": {}
     },
     "HR": {
         "Karlovac County": {
@@ -17982,7 +17988,10 @@
                 "altitude": 9.18,
                 "region": "Fukui"
             }
-        }
+        },
+        "\u5e83\u5cf6\u770c": {},
+        "\u9e7f\u5150\u5cf6\u770c": {},
+        "\u795e\u5948\u5ddd\u770c": {}
     },
     "SE": {
         "V\u00e4stra G\u00f6taland County": {
@@ -24070,7 +24079,8 @@
         },
         "Corse": {},
         "Banyuls-sur-Mer": {},
-        "Catalonia": {}
+        "Catalonia": {},
+        "Geneva": {}
     },
     "ES": {
         "Castile and Le\u00f3n": {
@@ -27668,7 +27678,8 @@
                 "region": "Wellington",
                 "altitude": 9.79
             }
-        }
+        },
+        "Gisborne": {}
     },
     "HU": {
         "Pest County": {
@@ -28970,7 +28981,8 @@
                 "region": "B\u00edo B\u00edo"
             }
         },
-        "Regi\u00f3n Metropolitana": {}
+        "Regi\u00f3n Metropolitana": {},
+        "Antofagasta": {}
     },
     "GR": {
         "Western Greece and the Ionian": {
@@ -30964,6 +30976,21 @@
                 "country": "CN",
                 "altitude": 24.07,
                 "region": "Miaoli County"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733218686,
+                "author": "Update Tracker Bot",
+                "id": "1313439112157597736",
+                "panoId": "k9umd8F4LzOVBEiQ35ZYMg",
+                "lat": 24.41712,
+                "lng": 120.77505,
+                "date": "Nov 2024",
+                "country": "CN",
+                "region": "Miaoli County",
+                "altitude": 275.78
             }
         },
         "Nantou County": {
@@ -31320,7 +31347,10 @@
                 "altitude": 8.7,
                 "region": "Tainan City"
             }
-        }
+        },
+        "Hong Kong Island": {},
+        "Hong Kong": {},
+        "Macau": {}
     },
     "RW": {
         "Eastern Province": {
@@ -43345,7 +43375,11 @@
                 "altitude": 372.1,
                 "region": "North Rhine-Westphalia"
             }
-        }
+        },
+        "Berlin": {},
+        "Sachsen-Anhalt": {},
+        "Saxony-Anhalt": {},
+        "Hamburg": {}
     },
     "KZ": {
         "Karaganda Region": {
@@ -45175,5 +45209,68 @@
     },
     "MC": {
         "Monaco": {}
+    },
+    "IL": {
+        "Tel Aviv District": {},
+        "Center District": {},
+        "North District": {},
+        "Jerusalem District": {}
+    },
+    "RU": {
+        "Sakhalin Oblast": {},
+        "Rostov Oblast": {},
+        "Moscow Oblast": {},
+        "Primorsky Krai": {},
+        "Leningrad Oblast": {},
+        "Moscow": {},
+        "Penza Oblast": {}
+    },
+    "ME": {
+        "Budva Municipality": {}
+    },
+    "AL": {
+        "Fier County": {}
+    },
+    "UA": {
+        "Lviv Oblast": {},
+        "Kyiv Oblast": {}
+    },
+    "KG": {
+        "Naryn Region": {}
+    },
+    "LA": {},
+    "UY": {
+        "Florida Department": {},
+        "Artigas Department": {}
+    },
+    "BO": {
+        "La Paz Department": {}
+    },
+    "LS": {
+        "Maseru": {}
+    },
+    "UG": {},
+    "DO": {
+        "Distrito Nacional": {}
+    },
+    "PR": {
+        "San Juan": {}
+    },
+    "RE": {
+        "Saint-Denis": {}
+    },
+    "VI": {
+        "St Croix": {}
+    },
+    "TN": {
+        "M\u00e9denine Governorate": {}
+    },
+    "VN": {},
+    "SJ": {},
+    "IM": {
+        "Santon": {}
+    },
+    "JP\ud83c\udde6\ud83c\uddfa ": {
+        "Osaka": {}
     }
 }

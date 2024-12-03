@@ -6008,6 +6008,8 @@ let isPeak = false
 let isSpot = false
 let isRegion = false
 let update_data, altitude_data, spots_data, filterdata, region_updates
+let datepicker
+let currentView = 'days'
 let filter_check = {
   report_date: [1167580800, 1924963199],
   type: [],
@@ -6102,7 +6104,7 @@ function drawMarkers(data) {
   markers = [];
 
   data.forEach(item => {
-    const { lat, lng, author, types, report_time, date, altitude, panoId, links, id, spot_type, region } = item;
+    const { lat, lng, author, types, report_time, date, altitude, panoId, links, id, spot_type, spot_date, region } = item;
     if(report_time){
       var localTime = new Date(report_time * 1000).toLocaleString();
 
@@ -6123,19 +6125,10 @@ function drawMarkers(data) {
           <strong>report by:</strong> ${author}<br>
           <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       } else if (links) {
-        /*let channel_id;
-        if (spot_type === 'Gen4') {
-          channel_id = '774703077172838430';
-        }
-        else if (spot_type === 'Gen4/H1') {
-          channel_id = '1215020009307373649'
-        }
-        else {
-          channel_id = '1148013283006218352';
-        }*/
-        img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp` //await fetchCachedImage(channel_id, id);
+        img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp` 
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>
+          <strong>spot date:</strong> ${spot_date}<br>
           <strong>archived time:</strong> ${localTime}<br>
           <strong>archived by:</strong> ${author}<br>
           <img src="${img_url}" style="max-width: 100%; height: auto;">
@@ -6329,6 +6322,11 @@ function monthInRange(pano_date, monthRange) {
   }
 }
 
+function getTimestamp(dateString) {
+  const date = new Date(dateString);
+  return date.getTime() / 1000;
+}
+
 function applyFilters() {
   var dataToFilter
   if (isPeak) dataToFilter = altitude_data
@@ -6336,7 +6334,11 @@ function applyFilters() {
   else dataToFilter = update_data
 
   filterdata = dataToFilter.filter(item => {
-    const inDateRange = isPeak || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
+    const inDateRange = isPeak || isSpot|| item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
+
+    const inSpotDateRange = !isSpot ||
+      (getTimestamp(item.spot_date) >= filter_check.report_date[0] &&
+       getTimestamp(item.spot_date) <= filter_check.report_date[1])
 
     const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.types);
 
@@ -6352,7 +6354,7 @@ function applyFilters() {
       return poly.contains(point);
     }));
 
-    return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry && matchesRegion;
+    return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry && matchesRegion && inSpotDateRange;
   });
   if (filterdata) {
     if (isHeatmap) drawHeatmap(filterdata);
@@ -6422,66 +6424,71 @@ authorMonthDiv.style.backgroundImage = `url(${get_avatar("575338164269613066","a
 authorWeekDiv.style.backgroundImage = `url(${get_avatar("575338164269613066","a56792efc15ce9213f3bd6d2acbe418f")})`;*/
 
 
-const datepicker = new AirDatepicker('#calendar', {
-  onSelect({ date }) {
-    if (date.length > 1 && isRangeMode) {
-      filter_check.report_date[0] = Math.floor(date[0].getTime() / 1000)
-      filter_check.report_date[1] = Math.floor(date[1].getTime() / 1000) + 86400
-    }
-    else {
-      const localdate = new Date(date)
-      filter_check.report_date[0] = Math.floor(localdate.getTime() / 1000)
-      filter_check.report_date[1] = filter_check.report_date[0] + 86400
-    }
-    applyFilters()
-
-  },
-  onRenderCell({ date, cellType }) {
-    if (cellType === 'day') {
-      const startOfDay = new Date(date);
-      startOfDay.setHours(0, 0, 0, 0);
-      const endOfDay = new Date(date);
-      endOfDay.setHours(23, 59, 59, 999);
-
-      const matchingDates = [];
-
-      for (const [timestamp, countryCode] of Object.entries(specialDates)) {
-        const specialDate = new Date(timestamp);
-        if (isDateInRange(specialDate, startOfDay, endOfDay)) {
-          matchingDates.push({ timestamp, countryCode });
-        }
-      }
-
-      if (matchingDates.length > 0) {
-        const randomIndex = Math.floor(Math.random() * matchingDates.length);
-        const initialFlagUrl = getFlagUrl(matchingDates[randomIndex].countryCode);
-        return {
-          html: `<div class="custom-cell">
-                          <img class="emoji" src="${initialFlagUrl}">
-                      </div>`,
-          classes: 'custom-cell'
-        };
-      }
-    }
-  },
-
-  autoClose: false,
-  singleDatePicker: true,
-  range: isRangeMode,
-  locale: {
-    days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-    daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-    daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
-    months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-    monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-    today: "Today",
-    clear: "Clear",
-    dateFormat: "MM/DD/YYYY",
-    timeFormat: "HH:mm",
-    firstDay: 0
+function initDatePicker(view = 'days', minView = 'days', isRangeMode = false,id) {
+  if (datepicker) {
+    datepicker.destroy();
   }
 
-});
+  datepicker = new AirDatepicker('#calendar', {
+    view: view, 
+    minView: minView,
+    range: isRangeMode,
+    singleDatePicker: !isRangeMode,
+    onSelect({ date }) {
+      if (date.length > 1 && isRangeMode) {
+        filter_check.report_date[0] = Math.floor(date[0].getTime() / 1000);
+        filter_check.report_date[1] = Math.floor(date[1].getTime() / 1000) + 86400;
+      } else {
+        const localdate = new Date(date);
+        filter_check.report_date[0] = Math.floor(localdate.getTime() / 1000);
+        filter_check.report_date[1] = filter_check.report_date[0] + 86400;
+      }
+      applyFilters();
+    },
+    onRenderCell({ date, cellType }) {
+      if (cellType === 'day') {
+        const startOfDay = new Date(date);
+        startOfDay.setHours(0, 0, 0, 0);
+        const endOfDay = new Date(date);
+        endOfDay.setHours(23, 59, 59, 999);
+
+        const matchingDates = [];
+
+        for (const [timestamp, countryCode] of Object.entries(specialDates)) {
+          const specialDate = new Date(timestamp);
+          if (isDateInRange(specialDate, startOfDay, endOfDay)) {
+            matchingDates.push({ timestamp, countryCode });
+          }
+        }
+
+        if (matchingDates.length > 0) {
+          const randomIndex = Math.floor(Math.random() * matchingDates.length);
+          const initialFlagUrl = getFlagUrl(matchingDates[randomIndex].countryCode);
+          return {
+            html: `<div class="custom-cell">
+                          <img class="emoji" src="${initialFlagUrl}">
+                      </div>`,
+            classes: 'custom-cell'
+          };
+        }
+      }
+    },
+    autoClose: false,
+    locale: {
+      days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
+      months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+      monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      today: "Today",
+      clear: "Clear",
+      dateFormat: "MM/DD/YYYY",
+      timeFormat: "HH:mm",
+      firstDay: 0
+    }
+  });
+}
+initDatePicker('days', 'days', false);
 
 const monthPicker = new AirDatepicker('#monthpicker', {
   view: 'months',
@@ -6548,13 +6555,32 @@ toggle_line_color.addEventListener('click', function () {
 
 });
 
-const toggle_calendar = document.getElementById('calendar-toggle');
-toggle_calendar.addEventListener('click', function () {
+const toggle_calendar_mode = document.querySelector('.calendar.toggle.mode');
+toggle_calendar_mode.addEventListener('click', function () {
   isRangeMode = !isRangeMode;
   datepicker.update({
     range: isRangeMode
   });
-  toggle_calendar.textContent = isRangeMode ? 'Range' : 'Single';
+  toggle_calendar_mode.textContent = isRangeMode ? 'Range' : 'Single';
+});
+
+const toggle_calendar_view= document.querySelector('.calendar.toggle.view');
+toggle_calendar_view.addEventListener('click', function () {
+  if (currentView === 'days') {
+    initDatePicker('months', 'months', isRangeMode);
+    toggle_calendar_view.textContent = 'Month';
+    currentView = 'months';
+  } else if (currentView === 'months') {
+
+    initDatePicker('years', 'years', isRangeMode);
+    toggle_calendar_view.textContent = 'Year'; 
+    currentView = 'years'; 
+  } else if (currentView === 'years') {
+
+    initDatePicker('days', 'days', isRangeMode);
+    toggle_calendar_view.textContent = 'Day'; 
+    currentView = 'days'; 
+  }
 });
 
 const toggle_heatmap = document.querySelector('.control.heatmap')
