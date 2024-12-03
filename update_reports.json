@@ -142314,5 +142314,95 @@
         "country": "IN",
         "region": "Maharashtra",
         "altitude": 20.73
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733168201,
+        "author": "JustEmilo",
+        "id": "1313227359813369907",
+        "panoId": "G66BDNEqXUvD-WJug1X9Pg",
+        "lat": 40.05238,
+        "lng": 0.02409,
+        "date": "Nov 2024",
+        "country": "ES",
+        "region": "Valencian Community",
+        "altitude": 122.81
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1733174441,
+        "author": "Diamond Armor Steve",
+        "id": "1313253533734142034",
+        "panoId": "HS713UOekQ6VgWq3ajexMw",
+        "lat": 32.17101,
+        "lng": -88.28179,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Alabama",
+        "altitude": 54.58
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1733174441,
+        "author": "Diamond Armor Steve",
+        "id": "1313253533734142034",
+        "panoId": "vZyMYhSG26c-VSrabs2MnQ",
+        "lat": 38.43191,
+        "lng": -79.44451,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Virginia",
+        "altitude": 767.33
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733174441,
+        "author": "Diamond Armor Steve",
+        "id": "1313253533734142034",
+        "panoId": "PdsW-K1Mn_lNam9L7KU03A",
+        "lat": 37.00531,
+        "lng": -80.74603,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Virginia",
+        "altitude": 645.51
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733174441,
+        "author": "Diamond Armor Steve",
+        "id": "1313253533734142034",
+        "panoId": "ygYFUhlDuLR6iCuqrBr7Hw",
+        "lat": 37.78838,
+        "lng": -79.88237,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Virginia",
+        "altitude": 352.99
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733182984,
+        "author": "Zorro Pepe",
+        "id": "1313289364901728297",
+        "panoId": "2fmRfOWtr5M3aUXY9yMANw",
+        "lat": 4.73529,
+        "lng": -74.28063,
+        "date": "Aug 2024",
+        "country": "CO",
+        "region": "Cundinamarca",
+        "altitude": 2551.35
     }
 ]
