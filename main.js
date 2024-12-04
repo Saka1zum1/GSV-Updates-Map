@@ -6007,7 +6007,7 @@ let isCluster = true
 let isPeak = false
 let isSpot = false
 let isRegion = false
-let update_data, altitude_data, spots_data, filterdata, region_updates
+let update_data, altitude_data, spots_data, filterdata, region_updates, countries
 let datepicker
 let currentView = 'days'
 let filter_check = {
@@ -6016,7 +6016,7 @@ let filter_check = {
   pano_date: [],
   poly: [],
   country: null,
-  region: null
+  regions: []
 }
 let markers = []
 let cache = {}
@@ -6044,7 +6044,6 @@ const specialDates = {
   '2023-07-24T20:03:00Z': 'de',
 
 };
-
 
 function getFlagEmoji(countryCode) {
   return countryCode
@@ -6098,10 +6097,9 @@ function drawMarkers(data) {
   markers = [];
 
   data.forEach(item => {
-    const { lat, lng, author, types, report_time, date, altitude, panoId, links, id, spot_type, spot_date, region } = item;
+    const { lat, lng, author, types, report_time, date, panoId, links, id, spot_type, spot_date, region } = item;
     if (report_time) {
       var localTime = new Date(report_time * 1000).toLocaleString();
-
     }
     let popupContent = '';
     const marker = L.marker([lat, lng]);
@@ -6114,7 +6112,6 @@ function drawMarkers(data) {
         ).join(' ')}<br>
           <strong>pano date:</strong> ${date}<br>
           <strong>region:</strong> ${region}<br>
-          <strong>elevation:</strong> ${altitude}m<br>
           <strong>report time:</strong> ${localTime}<br>
           <strong>report by:</strong> ${author}<br>
           <img src="${img_url}" style="max-width: 100%; height: auto;">`;
@@ -6123,6 +6120,7 @@ function drawMarkers(data) {
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>
           <strong>spot date:</strong> ${spot_date}<br>
+          <strong>region:</strong> ${region}<br>
           <strong>archived time:</strong> ${localTime}<br>
           <strong>archived by:</strong> ${author}<br>
           <img src="${img_url}" style="max-width: 100%; height: auto;">
@@ -6168,90 +6166,138 @@ function drawMarkers(data) {
   }
 }
 
+function debounce(func, delay) {
+  let timeout;
+  return function () {
+    clearTimeout(timeout);
+    timeout = setTimeout(func, delay);
+  };
+}
+
 function createSearchPopup() {
   let popup = document.getElementById('search-popup');
 
-  if (popup) return
+  if (popup) return;
   else {
     popup = document.createElement('div');
     popup.id = 'search-popup';
   }
-
-  const searchInput = document.createElement('input');
-  searchInput.classList.add('search-input')
-  searchInput.type = 'text';
-  searchInput.placeholder = 'Search for regions...';
-
-
+  
   const resultList = document.createElement('ul');
   resultList.style.listStyleType = 'none';
   resultList.style.padding = '0';
+  resultList.style.marginBottom = '30px';
+  let resultCount = 0;
+  
+  function createListItem(text, title, flag, clickCallback) {
+    const listItem = document.createElement('li');
+    listItem.style.margin = '5px';
+    listItem.style.cursor = 'pointer';
+    listItem.textContent = `${flag} ${text}`;
+    listItem.title = title;
+  
+    listItem.addEventListener('mouseover', function () {
+      listItem.style.backgroundColor = 'rgba(255, 255, 153, 0.6)';
+    });
+  
+    listItem.addEventListener('mouseout', function () {
+      listItem.style.backgroundColor = '';
+    });
+  
+    listItem.addEventListener('click', clickCallback);
+  
+    return listItem;
+  }
+  
+  const searchInput = document.createElement('input');
+  searchInput.classList.add('search-input');
+  searchInput.type = 'text';
 
-  searchInput.addEventListener('input', function () {
+
+  searchInput.placeholder = 'Search for country or region...';
+  
+  let combinedData = [];
+
+  Object.keys(countries).forEach(country => {
+    const flag = getFlagEmoji(country);
+    combinedData.push({
+      type: 'country',
+      name: countries[country],
+      code: country,
+      flag: flag
+    });
+  
+    if (region_updates[country]) {
+      Object.keys(region_updates[country]).forEach(region => {
+        combinedData.push({
+          type: 'region',
+          name: region,
+          code: country,
+          flag: flag
+        });
+      });
+    }
+  });
+  
+  searchInput.addEventListener('input', debounce(function () {
     const searchQuery = searchInput.value.toLowerCase();
     resultList.innerHTML = '';
+    resultCount = 0;
+  
+    combinedData.forEach(item => {
+      if (item.name.toLowerCase().includes(searchQuery) && resultCount < 8) {
+        const listItem = createListItem(item.name, item.name, item.flag, function () {
+          if (item.type === 'country') {
+            searchInput.value = `${item.flag} ${item.name}`;
+          } else if (item.type === 'region') {
+            searchInput.value = `${item.flag} ${item.name}`;
+            filter_check.regions.push(item.name);
+          }
+          filter_check.country = item.code;
 
-    let resultCount = 0;
-    Object.keys(region_updates).forEach(country => {
-      Object.keys(region_updates[country]).forEach(region => {
-        if (region.toLowerCase().includes(searchQuery) && resultCount < 5) {
-          const listItem = document.createElement('li');
-          listItem.style.margin = '2px'
-          listItem.style.cursor = 'pointer';
-          const flag = getFlagEmoji(country);
-          listItem.textContent = `${flag} ${region}`
-          listItem.title = `${region}`
-
-          listItem.addEventListener('mouseover', function () {
-            listItem.style.backgroundColor = 'rgba(255, 255, 153, 0.6)';
-          });
-
-          listItem.addEventListener('mouseout', function () {
-            listItem.style.backgroundColor = '';
-          });
-
-          listItem.addEventListener('click', function () {
-            filter_check.region = region;
-            document.body.removeChild(popup);
-            isRegion = true
-            applyFilters()
-            LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35"
-            roadmapLabelsLayer.setUrl(LabelsUrl)
-            terrainLabelsLayer.setUrl(LabelsUrl)
-            satelliteLabelsLayer.setUrl(LabelsUrl)
-          });
-
-          resultList.appendChild(listItem);
-          resultCount++;
-        }
-      });
+          filter_flag.innerHTML = item.flag;
+        });
+  
+        resultList.appendChild(listItem);
+        resultCount++;
+      }
     });
-  });
-
-
+  }, 200));
+  
   popup.appendChild(searchInput);
   popup.appendChild(resultList);
 
-
   const closeButton = document.createElement('button');
-  closeButton.textContent = 'Close';
-  closeButton.style.marginTop = '10px';
-  closeButton.style.padding = '5px 10px';
+  closeButton.textContent = '×';
+  closeButton.classList.add('button-base', 'close-button');
+
+
   closeButton.addEventListener('click', function () {
     document.body.removeChild(popup);
-    isRegion = false
+    isRegion = false;
+  });
+  const confirmButton = document.createElement('button');
+  confirmButton.textContent = 'OK';
+  confirmButton.classList.add('button-base', 'confirm-button');
+
+
+  confirmButton.addEventListener('click', function () {
+    applyFilters()
+    document.body.removeChild(popup);
+    filter_country.appendChild(filter_flag);
+    LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35";
+    roadmapLabelsLayer.setUrl(LabelsUrl);
+    terrainLabelsLayer.setUrl(LabelsUrl);
+    satelliteLabelsLayer.setUrl(LabelsUrl);
   });
 
-  popup.appendChild(closeButton);
 
+  popup.appendChild(confirmButton);
+  popup.appendChild(closeButton);
   document.body.appendChild(popup);
-  document.addEventListener('click', function (event) {
-    if (!popup.contains(event.target) && event.target !== region_button) {
-      document.body.removeChild(popup);
-      isRegion = false
-    }
-  }, { twice: true });
+
 }
+
 
 function isInPolygon(polygon) {
   const bounds = polygon.getBounds();
@@ -6325,7 +6371,7 @@ function applyFilters() {
 
     const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
 
-    const matchesRegion = !filter_check.region || item.region === filter_check.region;
+    const matchesRegion = !filter_check.regions.length || filter_check.regions.includes(item.region);
 
     const pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
       const point = L.latLng(item.lat, item.lng);
@@ -6392,6 +6438,19 @@ fetch('region_updates.json')
     region_updates = data
   })
   .catch(error => console.error('Error parsing json:', error));
+
+fetch('countries.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network error!');
+    }
+    return response.json();
+  })
+  .then(data => {
+    countries = data
+  })
+  .catch(error => console.error('Error parsing json:', error));
+
 function get_avatar(id, avatar_id) {
   return `https://cdn.discordapp.com/avatars/${id}/${avatar_id}.webp`
 }
@@ -6672,21 +6731,6 @@ copy_button.addEventListener('click', function () {
   });
 });
 
-const region_button = document.querySelector('.control.region')
-region_button.addEventListener('click', function () {
-  if (!isRegion) {
-    createSearchPopup()
-  }
-  else {
-    isRegion = false
-    filter_check.region = null
-    applyFilters()
-    LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35"
-    roadmapLabelsLayer.setUrl(LabelsUrl)
-    terrainLabelsLayer.setUrl(LabelsUrl)
-    satelliteLabelsLayer.setUrl(LabelsUrl)
-  }
-});
 
 const filter_type = document.querySelector('.filter.type')
 const checkboxContainer = document.getElementById('checkboxContainer-type');
@@ -6734,19 +6778,20 @@ const filter_country = document.querySelector('.filter.country')
 const filter_flag = document.createElement('span');
 filter_flag.className = 'filter-flag'
 filter_country.addEventListener('click', function () {
-  if (!filter_check.country) {
-    const countryCode = prompt("please enter a country code：")
-    if (countryCode) {
-      filter_check.country = countryCode;
-      filter_flag.innerHTML = `${getFlagEmoji(countryCode.toLowerCase())}`;
-      filter_country.appendChild(filter_flag)
-      applyFilters()
-    }
+  if (!isRegion) {
+    createSearchPopup()
+    isRegion=true
   }
   else {
-    filter_check.country = null
+    isRegion = false
+    filter_check.regions = []
+    filter_check.country= null
     filter_country.removeChild(filter_flag)
     applyFilters()
+    LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35"
+    roadmapLabelsLayer.setUrl(LabelsUrl)
+    terrainLabelsLayer.setUrl(LabelsUrl)
+    satelliteLabelsLayer.setUrl(LabelsUrl)
   }
 
 })

@@ -4231,7 +4231,7 @@
         "lat": 36.52571,
         "lng": -80.86728,
         "date": "OCT 2024",
-        "country": "AU",
+        "country": "US",
         "altitude": 445.25,
         "region": "North Carolina"
     },
@@ -142881,7 +142881,7 @@
     },
     {
         "types": [
-            "newregion",
+            "newcountry",
             "newtrekker"
         ],
         "report_time": 1733317672,
@@ -142908,5 +142908,76 @@
         "date": "Nov 2024",
         "country": "AU",
         "region": "Victoria"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733320963,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1313868092450934794",
+        "panoId": "ve3WFCzoxC2RwwhkB9K_lA",
+        "lat": 51.05023,
+        "lng": 2.37126,
+        "date": "Aug 2024",
+        "country": "FR",
+        "region": "Hauts-de-France"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733319679,
+        "author": "Unhook",
+        "id": "1313862704053751808",
+        "panoId": "R6clw6vZNTfgEAcBdWHLRQ",
+        "lat": 37.3633,
+        "lng": 40.59053,
+        "date": "Nov 2024",
+        "country": "TR",
+        "region": "Mardin"
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1733323837,
+        "author": "vegetal",
+        "id": "1313880147816087573",
+        "panoId": "WWviKLfiy9dRw70ET78Bpg",
+        "lat": -29.40545,
+        "lng": 153.34984,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "New South Wales"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733319765,
+        "author": "DeSlagen",
+        "id": "1313863068236906577",
+        "panoId": "QV79EeBSKLVzljkam9-liw",
+        "lat": 43.72226,
+        "lng": 10.39117,
+        "date": "Oct 2024",
+        "country": "IT",
+        "region": "Tuscany"
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1733319644,
+        "author": "DeSlagen",
+        "id": "1313862560155439216",
+        "panoId": "QZ3LiscX4W-Rtm33m3FifA",
+        "lat": 52.71694,
+        "lng": -2.70478,
+        "date": "Nov 2024",
+        "country": "GB",
+        "region": "England"
     }
 ]

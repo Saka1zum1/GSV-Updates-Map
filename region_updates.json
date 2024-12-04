@@ -10675,6 +10675,21 @@
                 "country": "US",
                 "altitude": 36.86,
                 "region": "North Carolina"
+            },
+            "OCT": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1729270473,
+                "author": "Update Tracker Bot",
+                "panoId": "Qh5lJ92UCfhqgwxdCcdeUg",
+                "lat": 36.52571,
+                "lng": -80.86728,
+                "date": "OCT 2024",
+                "country": "US",
+                "altitude": 445.25,
+                "region": "North Carolina"
             }
         },
         "Indiana": {
@@ -21833,23 +21848,6 @@
                 "region": "Queensland"
             }
         },
-        "North Carolina": {
-            "OCT": {
-                "types": [
-                    "newregion",
-                    "newroad"
-                ],
-                "report_time": 1729270473,
-                "author": "Update Tracker Bot",
-                "panoId": "Qh5lJ92UCfhqgwxdCcdeUg",
-                "lat": 36.52571,
-                "lng": -80.86728,
-                "date": "OCT 2024",
-                "country": "AU",
-                "altitude": 445.25,
-                "region": "North Carolina"
-            }
-        },
         "Victoria": {
             "Aug": {
                 "types": [
@@ -26137,6 +26135,20 @@
                 "date": "Jan 2024",
                 "country": "TR",
                 "altitude": 529.14,
+                "region": "Mardin"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733319679,
+                "author": "Unhook",
+                "id": "1313862704053751808",
+                "panoId": "R6clw6vZNTfgEAcBdWHLRQ",
+                "lat": 37.3633,
+                "lng": 40.59053,
+                "date": "Nov 2024",
+                "country": "TR",
                 "region": "Mardin"
             }
         },

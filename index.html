@@ -257,15 +257,45 @@
             opacity: 0.9;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             z-index: 1000;
+            font-family: inherit;
         }
 
         .search-input {
             width: 300px;
             padding: 10px;
-            margin-bottom: 10px;
             border-color: #000000;
             border-style: solid;
             border-width: 2px;
+            font-family: inherit;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        .button-base {
+            position: absolute;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .confirm-button {
+            display: block;
+            padding: 5px 10px;
+            left: 45%;
+            bottom: 5px;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .close-button {
+            top: 5px;
+            right: 5px;
+            background-color: transparent;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 0;
+            font-weight: bold;
         }
 
         li {
@@ -292,18 +322,15 @@
         style="right:60px; bottom: 10px; background-image: url('assets/markers.svg')"></div>
     <div class="control copy" data-text="Copy as JSON"
         style="right:110px; bottom: 10px; background-image: url('assets/copy.svg')"></div>
-    <div class="control region" data-text="Find Specific Region"
-        style="right:160px; bottom: 10px; background-image: url('assets/puzzle.svg'); background-size: 32px; background-repeat: no-repeat;">
-    </div>
     <div class="control peak" data-text="Peak Locations"
-        style="right:210px; bottom: 10px; background-image: url('assets/pegman_peak.png')"></div>
+        style="right:160px; bottom: 10px; background-image: url('assets/pegman_peak.png')"></div>
     <div class="control spot" data-text="Where the Google car is"
-        style="right:260px; bottom: 10px; background-image: url('assets/pegman_spot.png')"></div>
+        style="right:210px; bottom: 10px; background-image: url('assets/pegman_spot.png')"></div>
     <div class="filter type" data-text="Filter by update types"
         style="left:15px; top: 70px; background-image: url('assets/pegman_hi.gif')"></div>
     <div class="filter date" data-text="Filter by pano month"
         style="left:15px; top: 170px; background-image: url('assets/pegman_look.gif')"></div>
-    <div class="filter country" data-text="Filter by country"
+    <div class="filter country" data-text="Filter by specific country or region"
         style="left:15px; top: 270px; background-image: url('assets/pegman_map.gif')"></div>
     <div class="checkbox-container" id="checkboxContainer-type">
         <div class="checkbox-item">
