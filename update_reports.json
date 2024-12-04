@@ -142659,5 +142659,254 @@
         "country": "BR",
         "region": "State of Mato Grosso do Sul",
         "altitude": 415.37
+    },
+    {
+        "types": [
+            "newregion",
+            "newtrekker"
+        ],
+        "report_time": 1733306469,
+        "author": "Steve",
+        "id": "1313807297235124308",
+        "panoId": "rQ2FC7PaTVoiR6DoukILrQ",
+        "lat": 44.06547,
+        "lng": 12.58193,
+        "date": "Oct 2024",
+        "country": "IT",
+        "region": "Emilia-Romagna",
+        "altitude": 2.09
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733310475,
+        "author": "jpeters",
+        "id": "1313824102326206516",
+        "panoId": "5986B2nUj0tZ73i_ZNbYFA",
+        "lat": 43.76986,
+        "lng": 11.25522,
+        "date": "Sep 2024",
+        "country": "IT",
+        "region": "Tuscany",
+        "altitude": 50.88
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733310393,
+        "author": "jpeters",
+        "id": "1313823756694585376",
+        "panoId": "8_uPvZkraA2lVXGg-2CXcQ",
+        "lat": 43.71754,
+        "lng": 10.40196,
+        "date": "Sep 2024",
+        "country": "IT",
+        "region": "Tuscany",
+        "altitude": 7.51
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733313204,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313835548493877308",
+        "panoId": "RTeIQZLBambFZyULmkkyyA",
+        "lat": 44.49437,
+        "lng": 11.34361,
+        "date": "Oct 2024",
+        "country": "IT",
+        "region": "Emilia-Romagna",
+        "altitude": 62.5
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733312117,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313830987104522242",
+        "panoId": "-JcuTUd7m7ne9od0EaC_JA",
+        "lat": 50.63075,
+        "lng": 3.06228,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Hauts-de-France",
+        "altitude": 22.46
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733312117,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313830987104522242",
+        "panoId": "WIRTyQQZyON5WC1l4_LhHA",
+        "lat": 48.69157,
+        "lng": 6.1831,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Grand Est",
+        "altitude": 205.34
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733312117,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313830987104522242",
+        "panoId": "ZmI8W-0Erws9lMWQzm8EUQ",
+        "lat": 45.19205,
+        "lng": 5.72912,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Auvergne-Rh\u00f4ne-Alpes",
+        "altitude": 214.04
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733312117,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313830987104522242",
+        "panoId": "qN6EjHmHmtfQzr5-PDQ7kQ",
+        "lat": 48.11311,
+        "lng": -1.68122,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Brittany",
+        "altitude": 39.15
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733311547,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313828598649716769",
+        "panoId": "y07uZ7MEkVfm3V2Pwg1dYg",
+        "lat": 50.84696,
+        "lng": 4.35233,
+        "date": "Jul 2024",
+        "country": "BE",
+        "region": "Brussels",
+        "altitude": 21.17
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733311310,
+        "author": "jpeters",
+        "id": "1313827604901658655",
+        "panoId": "adHAdNAPqj9AGrlj6lH0bQ",
+        "lat": 45.90043,
+        "lng": 6.1292,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Auvergne-Rh\u00f4ne-Alpes",
+        "altitude": 449.5
+    },
+    {
+        "types": [
+            "newregion",
+            "newtrekker"
+        ],
+        "report_time": 1733317672,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313854288396550225",
+        "panoId": "RpavI7CD-as23tAGacQyOA",
+        "lat": 39.94072,
+        "lng": 32.85828,
+        "date": "Oct 2024",
+        "country": "TR",
+        "region": "Ankara",
+        "altitude": 883.13
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733315958,
+        "author": "Steve",
+        "id": "1313847099200245773",
+        "panoId": "NPA4IY7CHerZ0Czmp03puQ",
+        "lat": -34.18698,
+        "lng": 147.11237,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "New South Wales",
+        "altitude": 280.69
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733312117,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313830987104522242",
+        "panoId": "Ucab1Pcgs3k8S1o7Y2R5bw",
+        "lat": 48.11355,
+        "lng": -1.67932,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Brittany",
+        "altitude": 38.45
+    },
+    {
+        "types": [
+            "newregion",
+            "newtrekker"
+        ],
+        "report_time": 1733318114,
+        "author": "\u8c46\u8c46\u5196",
+        "id": "1313856142614728834",
+        "panoId": "JO0dlgi-HJLu5_9Qs-a2qA",
+        "lat": 36.88869,
+        "lng": 30.70355,
+        "date": "Nov 2024",
+        "country": "TR",
+        "region": "Antalya"
+    },
+    {
+        "types": [
+            "newregion",
+            "newtrekker"
+        ],
+        "report_time": 1733317672,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1313854288396550225",
+        "panoId": "qRbleMDgPMfBIQciPRlTQQ",
+        "lat": 38.42179,
+        "lng": 27.13548,
+        "date": "Nov 2024",
+        "country": "TR",
+        "region": "\u0130zmir"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen1update"
+        ],
+        "report_time": 1733313553,
+        "author": "Update Tracker Bot",
+        "id": "1313837010921848883",
+        "panoId": "8qn5yd0pz0q8bHJ10kVQ0w",
+        "lat": -37.05176,
+        "lng": 143.92074,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "Victoria"
     }
 ]

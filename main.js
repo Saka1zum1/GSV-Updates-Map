@@ -6054,7 +6054,6 @@ function getFlagEmoji(countryCode) {
     .join('');
 }
 
-
 async function fetchCachedImage(channel_id, id) {
   const cacheKey = `${channel_id}-${id}`;
   if (cache[cacheKey]) {
@@ -6066,7 +6065,6 @@ async function fetchCachedImage(channel_id, id) {
     return img_url
   };
 }
-
 
 async function fetch_attachments(channel_id, message_id) {
   const url = `.netlify/functions/discord-api?channel_id=${channel_id}&message_id=${message_id}`;
@@ -6092,10 +6090,6 @@ async function fetch_attachments(channel_id, message_id) {
 
 function isDateInRange(date, startDate, endDate) {
   return date >= startDate && date <= endDate;
-}
-
-function getFlagUrl(countryCode) {
-  return `https://flagicons.lipis.dev/flags/4x3/${countryCode}.svg`;
 }
 
 function drawMarkers(data) {
@@ -6175,33 +6169,19 @@ function drawMarkers(data) {
 }
 
 function createSearchPopup() {
-  let popup = document.getElementById('serach-popup');
+  let popup = document.getElementById('search-popup');
 
   if (popup) return
   else {
     popup = document.createElement('div');
-    popup.id = 'serach-popup';
+    popup.id = 'search-popup';
   }
-  popup.style.position = 'fixed';
-  popup.style.top = '50%';
-  popup.style.left = '50%';
-  popup.style.transform = 'translate(-50%, -50%)';
-  popup.style.padding = '20px';
-  popup.style.backgroundColor = 'white';
-  popup.style.opacity = '0.9'
-  popup.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
-  popup.style.zIndex = '1000';
-  popup.classList.add('popup');
 
   const searchInput = document.createElement('input');
+  searchInput.classList.add('search-input')
   searchInput.type = 'text';
   searchInput.placeholder = 'Search for regions...';
-  searchInput.style.width = '300px';
-  searchInput.style.padding = '10px';
-  searchInput.style.marginBottom = '10px';
-  searchInput.style.borderColor = '#000000';
-  searchInput.style.borderStyle = 'solid';
-  searchInput.style.borderWidth = '2px';
+
 
   const resultList = document.createElement('ul');
   resultList.style.listStyleType = 'none';
@@ -6272,7 +6252,6 @@ function createSearchPopup() {
     }
   }, { twice: true });
 }
-
 
 function isInPolygon(polygon) {
   const bounds = polygon.getBounds();
@@ -6424,7 +6403,7 @@ authorMonthDiv.style.backgroundImage = `url(${get_avatar("575338164269613066","a
 authorWeekDiv.style.backgroundImage = `url(${get_avatar("575338164269613066","a56792efc15ce9213f3bd6d2acbe418f")})`;*/
 
 
-function initDatePicker(view = 'days', minView = 'days', isRangeMode = false, id) {
+function initDatePicker(view = 'days', minView = 'days') {
   if (datepicker) {
     datepicker.destroy();
   }
@@ -6436,45 +6415,40 @@ function initDatePicker(view = 'days', minView = 'days', isRangeMode = false, id
     singleDatePicker: !isRangeMode,
     onSelect({ date }) {
       let startDate, endDate;
-
-      if (view === 'months' || view === 'years') {
-        if (date.length > 1 && isRangeMode) {
-          startDate = date[0];
-          endDate = date[1];
-          if (view === 'months') {
-
-            startDate = new Date(date[0].getFullYear(), date[0].getMonth(), 1);
-            endDate = new Date(date[1].getFullYear(), date[1].getMonth() + 1, 0);
-          } else if (view === 'years') {
-            startDate = new Date(date[0].getFullYear(), 0, 1);
-            endDate = new Date(date[1].getFullYear(), 11, 31);
-          }
+      if (date.length > 1 && isRangeMode) {
+        if (view === 'months') {
+          startDate = new Date(date[0].getFullYear(), date[0].getMonth(), 1);
+          endDate = new Date(date[1].getFullYear(), date[1].getMonth() + 1, 0);
+        } else if (view === 'years') {
+          startDate = new Date(date[0].getFullYear(), 0, 1);
+          endDate = new Date(date[1].getFullYear(), 11, 31);
         }
         else {
-          const localdate = new Date(date);
-          if (view === 'months') {
-
-            startDate = new Date(localdate.getFullYear(), localdate.getMonth(), 1);
-            endDate = new Date(localdate.getFullYear(), localdate.getMonth() + 1, 0);
-          }
-          else if (view === 'years') {
-            startDate = new Date(localdate.getFullYear(), 0, 1);
-            endDate = new Date(localdate.getFullYear(), 11, 31);
-          }
-        }
-      } else {
-        if (date.length > 1 && isRangeMode) {
           startDate = date[0];
           endDate = date[1];
-        } else {
-          const localdate = new Date(date);
+        }
+        filter_check.report_date[0] = Math.floor(startDate.getTime() / 1000);
+        filter_check.report_date[1] = Math.floor(endDate.getTime() / 1000) + 86400;
+      }
+      else {
+        const localdate = new Date(date);
+        if (view === 'months') {
+
+          startDate = new Date(localdate.getFullYear(), localdate.getMonth(), 1);
+          endDate = new Date(localdate.getFullYear(), localdate.getMonth() + 1, 0);
+        }
+        else if (view === 'years') {
+          startDate = new Date(localdate.getFullYear(), 0, 1);
+          endDate = new Date(localdate.getFullYear(), 11, 31);
+        }
+        else {
           startDate = localdate;
           endDate = new Date(localdate.getTime() + 86400000);
         }
+        filter_check.report_date[0] = Math.floor(localdate.getTime() / 1000)
+        filter_check.report_date[1] = filter_check.report_date[0] + 86400
       }
 
-      filter_check.report_date[0] = Math.floor(startDate.getTime() / 1000);
-      filter_check.report_date[1] = Math.floor(endDate.getTime() / 1000) + (view === 'years' || view === 'months' ? 86400 : 0);
 
       applyFilters();
     },
@@ -6496,12 +6470,11 @@ function initDatePicker(view = 'days', minView = 'days', isRangeMode = false, id
 
         if (matchingDates.length > 0) {
           const randomIndex = Math.floor(Math.random() * matchingDates.length);
-          const initialFlagUrl = getFlagUrl(matchingDates[randomIndex].countryCode);
+          const flagEmoji = getFlagEmoji(matchingDates[randomIndex].countryCode);
           return {
             html: `<div class="custom-cell">
-                          <img class="emoji" src="${initialFlagUrl}">
-                      </div>`,
-            classes: 'custom-cell'
+                      <span style="font-family:TwemojiCountryFlags, sans-serif">${flagEmoji}</span> 
+                    </div>`
           };
         }
       }
@@ -6521,7 +6494,7 @@ function initDatePicker(view = 'days', minView = 'days', isRangeMode = false, id
     }
   });
 }
-initDatePicker('days', 'days', false);
+initDatePicker('days', 'days');
 
 const monthPicker = new AirDatepicker('#monthpicker', {
   view: 'months',
@@ -6566,7 +6539,6 @@ ht.on("draw:deleted", () => {
   filter_check.poly = []
   applyFilters()
 })
-
 
 const toggle_line_color = document.getElementById('color-board')
 toggle_line_color.style.background = `#${backgroundcolor}`;
@@ -6759,14 +6731,14 @@ filter_date.addEventListener('click', function () {
 })
 
 const filter_country = document.querySelector('.filter.country')
-const filter_flag = document.createElement('img');
+const filter_flag = document.createElement('span');
 filter_flag.className = 'filter-flag'
 filter_country.addEventListener('click', function () {
   if (!filter_check.country) {
     const countryCode = prompt("please enter a country code：")
     if (countryCode) {
       filter_check.country = countryCode;
-      filter_flag.src = `${getFlagUrl(countryCode.toLowerCase())}`;
+      filter_flag.innerHTML = `${getFlagEmoji(countryCode.toLowerCase())}`;
       filter_country.appendChild(filter_flag)
       applyFilters()
     }

@@ -12393,6 +12393,22 @@
                 "country": "IT",
                 "altitude": 201.45,
                 "region": "Emilia-Romagna"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733306469,
+                "author": "Steve",
+                "id": "1313807297235124308",
+                "panoId": "rQ2FC7PaTVoiR6DoukILrQ",
+                "lat": 44.06547,
+                "lng": 12.58193,
+                "date": "Oct 2024",
+                "country": "IT",
+                "region": "Emilia-Romagna",
+                "altitude": 2.09
             }
         },
         "Lombardia": {
@@ -21649,6 +21665,21 @@
                 "country": "AU",
                 "altitude": 76.64,
                 "region": "New South Wales"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733315958,
+                "author": "Steve",
+                "id": "1313847099200245773",
+                "panoId": "NPA4IY7CHerZ0Czmp03puQ",
+                "lat": -34.18698,
+                "lng": 147.11237,
+                "date": "Nov 2024",
+                "country": "AU",
+                "region": "New South Wales",
+                "altitude": 280.69
             }
         },
         "Queensland": {
@@ -21899,14 +21930,14 @@
                     "newregion",
                     "gen1update"
                 ],
-                "report_time": 1706270395,
-                "author": "vegetal",
-                "panoId": "Ibs8jC53aJiDfIObsPiXtg",
-                "lat": -36.42821,
-                "lng": 141.77864,
-                "date": "Nov 2023",
+                "report_time": 1733313553,
+                "author": "Update Tracker Bot",
+                "id": "1313837010921848883",
+                "panoId": "8qn5yd0pz0q8bHJ10kVQ0w",
+                "lat": -37.05176,
+                "lng": 143.92074,
+                "date": "Nov 2024",
                 "country": "AU",
-                "altitude": 163.78,
                 "region": "Victoria"
             },
             "Oct": {
@@ -25545,6 +25576,21 @@
                 "country": "TR",
                 "altitude": 308.2,
                 "region": "Antalya"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733318114,
+                "author": "\u8c46\u8c46\u5196",
+                "id": "1313856142614728834",
+                "panoId": "JO0dlgi-HJLu5_9Qs-a2qA",
+                "lat": 36.88869,
+                "lng": 30.70355,
+                "date": "Nov 2024",
+                "country": "TR",
+                "region": "Antalya"
             }
         },
         "Adana": {
@@ -25998,6 +26044,21 @@
                 "date": "Mar 2024",
                 "country": "TR",
                 "altitude": 136.19,
+                "region": "\u0130zmir"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733317672,
+                "author": "Larissa Santos-de Oliveira",
+                "id": "1313854288396550225",
+                "panoId": "qRbleMDgPMfBIQciPRlTQQ",
+                "lat": 38.42179,
+                "lng": 27.13548,
+                "date": "Nov 2024",
+                "country": "TR",
                 "region": "\u0130zmir"
             }
         },
@@ -27077,6 +27138,22 @@
                 "country": "TR",
                 "altitude": 795.74,
                 "region": "Ankara"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733317672,
+                "author": "Larissa Santos-de Oliveira",
+                "id": "1313854288396550225",
+                "panoId": "RpavI7CD-as23tAGacQyOA",
+                "lat": 39.94072,
+                "lng": 32.85828,
+                "date": "Oct 2024",
+                "country": "TR",
+                "region": "Ankara",
+                "altitude": 883.13
             }
         },
         "Bolu": {
