@@ -2032,7 +2032,7 @@
         "date": "Apr 2024",
         "country": "PE",
         "altitude": 550.83,
-        "region": "San Mart\u00edn"
+        "region": "San Martin"
     },
     {
         "types": [
@@ -142644,5 +142644,20 @@
         "country": "ID",
         "region": "Central Kalimantan",
         "altitude": 102.09
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733255007,
+        "author": "chise",
+        "id": "1313591452185661491",
+        "panoId": "3_CFI1wI6Me-9o3HVmNVeQ",
+        "lat": -23.27665,
+        "lng": -54.95512,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Mato Grosso do Sul",
+        "altitude": 415.37
     }
 ]

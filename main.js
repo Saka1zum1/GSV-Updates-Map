@@ -6105,7 +6105,7 @@ function drawMarkers(data) {
 
   data.forEach(item => {
     const { lat, lng, author, types, report_time, date, altitude, panoId, links, id, spot_type, spot_date, region } = item;
-    if(report_time){
+    if (report_time) {
       var localTime = new Date(report_time * 1000).toLocaleString();
 
     }
@@ -6125,7 +6125,7 @@ function drawMarkers(data) {
           <strong>report by:</strong> ${author}<br>
           <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       } else if (links) {
-        img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp` 
+        img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
           <strong>spot type:</strong> ${spot_type}<br>
           <strong>spot date:</strong> ${spot_date}<br>
@@ -6177,7 +6177,7 @@ function drawMarkers(data) {
 function createSearchPopup() {
   let popup = document.getElementById('serach-popup');
 
-  if (popup)return 
+  if (popup) return
   else {
     popup = document.createElement('div');
     popup.id = 'serach-popup';
@@ -6188,7 +6188,7 @@ function createSearchPopup() {
   popup.style.transform = 'translate(-50%, -50%)';
   popup.style.padding = '20px';
   popup.style.backgroundColor = 'white';
-  popup.style.opacity='0.9'
+  popup.style.opacity = '0.9'
   popup.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
   popup.style.zIndex = '1000';
   popup.classList.add('popup');
@@ -6233,7 +6233,7 @@ function createSearchPopup() {
           listItem.addEventListener('click', function () {
             filter_check.region = region;
             document.body.removeChild(popup);
-            isRegion=true
+            isRegion = true
             applyFilters()
             LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35"
             roadmapLabelsLayer.setUrl(LabelsUrl)
@@ -6259,7 +6259,7 @@ function createSearchPopup() {
   closeButton.style.padding = '5px 10px';
   closeButton.addEventListener('click', function () {
     document.body.removeChild(popup);
-    isRegion=false
+    isRegion = false
   });
 
   popup.appendChild(closeButton);
@@ -6267,10 +6267,10 @@ function createSearchPopup() {
   document.body.appendChild(popup);
   document.addEventListener('click', function (event) {
     if (!popup.contains(event.target) && event.target !== region_button) {
-        document.body.removeChild(popup);
-        isRegion=false
+      document.body.removeChild(popup);
+      isRegion = false
     }
-}, { twice: true });
+  }, { twice: true });
 }
 
 
@@ -6334,11 +6334,11 @@ function applyFilters() {
   else dataToFilter = update_data
 
   filterdata = dataToFilter.filter(item => {
-    const inDateRange = isPeak || isSpot|| item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
+    const inDateRange = isPeak || isSpot || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
 
     const inSpotDateRange = !isSpot ||
       (getTimestamp(item.spot_date) >= filter_check.report_date[0] &&
-       getTimestamp(item.spot_date) <= filter_check.report_date[1])
+        getTimestamp(item.spot_date) <= filter_check.report_date[1])
 
     const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.types);
 
@@ -6424,25 +6424,58 @@ authorMonthDiv.style.backgroundImage = `url(${get_avatar("575338164269613066","a
 authorWeekDiv.style.backgroundImage = `url(${get_avatar("575338164269613066","a56792efc15ce9213f3bd6d2acbe418f")})`;*/
 
 
-function initDatePicker(view = 'days', minView = 'days', isRangeMode = false,id) {
+function initDatePicker(view = 'days', minView = 'days', isRangeMode = false, id) {
   if (datepicker) {
     datepicker.destroy();
   }
 
   datepicker = new AirDatepicker('#calendar', {
-    view: view, 
+    view: view,
     minView: minView,
     range: isRangeMode,
     singleDatePicker: !isRangeMode,
     onSelect({ date }) {
-      if (date.length > 1 && isRangeMode) {
-        filter_check.report_date[0] = Math.floor(date[0].getTime() / 1000);
-        filter_check.report_date[1] = Math.floor(date[1].getTime() / 1000) + 86400;
+      let startDate, endDate;
+
+      if (view === 'months' || view === 'years') {
+        if (date.length > 1 && isRangeMode) {
+          startDate = date[0];
+          endDate = date[1];
+          if (view === 'months') {
+
+            startDate = new Date(date[0].getFullYear(), date[0].getMonth(), 1);
+            endDate = new Date(date[1].getFullYear(), date[1].getMonth() + 1, 0);
+          } else if (view === 'years') {
+            startDate = new Date(date[0].getFullYear(), 0, 1);
+            endDate = new Date(date[1].getFullYear(), 11, 31);
+          }
+        }
+        else {
+          const localdate = new Date(date);
+          if (view === 'months') {
+
+            startDate = new Date(localdate.getFullYear(), localdate.getMonth(), 1);
+            endDate = new Date(localdate.getFullYear(), localdate.getMonth() + 1, 0);
+          }
+          else if (view === 'years') {
+            startDate = new Date(localdate.getFullYear(), 0, 1);
+            endDate = new Date(localdate.getFullYear(), 11, 31);
+          }
+        }
       } else {
-        const localdate = new Date(date);
-        filter_check.report_date[0] = Math.floor(localdate.getTime() / 1000);
-        filter_check.report_date[1] = filter_check.report_date[0] + 86400;
+        if (date.length > 1 && isRangeMode) {
+          startDate = date[0];
+          endDate = date[1];
+        } else {
+          const localdate = new Date(date);
+          startDate = localdate;
+          endDate = new Date(localdate.getTime() + 86400000);
+        }
       }
+
+      filter_check.report_date[0] = Math.floor(startDate.getTime() / 1000);
+      filter_check.report_date[1] = Math.floor(endDate.getTime() / 1000) + (view === 'years' || view === 'months' ? 86400 : 0);
+
       applyFilters();
     },
     onRenderCell({ date, cellType }) {
@@ -6564,7 +6597,7 @@ toggle_calendar_mode.addEventListener('click', function () {
   toggle_calendar_mode.textContent = isRangeMode ? 'Range' : 'Single';
 });
 
-const toggle_calendar_view= document.querySelector('.calendar.toggle.view');
+const toggle_calendar_view = document.querySelector('.calendar.toggle.view');
 toggle_calendar_view.addEventListener('click', function () {
   if (currentView === 'days') {
     initDatePicker('months', 'months', isRangeMode);
@@ -6573,13 +6606,13 @@ toggle_calendar_view.addEventListener('click', function () {
   } else if (currentView === 'months') {
 
     initDatePicker('years', 'years', isRangeMode);
-    toggle_calendar_view.textContent = 'Year'; 
-    currentView = 'years'; 
+    toggle_calendar_view.textContent = 'Year';
+    currentView = 'years';
   } else if (currentView === 'years') {
 
     initDatePicker('days', 'days', isRangeMode);
-    toggle_calendar_view.textContent = 'Day'; 
-    currentView = 'days'; 
+    toggle_calendar_view.textContent = 'Day';
+    currentView = 'days';
   }
 });
 
@@ -6669,11 +6702,12 @@ copy_button.addEventListener('click', function () {
 
 const region_button = document.querySelector('.control.region')
 region_button.addEventListener('click', function () {
-  if(!isRegion) {
-    createSearchPopup()}
-  else{
-    isRegion=false
-    filter_check.region=null
+  if (!isRegion) {
+    createSearchPopup()
+  }
+  else {
+    isRegion = false
+    filter_check.region = null
     applyFilters()
     LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35"
     roadmapLabelsLayer.setUrl(LabelsUrl)
