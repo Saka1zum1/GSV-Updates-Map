@@ -143279,5 +143279,314 @@
         "date": "Oct 2024",
         "country": "AU",
         "region": "New South Wales"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733379750,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1314114661896949851",
+        "panoId": "Ru7NokLPFcp88lw_QGylOQ",
+        "lat": 51.22022,
+        "lng": 4.40038,
+        "date": "Jul 2024",
+        "country": "BE",
+        "region": "Flanders"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733379133,
+        "author": "DerZiggi",
+        "id": "1314112075605344267",
+        "panoId": "Vorml6mS4lFsVgrqqI2y_Q",
+        "lat": -45.7561,
+        "lng": 170.08185,
+        "date": "Oct 2024",
+        "country": "NZ",
+        "region": "Otago"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733383234,
+        "author": "vegetal",
+        "id": "1314129276290859051",
+        "panoId": "dp6wU_jVLL2gwwjeNTmJVg",
+        "lat": 50.63933,
+        "lng": 5.57833,
+        "date": "Oct 2024",
+        "country": "BE",
+        "region": "Wallonia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733382875,
+        "author": "vegetal",
+        "id": "1314127768073539664",
+        "panoId": "idXH-rBGwR_C8FNQRj16sw",
+        "lat": 45.05949,
+        "lng": 6.5263,
+        "date": "Oct 2024",
+        "country": "FR",
+        "region": "Provence-Alpes-C\u00f4te d'Azur"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733392789,
+        "author": "1xqd",
+        "id": "1314169350810501191",
+        "panoId": "M0Y0iCGWobxdcGnBXqfriA",
+        "lat": -41.07361,
+        "lng": 175.4601,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Wellington"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733392458,
+        "author": "1xqd",
+        "id": "1314167964358148117",
+        "panoId": "12QdM1SGk6YT06adXMhv2A",
+        "lat": -41.21579,
+        "lng": 175.47125,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Wellington"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733392263,
+        "author": "1xqd",
+        "id": "1314167146858680401",
+        "panoId": "2NpAi1zts2mBYm2Ee5TEnQ",
+        "lat": -41.21654,
+        "lng": 175.48419,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Wellington"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733391735,
+        "author": "1xqd",
+        "id": "1314164929816821810",
+        "panoId": "LE3S_5RI83VD-PYKtYxdjg",
+        "lat": -46.42978,
+        "lng": 169.58024,
+        "date": "Oct 2024",
+        "country": "NZ",
+        "region": "Otago"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733400082,
+        "author": "glebovski",
+        "id": "1314199938921660478",
+        "panoId": "ToAvyFUrJU0Nf5WXfoWxkg",
+        "lat": -34.36648,
+        "lng": 147.3194,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "New South Wales"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733399970,
+        "author": "glebovski",
+        "id": "1314199472426713139",
+        "panoId": "DyPqVEWcQlUmxUCqPH0QbQ",
+        "lat": -37.8351,
+        "lng": 142.15338,
+        "date": "Aug 2024",
+        "country": "AU",
+        "region": "Victoria"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733399608,
+        "author": "glebovski",
+        "id": "1314197952033456188",
+        "panoId": "BhvQ3dzIKGXgWJ_jaDImYA",
+        "lat": 44.0861,
+        "lng": -78.69081,
+        "date": "Aug 2024",
+        "country": "CA",
+        "region": "Ontario"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733399178,
+        "author": "glebovski",
+        "id": "1314196150257192970",
+        "panoId": "Pr-Ef-_RLdoACLN8J_WLgg",
+        "lat": 28.91923,
+        "lng": -96.40977,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733398936,
+        "author": "glebovski",
+        "id": "1314195133172023426",
+        "panoId": "W2WmDxFoUmNohxpaeZIZ-Q",
+        "lat": -4.95095,
+        "lng": -45.81848,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Maranh\u00e3o"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733398936,
+        "author": "glebovski",
+        "id": "1314195133172023426",
+        "panoId": "HltPrKfvs5eQaGz08Nye1w",
+        "lat": -5.4148,
+        "lng": -50.14747,
+        "date": "May 2024",
+        "country": "BR",
+        "region": "State of Par\u00e1"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733398639,
+        "author": "glebovski",
+        "id": "1314193887295836162",
+        "panoId": "jEuGAweHz6O4yXjClbHTBQ",
+        "lat": -32.56787,
+        "lng": -61.76751,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Santa Fe Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733398639,
+        "author": "glebovski",
+        "id": "1314193887295836162",
+        "panoId": "90BEU3ALM904ZafusfnenQ",
+        "lat": -32.58954,
+        "lng": -61.66927,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Santa Fe Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733398639,
+        "author": "glebovski",
+        "id": "1314193887295836162",
+        "panoId": "BiDchXGhfhuzSXOFGlZ2nQ",
+        "lat": -32.66466,
+        "lng": -58.38105,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Entre R\u00edos Province"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733416167,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1314267406952169482",
+        "panoId": "IaKUzjqnmAGyL1LgoEV_Bw",
+        "lat": 49.44484,
+        "lng": 1.09397,
+        "date": "Aug 2024",
+        "country": "FR",
+        "region": "Normandy"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733416167,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1314267406952169482",
+        "panoId": "F86ShHmQlDFGPKLv7ERv6w",
+        "lat": 47.89684,
+        "lng": 1.90786,
+        "date": "Aug 2024",
+        "country": "FR",
+        "region": "Centre-Val de Loire"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733416167,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1314267406952169482",
+        "panoId": "-IZSRI3Ur27J9zlx0d1zSA",
+        "lat": 49.10973,
+        "lng": 6.16281,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Grand Est"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733416167,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1314267406952169482",
+        "panoId": "kroFbU7aQB6yA-AdbrUxQw",
+        "lat": 45.78038,
+        "lng": 3.0844,
+        "date": "Aug 2024",
+        "country": "FR",
+        "region": "Auvergne-Rh\u00f4ne-Alpes"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733416167,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1314267406952169482",
+        "panoId": "v0aT0o7nqbRG1Edz4o7l5Q",
+        "lat": 47.47034,
+        "lng": -0.5654,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Pays de la Loire"
     }
 ]

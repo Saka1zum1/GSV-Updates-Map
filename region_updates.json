@@ -2850,6 +2850,21 @@
                 "country": "AR",
                 "altitude": 94.71,
                 "region": "Santa Fe Province"
+            },
+            "Nov": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1733378882,
+                "author": "DerZiggi",
+                "id": "1314111022109298698",
+                "panoId": "Un0HFy879UQBDKePoc24pw",
+                "lat": -32.72317,
+                "lng": -61.53137,
+                "date": "Nov 2024",
+                "country": "AR",
+                "region": "Santa Fe Province"
             }
         },
         "Buenos Aires Province": {
@@ -23197,6 +23212,21 @@
                 "country": "FR",
                 "altitude": 736.48,
                 "region": "Provence-Alpes-C\u00f4te d'Azur"
+            },
+            "Jul": {
+                "types": [
+                    "newtrekker",
+                    "newregion"
+                ],
+                "report_time": 1733346191,
+                "author": "mpk",
+                "id": "1313973903911030815",
+                "panoId": "ShFEM531hIsKT8Qzfg6I2Q",
+                "lat": 43.94725,
+                "lng": 4.8054,
+                "date": "Jul 2024",
+                "country": "FR",
+                "region": "Provence-Alpes-C\u00f4te d'Azur"
             }
         },
         "Auvergne-Rh\u00f4ne-Alpes": {
@@ -27217,6 +27247,22 @@
                 "country": "TR",
                 "altitude": 210.01,
                 "region": "Eski\u015fehir"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newtrekker",
+                    "gen3update"
+                ],
+                "report_time": 1733343755,
+                "author": "Steve",
+                "id": "1313963687580799037",
+                "panoId": "MsiCSKl51OJ2XXZ9BzCdpg",
+                "lat": 39.77575,
+                "lng": 30.51814,
+                "date": "Nov 2024",
+                "country": "TR",
+                "region": "Eski\u015fehir"
             }
         },
         "\u0130stanbul": {
@@ -27631,7 +27677,22 @@
                 "region": "Taranaki"
             }
         },
-        "Otago": {},
+        "Otago": {
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733379133,
+                "author": "DerZiggi",
+                "id": "1314112075605344267",
+                "panoId": "Vorml6mS4lFsVgrqqI2y_Q",
+                "lat": -45.7561,
+                "lng": 170.08185,
+                "date": "Oct 2024",
+                "country": "NZ",
+                "region": "Otago"
+            }
+        },
         "Tasman": {
             "Apr": {
                 "types": [
@@ -30854,6 +30915,20 @@
                 "date": "Oct 2024",
                 "country": "CN",
                 "altitude": 75.23,
+                "region": "Hsinchu County"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733374919,
+                "author": "Update Tracker Bot",
+                "id": "1314094400606830655",
+                "panoId": "Fsudxsd0iVIBYDYcoTfakQ",
+                "lat": 24.729,
+                "lng": 120.95996,
+                "date": "Nov 2024",
+                "country": "CN",
                 "region": "Hsinchu County"
             }
         },

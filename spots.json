@@ -29409,5 +29409,21 @@
         "lng": 135.77099,
         "country": "JP",
         "region": "Kyoto"
+    },
+    {
+        "spot_date": "2024/12/04",
+        "id": "1314082844775026688",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1083080839956809&set=a.166439858287583",
+            "https://maps.app.goo.gl/8CSy2gjfKDuRTjeXA"
+        ],
+        "report_time": 1733372164,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "Zurop-9DDGVIjC0ZG_1Lhw",
+        "lat": 35.02872,
+        "lng": -78.93079,
+        "country": "US",
+        "region": "North Carolina"
     }
 ]
