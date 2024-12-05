@@ -6016,7 +6016,7 @@ let filter_check = {
   pano_date: [],
   poly: [],
   country: null,
-  regions: []
+  region: null
 }
 let markers = []
 let cache = {}
@@ -6245,13 +6245,13 @@ function createSearchPopup() {
     resultCount = 0;
   
     combinedData.forEach(item => {
-      if (item.name.toLowerCase().includes(searchQuery) && resultCount < 8) {
+      if ((countries[item.code.toUpperCase()].toLowerCase().includes(searchQuery)||item.name.toLowerCase().includes(searchQuery)) && resultCount <10) {
         const listItem = createListItem(item.name, item.name, item.flag, function () {
           if (item.type === 'country') {
             searchInput.value = `${item.flag} ${item.name}`;
           } else if (item.type === 'region') {
             searchInput.value = `${item.flag} ${item.name}`;
-            filter_check.regions.push(item.name);
+            filter_check.region= item.name;
           }
           filter_check.country = item.code;
 
@@ -6282,13 +6282,15 @@ function createSearchPopup() {
 
 
   confirmButton.addEventListener('click', function () {
-    applyFilters()
     document.body.removeChild(popup);
+    if(!searchInput.value.toLowerCase().includes(countries[filter_check.country].toLowerCase())&&!searchInput.value.toLowerCase().includes(filter_check.region.toLowerCase())) return
+    applyFilters()
     filter_country.appendChild(filter_flag);
     LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35";
     roadmapLabelsLayer.setUrl(LabelsUrl);
     terrainLabelsLayer.setUrl(LabelsUrl);
     satelliteLabelsLayer.setUrl(LabelsUrl);
+    isRegion=true
   });
 
 
@@ -6371,7 +6373,7 @@ function applyFilters() {
 
     const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
 
-    const matchesRegion = !filter_check.regions.length || filter_check.regions.includes(item.region);
+    const matchesRegion = !filter_check.region || filter_check.region=== item.region;
 
     const pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
       const point = L.latLng(item.lat, item.lng);
@@ -6780,11 +6782,11 @@ filter_flag.className = 'filter-flag'
 filter_country.addEventListener('click', function () {
   if (!isRegion) {
     createSearchPopup()
-    isRegion=true
+
   }
   else {
     isRegion = false
-    filter_check.regions = []
+    filter_check.region = null
     filter_check.country= null
     filter_country.removeChild(filter_flag)
     applyFilters()
