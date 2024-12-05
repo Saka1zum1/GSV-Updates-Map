@@ -142979,5 +142979,148 @@
         "date": "Nov 2024",
         "country": "GB",
         "region": "England"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "newregion"
+        ],
+        "report_time": 1733346191,
+        "author": "mpk",
+        "id": "1313973903911030815",
+        "panoId": "ShFEM531hIsKT8Qzfg6I2Q",
+        "lat": 43.94725,
+        "lng": 4.8054,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Provence-Alpes-C\u00f4te d'Azur"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733344693,
+        "author": "astro_furball",
+        "id": "1313967621359800453",
+        "panoId": "wBcLq4IajoRSWBlylsrDhg",
+        "lat": 45.56096,
+        "lng": 5.92465,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Auvergne-Rh\u00f4ne-Alpes"
+    },
+    {
+        "types": [
+            "newregion",
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733343755,
+        "author": "Steve",
+        "id": "1313963687580799037",
+        "panoId": "MsiCSKl51OJ2XXZ9BzCdpg",
+        "lat": 39.77575,
+        "lng": 30.51814,
+        "date": "Nov 2024",
+        "country": "TR",
+        "region": "Eski\u015fehir"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733343517,
+        "author": "astro_furball",
+        "id": "1313962690741407774",
+        "panoId": "0smYSyhQZx989X0P3WPLrw",
+        "lat": 47.39793,
+        "lng": 0.67823,
+        "date": "Sep 2024",
+        "country": "FR",
+        "region": "Centre-Val de Loire"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733349889,
+        "author": "Gorka1311",
+        "id": "1313989415571423314",
+        "panoId": "1dkivXadWWej1Dss08kDEA",
+        "lat": 40.07813,
+        "lng": 0.03603,
+        "date": "Nov 2024",
+        "country": "ES",
+        "region": "Valencian Community"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733351176,
+        "author": "mpk",
+        "id": "1313994814420946976",
+        "panoId": "QtZMK_X_FTEvJzdHOGLXYw",
+        "lat": 47.32784,
+        "lng": 5.05047,
+        "date": "Aug 2024",
+        "country": "FR",
+        "region": "Bourgogne-Franche-Comt\u00e9"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733351176,
+        "author": "mpk",
+        "id": "1313994814420946976",
+        "panoId": "KPR5UiDJt272CP1000Chug",
+        "lat": 49.50162,
+        "lng": 0.11743,
+        "date": "Aug 2024",
+        "country": "FR",
+        "region": "Normandy"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733351176,
+        "author": "mpk",
+        "id": "1313994814420946976",
+        "panoId": "ooTNb0s0odETYaGY5Xr2rQ",
+        "lat": 49.89561,
+        "lng": 2.29459,
+        "date": "Aug 2024",
+        "country": "FR",
+        "region": "Hauts-de-France"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733351176,
+        "author": "mpk",
+        "id": "1313994814420946976",
+        "panoId": "4uBDT0IXt_oWprMlKC4qpQ",
+        "lat": 50.68965,
+        "lng": 3.18051,
+        "date": "Sep 2024",
+        "country": "FR",
+        "region": "Hauts-de-France"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733351176,
+        "author": "mpk",
+        "id": "1313994814420946976",
+        "panoId": "klgNZSGJUmSP0pD0iljD1A",
+        "lat": 50.7216,
+        "lng": 3.15931,
+        "date": "Sep 2024",
+        "country": "FR",
+        "region": "Hauts-de-France"
     }
 ]
