@@ -6506,8 +6506,8 @@ function initDatePicker(view = 'days', minView = 'days') {
           startDate = localdate;
           endDate = new Date(localdate.getTime() + 86400000);
         }
-        filter_check.report_date[0] = Math.floor(localdate.getTime() / 1000)
-        filter_check.report_date[1] = filter_check.report_date[0] + 86400
+        filter_check.report_date[0] = Math.floor(startDate.getTime() / 1000);
+        filter_check.report_date[1] = Math.floor(endDate.getTime() / 1000) + 86400;
       }
 
 
