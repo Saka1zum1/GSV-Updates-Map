@@ -143122,5 +143122,162 @@
         "date": "Sep 2024",
         "country": "FR",
         "region": "Hauts-de-France"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733361406,
+        "author": "Woly",
+        "id": "1314037722855248013",
+        "panoId": "ljIoICqY29HZ5ihpn_wwSQ",
+        "lat": 49.17927,
+        "lng": -0.36786,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Normandy"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733367205,
+        "author": "Woly",
+        "id": "1314062046341632092",
+        "panoId": "cPJW651D_nll6fC-bvOMyQ",
+        "lat": 51.04829,
+        "lng": 3.72883,
+        "date": "Sep 2024",
+        "country": "BE",
+        "region": "Flanders"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733365958,
+        "author": "astro_furball",
+        "id": "1314056812885971035",
+        "panoId": "zUq8yRFhm3grKXNM7Y7oQA",
+        "lat": 50.87743,
+        "lng": 4.71434,
+        "date": "Aug 2024",
+        "country": "BE",
+        "region": "Flanders"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733365958,
+        "author": "astro_furball",
+        "id": "1314056812885971035",
+        "panoId": "2H37syJQz7OxQdA6G4QxWw",
+        "lat": 50.87921,
+        "lng": 4.70327,
+        "date": "Aug 2024",
+        "country": "BE",
+        "region": "Flanders"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733371400,
+        "author": "Woly",
+        "id": "1314079639580315659",
+        "panoId": "vtb1RdJwHzbfuJsLWdzIfw",
+        "lat": 40.67472,
+        "lng": 14.76795,
+        "date": "Oct 2024",
+        "country": "IT",
+        "region": "Campania"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733368669,
+        "author": "Woly",
+        "id": "1314068186303561738",
+        "panoId": "43MSltiREdrHhgW8LTqsmQ",
+        "lat": 51.20942,
+        "lng": 4.4406,
+        "date": "Aug 2024",
+        "country": "BE",
+        "region": "Flanders"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733374919,
+        "author": "Update Tracker Bot",
+        "id": "1314094400606830655",
+        "panoId": "Fsudxsd0iVIBYDYcoTfakQ",
+        "lat": 24.729,
+        "lng": 120.95996,
+        "date": "Nov 2024",
+        "country": "CN",
+        "region": "Hsinchu County"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733372480,
+        "author": "Woly",
+        "id": "1314084167709102110",
+        "panoId": "ca-_5nRlQG-T6sFvLHqIlg",
+        "lat": 3.13735,
+        "lng": 101.68957,
+        "date": "Oct 2024",
+        "country": "MY",
+        "region": "Federal Territory of Kuala Lumpur"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733372043,
+        "author": "Woly",
+        "id": "1314082337377488916",
+        "panoId": "2j5a1vTkP1_na1fZVteWbA",
+        "lat": 3.14342,
+        "lng": 101.70956,
+        "date": "Sep 2024",
+        "country": "MY",
+        "region": "Federal Territory of Kuala Lumpur"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733378882,
+        "author": "DerZiggi",
+        "id": "1314111022109298698",
+        "panoId": "Un0HFy879UQBDKePoc24pw",
+        "lat": -32.72317,
+        "lng": -61.53137,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Santa Fe Province"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1733375916,
+        "author": "macca",
+        "id": "1314098580486881280",
+        "panoId": "LR7MHLesqC5uq3s4fxEZqQ",
+        "lat": -36.53099,
+        "lng": 148.19894,
+        "date": "Oct 2024",
+        "country": "AU",
+        "region": "New South Wales"
     }
 ]
