@@ -19449,6 +19449,21 @@
                 "country": "BR",
                 "altitude": 307.78,
                 "region": "Cear\u00e1"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733431159,
+                "author": "Steve",
+                "id": "1314330286695383080",
+                "panoId": "dM_aOZ2o1r6s01_DthwSQg",
+                "lat": -3.86124,
+                "lng": -38.48124,
+                "date": "Nov 2024",
+                "country": "BR",
+                "region": "Cear\u00e1"
             }
         },
         "State of Minas Gerais": {
@@ -22289,6 +22304,21 @@
                 "date": "Apr 2024",
                 "country": "MY",
                 "altitude": 40.45,
+                "region": "Federal Territory of Kuala Lumpur"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1733436971,
+                "author": "Update Tracker Bot",
+                "id": "1314354665378545767",
+                "panoId": "FSdCLAhmhDhzmYQ5sHVerA",
+                "lat": 3.13284,
+                "lng": 101.69219,
+                "date": "Oct 2024",
+                "country": "MY",
                 "region": "Federal Territory of Kuala Lumpur"
             }
         },
@@ -25337,6 +25367,20 @@
                 "country": "TR",
                 "altitude": 842.2,
                 "region": "Gaziantep"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733428585,
+                "author": "Steve",
+                "id": "1314319491580166174",
+                "panoId": "26G23_l2CxjRKKfEZqmSFg",
+                "lat": 37.04315,
+                "lng": 37.33546,
+                "date": "Nov 2024",
+                "country": "TR",
+                "region": "Gaziantep"
             }
         },
         "Bal\u0131kesir": {
@@ -27095,6 +27139,22 @@
                 "country": "TR",
                 "altitude": 109.68,
                 "region": "Bursa"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newtrekker",
+                    "gen3update"
+                ],
+                "report_time": 1733417343,
+                "author": "Larissa Santos-de Oliveira",
+                "id": "1314272337184428043",
+                "panoId": "l3PJyQaaotQZCdEF-ue1LQ",
+                "lat": 40.19584,
+                "lng": 29.05895,
+                "date": "Oct 2024",
+                "country": "TR",
+                "region": "Bursa"
             }
         },
         "Sinop": {
@@ -27196,6 +27256,21 @@
                 "country": "TR",
                 "region": "Ankara",
                 "altitude": 883.13
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733417343,
+                "author": "Larissa Santos-de Oliveira",
+                "id": "1314272337184428043",
+                "panoId": "gb7JFhdenwt0joJnyEAcNw",
+                "lat": 39.92273,
+                "lng": 32.85822,
+                "date": "Nov 2024",
+                "country": "TR",
+                "region": "Ankara"
             }
         },
         "Bolu": {

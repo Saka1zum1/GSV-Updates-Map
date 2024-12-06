@@ -143588,5 +143588,320 @@
         "date": "Jul 2024",
         "country": "FR",
         "region": "Pays de la Loire"
+    },
+    {
+        "types": [
+            "newregion",
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733417343,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1314272337184428043",
+        "panoId": "l3PJyQaaotQZCdEF-ue1LQ",
+        "lat": 40.19584,
+        "lng": 29.05895,
+        "date": "Oct 2024",
+        "country": "TR",
+        "region": "Bursa"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733420863,
+        "author": "mpk",
+        "id": "1314287103433244804",
+        "panoId": "AaQTPQ2ONwjHKQNgkpX9GQ",
+        "lat": 40.85112,
+        "lng": 14.26337,
+        "date": "Jul 2024",
+        "country": "IT",
+        "region": "Campania"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733420863,
+        "author": "mpk",
+        "id": "1314287103433244804",
+        "panoId": "KShn_a5dXBSw8Cc06TNJrg",
+        "lat": 45.44116,
+        "lng": 12.32273,
+        "date": "Oct 2024",
+        "country": "IT",
+        "region": "Veneto"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733420800,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1314286836830437376",
+        "panoId": "BCXPKEcTzNDS-oPH6enbEQ",
+        "lat": -22.90306,
+        "lng": -43.17459,
+        "date": "May 2024",
+        "country": "BR",
+        "region": "State of Rio de Janeiro"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733420583,
+        "author": "Tobetelogi",
+        "id": "1314285928151384084",
+        "panoId": "L6wJi8AoIPAk_qksQ0dmEA",
+        "lat": 52.95299,
+        "lng": -1.14491,
+        "date": "Jul 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733420583,
+        "author": "Tobetelogi",
+        "id": "1314285928151384084",
+        "panoId": "DCZMRsrvZ3JIvFvpzpepAQ",
+        "lat": 53.75686,
+        "lng": -2.69562,
+        "date": "Aug 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733419310,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1314280587032395859",
+        "panoId": "C8j_Ern2qscmuVh6RaIVbA",
+        "lat": 38.12344,
+        "lng": 13.35734,
+        "date": "Oct 2024",
+        "country": "IT",
+        "region": "Sicily"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733419310,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1314280587032395859",
+        "panoId": "E5A35UZ8zzFe2mw1Mf5RHQ",
+        "lat": 40.8425,
+        "lng": 14.24924,
+        "date": "Oct 2024",
+        "country": "IT",
+        "region": "Campania"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733417922,
+        "author": "mpk",
+        "id": "1314274766936346644",
+        "panoId": "WSUyLt54aTrDsag5bqKMeA",
+        "lat": 43.1225,
+        "lng": 5.93555,
+        "date": "Jun 2024",
+        "country": "FR",
+        "region": "Provence-Alpes-C\u00f4te d'Azur"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733417922,
+        "author": "mpk",
+        "id": "1314274766936346644",
+        "panoId": "ylZCl3s1M17UfGSOc7xhjQ",
+        "lat": 43.12967,
+        "lng": 5.93565,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Provence-Alpes-C\u00f4te d'Azur"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733417922,
+        "author": "mpk",
+        "id": "1314274766936346644",
+        "panoId": "M26ujY7IwinlJiGScGHdKw",
+        "lat": 43.83509,
+        "lng": 4.36131,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "newregion",
+            "newtrekker"
+        ],
+        "report_time": 1733417343,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1314272337184428043",
+        "panoId": "gb7JFhdenwt0joJnyEAcNw",
+        "lat": 39.92273,
+        "lng": 32.85822,
+        "date": "Nov 2024",
+        "country": "TR",
+        "region": "Ankara"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733416167,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1314267406952169482",
+        "panoId": "rv1yUK7xp_78nltbsf2umg",
+        "lat": 43.61222,
+        "lng": 3.8831,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733416167,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1314267406952169482",
+        "panoId": "RIpGGIm8dly4COASteWX0w",
+        "lat": 48.0783,
+        "lng": 7.3579,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Grand Est"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733416167,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1314267406952169482",
+        "panoId": "pCc3vmWOwLpWQnbDUnYSHg",
+        "lat": 47.23216,
+        "lng": 6.03951,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Bourgogne-Franche-Comt\u00e9"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733423658,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1314298824377765899",
+        "panoId": "l4fgWYajRA4X6hoBlDIggw",
+        "lat": -23.5508,
+        "lng": -46.64436,
+        "date": "May 2024",
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733425709,
+        "author": "DeSlagen",
+        "id": "1314307427209969715",
+        "panoId": "fh1Tr7-S_fBlDO4zDBgmTg",
+        "lat": 50.35092,
+        "lng": -4.07846,
+        "date": "Oct 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1733431159,
+        "author": "Steve",
+        "id": "1314330286695383080",
+        "panoId": "dM_aOZ2o1r6s01_DthwSQg",
+        "lat": -3.86124,
+        "lng": -38.48124,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "Cear\u00e1"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733428585,
+        "author": "Steve",
+        "id": "1314319491580166174",
+        "panoId": "26G23_l2CxjRKKfEZqmSFg",
+        "lat": 37.04315,
+        "lng": 37.33546,
+        "date": "Nov 2024",
+        "country": "TR",
+        "region": "Gaziantep"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1733438023,
+        "author": "DeSlagen",
+        "id": "1314359077911924780",
+        "panoId": "9jrd3hUpXgxU88nIzV1X9g",
+        "lat": 38.22689,
+        "lng": -4.76971,
+        "date": "Nov 2024",
+        "country": "ES",
+        "region": "Andalusia"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1733436971,
+        "author": "Update Tracker Bot",
+        "id": "1314354665378545767",
+        "panoId": "FSdCLAhmhDhzmYQ5sHVerA",
+        "lat": 3.13284,
+        "lng": 101.69219,
+        "date": "Oct 2024",
+        "country": "MY",
+        "region": "Federal Territory of Kuala Lumpur"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733436438,
+        "author": "DeSlagen",
+        "id": "1314352429772308531",
+        "panoId": "gHCLhlVLLF9q7zLyfZWfvQ",
+        "lat": 51.0375,
+        "lng": 3.73069,
+        "date": "Oct 2024",
+        "country": "BE",
+        "region": "Flanders"
     }
 ]
