@@ -29441,5 +29441,37 @@
         "lng": 130.41364,
         "country": "JP",
         "region": "Fukuoka"
+    },
+    {
+        "spot_date": "2024/05/30",
+        "id": "1314227865499209771",
+        "links": [
+            "https://m.weibo.cn/detail/5039782067176896#&gid=1&pid=5",
+            "https://maps.app.goo.gl/aZ891jiX9RdfuCSv9"
+        ],
+        "report_time": 1733406740,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4/H1",
+        "panoId": "DrcFRztvwjqQkDOTE9S2_A",
+        "lat": 33.90759,
+        "lng": 130.66317,
+        "country": "JP",
+        "region": "Fukuoka"
+    },
+    {
+        "spot_date": "2024/12/03",
+        "id": "1313736409848483934",
+        "links": [
+            "https://am.dk/biler/brugte-biler/kia-ev6-el-long-range-m-upgrade-229hk-5d-aut/AD4073697/",
+            "https://maps.app.goo.gl/gXdJxHoDSyddM4nG9"
+        ],
+        "report_time": 1733289568,
+        "author": "vegetal",
+        "spot_type": "Gen4/H1",
+        "panoId": "2ATeIm3waxDwnKgL_dKcWQ",
+        "lat": 55.63816,
+        "lng": 12.28986,
+        "country": "DK",
+        "region": "Capital Region of Denmark"
     }
 ]

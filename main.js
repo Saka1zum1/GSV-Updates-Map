@@ -6283,7 +6283,11 @@ function createSearchPopup() {
 
   confirmButton.addEventListener('click', function () {
     document.body.removeChild(popup);
-    if(!searchInput.value.toLowerCase().includes(countries[filter_check.country].toLowerCase())&&!searchInput.value.toLowerCase().includes(filter_check.region.toLowerCase())) return
+    const confirm_value=searchInput.value.toLowerCase().substring(5)
+    if(confirm_value!=countries[filter_check.country].toLowerCase()&&confirm_value!=filter_check.region.toLowerCase()) {
+      filter_check.country=null
+      filter_check.region=null
+      return}
     applyFilters()
     filter_country.appendChild(filter_flag);
     LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35";
