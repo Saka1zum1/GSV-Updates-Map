@@ -29425,5 +29425,21 @@
         "lng": -78.93079,
         "country": "US",
         "region": "North Carolina"
+    },
+    {
+        "spot_date": "2024/12/06",
+        "id": "1314588444663615571",
+        "links": [
+            "https://x.com/seitaro420/status/1864932256156127472/photo/1",
+            "https://maps.app.goo.gl/Mb7eQy3rVnDBgWAu5"
+        ],
+        "report_time": 1733492709,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "kqaQtYpM5RWVsQrcGvfLNQ",
+        "lat": 33.59101,
+        "lng": 130.41364,
+        "country": "JP",
+        "region": "Fukuoka"
     }
 ]
