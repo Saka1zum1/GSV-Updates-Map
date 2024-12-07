@@ -331,7 +331,8 @@
                 "altitude": 259.26,
                 "region": "Burgenland"
             }
-        }
+        },
+        "Vorarlberg": {}
     },
     "RO": {
         "Bistri\u021ba-N\u0103s\u0103ud County": {
@@ -1957,7 +1958,14 @@
                 "altitude": 929.75,
                 "region": "Jude\u021bul Suceava"
             }
-        }
+        },
+        "Prahova County": {},
+        "V\u00e2lcea": {},
+        "Bra\u0219ov County": {},
+        "Buzau County": {},
+        "Galati County": {},
+        "Braila County": {},
+        "Arad County": {}
     },
     "SI": {
         "Jesenice": {
@@ -2819,9 +2827,27 @@
                 "altitude": 254.51,
                 "region": "Administrative unit Maribor"
             }
-        }
+        },
+        "\u0160empeter-Vrtojba": {},
+        "Municipality of Kranj": {}
     },
     "AR": {
+        "Buenos Aires": {
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1717381171,
+                "author": "Update Tracker Bot",
+                "panoId": "IckPuxX-4VFKTKZihiLaGw",
+                "lat": -34.64103,
+                "lng": -58.52107,
+                "date": "May 2024",
+                "country": "AR",
+                "altitude": 25.47,
+                "region": "Buenos Aires"
+            }
+        },
         "Santa Fe Province": {
             "Jul": {
                 "types": [
@@ -2990,7 +3016,6 @@
                 "region": "Corrientes Province"
             }
         },
-        "Corrientes": {},
         "Entre R\u00edos Province": {
             "Aug": {
                 "types": [
@@ -3264,8 +3289,6 @@
                 "region": "San Juan Province"
             }
         },
-        "Mendoza": {},
-        "Provincia de Buenos Aires": {},
         "Salta Province": {
             "Aug": {
                 "types": [
@@ -3481,6 +3504,21 @@
             }
         },
         "La Pampa Province": {
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1717005566,
+                "author": "Unhook",
+                "panoId": "QeJEt0ISi69CybAj-1JxdQ",
+                "lat": -37.66032,
+                "lng": -67.74296,
+                "date": "Apr 2024",
+                "country": "AR",
+                "altitude": 427.27,
+                "region": "La Pampa"
+            },
             "Jul": {
                 "types": [
                     "newregion",
@@ -3541,7 +3579,6 @@
                 "region": "La Pampa Province"
             }
         },
-        "Formosa": {},
         "R\u00edo Negro Province": {
             "Jul": {
                 "types": [
@@ -3572,6 +3609,21 @@
                 "country": "AR",
                 "altitude": 264.02,
                 "region": "R\u00edo Negro Province"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1717005269,
+                "author": "Melting Ice",
+                "panoId": "KD8GHZJBEgoaN1stToyWcA",
+                "lat": -37.69023,
+                "lng": -67.87028,
+                "date": "Apr 2024",
+                "country": "AR",
+                "altitude": 390.67,
+                "region": "R\u00edo Negro"
             }
         },
         "San Luis Province": {
@@ -3750,23 +3802,6 @@
                 "region": "Misiones Province"
             }
         },
-        "R\u00edo Negro": {
-            "Apr": {
-                "types": [
-                    "newregion",
-                    "gen3update"
-                ],
-                "report_time": 1717005269,
-                "author": "Melting Ice",
-                "panoId": "KD8GHZJBEgoaN1stToyWcA",
-                "lat": -37.69023,
-                "lng": -67.87028,
-                "date": "Apr 2024",
-                "country": "AR",
-                "altitude": 390.67,
-                "region": "R\u00edo Negro"
-            }
-        },
         "Chaco Province": {
             "Apr": {
                 "types": [
@@ -3873,40 +3908,11 @@
                 "region": "Catamarca Province"
             }
         },
-        "Buenos Aires": {
-            "May": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1717381171,
-                "author": "Update Tracker Bot",
-                "panoId": "IckPuxX-4VFKTKZihiLaGw",
-                "lat": -34.64103,
-                "lng": -58.52107,
-                "date": "May 2024",
-                "country": "AR",
-                "altitude": 25.47,
-                "region": "Buenos Aires"
-            }
-        },
-        "La Pampa": {
-            "Apr": {
-                "types": [
-                    "newregion",
-                    "gen3update"
-                ],
-                "report_time": 1717005566,
-                "author": "Unhook",
-                "panoId": "QeJEt0ISi69CybAj-1JxdQ",
-                "lat": -37.66032,
-                "lng": -67.74296,
-                "date": "Apr 2024",
-                "country": "AR",
-                "altitude": 427.27,
-                "region": "La Pampa"
-            }
-        },
-        "San Luis": {}
+        "Chubut": {},
+        "Corrientes": {},
+        "Tierra del Fuego": {},
+        "Jujuy": {},
+        "C\u00f3rdoba": {}
     },
     "LU": {
         "Esch-sur-Alzette": {
@@ -4925,7 +4931,9 @@
                 "altitude": 3194.52,
                 "region": "Junin"
             }
-        }
+        },
+        "Tacna": {},
+        "Madre de Dios": {}
     },
     "NO": {
         "Buskerud": {
@@ -5633,7 +5641,9 @@
                 "region": "Finnmark"
             }
         },
-        "Nordland": {}
+        "Nordland": {},
+        "Troms": {},
+        "Svalbard and Jan Mayen": {}
     },
     "CZ": {
         "Moravian-Silesian Region": {
@@ -10830,7 +10840,17 @@
             }
         },
         "Hawaii": {},
-        "Alaska": {}
+        "Alaska": {},
+        "Warrenton": {},
+        "NYC": {},
+        "New Haven County": {},
+        "Howard County": {},
+        "McCracken County": {},
+        "West Deptford Township": {},
+        "Duval County": {},
+        "Huntsville": {},
+        "Roane County": {},
+        "Altavista": {}
     },
     "BD": {
         "Barisal Division": {
@@ -10950,7 +10970,9 @@
                 "altitude": 31.58,
                 "region": "Rangpur Division"
             }
-        }
+        },
+        "Mymensingh Division": {},
+        "Barishal Division": {}
     },
     "PH": {
         "Northern Mindanao": {
@@ -11544,6 +11566,21 @@
                 "country": "PH",
                 "altitude": 31.27,
                 "region": "Ilocos Region"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1711070295,
+                "author": "Update Tracker Bot",
+                "id": "1220542025829711914",
+                "panoId": "3yo_OY_nkmbWb-iDdXcx-g",
+                "lat": 16.99847,
+                "lng": 120.72211,
+                "date": "Feb 2024",
+                "country": "PH",
+                "region": "Ilocos Region"
             }
         },
         "Bangsamoro Autonomous Region in Muslim Mindanao": {
@@ -11652,7 +11689,15 @@
                 "altitude": 13.16,
                 "region": "Central Visayas"
             }
-        }
+        },
+        "Tarlac": {},
+        "National Capital Region": {},
+        "Negros Island Region": {},
+        "Bicol Region": {},
+        "Batangas": {},
+        "Cavite": {},
+        "Quezon": {},
+        "Zamboanga del Sur": {}
     },
     "IT": {
         "Lazio": {
@@ -12661,7 +12706,9 @@
                 "region": "Aosta Valley"
             }
         },
-        "Piemonte": {}
+        "Piemonte": {},
+        "Friuli-Venezia Giulia": {},
+        "Davagna": {}
     },
     "GB": {
         "England": {
@@ -12822,7 +12869,15 @@
                 "region": "Northern Ireland"
             }
         },
-        "Newport": {}
+        "Newport": {},
+        "London": {},
+        "Isle of Wight": {},
+        "Glasgow Scotland": {},
+        "Ayrshire": {},
+        "Beeston": {},
+        "Bilston": {},
+        "Portsmouth": {},
+        "Lancashire County": {}
     },
     "IE": {
         "County Kildare": {
@@ -13434,7 +13489,9 @@
                 "altitude": 111.02,
                 "region": "County Carlow"
             }
-        }
+        },
+        "Dublin": {},
+        "Letterkenny": {}
     },
     "LV": {
         "Prei\u013ci Municipality": {
@@ -14280,7 +14337,8 @@
         },
         "Valmieras novads": {},
         "Aug\u0161daugava Municipality": {},
-        "Kr\u0101slava Municipality": {}
+        "Kr\u0101slava Municipality": {},
+        "Ropa\u017ei municipality": {}
     },
     "CA": {
         "British Columbia": {
@@ -14603,6 +14661,20 @@
                 "country": "CA",
                 "altitude": 295.88,
                 "region": "Quebec"
+            },
+            "Jun": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1719913687,
+                "author": "Update Tracker Bot",
+                "panoId": "PCfTIYQsx-MrUb6mNv4jog",
+                "lat": 45.22905,
+                "lng": -72.27145,
+                "date": "Jun 2024",
+                "country": "CA",
+                "altitude": 284.46,
+                "region": "Qu\u00e9bec"
             }
         },
         "Saskatchewan": {
@@ -14662,22 +14734,6 @@
                 "country": "CA",
                 "altitude": 616.54,
                 "region": "Saskatchewan"
-            }
-        },
-        "Qu\u00e9bec": {
-            "Jun": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1719913687,
-                "author": "Update Tracker Bot",
-                "panoId": "PCfTIYQsx-MrUb6mNv4jog",
-                "lat": 45.22905,
-                "lng": -72.27145,
-                "date": "Jun 2024",
-                "country": "CA",
-                "altitude": 284.46,
-                "region": "Qu\u00e9bec"
             }
         },
         "Manitoba": {
@@ -14778,7 +14834,11 @@
             }
         },
         "Yukon": {},
-        "Northwest Territories": {}
+        "Northwest Territories": {},
+        "Newfoundland and Labrador": {},
+        "Ottawa": {},
+        "Vancouver": {},
+        "Toronto": {}
     },
     "HR": {
         "Karlovac County": {
@@ -15154,7 +15214,8 @@
                 "altitude": 118.63,
                 "region": "City of Zagreb"
             }
-        }
+        },
+        "Koprivnica-Kri\u017eevci County": {}
     },
     "DK": {
         "Capital Region of Denmark": {
@@ -15384,7 +15445,8 @@
                 "altitude": 17.73,
                 "region": "Norre Nebel"
             }
-        }
+        },
+        "Capital Region": {}
     },
     "JP": {
         "Miyazaki": {
@@ -15598,6 +15660,20 @@
             }
         },
         "Hokkaido": {
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1721365467,
+                "author": "dou_dou_dou",
+                "panoId": "8zTFIadD2H4-FvWAUabcFQ",
+                "lat": 43.41836,
+                "lng": 144.50727,
+                "date": "Jul 2024",
+                "country": "JP",
+                "altitude": 81.72,
+                "region": "\u5317\u6d77\u9053"
+            },
             "Oct": {
                 "types": [
                     "newregion"
@@ -15825,22 +15901,6 @@
                 "region": "Kagoshima"
             }
         },
-        "\u4eac\u90fd\u5e9c": {
-            "Oct": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1729334837,
-                "author": "Update Tracker Bot",
-                "panoId": "RjJ4HcJZFGkWtH-GLqQIKg",
-                "lat": 35.54224,
-                "lng": 135.15574,
-                "date": "Oct 2024",
-                "country": "JP",
-                "altitude": 59.23,
-                "region": "\u4eac\u90fd\u5e9c"
-            }
-        },
         "Wakayama": {
             "Oct": {
                 "types": [
@@ -15905,6 +15965,20 @@
             }
         },
         "Tochigi": {
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1726471001,
+                "author": "mpk",
+                "panoId": "oIIOH_SfjpsHmO7q3kcPTw",
+                "lat": 36.78688,
+                "lng": 140.12603,
+                "date": "Sep 2024",
+                "country": "JP",
+                "altitude": 120.34,
+                "region": "Tochigi"
+            },
             "Oct": {
                 "types": [
                     "newregion"
@@ -16080,9 +16154,37 @@
                 "country": "JP",
                 "altitude": 373.04,
                 "region": "Nagasaki"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1711093465,
+                "author": "Update Tracker Bot",
+                "id": "1220639207450476605",
+                "panoId": "tWty4sOrMvNIfQwknv-YIQ",
+                "lat": 33.14902,
+                "lng": 129.69542,
+                "date": "Mar 2024",
+                "country": "JP",
+                "region": "Nagasaki"
             }
         },
         "Gunma": {
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1726518592,
+                "author": "Update Tracker Bot",
+                "panoId": "sRQEY_uP_4qLdDgwvfkjFw",
+                "lat": 36.3359,
+                "lng": 138.73296,
+                "date": "Sep 2024",
+                "country": "JP",
+                "altitude": 392.86,
+                "region": "Gunma"
+            },
             "Oct": {
                 "types": [
                     "newregion"
@@ -16574,7 +16676,6 @@
                 "region": "Okayama"
             }
         },
-        "\u5175\u5eab\u770c": {},
         "Shimane": {
             "Sep": {
                 "types": [
@@ -16605,22 +16706,6 @@
                 "country": "JP",
                 "altitude": 401.32,
                 "region": "Shimane"
-            }
-        },
-        "\u5948\u826f\u770c": {
-            "Oct": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1730142291,
-                "author": "Update Tracker Bot",
-                "panoId": "qpbeYP-gliW2yn_DHClFrw",
-                "lat": 34.61048,
-                "lng": 135.81021,
-                "date": "Oct 2024",
-                "country": "JP",
-                "altitude": 55.24,
-                "region": "\u5948\u826f\u770c"
             }
         },
         "Yamanashi": {
@@ -16796,6 +16881,20 @@
                 "date": "Nov 2024",
                 "country": "JP",
                 "altitude": 101.23,
+                "region": "Kyoto"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1729334837,
+                "author": "Update Tracker Bot",
+                "panoId": "RjJ4HcJZFGkWtH-GLqQIKg",
+                "lat": 35.54224,
+                "lng": 135.15574,
+                "date": "Oct 2024",
+                "country": "JP",
+                "altitude": 59.23,
                 "region": "Kyoto"
             }
         },
@@ -17139,6 +17238,21 @@
                 "country": "JP",
                 "altitude": 2.36,
                 "region": "Aichi"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1731948520,
+                "author": "Update Tracker Bot",
+                "id": "1308111648816365568",
+                "panoId": "kpewkyHVjfnyyq19-NEjpw",
+                "lat": 34.89258,
+                "lng": 136.90935,
+                "date": "Nov 2024",
+                "country": "JP",
+                "altitude": 29.22,
+                "region": "Aichi"
             }
         },
         "Kochi": {
@@ -17246,54 +17360,6 @@
                 "country": "JP",
                 "altitude": 47.58,
                 "region": "Okinawa"
-            }
-        },
-        "\u5317\u6d77\u9053": {
-            "Jul": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1721365467,
-                "author": "dou_dou_dou",
-                "panoId": "8zTFIadD2H4-FvWAUabcFQ",
-                "lat": 43.41836,
-                "lng": 144.50727,
-                "date": "Jul 2024",
-                "country": "JP",
-                "altitude": 81.72,
-                "region": "\u5317\u6d77\u9053"
-            }
-        },
-        "\u7fa4\u99ac\u770c": {
-            "Sep": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1726518592,
-                "author": "Update Tracker Bot",
-                "panoId": "sRQEY_uP_4qLdDgwvfkjFw",
-                "lat": 36.3359,
-                "lng": 138.73296,
-                "date": "Sep 2024",
-                "country": "JP",
-                "altitude": 392.86,
-                "region": "\u7fa4\u99ac\u770c"
-            }
-        },
-        "\u6803\u6728\u770c": {
-            "Sep": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1726471001,
-                "author": "mpk",
-                "panoId": "oIIOH_SfjpsHmO7q3kcPTw",
-                "lat": 36.78688,
-                "lng": 140.12603,
-                "date": "Sep 2024",
-                "country": "JP",
-                "altitude": 120.34,
-                "region": "\u6803\u6728\u770c"
             }
         },
         "Ishikawa": {
@@ -17596,22 +17662,6 @@
                 "region": "Saitama"
             }
         },
-        "\u798f\u5ca1\u770c": {
-            "Aug": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1724315591,
-                "author": "slashp",
-                "panoId": "jBhvjgrWQpDHSSH-c0TeMA",
-                "lat": 33.44138,
-                "lng": 130.57672,
-                "date": "Aug 2024",
-                "country": "JP",
-                "altitude": 22.62,
-                "region": "\u798f\u5ca1\u770c"
-            }
-        },
         "Yamagata": {
             "Jun": {
                 "types": [
@@ -17735,6 +17785,21 @@
             }
         },
         "Ehime": {
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1731913209,
+                "author": "Update Tracker Bot",
+                "id": "1307963541323513877",
+                "panoId": "xc-G9LZWIzLZgsrDxb8HIw",
+                "lat": 33.61457,
+                "lng": 132.50408,
+                "date": "Nov 2024",
+                "country": "JP",
+                "altitude": 258.65,
+                "region": "Ehime"
+            },
             "Jul": {
                 "types": [
                     "newregion"
@@ -17899,6 +17964,20 @@
                 "country": "JP",
                 "altitude": 570.82,
                 "region": "Nara"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1730142291,
+                "author": "Update Tracker Bot",
+                "panoId": "qpbeYP-gliW2yn_DHClFrw",
+                "lat": 34.61048,
+                "lng": 135.81021,
+                "date": "Oct 2024",
+                "country": "JP",
+                "altitude": 55.24,
+                "region": "Nara"
             }
         },
         "Yamaguchi": {
@@ -17994,41 +18073,36 @@
                 "country": "JP",
                 "altitude": 88.64,
                 "region": "Hyogo"
-            }
-        },
-        "Shizuoka": {},
-        "\u611b\u77e5\u770c": {
-            "Nov": {
+            },
+            "Mar": {
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1731948520,
+                "report_time": 1711072053,
                 "author": "Update Tracker Bot",
-                "id": "1308111648816365568",
-                "panoId": "kpewkyHVjfnyyq19-NEjpw",
-                "lat": 34.89258,
-                "lng": 136.90935,
-                "date": "Nov 2024",
+                "id": "1220549398954774540",
+                "panoId": "HYis80wxGF1M5JGfglctCA",
+                "lat": 34.75562,
+                "lng": 134.91967,
+                "date": "Mar 2024",
                 "country": "JP",
-                "altitude": 29.22,
-                "region": "\u611b\u77e5\u770c"
+                "region": "Hyogo"
             }
         },
-        "\u611b\u5a9b\u770c": {
-            "Nov": {
+        "Shizuoka": {
+            "Mar": {
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1731913209,
+                "report_time": 1711074385,
                 "author": "Update Tracker Bot",
-                "id": "1307963541323513877",
-                "panoId": "xc-G9LZWIzLZgsrDxb8HIw",
-                "lat": 33.61457,
-                "lng": 132.50408,
-                "date": "Nov 2024",
+                "id": "1220559178758750221",
+                "panoId": "H9knUJv8mwEBvEVGR4sGLw",
+                "lat": 35.19455,
+                "lng": 138.64168,
+                "date": "Mar 2024",
                 "country": "JP",
-                "altitude": 258.65,
-                "region": "\u611b\u5a9b\u770c"
+                "region": "Shizuoka"
             }
         },
         "Fukui": {
@@ -18050,7 +18124,13 @@
             }
         },
         "\u5e83\u5cf6\u770c": {},
+        "Fukuoka Prefecture": {},
+        "Nagoya": {},
         "\u9e7f\u5150\u5cf6\u770c": {},
+        "Tokyo Prefecture": {},
+        "Nara Prefecture": {},
+        "Hyogo Prefecture": {},
+        "Kitakyushu. Fukuoka": {},
         "\u795e\u5948\u5ddd\u770c": {}
     },
     "SE": {
@@ -18950,7 +19030,9 @@
                 "region": "J\u00e4mtlands l\u00e4n"
             }
         },
-        "V\u00e4rmlands l\u00e4n": {}
+        "V\u00e4rmlands l\u00e4n": {},
+        "Jamtland": {},
+        "Stockholm": {}
     },
     "BR": {
         "State of Pernambuco": {
@@ -19323,6 +19405,22 @@
                 "date": "Oct 2024",
                 "country": "BR",
                 "altitude": 185.22,
+                "region": "State of Par\u00e1"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newroad",
+                    "newarea"
+                ],
+                "report_time": 1733536230,
+                "author": "DerZiggi",
+                "id": "1314770987132129280",
+                "panoId": "tyDzoLgCj36idRuGX1moww",
+                "lat": -9.57372,
+                "lng": -51.6785,
+                "date": "Nov 2024",
+                "country": "BR",
                 "region": "State of Par\u00e1"
             }
         },
@@ -21484,7 +21582,16 @@
                 "region": "Alagoas"
             }
         },
-        "Par\u00e1": {}
+        "Par\u00e1": {},
+        "State of Espirito Santo": {},
+        "Maranh\u00e3o": {},
+        "Para\u00edba": {},
+        "Rio Grande do Sul": {},
+        "Niter\u00f3i": {},
+        "Paran\u00e1": {},
+        "B\u00fazios": {},
+        "Rond\u00f4nia": {},
+        "Sao Paulo": {}
     },
     "AU": {
         "Western Australia": {
@@ -22088,7 +22195,8 @@
                 "altitude": 43.81,
                 "region": "Jervis Bay Territory"
             }
-        }
+        },
+        "Adelaide": {}
     },
     "MY": {
         "Penang": {
@@ -22544,7 +22652,12 @@
                 "altitude": 25.02,
                 "region": "Putrajaya"
             }
-        }
+        },
+        "Sarawak": {},
+        "Kuala Lumpur": {},
+        "Sabah": {},
+        "Perlis": {},
+        "Terengganu": {}
     },
     "BG": {
         "Haskovo Province": {
@@ -23177,7 +23290,8 @@
                 "region": "Dobrich Province"
             }
         },
-        "Vratsa": {}
+        "Vratsa": {},
+        "Stara Zagora Province": {}
     },
     "FR": {
         "Provence-Alpes-C\u00f4te d'Azur": {
@@ -24196,7 +24310,10 @@
         "Corse": {},
         "Banyuls-sur-Mer": {},
         "Catalonia": {},
-        "Geneva": {}
+        "Geneva": {},
+        "Britanny": {},
+        "Nord": {},
+        "Moselle": {}
     },
     "ES": {
         "Castile and Le\u00f3n": {
@@ -25281,7 +25398,8 @@
                 "altitude": 81.52,
                 "region": "Canarias"
             }
-        }
+        },
+        "M\u00e1laga": {}
     },
     "TR": {
         "Kahramanmara\u015f": {
@@ -27530,7 +27648,12 @@
                 "region": "Nev\u015fehir"
             }
         },
-        "Hali\u00e7 Metro K\u00f6p.": {}
+        "Hali\u00e7 Metro K\u00f6p.": {},
+        "Adana Province": {},
+        "Kastamonu Province": {},
+        "Edirne Province": {},
+        "Malatya Province": {},
+        "Ankara Province": {}
     },
     "NZ": {
         "Waikato": {
@@ -27946,7 +28069,8 @@
                 "altitude": 9.79
             }
         },
-        "Gisborne": {}
+        "Gisborne": {},
+        "Auckland Region": {}
     },
     "HU": {
         "Pest County": {
@@ -28865,7 +28989,8 @@
                 "region": "B\u00e9k\u00e9s County"
             }
         },
-        "Budinci": {}
+        "Budinci": {},
+        "Nograd County": {}
     },
     "CL": {
         "Los Lagos": {
@@ -29651,7 +29776,10 @@
                 "region": "Decentralized Administration of Crete"
             }
         },
-        "\u0391\u03c0\u03bf\u03ba\u03b5\u03bd\u03c4\u03c1\u03c9\u03bc\u03ad\u03bd\u03b7 \u0394\u03b9\u03bf\u03af\u03ba\u03b7\u03c3\u03b7 \u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03af\u03b1\u03c2 - \u03a3\u03c4\u03b5\u03c1\u03b5\u03ac\u03c2 \u0395\u03bb\u03bb\u03ac\u03b4\u03b1\u03c2": {}
+        "\u0391\u03c0\u03bf\u03ba\u03b5\u03bd\u03c4\u03c1\u03c9\u03bc\u03ad\u03bd\u03b7 \u0394\u03b9\u03bf\u03af\u03ba\u03b7\u03c3\u03b7 \u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03af\u03b1\u03c2 - \u03a3\u03c4\u03b5\u03c1\u03b5\u03ac\u03c2 \u0395\u03bb\u03bb\u03ac\u03b4\u03b1\u03c2": {},
+        "Decentralized Administration of Peloponnese": {},
+        "Thessaly": {},
+        "Attica": {}
     },
     "CO": {
         "Cesar": {
@@ -30422,6 +30550,21 @@
                 "date": "Oct 2024",
                 "country": "CO",
                 "region": "Cordoba"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733530575,
+                "author": "Jkmilo13",
+                "id": "1314747266149650444",
+                "panoId": "-c5V2mJLRT3HKtoEFS3uZw",
+                "lat": 9.3989,
+                "lng": -75.76143,
+                "date": "Sep 2024",
+                "country": "CO",
+                "region": "Cordoba"
             }
         },
         "Bolivar": {
@@ -30455,8 +30598,23 @@
                 "date": "Sep 2024",
                 "country": "CO",
                 "region": "Sucre"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733500066,
+                "author": "Jkmilo13",
+                "id": "1314619304821526569",
+                "panoId": "eHSxrfSwDu0cK2POEI3iLw",
+                "lat": 9.29142,
+                "lng": -75.38882,
+                "date": "Aug 2024",
+                "country": "CO",
+                "region": "Sucre"
             }
-        }
+        },
+        "Medellin": {}
     },
     "PT": {
         "\u00c9vora District": {
@@ -31096,7 +31254,8 @@
                 "altitude": 469.62,
                 "region": "Viseu District"
             }
-        }
+        },
+        "Coimbra": {}
     },
     "CN": {
         "New Taipei City": {
@@ -31289,6 +31448,20 @@
                 "date": "Sep 2024",
                 "country": "CN",
                 "altitude": 9.87,
+                "region": "Kaohsiung City"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733544146,
+                "author": "vegetal",
+                "id": "1314804189213364308",
+                "panoId": "9YL_3YvvlrC7PcLa_4pi3A",
+                "lat": 22.63667,
+                "lng": 120.3421,
+                "date": "Oct 2024",
+                "country": "CN",
                 "region": "Kaohsiung City"
             }
         },
@@ -31636,6 +31809,20 @@
                 "country": "CN",
                 "altitude": 85.44,
                 "region": "Pingtung County"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1711090003,
+                "author": "Update Tracker Bot",
+                "id": "1220624687277670504",
+                "panoId": "MHC_JezQaLTm9EciRQeL2w",
+                "lat": 22.5765,
+                "lng": 120.48283,
+                "date": "Mar 2024",
+                "country": "CN",
+                "region": "Pingtung County"
             }
         },
         "Keelung City": {
@@ -31799,7 +31986,10 @@
         },
         "Hong Kong Island": {},
         "Hong Kong": {},
-        "Macau": {}
+        "Macau": {},
+        "Taipei": {},
+        "New Taipei": {},
+        "Nantou": {}
     },
     "RW": {
         "Eastern Province": {
@@ -32489,7 +32679,8 @@
                 "altitude": 2.08,
                 "region": "Overijssel"
             }
-        }
+        },
+        "Brabant": {}
     },
     "BE": {
         "Flanders": {
@@ -33768,7 +33959,9 @@
                 "altitude": 8.96,
                 "region": "West Sulawesi"
             }
-        }
+        },
+        "Tasikmalaya": {},
+        "Bali": {}
     },
     "EC": {
         "Guayas": {
@@ -35391,7 +35584,10 @@
                 "altitude": 1855.23,
                 "region": "Michoac\u00e1n"
             }
-        }
+        },
+        "Mazatl\u00e1n": {},
+        "El Palmito": {},
+        "Colima": {}
     },
     "FO": {
         "Streymoy": {
@@ -36426,7 +36622,8 @@
                 "altitude": 269.59,
                 "region": "Bansk\u00e1 Bystrica Region"
             }
-        }
+        },
+        "Nitra": {}
     },
     "EE": {
         "J\u00e4rva County": {
@@ -37740,26 +37937,10 @@
                 "altitude": 623.2,
                 "region": "Basel-Landschaft"
             }
-        }
+        },
+        "Bern": {}
     },
     "TH": {
-        "\u0e1b\u0e17\u0e38\u0e21\u0e18\u0e32\u0e19\u0e35": {
-            "Jul": {
-                "types": [
-                    "newregion",
-                    "newstreet"
-                ],
-                "report_time": 1724779318,
-                "author": "franzyballs",
-                "panoId": "jgeQJ9jZ6uuYr_KxH4rb8g",
-                "lat": 14.09768,
-                "lng": 100.36092,
-                "date": "Jul 2024",
-                "country": "TH",
-                "altitude": 5.31,
-                "region": "\u0e1b\u0e17\u0e38\u0e21\u0e18\u0e32\u0e19\u0e35"
-            }
-        },
         "Samut Sakhon": {
             "Aug": {
                 "types": [
@@ -38076,6 +38257,21 @@
             }
         },
         "Pathum Thani": {
+            "Jul": {
+                "types": [
+                    "newregion",
+                    "newstreet"
+                ],
+                "report_time": 1724779318,
+                "author": "franzyballs",
+                "panoId": "jgeQJ9jZ6uuYr_KxH4rb8g",
+                "lat": 14.09768,
+                "lng": 100.36092,
+                "date": "Jul 2024",
+                "country": "TH",
+                "altitude": 5.31,
+                "region": "Pathum Thani"
+            },
             "Aug": {
                 "types": [
                     "newregion"
@@ -38737,22 +38933,6 @@
                 "region": "Pattani"
             }
         },
-        "\u0e01\u0e33\u0e41\u0e1e\u0e07\u0e40\u0e1e\u0e0a\u0e23": {
-            "Jul": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1722335557,
-                "author": "Update Tracker Bot",
-                "panoId": "3jey_4ZJiZCNephG5NDmvQ",
-                "lat": 16.65053,
-                "lng": 99.54028,
-                "date": "Jul 2024",
-                "country": "TH",
-                "altitude": 85.42,
-                "region": "\u0e01\u0e33\u0e41\u0e1e\u0e07\u0e40\u0e1e\u0e0a\u0e23"
-            }
-        },
         "Nakhon Si Thammarat": {
             "Jul": {
                 "types": [
@@ -38832,6 +39012,20 @@
             }
         },
         "Kamphaeng Phet": {
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1722335557,
+                "author": "Update Tracker Bot",
+                "panoId": "3jey_4ZJiZCNephG5NDmvQ",
+                "lat": 16.65053,
+                "lng": 99.54028,
+                "date": "Jul 2024",
+                "country": "TH",
+                "altitude": 85.42,
+                "region": "Kamphaeng Phet"
+            },
             "Jun": {
                 "types": [
                     "newregion"
@@ -39115,7 +39309,6 @@
                 "region": "Lampang"
             }
         },
-        "\u0e41\u0e1e\u0e23\u0e48": {},
         "Nan": {
             "Apr": {
                 "types": [
@@ -39214,7 +39407,6 @@
                 "region": "Surat Thani"
             }
         },
-        "\u0e22\u0e30\u0e25\u0e32": {},
         "Chaiyaphum": {
             "Mar": {
                 "types": [
@@ -39639,9 +39831,6 @@
                 "region": "Al Batinah North Governorate"
             }
         },
-        "\u0635\u0648\u0631": {},
-        "49": {},
-        "\u0645\u062d\u0627\u0641\u0638\u0629 \u0627\u0644\u062f\u0627\u062e\u0644\u064a\u0629": {},
         "Qalhat": {
             "Sep": {
                 "types": [
@@ -39659,9 +39848,6 @@
                 "region": "Qalhat"
             }
         },
-        "\u0645\u062d\u0627\u0641\u0638\u0629 \u0627\u0644\u0638\u0627\u0647\u0631\u0629": {},
-        "\u0645\u062d\u0627\u0641\u0638\u0629 \u0634\u0645\u0627\u0644 \u0627\u0644\u0634\u0631\u0642\u064a\u0629": {},
-        "\u0631\u0627\u0633 \u0627\u0644\u062d\u062f": {},
         "Al Ashkharah": {}
     },
     "LI": {
@@ -39819,7 +40005,8 @@
                 "altitude": 437.68,
                 "region": "Schellenberg"
             }
-        }
+        },
+        "Schaanwald": {}
     },
     "KE": {
         "Mombasa County": {
@@ -42166,7 +42353,6 @@
                 "region": "Khovd"
             }
         },
-        "\u0417\u0430\u0432\u0445\u0430\u043d": {},
         "Zavkhan": {
             "Jul": {
                 "types": [
@@ -42277,9 +42463,6 @@
                 "region": "Ovorkhangai"
             }
         },
-        "\u0423\u0432\u0441": {},
-        "\u0413\u043e\u0432\u044c-\u0410\u043b\u0442\u0430\u0439": {},
-        "\u0411\u0430\u044f\u043d\u0445\u043e\u043d\u0433\u043e\u0440": {},
         "Bulgan": {},
         "T\u00f6v": {
             "Jun": {
@@ -42330,14 +42513,11 @@
                 "region": "T\u00f6v"
             }
         },
-        "\u0411\u0443\u043b\u0433\u0430\u043d": {},
-        "Ulaanbaatar": {},
-        "\u0425\u04af\u0439 \u0414\u043e\u043b\u043e\u043e\u043d \u0425\u0443\u0434\u0433\u0438\u0439\u043d \u0417\u0430\u043c": {},
-        "\u0428\u0443\u0432\u0443\u0443\u043d \u0444\u0430\u0431\u0440\u0438\u043a\u0438\u0439\u043d \u0437\u0430\u043c": {},
-        "\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440": {}
+        "Ulaanbaatar": {}
     },
     "SG": {
-        "Singapore": {}
+        "Singapore": {},
+        "West Region": {}
     },
     "AE": {
         "Dubai": {
@@ -42526,8 +42706,7 @@
                 "altitude": 12.31,
                 "region": "Sharjah"
             }
-        },
-        "\u0625\u0645\u0627\u0631\u0629 \u0627\u0644\u0641\u062c\u064a\u0631\u0629": {}
+        }
     },
     "PL": {
         "Masovian Voivodeship": {
@@ -43060,7 +43239,11 @@
                 "altitude": 203.48,
                 "region": "Lublin Voivodeship"
             }
-        }
+        },
+        "Lower Silesia Voivodeship": {},
+        "Gorlice": {},
+        "Subcarpathian Voivodeship": {},
+        "Warszawa": {}
     },
     "SM": {
         "Acquaviva": {},
@@ -43432,7 +43615,8 @@
                 "altitude": 495.78,
                 "region": "Lapland"
             }
-        }
+        },
+        "North Ostrobothia": {}
     },
     "LT": {
         "Utena County": {
@@ -43828,7 +44012,8 @@
         "Berlin": {},
         "Sachsen-Anhalt": {},
         "Saxony-Anhalt": {},
-        "Hamburg": {}
+        "Hamburg": {},
+        "Ravensburg": {}
     },
     "KZ": {
         "Karaganda Region": {
@@ -44222,7 +44407,9 @@
                 "altitude": 130.87,
                 "region": "K\u00e9dougou Region"
             }
-        }
+        },
+        "Dakar Region": {},
+        "Dakar": {}
     },
     "IN": {
         "Mizoram": {
@@ -44684,8 +44871,6 @@
                 "region": "Haryana"
             }
         },
-        "\u0d32\u0d15\u0d4d\u0d37\u0d26\u0d4d\u0d35\u0d40\u0d2a\u0d4d": {},
-        "\u0b06\u0b23\u0b4d\u0b21\u0b3e\u0b2e\u0b3e\u0b28 \u0b06\u0b23\u0b4d\u0b21 \u0b28\u0b3f\u0b15\u0b4b\u0b2c\u0b30 \u0b06\u0b07\u0b32\u0b4d\u0b5f\u0b3e\u0b23\u0b4d\u0b21": {},
         "Himachal Pradesh": {
             "Aug": {
                 "types": [
@@ -44796,6 +44981,21 @@
                 "date": "Apr 2024",
                 "country": "IN",
                 "altitude": 112.39,
+                "region": "Gujarat"
+            },
+            "Jul": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1724579569,
+                "author": "mpk",
+                "panoId": "YSsAHNg5ESU2YPtJgDqRmQ",
+                "lat": 24.35726,
+                "lng": 71.44516,
+                "date": "Jul 2024",
+                "country": "IN",
+                "altitude": 32.75,
                 "region": "Gujarat"
             }
         },
@@ -44920,25 +45120,7 @@
         },
         "Shey": {},
         "Thiksey": {},
-        "\u0939\u093f\u092e\u093e\u091a\u0932 \u092a\u094d\u0930\u0926\u0947\u0936": {},
         "Karu": {},
-        "\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4": {
-            "Jul": {
-                "types": [
-                    "newregion",
-                    "newroad"
-                ],
-                "report_time": 1724579569,
-                "author": "mpk",
-                "panoId": "YSsAHNg5ESU2YPtJgDqRmQ",
-                "lat": 24.35726,
-                "lng": 71.44516,
-                "date": "Jul 2024",
-                "country": "IN",
-                "altitude": 32.75,
-                "region": "\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4"
-            }
-        },
         "Kathua": {},
         "Kerala": {
             "Jun": {
@@ -45723,7 +45905,12 @@
         "Tel Aviv District": {},
         "Center District": {},
         "North District": {},
-        "Jerusalem District": {}
+        "Jerusalem District": {},
+        "Tel-Aviv District": {},
+        "Hamerkaz": {},
+        "Makhoz Tel Aviv": {},
+        "Haifa": {},
+        "Jerusalem": {}
     },
     "RU": {
         "Sakhalin Oblast": {},
@@ -45732,25 +45919,47 @@
         "Primorsky Krai": {},
         "Leningrad Oblast": {},
         "Moscow": {},
-        "Penza Oblast": {}
+        "Penza Oblast": {},
+        "Khanty-Mansi Autonomous Okrug": {},
+        "Vladimir Oblast": {},
+        "Irkutsk Oblast": {},
+        "Sakha Republic": {},
+        "Buryatia": {},
+        "Kemerovo Oblast": {},
+        "Krasnodar Krai": {},
+        "Komi Republic": {},
+        "Kursk Oblast": {},
+        "Novosibirsk Oblast": {},
+        "Omsk Oblast": {},
+        "Tomsk Oblast": {},
+        "Amur Oblast": {}
     },
     "ME": {
-        "Budva Municipality": {}
+        "Budva Municipality": {},
+        "Tivat": {}
     },
     "AL": {
-        "Fier County": {}
+        "Fier County": {},
+        "Tirana County": {}
     },
     "UA": {
         "Lviv Oblast": {},
-        "Kyiv Oblast": {}
+        "Kyiv Oblast": {},
+        "Dnipropetrovsk Oblast": {},
+        "Kyiv city": {},
+        "Ivano-Frankivsk Oblast": {},
+        "Khmelnytskyi Oblast": {}
     },
     "KG": {
         "Naryn Region": {}
     },
-    "LA": {},
+    "LA": {
+        "Vientiane Prefecture": {}
+    },
     "UY": {
         "Florida Department": {},
-        "Artigas Department": {}
+        "Artigas Department": {},
+        "Montevideo": {}
     },
     "BO": {
         "La Paz Department": {}
@@ -45758,7 +45967,9 @@
     "LS": {
         "Maseru": {}
     },
-    "UG": {},
+    "UG": {
+        "Kiruhura District": {}
+    },
     "DO": {
         "Distrito Nacional": {}
     },
@@ -45774,7 +45985,10 @@
     "TN": {
         "M\u00e9denine Governorate": {}
     },
-    "VN": {},
+    "VN": {
+        "H\u00e0 T\u0129nh Province": {},
+        "Bac Ninh Province": {}
+    },
     "SJ": {},
     "IM": {
         "Santon": {}
