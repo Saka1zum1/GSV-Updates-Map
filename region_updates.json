@@ -6368,6 +6368,21 @@
                 "country": "CZ",
                 "altitude": 369.0,
                 "region": "Plze\u0148 Region"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733570810,
+                "author": "Larissa Santos-de Oliveira",
+                "id": "1314916025644617819",
+                "panoId": "0V-kmiMOB1LmOoxcvXAzog",
+                "lat": 49.74847,
+                "lng": 13.38242,
+                "date": "Oct 2024",
+                "country": "CZ",
+                "region": "Plze\u0148 Region"
             }
         },
         "Zl\u00ednsk\u00fd kraj": {}
@@ -12901,8 +12916,7 @@
         "Beeston": {},
         "Bilston": {},
         "Portsmouth": {},
-        "Lancashire County": {},
-        "unknown": {}
+        "Lancashire County": {}
     },
     "IE": {
         "County Kildare": {
