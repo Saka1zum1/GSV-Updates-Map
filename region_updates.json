@@ -1555,6 +1555,21 @@
                 "country": "RO",
                 "altitude": 588.39,
                 "region": "Bra\u0219ov"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1731934616,
+                "author": "Rob",
+                "id": "1308053330265767967",
+                "panoId": "kTkxWSwchs06yoRC8U8GHA",
+                "lat": 45.72307,
+                "lng": 25.579,
+                "date": "Oct 2024",
+                "country": "RO",
+                "altitude": 514.17,
+                "region": "Jude\u021bul Bra\u0219ov"
             }
         },
         "Tulcea": {
@@ -1904,23 +1919,6 @@
                 "country": "RO",
                 "altitude": 493.95,
                 "region": "Jude\u021bul Mure\u0219"
-            }
-        },
-        "Jude\u021bul Bra\u0219ov": {
-            "Oct": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1731934616,
-                "author": "Rob",
-                "id": "1308053330265767967",
-                "panoId": "kTkxWSwchs06yoRC8U8GHA",
-                "lat": 45.72307,
-                "lng": 25.579,
-                "date": "Oct 2024",
-                "country": "RO",
-                "altitude": 514.17,
-                "region": "Jude\u021bul Bra\u0219ov"
             }
         },
         "Jude\u021bul V\u00e2lcea": {},
@@ -3908,11 +3906,7 @@
                 "region": "Catamarca Province"
             }
         },
-        "Chubut": {},
-        "Corrientes": {},
-        "Tierra del Fuego": {},
-        "Jujuy": {},
-        "C\u00f3rdoba": {}
+        "Tierra del Fuego": {}
     },
     "LU": {
         "Esch-sur-Alzette": {
@@ -5559,6 +5553,21 @@
                 "date": "Nov 2024",
                 "country": "NO",
                 "altitude": 179.95,
+                "region": "Oslo"
+            },
+            "Sep": {
+                "types": [
+                    "newtrekker",
+                    "newregion"
+                ],
+                "report_time": 1733555628,
+                "author": "Tobetelogi",
+                "id": "1314852345875795979",
+                "panoId": "2iV--eub2aiQPOEyqc--zg",
+                "lat": 59.91134,
+                "lng": 10.73097,
+                "date": "Sep 2024",
+                "country": "NO",
                 "region": "Oslo"
             }
         },
@@ -11504,6 +11513,21 @@
                 "country": "PH",
                 "altitude": 9.27,
                 "region": "Metro Manila"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733548893,
+                "author": "Aedan",
+                "id": "1314824097531953173",
+                "panoId": "zoXA7dMLvcrMTR6CLcGLEQ",
+                "lat": 14.54368,
+                "lng": 121.05813,
+                "date": "Oct 2024",
+                "country": "PH",
+                "region": "Metro Manila"
             }
         },
         "SOCCSKSARGEN": {
@@ -12877,7 +12901,8 @@
         "Beeston": {},
         "Bilston": {},
         "Portsmouth": {},
-        "Lancashire County": {}
+        "Lancashire County": {},
+        "unknown": {}
     },
     "IE": {
         "County Kildare": {
@@ -15336,6 +15361,21 @@
                 "date": "May 2024",
                 "country": "DK",
                 "altitude": 7.94,
+                "region": "Central Denmark Region"
+            },
+            "Oct": {
+                "types": [
+                    "newtrekker",
+                    "newregion"
+                ],
+                "report_time": 1733562632,
+                "author": "JustEmilo",
+                "id": "1314881724940947521",
+                "panoId": "l61EBW7wlCNKbtivK8K4Ng",
+                "lat": 56.15888,
+                "lng": 10.20576,
+                "date": "Oct 2024",
+                "country": "DK",
                 "region": "Central Denmark Region"
             }
         },
@@ -22851,23 +22891,6 @@
                 "region": "Plovdiv Province"
             }
         },
-        "\u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430": {
-            "Oct": {
-                "types": [
-                    "newregion"
-                ],
-                "report_time": 1729186341,
-                "author": "DeSlagen",
-                "panoId": "5Eo_kVPOl87dwxn4Xu2T0w",
-                "lat": 42.2996,
-                "lng": 25.67003,
-                "date": "Oct 2024",
-                "country": "BG",
-                "altitude": 171.19,
-                "region": "\u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430"
-            }
-        },
-        "\u0411\u0443\u0440\u0433\u0430\u0441": {},
         "Smoljan": {
             "Jun": {
                 "types": [
@@ -23178,6 +23201,20 @@
                 "country": "BG",
                 "altitude": 172.4,
                 "region": "Stara Zagora"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1729186341,
+                "author": "DeSlagen",
+                "panoId": "5Eo_kVPOl87dwxn4Xu2T0w",
+                "lat": 42.2996,
+                "lng": 25.67003,
+                "date": "Oct 2024",
+                "country": "BG",
+                "altitude": 171.19,
+                "region": "\u0421\u0442\u0430\u0440\u0430 \u0417\u0430\u0433\u043e\u0440\u0430"
             }
         },
         "Targovishte Province": {
@@ -24309,7 +24346,6 @@
         },
         "Corse": {},
         "Banyuls-sur-Mer": {},
-        "Catalonia": {},
         "Geneva": {},
         "Britanny": {},
         "Nord": {},
@@ -28412,6 +28448,21 @@
                 "country": "HU",
                 "altitude": 120.89,
                 "region": "Budapest"
+            },
+            "Jul": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733551039,
+                "author": "Larissa Santos-de Oliveira",
+                "id": "1314833101985153088",
+                "panoId": "M4KoEOjD29_GPIGwRF1MQw",
+                "lat": 47.50705,
+                "lng": 19.04713,
+                "date": "Jul 2024",
+                "country": "HU",
+                "region": "Budapest"
             }
         },
         "N\u00f3gr\u00e1d megye": {
@@ -31001,6 +31052,21 @@
                 "country": "PT",
                 "altitude": 26.58,
                 "region": "Porto District"
+            },
+            "Oct": {
+                "types": [
+                    "newtrekker",
+                    "newregion"
+                ],
+                "report_time": 1733564662,
+                "author": "Larissa Santos-de Oliveira",
+                "id": "1314890238983798807",
+                "panoId": "oTTlSHVaWNShnW6k67Xtig",
+                "lat": 41.14479,
+                "lng": -8.61197,
+                "date": "Oct 2024",
+                "country": "PT",
+                "region": "Porto District"
             }
         },
         "Castelo Branco District": {
@@ -31929,6 +31995,21 @@
                 "date": "Nov 2024",
                 "country": "CN",
                 "altitude": 6.7,
+                "region": "Taipei City"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733549234,
+                "author": "Larissa Santos-de Oliveira",
+                "id": "1314825530729697380",
+                "panoId": "1i-bbZx1uRd9C2PlTPJMcQ",
+                "lat": 25.0555,
+                "lng": 121.61796,
+                "date": "Oct 2024",
+                "country": "CN",
                 "region": "Taipei City"
             }
         },
