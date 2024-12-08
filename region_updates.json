@@ -180,6 +180,20 @@
                 "country": "AT",
                 "altitude": 513.05,
                 "region": "Lower Austria"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733669056,
+                "author": "Steve",
+                "id": "1315328101256925297",
+                "panoId": "MdILjem3NHKKegjjvtdwdw",
+                "lat": 48.59144,
+                "lng": 15.33275,
+                "date": "Nov 2024",
+                "country": "AT",
+                "region": "Lower Austria"
             }
         },
         "Upper Austria": {
@@ -313,6 +327,20 @@
                 "date": "Oct 2024",
                 "country": "AT",
                 "altitude": 166.05,
+                "region": "Vienna"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733671268,
+                "author": "Update Tracker Bot",
+                "id": "1315337378570702848",
+                "panoId": "1WUyiRHuxBud9m7_IKCTVA",
+                "lat": 48.19469,
+                "lng": 16.29005,
+                "date": "Nov 2024",
+                "country": "AT",
                 "region": "Vienna"
             }
         },
@@ -24648,6 +24676,20 @@
                 "country": "ES",
                 "altitude": 389.28,
                 "region": "Galicia"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733668303,
+                "author": "DerZiggi",
+                "id": "1315324940890935387",
+                "panoId": "0P0XEwKh-c7HageBTy_nSA",
+                "lat": 43.281,
+                "lng": -7.54095,
+                "date": "Dec 2024",
+                "country": "ES",
+                "region": "Galicia"
             }
         },
         "Asturias": {
@@ -30656,6 +30698,21 @@
                 "country": "CO",
                 "altitude": 343.09,
                 "region": "Meta"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733671504,
+                "author": "Jkmilo13",
+                "id": "1315338365817589760",
+                "panoId": "dtmlYM9EvIVirQ4gKEHx1Q",
+                "lat": 4.15735,
+                "lng": -73.6372,
+                "date": "Oct 2024",
+                "country": "CO",
+                "region": "Meta"
             }
         },
         "Boyaca": {
@@ -35699,6 +35756,21 @@
                 "date": "Dec 2023",
                 "country": "MX",
                 "altitude": 37.59,
+                "region": "Quintana Roo"
+            },
+            "Oct": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1733671311,
+                "author": "DerZiggi",
+                "id": "1315337559450189874",
+                "panoId": "HK3JtgZ2MACstZiJv9fd9w",
+                "lat": 21.06336,
+                "lng": -86.92574,
+                "date": "Oct 2024",
+                "country": "MX",
                 "region": "Quintana Roo"
             }
         },

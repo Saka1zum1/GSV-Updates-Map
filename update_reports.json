@@ -137081,5 +137081,204 @@
         "date": "Sep 2024",
         "country": "CO",
         "region": "Atlantico"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733666826,
+        "author": "chise",
+        "id": "1315318747732377600",
+        "panoId": "AiWqdi5whlzSmeyeecAxnQ",
+        "lat": -35.69772,
+        "lng": -71.40376,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Maule"
+    },
+    {
+        "types": [
+            "newarea"
+        ],
+        "report_time": 1733666591,
+        "author": "JHK",
+        "id": "1315317761169162391",
+        "panoId": "eNiDYahZuMDHKCucvEw4PA",
+        "lat": -36.34086,
+        "lng": -62.29783,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733666323,
+        "author": "chise",
+        "id": "1315316634961055744",
+        "panoId": "L3mIk0dP_jN9iFcv-KgG_g",
+        "lat": -36.89683,
+        "lng": -71.47593,
+        "date": "Jun 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733666241,
+        "author": "chise",
+        "id": "1315316290755498106",
+        "panoId": "oZn1C9J_DFuan818fhsV6w",
+        "lat": -36.28059,
+        "lng": -72.54124,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733668973,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1315327752219529358",
+        "panoId": "WjdS1yOGDmYv2PTG8Jt01A",
+        "lat": 43.69424,
+        "lng": 3.38916,
+        "date": "Nov 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "newregion"
+        ],
+        "report_time": 1733668376,
+        "author": "Woly",
+        "id": "1315325245711974473",
+        "panoId": "_jzQt-JSD8487iChLdrYBQ",
+        "lat": 48.10263,
+        "lng": 20.78338,
+        "date": "Aug 2024",
+        "country": "HU",
+        "region": "Borsod-Aba\u00faj-Zempl\u00e9n"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733668303,
+        "author": "DerZiggi",
+        "id": "1315324940890935387",
+        "panoId": "0P0XEwKh-c7HageBTy_nSA",
+        "lat": 43.281,
+        "lng": -7.54095,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Galicia"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733667664,
+        "author": "chise",
+        "id": "1315322261724463206",
+        "panoId": "G9l5KPzW5wNICdfBfCIimQ",
+        "lat": -39.19847,
+        "lng": -71.807,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733670625,
+        "author": "Woly",
+        "id": "1315334681880694915",
+        "panoId": "VuvWufLYNxxQxze_EjnlQA",
+        "lat": 45.42462,
+        "lng": -75.6958,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Ontario"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733669056,
+        "author": "Steve",
+        "id": "1315328101256925297",
+        "panoId": "MdILjem3NHKKegjjvtdwdw",
+        "lat": 48.59144,
+        "lng": 15.33275,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Lower Austria"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733671734,
+        "author": "Jkmilo13",
+        "id": "1315339330247458866",
+        "panoId": "BdHRYLhvj2PO75vA7N5Vpg",
+        "lat": 5.1054,
+        "lng": -74.48679,
+        "date": "Sep 2024",
+        "country": "CO",
+        "region": "Cundinamarca"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1733671504,
+        "author": "Jkmilo13",
+        "id": "1315338365817589760",
+        "panoId": "dtmlYM9EvIVirQ4gKEHx1Q",
+        "lat": 4.15735,
+        "lng": -73.6372,
+        "date": "Oct 2024",
+        "country": "CO",
+        "region": "Meta"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733671311,
+        "author": "DerZiggi",
+        "id": "1315337559450189874",
+        "panoId": "HK3JtgZ2MACstZiJv9fd9w",
+        "lat": 21.06336,
+        "lng": -86.92574,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Quintana Roo"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733671268,
+        "author": "Update Tracker Bot",
+        "id": "1315337378570702848",
+        "panoId": "1WUyiRHuxBud9m7_IKCTVA",
+        "lat": 48.19469,
+        "lng": 16.29005,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Vienna"
     }
 ]
