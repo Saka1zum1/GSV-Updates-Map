@@ -653,7 +653,7 @@
         "country": "AR",
         "spot_type": "Gen4",
         "spot_date": "2024/10/14",
-        "region": "Chubut Province"
+        "region": "Chubut Province Province"
     },
     {
         "id": "1299433763562061855",
@@ -941,7 +941,7 @@
         "country": "MC",
         "spot_type": "Gen4",
         "spot_date": "2024/10/21",
-        "region": "unknown"
+        "region": "Monaco"
     },
     {
         "id": "1298086263580262500",
@@ -1853,7 +1853,7 @@
         "country": "AR",
         "spot_type": "Gen4",
         "spot_date": "2024/10/12",
-        "region": "Chubut Province"
+        "region": "Chubut Province Province"
     },
     {
         "id": "1294652043528634398",
@@ -3981,7 +3981,7 @@
         "country": "AR",
         "spot_type": "Gen4",
         "spot_date": "2024/09/13",
-        "region": "Chubut"
+        "region": "Chubut Province"
     },
     {
         "id": "1284931282412765265",
@@ -7181,7 +7181,7 @@
         "country": "AR",
         "spot_type": "Gen4",
         "spot_date": "2024/07/21",
-        "region": "Corrientes"
+        "region": "Corrientes Province"
     },
     {
         "id": "1266534507453091871",
@@ -9698,7 +9698,7 @@
     {
         "id": "1246696456761380875",
         "links": [
-            "https://www.elchubut.com.ar/regionales/2024-6-1-23-29-0-el-auto-de-google-volvio-a-trelew",
+            "https://www.elchubut Province.com.ar/regionales/2024-6-1-23-29-0-el-auto-de-google-volvio-a-trelew",
             "https://maps.app.goo.gl/dtVDexZtD6UGPFvKA"
         ],
         "report_time": 1717305997,
@@ -9709,7 +9709,7 @@
         "country": "AR",
         "spot_type": "Gen4",
         "spot_date": "2024/05/31",
-        "region": "Chubut Province"
+        "region": "Chubut Province Province"
     },
     {
         "id": "1246427191500341398",
@@ -11405,7 +11405,7 @@
         "lng": -64.74625,
         "country": "VI",
         "spot_date": "2016/10/07",
-        "region": "St. Croix"
+        "region": "St Croix"
     },
     {
         "id": "1264273111554064475",
@@ -15313,7 +15313,7 @@
         "lng": -65.30701,
         "country": "AR",
         "spot_date": "2014/04/14",
-        "region": "Jujuy"
+        "region": "Jujuy Province"
     },
     {
         "id": "1243772321563410494",
@@ -15329,7 +15329,7 @@
         "lng": -59.26324,
         "country": "AR",
         "spot_date": "2015/07/16",
-        "region": "Corrientes"
+        "region": "Corrientes Province"
     },
     {
         "id": "1243768545763000402",
@@ -15345,7 +15345,7 @@
         "lng": -64.20977,
         "country": "AR",
         "spot_date": "2013/10/09",
-        "region": "C\u00f3rdoba"
+        "region": "C\u00f3rdoba Province"
     },
     {
         "id": "1243678573504761947",
@@ -18400,7 +18400,7 @@
         "lng": -65.29933,
         "country": "AR",
         "spot_date": "2024/11/06",
-        "region": "Chubut"
+        "region": "Chubut Province"
     },
     {
         "id": "1304996380884078702",
@@ -18560,7 +18560,7 @@
         "lng": -67.59602,
         "country": "AR",
         "spot_date": "2024/10/30",
-        "region": "R\u00edo Negro"
+        "region": "R\u00edo Negro Province"
     },
     {
         "id": "1305892160448626810",
@@ -18768,7 +18768,7 @@
         "lng": -64.48821,
         "country": "AR",
         "spot_date": "2024/11/08",
-        "region": "C\u00f3rdoba"
+        "region": "C\u00f3rdoba Province"
     },
     {
         "id": "1307077542301139037",
@@ -20512,7 +20512,7 @@
         "lng": 103.84555,
         "country": "SG",
         "spot_date": "2019/05/08",
-        "region": "unknown"
+        "region": "Singapore"
     },
     {
         "id": "1268591409070473298",
@@ -29473,5 +29473,37 @@
         "lng": 12.28986,
         "country": "DK",
         "region": "Capital Region of Denmark"
+    },
+    {
+        "spot_date": "2024/12/06",
+        "id": "1314712441929597100",
+        "links": [
+            "https://www.facebook.com/timothy.baker.1460/videos/1269216481018632",
+            "https://maps.app.goo.gl/4ScV7YLrcx1bKXRx9"
+        ],
+        "report_time": 1733522272,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "KgM2o0A-cfEALGGNcjcE_A",
+        "lat": 43.63296,
+        "lng": -70.23877,
+        "country": "US",
+        "region": "Maine"
+    },
+    {
+        "spot_date": "2024/12/05",
+        "id": "1314802045030760550",
+        "links": [
+            "https://bsky.app/profile/joeysichol.bsky.social/post/3lcleah7bhs2p",
+            "https://maps.app.goo.gl/9NgRr4oH5aGGWDkSA"
+        ],
+        "report_time": 1733543635,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "KMNqU864pHwxd_1ElR1ZmA",
+        "lat": 37.72712,
+        "lng": -76.38923,
+        "country": "US",
+        "region": "Virginia"
     }
 ]
