@@ -29505,5 +29505,37 @@
         "lng": -76.38923,
         "country": "US",
         "region": "Virginia"
+    },
+    {
+        "spot_date": "2024/01/16",
+        "id": "1312718360680861729",
+        "links": [
+            "https://www.instagram.com/p/C2JuJ3whKm3/?img_index=1",
+            "https://maps.app.goo.gl/k2uvELKLjVxrNANt5"
+        ],
+        "report_time": 1733046846,
+        "author": "redlaserkiwi",
+        "spot_type": "Gen4/H1",
+        "panoId": "yoI7PobwTqL_m36mee3BgA",
+        "lat": -6.89886,
+        "lng": 110.6348,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2024/12/08",
+        "id": "1315267094232961116",
+        "links": [
+            "https://x.com/siroyaginoyuki/status/1865660770857759105?t=vqXqG8jpjHAU1P5pJmX45w&s=19",
+            "https://maps.app.goo.gl/Hum7nyhe4KEHMELF8"
+        ],
+        "report_time": 1733654511,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "_wtYiW8sf9pdw7IxLvrzgw",
+        "lat": 35.01383,
+        "lng": 136.48203,
+        "country": "JP",
+        "region": "Mie"
     }
 ]

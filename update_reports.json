@@ -136740,5 +136740,346 @@
         "date": "Sep 2024",
         "country": "CL",
         "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733617212,
+        "author": "Palmerranian",
+        "id": "1315110648278941706",
+        "panoId": "fQIofshfb4Y3y36r5AshnA",
+        "lat": -37.08199,
+        "lng": -72.02364,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733617212,
+        "author": "Palmerranian",
+        "id": "1315110648278941706",
+        "panoId": "faO0VIdUYRM8nVP5fw8GtQ",
+        "lat": -36.98121,
+        "lng": -72.13392,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733617212,
+        "author": "Palmerranian",
+        "id": "1315110648278941706",
+        "panoId": "kIu8pgz5JSsPgGGOyLQC8Q",
+        "lat": -37.02048,
+        "lng": -72.18873,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733618703,
+        "author": "kallashi!",
+        "id": "1315116904477757450",
+        "panoId": "0X-Runelj-bRCHNOwPlbIA",
+        "lat": 43.10869,
+        "lng": -70.80447,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Hampshire"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733618651,
+        "author": "kallashi!",
+        "id": "1315116684058693684",
+        "panoId": "6JINBmJiTvFspOMhUbIP3g",
+        "lat": 43.06988,
+        "lng": -70.75923,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Hampshire"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733618586,
+        "author": "kallashi!",
+        "id": "1315116412523778088",
+        "panoId": "aY1WynfF4plGAdLcEdiuKw",
+        "lat": 43.07467,
+        "lng": -70.74321,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Hampshire"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733618529,
+        "author": "kallashi!",
+        "id": "1315116173674676295",
+        "panoId": "FI3bisANQwP6vfTvgxncCw",
+        "lat": 43.08212,
+        "lng": -70.75071,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Maine"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733422783,
+        "author": "luca",
+        "id": "1314295157260157053",
+        "panoId": "47wYGXZz4rx6WZ7h3t8szQ",
+        "lat": 45.44086,
+        "lng": 12.32658,
+        "date": "Oct 2024",
+        "country": "IT",
+        "region": "Veneto"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733620593,
+        "author": "kallashi!",
+        "id": "1315124830152032267",
+        "panoId": "hRqDAFVtgEiMKm5vbhL51g",
+        "lat": 50.46167,
+        "lng": -3.52572,
+        "date": "Aug 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733629460,
+        "author": "inferNOOBY",
+        "id": "1315162020911513600",
+        "panoId": "XdOhxdlcU1QiVrjVDo7DpQ",
+        "lat": 14.44489,
+        "lng": 120.9935,
+        "date": "Sep 2024",
+        "country": "PH",
+        "region": "Metro Manila"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733627484,
+        "author": "chise",
+        "id": "1315153733193306145",
+        "panoId": "iA6Wf0eH1Sxx_2bbtX0S2g",
+        "lat": -40.26043,
+        "lng": -72.00706,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Los R\u00edos"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733627092,
+        "author": "Aedan",
+        "id": "1315152091479543870",
+        "panoId": "cs8KwnqYqRC1nxZJvHXHMQ",
+        "lat": 14.54489,
+        "lng": 120.99657,
+        "date": "Aug 2024",
+        "country": "PH",
+        "region": "Metro Manila"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733627008,
+        "author": "chise",
+        "id": "1315151738960871474",
+        "panoId": "00pN2kVBvndXB88bqOUuIw",
+        "lat": -39.49273,
+        "lng": -72.15763,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733626752,
+        "author": "chise",
+        "id": "1315150663449317388",
+        "panoId": "JjaAfblQSE251ujgERoUTQ",
+        "lat": -38.24935,
+        "lng": -72.66565,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733626367,
+        "author": "Aedan",
+        "id": "1315149050693029888",
+        "panoId": "zV50cCqwJSTM4ch4v8FPdQ",
+        "lat": 14.43013,
+        "lng": 120.93251,
+        "date": "Oct 2024",
+        "country": "PH",
+        "region": "Calabarzon"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "newregion"
+        ],
+        "report_time": 1733620913,
+        "author": "Woly",
+        "id": "1315126173512241183",
+        "panoId": "HvuoisUiSEKd7HVvqB85Bg",
+        "lat": 47.68823,
+        "lng": 17.64067,
+        "date": "Aug 2024",
+        "country": "HU",
+        "region": "Gyor-Moson-Sopron"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733620253,
+        "author": "Palmerranian",
+        "id": "1315123404587794493",
+        "panoId": "3Y-kp407iwmZe7q8-i4rHA",
+        "lat": -35.6613,
+        "lng": -71.35721,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Maule"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733644399,
+        "author": "Palmerranian",
+        "id": "1315224679925157918",
+        "panoId": "POqNjs_8o86MMR3CpsH4gQ",
+        "lat": -39.8372,
+        "lng": -72.08549,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Los R\u00edos"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733645089,
+        "author": "Palmerranian",
+        "id": "1315227575890608198",
+        "panoId": "6HHP_BC3e_YAY0cE1WkdDA",
+        "lat": -40.13171,
+        "lng": -72.38536,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Los R\u00edos"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733653108,
+        "author": "Unhook",
+        "id": "1315261209242767362",
+        "panoId": "Uiq-OnRobAknxu1_CY1ljg",
+        "lat": -27.4862,
+        "lng": -58.93995,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Chaco Province"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1733652137,
+        "author": "DerZiggi",
+        "id": "1315257136439361546",
+        "panoId": "yZHhN7BIyQt9mFlv3bzguw",
+        "lat": -27.23808,
+        "lng": -55.34743,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733649418,
+        "author": "DerZiggi",
+        "id": "1315245732453683200",
+        "panoId": "kSFqXHS14KkvLNgiSG8rwQ",
+        "lat": 47.42085,
+        "lng": 13.38448,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Salzburg"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733654686,
+        "author": "DerZiggi",
+        "id": "1315267828143886377",
+        "panoId": "azspRSlfbkQyl5-0pAPKnw",
+        "lat": 36.32777,
+        "lng": -6.08933,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Andalusia"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1733660185,
+        "author": "Update Tracker Bot",
+        "id": "1315290889647820811",
+        "panoId": "WejfgUphQ1g4BwPjdtOvhg",
+        "lat": 10.89917,
+        "lng": -74.80887,
+        "date": "Sep 2024",
+        "country": "CO",
+        "region": "Atlantico"
     }
 ]

@@ -6097,7 +6097,7 @@ function drawMarkers(data) {
   markers = [];
 
   data.forEach(item => {
-    const { lat, lng, author, types, report_time, date, panoId, links, id, spot_type, spot_date, region } = item;
+    const { lat, lng, author, types, report_time, date, panoId, links, id, spot_type, spot_date, region,altitude } = item;
     if (report_time) {
       var localTime = new Date(report_time * 1000).toLocaleString();
     }

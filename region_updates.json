@@ -135,6 +135,21 @@
                 "country": "AT",
                 "altitude": 509.75,
                 "region": "Salzburg"
+            },
+            "Nov": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1733649418,
+                "author": "DerZiggi",
+                "id": "1315245732453683200",
+                "panoId": "kSFqXHS14KkvLNgiSG8rwQ",
+                "lat": 47.42085,
+                "lng": 13.38448,
+                "date": "Nov 2024",
+                "country": "AT",
+                "region": "Salzburg"
             }
         },
         "Lower Austria": {
@@ -3798,6 +3813,21 @@
                 "country": "AR",
                 "altitude": 109.47,
                 "region": "Misiones Province"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733652137,
+                "author": "DerZiggi",
+                "id": "1315257136439361546",
+                "panoId": "yZHhN7BIyQt9mFlv3bzguw",
+                "lat": -27.23808,
+                "lng": -55.34743,
+                "date": "Oct 2024",
+                "country": "AR",
+                "region": "Misiones Province"
             }
         },
         "Chaco Province": {
@@ -3828,6 +3858,20 @@
                 "date": "May 2024",
                 "country": "AR",
                 "altitude": 96.14,
+                "region": "Chaco Province"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733653108,
+                "author": "Unhook",
+                "id": "1315261209242767362",
+                "panoId": "Uiq-OnRobAknxu1_CY1ljg",
+                "lat": -27.4862,
+                "lng": -58.93995,
+                "date": "Oct 2024",
+                "country": "AR",
                 "region": "Chaco Province"
             }
         },
@@ -24468,6 +24512,21 @@
                 "country": "ES",
                 "altitude": 74.6,
                 "region": "Andalusia"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1733654686,
+                "author": "DerZiggi",
+                "id": "1315267828143886377",
+                "panoId": "azspRSlfbkQyl5-0pAPKnw",
+                "lat": 36.32777,
+                "lng": -6.08933,
+                "date": "Dec 2024",
+                "country": "ES",
+                "region": "Andalusia"
             }
         },
         "Galicia": {
@@ -28982,6 +29041,21 @@
                 "country": "HU",
                 "altitude": 143.57,
                 "region": "Gyor-Moson-Sopron"
+            },
+            "Aug": {
+                "types": [
+                    "newtrekker",
+                    "newregion"
+                ],
+                "report_time": 1733620913,
+                "author": "Woly",
+                "id": "1315126173512241183",
+                "panoId": "HvuoisUiSEKd7HVvqB85Bg",
+                "lat": 47.68823,
+                "lng": 17.64067,
+                "date": "Aug 2024",
+                "country": "HU",
+                "region": "Gyor-Moson-Sopron"
             }
         },
         "Vas": {
@@ -30169,6 +30243,21 @@
                 "date": "Jun 2024",
                 "country": "CO",
                 "altitude": 43.1,
+                "region": "Atlantico"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1733660185,
+                "author": "Update Tracker Bot",
+                "id": "1315290889647820811",
+                "panoId": "WejfgUphQ1g4BwPjdtOvhg",
+                "lat": 10.89917,
+                "lng": -74.80887,
+                "date": "Sep 2024",
+                "country": "CO",
                 "region": "Atlantico"
             }
         },
