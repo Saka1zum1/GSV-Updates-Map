@@ -138477,5 +138477,163 @@
         "date": "Nov 2024",
         "country": "AR",
         "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733747661,
+        "author": "glebovski",
+        "id": "1315657792597528638",
+        "panoId": "94D6PyXWZj8nH92ZQpIh7A",
+        "lat": 19.33219,
+        "lng": -104.94988,
+        "date": "Sep 2024",
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733752008,
+        "author": "jpeters",
+        "id": "1315676026873053256",
+        "panoId": "69Zg1WqdM6KZz_yF6Pj_Jw",
+        "lat": 47.29467,
+        "lng": 12.71278,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Salzburg"
+    },
+    {
+        "types": [
+            "newregion",
+            "newyear",
+            "newroad"
+        ],
+        "report_time": 1733732476,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1315594103374745650",
+        "panoId": "wwmDQQR_61wn9Res05V5eA",
+        "lat": 7.56005,
+        "lng": 9.72751,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Benue"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733732271,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1315593241315512431",
+        "panoId": "QZonK5C4oQyveic2uVBGwQ",
+        "lat": 7.23816,
+        "lng": 7.35865,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Kogi"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1733731428,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1315589705571500103",
+        "panoId": "si6Tba4_ZqL_7YKoJcNWJw",
+        "lat": 8.31148,
+        "lng": 5.64089,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Kogi"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733649523,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1315246171119157282",
+        "panoId": "zojCFRMA5kyvGxKXQjGhRA",
+        "lat": 7.80397,
+        "lng": 5.68563,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Ekiti"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733649523,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1315246171119157282",
+        "panoId": "nToLsXA1GM-kCSbXVqy3Kw",
+        "lat": 7.52486,
+        "lng": 5.7662,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Ondo"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1733649288,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1315245184895680583",
+        "panoId": "gU6iujz4LYaJqlFB6b0Ztw",
+        "lat": 7.83255,
+        "lng": 5.68718,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Kogi"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733577313,
+        "author": "Nirvanhaine",
+        "id": "1314943302675464192",
+        "panoId": "ITSRLmx4Km_lO4GfJgvzTA",
+        "lat": 14.80365,
+        "lng": 78.19671,
+        "date": "Apr 2024",
+        "country": "IN",
+        "region": "Andhra Pradesh"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733675845,
+        "author": "kallashi!",
+        "id": "1315356575128489994",
+        "panoId": "LKFgeNN1iTenTU7Gm2piEA",
+        "lat": 43.56023,
+        "lng": -70.28823,
+        "date": "Sep 2024",
+        "country": "US",
+        "region": "Maine"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733674443,
+        "author": "kallashi!",
+        "id": "1315350693527162901",
+        "panoId": "lvVp2xhc2LzCGyVJQDHTMw",
+        "lat": 43.017,
+        "lng": -70.75245,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "New Hampshire"
     }
 ]

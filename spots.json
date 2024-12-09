@@ -29537,5 +29537,21 @@
         "lng": 136.48203,
         "country": "JP",
         "region": "Mie"
+    },
+    {
+        "spot_date": "2024/12/09",
+        "id": "1315669363461980231",
+        "links": [
+            "https://x.com/barikichii/status/1865896505892372697?t=9WVKKStHj2j59MuyLfLL4Q&s=19",
+            "https://maps.app.goo.gl/JhD9prCLuDKJfRYN9"
+        ],
+        "report_time": 1733750420,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "xh-Lh1L5G_HpaYQArO8FbQ",
+        "lat": 35.68703,
+        "lng": 139.5673,
+        "country": "JP",
+        "region": "Tokyo"
     }
 ]
