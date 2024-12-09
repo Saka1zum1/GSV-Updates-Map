@@ -137154,8 +137154,7 @@
     },
     {
         "types": [
-            "newtrekker",
-            "newregion"
+            "newtrekker"
         ],
         "report_time": 1733668376,
         "author": "Woly",
@@ -137280,5 +137279,359 @@
         "date": "Nov 2024",
         "country": "AT",
         "region": "Vienna"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733674329,
+        "author": "K\u00fcgul",
+        "id": "1315350217444294778",
+        "panoId": "V8I5guu4s_obHb7KTkOuCw",
+        "lat": 35.57125,
+        "lng": -111.27811,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733677859,
+        "author": "chise",
+        "id": "1315365022720852061",
+        "panoId": "oNnqsz1GizlDy2IQSpIo0g",
+        "lat": -36.50111,
+        "lng": -72.21647,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733677680,
+        "author": "chise",
+        "id": "1315364272364322816",
+        "panoId": "N-Nz1n2Syx3AvxHUNWmJGg",
+        "lat": -35.72722,
+        "lng": -71.14393,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Maule"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733678202,
+        "author": "Palmerranian",
+        "id": "1315366461036036136",
+        "panoId": "7K13zt5a-N9rUZYfsG2OVw",
+        "lat": -36.14038,
+        "lng": -72.05755,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Maule"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733681019,
+        "author": "chise",
+        "id": "1315378276214247564",
+        "panoId": "vvGgib5bWmrJ9TiPK2L9Bg",
+        "lat": -39.34997,
+        "lng": -71.96951,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733682427,
+        "author": "Unhook",
+        "id": "1315384179717963917",
+        "panoId": "yscFcc7xm1EDygUI9bR4Vg",
+        "lat": -27.12686,
+        "lng": -55.51486,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733682427,
+        "author": "Unhook",
+        "id": "1315384179717963917",
+        "panoId": "TIA5RxfekNMpfZYMCr1npg",
+        "lat": -27.10418,
+        "lng": -55.44715,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733682427,
+        "author": "Unhook",
+        "id": "1315384179717963917",
+        "panoId": "NCvD86nkw3a3pVYhY6COTg",
+        "lat": -27.10441,
+        "lng": -55.33355,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1733681732,
+        "author": "Redpork",
+        "id": "1315381268090982543",
+        "panoId": "TT6MMGisLhoPLYs5DlStsg",
+        "lat": -32.37126,
+        "lng": -64.94506,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733681732,
+        "author": "Redpork",
+        "id": "1315381268090982543",
+        "panoId": "v1Jx4q546vf5OfSGPb-ZZQ",
+        "lat": -33.62987,
+        "lng": -64.60192,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733685337,
+        "author": "DeSlagen",
+        "id": "1315396387650801714",
+        "panoId": "T0Cxu66iotlqe3i6tmkFCA",
+        "lat": 38.98805,
+        "lng": -9.19956,
+        "date": "Oct 2024",
+        "country": "PT",
+        "region": "Lisbon"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733685279,
+        "author": "DeSlagen",
+        "id": "1315396142808432761",
+        "panoId": "-x2UaBgxAUWmIPwBKNmtPg",
+        "lat": 50.827,
+        "lng": 3.27146,
+        "date": "Oct 2024",
+        "country": "BE",
+        "region": "Flanders"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733685165,
+        "author": "DeSlagen",
+        "id": "1315395666390028400",
+        "panoId": "l3XCEZk7GIBi2qlrwdgYdg",
+        "lat": 47.4049,
+        "lng": 13.68034,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Styria"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733686850,
+        "author": "DeSlagen",
+        "id": "1315402734106837082",
+        "panoId": "jOjtJNHvsz4T-brRE8LCTg",
+        "lat": 48.18063,
+        "lng": 14.18835,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Upper Austria"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733686660,
+        "author": "DeSlagen",
+        "id": "1315401934751924224",
+        "panoId": "oym_SCNWV1k2yxFfQUICJg",
+        "lat": 47.29395,
+        "lng": 12.55038,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Salzburg"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733686660,
+        "author": "DeSlagen",
+        "id": "1315401934751924224",
+        "panoId": "3LqezNbkRvHjNjGQzUtZAA",
+        "lat": 47.29749,
+        "lng": 12.74081,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Salzburg"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733686318,
+        "author": "DeSlagen",
+        "id": "1315400502305099776",
+        "panoId": "Eno60I7Vnz-t-kjJqcg7dA",
+        "lat": 43.74144,
+        "lng": 3.17331,
+        "date": "Nov 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733686318,
+        "author": "DeSlagen",
+        "id": "1315400502305099776",
+        "panoId": "VhJsqzSl_v8trJTjMpJbdQ",
+        "lat": 42.80998,
+        "lng": 2.34431,
+        "date": "Nov 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733686318,
+        "author": "DeSlagen",
+        "id": "1315400502305099776",
+        "panoId": "BtwaeMmSpao65dvGjEkmpg",
+        "lat": 42.81287,
+        "lng": 2.31128,
+        "date": "Nov 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "new_brunswick",
+            "newroad"
+        ],
+        "report_time": 1733685840,
+        "author": "Frost",
+        "id": "1315398495431163942",
+        "panoId": "yp7hYqAD79Lo9MpXqjMKNQ",
+        "lat": 47.09966,
+        "lng": -67.56305,
+        "date": "Oct 2024",
+        "country": "CA",
+        "region": "New Brunswick"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733687633,
+        "author": "chise",
+        "id": "1315406018884403282",
+        "panoId": "fvRxBCKtCFQ6cB25Lg1vFA",
+        "lat": -36.8252,
+        "lng": -72.65905,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "newroad"
+        ],
+        "report_time": 1733697489,
+        "author": "Tobetelogi",
+        "id": "1315447355176128524",
+        "panoId": "fZMTUxco1GVWzAdRUb0hJQ",
+        "lat": 59.90733,
+        "lng": 10.75112,
+        "date": "Aug 2024",
+        "country": "NO",
+        "region": "Oslo"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733697393,
+        "author": "Update Tracker Bot",
+        "id": "1315446953508737065",
+        "panoId": "5sqXNiIxN18NWAqS5IMcBg",
+        "lat": -33.87173,
+        "lng": -59.51625,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733699958,
+        "author": "DeSlagen",
+        "id": "1315457710652788776",
+        "panoId": "2AHgtymS62UKjyrLzUC7Gw",
+        "lat": 36.2987,
+        "lng": -5.79521,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Andalusia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733699958,
+        "author": "DeSlagen",
+        "id": "1315457710652788776",
+        "panoId": "LaU3gf7UWzJlzSwM3GYcKg",
+        "lat": 36.5116,
+        "lng": -5.84882,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Andalusia"
     }
 ]

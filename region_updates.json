@@ -224,6 +224,20 @@
                 "country": "AT",
                 "altitude": 427.26,
                 "region": "Upper Austria"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733686850,
+                "author": "DeSlagen",
+                "id": "1315402734106837082",
+                "panoId": "jOjtJNHvsz4T-brRE8LCTg",
+                "lat": 48.18063,
+                "lng": 14.18835,
+                "date": "Nov 2024",
+                "country": "AT",
+                "region": "Upper Austria"
             }
         },
         "Styria": {
@@ -268,6 +282,20 @@
                 "date": "Oct 2024",
                 "country": "AT",
                 "altitude": 833.86,
+                "region": "Styria"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733685165,
+                "author": "DeSlagen",
+                "id": "1315395666390028400",
+                "panoId": "l3XCEZk7GIBi2qlrwdgYdg",
+                "lat": 47.4049,
+                "lng": 13.68034,
+                "date": "Nov 2024",
+                "country": "AT",
                 "region": "Styria"
             }
         },
@@ -3008,6 +3036,20 @@
                 "country": "AR",
                 "altitude": 192.07,
                 "region": "Buenos Aires Province"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733697393,
+                "author": "Update Tracker Bot",
+                "id": "1315446953508737065",
+                "panoId": "5sqXNiIxN18NWAqS5IMcBg",
+                "lat": -33.87173,
+                "lng": -59.51625,
+                "date": "Nov 2024",
+                "country": "AR",
+                "region": "Buenos Aires Province"
             }
         },
         "Corrientes Province": {
@@ -3682,6 +3724,21 @@
                 "date": "Oct 2024",
                 "country": "AR",
                 "altitude": 1105.48,
+                "region": "San Luis Province"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733681732,
+                "author": "Redpork",
+                "id": "1315381268090982543",
+                "panoId": "TT6MMGisLhoPLYs5DlStsg",
+                "lat": -32.37126,
+                "lng": -64.94506,
+                "date": "Nov 2024",
+                "country": "AR",
                 "region": "San Luis Province"
             }
         },
@@ -30994,6 +31051,20 @@
                 "date": "Nov 2024",
                 "country": "PT",
                 "altitude": 93.12,
+                "region": "Lisbon"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733685337,
+                "author": "DeSlagen",
+                "id": "1315396387650801714",
+                "panoId": "T0Cxu66iotlqe3i6tmkFCA",
+                "lat": 38.98805,
+                "lng": -9.19956,
+                "date": "Oct 2024",
+                "country": "PT",
                 "region": "Lisbon"
             }
         },
