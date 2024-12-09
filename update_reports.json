@@ -137633,5 +137633,849 @@
         "date": "Dec 2024",
         "country": "ES",
         "region": "Andalusia"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733702805,
+        "author": "DarkShadow MH,ER,MC",
+        "id": "1315469650838032506",
+        "panoId": "utcdMOF4lhA_OcCdS4Ofmg",
+        "lat": 42.73193,
+        "lng": 2.22788,
+        "date": "Nov 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733704095,
+        "author": "Update Tracker Bot",
+        "id": "1315475064082141287",
+        "panoId": "T2G7_RAb5DTH47-BZYD0wg",
+        "lat": -22.20089,
+        "lng": -42.87079,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Rio de Janeiro"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733714125,
+        "author": "Jkmilo13",
+        "id": "1315517132892672000",
+        "panoId": "DBvfhoNrzv9CAzlL5hDJEg",
+        "lat": 4.88083,
+        "lng": -73.83994,
+        "date": "Jul 2024",
+        "country": "CO",
+        "region": "Cundinamarca"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733712793,
+        "author": "Palmerranian",
+        "id": "1315511544829710386",
+        "panoId": "2jaQVUkKCv98NLjL5OFIEQ",
+        "lat": -36.81365,
+        "lng": -71.96804,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733726019,
+        "author": "Update Tracker Bot",
+        "id": "1315567020787503155",
+        "panoId": "_9pTNzIkZLXbhHXACaUS0Q",
+        "lat": 20.09242,
+        "lng": -102.26417,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Michoac\u00e1n"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen2update"
+        ],
+        "report_time": 1733725741,
+        "author": "Tobetelogi",
+        "id": "1315565853407838258",
+        "panoId": "bcPSIY-EpGbu8kHAHDO1dg",
+        "lat": 59.91692,
+        "lng": 10.72812,
+        "date": "Aug 2024",
+        "country": "NO",
+        "region": "Oslo"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1733725741,
+        "author": "Tobetelogi",
+        "id": "1315565853407838258",
+        "panoId": "sWq3hoyykRZKox8OU6Ryeg",
+        "lat": 59.91293,
+        "lng": 10.74182,
+        "date": "Aug 2024",
+        "country": "NO",
+        "region": "Oslo"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733732199,
+        "author": "Palmerranian",
+        "id": "1315592940780912662",
+        "panoId": "ZdwR1Qzj7Syw-STcaQaSdw",
+        "lat": -40.27801,
+        "lng": -72.26748,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Los R\u00edos"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733732181,
+        "author": "Palmerranian",
+        "id": "1315592863312117812",
+        "panoId": "gZaSMIFypln3AE-R6rCLug",
+        "lat": -39.39915,
+        "lng": -71.67716,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733732160,
+        "author": "Palmerranian",
+        "id": "1315592775709884446",
+        "panoId": "HCWRGOxDa1tpQTpRJOQ0nw",
+        "lat": -37.64693,
+        "lng": -71.82186,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733732127,
+        "author": "Palmerranian",
+        "id": "1315592639038488607",
+        "panoId": "Alyn7RCMz8Mhw8OPnXZODQ",
+        "lat": -35.78552,
+        "lng": -71.34649,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Maule"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "26WW7k0tcQXrCFNXLTMuuA",
+        "lat": -32.55899,
+        "lng": -65.24505,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "_Izm_UcRHGdHCdrblq-S5g",
+        "lat": -32.61862,
+        "lng": -64.9784,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "X-wOL_Z7JIADelVmrBDIFA",
+        "lat": -32.50691,
+        "lng": -64.98901,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "Y7CCi7Lq0R5mRqD4n83kzw",
+        "lat": -32.43877,
+        "lng": -65.00927,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "za5MrGOynPE3y6c5LZW_UA",
+        "lat": -33.38275,
+        "lng": -64.72438,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "wJjUQ5bKACTVSRAkQhG_EQ",
+        "lat": -33.44044,
+        "lng": -64.83141,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "lSqFpyBtFNcPrOFg8kGaYA",
+        "lat": -33.50384,
+        "lng": -64.67614,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "4M-OBsJWI26sO05lxcixwQ",
+        "lat": -32.66431,
+        "lng": -64.74265,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "t0f-lLFUMWTCuubt0YiB0w",
+        "lat": -33.55607,
+        "lng": -65.00444,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "3nDR1cpSwYr9jZ9ZhLY-gA",
+        "lat": -32.62951,
+        "lng": -62.48103,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "Ct8U7iMwB63nbB_D3AuRMA",
+        "lat": -32.61095,
+        "lng": -62.58932,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "Uc9znaLZDp0w1LDVXSj_EA",
+        "lat": -31.91621,
+        "lng": -63.50384,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "KgsDCPeaO3cCIGF9hrmxRA",
+        "lat": -31.83164,
+        "lng": -63.45133,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "2s4Y-jlowksWYejGue3VNg",
+        "lat": -31.71422,
+        "lng": -63.50896,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "Uc9znaLZDp0w1LDVXSj_EA",
+        "lat": -31.91621,
+        "lng": -63.50384,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "bbF0X6POfrSapYQXhaZlkQ",
+        "lat": -32.01171,
+        "lng": -63.44115,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733744270,
+        "author": "glebovski",
+        "id": "1315643571440980000",
+        "panoId": "ftdqHR3gTY28ifLo3I3GzA",
+        "lat": -31.95086,
+        "lng": -63.31894,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733744181,
+        "author": "glebovski",
+        "id": "1315643194599411723",
+        "panoId": "TVAG78ARYvln9kSiFCariQ",
+        "lat": -32.37397,
+        "lng": -61.88404,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Santa Fe Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733744105,
+        "author": "glebovski",
+        "id": "1315642877153513544",
+        "panoId": "rw0VM4Vq5w5x8-BDELAQqg",
+        "lat": -32.13048,
+        "lng": -59.17973,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Entre R\u00edos Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "AJd4h6HjHiMykNcxK62GGA",
+        "lat": -27.14073,
+        "lng": -55.40955,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "E3_3_B3IHBxnG-5rPOby8w",
+        "lat": -27.10767,
+        "lng": -55.37727,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "He4NEG6rn6k9qeIsGUaBUw",
+        "lat": -27.04422,
+        "lng": -55.22447,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "fq4x8WF3JKXyXzITPB_uGg",
+        "lat": -26.97032,
+        "lng": -55.05298,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "RUYYNDne4J4r7Q_27Fjd_Q",
+        "lat": -26.81046,
+        "lng": -54.98943,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "jHONOWbege34v4AwBhYbtQ",
+        "lat": -28.98685,
+        "lng": -59.10375,
+        "date": "Sep 2024",
+        "country": "AR",
+        "region": "Corrientes Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "NZ2un5oH-tbmoB8wnHw5mA",
+        "lat": -28.99323,
+        "lng": -59.07611,
+        "date": "Sep 2024",
+        "country": "AR",
+        "region": "Corrientes Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "K-VTAXlxswyCJ-Dw5azDfA",
+        "lat": -28.91154,
+        "lng": -58.93406,
+        "date": "Sep 2024",
+        "country": "AR",
+        "region": "Corrientes Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733743489,
+        "author": "glebovski",
+        "id": "1315640295383371798",
+        "panoId": "9kmbwqytXy5Uw_lhQd6k-A",
+        "lat": -32.16135,
+        "lng": -58.40961,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Entre R\u00edos Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733740333,
+        "author": "Aedan",
+        "id": "1315627058193236049",
+        "panoId": "94NHHNKsyumOhNHMcABhNA",
+        "lat": -36.08504,
+        "lng": -61.72572,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733740333,
+        "author": "Aedan",
+        "id": "1315627058193236049",
+        "panoId": "7zPauePJrq8uOLZfAPvDFA",
+        "lat": -36.36542,
+        "lng": -62.35845,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733740333,
+        "author": "Aedan",
+        "id": "1315627058193236049",
+        "panoId": "uBegnNXMes7mrFGAq_RZXg",
+        "lat": -36.22995,
+        "lng": -62.0105,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1733739348,
+        "author": "Alok",
+        "id": "1315622927206711337",
+        "panoId": "N09OYfJy-amOUAE9BNWi7Q",
+        "lat": 46.10076,
+        "lng": -104.94202,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Montana"
+    },
+    {
+        "types": [
+            "newtown",
+            "newarea"
+        ],
+        "report_time": 1733736679,
+        "author": "mpk",
+        "id": "1315611729509744690",
+        "panoId": "90af_0KWj2-xh1IKrOSOWQ",
+        "lat": -13.68981,
+        "lng": -50.80041,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Goi\u00e1s"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733747039,
+        "author": "glebovski",
+        "id": "1315655182519894058",
+        "panoId": "xtrduftsGQrRVxZyCDdhxA",
+        "lat": 46.69956,
+        "lng": -106.66561,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Montana"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "2EHoJIiITxdK8RkCmxE9Tg",
+        "lat": -36.30721,
+        "lng": -62.20129,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "3FlBzsbZcWEpS1P_wom33A",
+        "lat": -36.29937,
+        "lng": -61.71708,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "9sHuC_yB9ac2oFj_9VU8Mg",
+        "lat": -36.56044,
+        "lng": -62.60345,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "n-wYSu4NULG3-ZUgXughlQ",
+        "lat": -36.43155,
+        "lng": -61.42256,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "RQFT-WSxcvNYmlwl4RwlSw",
+        "lat": -35.91697,
+        "lng": -61.53359,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "SLuSDx6JYQ03oTc2FKkZZg",
+        "lat": -35.71351,
+        "lng": -61.6491,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "ZHmtregbxjTung1dNjEnxw",
+        "lat": -35.62494,
+        "lng": -61.36078,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "ptg8lxaQh63vXhqYHkNeUA",
+        "lat": -36.24347,
+        "lng": -61.12809,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733745985,
+        "author": "glebovski",
+        "id": "1315650764772999230",
+        "panoId": "844HbuIZLEqmOJp9-WUaMA",
+        "lat": -35.96906,
+        "lng": -60.15237,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "uD5v_1NjNkzzsw4_71-C2A",
+        "lat": -32.33901,
+        "lng": -65.20904,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "tgB-RW-SKXju0Ha48aNFog",
+        "lat": -32.36024,
+        "lng": -65.00088,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "cyJ8LZ3pWO31ehqV-dPjKA",
+        "lat": -33.84722,
+        "lng": -65.26784,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "WEnzK9-UJ7XSIvRoslcFJg",
+        "lat": -33.73492,
+        "lng": -65.15137,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "SjyOw_1cChzxZsgLaHDh9g",
+        "lat": -32.59042,
+        "lng": -65.10805,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "San Luis Province"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733745176,
+        "author": "glebovski",
+        "id": "1315647371618680863",
+        "panoId": "k7tk8Jd_1dunkVPJ04n7cg",
+        "lat": -32.31952,
+        "lng": -65.26014,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "San Luis Province"
     }
 ]

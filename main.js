@@ -5909,7 +5909,7 @@ var selectedColor = color_keys[color_preference];
 var [backgroundcolor, borderColor] = colorOptions[selectedColor];
 
 const roadmapBaseLayer = L.tileLayer("https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:l|p.v:off,s.t:1|s.e:g.s|p.v:on!5m1!5f1.5", { maxZoom: 20 });
-var LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35"
+var LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f3"
 const roadmapLabelsLayer = L.tileLayer(LabelsUrl,
   { pane: "labelPane", maxZoom: 20 });
 const roadmapLayer = L.layerGroup([roadmapBaseLayer, roadmapLabelsLayer]);
@@ -5923,9 +5923,9 @@ const terrainLayer = L.layerGroup([terrainBaseLayer, terrainLabelsLayer]);
 const osmLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors', maxZoom: 18 });
 const cartoLightLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png", { subdomains: ["a", "b", "c"], maxZoom: 20 });
 const cartoDarkLayer = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png", { subdomains: ["a", "b", "c"], maxZoom: 20 });
-var gsvUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
-var gsv2Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
-var gsv3Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
+var gsvUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.8`
+var gsv2Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.8`
+var gsv3Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.8`
 const gsvLayer = L.tileLayer(gsvUrl,
   { pane: "coveragePane", maxZoom: 20 });
 const gsvLayer2 = L.tileLayer(gsv2Url,
@@ -6290,7 +6290,7 @@ function createSearchPopup() {
       return}
     applyFilters()
     filter_country.appendChild(filter_flag);
-    LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m2%211e0%212sm%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.t%3A18%7Cs.e%3Ag.s%7Cp.w%3A3%2Cs.e%3Ag%7Cp.v%3Aoff%2Cs.t%3A1%7Cs.e%3Ag.s%7Cp.v%3Aon%2Cs.e%3Al%7Cp.v%3Aon%215m1%215f1.35";
+    LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m2!1e0!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.t:18|s.e:g.s|p.w:3,s.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f3";
     roadmapLabelsLayer.setUrl(LabelsUrl);
     terrainLabelsLayer.setUrl(LabelsUrl);
     satelliteLabelsLayer.setUrl(LabelsUrl);
@@ -6615,9 +6615,9 @@ toggle_line_color.addEventListener('click', function () {
   [backgroundcolor, borderColor] = colorOptions[selectedColor];
   toggle_line_color.style.background = `#${backgroundcolor}`;
   toggle_line_color.style.borderColor = `#${borderColor}`;
-  gsvUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
-  gsv2Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
-  gsv3Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
+  gsvUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.8`
+  gsv2Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.8`
+  gsv3Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.8`
   gsvLayer.setUrl(gsvUrl)
   gsvLayer2.setUrl(gsv2Url)
   gsvLayer3.setUrl(gsv3Url)
@@ -6794,7 +6794,7 @@ filter_country.addEventListener('click', function () {
     filter_check.country= null
     filter_country.removeChild(filter_flag)
     applyFilters()
-    LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f1.35"
+    LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f3"
     roadmapLabelsLayer.setUrl(LabelsUrl)
     terrainLabelsLayer.setUrl(LabelsUrl)
     satelliteLabelsLayer.setUrl(LabelsUrl)

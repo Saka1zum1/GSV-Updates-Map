@@ -20741,6 +20741,20 @@
                 "country": "BR",
                 "altitude": 390.45,
                 "region": "State of Rio de Janeiro"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733704095,
+                "author": "Update Tracker Bot",
+                "id": "1315475064082141287",
+                "panoId": "T2G7_RAb5DTH47-BZYD0wg",
+                "lat": -22.20089,
+                "lng": -42.87079,
+                "date": "Nov 2024",
+                "country": "BR",
+                "region": "State of Rio de Janeiro"
             }
         },
         "State of Tocantins": {
@@ -35909,6 +35923,20 @@
                 "date": "Aug 2024",
                 "country": "MX",
                 "altitude": 1855.23,
+                "region": "Michoac\u00e1n"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733726019,
+                "author": "Update Tracker Bot",
+                "id": "1315567020787503155",
+                "panoId": "_9pTNzIkZLXbhHXACaUS0Q",
+                "lat": 20.09242,
+                "lng": -102.26417,
+                "date": "Oct 2024",
+                "country": "MX",
                 "region": "Michoac\u00e1n"
             }
         },
