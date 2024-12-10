@@ -29569,5 +29569,37 @@
         "lng": 18.05803,
         "country": "SE",
         "region": "Stockholm County"
+    },
+    {
+        "spot_date": "2024/12/10",
+        "id": "1316009426628513873",
+        "links": [
+            "https://x.com/cocacorasake/status/1866353288851169356?t=-MnYDKA89HLxZiHM-BWM_g&s=19",
+            "https://maps.app.goo.gl/2JCd3u71Z765t1mG6"
+        ],
+        "report_time": 1733831497,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "BwcwbMATTFlIWc3d00U9eg",
+        "lat": 35.70134,
+        "lng": 139.58189,
+        "country": "JP",
+        "region": "Tokyo"
+    },
+    {
+        "spot_date": "2024/12/05",
+        "id": "1316051486224027760",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10162470790783234&set=a.382678258233",
+            "https://maps.app.goo.gl/9HFYeHhMvnWL2oaE7"
+        ],
+        "report_time": 1733841525,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "y3739VD2EnDWIFoTPUwOzw",
+        "lat": 40.43201,
+        "lng": -78.41737,
+        "country": "US",
+        "region": "Pennsylvania"
     }
 ]

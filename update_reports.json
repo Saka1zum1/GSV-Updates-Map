@@ -138747,5 +138747,216 @@
         "date": "Sep 2024",
         "country": "CL",
         "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733789974,
+        "author": "DeSlagen",
+        "id": "1315835266090663967",
+        "panoId": "_s8R0CzWOSfYFYRnMsPBow",
+        "lat": 46.79066,
+        "lng": 24.18504,
+        "date": "Nov 2024",
+        "country": "RO",
+        "region": "DN16"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733789850,
+        "author": "DeSlagen",
+        "id": "1315834745271353374",
+        "panoId": "eUSUo9MEBecIvMqPPTlC1w",
+        "lat": 45.92249,
+        "lng": 25.39788,
+        "date": "Nov 2024",
+        "country": "RO",
+        "region": "Bra\u0219ov"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733789687,
+        "author": "Melting Ice",
+        "id": "1315834064493613147",
+        "panoId": "zlYGaEG8O4mk43tyzlrCHg",
+        "lat": -27.42753,
+        "lng": -58.95157,
+        "date": "Aug 2021",
+        "country": "AR",
+        "region": "Chaco Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733791084,
+        "author": "DeSlagen",
+        "id": "1315839920392110100",
+        "panoId": "i0e4lwPQHfcU_4-oo-ghjA",
+        "lat": 47.40902,
+        "lng": 13.59061,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Styria"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733791065,
+        "author": "DeSlagen",
+        "id": "1315839840679493685",
+        "panoId": "t8nCDdEGSYgERZ5EpQ81wg",
+        "lat": 47.43663,
+        "lng": 13.47271,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Salzburg"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733790955,
+        "author": "DeSlagen",
+        "id": "1315839379821953137",
+        "panoId": "xENEPhB7t9YLBNIxtQBEZg",
+        "lat": 47.44427,
+        "lng": 13.43793,
+        "date": "Nov 2024",
+        "country": "AT",
+        "region": "Salzburg"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733800256,
+        "author": "JcranMusic",
+        "id": "1315878390812774481",
+        "panoId": "y5Gv_qd-8ZS7YahNj5Pq0g",
+        "lat": 37.92211,
+        "lng": -89.91609,
+        "date": "Jun 2024",
+        "country": "US",
+        "region": "Illinois"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733817301,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1315949885039837185",
+        "panoId": "y3j-tUjfg2vrxNNFMLQyzQ",
+        "lat": 43.74275,
+        "lng": 7.4261,
+        "date": "Aug 2024",
+        "country": "FR",
+        "region": "Provence-Alpes-C\u00f4te d'Azur"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733823798,
+        "author": "1xqd",
+        "id": "1315977136250818571",
+        "panoId": "BOBTfbmuAUL5gIg4F1_Prg",
+        "lat": -45.88362,
+        "lng": 169.59892,
+        "date": "Oct 2024",
+        "country": "NZ",
+        "region": "Otago"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733823446,
+        "author": "1xqd",
+        "id": "1315975659528388649",
+        "panoId": "8tuyYheS5u27Mw2K8z28HQ",
+        "lat": -46.01198,
+        "lng": 169.23364,
+        "date": "Oct 2024",
+        "country": "NZ",
+        "region": "Otago"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733817301,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1315949885039837185",
+        "panoId": "UQsEaHI4jjX1IgYl_md0fw",
+        "lat": 43.74703,
+        "lng": 7.4274,
+        "date": "Jul 2024",
+        "country": "FR",
+        "region": "Provence-Alpes-C\u00f4te d'Azur"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733839589,
+        "author": "jpeters",
+        "id": "1316043366412189696",
+        "panoId": "kxjLqctXI5wQhTQWnt1-Yw",
+        "lat": 35.49936,
+        "lng": -110.80389,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733842843,
+        "author": "DerZiggi",
+        "id": "1316057014014578771",
+        "panoId": "GTUdqv-jZ9t8I9UL5nXbTQ",
+        "lat": 33.34783,
+        "lng": -104.5232,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "New Mexico"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733846846,
+        "author": "Palmerranian",
+        "id": "1316073802664251433",
+        "panoId": "CrY9t0ogXEw_g3s81YnmHg",
+        "lat": -36.7398,
+        "lng": -72.6388,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733845748,
+        "author": "Steve",
+        "id": "1316069197498814484",
+        "panoId": "dWG84c8NBfuCfmFjR-0CeQ",
+        "lat": 34.56838,
+        "lng": 135.72345,
+        "date": "Nov 2024",
+        "country": "JP",
+        "region": "Nara"
     }
 ]

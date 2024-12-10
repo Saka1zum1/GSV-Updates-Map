@@ -1641,6 +1641,20 @@
                 "country": "RO",
                 "altitude": 514.17,
                 "region": "Jude\u021bul Bra\u0219ov"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733789850,
+                "author": "DeSlagen",
+                "id": "1315834745271353374",
+                "panoId": "eUSUo9MEBecIvMqPPTlC1w",
+                "lat": 45.92249,
+                "lng": 25.39788,
+                "date": "Nov 2024",
+                "country": "RO",
+                "region": "Bra\u0219ov"
             }
         },
         "Tulcea": {
@@ -2034,7 +2048,23 @@
         "Buzau County": {},
         "Galati County": {},
         "Braila County": {},
-        "Arad County": {}
+        "Arad County": {},
+        "DN16": {
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733789974,
+                "author": "DeSlagen",
+                "id": "1315835266090663967",
+                "panoId": "_s8R0CzWOSfYFYRnMsPBow",
+                "lat": 46.79066,
+                "lng": 24.18504,
+                "date": "Nov 2024",
+                "country": "RO",
+                "region": "DN16"
+            }
+        }
     },
     "SI": {
         "Jesenice": {
@@ -10548,6 +10578,21 @@
                 "country": "US",
                 "altitude": 1254.16,
                 "region": "New Mexico"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1733842843,
+                "author": "DerZiggi",
+                "id": "1316057014014578771",
+                "panoId": "GTUdqv-jZ9t8I9UL5nXbTQ",
+                "lat": 33.34783,
+                "lng": -104.5232,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "New Mexico"
             }
         },
         "Colorado": {
@@ -18160,6 +18205,20 @@
                 "date": "Oct 2024",
                 "country": "JP",
                 "altitude": 55.24,
+                "region": "Nara"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733845748,
+                "author": "Steve",
+                "id": "1316069197498814484",
+                "panoId": "dWG84c8NBfuCfmFjR-0CeQ",
+                "lat": 34.56838,
+                "lng": 135.72345,
+                "date": "Nov 2024",
+                "country": "JP",
                 "region": "Nara"
             }
         },
@@ -46105,6 +46164,23 @@
                 "date": "Nov 2024",
                 "country": "NG",
                 "region": "Benue"
+            }
+        },
+        "unknown": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1733649288,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1315245184895680583",
+                "panoId": "gU6iujz4LYaJqlFB6b0Ztw",
+                "lat": 7.83255,
+                "lng": 5.68718,
+                "date": "Nov 2024",
+                "country": "NG",
+                "region": "unknown"
             }
         }
     },
