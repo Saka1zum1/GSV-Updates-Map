@@ -138635,5 +138635,117 @@
         "date": "Nov 2024",
         "country": "US",
         "region": "New Hampshire"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1733760926,
+        "author": "chise",
+        "id": "1315713430552055919",
+        "panoId": "WdPYi0XkzNzhgbjLfrbK3g",
+        "lat": -37.03297,
+        "lng": -72.40465,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733766611,
+        "author": "Palmerranian",
+        "id": "1315737276470394950",
+        "panoId": "mEaqMZrH7ZbMSY__AoV52A",
+        "lat": -36.70872,
+        "lng": -71.89113,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733766611,
+        "author": "Palmerranian",
+        "id": "1315737276470394950",
+        "panoId": "TgIdHa8yI3KDC6SzB_Uq3Q",
+        "lat": -36.63931,
+        "lng": -71.99032,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733766611,
+        "author": "Palmerranian",
+        "id": "1315737276470394950",
+        "panoId": "FeJ4Fcu7QyhMoIeHTTdjCQ",
+        "lat": -36.87759,
+        "lng": -72.09663,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733769732,
+        "author": "chise",
+        "id": "1315750366033481770",
+        "panoId": "z-63nrB2gk88OxRYU1tDdg",
+        "lat": -37.08813,
+        "lng": -72.43376,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733771465,
+        "author": "Frost",
+        "id": "1315757632983666809",
+        "panoId": "ivzC5xvdW6DNXPP6t4NuQw",
+        "lat": 45.48096,
+        "lng": -73.59785,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Quebec"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733769886,
+        "author": "chise",
+        "id": "1315751011943452783",
+        "panoId": "BKdbO91IWvicz8K6thYjzQ",
+        "lat": -37.87891,
+        "lng": -71.63782,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733779128,
+        "author": "Palmerranian",
+        "id": "1315789773834686504",
+        "panoId": "edGf1Wk-QhbNBLbMwn_9QA",
+        "lat": -37.06341,
+        "lng": -72.88897,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Bio Bio"
     }
 ]

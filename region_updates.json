@@ -46088,6 +46088,24 @@
                 "country": "NG",
                 "region": "Ekiti"
             }
+        },
+        "Benue": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1733732476,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1315594103374745650",
+                "panoId": "wwmDQQR_61wn9Res05V5eA",
+                "lat": 7.56005,
+                "lng": 9.72751,
+                "date": "Nov 2024",
+                "country": "NG",
+                "region": "Benue"
+            }
         }
     },
     "LB": {

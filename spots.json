@@ -29553,5 +29553,21 @@
         "lng": 139.5673,
         "country": "JP",
         "region": "Tokyo"
+    },
+    {
+        "spot_date": "2024/06/26",
+        "id": "1315244499999527013",
+        "links": [
+            "https://www.dreamstime.com/stockholm-sweden-jun-pedestrian-google-maps-branded-backpack-camera-technology-consults-hand-held-device-walking-image348337913",
+            "https://maps.app.goo.gl/hduwUCFDM9P1QYfJA"
+        ],
+        "report_time": 1733649124,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4/H1",
+        "panoId": "b778eLJ1ClO0OJ_4DDMw6A",
+        "lat": 59.3282,
+        "lng": 18.05803,
+        "country": "SE",
+        "region": "Stockholm County"
     }
 ]
