@@ -29601,5 +29601,37 @@
         "lng": -78.41737,
         "country": "US",
         "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2024/11/06",
+        "id": "1316135219694272552",
+        "links": [
+            "https://www.tiktok.com/@seba.rdrgz/video/7445116001093520695",
+            "https://maps.app.goo.gl/wtJf4Pdfv94xWH2j8"
+        ],
+        "report_time": 1733861488,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "iNf6fGqUAZIwttaaKag6uA",
+        "lat": -46.44118,
+        "lng": -67.51781,
+        "country": "AR",
+        "region": "Santa Cruz Province"
+    },
+    {
+        "spot_date": "2024/12/09",
+        "id": "1316052182797385761",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10225994923850929&set=pcb.10225994930411093",
+            "https://maps.app.goo.gl/C2RZCooKvUpXqDzt9"
+        ],
+        "report_time": 1733841691,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "x0VYENbABiZhTDCCt7eEHQ",
+        "lat": 35.59785,
+        "lng": -95.90862,
+        "country": "US",
+        "region": "Oklahoma"
     }
 ]

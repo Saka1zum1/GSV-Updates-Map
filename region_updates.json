@@ -7041,6 +7041,21 @@
                 "country": "US",
                 "altitude": 24.42,
                 "region": "District of Columbia"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1733869949,
+                "author": "DeSlagen",
+                "id": "1316170704940564520",
+                "panoId": "tZAO99AQtgW3TB6hMbuPyg",
+                "lat": 38.91547,
+                "lng": -77.06069,
+                "date": "Sep 2024",
+                "country": "US",
+                "region": "District of Columbia"
             }
         },
         "Nevada": {
@@ -7672,6 +7687,20 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 344.86,
+                "region": "California"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733852565,
+                "author": "DerZiggi",
+                "id": "1316097793831469149",
+                "panoId": "0o5FEiCaSH-FIXvNzEi7vQ",
+                "lat": 40.60207,
+                "lng": -122.40293,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "California"
             }
         },
@@ -8317,6 +8346,20 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 4.52,
+                "region": "Florida"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733855838,
+                "author": "DerZiggi",
+                "id": "1316111520299483216",
+                "panoId": "GGmEKGdP-WZuPc1lyRo8eg",
+                "lat": 26.21231,
+                "lng": -80.28027,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "Florida"
             }
         },
@@ -18345,6 +18388,20 @@
                 "date": "Mar 2024",
                 "country": "JP",
                 "region": "Shizuoka"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733854092,
+                "author": "Tobetelogi",
+                "id": "1316104198433280101",
+                "panoId": "9Asnj4au5s8WZn2SHztgdA",
+                "lat": 34.7476,
+                "lng": 138.7614,
+                "date": "Nov 2024",
+                "country": "JP",
+                "region": "Shizuoka"
             }
         },
         "Fukui": {
@@ -19531,16 +19588,17 @@
             },
             "Nov": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1704238996,
-                "author": "Mapper",
-                "panoId": "3kL1yNB_twppOU5W7bHD8Q",
-                "lat": -17.5052,
-                "lng": -50.4699,
-                "date": "Nov 2023",
+                "report_time": 1733853674,
+                "author": "Tobetelogi",
+                "id": "1316102444090003517",
+                "panoId": "CatKVyTMVoTyx4feIaRB5Q",
+                "lat": -15.8085,
+                "lng": -46.94724,
+                "date": "Nov 2024",
                 "country": "BR",
-                "altitude": 545.71,
                 "region": "State of Goi\u00e1s"
             },
             "Oct": {
@@ -35452,6 +35510,20 @@
                 "date": "Sep 2024",
                 "country": "MX",
                 "altitude": 1974.51,
+                "region": "Guanajuato"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733875750,
+                "author": "Update Tracker Bot",
+                "id": "1316195038824239154",
+                "panoId": "J7N5zRjErfaMq0dGYO0wrw",
+                "lat": 20.39453,
+                "lng": -101.98935,
+                "date": "Oct 2024",
+                "country": "MX",
                 "region": "Guanajuato"
             }
         },
