@@ -29633,5 +29633,21 @@
         "lng": -95.90862,
         "country": "US",
         "region": "Oklahoma"
+    },
+    {
+        "spot_date": "2024/12/11",
+        "id": "1316274423375990794",
+        "links": [
+            "https://twitter.com/kenkyuusyunin/status/1866705553961230756",
+            "https://maps.app.goo.gl/DyJaeig8nte8bY2z8"
+        ],
+        "report_time": 1733894677,
+        "author": "Cotax",
+        "spot_type": "Gen4",
+        "panoId": "ABw33RsOVs6E0Tv_8BC5gg",
+        "lat": 33.55951,
+        "lng": 130.37898,
+        "country": "JP",
+        "region": "Fukuoka"
     }
 ]
