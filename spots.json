@@ -29649,5 +29649,21 @@
         "lng": 130.37898,
         "country": "JP",
         "region": "Fukuoka"
+    },
+    {
+        "spot_date": "2024/12/12",
+        "id": "1316611187034689586",
+        "links": [
+            "https://twitter.com/Enottt2021/status/1867042495357702536",
+            "https://maps.app.goo.gl/7KR6qctQwiVm4Zz99"
+        ],
+        "report_time": 1733974968,
+        "author": "Cotax",
+        "spot_type": "Gen4",
+        "panoId": "YDL1a4gwIbiqTZHqO0Yd5w",
+        "lat": 34.04796,
+        "lng": 131.51057,
+        "country": "JP",
+        "region": "Yamaguchi"
     }
 ]
