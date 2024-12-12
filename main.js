@@ -6567,13 +6567,13 @@ const monthPicker = new AirDatepicker('#monthpicker', {
   range: true,
   onSelect({ date }) {
     if (date.length > 1) {
-      const startMonth = date[0].toLocaleString('default', { month: 'short' });
+      const startMonth = date[0].toLocaleString('en-US', { month: 'short' });
       const startYear = date[0].getFullYear();
-      const endMonth = date[1].toLocaleString('default', { month: 'short' });
+      const endMonth = date[1].toLocaleString('en-US', { month: 'short' });
       const endYear = date[1].getFullYear();
       filter_check.pano_date = [`${startMonth} ${startYear}`, `${endMonth} ${endYear}`];
     } else {
-      const singleMonth = date[0].toLocaleString('default', { month: 'short' });
+      const singleMonth = date[0].toLocaleString('en-US', { month: 'short' });
       const singleYear = date[0].getFullYear()
       filter_check.pano_date = [`${singleMonth} ${singleYear}`, `${singleMonth} ${singleYear}`];
     }
