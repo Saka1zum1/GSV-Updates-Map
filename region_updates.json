@@ -43962,6 +43962,35 @@
                 "date": "Aug 2023",
                 "country": "FI",
                 "region": "North Savo"
+            },
+            "Jul": {
+                "types": [
+                    "newregion",
+                    "ariupdate"
+                ],
+                "report_time": 1734008880,
+                "author": "Tobetelogi",
+                "id": "1316753424150171731",
+                "panoId": "y9HvD5bGcRyKD9_vARm8-w",
+                "lat": 63.62651,
+                "lng": 27.38861,
+                "date": "Jul 2023",
+                "country": "FI",
+                "region": "North Savo"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734013877,
+                "author": "DeSlagen",
+                "id": "1316774382022168657",
+                "panoId": "EQllnBSb6D0PgV3zEbioEA",
+                "lat": 62.61893,
+                "lng": 27.62225,
+                "date": "Oct 2024",
+                "country": "FI",
+                "region": "North Savo"
             }
         },
         "North Ostrobothnia": {
@@ -44014,16 +44043,17 @@
         "South Savo": {
             "Jun": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1721107107,
-                "author": "Update Tracker Bot",
-                "panoId": "wEJ9Ik6bUsDX3A-WWcSr3w",
-                "lat": 62.28844,
-                "lng": 27.51199,
-                "date": "Jun 2023",
+                "report_time": 1734008218,
+                "author": "Tobetelogi",
+                "id": "1316750647839690834",
+                "panoId": "OckdsA61ymKhUJ2GAEOxIQ",
+                "lat": 61.87915,
+                "lng": 28.93966,
+                "date": "Jun 2024",
                 "country": "FI",
-                "altitude": 112.03,
                 "region": "South Savo"
             },
             "May": {
@@ -44038,6 +44068,48 @@
                 "lat": 61.6583,
                 "lng": 27.14716,
                 "date": "May 2024",
+                "country": "FI",
+                "region": "South Savo"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734013901,
+                "author": "DeSlagen",
+                "id": "1316774482123427893",
+                "panoId": "8T9hnMoAoKBX8ntgyjObBQ",
+                "lat": 61.65288,
+                "lng": 27.16401,
+                "date": "Oct 2024",
+                "country": "FI",
+                "region": "South Savo"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734012516,
+                "author": "DeSlagen",
+                "id": "1316768674379468812",
+                "panoId": "o4uCYatyxZOxBxWqnggnIQ",
+                "lat": 61.64854,
+                "lng": 27.14751,
+                "date": "Apr 2024",
+                "country": "FI",
+                "region": "South Savo"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734012515,
+                "author": "Steve",
+                "id": "1316768671053385749",
+                "panoId": "GrzfXRyNUFMzpq3JBowbIA",
+                "lat": 61.94547,
+                "lng": 28.50755,
+                "date": "Jul 2024",
                 "country": "FI",
                 "region": "South Savo"
             }
@@ -44342,6 +44414,35 @@
                 "date": "Jul 2024",
                 "country": "FI",
                 "region": "South Karelia"
+            },
+            "May": {
+                "types": [
+                    "newregion",
+                    "ariupdate"
+                ],
+                "report_time": 1734010063,
+                "author": "Tobetelogi",
+                "id": "1316758386779623494",
+                "panoId": "-TITduL6tIqY_UvyxCK-uA",
+                "lat": 60.85692,
+                "lng": 28.09069,
+                "date": "May 2024",
+                "country": "FI",
+                "region": "South Karelia"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734013146,
+                "author": "DeSlagen",
+                "id": "1316771316359106600",
+                "panoId": "ZZ6o6NS--TNhsSJ-HJEi8w",
+                "lat": 60.92612,
+                "lng": 27.54193,
+                "date": "Aug 2024",
+                "country": "FI",
+                "region": "South Karelia"
             }
         },
         "Uusimaa": {
@@ -44402,6 +44503,20 @@
                 "lat": 60.01575,
                 "lng": 22.82905,
                 "date": "Sep 2024",
+                "country": "FI",
+                "region": "Uusimaa"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734008642,
+                "author": "Tobetelogi",
+                "id": "1316752424748191795",
+                "panoId": "8GEHFD7k01LRlfZmggx4sA",
+                "lat": 60.32378,
+                "lng": 24.84835,
+                "date": "Apr 2024",
                 "country": "FI",
                 "region": "Uusimaa"
             }
@@ -44537,6 +44652,21 @@
                 "lat": 60.94045,
                 "lng": 22.55617,
                 "date": "Jul 2023",
+                "country": "FI",
+                "region": "Southwest Finland"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734008738,
+                "author": "Tobetelogi",
+                "id": "1316752827443580970",
+                "panoId": "i6sR2TGrMRJbx9mgzefi-A",
+                "lat": 60.16349,
+                "lng": 23.27203,
+                "date": "Sep 2024",
                 "country": "FI",
                 "region": "Southwest Finland"
             }
@@ -44676,6 +44806,21 @@
                 "date": "Aug 2023",
                 "country": "FI",
                 "region": "Lapland"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734009399,
+                "author": "Alex*",
+                "id": "1316755599903428702",
+                "panoId": "qnMzlThq4O3QZzxotst3Gw",
+                "lat": 67.01992,
+                "lng": 26.39486,
+                "date": "Sep 2023",
+                "country": "FI",
+                "region": "Lapland"
             }
         },
         "North Ostrobothia": {},
@@ -44737,6 +44882,20 @@
                 "lat": 61.04697,
                 "lng": 21.67198,
                 "date": "Apr 2024",
+                "country": "FI",
+                "region": "Satakunta"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734012618,
+                "author": "DeSlagen",
+                "id": "1316769101913395260",
+                "panoId": "sgHJZ7etA3QicQvV2N8R8A",
+                "lat": 61.13211,
+                "lng": 21.5089,
+                "date": "May 2024",
                 "country": "FI",
                 "region": "Satakunta"
             }
