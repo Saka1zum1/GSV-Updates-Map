@@ -8067,6 +8067,21 @@
                 "country": "US",
                 "altitude": 8.23,
                 "region": "Virginia"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newstreet"
+                ],
+                "report_time": 1733898646,
+                "author": "DerZiggi",
+                "id": "1316291068756627487",
+                "panoId": "4RAaJbbSERDAsV-BC4oEaw",
+                "lat": 37.78376,
+                "lng": -79.97851,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Virginia"
             }
         },
         "Ohio": {
@@ -8841,6 +8856,20 @@
                 "country": "US",
                 "altitude": 1341.27,
                 "region": "Arizona"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733941429,
+                "author": "Steve",
+                "id": "1316470515958812843",
+                "panoId": "s7QaD_Gn9V2-ZNF3s0zI5A",
+                "lat": 33.34288,
+                "lng": -111.76628,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Arizona"
             }
         },
         "South Carolina": {
@@ -9302,6 +9331,20 @@
                 "country": "US",
                 "altitude": 156.04,
                 "region": "Mississippi"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733937425,
+                "author": "Update Tracker Bot",
+                "id": "1316453719940005929",
+                "panoId": "8a-SChSifp9ZkbZpRZmNOw",
+                "lat": 31.96221,
+                "lng": -89.82927,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Mississippi"
             }
         },
         "Louisiana": {
@@ -9392,6 +9435,21 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 72.95,
+                "region": "Louisiana"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1733937659,
+                "author": "HoustonMediaHD",
+                "id": "1316454701939560490",
+                "panoId": "sq3yjINVh3KhIIvlbQ5bWQ",
+                "lat": 31.35611,
+                "lng": -93.32683,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "Louisiana"
             }
         },
@@ -10188,6 +10246,20 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 245.37,
+                "region": "Oklahoma"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733898716,
+                "author": "DerZiggi",
+                "id": "1316291364530688021",
+                "panoId": "wLP4kcH-dnt-cMReECST_w",
+                "lat": 35.40581,
+                "lng": -96.12309,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "Oklahoma"
             }
         },
@@ -29722,6 +29794,20 @@
                 "date": "Aug 2024",
                 "country": "CL",
                 "region": "Maule"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733889139,
+                "author": "Palmerranian",
+                "id": "1316251194913460276",
+                "panoId": "w1jdtXp2pikBySzXb0YVtw",
+                "lat": -36.00882,
+                "lng": -71.73202,
+                "date": "Sep 2024",
+                "country": "CL",
+                "region": "Maule"
             }
         },
         "Santiago Metropolitan Region": {
@@ -35011,6 +35097,20 @@
                 "country": "MX",
                 "altitude": 67.49,
                 "region": "Tamaulipas"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733934372,
+                "author": "Jkmilo13",
+                "id": "1316440913756819506",
+                "panoId": "LqMNBxNY7kX4NF-kTiwe9w",
+                "lat": 22.84402,
+                "lng": -99.02646,
+                "date": "Oct 2024",
+                "country": "MX",
+                "region": "Tamaulipas"
             }
         },
         "Jalisco": {
@@ -35056,6 +35156,21 @@
                 "date": "Sep 2024",
                 "country": "MX",
                 "altitude": 1530.49,
+                "region": "Jalisco"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733880231,
+                "author": "Jkmilo13",
+                "id": "1316213833018380318",
+                "panoId": "kVZK-dKW4adqGF5UC-wfLw",
+                "lat": 19.61388,
+                "lng": -104.4551,
+                "date": "Oct 2024",
+                "country": "MX",
                 "region": "Jalisco"
             }
         },
@@ -36021,6 +36136,20 @@
                 "country": "MX",
                 "altitude": 28.68,
                 "region": "Yucatan"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733879451,
+                "author": "Jkmilo13",
+                "id": "1316210558319460382",
+                "panoId": "7zKfTMZF9fW5d9aSfWz20w",
+                "lat": 20.70839,
+                "lng": -87.87372,
+                "date": "Oct 2024",
+                "country": "MX",
+                "region": "Yucatan"
             }
         },
         "Campeche": {},
@@ -36073,7 +36202,24 @@
         },
         "Mazatl\u00e1n": {},
         "El Palmito": {},
-        "Colima": {}
+        "Colima": {
+            "Oct": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733879391,
+                "author": "Jkmilo13",
+                "id": "1316210307122593812",
+                "panoId": "fInYr9Sr2XkOu8gqhN80cQ",
+                "lat": 19.25661,
+                "lng": -104.34565,
+                "date": "Oct 2024",
+                "country": "MX",
+                "region": "Colima"
+            }
+        }
     },
     "FO": {
         "Streymoy": {
@@ -43803,6 +43949,21 @@
                 "country": "FI",
                 "altitude": 173.29,
                 "region": "North Ostrobothnia"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733950783,
+                "author": "Penguinish",
+                "id": "1316509746735484939",
+                "panoId": "8uxmgDrnDMCml3Yo_lgoLA",
+                "lat": 64.27742,
+                "lng": 24.78893,
+                "date": "Sep 2024",
+                "country": "FI",
+                "region": "North Ostrobothnia"
             }
         },
         "South Savo": {
@@ -43879,6 +44040,52 @@
                 "country": "FI",
                 "altitude": 140.94,
                 "region": "Pirkanmaa"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "gen2update"
+                ],
+                "report_time": 1733955864,
+                "author": "Tobetelogi",
+                "id": "1316531059663310879",
+                "panoId": "NR_EAo6R7in6LEW6cscz0w",
+                "lat": 62.25208,
+                "lng": 24.05117,
+                "date": "Sep 2023",
+                "country": "FI",
+                "region": "Pirkanmaa"
+            },
+            "Jul": {
+                "types": [
+                    "newcountry",
+                    "gen2update"
+                ],
+                "report_time": 1733949515,
+                "author": "Update Tracker Bot",
+                "id": "1316504429360582686",
+                "panoId": "zakwLyY8SOUZx2HQS4EulQ",
+                "lat": 61.94803,
+                "lng": 24.11765,
+                "date": "Jul 2024",
+                "country": "FI",
+                "region": "Pirkanmaa"
+            },
+            "Aug": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1733949191,
+                "author": "DerZiggi",
+                "id": "1316503070670192782",
+                "panoId": "0Syi6sDyQGZwBJ-WQwSFhA",
+                "lat": 61.60739,
+                "lng": 24.14182,
+                "date": "Aug 2024",
+                "country": "FI",
+                "region": "Pirkanmaa"
             }
         },
         "P\u00e4ij\u00e4t-H\u00e4me": {
@@ -43894,6 +44101,63 @@
                 "date": "Jun 2023",
                 "country": "FI",
                 "altitude": 90.7,
+                "region": "P\u00e4ij\u00e4t-H\u00e4me"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733956441,
+                "author": "Tobetelogi",
+                "id": "1316533480024178729",
+                "panoId": "LQzB_Ww_H4bjzYwFlXYsJw",
+                "lat": 60.97284,
+                "lng": 25.71014,
+                "date": "Aug 2024",
+                "country": "FI",
+                "region": "P\u00e4ij\u00e4t-H\u00e4me"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1733955357,
+                "author": "Update Tracker Bot",
+                "id": "1316528932190683165",
+                "panoId": "ODWEcfBiO_OaFqe840WYtA",
+                "lat": 61.73782,
+                "lng": 25.94846,
+                "date": "Sep 2023",
+                "country": "FI",
+                "region": "P\u00e4ij\u00e4t-H\u00e4me"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733950745,
+                "author": "mpk",
+                "id": "1316509587645530225",
+                "panoId": "tNn933fWmDDC0x5dBUTCgQ",
+                "lat": 61.38644,
+                "lng": 25.64941,
+                "date": "Jul 2023",
+                "country": "FI",
+                "region": "P\u00e4ij\u00e4t-H\u00e4me"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733954875,
+                "author": "Alex*",
+                "id": "1316526910301278310",
+                "panoId": "gtOIMTEUXWfAior2oR6PWA",
+                "lat": 61.4133,
+                "lng": 26.0393,
+                "date": "Oct 2024",
+                "country": "FI",
                 "region": "P\u00e4ij\u00e4t-H\u00e4me"
             }
         },
@@ -43928,6 +44192,35 @@
                 "country": "FI",
                 "altitude": 104.16,
                 "region": "Kanta-H\u00e4me"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "ariupdate"
+                ],
+                "report_time": 1733956381,
+                "author": "Tobetelogi",
+                "id": "1316533226147152014",
+                "panoId": "Oc8SrD5tz7SFLYX4DslyRA",
+                "lat": 60.74939,
+                "lng": 23.44697,
+                "date": "Sep 2024",
+                "country": "FI",
+                "region": "Kanta-H\u00e4me"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733955071,
+                "author": "Alex*",
+                "id": "1316527732636647524",
+                "panoId": "NyW9bYuMrwpFTDaKoujDtA",
+                "lat": 61.16812,
+                "lng": 24.63734,
+                "date": "Jul 2024",
+                "country": "FI",
+                "region": "Kanta-H\u00e4me"
             }
         },
         "South Karelia": {
@@ -43946,7 +44239,68 @@
                 "region": "South Karelia"
             }
         },
-        "Uusimaa": {},
+        "Uusimaa": {
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733955074,
+                "author": "Tobetelogi",
+                "id": "1316527745055850496",
+                "panoId": "ORmRASjwr-p1Aekb5y1emg",
+                "lat": 59.9558,
+                "lng": 22.86639,
+                "date": "Jul 2023",
+                "country": "FI",
+                "region": "Uusimaa"
+            },
+            "Oct": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1733954421,
+                "author": "Tobetelogi",
+                "id": "1316525007320514601",
+                "panoId": "3zE11lVDREIoOtleX5cj8g",
+                "lat": 60.34346,
+                "lng": 25.11037,
+                "date": "Oct 2023",
+                "country": "FI",
+                "region": "Uusimaa"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733952018,
+                "author": "mpk",
+                "id": "1316514926449266812",
+                "panoId": "V6ffap6ZQaUY5gX34iJPyQ",
+                "lat": 60.36937,
+                "lng": 24.0924,
+                "date": "Aug 2024",
+                "country": "FI",
+                "region": "Uusimaa"
+            },
+            "Sep": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "newyear",
+                    "gen2update"
+                ],
+                "report_time": 1733949420,
+                "author": "Tobetelogi",
+                "id": "1316504033074352230",
+                "panoId": "DViSWi--ei4Xnkm01DbuRA",
+                "lat": 60.01575,
+                "lng": 22.82905,
+                "date": "Sep 2024",
+                "country": "FI",
+                "region": "Uusimaa"
+            }
+        },
         "Kainuu": {
             "Jun": {
                 "types": [
@@ -43992,6 +44346,20 @@
                 "country": "FI",
                 "altitude": 132.14,
                 "region": "South Ostrobothnia"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733950475,
+                "author": "Tobetelogi",
+                "id": "1316508457288859659",
+                "panoId": "VEmVjRDEwbaJLQ4Qe1Kw-A",
+                "lat": 63.03777,
+                "lng": 24.26921,
+                "date": "Sep 2023",
+                "country": "FI",
+                "region": "South Ostrobothnia"
             }
         },
         "Southwest Finland": {
@@ -44021,6 +44389,34 @@
                 "date": "May 2023",
                 "country": "FI",
                 "altitude": 44.73,
+                "region": "Southwest Finland"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733959224,
+                "author": "Steve",
+                "id": "1316545150432051242",
+                "panoId": "EvMIADxtfbqjlGoMhMA2XA",
+                "lat": 61.00732,
+                "lng": 21.64837,
+                "date": "Apr 2024",
+                "country": "FI",
+                "region": "Southwest Finland"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733957331,
+                "author": "mpk",
+                "id": "1316537210375372903",
+                "panoId": "QY4i4plZMpEPvsWLNErF-Q",
+                "lat": 60.38817,
+                "lng": 23.78347,
+                "date": "Aug 2024",
+                "country": "FI",
                 "region": "Southwest Finland"
             }
         },
@@ -44069,21 +44465,66 @@
                 "country": "FI",
                 "altitude": 127.68,
                 "region": "Central Finland"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733953177,
+                "author": "mpk",
+                "id": "1316519791074345033",
+                "panoId": "TgwxI5kD5BPmXjSdiRU2vg",
+                "lat": 62.65738,
+                "lng": 26.08073,
+                "date": "Jul 2023",
+                "country": "FI",
+                "region": "Central Finland"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733955170,
+                "author": "Update Tracker Bot",
+                "id": "1316528148422332456",
+                "panoId": "k8dfbJ65cMBdsyHV1ZybIw",
+                "lat": 62.00625,
+                "lng": 26.05138,
+                "date": "Oct 2023",
+                "country": "FI",
+                "region": "Central Finland"
+            },
+            "Sep": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1733949663,
+                "author": "Tobetelogi",
+                "id": "1316505050801246260",
+                "panoId": "_SGoeTG5t3HOaXFKi3sTKw",
+                "lat": 63.03806,
+                "lng": 24.27906,
+                "date": "Sep 2023",
+                "country": "FI",
+                "region": "Central Finland"
             }
         },
         "Lapland": {
             "Oct": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newyear",
+                    "gen3update"
                 ],
-                "report_time": 1712770829,
-                "author": "Alex*",
-                "panoId": "gxw9_IPQsqH6X78YUp4z-w",
-                "lat": 69.09341,
-                "lng": 20.75857,
-                "date": "Oct 2022",
+                "report_time": 1733955908,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1316531245299138591",
+                "panoId": "MrNF8UUxjPfHPhQeJTxP2w",
+                "lat": 67.81348,
+                "lng": 24.87959,
+                "date": "Oct 2024",
                 "country": "FI",
-                "altitude": 508.45,
                 "region": "Lapland"
             },
             "May": {
@@ -44102,7 +44543,69 @@
                 "region": "Lapland"
             }
         },
-        "North Ostrobothia": {}
+        "North Ostrobothia": {},
+        "Satakunta": {
+            "Jun": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1733956589,
+                "author": "Tobetelogi",
+                "id": "1316534099128881174",
+                "panoId": "IC5bzYjwjK6LLnk81VCM5Q",
+                "lat": 61.05572,
+                "lng": 21.51578,
+                "date": "Jun 2024",
+                "country": "FI",
+                "region": "Satakunta"
+            },
+            "Jul": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1733949114,
+                "author": "DerZiggi",
+                "id": "1316502746928517150",
+                "panoId": "4oq4E1y_Tu3bXPHAVeZq5g",
+                "lat": 61.20868,
+                "lng": 22.8819,
+                "date": "Jul 2023",
+                "country": "FI",
+                "region": "Satakunta"
+            },
+            "Aug": {
+                "types": [
+                    "newregion",
+                    "ariupdate"
+                ],
+                "report_time": 1733953067,
+                "author": "Tobetelogi",
+                "id": "1316519327834439770",
+                "panoId": "w2YptKnKLHHoLS5uEBvnGg",
+                "lat": 61.16277,
+                "lng": 22.32155,
+                "date": "Aug 2023",
+                "country": "FI",
+                "region": "Satakunta"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1733949643,
+                "author": "Alex*",
+                "id": "1316504965681774612",
+                "panoId": "AuFb8_ltzkau19P35bg1Pw",
+                "lat": 61.04697,
+                "lng": 21.67198,
+                "date": "Apr 2024",
+                "country": "FI",
+                "region": "Satakunta"
+            }
+        }
     },
     "LT": {
         "Utena County": {

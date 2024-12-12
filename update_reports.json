@@ -18548,9 +18548,9 @@
         ],
         "report_time": 1727394417,
         "author": "Aedan",
-        "panoId": "ByRui4YTRLbR-t2BZoyYmw",
-        "lat": 39.56678,
-        "lng": 2.64926,
+        "panoId": "Nk8qAqtzc_wAAARjyWEFhg",
+        "lat": 39.5667836,
+        "lng": 2.6492595,
         "date": "Sep 2023",
         "country": "ES",
         "region": "Balearic Islands"
@@ -139684,5 +139684,814 @@
         "date": "Nov 2024",
         "country": "BR",
         "region": "Cear\u00e1"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733917385,
+        "author": "1xqd",
+        "id": "1316369666775453707",
+        "panoId": "oA4bTkOsggEk1iDav6ha5w",
+        "lat": -39.47957,
+        "lng": 176.83452,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733917311,
+        "author": "1xqd",
+        "id": "1316369357625884707",
+        "panoId": "8-jasglGW8WvGHyRWM1L2Q",
+        "lat": -39.51919,
+        "lng": 176.84633,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733917260,
+        "author": "1xqd",
+        "id": "1316369141061517372",
+        "panoId": "HVQRqY3YqaLsuX1UIjxsxw",
+        "lat": -39.52422,
+        "lng": 176.84152,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733919310,
+        "author": "1xqd",
+        "id": "1316377742551552092",
+        "panoId": "RMNJ2vGbGaU5pM-QRHQjAw",
+        "lat": -37.82978,
+        "lng": 176.02487,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Bay of Plenty"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733918985,
+        "author": "1xqd",
+        "id": "1316376377540214847",
+        "panoId": "Ss5S9KbDWjorN5a3CldKaw",
+        "lat": -37.73644,
+        "lng": 176.16384,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Bay of Plenty"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733918603,
+        "author": "1xqd",
+        "id": "1316374776058744875",
+        "panoId": "EjD6PJgDl2bmIdg2kZSqkw",
+        "lat": -37.98758,
+        "lng": 177.1284,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Bay of Plenty"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733918218,
+        "author": "1xqd",
+        "id": "1316373162472112148",
+        "panoId": "mxNRYfxuDg0D7PfL34tz4Q",
+        "lat": -45.912,
+        "lng": 169.68388,
+        "date": "Oct 2024",
+        "country": "NZ",
+        "region": "Otago"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733923975,
+        "author": "jpeters",
+        "id": "1316397307280887930",
+        "panoId": "75s3JKRkwPk-Zip2AuYe6g",
+        "lat": 37.38892,
+        "lng": -122.08417,
+        "date": "Aug 2024",
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733924494,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1316399485361848422",
+        "panoId": "OWfPGTCxBPt4vbkT4LBU-w",
+        "lat": 38.52415,
+        "lng": -8.89134,
+        "date": "Sep 2024",
+        "country": "PT",
+        "region": "Setubal"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733934372,
+        "author": "Jkmilo13",
+        "id": "1316440913756819506",
+        "panoId": "LqMNBxNY7kX4NF-kTiwe9w",
+        "lat": 22.84402,
+        "lng": -99.02646,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Tamaulipas"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1733933903,
+        "author": "Palmerranian",
+        "id": "1316438949140627486",
+        "panoId": "xeDdZqkoCyc1ZQrA65wVvg",
+        "lat": -38.02018,
+        "lng": -72.35499,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1733933876,
+        "author": "Palmerranian",
+        "id": "1316438833662787655",
+        "panoId": "cXBZk3hRXY-pUuVIPIfMIQ",
+        "lat": -36.5447,
+        "lng": -71.765,
+        "date": "Jun 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733937127,
+        "author": "chise",
+        "id": "1316452469781565470",
+        "panoId": "-FCChPjouH4YGUUIU9Voxg",
+        "lat": -39.58095,
+        "lng": -72.43585,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Los R\u00edos"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733935977,
+        "author": "chise",
+        "id": "1316447648517193818",
+        "panoId": "gC6mVqhTi_UnaHSftTimlQ",
+        "lat": -36.26074,
+        "lng": -71.68811,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "Maule"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1733935977,
+        "author": "chise",
+        "id": "1316447648517193818",
+        "panoId": "rwGgkXwVmWOmFCWFFOtk_A",
+        "lat": -36.2696,
+        "lng": -71.7626,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "Maule"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733961224,
+        "author": "chise",
+        "id": "1316553542592630805",
+        "panoId": "8rJ6kKWIVwfDTHoXSWsfjg",
+        "lat": -36.62447,
+        "lng": -72.06607,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1733961224,
+        "author": "chise",
+        "id": "1316553542592630805",
+        "panoId": "colM65BQ2GHz4DNaw-B-MA",
+        "lat": -36.634,
+        "lng": -72.05771,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733960957,
+        "author": "chise",
+        "id": "1316552420582494249",
+        "panoId": "mTf9o94lIXZ3qSjC9n-HuQ",
+        "lat": -36.58701,
+        "lng": -71.74853,
+        "date": "Jun 2024",
+        "country": "CL",
+        "region": "\u00d1uble"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733959224,
+        "author": "Steve",
+        "id": "1316545150432051242",
+        "panoId": "EvMIADxtfbqjlGoMhMA2XA",
+        "lat": 61.00732,
+        "lng": 21.64837,
+        "date": "Apr 2024",
+        "country": "FI",
+        "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733957331,
+        "author": "mpk",
+        "id": "1316537210375372903",
+        "panoId": "QY4i4plZMpEPvsWLNErF-Q",
+        "lat": 60.38817,
+        "lng": 23.78347,
+        "date": "Aug 2024",
+        "country": "FI",
+        "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733956589,
+        "author": "Tobetelogi",
+        "id": "1316534099128881174",
+        "panoId": "IC5bzYjwjK6LLnk81VCM5Q",
+        "lat": 61.05572,
+        "lng": 21.51578,
+        "date": "Jun 2024",
+        "country": "FI",
+        "region": "Satakunta"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen2update"
+        ],
+        "report_time": 1733956450,
+        "author": "Steve",
+        "id": "1316533518452391936",
+        "panoId": "__uP89EB-bWM6YeRuv5M6g",
+        "lat": 61.9145,
+        "lng": 24.53448,
+        "date": "Jul 2024",
+        "country": "FI",
+        "region": "Central Finland"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733956441,
+        "author": "Tobetelogi",
+        "id": "1316533480024178729",
+        "panoId": "LQzB_Ww_H4bjzYwFlXYsJw",
+        "lat": 60.97284,
+        "lng": 25.71014,
+        "date": "Aug 2024",
+        "country": "FI",
+        "region": "P\u00e4ij\u00e4t-H\u00e4me"
+    },
+    {
+        "types": [
+            "newregion",
+            "ariupdate"
+        ],
+        "report_time": 1733956381,
+        "author": "Tobetelogi",
+        "id": "1316533226147152014",
+        "panoId": "Oc8SrD5tz7SFLYX4DslyRA",
+        "lat": 60.74939,
+        "lng": 23.44697,
+        "date": "Sep 2024",
+        "country": "FI",
+        "region": "Kanta-H\u00e4me"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1733956148,
+        "author": "chise",
+        "id": "1316532251403485334",
+        "panoId": "F1VT07bcAAZ1gAWJ7j1Gwg",
+        "lat": -32.3651,
+        "lng": -62.31263,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "types": [
+            "newregion",
+            "newyear",
+            "gen3update"
+        ],
+        "report_time": 1733955908,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1316531245299138591",
+        "panoId": "MrNF8UUxjPfHPhQeJTxP2w",
+        "lat": 67.81348,
+        "lng": 24.87959,
+        "date": "Oct 2024",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen2update"
+        ],
+        "report_time": 1733955864,
+        "author": "Tobetelogi",
+        "id": "1316531059663310879",
+        "panoId": "NR_EAo6R7in6LEW6cscz0w",
+        "lat": 62.25208,
+        "lng": 24.05117,
+        "date": "Sep 2023",
+        "country": "FI",
+        "region": "Pirkanmaa"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733955488,
+        "author": "mpk",
+        "id": "1316529482005348465",
+        "panoId": "Y2KSzxjMR7-70ZegouyCGw",
+        "lat": 62.00629,
+        "lng": 26.05136,
+        "date": "Oct 2024",
+        "country": "FI",
+        "region": "Central Finland"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1733955357,
+        "author": "Update Tracker Bot",
+        "id": "1316528932190683165",
+        "panoId": "ODWEcfBiO_OaFqe840WYtA",
+        "lat": 61.73782,
+        "lng": 25.94846,
+        "date": "Sep 2023",
+        "country": "FI",
+        "region": "P\u00e4ij\u00e4t-H\u00e4me"
+    },
+    {
+        "types": [
+            "newregion",
+            "newyear"
+        ],
+        "report_time": 1733955194,
+        "author": "Tobetelogi",
+        "id": "1316528249236492378",
+        "panoId": "u-psmfFvwawzUp5kzXIzzQ",
+        "lat": 60.92355,
+        "lng": 26.11055,
+        "date": "Jul 2024",
+        "country": "FI",
+        "region": "P\u00e4ij\u00e4t-H\u00e4me"
+    },
+    {
+        "types": [
+            "gen2update",
+            "newroad"
+        ],
+        "report_time": 1733955182,
+        "author": "Update Tracker Bot",
+        "id": "1316528197793353778",
+        "panoId": "nFS6mZOTFv3u5T4nr5BZ0Q",
+        "lat": 61.5937,
+        "lng": 22.67276,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "Satakunta"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733955170,
+        "author": "Update Tracker Bot",
+        "id": "1316528148422332456",
+        "panoId": "k8dfbJ65cMBdsyHV1ZybIw",
+        "lat": 62.00625,
+        "lng": 26.05138,
+        "date": "Oct 2023",
+        "country": "FI",
+        "region": "Central Finland"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733955074,
+        "author": "Tobetelogi",
+        "id": "1316527745055850496",
+        "panoId": "ORmRASjwr-p1Aekb5y1emg",
+        "lat": 59.9558,
+        "lng": 22.86639,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "Uusimaa"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733955071,
+        "author": "Alex*",
+        "id": "1316527732636647524",
+        "panoId": "NyW9bYuMrwpFTDaKoujDtA",
+        "lat": 61.16812,
+        "lng": 24.63734,
+        "date": "Jul 2024",
+        "country": "FI",
+        "region": "Kanta-H\u00e4me"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733954958,
+        "author": "Tobetelogi",
+        "id": "1316527257317015642",
+        "panoId": "lSYtvtkyN8SPahLV3vnBwA",
+        "lat": 61.41332,
+        "lng": 26.03929,
+        "date": "Oct 2023",
+        "country": "FI",
+        "region": "P\u00e4ij\u00e4t-H\u00e4me"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733954875,
+        "author": "Alex*",
+        "id": "1316526910301278310",
+        "panoId": "gtOIMTEUXWfAior2oR6PWA",
+        "lat": 61.4133,
+        "lng": 26.0393,
+        "date": "Oct 2024",
+        "country": "FI",
+        "region": "P\u00e4ij\u00e4t-H\u00e4me"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733954421,
+        "author": "Tobetelogi",
+        "id": "1316525007320514601",
+        "panoId": "3zE11lVDREIoOtleX5cj8g",
+        "lat": 60.34346,
+        "lng": 25.11037,
+        "date": "Oct 2023",
+        "country": "FI",
+        "region": "Uusimaa"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733953177,
+        "author": "mpk",
+        "id": "1316519791074345033",
+        "panoId": "TgwxI5kD5BPmXjSdiRU2vg",
+        "lat": 62.65738,
+        "lng": 26.08073,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "Central Finland"
+    },
+    {
+        "types": [
+            "newregion",
+            "ariupdate"
+        ],
+        "report_time": 1733953067,
+        "author": "Tobetelogi",
+        "id": "1316519327834439770",
+        "panoId": "w2YptKnKLHHoLS5uEBvnGg",
+        "lat": 61.16277,
+        "lng": 22.32155,
+        "date": "Aug 2023",
+        "country": "FI",
+        "region": "Satakunta"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733952018,
+        "author": "mpk",
+        "id": "1316514926449266812",
+        "panoId": "V6ffap6ZQaUY5gX34iJPyQ",
+        "lat": 60.36937,
+        "lng": 24.0924,
+        "date": "Aug 2024",
+        "country": "FI",
+        "region": "Uusimaa"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733951921,
+        "author": "kallashi!",
+        "id": "1316514521497604219",
+        "panoId": "Q2qZwDfyS1Y7QJ0m9fAo3A",
+        "lat": 42.34552,
+        "lng": -71.08313,
+        "date": "Sep 2024",
+        "country": "US",
+        "region": "Massachusetts"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733951118,
+        "author": "Alok",
+        "id": "1316511151500034178",
+        "panoId": "jwnS2_Hjawx_yNXSzmqisg",
+        "lat": 61.67374,
+        "lng": 25.4139,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "Pirkanmaa"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1733950783,
+        "author": "Penguinish",
+        "id": "1316509746735484939",
+        "panoId": "8uxmgDrnDMCml3Yo_lgoLA",
+        "lat": 64.27742,
+        "lng": 24.78893,
+        "date": "Sep 2024",
+        "country": "FI",
+        "region": "North Ostrobothnia"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733950745,
+        "author": "mpk",
+        "id": "1316509587645530225",
+        "panoId": "tNn933fWmDDC0x5dBUTCgQ",
+        "lat": 61.38644,
+        "lng": 25.64941,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "P\u00e4ij\u00e4t-H\u00e4me"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733950475,
+        "author": "Tobetelogi",
+        "id": "1316508457288859659",
+        "panoId": "VEmVjRDEwbaJLQ4Qe1Kw-A",
+        "lat": 63.03777,
+        "lng": 24.26921,
+        "date": "Sep 2023",
+        "country": "FI",
+        "region": "South Ostrobothnia"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733950303,
+        "author": "Tobetelogi",
+        "id": "1316507733507178528",
+        "panoId": "zx7KN0dXbTrZG5M5sD2N7A",
+        "lat": 62.03053,
+        "lng": 23.45516,
+        "date": "Aug 2023",
+        "country": "FI",
+        "region": "Pirkanmaa"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1733949663,
+        "author": "Tobetelogi",
+        "id": "1316505050801246260",
+        "panoId": "_SGoeTG5t3HOaXFKi3sTKw",
+        "lat": 63.03806,
+        "lng": 24.27906,
+        "date": "Sep 2023",
+        "country": "FI",
+        "region": "Central Finland"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733949643,
+        "author": "Alex*",
+        "id": "1316504965681774612",
+        "panoId": "AuFb8_ltzkau19P35bg1Pw",
+        "lat": 61.04697,
+        "lng": 21.67198,
+        "date": "Apr 2024",
+        "country": "FI",
+        "region": "Satakunta"
+    },
+    {
+        "types": [
+            "newcountry",
+            "gen2update"
+        ],
+        "report_time": 1733949515,
+        "author": "Update Tracker Bot",
+        "id": "1316504429360582686",
+        "panoId": "zakwLyY8SOUZx2HQS4EulQ",
+        "lat": 61.94803,
+        "lng": 24.11765,
+        "date": "Jul 2024",
+        "country": "FI",
+        "region": "Pirkanmaa"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion",
+            "newyear",
+            "gen2update"
+        ],
+        "report_time": 1733949420,
+        "author": "Tobetelogi",
+        "id": "1316504033074352230",
+        "panoId": "DViSWi--ei4Xnkm01DbuRA",
+        "lat": 60.01575,
+        "lng": 22.82905,
+        "date": "Sep 2024",
+        "country": "FI",
+        "region": "Uusimaa"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion",
+            "newyear"
+        ],
+        "report_time": 1733949191,
+        "author": "DerZiggi",
+        "id": "1316503070670192782",
+        "panoId": "0Syi6sDyQGZwBJ-WQwSFhA",
+        "lat": 61.60739,
+        "lng": 24.14182,
+        "date": "Aug 2024",
+        "country": "FI",
+        "region": "Pirkanmaa"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion",
+            "newyear"
+        ],
+        "report_time": 1733949114,
+        "author": "DerZiggi",
+        "id": "1316502746928517150",
+        "panoId": "4oq4E1y_Tu3bXPHAVeZq5g",
+        "lat": 61.20868,
+        "lng": 22.8819,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "Satakunta"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1733945000,
+        "author": "HoustonMediaHD",
+        "id": "1316485493868855317",
+        "panoId": "WtHL9j7JGLYWMjCFsz3a6g",
+        "lat": 41.94393,
+        "lng": -87.6633,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Illinois"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733941429,
+        "author": "Steve",
+        "id": "1316470515958812843",
+        "panoId": "s7QaD_Gn9V2-ZNF3s0zI5A",
+        "lat": 33.34288,
+        "lng": -111.76628,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Arizona"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1733937659,
+        "author": "HoustonMediaHD",
+        "id": "1316454701939560490",
+        "panoId": "sq3yjINVh3KhIIvlbQ5bWQ",
+        "lat": 31.35611,
+        "lng": -93.32683,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1733937425,
+        "author": "Update Tracker Bot",
+        "id": "1316453719940005929",
+        "panoId": "8a-SChSifp9ZkbZpRZmNOw",
+        "lat": 31.96221,
+        "lng": -89.82927,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Mississippi"
     }
 ]
