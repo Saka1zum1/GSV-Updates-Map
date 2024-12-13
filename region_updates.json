@@ -15099,6 +15099,21 @@
                 "country": "CA",
                 "altitude": 268.97,
                 "region": "New Brunswick"
+            },
+            "Nov": {
+                "types": [
+                    "newcountry",
+                    "gen3update"
+                ],
+                "report_time": 1734102083,
+                "author": "Steve",
+                "id": "1317144344867770528",
+                "panoId": "b7cmov61JjtItqHYE_93DA",
+                "lat": 47.48595,
+                "lng": -64.91949,
+                "date": "Nov 2024",
+                "country": "CA",
+                "region": "New Brunswick"
             }
         },
         "Quebec": {
@@ -31407,6 +31422,20 @@
                 "country": "PT",
                 "altitude": 27.93,
                 "region": "Santar\u00e9m District"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry"
+                ],
+                "report_time": 1734093427,
+                "author": "Steve",
+                "id": "1317108039438045186",
+                "panoId": "pe4qV40bCpqxfEmv2zSYGA",
+                "lat": 39.19999,
+                "lng": -8.79415,
+                "date": "Dec 2024",
+                "country": "PT",
+                "region": "Santar\u00e9m District"
             }
         },
         "Lisbon": {
@@ -31437,6 +31466,20 @@
                 "lat": 38.98805,
                 "lng": -9.19956,
                 "date": "Oct 2024",
+                "country": "PT",
+                "region": "Lisbon"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734094837,
+                "author": "Steve",
+                "id": "1317113954354462780",
+                "panoId": "uMbYaKHD0o4bXJgcvfFmKw",
+                "lat": 39.20974,
+                "lng": -8.85347,
+                "date": "Dec 2024",
                 "country": "PT",
                 "region": "Lisbon"
             }
@@ -43614,6 +43657,22 @@
                 "date": "Oct 2023",
                 "country": "PL",
                 "region": "Masovian Voivodeship"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "gen3update",
+                    "newsquare"
+                ],
+                "report_time": 1734097309,
+                "author": "Jaki\u015b Bartu\u015b",
+                "id": "1317124323357626378",
+                "panoId": "1HGII2WOwPWcc2zljdVF-g",
+                "lat": 52.85659,
+                "lng": 20.63945,
+                "date": "Apr 2024",
+                "country": "PL",
+                "region": "Masovian Voivodeship"
             }
         },
         "Silesian Voivodeship": {
@@ -43670,6 +43729,20 @@
                 "lat": 50.20799,
                 "lng": 18.96118,
                 "date": "Oct 2023",
+                "country": "PL",
+                "region": "Silesian Voivodeship"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734103100,
+                "author": "mpk",
+                "id": "1317148610520944723",
+                "panoId": "vwpPMixQ7vslrBEgPY3YKQ",
+                "lat": 50.27096,
+                "lng": 18.90308,
+                "date": "Aug 2023",
                 "country": "PL",
                 "region": "Silesian Voivodeship"
             }
@@ -43759,6 +43832,20 @@
                 "date": "Aug 2024",
                 "country": "PL",
                 "region": "Lower Silesian Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734103100,
+                "author": "mpk",
+                "id": "1317148610520944723",
+                "panoId": "EnZqWZZ2Xs3yLZPWgnaXJw",
+                "lat": 51.15927,
+                "lng": 16.96365,
+                "date": "Oct 2024",
+                "country": "PL",
+                "region": "Lower Silesian Voivodeship"
             }
         },
         "Podkarpackie Voivodeship": {
@@ -43817,6 +43904,48 @@
                 "lat": 50.47388,
                 "lng": 21.53272,
                 "date": "Oct 2024",
+                "country": "PL",
+                "region": "Podkarpackie Voivodeship"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734103100,
+                "author": "mpk",
+                "id": "1317148610520944723",
+                "panoId": "oeBvZAy_9qf3zUMt0upuFQ",
+                "lat": 50.67702,
+                "lng": 21.82526,
+                "date": "Aug 2023",
+                "country": "PL",
+                "region": "Podkarpackie Voivodeship"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734103100,
+                "author": "mpk",
+                "id": "1317148610520944723",
+                "panoId": "UN0rh6Uw9F_hA9jjWL1guQ",
+                "lat": 50.67115,
+                "lng": 21.82959,
+                "date": "Jul 2024",
+                "country": "PL",
+                "region": "Podkarpackie Voivodeship"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734103100,
+                "author": "mpk",
+                "id": "1317148610520944723",
+                "panoId": "d-dKTUEnjtSy7dMbkqND5g",
+                "lat": 50.67109,
+                "lng": 21.82967,
+                "date": "Sep 2023",
                 "country": "PL",
                 "region": "Podkarpackie Voivodeship"
             }
@@ -44154,14 +44283,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721069366,
-                "author": "DeSlagen",
-                "panoId": "a2XFPnm-No5B53vZk3wZYA",
-                "lat": 54.27707,
-                "lng": 18.60444,
-                "date": "May 2023",
+                "report_time": 1734101598,
+                "author": "mpk",
+                "id": "1317142312534671410",
+                "panoId": "07zfrQJ_J1Z2wpCVuY1oow",
+                "lat": 54.32797,
+                "lng": 18.08806,
+                "date": "May 2024",
                 "country": "PL",
-                "altitude": 53.0,
                 "region": "Pomeranian Voivodeship"
             },
             "Sep": {
@@ -44234,6 +44363,22 @@
                 "lat": 52.23149,
                 "lng": 18.24374,
                 "date": "Aug 2023",
+                "country": "PL",
+                "region": "Greater Poland Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update",
+                    "newsquare"
+                ],
+                "report_time": 1734097309,
+                "author": "Jaki\u015b Bartu\u015b",
+                "id": "1317124323357626378",
+                "panoId": "eubgxpoWfJY6_XYlgCOZ9w",
+                "lat": 52.25369,
+                "lng": 15.93488,
+                "date": "Oct 2023",
                 "country": "PL",
                 "region": "Greater Poland Voivodeship"
             }
@@ -44443,6 +44588,21 @@
                 "date": "Jun 2023",
                 "country": "PL",
                 "altitude": 203.48,
+                "region": "Lublin Voivodeship"
+            },
+            "Jul": {
+                "types": [
+                    "newregion",
+                    "newsquare"
+                ],
+                "report_time": 1734097309,
+                "author": "Jaki\u015b Bartu\u015b",
+                "id": "1317124323357626378",
+                "panoId": "-iXPFhzyUfkd5fhAhtkWnA",
+                "lat": 51.41116,
+                "lng": 21.96885,
+                "date": "Jul 2023",
+                "country": "PL",
                 "region": "Lublin Voivodeship"
             }
         },
