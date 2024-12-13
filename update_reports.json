@@ -142235,5 +142235,276 @@
         "date": "Sep 2024",
         "country": "PL",
         "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsquare"
+        ],
+        "report_time": 1734049247,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1316922736265662564",
+        "panoId": "sCAvclOjdw0iwLIO-41nig",
+        "lat": 52.67221,
+        "lng": 19.03504,
+        "date": "Oct 2024",
+        "country": "PL",
+        "region": "Kuyavian-Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newsquare"
+        ],
+        "report_time": 1734048145,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1316918112280379422",
+        "panoId": "wpmoeeqyaPM_moLsVgx6iQ",
+        "lat": 51.16206,
+        "lng": 16.96836,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsquare"
+        ],
+        "report_time": 1734050997,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1316930075899199541",
+        "panoId": "61IuJ4vPcTBLHGku1pijxw",
+        "lat": 50.0496,
+        "lng": 19.93436,
+        "date": "Jun 2024",
+        "country": "PL",
+        "region": "Lesser Poland Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734050716,
+        "author": "Teksit",
+        "id": "1316928895517327412",
+        "panoId": "gTJ9h0tqffk7D8LbUp5m5Q",
+        "lat": 53.38838,
+        "lng": 14.39413,
+        "date": "Oct 2024",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734050716,
+        "author": "Teksit",
+        "id": "1316928895517327412",
+        "panoId": "25U9Sp9ByxihTnNs05KcsA",
+        "lat": 53.38248,
+        "lng": 14.40373,
+        "date": "Oct 2024",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newsquare"
+        ],
+        "report_time": 1734050250,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1316926943693766687",
+        "panoId": "fjkC6HDaGmgdlvc621fSpQ",
+        "lat": 50.43346,
+        "lng": 18.84353,
+        "date": "Oct 2023",
+        "country": "PL",
+        "region": "Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newsquare"
+        ],
+        "report_time": 1734050250,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1316926943693766687",
+        "panoId": "5qveF2C3LPVve2v3C1LyNA",
+        "lat": 50.4149,
+        "lng": 19.34874,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1734050124,
+        "author": "Teksit",
+        "id": "1316926415190364191",
+        "panoId": "AJWYKx68YLlABh2vUjSlyQ",
+        "lat": 53.47784,
+        "lng": 16.6933,
+        "date": "Apr 2024",
+        "country": "PL",
+        "region": "Greater Poland Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734052408,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1316935993789780050",
+        "panoId": "zKxVg46YqfqINQWdtEhcaQ",
+        "lat": 52.25561,
+        "lng": 16.88782,
+        "date": "Oct 2024",
+        "country": "PL",
+        "region": "Greater Poland Voivodeship"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734059098,
+        "author": "chise",
+        "id": "1316964052844417055",
+        "panoId": "XLV9uqlegUaCQdl-irLN0A",
+        "lat": -32.33087,
+        "lng": -60.48617,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Entre R\u00edos Province"
+    },
+    {
+        "types": [
+            "newregion",
+            "newstreet"
+        ],
+        "report_time": 1734078962,
+        "author": "DerZiggi",
+        "id": "1317047369094926336",
+        "panoId": "bMtnfOFW56mvUQo5zgFrAA",
+        "lat": 40.02627,
+        "lng": -78.43155,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Pennsylvania"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734078898,
+        "author": "DerZiggi",
+        "id": "1317047102546903043",
+        "panoId": "eectikloDG_GgdMfdegZqw",
+        "lat": 43.41893,
+        "lng": -82.92662,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Michigan"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734083150,
+        "author": "DerZiggi",
+        "id": "1317064936865792035",
+        "panoId": "3BjXA5RGf1nPtKGS8J6WrA",
+        "lat": 39.18895,
+        "lng": -104.85031,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Colorado"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1734084565,
+        "author": "DerZiggi",
+        "id": "1317070868551303269",
+        "panoId": "nnTwigeSnSe93pa4_5asyg",
+        "lat": 38.95925,
+        "lng": 17.10095,
+        "date": "Dec 2024",
+        "country": "IT",
+        "region": "Calabria"
+    },
+    {
+        "types": [
+            "newroad",
+            "newsquare"
+        ],
+        "report_time": 1734087890,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1317084816122052698",
+        "panoId": "BxQ0T_p66c40dOrrKtqS6Q",
+        "lat": 51.51452,
+        "lng": 16.97486,
+        "date": "Apr 2024",
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734087890,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1317084816122052698",
+        "panoId": "7pq_WiBWuCyFIkYzszkOMw",
+        "lat": 54.04439,
+        "lng": 21.74692,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Warmian-Masurian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734087890,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1317084816122052698",
+        "panoId": "2EIAYKNQ_29clZ1gDjNsYQ",
+        "lat": 49.62539,
+        "lng": 21.79295,
+        "date": "Jun 2024",
+        "country": "PL",
+        "region": "Podkarpackie Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734091650,
+        "author": "Steve",
+        "id": "1317100585278898178",
+        "panoId": "nAcfFBkcOkWMF8nJZD7SFw",
+        "lat": 51.93467,
+        "lng": 15.59314,
+        "date": "Aug 2024",
+        "country": "PL",
+        "region": "Lubusz Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734089991,
+        "author": "Steve",
+        "id": "1317093628719530025",
+        "panoId": "mWF6BZaZ9SUwxthnPQZFTw",
+        "lat": -6.94053,
+        "lng": -38.72119,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Para\u00edba"
     }
 ]

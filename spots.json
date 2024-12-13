@@ -29665,5 +29665,21 @@
         "lng": 131.51057,
         "country": "JP",
         "region": "Yamaguchi"
+    },
+    {
+        "spot_date": "2024/12/13",
+        "id": "1317099715803873331",
+        "links": [
+            "https://x.com/wakaa8168/status/1867344506145976650?t=1aTYFDRmGqcICKwwgbPC3A&s=19",
+            "https://www.google.com/maps/@35.77252,139.518,3a,77.76105y,77.998535h,71.8293t/data=!3m4!1e1!3m2!1s7HTNQFV3BFa56Oi7BdjP0Q!2e0"
+        ],
+        "report_time": 1734091442,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "7HTNQFV3BFa56Oi7BdjP0Q",
+        "lat": 35.77252,
+        "lng": 139.51798,
+        "country": "JP",
+        "region": "Tokyo"
     }
 ]
