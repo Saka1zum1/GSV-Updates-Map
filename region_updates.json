@@ -9852,6 +9852,20 @@
                 "country": "US",
                 "altitude": 94.72,
                 "region": "Maine"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734181309,
+                "author": "DerZiggi",
+                "id": "1317476646072356925",
+                "panoId": "iuon7Mv6uJtifUPAmSzh1A",
+                "lat": 43.70747,
+                "lng": -70.3073,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Maine"
             }
         },
         "North Dakota": {
@@ -10138,6 +10152,20 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 784.28,
+                "region": "West Virginia"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734180364,
+                "author": "DeSlagen",
+                "id": "1317472680680882227",
+                "panoId": "eXhSlrESs43Fiwiu85VNmA",
+                "lat": 39.36002,
+                "lng": -81.30011,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "West Virginia"
             }
         },
@@ -15002,6 +15030,20 @@
                 "country": "CA",
                 "altitude": 196.5,
                 "region": "Ontario"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734189708,
+                "author": "Frost",
+                "id": "1317511870021632134",
+                "panoId": "-fja8zY0WmmQ0cj_kcjeyg",
+                "lat": 43.11494,
+                "lng": -80.38208,
+                "date": "Nov 2024",
+                "country": "CA",
+                "region": "Ontario"
             }
         },
         "Alberta": {
@@ -15372,6 +15414,20 @@
                 "date": "Oct 2024",
                 "country": "CA",
                 "altitude": 25.43,
+                "region": "Prince Edward Island"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734178960,
+                "author": "DerZiggi",
+                "id": "1317466793702588427",
+                "panoId": "c13QMHIsGa5apiImhNS2mw",
+                "lat": 46.29479,
+                "lng": -62.54964,
+                "date": "Nov 2024",
+                "country": "CA",
                 "region": "Prince Edward Island"
             }
         },
@@ -16003,7 +16059,8 @@
                 "region": "Norre Nebel"
             }
         },
-        "Capital Region": {}
+        "Capital Region": {},
+        "Lille Langebro": {}
     },
     "JP": {
         "Miyazaki": {
@@ -19709,17 +19766,16 @@
             },
             "Nov": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1706372844,
-                "author": "Unhook",
-                "panoId": "mXKgVHemfvGVg3bSPI5HOQ",
-                "lat": -9.07316,
-                "lng": -40.1555,
-                "date": "Nov 2023",
+                "report_time": 1734188228,
+                "author": "Tobetelogi",
+                "id": "1317505665413025792",
+                "panoId": "g5TrAeOyOCAkFI3-c_gb7Q",
+                "lat": -7.98709,
+                "lng": -39.83064,
+                "date": "Nov 2024",
                 "country": "BR",
-                "altitude": 364.89,
                 "region": "State of Pernambuco"
             },
             "Oct": {
@@ -20886,6 +20942,20 @@
                 "country": "BR",
                 "altitude": 182.95,
                 "region": "State of Maranh\u00e3o"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734186723,
+                "author": "Unhook",
+                "id": "1317499352553488425",
+                "panoId": "RWSwQNSpHdDPrkietWFOXQ",
+                "lat": -7.41292,
+                "lng": -47.16567,
+                "date": "Nov 2024",
+                "country": "BR",
+                "region": "State of Maranh\u00e3o"
             }
         },
         "Roraima": {
@@ -21245,6 +21315,20 @@
                 "date": "Oct 2024",
                 "country": "BR",
                 "altitude": 263.37,
+                "region": "State of Tocantins"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734186723,
+                "author": "Unhook",
+                "id": "1317499352553488425",
+                "panoId": "RPJzZhrNGhVrXWndGoDgow",
+                "lat": -11.72416,
+                "lng": -46.74004,
+                "date": "Nov 2024",
+                "country": "BR",
                 "region": "State of Tocantins"
             }
         },
@@ -21717,6 +21801,20 @@
                 "country": "BR",
                 "altitude": 13.21,
                 "region": "State of Esp\u00edrito Santo"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734186723,
+                "author": "Unhook",
+                "id": "1317499352553488425",
+                "panoId": "lWMFCKUnrID_ZGtuqJ4rDA",
+                "lat": -20.77766,
+                "lng": -41.15647,
+                "date": "Nov 2024",
+                "country": "BR",
+                "region": "State of Esp\u00edrito Santo"
             }
         },
         "Piau\u00ed": {},
@@ -22130,6 +22228,21 @@
                 "date": "Oct 2024",
                 "country": "BR",
                 "altitude": 396.01,
+                "region": "State of Mato Grosso do Sul"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734186095,
+                "author": "Tobetelogi",
+                "id": "1317496717654097920",
+                "panoId": "k3j6Vd5QIOx86g5l6YOQdA",
+                "lat": -19.73226,
+                "lng": -53.00426,
+                "date": "Nov 2024",
+                "country": "BR",
                 "region": "State of Mato Grosso do Sul"
             }
         },
@@ -24381,6 +24494,21 @@
                 "country": "FR",
                 "altitude": 507.89,
                 "region": "Nouvelle-Aquitaine"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1734185348,
+                "author": "DerZiggi",
+                "id": "1317493586572480595",
+                "panoId": "XJsmUxRM9-ApYg1Btnftlg",
+                "lat": 43.78337,
+                "lng": -1.07206,
+                "date": "Dec 2024",
+                "country": "FR",
+                "region": "Nouvelle-Aquitaine"
             }
         },
         "Brittany": {
@@ -25968,6 +26096,20 @@
                 "date": "Nov 2024",
                 "country": "ES",
                 "altitude": 153.92,
+                "region": "Valencian Community"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734179051,
+                "author": "DerZiggi",
+                "id": "1317467174859968552",
+                "panoId": "f-FJXJXnn1purFXjmfH0BA",
+                "lat": 40.01225,
+                "lng": -0.12418,
+                "date": "Dec 2024",
+                "country": "ES",
                 "region": "Valencian Community"
             }
         },
@@ -43807,13 +43949,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734046741,
-                "author": "DeSlagen",
-                "id": "1316912227026210909",
-                "panoId": "Kl5oC24RC10QBarg-6c3uA",
-                "lat": 50.20799,
-                "lng": 18.96118,
-                "date": "Oct 2023",
+                "report_time": 1734171403,
+                "author": "jpeters",
+                "id": "1317435094985609327",
+                "panoId": "P_3zaR1tLfigzrhGnH0rbQ",
+                "lat": 50.30965,
+                "lng": 18.6365,
+                "date": "Oct 2024",
                 "country": "PL",
                 "region": "Silesian Voivodeship"
             },
@@ -44092,6 +44234,20 @@
                 "date": "Sep 2024",
                 "country": "PL",
                 "region": "\u015awi\u0119tokrzyskie Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734170993,
+                "author": "jpeters",
+                "id": "1317433376499826759",
+                "panoId": "JB5KzxyH7WgWxbQO5RE0iw",
+                "lat": 50.72664,
+                "lng": 21.27191,
+                "date": "Oct 2024",
+                "country": "PL",
+                "region": "\u015awi\u0119tokrzyskie Voivodeship"
             }
         },
         "Opole Voivodeship": {
@@ -44288,6 +44444,21 @@
                 "date": "Sep 2024",
                 "country": "PL",
                 "region": "\u0141\u00f3d\u017a Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734170584,
+                "author": "jpeters",
+                "id": "1317431659527671820",
+                "panoId": "D0TUhCoJyU4dXHyXQKrq-A",
+                "lat": 50.98938,
+                "lng": 19.42869,
+                "date": "Oct 2024",
+                "country": "PL",
+                "region": "\u0141\u00f3d\u017a Voivodeship"
             }
         },
         "Kuyavian-Pomeranian Voivodeship": {
@@ -44352,16 +44523,17 @@
         "Pomeranian Voivodeship": {
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newroad"
                 ],
-                "report_time": 1721069030,
-                "author": "DeSlagen",
-                "panoId": "U0L2BLPN4ddIXyCJm0Pvjw",
-                "lat": 54.35338,
-                "lng": 18.66494,
-                "date": "Apr 2023",
+                "report_time": 1734148867,
+                "author": "inferNOOBY",
+                "id": "1317340572985593929",
+                "panoId": "Q4H-Jp6F98VKX6Nk-27ZuQ",
+                "lat": 54.26547,
+                "lng": 18.10394,
+                "date": "Apr 2024",
                 "country": "PL",
-                "altitude": 4.56,
                 "region": "Pomeranian Voivodeship"
             },
             "May": {
@@ -44382,13 +44554,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734031410,
-                "author": "mpk",
-                "id": "1316847921022373949",
-                "panoId": "TeMqR7D7Bly6_3prpG6h_w",
-                "lat": 53.87364,
-                "lng": 18.90098,
-                "date": "Sep 2023",
+                "report_time": 1734171146,
+                "author": "jpeters",
+                "id": "1317434016584175616",
+                "panoId": "393JJopzgYopUlv8yWWdCA",
+                "lat": 54.33057,
+                "lng": 18.55623,
+                "date": "Sep 2024",
                 "country": "PL",
                 "region": "Pomeranian Voivodeship"
             },
@@ -44611,6 +44783,20 @@
                 "lat": 51.93467,
                 "lng": 15.59314,
                 "date": "Aug 2024",
+                "country": "PL",
+                "region": "Lubusz Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734171486,
+                "author": "jpeters",
+                "id": "1317435445440942142",
+                "panoId": "mm432YGPPxPqvWDDXGxb6A",
+                "lat": 52.75495,
+                "lng": 15.26527,
+                "date": "Oct 2024",
                 "country": "PL",
                 "region": "Lubusz Voivodeship"
             }

@@ -29713,5 +29713,149 @@
         "lng": -98.69471,
         "country": "US",
         "region": "Oklahoma"
+    },
+    {
+        "spot_date": "2018/11/12",
+        "id": "1317312359844282420",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1169972859825895&set=pcb.1169973849825796",
+            "https://maps.app.goo.gl/jSgCdtk25w8m34M1A"
+        ],
+        "report_time": 1734142141,
+        "author": "Ethan",
+        "spot_type": "Gen4/H1",
+        "panoId": "gZDrcMAgxPToxRvgZY3mbA",
+        "lat": 36.84372,
+        "lng": -86.87232,
+        "country": "US",
+        "region": "Kentucky"
+    },
+    {
+        "spot_date": "2020/09/03",
+        "id": "1317152539480686673",
+        "links": [
+            "https://www.gd.no/smil-til-kamera-na-er-de-pa-besok-igjen/s/5-18-1180879",
+            "https://maps.app.goo.gl/cK95LxoLsx4Q2TKH6"
+        ],
+        "report_time": 1734104036,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4/H1",
+        "panoId": "lMrs6YhyhSzFTnZXem80bg",
+        "lat": 61.11988,
+        "lng": 10.46267,
+        "country": "NO",
+        "region": "Innlandet"
+    },
+    {
+        "spot_date": "2024/12/13",
+        "id": "1317146584210739211",
+        "links": [
+            "https://twitter.com/bubblecrumbler/status/1867481804124696979/photo/1",
+            "https://maps.app.goo.gl/1a5ptnMLwzCe5cYY6"
+        ],
+        "report_time": 1734102617,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "IoIbWVtUKArnNcWm8Cv9bg",
+        "lat": -6.71926,
+        "lng": 108.53579,
+        "country": "ID",
+        "region": "West Java"
+    },
+    {
+        "spot_date": "2024/12/13",
+        "id": "1317146584210739211",
+        "links": [
+            "https://twitter.com/bubblecrumbler/status/1867481804124696979/photo/1",
+            "https://maps.app.goo.gl/1a5ptnMLwzCe5cYY6"
+        ],
+        "report_time": 1734102617,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "IoIbWVtUKArnNcWm8Cv9bg",
+        "lat": -6.71926,
+        "lng": 108.53579,
+        "country": "ID",
+        "region": "West Java"
+    },
+    {
+        "spot_date": "2024/12/13",
+        "id": "1317430865642655765",
+        "links": [
+            "https://www.skyscrapercity.com/posts/191199129/",
+            "https://maps.app.goo.gl/ziBsj96Y6W5HFSRu5"
+        ],
+        "report_time": 1734170395,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "tCDjOc6qeej6JSdLX-sQJw",
+        "lat": -22.87349,
+        "lng": -42.33732,
+        "country": "BR",
+        "region": "State of Rio de Janeiro"
+    },
+    {
+        "spot_date": "2024/12/13",
+        "id": "1317457254672236595",
+        "links": [
+            "https://www.instagram.com/reel/DDgRuk1Plvh/?utm_source=ig_web_copy_link",
+            "https://maps.app.goo.gl/ZajfUKkCWkpfBdkS9"
+        ],
+        "report_time": 1734176686,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "n2O3gGK4P2a5CO8PCcCCzw",
+        "lat": -1.19464,
+        "lng": 109.96665,
+        "country": "ID",
+        "region": "West Kalimantan"
+    },
+    {
+        "spot_date": "2024/12/09",
+        "id": "1317455440178839603",
+        "links": [
+            "https://www.tiktok.com/@zaini.2019/video/7446074840844471557?is_from_webapp=1&sender_device=pc&web_id=7274582088686306817",
+            "https://maps.app.goo.gl/RyoGh1J8Sj1iStVY9"
+        ],
+        "report_time": 1734176254,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "hNLrBHaQnW16xq8WNJfQqQ",
+        "lat": 0.12264,
+        "lng": 110.60279,
+        "country": "ID",
+        "region": "West Kalimantan"
+    },
+    {
+        "spot_date": "2024/12/12",
+        "id": "1317475052043767929",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1122723099855752&set=a.460127516115317",
+            "https://maps.app.goo.gl/wSAL5rxkuwfyfPKQ7"
+        ],
+        "report_time": 1734180929,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "ygeJxPxMpPQINIrC_Bh8IQ",
+        "lat": 25.04991,
+        "lng": 121.51229,
+        "country": "CN",
+        "region": "Taipei City"
+    },
+    {
+        "spot_date": "2012/08/20",
+        "id": "1317513219178237973",
+        "links": [
+            "https://zabkowice.express-miejski.pl/wiadomosc/10954,samochody-google-street-view-w-powiecie-zabkowickim",
+            "https://www.google.com/maps/@50.5819806,16.8053528,3a,90y,349.04h,85.21t/data=!3m11!1e1!3m9!1s47qiWBOdweCHqS_XgyV8MQ!2e0"
+        ],
+        "report_time": 1734190029,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen3",
+        "panoId": "47qiWBOdweCHqS_XgyV8MQ",
+        "lat": 50.58198,
+        "lng": 16.80535,
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
     }
 ]
