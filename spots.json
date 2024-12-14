@@ -29681,5 +29681,37 @@
         "lng": 139.51798,
         "country": "JP",
         "region": "Tokyo"
+    },
+    {
+        "spot_date": "2024/12/12",
+        "id": "1317222641689432064",
+        "links": [
+            "https://www.facebook.com/photo?fbid=890896316362703&set=a.283547833764224",
+            "https://maps.app.goo.gl/vBso9k9CiiaLPepg6"
+        ],
+        "report_time": 1734120750,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "GZqD9rv__rPZe74YljZjjw",
+        "lat": -20.723,
+        "lng": -47.88764,
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "spot_date": "2024/12/13",
+        "id": "1317241922372239440",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=623009463494252&set=a.107053958423141",
+            "https://maps.app.goo.gl/2BvjtqN438oqJabWA"
+        ],
+        "report_time": 1734125347,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "5v05TS5I9LEj3YWvyNpx1w",
+        "lat": 35.53682,
+        "lng": -98.69471,
+        "country": "US",
+        "region": "Oklahoma"
     }
 ]

@@ -7611,6 +7611,20 @@
                 "country": "US",
                 "altitude": 297.03,
                 "region": "Missouri"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734131819,
+                "author": "DerZiggi",
+                "id": "1317269065978482842",
+                "panoId": "JEn3HsBp_8bJ1uieSKyeFw",
+                "lat": 36.62984,
+                "lng": -90.5203,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Missouri"
             }
         },
         "California": {
@@ -8199,6 +8213,20 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 287.31,
+                "region": "Ohio"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734137328,
+                "author": "DerZiggi",
+                "id": "1317292172793479309",
+                "panoId": "CQQZphDZcgEuCxuAPfMD3g",
+                "lat": 40.81868,
+                "lng": -82.04831,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "Ohio"
             }
         },
@@ -13228,6 +13256,20 @@
                 "date": "Oct 2024",
                 "country": "GB",
                 "region": "Scotland"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734105989,
+                "author": "maccem",
+                "id": "1317160729408704533",
+                "panoId": "kJQEO365LA886t5_QHTXew",
+                "lat": 55.7328,
+                "lng": -3.97185,
+                "date": "Nov 2024",
+                "country": "GB",
+                "region": "Scotland"
             }
         },
         "Wales": {
@@ -13317,6 +13359,21 @@
                 "lat": 51.75268,
                 "lng": -4.73333,
                 "date": "Nov 2024",
+                "country": "GB",
+                "region": "Wales"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734121745,
+                "author": "DeSlagen",
+                "id": "1317226813876867112",
+                "panoId": "DLdK0gNGb8wf5E5vaWvtcQ",
+                "lat": 51.92686,
+                "lng": -4.40208,
+                "date": "Oct 2024",
                 "country": "GB",
                 "region": "Wales"
             }
@@ -33092,6 +33149,20 @@
                 "country": "NL",
                 "altitude": 40.87,
                 "region": "Utrecht"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734115603,
+                "author": "DeSlagen",
+                "id": "1317201052298379374",
+                "panoId": "be0dAtnL8Gz5rxurOSofXg",
+                "lat": 51.95274,
+                "lng": 5.01959,
+                "date": "Nov 2024",
+                "country": "NL",
+                "region": "Utrecht"
             }
         },
         "North Brabant": {
@@ -33316,6 +33387,20 @@
                 "date": "Oct 2024",
                 "country": "NL",
                 "altitude": 1.49,
+                "region": "South Holland"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734115603,
+                "author": "DeSlagen",
+                "id": "1317201052298379374",
+                "panoId": "kq_zxqXjnWeT5-qNHQTtqA",
+                "lat": 51.87647,
+                "lng": 4.96711,
+                "date": "Nov 2024",
+                "country": "NL",
                 "region": "South Holland"
             }
         },

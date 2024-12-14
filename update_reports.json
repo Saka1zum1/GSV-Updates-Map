@@ -142553,7 +142553,6 @@
     },
     {
         "types": [
-            "newregion",
             "gen3update",
             "newsquare"
         ],
@@ -142598,7 +142597,6 @@
     },
     {
         "types": [
-            "newregion",
             "newsquare"
         ],
         "report_time": 1734097309,
@@ -142641,7 +142639,6 @@
     },
     {
         "types": [
-            "newregion",
             "newsquare"
         ],
         "report_time": 1734097309,
@@ -142838,5 +142835,315 @@
         "date": "Sep 2023",
         "country": "PL",
         "region": "Podkarpackie Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734105989,
+        "author": "maccem",
+        "id": "1317160729408704533",
+        "panoId": "kJQEO365LA886t5_QHTXew",
+        "lat": 55.7328,
+        "lng": -3.97185,
+        "date": "Nov 2024",
+        "country": "GB",
+        "region": "Scotland"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1734107108,
+        "author": "DeSlagen",
+        "id": "1317165422822297640",
+        "panoId": "cZAvRDsOrbAIQmmL1wB5Vg",
+        "lat": 50.31268,
+        "lng": -3.77596,
+        "date": "Jun 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734117194,
+        "author": "DeSlagen",
+        "id": "1317207725398298745",
+        "panoId": "wTQ1fw3-r2RZGw5HwQ-4kg",
+        "lat": 41.19858,
+        "lng": 9.33706,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Sardinia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734117194,
+        "author": "DeSlagen",
+        "id": "1317207725398298745",
+        "panoId": "HhGVXjgPy73NxV-l5i75pg",
+        "lat": 41.21958,
+        "lng": 9.22028,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Sardinia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734117194,
+        "author": "DeSlagen",
+        "id": "1317207725398298745",
+        "panoId": "PV2HiAM6e5a13Eck1RTgAw",
+        "lat": 39.3257,
+        "lng": 16.99849,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Calabria"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734117194,
+        "author": "DeSlagen",
+        "id": "1317207725398298745",
+        "panoId": "h69CozFaH1X7_tzzEmolGQ",
+        "lat": 37.41736,
+        "lng": 14.33887,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Sicily"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734117194,
+        "author": "DeSlagen",
+        "id": "1317207725398298745",
+        "panoId": "XMKoZ4a-uVe6nlMatBKtmA",
+        "lat": 37.42209,
+        "lng": 14.32389,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Sicily"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734117194,
+        "author": "DeSlagen",
+        "id": "1317207725398298745",
+        "panoId": "MkhBzZJtpTDx_Q-RIupRfA",
+        "lat": 37.60417,
+        "lng": 14.39475,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Sicily"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1734117194,
+        "author": "DeSlagen",
+        "id": "1317207725398298745",
+        "panoId": "ejPdPDhBgeTyL9MxCnBoVQ",
+        "lat": 41.16019,
+        "lng": 9.25264,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Sardinia"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734115603,
+        "author": "DeSlagen",
+        "id": "1317201052298379374",
+        "panoId": "be0dAtnL8Gz5rxurOSofXg",
+        "lat": 51.95274,
+        "lng": 5.01959,
+        "date": "Nov 2024",
+        "country": "NL",
+        "region": "Utrecht"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734115603,
+        "author": "DeSlagen",
+        "id": "1317201052298379374",
+        "panoId": "kq_zxqXjnWeT5-qNHQTtqA",
+        "lat": 51.87647,
+        "lng": 4.96711,
+        "date": "Nov 2024",
+        "country": "NL",
+        "region": "South Holland"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734119120,
+        "author": "chise",
+        "id": "1317215805317972008",
+        "panoId": "x57NUU2XUcdHqsxpii3b5g",
+        "lat": 2.12566,
+        "lng": -75.77986,
+        "date": "Sep 2024",
+        "country": "CO",
+        "region": "Huila"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734119120,
+        "author": "chise",
+        "id": "1317215805317972008",
+        "panoId": "-nebuquyOn_m1ljpccK_4g",
+        "lat": 2.03442,
+        "lng": -75.91435,
+        "date": "Sep 2024",
+        "country": "CO",
+        "region": "Huila"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734118999,
+        "author": "chise",
+        "id": "1317215295525490844",
+        "panoId": "IctXOuBXOURFuCDIVm8ScA",
+        "lat": 19.75078,
+        "lng": -104.46043,
+        "date": "Sep 2024",
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734118999,
+        "author": "chise",
+        "id": "1317215295525490844",
+        "panoId": "0U4ybN7wQtirjjQPlgz_xQ",
+        "lat": 19.38472,
+        "lng": -104.26277,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734118785,
+        "author": "chise",
+        "id": "1317214397835509914",
+        "panoId": "dvQkHNvIRoG3dYjWFOCKOg",
+        "lat": 19.53561,
+        "lng": -100.75248,
+        "date": "Sep 2024",
+        "country": "MX",
+        "region": "Michoac\u00e1n"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734118785,
+        "author": "chise",
+        "id": "1317214397835509914",
+        "panoId": "J9821KrKUPPckAxaHicXHw",
+        "lat": 19.71958,
+        "lng": -100.60543,
+        "date": "Sep 2024",
+        "country": "MX",
+        "region": "Michoac\u00e1n"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734118680,
+        "author": "chise",
+        "id": "1317213957202776217",
+        "panoId": "tZpDD3Ikd-J13bQH_W2NcQ",
+        "lat": 30.98642,
+        "lng": -110.29161,
+        "date": "Jan 2024",
+        "country": "MX",
+        "region": "Sonora"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1734121745,
+        "author": "DeSlagen",
+        "id": "1317226813876867112",
+        "panoId": "DLdK0gNGb8wf5E5vaWvtcQ",
+        "lat": 51.92686,
+        "lng": -4.40208,
+        "date": "Oct 2024",
+        "country": "GB",
+        "region": "Wales"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734131819,
+        "author": "DerZiggi",
+        "id": "1317269065978482842",
+        "panoId": "JEn3HsBp_8bJ1uieSKyeFw",
+        "lat": 36.62984,
+        "lng": -90.5203,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Missouri"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1734132267,
+        "author": "Steven",
+        "id": "1317270948616994866",
+        "panoId": "ttNJw7ckLtCAjTL1yJG3NQ",
+        "lat": -22.04289,
+        "lng": -43.04826,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734137328,
+        "author": "DerZiggi",
+        "id": "1317292172793479309",
+        "panoId": "CQQZphDZcgEuCxuAPfMD3g",
+        "lat": 40.81868,
+        "lng": -82.04831,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Ohio"
     }
 ]
