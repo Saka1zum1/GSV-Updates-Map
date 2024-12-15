@@ -7941,6 +7941,21 @@
                 "country": "US",
                 "altitude": 277.17,
                 "region": "Kentucky"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734206919,
+                "author": "DeSlagen",
+                "id": "1317584062117838848",
+                "panoId": "GFUO1pmg33d1-Iv9X2Bu_g",
+                "lat": 38.09257,
+                "lng": -85.8594,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Kentucky"
             }
         },
         "Montana": {
@@ -10583,6 +10598,20 @@
                 "country": "US",
                 "altitude": 367.04,
                 "region": "Nebraska"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734193272,
+                "author": "DeSlagen",
+                "id": "1317526822044565575",
+                "panoId": "AjWtXw_6FWMtIYE88wfHEA",
+                "lat": 41.23997,
+                "lng": -95.9902,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Nebraska"
             }
         },
         "Delaware": {
@@ -13104,6 +13133,20 @@
                 "date": "Oct 2024",
                 "country": "IT",
                 "altitude": 2.52,
+                "region": "Apulia"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734196173,
+                "author": "DeSlagen",
+                "id": "1317538986876604507",
+                "panoId": "Ssm8H1aBdgjxR1ipA9LLQw",
+                "lat": 40.61198,
+                "lng": 17.29563,
+                "date": "Nov 2024",
+                "country": "IT",
                 "region": "Apulia"
             }
         },
@@ -25664,6 +25707,20 @@
                 "date": "Oct 2024",
                 "country": "ES",
                 "altitude": 68.31,
+                "region": "Catalonia"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734217971,
+                "author": "Steve",
+                "id": "1317630415338606674",
+                "panoId": "M_J3lJVVjJhhYdovhTE7EQ",
+                "lat": 41.18066,
+                "lng": 1.43271,
+                "date": "Dec 2024",
+                "country": "ES",
                 "region": "Catalonia"
             }
         },
@@ -44842,6 +44899,20 @@
                 "lat": 53.86107,
                 "lng": 22.71461,
                 "date": "Aug 2024",
+                "country": "PL",
+                "region": "Warmian-Masurian Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734198737,
+                "author": "ewde_",
+                "id": "1317549741269057658",
+                "panoId": "u9JwlxxkFwrkzBGftmQPXg",
+                "lat": 53.77788,
+                "lng": 20.48271,
+                "date": "Oct 2024",
                 "country": "PL",
                 "region": "Warmian-Masurian Voivodeship"
             }
