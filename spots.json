@@ -29857,5 +29857,21 @@
         "lng": 16.80535,
         "country": "PL",
         "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "spot_date": "2024/12/12",
+        "id": "1317821265020457002",
+        "links": [
+            "https://www.threads.net/@doritan821/post/DDdyr5KSA8t",
+            "https://maps.app.goo.gl/oqSHVE57fDmzmfNX8"
+        ],
+        "report_time": 1734263473,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "FIURDmH238E71mcB_pvFOA",
+        "lat": 34.00245,
+        "lng": 130.97361,
+        "country": "JP",
+        "region": "Yamaguchi"
     }
 ]

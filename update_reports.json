@@ -144027,5 +144027,147 @@
         "date": "Sep 2024",
         "country": "US",
         "region": "Illinois"
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1734268312,
+        "author": "Steve",
+        "id": "1317841560829820959",
+        "panoId": "-P51VX5_twvz5OWImd_j2Q",
+        "lat": -39.69385,
+        "lng": 176.86125,
+        "date": "Nov 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion"
+        ],
+        "report_time": 1734261191,
+        "author": "Steve",
+        "id": "1317811691660251136",
+        "panoId": "c8VYZ31fIBrCOrkfA3hXKQ",
+        "lat": 46.98284,
+        "lng": 8.30803,
+        "date": "Aug 2023",
+        "country": "CH",
+        "region": "Nidwalden"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734261029,
+        "author": "DeSlagen",
+        "id": "1317811014460379236",
+        "panoId": "S2qlX0K4aElV1SIo3FFIHg",
+        "lat": 36.12353,
+        "lng": -90.43239,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "types": [
+            "newarea"
+        ],
+        "report_time": 1734247912,
+        "author": "vegetal",
+        "id": "1317755995434258442",
+        "panoId": "99GGYLnUQUw9Hr31neTpUg",
+        "lat": -27.13992,
+        "lng": 138.7996,
+        "date": "Sep 2024",
+        "country": "AU",
+        "region": "South Australia"
+    },
+    {
+        "types": [
+            "newarea"
+        ],
+        "report_time": 1734243015,
+        "author": "JHK",
+        "id": "1317735456200462409",
+        "panoId": "1mEeNskIPf85_wt1nvD4MQ",
+        "lat": -29.43112,
+        "lng": 136.86252,
+        "date": "Sep 2024",
+        "country": "AU",
+        "region": "South Australia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734239698,
+        "author": "HoustonMediaHD",
+        "id": "1317721543819792494",
+        "panoId": "M52FFixqZTV_DlZppi917w",
+        "lat": 32.96404,
+        "lng": -80.09221,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "South Carolina"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1734239428,
+        "author": "Steven",
+        "id": "1317720411433205813",
+        "panoId": "mF0HoOqOgrfcC1_w5sOL_A",
+        "lat": 47.61089,
+        "lng": -64.83524,
+        "date": "Oct 2024",
+        "country": "CA",
+        "region": "New Brunswick"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734231768,
+        "author": "chise",
+        "id": "1317688285346140220",
+        "panoId": "0JViAHos7zJCEowMkWRBiQ",
+        "lat": -26.97182,
+        "lng": -55.25064,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734221602,
+        "author": "chise",
+        "id": "1317645645271535636",
+        "panoId": "z-njCNgNR5to4fPbWZIS4g",
+        "lat": -27.11373,
+        "lng": -55.06406,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Misiones Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734220967,
+        "author": "DanolD",
+        "id": "1317642981192372276",
+        "panoId": "ivvw1TIpM5_IbuBccqqNCQ",
+        "lat": 41.18457,
+        "lng": -88.18644,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Illinois"
     }
 ]
