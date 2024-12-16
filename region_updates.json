@@ -10078,6 +10078,20 @@
                 "country": "US",
                 "altitude": 101.65,
                 "region": "Arkansas"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734261029,
+                "author": "DeSlagen",
+                "id": "1317811014460379236",
+                "panoId": "S2qlX0K4aElV1SIo3FFIHg",
+                "lat": 36.12353,
+                "lng": -90.43239,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Arkansas"
             }
         },
         "West Virginia": {
@@ -11300,6 +11314,20 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 235.54,
+                "region": "Indiana"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734277844,
+                "author": "Steve",
+                "id": "1317881541199663196",
+                "panoId": "qyi_gLYHIiwDGXeEHb064A",
+                "lat": 38.38694,
+                "lng": -85.76633,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "Indiana"
             }
         },
@@ -15361,6 +15389,21 @@
                 "country": "CA",
                 "altitude": 616.54,
                 "region": "Saskatchewan"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734292090,
+                "author": "Frost",
+                "id": "1317941294831636593",
+                "panoId": "NrugCv9mkyGfDCNHMF0Pvg",
+                "lat": 53.27801,
+                "lng": -108.4291,
+                "date": "Oct 2024",
+                "country": "CA",
+                "region": "Saskatchewan"
             }
         },
         "Manitoba": {
@@ -16618,6 +16661,20 @@
                 "date": "Jun 2024",
                 "country": "JP",
                 "altitude": 6.24,
+                "region": "Wakayama"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734347668,
+                "author": "Steve",
+                "id": "1318174405045649470",
+                "panoId": "1wLXi_LjcAn_biFJZR9okQ",
+                "lat": 33.6518,
+                "lng": 135.77777,
+                "date": "Nov 2024",
+                "country": "JP",
                 "region": "Wakayama"
             }
         },
@@ -18647,6 +18704,20 @@
                 "lat": 34.56838,
                 "lng": 135.72345,
                 "date": "Nov 2024",
+                "country": "JP",
+                "region": "Nara"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry"
+                ],
+                "report_time": 1734348972,
+                "author": "Steve",
+                "id": "1318179874321469460",
+                "panoId": "dQJ0oSC5SUtUEeGXQ1IbxQ",
+                "lat": 34.3188,
+                "lng": 135.97292,
+                "date": "Dec 2024",
                 "country": "JP",
                 "region": "Nara"
             }
@@ -23423,7 +23494,70 @@
                 "region": "Putrajaya"
             }
         },
-        "Sarawak": {},
+        "Sarawak": {
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734321393,
+                "author": "jpeters",
+                "id": "1318064197489131641",
+                "panoId": "8ozm-5XUM2dh9MDaJXAsUw",
+                "lat": 1.55835,
+                "lng": 110.30926,
+                "date": "Sep 2024",
+                "country": "MY",
+                "region": "Sarawak"
+            },
+            "Aug": {
+                "types": [
+                    "newregion",
+                    "newgen4",
+                    "gen3update",
+                    "newyear"
+                ],
+                "report_time": 1734320372,
+                "author": "JHK",
+                "id": "1318059914714939413",
+                "panoId": "CFDuqG39sWyCURbasooTGg",
+                "lat": 1.4071,
+                "lng": 110.53014,
+                "date": "Aug 2024",
+                "country": "MY",
+                "region": "Sarawak"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734344163,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1318159701971828737",
+                "panoId": "oviwtu14Zsy7muPxAMHRZg",
+                "lat": 3.19671,
+                "lng": 113.05458,
+                "date": "Oct 2024",
+                "country": "MY",
+                "region": "Sarawak"
+            },
+            "Nov": {
+                "types": [
+                    "newcountry",
+                    "gen3update"
+                ],
+                "report_time": 1734343763,
+                "author": "vegetal",
+                "id": "1318158025801859113",
+                "panoId": "9zoUp38lLoNnkCRNBdHkVA",
+                "lat": 4.40457,
+                "lng": 113.99334,
+                "date": "Nov 2024",
+                "country": "MY",
+                "region": "Sarawak"
+            }
+        },
         "Kuala Lumpur": {},
         "Sabah": {},
         "Perlis": {},
@@ -28629,6 +28763,20 @@
                 "country": "NZ",
                 "altitude": 9.25,
                 "region": "Bay of Plenty"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734308536,
+                "author": "Steve",
+                "id": "1318010273210302506",
+                "panoId": "fG2jexpVnXJbJSmjVnWSbA",
+                "lat": -38.24679,
+                "lng": 176.31428,
+                "date": "Oct 2024",
+                "country": "NZ",
+                "region": "Bay of Plenty"
             }
         },
         "Manawat\u016b-Whanganui": {
@@ -28854,6 +29002,20 @@
                 "country": "NZ",
                 "altitude": 462.5,
                 "region": "Hawke's Bay"
+            },
+            "Nov": {
+                "types": [
+                    "newcountry"
+                ],
+                "report_time": 1734268312,
+                "author": "Steve",
+                "id": "1317841560829820959",
+                "panoId": "-P51VX5_twvz5OWImd_j2Q",
+                "lat": -39.69385,
+                "lng": 176.86125,
+                "date": "Nov 2024",
+                "country": "NZ",
+                "region": "Hawke's Bay"
             }
         },
         "West Coast": {
@@ -28869,6 +29031,20 @@
                 "date": "Jun 2024",
                 "country": "NZ",
                 "altitude": 29.82,
+                "region": "West Coast"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734283011,
+                "author": "DerZiggi",
+                "id": "1317903215299268669",
+                "panoId": "N2RFj_dMrUf7RbudRrxV3Q",
+                "lat": -43.94644,
+                "lng": 169.25706,
+                "date": "Oct 2024",
+                "country": "NZ",
                 "region": "West Coast"
             }
         },
@@ -32241,7 +32417,8 @@
                 "country": "PT",
                 "region": "Faro District"
             }
-        }
+        },
+        "La Codosera": {}
     },
     "CN": {
         "New Taipei City": {
@@ -38742,6 +38919,21 @@
                 "date": "Nov 2022",
                 "country": "CH",
                 "altitude": 446.24,
+                "region": "Nidwalden"
+            },
+            "Aug": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1734261191,
+                "author": "Steve",
+                "id": "1317811691660251136",
+                "panoId": "c8VYZ31fIBrCOrkfA3hXKQ",
+                "lat": 46.98284,
+                "lng": 8.30803,
+                "date": "Aug 2023",
+                "country": "CH",
                 "region": "Nidwalden"
             }
         },

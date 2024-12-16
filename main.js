@@ -6027,6 +6027,7 @@ const cluster_on = './assets/markers.svg'
 const cluster_off = './assets/marker.svg'
 const clustermarkers = new L.MarkerClusterGroup()
 const specialDates = {
+  '2024-12-16T03:39:00Z': 'sarawak',
   '2024-10-28T22:38:00Z': 'om',
   '2024-10-14T20:00:00Z': 'fo',
   '2024-10-01T02:59:00Z': 'li',
@@ -6097,7 +6098,7 @@ function drawMarkers(data) {
   markers = [];
 
   data.forEach(item => {
-    const { lat, lng, author, types, report_time, date, panoId, links, id, spot_type, spot_date, region,altitude } = item;
+    const { lat, lng, author, types, report_time, date, panoId, links, id, spot_type, spot_date, region, altitude } = item;
     if (report_time) {
       var localTime = new Date(report_time * 1000).toLocaleString();
     }
@@ -6182,40 +6183,40 @@ function createSearchPopup() {
     popup = document.createElement('div');
     popup.id = 'search-popup';
   }
-  
+
   const resultList = document.createElement('ul');
   resultList.style.listStyleType = 'none';
   resultList.style.padding = '0';
   resultList.style.marginBottom = '30px';
   let resultCount = 0;
-  
+
   function createListItem(text, title, flag, clickCallback) {
     const listItem = document.createElement('li');
     listItem.style.margin = '5px';
     listItem.style.cursor = 'pointer';
     listItem.textContent = `${flag} ${text}`;
     listItem.title = title;
-  
+
     listItem.addEventListener('mouseover', function () {
       listItem.style.backgroundColor = 'rgba(255, 255, 153, 0.6)';
     });
-  
+
     listItem.addEventListener('mouseout', function () {
       listItem.style.backgroundColor = '';
     });
-  
+
     listItem.addEventListener('click', clickCallback);
-  
+
     return listItem;
   }
-  
+
   const searchInput = document.createElement('input');
   searchInput.classList.add('search-input');
   searchInput.type = 'text';
 
 
   searchInput.placeholder = 'Search for country or region...';
-  
+
   let combinedData = [];
 
   Object.keys(countries).forEach(country => {
@@ -6226,7 +6227,7 @@ function createSearchPopup() {
       code: country,
       flag: flag
     });
-  
+
     if (region_updates[country]) {
       Object.keys(region_updates[country]).forEach(region => {
         combinedData.push({
@@ -6238,32 +6239,32 @@ function createSearchPopup() {
       });
     }
   });
-  
+
   searchInput.addEventListener('input', debounce(function () {
     const searchQuery = searchInput.value.toLowerCase();
     resultList.innerHTML = '';
     resultCount = 0;
-  
+
     combinedData.forEach(item => {
-      if ((countries[item.code.toUpperCase()].toLowerCase().includes(searchQuery)||item.name.toLowerCase().includes(searchQuery)) && resultCount <10) {
+      if ((countries[item.code.toUpperCase()].toLowerCase().includes(searchQuery) || item.name.toLowerCase().includes(searchQuery)) && resultCount < 10) {
         const listItem = createListItem(item.name, item.name, item.flag, function () {
           if (item.type === 'country') {
             searchInput.value = `${item.flag} ${item.name}`;
           } else if (item.type === 'region') {
             searchInput.value = `${item.flag} ${item.name}`;
-            filter_check.region= item.name;
+            filter_check.region = item.name;
           }
           filter_check.country = item.code;
 
           filter_flag.innerHTML = item.flag;
         });
-  
+
         resultList.appendChild(listItem);
         resultCount++;
       }
     });
   }, 200));
-  
+
   popup.appendChild(searchInput);
   popup.appendChild(resultList);
 
@@ -6283,18 +6284,19 @@ function createSearchPopup() {
 
   confirmButton.addEventListener('click', function () {
     document.body.removeChild(popup);
-    const confirm_value=searchInput.value.toLowerCase().substring(5)
-    if(confirm_value!=countries[filter_check.country].toLowerCase()&&confirm_value!=filter_check.region.toLowerCase()) {
-      filter_check.country=null
-      filter_check.region=null
-      return}
+    const confirm_value = searchInput.value.toLowerCase().substring(5)
+    if (confirm_value != countries[filter_check.country].toLowerCase() && confirm_value != filter_check.region.toLowerCase()) {
+      filter_check.country = null
+      filter_check.region = null
+      return
+    }
     applyFilters()
     filter_country.appendChild(filter_flag);
     LabelsUrl = "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m2!1e0!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.t:18|s.e:g.s|p.w:3,s.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f3";
     roadmapLabelsLayer.setUrl(LabelsUrl);
     terrainLabelsLayer.setUrl(LabelsUrl);
     satelliteLabelsLayer.setUrl(LabelsUrl);
-    isRegion=true
+    isRegion = true
   });
 
 
@@ -6377,7 +6379,7 @@ function applyFilters() {
 
     const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
 
-    const matchesRegion = !filter_check.region || filter_check.region=== item.region;
+    const matchesRegion = !filter_check.region || filter_check.region === item.region;
 
     const pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
       const point = L.latLng(item.lat, item.lng);
@@ -6536,11 +6538,19 @@ function initDatePicker(view = 'days', minView = 'days') {
         if (matchingDates.length > 0) {
           const randomIndex = Math.floor(Math.random() * matchingDates.length);
           const flagEmoji = getFlagEmoji(matchingDates[randomIndex].countryCode);
-          return {
-            html: `<div class="custom-cell">
+          if (matchingDates[randomIndex].countryCode == 'sarawak') {
+            return {
+              html: `<div class="custom-cell"><img class="emoji" style="width:24px; height:12px" src="./assets/sarawak.png"></div>`,
+              classes: 'custom-cell'
+            };
+          }
+          else {
+            return {
+              html: `<div class="custom-cell">
                       <span style="font-family:TwemojiCountryFlags, sans-serif">${flagEmoji}</span> 
                     </div>`
-          };
+            };
+          }
         }
       }
     },
@@ -6791,7 +6801,7 @@ filter_country.addEventListener('click', function () {
   else {
     isRegion = false
     filter_check.region = null
-    filter_check.country= null
+    filter_check.country = null
     filter_country.removeChild(filter_flag)
     applyFilters()
     LabelsUrl = "https://www.google.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m1!2sm!3m17!2sen!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2ss.e:g|p.v:off,s.t:1|s.e:g.s|p.v:on,s.e:l|p.v:on!5m1!5f3"
