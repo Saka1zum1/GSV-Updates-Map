@@ -145875,5 +145875,92 @@
         "date": "Sep 2024",
         "country": "MY",
         "region": "Sarawak"
+    },
+    {
+        "types": [
+            "newroad",
+            "ariupdate",
+            "newarea"
+        ],
+        "report_time": 1734414793,
+        "author": "jpeters",
+        "id": "1318455945742913596",
+        "panoId": "4MGqBVBvOY__WELqgC8koQ",
+        "lat": 4.54845,
+        "lng": 115.07019,
+        "date": "Sep 2024",
+        "country": "MY",
+        "region": "Sarawak"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1734422395,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1318487831139581982",
+        "panoId": "wGLSKUg2WF892YAxSn26oQ",
+        "lat": 4.77336,
+        "lng": 114.91111,
+        "date": "Sep 2024",
+        "country": "MY",
+        "region": "Sarawak"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734435570,
+        "author": "K\u00fcgul",
+        "id": "1318543093557104681",
+        "panoId": "9pOubmZEdUc_F202Ju5zvQ",
+        "lat": -0.8492,
+        "lng": 110.34129,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "West Kalimantan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734438134,
+        "author": "jpeters",
+        "id": "1318553845345026088",
+        "panoId": "qIJa3svZKwAG0rHiL4l6KA",
+        "lat": 36.09204,
+        "lng": -110.85527,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734439321,
+        "author": "Steve",
+        "id": "1318558823228641301",
+        "panoId": "VW9L5-XVcGoOxpK8Dp-0zQ",
+        "lat": -6.94555,
+        "lng": 109.04101,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734441702,
+        "author": "JustEmilo",
+        "id": "1318568810118119475",
+        "panoId": "9DwCLR1jwBs58SbDU5waOg",
+        "lat": 4.47147,
+        "lng": 114.03811,
+        "date": "Oct 2024",
+        "country": "MY",
+        "region": "Sarawak"
     }
 ]
