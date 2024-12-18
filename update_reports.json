@@ -146326,5 +146326,132 @@
         "date": "Dec 2024",
         "country": "US",
         "region": "Louisiana"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734489164,
+        "author": "Ryan",
+        "id": "1318767880585740300",
+        "panoId": "SxTjujNU3wFK34naQ2eFWw",
+        "lat": 35.69245,
+        "lng": -94.33072,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734499407,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1318810845022650502",
+        "panoId": "x5mEXPlcyb1UyIbPmSKjfQ",
+        "lat": 3.18833,
+        "lng": 113.04902,
+        "date": "Oct 2024",
+        "country": "MY",
+        "region": "Sarawak"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734516795,
+        "author": "Alok",
+        "id": "1318883773621866551",
+        "panoId": "1roBUMSIrMFcjAkYI69nTA",
+        "lat": -28.63406,
+        "lng": 122.41681,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "Western Australia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734520465,
+        "author": "Alok",
+        "id": "1318899165966761984",
+        "panoId": "x6K8LdnJz4QgqOaiaVdIcg",
+        "lat": -0.99271,
+        "lng": 110.56257,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "West Kalimantan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734520465,
+        "author": "Alok",
+        "id": "1318899165966761984",
+        "panoId": "SOPEiE1gwFHo3_aRB7045w",
+        "lat": -0.24836,
+        "lng": 110.07517,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "West Kalimantan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734520465,
+        "author": "Alok",
+        "id": "1318899165966761984",
+        "panoId": "tYr_olpdaxYGh0XH9aQU2g",
+        "lat": -0.96305,
+        "lng": 109.76092,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "West Kalimantan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734520465,
+        "author": "Alok",
+        "id": "1318899165966761984",
+        "panoId": "FWRdYK54dCmCSSpjY5aveQ",
+        "lat": -1.03485,
+        "lng": 109.79086,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "West Kalimantan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734520093,
+        "author": "1xqd",
+        "id": "1318897608130953318",
+        "panoId": "GLp3ivL8nWH-QdBH9LMU3Q",
+        "lat": -39.68884,
+        "lng": 176.907,
+        "date": "Nov 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734519996,
+        "author": "1xqd",
+        "id": "1318897198599245874",
+        "panoId": "yOTljK8Ia6gB5VKNaftDUw",
+        "lat": -39.65074,
+        "lng": 176.71841,
+        "date": "Nov 2024",
+        "country": "NZ",
+        "region": "Hawke's Bay"
     }
 ]
