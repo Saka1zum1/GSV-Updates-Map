@@ -29889,5 +29889,37 @@
         "lng": 139.56671,
         "country": "JP",
         "region": "Tokyo"
+    },
+    {
+        "spot_date": "2024/12/16",
+        "id": "1318365898435985479",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10205539677864342&set=a.1082856824674",
+            "https://maps.app.goo.gl/GEQN5GVnSUtYA5bi8"
+        ],
+        "report_time": 1734393324,
+        "author": "Ethan",
+        "spot_type": "Gen4",
+        "panoId": "jjJjcD5DDl2EXiJPGxsbqw",
+        "lat": 35.06072,
+        "lng": -92.40929,
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "spot_date": "2024/12/17",
+        "id": "1318605256225198180",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=3141275539359362&set=a.589746197845655",
+            "https://maps.app.goo.gl/9kHyXPzq5v3dkFLX7"
+        ],
+        "report_time": 1734450391,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "xXCvIJO4ScfPVhLBhPp-dg",
+        "lat": 22.99203,
+        "lng": 120.2189,
+        "country": "CN",
+        "region": "Tainan City"
     }
 ]

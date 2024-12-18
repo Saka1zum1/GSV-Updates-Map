@@ -145962,5 +145962,369 @@
         "date": "Oct 2024",
         "country": "MY",
         "region": "Sarawak"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734449255,
+        "author": "Tobetelogi",
+        "id": "1318600490627497994",
+        "panoId": "EgE0fVOtMZwDqdhD_2uCmw",
+        "lat": 1.62528,
+        "lng": 111.17234,
+        "date": "Aug 2024",
+        "country": "MY",
+        "region": "Sarawak"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734449255,
+        "author": "Tobetelogi",
+        "id": "1318600490627497994",
+        "panoId": "tMtuyfWmDtdbwXvnSY-hUQ",
+        "lat": 1.29681,
+        "lng": 111.00679,
+        "date": "Aug 2024",
+        "country": "MY",
+        "region": "Sarawak"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734448980,
+        "author": "Money George",
+        "id": "1318599336514293910",
+        "panoId": "iendTh4Y2rdIO_9aJb2YQw",
+        "lat": 54.60681,
+        "lng": 18.50781,
+        "date": "Oct 2023",
+        "country": "PL",
+        "region": "Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734449255,
+        "author": "Tobetelogi",
+        "id": "1318600490627497994",
+        "panoId": "6DWZz0S05QAK6wMObSdyGg",
+        "lat": 1.30306,
+        "lng": 110.70657,
+        "date": "Aug 2024",
+        "country": "MY",
+        "region": "Sarawak"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734453324,
+        "author": "DeSlagen",
+        "id": "1318617559758667901",
+        "panoId": "fxQx7ey4-ApSqkKQljU0DA",
+        "lat": 38.73566,
+        "lng": -8.93469,
+        "date": "Nov 2024",
+        "country": "PT",
+        "region": "Setubal"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734439321,
+        "author": "Steve",
+        "id": "1318558823228641301",
+        "panoId": "WuilraMlb1uOJ7XoKGzIew",
+        "lat": -2.02027,
+        "lng": 119.32819,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "West Sulawesi"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734464750,
+        "author": "DeSlagen",
+        "id": "1318665481212788744",
+        "panoId": "Zph4gBmW6PBPXcLWLjNpkA",
+        "lat": 50.31389,
+        "lng": -3.93933,
+        "date": "Aug 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newsquare"
+        ],
+        "report_time": 1734476845,
+        "author": "Teksit",
+        "id": "1318716212368375849",
+        "panoId": "m12N9bUIEfx2KBBktWCS3w",
+        "lat": 54.01269,
+        "lng": 15.9804,
+        "date": "May 2022",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734476675,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1318715496878833745",
+        "panoId": "DKH5FOWEkrR3Z2s6nwm93g",
+        "lat": 50.85179,
+        "lng": 23.36112,
+        "date": "Jul 2024",
+        "country": "PL",
+        "region": "Lublin Voivodeship"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734476356,
+        "author": "DeSlagen",
+        "id": "1318714161986797579",
+        "panoId": "mZXkfw-jqPISvhtGnyXXKg",
+        "lat": 38.7188,
+        "lng": -83.02014,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Kentucky"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734476356,
+        "author": "DeSlagen",
+        "id": "1318714161986797579",
+        "panoId": "Ricwu1Om5Md2ip36Ol9P4A",
+        "lat": 38.69769,
+        "lng": -83.09438,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Ohio"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734476356,
+        "author": "DeSlagen",
+        "id": "1318714161986797579",
+        "panoId": "qfAVLwEIUpwsBEDWKKt9QA",
+        "lat": 38.72416,
+        "lng": -82.96695,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Kentucky"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734476356,
+        "author": "DeSlagen",
+        "id": "1318714161986797579",
+        "panoId": "Fug6qGwg6e04-toIh7UANw",
+        "lat": 38.75162,
+        "lng": -83.61188,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Ohio"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734476356,
+        "author": "DeSlagen",
+        "id": "1318714161986797579",
+        "panoId": "wEQGbQrB1DCNWoiL9HFE1A",
+        "lat": 38.69106,
+        "lng": -83.61103,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Ohio"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734475630,
+        "author": "DeSlagen",
+        "id": "1318711115320004732",
+        "panoId": "JqIlJFWOx6rPTxmWFRCO0w",
+        "lat": 34.12257,
+        "lng": -95.1456,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Oklahoma"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734475630,
+        "author": "DeSlagen",
+        "id": "1318711115320004732",
+        "panoId": "JdsV8kFM3lISBwWTRpi3oA",
+        "lat": 35.334,
+        "lng": -95.86617,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Oklahoma"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734475630,
+        "author": "DeSlagen",
+        "id": "1318711115320004732",
+        "panoId": "ZzMXKdGFnBeplL6v4HrQ3w",
+        "lat": 36.94754,
+        "lng": -90.32666,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Missouri"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734475630,
+        "author": "DeSlagen",
+        "id": "1318711115320004732",
+        "panoId": "AJdFVtMVt7Edx3APzM5IJg",
+        "lat": 37.69232,
+        "lng": -88.75762,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Illinois"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734475630,
+        "author": "DeSlagen",
+        "id": "1318711115320004732",
+        "panoId": "P0K2eEQEk2gijUyGQ7OCWA",
+        "lat": 35.37833,
+        "lng": -110.8209,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arizona"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734475630,
+        "author": "DeSlagen",
+        "id": "1318711115320004732",
+        "panoId": "eThMmCOCqu8cBuFjDtOPew",
+        "lat": 32.73796,
+        "lng": -84.74891,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Georgia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734477874,
+        "author": "DeSlagen",
+        "id": "1318720529871671438",
+        "panoId": "Mr_vvGL5kC98wMSqhpV8iQ",
+        "lat": 31.50877,
+        "lng": -93.61939,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734477874,
+        "author": "DeSlagen",
+        "id": "1318720529871671438",
+        "panoId": "2UNi8ApvHggSpbLw76vFvg",
+        "lat": 31.52402,
+        "lng": -93.59137,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734477874,
+        "author": "DeSlagen",
+        "id": "1318720529871671438",
+        "panoId": "Ii9RiSzbIqsPWWE7AlenLA",
+        "lat": 31.50913,
+        "lng": -93.5349,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734477874,
+        "author": "DeSlagen",
+        "id": "1318720529871671438",
+        "panoId": "2d7hmBvJtCKErsvXC_xgqQ",
+        "lat": 31.48897,
+        "lng": -93.43138,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734477874,
+        "author": "DeSlagen",
+        "id": "1318720529871671438",
+        "panoId": "-nOoLEieaN_QKosOyfUJOw",
+        "lat": 31.41697,
+        "lng": -93.36752,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734477874,
+        "author": "DeSlagen",
+        "id": "1318720529871671438",
+        "panoId": "Ru-41M9uzyTIvQMrkXWWUQ",
+        "lat": 31.32065,
+        "lng": -93.29171,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Louisiana"
     }
 ]
