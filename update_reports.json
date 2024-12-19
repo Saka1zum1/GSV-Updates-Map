@@ -146453,5 +146453,262 @@
         "date": "Nov 2024",
         "country": "NZ",
         "region": "Hawke's Bay"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1734530034,
+        "author": "mpk",
+        "id": "1318939300989239407",
+        "panoId": "pCVYGL_dy6FpMRaMwoq4Wg",
+        "lat": -14.8156,
+        "lng": -51.92346,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Mato Grosso"
+    },
+    {
+        "types": [
+            "newarea",
+            "newtown"
+        ],
+        "report_time": 1734530034,
+        "author": "mpk",
+        "id": "1318939300989239407",
+        "panoId": "dMYuV6Qxu47kCCnIHl-iSg",
+        "lat": -10.78487,
+        "lng": -51.99265,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Mato Grosso"
+    },
+    {
+        "types": [
+            "newarea",
+            "newtown"
+        ],
+        "report_time": 1734530034,
+        "author": "mpk",
+        "id": "1318939300989239407",
+        "panoId": "4diq2UovhBdcMIYEH2SEBg",
+        "lat": -16.2957,
+        "lng": -41.79139,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734544462,
+        "author": "juliosalg",
+        "id": "1318999818571485194",
+        "panoId": "PfxwkJ5DxTtCLdn6pCWfkw",
+        "lat": -21.4597,
+        "lng": -49.57718,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734548037,
+        "author": "Alok",
+        "id": "1319014812172423281",
+        "panoId": "QHLRaeA57EX8eED0SWxVDg",
+        "lat": -1.10602,
+        "lng": 110.73526,
+        "date": "Nov 2024",
+        "country": "ID",
+        "region": "West Kalimantan"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734550153,
+        "author": "chise",
+        "id": "1319023688275984394",
+        "panoId": "N_C5opzw1VdQvBnmRBSRMg",
+        "lat": -14.51368,
+        "lng": -56.48452,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Mato Grosso"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734550759,
+        "author": "Steve",
+        "id": "1319026228644282390",
+        "panoId": "K4sFO8m7NqbGwyKw6iMMeg",
+        "lat": 40.45142,
+        "lng": 16.7645,
+        "date": "Dec 2024",
+        "country": "IT",
+        "region": "Basilicata"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea"
+        ],
+        "report_time": 1734553648,
+        "author": "macca",
+        "id": "1319038348509319290",
+        "panoId": "PxMq-8CcpHisRodm0_NYSA",
+        "lat": -30.51644,
+        "lng": 122.00536,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "Western Australia"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734554884,
+        "author": "HoustonMediaHD",
+        "id": "1319043531024764950",
+        "panoId": "hn9fjCpu7SnDHpgF2_WGng",
+        "lat": 29.80466,
+        "lng": -95.73517,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734557489,
+        "author": "Steve",
+        "id": "1319054456972640327",
+        "panoId": "ap231OcRIKFi1YvEPFN5UA",
+        "lat": -9.34436,
+        "lng": -38.02364,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Alagoas"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734557489,
+        "author": "Steve",
+        "id": "1319054456972640327",
+        "panoId": "Huj1bATZOMV8EglLfVBNsQ",
+        "lat": -25.26139,
+        "lng": -50.00391,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Paran\u00e1"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734556924,
+        "author": "Tobetelogi",
+        "id": "1319052087702720513",
+        "panoId": "JLLrUg33_iS3jb5WfCLEvg",
+        "lat": -10.82714,
+        "lng": -37.56875,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Sergipe"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734556784,
+        "author": "Tobetelogi",
+        "id": "1319051499732471819",
+        "panoId": "liwmMl0F4kjne9VAuz2MwQ",
+        "lat": 40.44293,
+        "lng": 16.87776,
+        "date": "Dec 2024",
+        "country": "IT",
+        "region": "Apulia"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734558993,
+        "author": "Tobetelogi",
+        "id": "1319060767492018326",
+        "panoId": "tWxNxO-3qkYxa_N3NjT45g",
+        "lat": -15.57947,
+        "lng": -47.39776,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "Federal District"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1734558042,
+        "author": "Tobetelogi",
+        "id": "1319056776976404481",
+        "panoId": "67aE9k0Rq43UT-zboZ80XA",
+        "lat": -18.65857,
+        "lng": -44.11741,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734563619,
+        "author": "juliosalg",
+        "id": "1319080167963889744",
+        "panoId": "4y109zcoHZ7Hj86L2_Q8Yw",
+        "lat": -22.33343,
+        "lng": -45.09264,
+        "date": "Oct 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734565689,
+        "author": "DeSlagen",
+        "id": "1319088852626968646",
+        "panoId": "xUmepokxI7hOrv4DiEzJag",
+        "lat": 37.04358,
+        "lng": -106.14543,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Colorado"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734565191,
+        "author": "HoustonMediaHD",
+        "id": "1319086761443459234",
+        "panoId": "f4WrEVaIUOigHLP6T8GDsA",
+        "lat": 33.71762,
+        "lng": -78.9273,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "South Carolina"
     }
 ]

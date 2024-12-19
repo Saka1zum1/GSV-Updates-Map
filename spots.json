@@ -29937,5 +29937,37 @@
         "lng": 112.38851,
         "country": "ID",
         "region": "East Java"
+    },
+    {
+        "spot_date": "2024/12/13",
+        "id": "1318948467581911081",
+        "links": [
+            "https://www.facebook.com/share/p/1EkH77RB1A/",
+            "https://maps.app.goo.gl/pLBN2pcQ5cn462y77"
+        ],
+        "report_time": 1734532219,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "Re13jHC5oyh_WfOPMzfF7w",
+        "lat": 34.07751,
+        "lng": 134.54503,
+        "country": "JP",
+        "region": "Tokushima"
+    },
+    {
+        "spot_date": "2024/12/17",
+        "id": "1319036583516704951",
+        "links": [
+            "https://www.threads.net/@clau_photog/post/DDr1l1WBzaB",
+            "https://maps.app.goo.gl/kT3q16qv4YprygraA"
+        ],
+        "report_time": 1734553228,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "Nib3tYtCo31WcFkgPewt3g",
+        "lat": 22.99586,
+        "lng": 120.20531,
+        "country": "CN",
+        "region": "Tainan City"
     }
 ]
