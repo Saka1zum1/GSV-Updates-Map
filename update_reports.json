@@ -146710,5 +146710,423 @@
         "date": "Dec 2024",
         "country": "US",
         "region": "South Carolina"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734603047,
+        "author": "juliosalg",
+        "id": "1319245542508986400",
+        "panoId": "--gZWF3Ph8NqXuU9Z0YiKA",
+        "lat": -7.84158,
+        "lng": -36.37303,
+        "date": "Sep 2024",
+        "country": "BR",
+        "region": "State of Pernambuco"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734601993,
+        "author": "juliosalg",
+        "id": "1319241120793759744",
+        "panoId": "H-cZftYRiVpZdQA4S5UCpw",
+        "lat": -3.72575,
+        "lng": -46.09447,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Maranh\u00e3o"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734600807,
+        "author": "1xqd",
+        "id": "1319236145212559381",
+        "panoId": "AfMNjjLBTmaufkOafPOsIQ",
+        "lat": -37.67976,
+        "lng": 176.11113,
+        "date": "Sep 2024",
+        "country": "NZ",
+        "region": "Bay of Plenty"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734597156,
+        "author": "Alok",
+        "id": "1319220832316166207",
+        "panoId": "SDncBj4Ks8QeMcJqKLl9fA",
+        "lat": 0.16909,
+        "lng": 34.71172,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Kakamega County"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734597156,
+        "author": "Alok",
+        "id": "1319220832316166207",
+        "panoId": "UdQgLfBBPm69wAWbwat7qA",
+        "lat": 0.44323,
+        "lng": 34.55717,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Kakamega County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734597156,
+        "author": "Alok",
+        "id": "1319220832316166207",
+        "panoId": "M0_osgrCT7wZ7c6tII15aA",
+        "lat": 0.21301,
+        "lng": 34.96496,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Nandi County"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734596793,
+        "author": "Alok",
+        "id": "1319219309133824062",
+        "panoId": "XPFR-BdUjHJK5uD2tbmcxA",
+        "lat": -4.6362,
+        "lng": 39.38349,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Kwale County"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734596793,
+        "author": "Alok",
+        "id": "1319219309133824062",
+        "panoId": "IhyLKopp6e0-xpTgY7d_Ew",
+        "lat": -4.58571,
+        "lng": 39.22343,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Kwale County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734596793,
+        "author": "Alok",
+        "id": "1319219309133824062",
+        "panoId": "fNHMqoYqEYa3UA3-XEL2dQ",
+        "lat": -0.55678,
+        "lng": 36.85137,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Nyeri County"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734596793,
+        "author": "Alok",
+        "id": "1319219309133824062",
+        "panoId": "oSN1PhMNo6zJRTIkLcStQQ",
+        "lat": -0.48795,
+        "lng": 37.01852,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Nyeri County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734596793,
+        "author": "Alok",
+        "id": "1319219309133824062",
+        "panoId": "XlJpefoAOBgAN95-ZKi1iw",
+        "lat": -0.30598,
+        "lng": 37.82612,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Tharaka-Nithi County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734596793,
+        "author": "Alok",
+        "id": "1319219309133824062",
+        "panoId": "sHzzedBoZV3E8bbEyur4dQ",
+        "lat": -0.92541,
+        "lng": 37.25756,
+        "date": "Sep 2024",
+        "country": "KE",
+        "region": "Muranga County"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734596793,
+        "author": "Alok",
+        "id": "1319219309133824062",
+        "panoId": "aZpUQKeYNDVqzRgB0Uhpqw",
+        "lat": -1.73444,
+        "lng": 37.13434,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Machakos County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734596793,
+        "author": "Alok",
+        "id": "1319219309133824062",
+        "panoId": "w4_4aDUZoKe7lH-Y0dUDKQ",
+        "lat": -1.28906,
+        "lng": 37.12737,
+        "date": "Sep 2024",
+        "country": "KE",
+        "region": "Machakos County"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734579586,
+        "author": "chise",
+        "id": "1319147139405709364",
+        "panoId": "-XSB9PIqYr9zw9BqbL32Qw",
+        "lat": -16.35369,
+        "lng": -50.71045,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Goi\u00e1s"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "kOt2V_GuuC9g1XKIY5PE7Q",
+        "lat": -0.41993,
+        "lng": 37.85175,
+        "date": "Sep 2024",
+        "country": "KE",
+        "region": "Embu County"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "IE-DwU5beMp7W-Jka9M4BA",
+        "lat": -1.05861,
+        "lng": 37.25874,
+        "date": "Sep 2024",
+        "country": "KE",
+        "region": "Kiambu County"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "BECafHJkXuasK0D1ly4pqw",
+        "lat": -1.284,
+        "lng": 37.09574,
+        "date": "Sep 2024",
+        "country": "KE",
+        "region": "Machakos County"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "lLJWZM4cONWuH8L0FChXIA",
+        "lat": -1.35563,
+        "lng": 36.73291,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Nairobi County"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "s-gyvSOIKB6v04o3V1V4YA",
+        "lat": -0.56116,
+        "lng": 36.87012,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Nyeri County"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "-eiTo69lTK1UnVwboqNJ6A",
+        "lat": -0.3342,
+        "lng": 37.71048,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Tharaka-Nithi County"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "_wV0qjjOWEyjWnmBEOX8vQ",
+        "lat": -4.18711,
+        "lng": 39.48442,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Kwale County"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "IgBfH_iJ_OZx1LFfJ-tu0w",
+        "lat": 0.21231,
+        "lng": 34.96414,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Nandi County"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734576948,
+        "author": "Steve",
+        "id": "1319136075070832731",
+        "panoId": "lEA2ArBQ3FkthsplGM2pRg",
+        "lat": 0.12834,
+        "lng": 34.86093,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Vihiga County"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1734570712,
+        "author": "HoustonMediaHD",
+        "id": "1319109920775475322",
+        "panoId": "Z4X-XeH6pdOUKjBL4azO3g",
+        "lat": -1.40229,
+        "lng": 36.82736,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Kajiado County"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734570444,
+        "author": "Steve",
+        "id": "1319108792977330176",
+        "panoId": "xYRmsIPSZ38eAQDdKwADqQ",
+        "lat": -1.71129,
+        "lng": 37.32709,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Makueni County"
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1734568973,
+        "author": "HoustonMediaHD",
+        "id": "1319102626574372864",
+        "panoId": "rlPp3o9lJZjascwA5kgSgg",
+        "lat": -0.22347,
+        "lng": 36.86268,
+        "date": "Oct 2024",
+        "country": "KE",
+        "region": "Laikipia County"
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1734568503,
+        "author": "Steve",
+        "id": "1319100651682271326",
+        "panoId": "YXf4CzYBNO4eODYHMCEIvw",
+        "lat": -0.91949,
+        "lng": 37.24143,
+        "date": "Sep 2024",
+        "country": "KE",
+        "region": "Muranga County"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1734568458,
+        "author": "JHK",
+        "id": "1319100464427438141",
+        "panoId": "6a96CL-2EB2wHIKfgOxzPw",
+        "lat": 0.29942,
+        "lng": 34.5212,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Kakamega County"
     }
 ]
