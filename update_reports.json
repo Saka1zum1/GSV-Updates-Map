@@ -147640,5 +147640,147 @@
         "date": "Oct 2024",
         "country": "AU",
         "region": "Victoria"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1734653717,
+        "author": "DeSlagen",
+        "id": "1319458067422642366",
+        "panoId": "78pEwVlg5ISOcgEFDZaU_A",
+        "lat": 0.1634,
+        "lng": 34.63531,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Kakamega County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734653717,
+        "author": "DeSlagen",
+        "id": "1319458067422642366",
+        "panoId": "GIfPoshuRyuCjvwo6HN7Ww",
+        "lat": 0.1255,
+        "lng": 34.97553,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Nandi County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734653717,
+        "author": "DeSlagen",
+        "id": "1319458067422642366",
+        "panoId": "nrKnl9z881hCrXbAFyjLtQ",
+        "lat": 0.13058,
+        "lng": 34.72521,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Vihiga County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734653717,
+        "author": "DeSlagen",
+        "id": "1319458067422642366",
+        "panoId": "NPruc715R4nuuSysGVojug",
+        "lat": 0.17346,
+        "lng": 34.78077,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Kakamega County"
+    },
+    {
+        "types": [
+            "ariupdate"
+        ],
+        "report_time": 1734661107,
+        "author": "DanolD",
+        "id": "1319489061865521162",
+        "panoId": "7x6qhWQg0NehlIFSr5TUAw",
+        "lat": 41.17582,
+        "lng": -88.27668,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Illinois"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea"
+        ],
+        "report_time": 1734680410,
+        "author": "JHK",
+        "id": "1319570023781502996",
+        "panoId": "8XUS_Wo-pw6qwWux0YjAbg",
+        "lat": -14.20277,
+        "lng": -55.12348,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Mato Grosso"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734653717,
+        "author": "DeSlagen",
+        "id": "1319458067422642366",
+        "panoId": "3IVEuq6ZrNtHKkNygilkig",
+        "lat": 0.20424,
+        "lng": 34.81461,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Kakamega County"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734653717,
+        "author": "DeSlagen",
+        "id": "1319458067422642366",
+        "panoId": "NgTrUA6Kv-J2HGiC7Dvxng",
+        "lat": 0.31951,
+        "lng": 34.64396,
+        "date": "Nov 2024",
+        "country": "KE",
+        "region": "Kakamega County"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1734694942,
+        "author": "jpeters",
+        "id": "1319630975122145280",
+        "panoId": "OWrLxxVZBjyXnaXXWjM_MA",
+        "lat": 37.09987,
+        "lng": 14.12881,
+        "date": "Dec 2024",
+        "country": "IT",
+        "region": "Sicily"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734693983,
+        "author": "juliosalg",
+        "id": "1319626953002582036",
+        "panoId": "5BMEXZlrwaTav7wprkMOBQ",
+        "lat": -20.69014,
+        "lng": -43.49847,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais"
     }
 ]
