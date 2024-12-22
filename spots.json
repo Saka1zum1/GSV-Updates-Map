@@ -29969,5 +29969,165 @@
         "lng": 120.20531,
         "country": "CN",
         "region": "Tainan City"
+    },
+    {
+        "spot_date": "2021/07/18",
+        "id": "1320272786274390047",
+        "links": [
+            "https://web.telegram.org/a/#-1001130425446",
+            "https://maps.app.goo.gl/jfBTEodTqM5DiPTq9"
+        ],
+        "report_time": 1734847961,
+        "author": "vegetal",
+        "spot_type": "Gen4/H1",
+        "panoId": "boxXL7-waiNo97b72wrpGA",
+        "lat": 66.54504,
+        "lng": 66.75222,
+        "country": "RU",
+        "region": "Yamalo-Nenets Autonomous Okrug"
+    },
+    {
+        "spot_date": "2023/02/16",
+        "id": "1320117314452062209",
+        "links": [
+            "https://www.tiktok.com/@biggen17/video/7200892081915710766",
+            "https://maps.app.goo.gl/MMhdtrLisqs1M1GA9"
+        ],
+        "report_time": 1734810894,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4/H1",
+        "panoId": "kqRoaD39D0E5A2LnUmwDcg",
+        "lat": 34.73489,
+        "lng": -92.99173,
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "spot_date": "2024/10/17",
+        "id": "1319630066006888520",
+        "links": [
+            "https://tootoo.to/view.cgi?n=yoshizumi&m=20241219072427",
+            "https://maps.app.goo.gl/LvFoSB7o3NdB98E19"
+        ],
+        "report_time": 1734694725,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4/H1",
+        "panoId": "YckOL7CH5gsTlcCWND_x6w",
+        "lat": 33.7371,
+        "lng": 130.46604,
+        "country": "JP",
+        "region": "Fukuoka"
+    },
+    {
+        "spot_date": "2024/07/19",
+        "id": "1319449687295656051",
+        "links": [
+            "https://www.tiktok.com/@shan.s.moore/video/7393495585623526699",
+            "https://maps.app.goo.gl/ijRSQETJSBEFER9K8"
+        ],
+        "report_time": 1734651719,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4/H1",
+        "panoId": "g1yrnSpSZRzYiwFd5LwL9w",
+        "lat": 36.71082,
+        "lng": -82.80247,
+        "country": "US",
+        "region": "Virginia"
+    },
+    {
+        "spot_date": "2022/06/08",
+        "id": "1318950719465717844",
+        "links": [
+            "https://www.facebook.com/share/p/1FRdqchATy/",
+            "https://maps.app.goo.gl/P6NZkMyUBSaawKXp9"
+        ],
+        "report_time": 1734532756,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4/H1",
+        "panoId": "swT-yOe8hCK_BYkg0AFTDA",
+        "lat": 34.52536,
+        "lng": 135.70438,
+        "country": "JP",
+        "region": "Nara"
+    },
+    {
+        "spot_date": "2012/05/15",
+        "id": "1320243945724448940",
+        "links": [
+            "https://www.youtube.com/watch?v=aoLvbzJiHso",
+            "https://maps.app.goo.gl/YLbUdSn54L2Xpkqd9"
+        ],
+        "report_time": 1734841085,
+        "author": "hellhound#1981",
+        "spot_type": "Gen3",
+        "panoId": "wUL5oCgkYx27y8kNn7UoQA",
+        "lat": 49.54319,
+        "lng": 15.36536,
+        "country": "CZ",
+        "region": "Vyso\u010dina Region"
+    },
+    {
+        "spot_date": "2013/08/05",
+        "id": "1318794308521820191",
+        "links": [
+            "https://www.youtube.com/watch?v=jLph21k3lpk",
+            "https://maps.app.goo.gl/B6tgRmkU6Dj5S4zv9"
+        ],
+        "report_time": 1734495465,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen3",
+        "panoId": "IuxsUJJEpny1itYVYjSuqA",
+        "lat": 44.38908,
+        "lng": -68.20936,
+        "country": "US",
+        "region": "Maine"
+    },
+    {
+        "spot_date": "2014/06/15",
+        "id": "1318773272774705262",
+        "links": [
+            "https://foursquare.com/v/%E3%83%9E%E3%83%AB%E3%83%88-%E6%9D%B1%E7%94%B0%E5%BA%97/4dde2cc0e4cd191273799de1",
+            "https://maps.app.goo.gl/CrCkfPWsVVtDV3NF9"
+        ],
+        "report_time": 1734490449,
+        "author": "hellhound#1981",
+        "spot_type": "Gen3",
+        "panoId": "epqjKEuvDe0HvzaGwYyrkQ",
+        "lat": 36.9202,
+        "lng": 140.80691,
+        "country": "JP",
+        "region": "Fukushima"
+    },
+    {
+        "spot_date": "2017/07/06",
+        "id": "1317897481417392164",
+        "links": [
+            "https://foursquare.com/v/%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3-%E7%9B%B8%E6%A8%A1%E5%8E%9F%E7%9B%B8%E5%8D%97%E5%9B%9B%E4%B8%81%E7%9B%AE%E5%BA%97/4c1f5f78eac020a144f54ac2?openPhotoId=595de4f3b399f759baef48cf",
+            "https://maps.app.goo.gl/hZyGh78xTQTpVPVq6"
+        ],
+        "report_time": 1734281644,
+        "author": "hellhound#1981",
+        "spot_type": "Gen3",
+        "panoId": "YrNDXX7qtERGGrbXj0cU5A",
+        "lat": 35.51561,
+        "lng": 139.42591,
+        "country": "JP",
+        "region": "Kanagawa"
+    },
+    {
+        "spot_date": "2014/05/02",
+        "id": "1317894675817959424",
+        "links": [
+            "https://www.nicovideo.jp/watch/sm23516240",
+            "https://maps.app.goo.gl/MeLziZVrrc6cXPfK9"
+        ],
+        "report_time": 1734280976,
+        "author": "hellhound#1981",
+        "spot_type": "Gen3",
+        "panoId": "NV6VJNgVU99yTtKzSzDXQA",
+        "lat": 35.02689,
+        "lng": 139.84353,
+        "country": "JP",
+        "region": "Chiba"
     }
 ]

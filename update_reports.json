@@ -147884,34 +147884,6 @@
     },
     {
         "types": [
-            "newregion"
-        ],
-        "report_time": 1734785031,
-        "author": "malguem_qwer",
-        "id": "1320008837583081482",
-        "panoId": "vGLxr8-DFc0QI3CSTgTVpA",
-        "lat": 50.80913,
-        "lng": 16.29497,
-        "date": "Jul 2024",
-        "country": "PL",
-        "region": "Lower Silesian Voivodeship"
-    },
-    {
-        "types": [
-            "newregion"
-        ],
-        "report_time": 1734785031,
-        "author": "malguem_qwer",
-        "id": "1320008837583081482",
-        "panoId": "_CHNagibisMy4AVYihn2Kw",
-        "lat": 50.8315,
-        "lng": 16.47675,
-        "date": "Aug 2024",
-        "country": "PL",
-        "region": "Lower Silesian Voivodeship"
-    },
-    {
-        "types": [
             "gen1update"
         ],
         "report_time": 1734784741,
@@ -147937,5 +147909,696 @@
         "date": "Dec 2024",
         "country": "US",
         "region": "Texas"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion"
+        ],
+        "report_time": 1734800376,
+        "author": "Penguinish",
+        "id": "1320073199320567900",
+        "panoId": "tHEmKUrbUr3ZYMKygLX14g",
+        "lat": 60.87653,
+        "lng": 26.66505,
+        "date": "Jul 2024",
+        "country": "FI",
+        "region": "Kymenlaakso"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734798115,
+        "author": "kallashi!",
+        "id": "1320063717874073630",
+        "panoId": "85Wk3JScrDkuMZCfV8LQLQ",
+        "lat": 43.3282,
+        "lng": -72.81923,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Vermont"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734798115,
+        "author": "kallashi!",
+        "id": "1320063717874073630",
+        "panoId": "5bSYdQ7CZWBqUgfnqEgPaQ",
+        "lat": 43.26632,
+        "lng": -72.85747,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Vermont"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734804315,
+        "author": "malguem_qwer",
+        "id": "1320089720423714889",
+        "panoId": "WaNg5brlO8kH9iyqSxGWqg",
+        "lat": 50.68798,
+        "lng": 16.6375,
+        "date": "Jul 2024",
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newsquare"
+        ],
+        "report_time": 1734812732,
+        "author": "Teksit",
+        "id": "1320125022911594506",
+        "panoId": "O_N8ajhslv8DRss4oWytUg",
+        "lat": 53.71569,
+        "lng": 16.67859,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newsquare"
+        ],
+        "report_time": 1734812732,
+        "author": "Teksit",
+        "id": "1320125022911594506",
+        "panoId": "9fa9SoHN65i0QmGXIh76qw",
+        "lat": 53.71408,
+        "lng": 16.67784,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734822537,
+        "author": "Ryan",
+        "id": "1320166151116034151",
+        "panoId": "2inh3HckuVn77ke952tjEQ",
+        "lat": 34.83283,
+        "lng": -91.62022,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734860447,
+        "author": "juliosalg",
+        "id": "1320325155787898911",
+        "panoId": "1HT9m-fgBB9sXIFuKzNbdA",
+        "lat": -4.8334,
+        "lng": -47.69545,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Maranh\u00e3o"
+    },
+    {
+        "types": [
+            "newsmallcam",
+            "newgen4",
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1734858855,
+        "author": "vegetal",
+        "id": "1320318476321296464",
+        "panoId": "cOzuWnnrJchWlJCuJXV7GA",
+        "lat": 18.02409,
+        "lng": -66.59496,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Ponce"
+    },
+    {
+        "types": [
+            "newsmallcam",
+            "newgen4",
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1734858717,
+        "author": "vegetal",
+        "id": "1320317897247166498",
+        "panoId": "JrPHV28lPp53FUovcICyXg",
+        "lat": 18.44931,
+        "lng": -66.07177,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "San Juan"
+    },
+    {
+        "types": [
+            "newsmallcam",
+            "newgen4",
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1734858622,
+        "author": "vegetal",
+        "id": "1320317501237887018",
+        "panoId": "49cV-YC6ltibD7Dyq_LbQQ",
+        "lat": 18.12782,
+        "lng": -66.07023,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Cayey"
+    },
+    {
+        "types": [
+            "newsmallcam",
+            "newregion",
+            "newgen4",
+            "gen3update",
+            "newyear"
+        ],
+        "report_time": 1734858509,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1320317026094547025",
+        "panoId": "yjH7rdfXgMxtUNjcRhnUTQ",
+        "lat": 18.44322,
+        "lng": -66.41732,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Vega Baja"
+    },
+    {
+        "types": [
+            "newsmallcam",
+            "newgen4",
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1734858439,
+        "author": "vegetal",
+        "id": "1320316731599618099",
+        "panoId": "ObIeKgNBclYCBeZJaJWGLQ",
+        "lat": 18.22043,
+        "lng": -66.06058,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Caguas"
+    },
+    {
+        "types": [
+            "newsmallcam",
+            "newgen4",
+            "newregion",
+            "newtown"
+        ],
+        "report_time": 1734858412,
+        "author": "vegetal",
+        "id": "1320316618416459837",
+        "panoId": "9-mdj6iovPEjsuhj98iLvA",
+        "lat": 18.423,
+        "lng": -65.83542,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Lo\u00edza"
+    },
+    {
+        "types": [
+            "newsmallcam",
+            "newgen4",
+            "newcountry",
+            "gen3update"
+        ],
+        "report_time": 1734858206,
+        "author": "vegetal",
+        "id": "1320315756021416039",
+        "panoId": "itMaJOiRFghni0A7Dsokpg",
+        "lat": 18.27071,
+        "lng": -66.52438,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Ciales"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734863609,
+        "author": "quh",
+        "id": "1320338415991918664",
+        "panoId": "i6sQh788q4Iy6pQ_OzTSjg",
+        "lat": 40.11464,
+        "lng": -0.23556,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Valencian Community"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1734863609,
+        "author": "quh",
+        "id": "1320338415991918664",
+        "panoId": "IkngMeQTb2YNUrw1M_zSXA",
+        "lat": 40.00806,
+        "lng": -0.28245,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Valencian Community"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734863609,
+        "author": "quh",
+        "id": "1320338415991918664",
+        "panoId": "zBUw2lRpAHXvfFddqH6w0g",
+        "lat": 40.28011,
+        "lng": -0.05182,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Valencian Community"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1734862326,
+        "author": "Sora",
+        "id": "1320333034939224128",
+        "panoId": "lCww8g4nt_QXxnGpjlKkXg",
+        "lat": -33.87085,
+        "lng": 151.20244,
+        "date": "Sep 2024",
+        "country": "AU",
+        "region": "New South Wales"
+    },
+    {
+        "types": [
+            "newtrekker",
+            "gen3update"
+        ],
+        "report_time": 1734862326,
+        "author": "Sora",
+        "id": "1320333034939224128",
+        "panoId": "CdlSu8IZJw-Jdy5U0MYNAQ",
+        "lat": -37.81944,
+        "lng": 144.96516,
+        "date": "Aug 2024",
+        "country": "AU",
+        "region": "Victoria"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1734862326,
+        "author": "Sora",
+        "id": "1320333034939224128",
+        "panoId": "Y7BbxRs5s8E9xSDQ0xTT1w",
+        "lat": -37.82899,
+        "lng": 144.98818,
+        "date": "Sep 2024",
+        "country": "AU",
+        "region": "Victoria"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734861125,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1320327998158667786",
+        "panoId": "a8ig5ME_XsGQnaA16UjwmA",
+        "lat": 18.46828,
+        "lng": -66.11678,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "San Juan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734644951,
+        "author": "DeSlagen",
+        "id": "1319421298262409336",
+        "panoId": "V-zox86sZULuFU4_TdJI7A",
+        "lat": 37.83186,
+        "lng": 22.87971,
+        "date": "Nov 2024",
+        "country": "GR",
+        "region": "Western Greece and the Ionian"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734644951,
+        "author": "DeSlagen",
+        "id": "1319421298262409336",
+        "panoId": "m9025TYfdJ9vlKceQ8KEzw",
+        "lat": 37.80598,
+        "lng": 22.86275,
+        "date": "Nov 2024",
+        "country": "GR",
+        "region": "Western Greece and the Ionian"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734644951,
+        "author": "DeSlagen",
+        "id": "1319421298262409336",
+        "panoId": "J1cQDMjOWSovR5XnodDC7w",
+        "lat": 37.80145,
+        "lng": 22.76613,
+        "date": "Nov 2024",
+        "country": "GR",
+        "region": "Western Greece and the Ionian"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734644951,
+        "author": "DeSlagen",
+        "id": "1319421298262409336",
+        "panoId": "q06NqG47Vc3csUE6cUrk8A",
+        "lat": 37.85305,
+        "lng": 22.61582,
+        "date": "Nov 2024",
+        "country": "GR",
+        "region": "Western Greece and the Ionian"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734644951,
+        "author": "DeSlagen",
+        "id": "1319421298262409336",
+        "panoId": "VSvswdBlZTqhMgAzC010Rg",
+        "lat": 37.86237,
+        "lng": 22.75429,
+        "date": "Nov 2024",
+        "country": "GR",
+        "region": "Western Greece and the Ionian"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734644951,
+        "author": "DeSlagen",
+        "id": "1319421298262409336",
+        "panoId": "PODjjbOkcgDpdq6EX1a7JA",
+        "lat": 37.87766,
+        "lng": 22.76656,
+        "date": "Nov 2024",
+        "country": "GR",
+        "region": "Western Greece and the Ionian"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1734618585,
+        "author": "DeSlagen",
+        "id": "1319310712627138705",
+        "panoId": "0ETG99LbVw3f3mNVSfhNlg",
+        "lat": 41.21027,
+        "lng": -8.56028,
+        "date": "Oct 2024",
+        "country": "PT",
+        "region": "Porto District"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734564814,
+        "author": "kallashi!",
+        "id": "1319085181050683483",
+        "panoId": "cIVDskw-E3hNGIkTSHuWtg",
+        "lat": 43.8766,
+        "lng": -69.93376,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Maine"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734564814,
+        "author": "kallashi!",
+        "id": "1319085181050683483",
+        "panoId": "osIkUwprd9d4SHe1D1pwCg",
+        "lat": 43.85419,
+        "lng": -69.99149,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Maine"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1734468211,
+        "author": "DeSlagen",
+        "id": "1318679998416294008",
+        "panoId": "u0TFvS-4Z57b2j3PJhWrSQ",
+        "lat": 50.37671,
+        "lng": -5.11496,
+        "date": "Nov 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1734468211,
+        "author": "DeSlagen",
+        "id": "1318679998416294008",
+        "panoId": "sMVDtRy5PEd76ms1XEfHrQ",
+        "lat": 50.38783,
+        "lng": -5.14124,
+        "date": "Nov 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1734468211,
+        "author": "DeSlagen",
+        "id": "1318679998416294008",
+        "panoId": "1rsTW3qkkV9wYJ5fcftlfw",
+        "lat": 50.37761,
+        "lng": -5.12915,
+        "date": "Nov 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1734468211,
+        "author": "DeSlagen",
+        "id": "1318679998416294008",
+        "panoId": "iGvvvwsGcIbNrKSohc_kjA",
+        "lat": 50.4032,
+        "lng": -5.13071,
+        "date": "Nov 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1734468211,
+        "author": "DeSlagen",
+        "id": "1318679998416294008",
+        "panoId": "tCdVwxFq8i-5aVPQ57qn-Q",
+        "lat": 50.36628,
+        "lng": -5.0293,
+        "date": "Nov 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1734468211,
+        "author": "DeSlagen",
+        "id": "1318679998416294008",
+        "panoId": "ffwNpcUz4lYWlVSXC3BkRw",
+        "lat": 50.10836,
+        "lng": -5.61215,
+        "date": "Nov 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1734462559,
+        "author": "DeSlagen",
+        "id": "1318656292163813428",
+        "panoId": "NFPNHK_wWcSdhYIzxod8oA",
+        "lat": 52.77084,
+        "lng": -1.2135,
+        "date": "Jun 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1734462559,
+        "author": "DeSlagen",
+        "id": "1318656292163813428",
+        "panoId": "KBcBmdOgGzXjtScBQzKY8Q",
+        "lat": 53.23321,
+        "lng": -1.42616,
+        "date": "Jul 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1734524008,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1318914027887394827",
+        "panoId": "VDABJw1tmG5uu8vDgL5IZQ",
+        "lat": 8.17659,
+        "lng": 9.7367,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Taraba"
+    },
+    {
+        "types": [
+            "newarea",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1734520998,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1318901404575858698",
+        "panoId": "MDj3GJ1ncAe2BFybwRmpSA",
+        "lat": 7.82533,
+        "lng": 9.24154,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Taraba"
+    },
+    {
+        "types": [
+            "newarea",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1734428655,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1318514088803827723",
+        "panoId": "j4CHtX2Weoh1IkVr_Yj5iA",
+        "lat": 7.48613,
+        "lng": 9.23686,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Benue"
+    },
+    {
+        "types": [
+            "newtown",
+            "newyear",
+            "newroad"
+        ],
+        "report_time": 1734428548,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1318513637601710132",
+        "panoId": "yGZUfzINBE6sit1nwwDzmw",
+        "lat": 7.71198,
+        "lng": 10.03492,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Taraba"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1734424787,
+        "author": "DerZiggi",
+        "id": "1318497864275460137",
+        "panoId": "xCuBVqnMDbDp_3iW4aCoXA",
+        "lat": 7.44552,
+        "lng": 9.94418,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Taraba"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad",
+            "newsquare"
+        ],
+        "report_time": 1734868224,
+        "author": "Tobetelogi",
+        "id": "1320357775179780108",
+        "panoId": "BaxE2tJyHHHSSYAsfFV4FQ",
+        "lat": 18.1286,
+        "lng": -66.13965,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Cayey"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1734867940,
+        "author": "quh",
+        "id": "1320356584911667252",
+        "panoId": "LmQnVhLbjOzMX1shDkqH4g",
+        "lat": 18.42482,
+        "lng": -66.06406,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "San Juan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734866389,
+        "author": "Rob",
+        "id": "1320350079285989437",
+        "panoId": "VEfK_BhIKQJHNQoKzgggCg",
+        "lat": 45.46533,
+        "lng": 25.228,
+        "date": "Jul 2024",
+        "country": "RO",
+        "region": "Arge\u0219"
     }
 ]

@@ -13176,6 +13176,20 @@
                 "date": "Nov 2024",
                 "country": "IT",
                 "region": "Apulia"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734556784,
+                "author": "Tobetelogi",
+                "id": "1319051499732471819",
+                "panoId": "liwmMl0F4kjne9VAuz2MwQ",
+                "lat": 40.44293,
+                "lng": 16.87776,
+                "date": "Dec 2024",
+                "country": "IT",
+                "region": "Apulia"
             }
         },
         "Sicilia": {},
@@ -13238,6 +13252,20 @@
                 "date": "Nov 2024",
                 "country": "IT",
                 "altitude": 683.85,
+                "region": "Basilicata"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734550759,
+                "author": "Steve",
+                "id": "1319026228644282390",
+                "panoId": "K4sFO8m7NqbGwyKw6iMMeg",
+                "lat": 40.45142,
+                "lng": 16.7645,
+                "date": "Dec 2024",
+                "country": "IT",
                 "region": "Basilicata"
             }
         },
@@ -20491,17 +20519,17 @@
             },
             "Dec": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newcountry",
+                    "newregion"
                 ],
-                "report_time": 1706440494,
-                "author": "frefromwig",
-                "panoId": "aCn1ZSTSlyd3iuzIwTFnsA",
-                "lat": -21.19917,
-                "lng": -45.68599,
-                "date": "Dec 2023",
+                "report_time": 1734558042,
+                "author": "Tobetelogi",
+                "id": "1319056776976404481",
+                "panoId": "67aE9k0Rq43UT-zboZ80XA",
+                "lat": -18.65857,
+                "lng": -44.11741,
+                "date": "Dec 2024",
                 "country": "BR",
-                "altitude": 958.65,
                 "region": "State of Minas Gerais"
             },
             "Oct": {
@@ -21325,17 +21353,16 @@
             },
             "Nov": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1707580602,
-                "author": "Melting Ice",
-                "panoId": "iqBxSjO1HXvgo8vD3cZpVQ",
-                "lat": -9.27038,
-                "lng": -36.43254,
-                "date": "Nov 2023",
+                "report_time": 1734557489,
+                "author": "Steve",
+                "id": "1319054456972640327",
+                "panoId": "ap231OcRIKFi1YvEPFN5UA",
+                "lat": -9.34436,
+                "lng": -38.02364,
+                "date": "Nov 2024",
                 "country": "BR",
-                "altitude": 501.01,
                 "region": "State of Alagoas"
             },
             "Oct": {
@@ -21587,6 +21614,20 @@
                 "date": "Oct 2024",
                 "country": "BR",
                 "altitude": 874.25,
+                "region": "Federal District"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734558993,
+                "author": "Tobetelogi",
+                "id": "1319060767492018326",
+                "panoId": "tWxNxO-3qkYxa_N3NjT45g",
+                "lat": -15.57947,
+                "lng": -47.39776,
+                "date": "Nov 2024",
+                "country": "BR",
                 "region": "Federal District"
             }
         },
@@ -22238,6 +22279,20 @@
                 "country": "BR",
                 "altitude": 439.36,
                 "region": "State of Paran\u00e1"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734557489,
+                "author": "Steve",
+                "id": "1319054456972640327",
+                "panoId": "Huj1bATZOMV8EglLfVBNsQ",
+                "lat": -25.26139,
+                "lng": -50.00391,
+                "date": "Nov 2024",
+                "country": "BR",
+                "region": "State of Paran\u00e1"
             }
         },
         "State of Amazonas": {
@@ -22489,6 +22544,20 @@
                 "country": "BR",
                 "altitude": 202.78,
                 "region": "State of Sergipe"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734556924,
+                "author": "Tobetelogi",
+                "id": "1319052087702720513",
+                "panoId": "JLLrUg33_iS3jb5WfCLEvg",
+                "lat": -10.82714,
+                "lng": -37.56875,
+                "date": "Nov 2024",
+                "country": "BR",
+                "region": "State of Sergipe"
             }
         },
         "Alagoas": {
@@ -22576,6 +22645,21 @@
                 "date": "Dec 2023",
                 "country": "AU",
                 "altitude": 14.07,
+                "region": "Western Australia"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734516795,
+                "author": "Alok",
+                "id": "1318883773621866551",
+                "panoId": "1roBUMSIrMFcjAkYI69nTA",
+                "lat": -28.63406,
+                "lng": 122.41681,
+                "date": "Nov 2024",
+                "country": "AU",
                 "region": "Western Australia"
             }
         },
@@ -25746,6 +25830,20 @@
                 "country": "ES",
                 "altitude": 1106.84,
                 "region": "Community of Madrid"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734704713,
+                "author": "jpeters",
+                "id": "1319671959512027240",
+                "panoId": "oQE9KC_KP2LLuZcw-pcOww",
+                "lat": 40.3659,
+                "lng": -3.66166,
+                "date": "Dec 2024",
+                "country": "ES",
+                "region": "Community of Madrid"
             }
         },
         "Castile-La Mancha": {
@@ -25865,6 +25963,20 @@
                 "country": "ES",
                 "region": "Castile-La Mancha",
                 "altitude": 695.84
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734704560,
+                "author": "jpeters",
+                "id": "1319671316600852491",
+                "panoId": "ZGwk7pkYPOzYAI0fyhQ56g",
+                "lat": 40.02857,
+                "lng": -3.03705,
+                "date": "Dec 2024",
+                "country": "ES",
+                "region": "Castile-La Mancha"
             }
         },
         "Comunidad de Madrid": {},
@@ -30895,6 +31007,20 @@
                 "date": "Oct 2024",
                 "country": "GR",
                 "altitude": 317.51,
+                "region": "Decentralized Administration of Thessaly and Central Greece"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734637660,
+                "author": "Steve",
+                "id": "1319390719928176791",
+                "panoId": "b24RIlsQtSgjgMe6QtRt1A",
+                "lat": 39.3383,
+                "lng": 22.93852,
+                "date": "Nov 2024",
+                "country": "GR",
                 "region": "Decentralized Administration of Thessaly and Central Greece"
             }
         },
@@ -41647,6 +41773,35 @@
                 "country": "KE",
                 "altitude": 1538.01,
                 "region": "Machakos County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734596793,
+                "author": "Alok",
+                "id": "1319219309133824062",
+                "panoId": "aZpUQKeYNDVqzRgB0Uhpqw",
+                "lat": -1.73444,
+                "lng": 37.13434,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Machakos County"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "BECafHJkXuasK0D1ly4pqw",
+                "lat": -1.284,
+                "lng": 37.09574,
+                "date": "Sep 2024",
+                "country": "KE",
+                "region": "Machakos County"
             }
         },
         "Kitui County": {
@@ -41677,6 +41832,20 @@
                 "country": "KE",
                 "altitude": 702.37,
                 "region": "Kitui County"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734624705,
+                "author": "Tobetelogi",
+                "id": "1319336382551953480",
+                "panoId": "itKzW2IJxVKo90-Gzadz5g",
+                "lat": -0.40625,
+                "lng": 37.98618,
+                "date": "Sep 2024",
+                "country": "KE",
+                "region": "Kitui County"
             }
         },
         "Tharaka-Nithi County": {
@@ -41695,6 +41864,21 @@
                 "country": "KE",
                 "altitude": 1419.83,
                 "region": "Tharaka-Nithi County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "-eiTo69lTK1UnVwboqNJ6A",
+                "lat": -0.3342,
+                "lng": 37.71048,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Tharaka-Nithi County"
             }
         },
         "Nairobi County": {
@@ -41711,6 +41895,35 @@
                 "date": "Aug 2024",
                 "country": "KE",
                 "altitude": 1614.62,
+                "region": "Nairobi County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "lLJWZM4cONWuH8L0FChXIA",
+                "lat": -1.35563,
+                "lng": 36.73291,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Nairobi County"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734625749,
+                "author": "Tobetelogi",
+                "id": "1319340762059505754",
+                "panoId": "BVS-dGa12HUqO_r7a20Mgw",
+                "lat": -1.22742,
+                "lng": 37.0567,
+                "date": "Sep 2024",
+                "country": "KE",
                 "region": "Nairobi County"
             }
         },
@@ -41741,6 +41954,35 @@
                 "date": "May 2024",
                 "country": "KE",
                 "altitude": 1039.07,
+                "region": "Makueni County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734570444,
+                "author": "Steve",
+                "id": "1319108792977330176",
+                "panoId": "xYRmsIPSZ38eAQDdKwADqQ",
+                "lat": -1.71129,
+                "lng": 37.32709,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Makueni County"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734635949,
+                "author": "Tobetelogi",
+                "id": "1319383540839743578",
+                "panoId": "eIoQyjQGqawSrvMEha10nw",
+                "lat": -1.53926,
+                "lng": 37.37605,
+                "date": "Sep 2024",
+                "country": "KE",
                 "region": "Makueni County"
             }
         },
@@ -41893,6 +42135,21 @@
                 "country": "KE",
                 "altitude": 1540.65,
                 "region": "Kajiado County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734570712,
+                "author": "HoustonMediaHD",
+                "id": "1319109920775475322",
+                "panoId": "Z4X-XeH6pdOUKjBL4azO3g",
+                "lat": -1.40229,
+                "lng": 36.82736,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Kajiado County"
             }
         },
         "Embu County": {
@@ -41908,6 +42165,20 @@
                 "date": "Jul 2024",
                 "country": "KE",
                 "altitude": 1301.56,
+                "region": "Embu County"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "kOt2V_GuuC9g1XKIY5PE7Q",
+                "lat": -0.41993,
+                "lng": 37.85175,
+                "date": "Sep 2024",
+                "country": "KE",
                 "region": "Embu County"
             }
         },
@@ -42065,6 +42336,20 @@
                 "country": "KE",
                 "altitude": 1152.92,
                 "region": "Busia County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734635738,
+                "author": "Tobetelogi",
+                "id": "1319382657943212053",
+                "panoId": "FV12FlEbO9Do_5RFfT_lVw",
+                "lat": 0.54473,
+                "lng": 34.37448,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Busia County"
             }
         },
         "Narok County": {
@@ -42158,6 +42443,20 @@
                 "country": "KE",
                 "altitude": 2265.45,
                 "region": "Kiambu County"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "IE-DwU5beMp7W-Jka9M4BA",
+                "lat": -1.05861,
+                "lng": 37.25874,
+                "date": "Sep 2024",
+                "country": "KE",
+                "region": "Kiambu County"
             }
         },
         "Nyahururu": {
@@ -42203,6 +42502,34 @@
                 "date": "Jul 2024",
                 "country": "KE",
                 "altitude": 1820.94,
+                "region": "Nyeri County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "s-gyvSOIKB6v04o3V1V4YA",
+                "lat": -0.56116,
+                "lng": 36.87012,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Nyeri County"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "rvTZazaGeiAP-csESKCb-Q",
+                "lat": -0.24513,
+                "lng": 36.74632,
+                "date": "Nov 2024",
+                "country": "KE",
                 "region": "Nyeri County"
             }
         },
@@ -42281,6 +42608,20 @@
                 "country": "KE",
                 "altitude": 1409.11,
                 "region": "Kisumu County"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734653717,
+                "author": "DeSlagen",
+                "id": "1319458067422642366",
+                "panoId": "BqACdeGFre3Wr_j_lcWWjw",
+                "lat": 0.01251,
+                "lng": 34.81024,
+                "date": "Nov 2024",
+                "country": "KE",
+                "region": "Kisumu County"
             }
         },
         "Laikipia County": {
@@ -42310,6 +42651,34 @@
                 "date": "Apr 2024",
                 "country": "KE",
                 "altitude": 2127.4,
+                "region": "Laikipia County"
+            },
+            "Oct": {
+                "types": [
+                    "newcountry"
+                ],
+                "report_time": 1734568973,
+                "author": "HoustonMediaHD",
+                "id": "1319102626574372864",
+                "panoId": "rlPp3o9lJZjascwA5kgSgg",
+                "lat": -0.22347,
+                "lng": 36.86268,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Laikipia County"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "iGfILdUBxhPHUD2W00CRRQ",
+                "lat": -0.20568,
+                "lng": 36.84723,
+                "date": "Nov 2024",
+                "country": "KE",
                 "region": "Laikipia County"
             }
         },
@@ -42416,6 +42785,34 @@
                 "country": "KE",
                 "altitude": 1472.72,
                 "region": "Muranga County"
+            },
+            "Sep": {
+                "types": [
+                    "newcountry"
+                ],
+                "report_time": 1734568503,
+                "author": "Steve",
+                "id": "1319100651682271326",
+                "panoId": "YXf4CzYBNO4eODYHMCEIvw",
+                "lat": -0.91949,
+                "lng": 37.24143,
+                "date": "Sep 2024",
+                "country": "KE",
+                "region": "Muranga County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734636155,
+                "author": "Tobetelogi",
+                "id": "1319384406460338266",
+                "panoId": "3uaI8yuIEYE3pZphisJ27w",
+                "lat": -0.59446,
+                "lng": 36.95169,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Muranga County"
             }
         },
         "Nakuru County": {
@@ -42507,6 +42904,36 @@
                 "country": "KE",
                 "altitude": 1905.02,
                 "region": "Kakamega County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734597156,
+                "author": "Alok",
+                "id": "1319220832316166207",
+                "panoId": "UdQgLfBBPm69wAWbwat7qA",
+                "lat": 0.44323,
+                "lng": 34.55717,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Kakamega County"
+            },
+            "Nov": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1734568458,
+                "author": "JHK",
+                "id": "1319100464427438141",
+                "panoId": "6a96CL-2EB2wHIKfgOxzPw",
+                "lat": 0.29942,
+                "lng": 34.5212,
+                "date": "Nov 2024",
+                "country": "KE",
+                "region": "Kakamega County"
             }
         },
         "Uasin Gishu County": {
@@ -42569,6 +42996,20 @@
                 "country": "KE",
                 "altitude": 1619.76,
                 "region": "Bungoma County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "es4gHqugoG5YiF2UTfjq_Q",
+                "lat": 0.47957,
+                "lng": 34.52632,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Bungoma County"
             }
         },
         "Vihiga County": {
@@ -42585,6 +43026,34 @@
                 "date": "Jun 2024",
                 "country": "KE",
                 "altitude": 1554.55,
+                "region": "Vihiga County"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "lEA2ArBQ3FkthsplGM2pRg",
+                "lat": 0.12834,
+                "lng": 34.86093,
+                "date": "Nov 2024",
+                "country": "KE",
+                "region": "Vihiga County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734625255,
+                "author": "Tobetelogi",
+                "id": "1319338689930989642",
+                "panoId": "DIirZgTYRUS8nYNJgCMkkA",
+                "lat": 0.11031,
+                "lng": 34.69673,
+                "date": "Oct 2024",
+                "country": "KE",
                 "region": "Vihiga County"
             }
         },
@@ -42733,6 +43202,36 @@
                 "country": "KE",
                 "altitude": 408.55,
                 "region": "Kwale County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734596793,
+                "author": "Alok",
+                "id": "1319219309133824062",
+                "panoId": "IhyLKopp6e0-xpTgY7d_Ew",
+                "lat": -4.58571,
+                "lng": 39.22343,
+                "date": "Oct 2024",
+                "country": "KE",
+                "region": "Kwale County"
+            },
+            "Nov": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "_wV0qjjOWEyjWnmBEOX8vQ",
+                "lat": -4.18711,
+                "lng": 39.48442,
+                "date": "Nov 2024",
+                "country": "KE",
+                "region": "Kwale County"
             }
         },
         "Masese - Kiptagich Rd": {},
@@ -42750,6 +43249,37 @@
                 "date": "Mar 2023",
                 "country": "KE",
                 "altitude": 1947.87,
+                "region": "Nandi County"
+            },
+            "Nov": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734576948,
+                "author": "Steve",
+                "id": "1319136075070832731",
+                "panoId": "IgBfH_iJ_OZx1LFfJ-tu0w",
+                "lat": 0.21231,
+                "lng": 34.96414,
+                "date": "Nov 2024",
+                "country": "KE",
+                "region": "Nandi County"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734653460,
+                "author": "DeSlagen",
+                "id": "1319456989637513246",
+                "panoId": "TYUQtRxMsiZfMdrALeEMxQ",
+                "lat": 0.20785,
+                "lng": 34.97932,
+                "date": "Oct 2024",
+                "country": "KE",
                 "region": "Nandi County"
             }
         },
@@ -44727,15 +45257,16 @@
             },
             "Oct": {
                 "types": [
+                    "newyear",
                     "newregion"
                 ],
-                "report_time": 1734032311,
-                "author": "DeSlagen",
-                "id": "1316851700149260340",
-                "panoId": "6kefxZtl38RxGPPeWZ3ZeA",
-                "lat": 50.47257,
-                "lng": 17.96189,
-                "date": "Oct 2023",
+                "report_time": 1734640117,
+                "author": "Steve",
+                "id": "1319401022782836910",
+                "panoId": "BhT-a5Kg8XzmCmewNm2lAA",
+                "lat": 50.90302,
+                "lng": 18.43462,
+                "date": "Oct 2024",
                 "country": "PL",
                 "region": "Opole Voivodeship"
             },
@@ -45781,6 +46312,21 @@
                 "date": "May 2023",
                 "country": "FI",
                 "altitude": 24.96,
+                "region": "Kymenlaakso"
+            },
+            "Jul": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1734800376,
+                "author": "Penguinish",
+                "id": "1320073199320567900",
+                "panoId": "tHEmKUrbUr3ZYMKygLX14g",
+                "lat": 60.87653,
+                "lng": 26.66505,
+                "date": "Jul 2024",
+                "country": "FI",
                 "region": "Kymenlaakso"
             }
         },
@@ -48785,6 +49331,22 @@
                 "country": "NG",
                 "region": "Kwara"
             }
+        },
+        "Taraba": {
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734424787,
+                "author": "DerZiggi",
+                "id": "1318497864275460137",
+                "panoId": "xCuBVqnMDbDp_3iW4aCoXA",
+                "lat": 7.44552,
+                "lng": 9.94418,
+                "date": "Nov 2024",
+                "country": "NG",
+                "region": "Taraba"
+            }
         }
     },
     "LB": {
@@ -48984,7 +49546,8 @@
         "Novosibirsk Oblast": {},
         "Omsk Oblast": {},
         "Tomsk Oblast": {},
-        "Amur Oblast": {}
+        "Amur Oblast": {},
+        "Yamalo-Nenets Autonomous Okrug": {}
     },
     "ME": {
         "Budva Municipality": {},
@@ -49026,7 +49589,140 @@
         "Distrito Nacional": {}
     },
     "PR": {
-        "San Juan": {}
+        "San Juan": {
+            "Dec": {
+                "types": [
+                    "newsmallcam",
+                    "newgen4",
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734858717,
+                "author": "vegetal",
+                "id": "1320317897247166498",
+                "panoId": "JrPHV28lPp53FUovcICyXg",
+                "lat": 18.44931,
+                "lng": -66.07177,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "San Juan"
+            }
+        },
+        "Ponce": {
+            "Dec": {
+                "types": [
+                    "newsmallcam",
+                    "newgen4",
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734858855,
+                "author": "vegetal",
+                "id": "1320318476321296464",
+                "panoId": "cOzuWnnrJchWlJCuJXV7GA",
+                "lat": 18.02409,
+                "lng": -66.59496,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Ponce"
+            }
+        },
+        "Cayey": {
+            "Dec": {
+                "types": [
+                    "newsmallcam",
+                    "newgen4",
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734858622,
+                "author": "vegetal",
+                "id": "1320317501237887018",
+                "panoId": "49cV-YC6ltibD7Dyq_LbQQ",
+                "lat": 18.12782,
+                "lng": -66.07023,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Cayey"
+            }
+        },
+        "Vega Baja": {
+            "Dec": {
+                "types": [
+                    "newsmallcam",
+                    "newregion",
+                    "newgen4",
+                    "gen3update",
+                    "newyear"
+                ],
+                "report_time": 1734858509,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1320317026094547025",
+                "panoId": "yjH7rdfXgMxtUNjcRhnUTQ",
+                "lat": 18.44322,
+                "lng": -66.41732,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Vega Baja"
+            }
+        },
+        "Caguas": {
+            "Dec": {
+                "types": [
+                    "newsmallcam",
+                    "newgen4",
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1734858439,
+                "author": "vegetal",
+                "id": "1320316731599618099",
+                "panoId": "ObIeKgNBclYCBeZJaJWGLQ",
+                "lat": 18.22043,
+                "lng": -66.06058,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Caguas"
+            }
+        },
+        "Lo\u00edza": {
+            "Dec": {
+                "types": [
+                    "newsmallcam",
+                    "newgen4",
+                    "newregion",
+                    "newtown"
+                ],
+                "report_time": 1734858412,
+                "author": "vegetal",
+                "id": "1320316618416459837",
+                "panoId": "9-mdj6iovPEjsuhj98iLvA",
+                "lat": 18.423,
+                "lng": -65.83542,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Lo\u00edza"
+            }
+        },
+        "Ciales": {
+            "Dec": {
+                "types": [
+                    "newsmallcam",
+                    "newgen4",
+                    "newcountry",
+                    "gen3update"
+                ],
+                "report_time": 1734858206,
+                "author": "vegetal",
+                "id": "1320315756021416039",
+                "panoId": "itMaJOiRFghni0A7Dsokpg",
+                "lat": 18.27071,
+                "lng": -66.52438,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Ciales"
+            }
+        }
     },
     "RE": {
         "Saint-Denis": {}
