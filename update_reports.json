@@ -148844,5 +148844,191 @@
         "date": "Dec 2024",
         "country": "FR",
         "region": "Occitanie"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1734922422,
+        "author": "Henrique",
+        "id": "1320585097031712828",
+        "panoId": "WI9qSOFZRxby1Uc1eXUrXw",
+        "lat": 18.20124,
+        "lng": -66.08949,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Caguas"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1734940898,
+        "author": "Tobetelogi",
+        "id": "1320662589524414496",
+        "panoId": "ywyGelt2ECXd_DxqkmgR7g",
+        "lat": 18.21146,
+        "lng": -66.14987,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Cidra"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1734946506,
+        "author": "Redpork",
+        "id": "1320686112305582090",
+        "panoId": "ZOt6gwUM7L0mxZSQ5P2wOw",
+        "lat": 53.84299,
+        "lng": -100.46151,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1734945865,
+        "author": "Tobetelogi",
+        "id": "1320683425778368594",
+        "panoId": "liOBN5FrVW2vZ6JaCtVv7A",
+        "lat": 18.47011,
+        "lng": -66.45085,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Manat\u00ed"
+    },
+    {
+        "types": [
+            "newarea"
+        ],
+        "report_time": 1734945829,
+        "author": "JHK",
+        "id": "1320683271440437300",
+        "panoId": "gBCZRw4g-sOohAnewuJ9xg",
+        "lat": 55.15824,
+        "lng": -102.8767,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad",
+            "ariupdate"
+        ],
+        "report_time": 1734955571,
+        "author": "Tobetelogi",
+        "id": "1320724134652678175",
+        "panoId": "LfthdXk4cU9YNONqsnVkUg",
+        "lat": 18.13832,
+        "lng": -66.11719,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Cayey"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1734955490,
+        "author": "Tobetelogi",
+        "id": "1320723796071682130",
+        "panoId": "bL1rb4SEe-6OxnDaCEnnFw",
+        "lat": 18.17451,
+        "lng": -66.01647,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "San Lorenzo"
+    },
+    {
+        "types": [
+            "ariupdate",
+            "gen3update"
+        ],
+        "report_time": 1734954076,
+        "author": "Penguinish",
+        "id": "1320717862553387058",
+        "panoId": "NctTl6lRYe3uLEd1q3Vs7g",
+        "lat": 67.10881,
+        "lng": 27.51509,
+        "date": "Sep 2023",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1734960157,
+        "author": "Tobetelogi",
+        "id": "1320743368627720232",
+        "panoId": "fhtgEd_CJoLtZXvFZvMWZg",
+        "lat": 18.24882,
+        "lng": -66.082,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Aguas Buenas"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734956181,
+        "author": "Alex*",
+        "id": "1320726693220057260",
+        "panoId": "pC54alnL8GKRMgXRa6ZPIg",
+        "lat": 67.27953,
+        "lng": 25.8971,
+        "date": "Sep 2024",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1734964205,
+        "author": "Jac_00b",
+        "id": "1320760349091303468",
+        "panoId": "Gnqohooky3iCMsTq2jdGUQ",
+        "lat": 53.96691,
+        "lng": -101.2161,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1734963123,
+        "author": "Jac_00b",
+        "id": "1320755808837046302",
+        "panoId": "O8lnKtBCwoTBzvZeSZtt1g",
+        "lat": 54.80589,
+        "lng": -101.82763,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
     }
 ]

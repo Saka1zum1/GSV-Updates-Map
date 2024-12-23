@@ -49673,6 +49673,22 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "Cayey"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newroad",
+                    "ariupdate"
+                ],
+                "report_time": 1734955571,
+                "author": "Tobetelogi",
+                "id": "1320724134652678175",
+                "panoId": "LfthdXk4cU9YNONqsnVkUg",
+                "lat": 18.13832,
+                "lng": -66.11719,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "Cayey"
             }
         },
         "Vega Baja": {
@@ -49710,6 +49726,22 @@
                 "lat": 18.22043,
                 "lng": -66.06058,
                 "date": "Dec 2024",
+                "country": "PR",
+                "region": "Caguas"
+            },
+            "Nov": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734922422,
+                "author": "Henrique",
+                "id": "1320585097031712828",
+                "panoId": "WI9qSOFZRxby1Uc1eXUrXw",
+                "lat": 18.20124,
+                "lng": -66.08949,
+                "date": "Nov 2024",
                 "country": "PR",
                 "region": "Caguas"
             }
@@ -49783,6 +49815,82 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "R\u00edo Grande"
+            }
+        },
+        "Cidra": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1734940898,
+                "author": "Tobetelogi",
+                "id": "1320662589524414496",
+                "panoId": "ywyGelt2ECXd_DxqkmgR7g",
+                "lat": 18.21146,
+                "lng": -66.14987,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "Cidra"
+            }
+        },
+        "Manat\u00ed": {
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1734945865,
+                "author": "Tobetelogi",
+                "id": "1320683425778368594",
+                "panoId": "liOBN5FrVW2vZ6JaCtVv7A",
+                "lat": 18.47011,
+                "lng": -66.45085,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Manat\u00ed"
+            }
+        },
+        "San Lorenzo": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1734955490,
+                "author": "Tobetelogi",
+                "id": "1320723796071682130",
+                "panoId": "bL1rb4SEe-6OxnDaCEnnFw",
+                "lat": 18.17451,
+                "lng": -66.01647,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "San Lorenzo"
+            }
+        },
+        "Aguas Buenas": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1734960157,
+                "author": "Tobetelogi",
+                "id": "1320743368627720232",
+                "panoId": "fhtgEd_CJoLtZXvFZvMWZg",
+                "lat": 18.24882,
+                "lng": -66.082,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "Aguas Buenas"
             }
         }
     },

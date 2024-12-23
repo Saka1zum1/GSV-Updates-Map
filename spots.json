@@ -30129,5 +30129,21 @@
         "lng": 139.84353,
         "country": "JP",
         "region": "Chiba"
+    },
+    {
+        "spot_date": "2024/12/20",
+        "id": "1320639024570044466",
+        "links": [
+            "https://www.youtube.com/watch?v=YC-K6Nsec2w",
+            "https://maps.app.goo.gl/LD6XuQjF7PEy4FKL7"
+        ],
+        "report_time": 1734935279,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "4mgf8Ki_nz2FtWmdOxq43w",
+        "lat": -34.19299,
+        "lng": -60.71115,
+        "country": "AR",
+        "region": "Buenos Aires Province"
     }
 ]
