@@ -25311,6 +25311,21 @@
                 "country": "FR",
                 "altitude": 169.95,
                 "region": "Occitanie"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734905402,
+                "author": "DarkShadow MH,ER,MC",
+                "id": "1320513709272989727",
+                "panoId": "q4GBHSeX2nSkuUMO75V2VA",
+                "lat": 42.74424,
+                "lng": 2.61492,
+                "date": "Dec 2024",
+                "country": "FR",
+                "region": "Occitanie"
             }
         },
         "Corsica": {
@@ -37058,6 +37073,20 @@
                 "lat": 21.06336,
                 "lng": -86.92574,
                 "date": "Oct 2024",
+                "country": "MX",
+                "region": "Quintana Roo"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734878865,
+                "author": "Alok",
+                "id": "1320402406345015368",
+                "panoId": "Mk9I2CRV_DnJ-1iTOw4FdA",
+                "lat": 20.64566,
+                "lng": -87.63183,
+                "date": "Sep 2024",
                 "country": "MX",
                 "region": "Quintana Roo"
             }
@@ -49721,6 +49750,39 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "Ciales"
+            }
+        },
+        "Luquillo": {
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734889900,
+                "author": "mpk",
+                "id": "1320448688442834995",
+                "panoId": "fZWkt1WCJmiI41ZzbSYAnQ",
+                "lat": 18.32165,
+                "lng": -65.74631,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Luquillo"
+            }
+        },
+        "R\u00edo Grande": {
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1734889350,
+                "author": "JustEmilo",
+                "id": "1320446385044062229",
+                "panoId": "XZfT8UgE0KfF9eoBOohDgg",
+                "lat": 18.32673,
+                "lng": -65.7539,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "R\u00edo Grande"
             }
         }
     },
