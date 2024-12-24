@@ -149479,8 +149479,6 @@
     {
         "types": [
             "newregion",
-            "newsmallcam",
-            "newgen4",
             "newroad"
         ],
         "report_time": 1735028945,
@@ -149513,8 +149511,6 @@
     {
         "types": [
             "newregion",
-            "newsmallcam",
-            "newgen4",
             "newroad"
         ],
         "report_time": 1735028945,
@@ -149764,5 +149760,145 @@
         "date": "Dec 2024",
         "country": "PR",
         "region": "Las Piedras"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735047063,
+        "author": "Jaki\u015b Bartu\u015b",
+        "id": "1321107881613070397",
+        "panoId": "Xvq7XGgSQqjDXl4H9jU22w",
+        "lat": 52.43949,
+        "lng": 20.64217,
+        "date": "Oct 2024",
+        "country": "PL",
+        "region": "Masovian Voivodeship"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1735055509,
+        "author": "DeSlagen",
+        "id": "1321143304074821652",
+        "panoId": "WGQIZd8fwBgfv4fE82pbRQ",
+        "lat": 37.63895,
+        "lng": -6.73874,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Andalusia"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1735055278,
+        "author": "DeSlagen",
+        "id": "1321142336427790376",
+        "panoId": "xelsp88FYyy-3_oUb6BxLw",
+        "lat": 39.5198,
+        "lng": -1.75176,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Castile-La Mancha"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735052598,
+        "author": "GraemeC89",
+        "id": "1321131094845820948",
+        "panoId": "28lP4P4Pku1Av57zie_C7g",
+        "lat": 35.53694,
+        "lng": -92.6135,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735056185,
+        "author": "DeSlagen",
+        "id": "1321146138555973735",
+        "panoId": "qjvxwvsRDjqeBX76mgJRww",
+        "lat": 40.52944,
+        "lng": 17.32082,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Apulia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735056020,
+        "author": "DeSlagen",
+        "id": "1321145447196131389",
+        "panoId": "avkIB_3C91K_auhIh-gBTA",
+        "lat": 39.95762,
+        "lng": 16.60513,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Calabria"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735055860,
+        "author": "DeSlagen",
+        "id": "1321144775344390166",
+        "panoId": "FYZhMfg0hy-WodDDiA5cKw",
+        "lat": 38.02916,
+        "lng": 15.92486,
+        "date": "Nov 2024",
+        "country": "IT",
+        "region": "Calabria"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1735055777,
+        "author": "DeSlagen",
+        "id": "1321144429360185445",
+        "panoId": "mDBvUCPyvwYIIkihxN0NmA",
+        "lat": 43.6408,
+        "lng": 1.0302,
+        "date": "Nov 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735055716,
+        "author": "DeSlagen",
+        "id": "1321144171570135040",
+        "panoId": "Wzud9WJTdRS6unytR0a41g",
+        "lat": 43.65576,
+        "lng": 0.73584,
+        "date": "Nov 2024",
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1735055571,
+        "author": "DeSlagen",
+        "id": "1321143563471425627",
+        "panoId": "DOI6BtR9EpmzfcWOB4rC_Q",
+        "lat": 37.61129,
+        "lng": -6.6782,
+        "date": "Dec 2024",
+        "country": "ES",
+        "region": "Andalusia"
     }
 ]
