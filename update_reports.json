@@ -149426,5 +149426,343 @@
         "date": "Jun 2024",
         "country": "PL",
         "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1735010728,
+        "author": "Jac_00b",
+        "id": "1320955480897617941",
+        "panoId": "SV3VJM7VxNrEKFMblpaniA",
+        "lat": 52.49316,
+        "lng": -109.71229,
+        "date": "May 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "ariupdate"
+        ],
+        "report_time": 1735028945,
+        "author": "JustEmilo",
+        "id": "1321031886600011776",
+        "panoId": "DX443_DuT7TC6dm-j4lcmw",
+        "lat": 18.22945,
+        "lng": -65.86165,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Las Piedras"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1735028945,
+        "author": "JustEmilo",
+        "id": "1321031886600011776",
+        "panoId": "d8O0nAOlx2EwWS0qdrJobg",
+        "lat": 18.25375,
+        "lng": -65.89503,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Juncos"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1735028945,
+        "author": "JustEmilo",
+        "id": "1321031886600011776",
+        "panoId": "IL6XVo4t5CKW-FTrLPUCdQ",
+        "lat": 18.21769,
+        "lng": -65.91543,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Juncos"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1735028945,
+        "author": "JustEmilo",
+        "id": "1321031886600011776",
+        "panoId": "c173NyUWi1tCKItkQrcB8w",
+        "lat": 18.27026,
+        "lng": -65.9496,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Gurabo"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1735028945,
+        "author": "JustEmilo",
+        "id": "1321031886600011776",
+        "panoId": "2shbGxdY0AIR6GBwT8g3fA",
+        "lat": 18.16654,
+        "lng": -65.94142,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "San Lorenzo"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1735033381,
+        "author": "Tobetelogi",
+        "id": "1321050491077132328",
+        "panoId": "56x4_vupeaVLkazy30fSHA",
+        "lat": 18.21092,
+        "lng": -66.18088,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Comer\u00edo"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1735033311,
+        "author": "Tobetelogi",
+        "id": "1321050197568127046",
+        "panoId": "I2G4aVQaZ-13XDxmP7J4Qg",
+        "lat": 18.31079,
+        "lng": -66.0362,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Trujillo Alto"
+    },
+    {
+        "types": [
+            "newregion",
+            "newsmallcam",
+            "newgen4",
+            "newroad"
+        ],
+        "report_time": 1735033254,
+        "author": "Tobetelogi",
+        "id": "1321049959935774732",
+        "panoId": "KduDBBSDIJlRyiHOoWdf-A",
+        "lat": 18.27644,
+        "lng": -65.92356,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "Carolina"
+    },
+    {
+        "types": [
+            "newroad",
+            "ariupdate"
+        ],
+        "report_time": 1735033148,
+        "author": "JOTA133",
+        "id": "1321049517889687603",
+        "panoId": "h6T9SrZY5itYtJGcfAbj6A",
+        "lat": 18.1756,
+        "lng": -66.16129,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Cidra"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735032577,
+        "author": "Steve",
+        "id": "1321047122963075114",
+        "panoId": "qQVl0-4RJ67MI5nB51Y_8w",
+        "lat": 39.64161,
+        "lng": -75.77561,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Delaware"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735032577,
+        "author": "Steve",
+        "id": "1321047122963075114",
+        "panoId": "_nT6JMNbvu6Y_XTrND7-gQ",
+        "lat": 39.17996,
+        "lng": -77.3551,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Maryland"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735032577,
+        "author": "Steve",
+        "id": "1321047122963075114",
+        "panoId": "SNyW8BkMmGJQBL3o_a7YQw",
+        "lat": 40.73452,
+        "lng": -74.10648,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "New Jersey"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735032577,
+        "author": "Steve",
+        "id": "1321047122963075114",
+        "panoId": "rNqxC__8_ipJezJfmn6UxA",
+        "lat": 36.12034,
+        "lng": -85.54413,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Tennessee"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735036169,
+        "author": "Steve",
+        "id": "1321062188886003803",
+        "panoId": "de3q9GZrRLp9NYxVEh8tyg",
+        "lat": 47.66361,
+        "lng": -66.63258,
+        "date": "Oct 2024",
+        "country": "CA",
+        "region": "New Brunswick"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newstreet"
+        ],
+        "report_time": 1735034517,
+        "author": "Tobetelogi",
+        "id": "1321055257509498892",
+        "panoId": "NJQLDzQkt7hetX-Zapq7WQ",
+        "lat": 18.25018,
+        "lng": -66.03914,
+        "date": "Oct 2024",
+        "country": "PR",
+        "region": "Caguas"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1735033860,
+        "author": "Tobetelogi",
+        "id": "1321052503231434753",
+        "panoId": "JqCAWfSzkqCmuyus5Fogcg",
+        "lat": 18.30546,
+        "lng": -66.07171,
+        "date": "Nov 2024",
+        "country": "PR",
+        "region": "San Juan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735040872,
+        "author": "Jac_00b",
+        "id": "1321081914416697414",
+        "panoId": "tUOuZlk6BeQ_aSoMO2kZ2A",
+        "lat": 54.43852,
+        "lng": -102.16679,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735039364,
+        "author": "Penguinish",
+        "id": "1321075588269740075",
+        "panoId": "vH8khdviPCNLHQBHnnE_ZA",
+        "lat": 60.26829,
+        "lng": 22.22052,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735039127,
+        "author": "Penguinish",
+        "id": "1321074594093862933",
+        "panoId": "2h7nbK-_dRc0DVXgU_ORVw",
+        "lat": 66.67573,
+        "lng": 28.00101,
+        "date": "Sep 2023",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735041546,
+        "author": "mpk",
+        "id": "1321084741180588063",
+        "panoId": "CHaq_JMF0597JCDJeBY_cA",
+        "lat": 51.3006,
+        "lng": 22.59277,
+        "date": "Nov 2023",
+        "country": "PL",
+        "region": "Lublin Voivodeship"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1735041509,
+        "author": "Tobetelogi",
+        "id": "1321084584859009056",
+        "panoId": "aPPfwjbDSMLnxA7xSOypIw",
+        "lat": 18.18129,
+        "lng": -65.88967,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Las Piedras"
     }
 ]

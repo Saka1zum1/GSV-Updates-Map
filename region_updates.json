@@ -8614,6 +8614,20 @@
                 "country": "US",
                 "altitude": 8.85,
                 "region": "Maryland"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735032577,
+                "author": "Steve",
+                "id": "1321047122963075114",
+                "panoId": "_nT6JMNbvu6Y_XTrND7-gQ",
+                "lat": 39.17996,
+                "lng": -77.3551,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Maryland"
             }
         },
         "Iowa": {
@@ -9761,6 +9775,20 @@
                 "country": "US",
                 "altitude": 286.53,
                 "region": "Tennessee"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735032577,
+                "author": "Steve",
+                "id": "1321047122963075114",
+                "panoId": "rNqxC__8_ipJezJfmn6UxA",
+                "lat": 36.12034,
+                "lng": -85.54413,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "Tennessee"
             }
         },
         "Maine": {
@@ -10491,6 +10519,20 @@
                 "country": "US",
                 "altitude": 67.94,
                 "region": "New Jersey"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735032577,
+                "author": "Steve",
+                "id": "1321047122963075114",
+                "panoId": "SNyW8BkMmGJQBL3o_a7YQw",
+                "lat": 40.73452,
+                "lng": -74.10648,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "New Jersey"
             }
         },
         "Nebraska": {
@@ -10699,6 +10741,20 @@
                 "date": "Oct 2024",
                 "country": "US",
                 "altitude": 40.16,
+                "region": "Delaware"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735032577,
+                "author": "Steve",
+                "id": "1321047122963075114",
+                "panoId": "qQVl0-4RJ67MI5nB51Y_8w",
+                "lat": 39.64161,
+                "lng": -75.77561,
+                "date": "Nov 2024",
+                "country": "US",
                 "region": "Delaware"
             }
         },
@@ -46072,6 +46128,21 @@
                 "date": "Aug 2024",
                 "country": "PL",
                 "region": "Lublin Voivodeship"
+            },
+            "Nov": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1735041546,
+                "author": "mpk",
+                "id": "1321084741180588063",
+                "panoId": "CHaq_JMF0597JCDJeBY_cA",
+                "lat": 51.3006,
+                "lng": 22.59277,
+                "date": "Nov 2023",
+                "country": "PL",
+                "region": "Lublin Voivodeship"
             }
         },
         "Lower Silesia Voivodeship": {},
@@ -49649,6 +49720,21 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "San Juan"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1735033860,
+                "author": "Tobetelogi",
+                "id": "1321052503231434753",
+                "panoId": "JqCAWfSzkqCmuyus5Fogcg",
+                "lat": 18.30546,
+                "lng": -66.07171,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "San Juan"
             }
         },
         "Ponce": {
@@ -49756,6 +49842,21 @@
                 "lat": 18.20124,
                 "lng": -66.08949,
                 "date": "Nov 2024",
+                "country": "PR",
+                "region": "Caguas"
+            },
+            "Oct": {
+                "types": [
+                    "newcountry",
+                    "newstreet"
+                ],
+                "report_time": 1735034517,
+                "author": "Tobetelogi",
+                "id": "1321055257509498892",
+                "panoId": "NJQLDzQkt7hetX-Zapq7WQ",
+                "lat": 18.25018,
+                "lng": -66.03914,
+                "date": "Oct 2024",
                 "country": "PR",
                 "region": "Caguas"
             }
@@ -49886,6 +49987,23 @@
                 "date": "Nov 2024",
                 "country": "PR",
                 "region": "San Lorenzo"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1735028945,
+                "author": "JustEmilo",
+                "id": "1321031886600011776",
+                "panoId": "2shbGxdY0AIR6GBwT8g3fA",
+                "lat": 18.16654,
+                "lng": -65.94142,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "San Lorenzo"
             }
         },
         "Aguas Buenas": {
@@ -49905,6 +50023,152 @@
                 "date": "Nov 2024",
                 "country": "PR",
                 "region": "Aguas Buenas"
+            }
+        },
+        "Las Piedras": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "ariupdate"
+                ],
+                "report_time": 1735028945,
+                "author": "JustEmilo",
+                "id": "1321031886600011776",
+                "panoId": "DX443_DuT7TC6dm-j4lcmw",
+                "lat": 18.22945,
+                "lng": -65.86165,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "Las Piedras"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1735041509,
+                "author": "Tobetelogi",
+                "id": "1321084584859009056",
+                "panoId": "aPPfwjbDSMLnxA7xSOypIw",
+                "lat": 18.18129,
+                "lng": -65.88967,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Las Piedras"
+            }
+        },
+        "Juncos": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1735028945,
+                "author": "JustEmilo",
+                "id": "1321031886600011776",
+                "panoId": "d8O0nAOlx2EwWS0qdrJobg",
+                "lat": 18.25375,
+                "lng": -65.89503,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "Juncos"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1735028945,
+                "author": "JustEmilo",
+                "id": "1321031886600011776",
+                "panoId": "IL6XVo4t5CKW-FTrLPUCdQ",
+                "lat": 18.21769,
+                "lng": -65.91543,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Juncos"
+            }
+        },
+        "Gurabo": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1735028945,
+                "author": "JustEmilo",
+                "id": "1321031886600011776",
+                "panoId": "c173NyUWi1tCKItkQrcB8w",
+                "lat": 18.27026,
+                "lng": -65.9496,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "Gurabo"
+            }
+        },
+        "Comer\u00edo": {
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1735033381,
+                "author": "Tobetelogi",
+                "id": "1321050491077132328",
+                "panoId": "56x4_vupeaVLkazy30fSHA",
+                "lat": 18.21092,
+                "lng": -66.18088,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Comer\u00edo"
+            }
+        },
+        "Trujillo Alto": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1735033311,
+                "author": "Tobetelogi",
+                "id": "1321050197568127046",
+                "panoId": "I2G4aVQaZ-13XDxmP7J4Qg",
+                "lat": 18.31079,
+                "lng": -66.0362,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "Trujillo Alto"
+            }
+        },
+        "Carolina": {
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam",
+                    "newgen4",
+                    "newroad"
+                ],
+                "report_time": 1735033254,
+                "author": "Tobetelogi",
+                "id": "1321049959935774732",
+                "panoId": "KduDBBSDIJlRyiHOoWdf-A",
+                "lat": 18.27644,
+                "lng": -65.92356,
+                "date": "Nov 2024",
+                "country": "PR",
+                "region": "Carolina"
             }
         }
     },
