@@ -15358,6 +15358,20 @@
                 "country": "CA",
                 "altitude": 284.46,
                 "region": "Qu\u00e9bec"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734988337,
+                "author": "Frost",
+                "id": "1320861563443351634",
+                "panoId": "02pipax_vYkuu6DyF1goAg",
+                "lat": 46.01777,
+                "lng": -71.97098,
+                "date": "Nov 2024",
+                "country": "CA",
+                "region": "Quebec"
             }
         },
         "Saskatchewan": {
@@ -45405,16 +45419,16 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "ariupdate"
+                    "newroad"
                 ],
-                "report_time": 1721078991,
-                "author": "DeSlagen",
-                "panoId": "fkUHV3OmenWHsTUj7i3oCQ",
-                "lat": 53.88086,
-                "lng": 14.2204,
-                "date": "Apr 2023",
+                "report_time": 1734995141,
+                "author": "Jaki\u015b Bartu\u015b",
+                "id": "1320890103870128178",
+                "panoId": "B1aqLCNU7Js_PW2y2QsT2g",
+                "lat": 53.38771,
+                "lng": 16.31073,
+                "date": "Apr 2024",
                 "country": "PL",
-                "altitude": 5.6,
                 "region": "West Pomeranian Voivodeship"
             },
             "Mar": {
