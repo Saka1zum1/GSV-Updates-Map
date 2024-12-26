@@ -30145,5 +30145,69 @@
         "lng": -60.71115,
         "country": "AR",
         "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2024/12/24",
+        "id": "1321102392426758205",
+        "links": [
+            "https://x.com/mamedaifukusanz/status/1871349228007813267?t=HCEIbiIa8IxSNpYgZnvxfA&s=19",
+            "https://www.google.com/maps/@35.693817,139.701,3a,75.0y,22.556946h,89.04672t/data=!3m4!1e1!3m2!1sNQzH6xXLRx67W5JrR6dwsg!2e0"
+        ],
+        "report_time": 1735045755,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "NQzH6xXLRx67W5JrR6dwsg",
+        "lat": 35.69383,
+        "lng": 139.70101,
+        "country": "JP",
+        "region": "Tokyo"
+    },
+    {
+        "spot_date": "2024/12/25",
+        "id": "1321453177412915230",
+        "links": [
+            "https://www.tiktok.com/@sitinjaulauikreels/video/7452151788624432389?is_from_webapp=1&sender_device=pc&web_id=7274582088686306817",
+            "https://maps.app.goo.gl/CK2Vo8BALJH5UJB18"
+        ],
+        "report_time": 1735129388,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "He-HtWSAb9SAlKXqizgeEg",
+        "lat": -0.95194,
+        "lng": 100.50401,
+        "country": "ID",
+        "region": "West Sumatra"
+    },
+    {
+        "spot_date": "2024/12/15",
+        "id": "1321466816488538123",
+        "links": [
+            "https://www.instagram.com/p/DDmAUofRkeX/?igsh=NTc4MTIwNjQ2YQ==",
+            "https://maps.app.goo.gl/LR5BJhW8aBk6QkPh8"
+        ],
+        "report_time": 1735132640,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "T7tO1sjI7h-VAwz3SjOgXA",
+        "lat": 33.59481,
+        "lng": 130.39705,
+        "country": "JP",
+        "region": "Fukuoka"
+    },
+    {
+        "spot_date": "2024/12/24",
+        "id": "1321464716832542720",
+        "links": [
+            "https://www.facebook.com/share/p/18UNyntzwu/",
+            "https://maps.app.goo.gl/z2pUN58CgfNbouxA7"
+        ],
+        "report_time": 1735132140,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "KOQbLOrKl5dLzthqXcyzwg",
+        "lat": 36.05912,
+        "lng": -79.40032,
+        "country": "US",
+        "region": "North Carolina"
     }
 ]

@@ -149970,5 +149970,221 @@
         "date": "Dec 2024",
         "country": "IN",
         "region": "Maharashtra"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735127601,
+        "author": "wojciechhd",
+        "id": "1321445680941760573",
+        "panoId": "NUeZS-V6coQcCozE1A-EZw",
+        "lat": 50.90227,
+        "lng": 20.65735,
+        "date": "Jul 2024",
+        "country": "PL",
+        "region": "\u015awi\u0119tokrzyskie Voivodeship"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1735129336,
+        "author": "Tobetelogi",
+        "id": "1321452957597696000",
+        "panoId": "8XsYYk0UCaJWPbvmIHx-FA",
+        "lat": 36.01634,
+        "lng": -77.56983,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "North Carolina"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735129283,
+        "author": "Tobetelogi",
+        "id": "1321452735106912256",
+        "panoId": "bddPgKVFhWu3DSbAWe00jQ",
+        "lat": 33.84602,
+        "lng": 136.00666,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Mie"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735138978,
+        "author": "malguem_qwer",
+        "id": "1321493399534174279",
+        "panoId": "gTmR4Nd0raoax2esTeDzGQ",
+        "lat": 50.79469,
+        "lng": 16.38943,
+        "date": "Apr 2024",
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735138978,
+        "author": "malguem_qwer",
+        "id": "1321493399534174279",
+        "panoId": "RYEoP6UiYaQ2DD1YyoshMQ",
+        "lat": 50.79457,
+        "lng": 16.28214,
+        "date": "Jun 2024",
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735139368,
+        "author": "insomnia",
+        "id": "1321495036860305509",
+        "panoId": "Ys_pATigVsuD4edOWDumUA",
+        "lat": 18.26633,
+        "lng": -66.52168,
+        "date": "Dec 2024",
+        "country": "PR",
+        "region": "Ciales"
+    },
+    {
+        "types": [
+            "newtown",
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735152750,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1321551163958628352",
+        "panoId": "cLbq6IdBs6zlRZ1mI2nv_g",
+        "lat": 54.21339,
+        "lng": -100.62069,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735152608,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1321550568056946698",
+        "panoId": "1tx3-Xxt0E5NBzDrSKdf0g",
+        "lat": 53.70459,
+        "lng": -100.3124,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735151984,
+        "author": "HoustonMediaHD",
+        "id": "1321547952216608838",
+        "panoId": "S93bFM9GhLoAsfkLxoyE9A",
+        "lat": 35.78469,
+        "lng": -78.43262,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "North Carolina"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735160419,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1321583327207231508",
+        "panoId": "Q413O7TfxPhBzVYI3nNbDw",
+        "lat": 47.39757,
+        "lng": -66.51174,
+        "date": "Oct 2024",
+        "country": "CA",
+        "region": "New Brunswick"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735159477,
+        "author": "Jac_00b",
+        "id": "1321579378211029022",
+        "panoId": "YsN7znsDmWPiRMFuQBP4Dg",
+        "lat": 54.26648,
+        "lng": -101.75341,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735160419,
+        "author": "Larissa Santos-de Oliveira",
+        "id": "1321583327207231508",
+        "panoId": "ExOgLAJGfALqxRQqF3WcpQ",
+        "lat": 47.39747,
+        "lng": -66.51203,
+        "date": "Oct 2024",
+        "country": "CA",
+        "region": "New Brunswick"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735167233,
+        "author": "Ynnarski",
+        "id": "1321611909312544818",
+        "panoId": "oSid3y6e89xfAHdvYigxwg",
+        "lat": 53.60856,
+        "lng": 19.26362,
+        "date": "Sep 2024",
+        "country": "PL",
+        "region": "Warmian-Masurian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735166832,
+        "author": "GreatAmadeus",
+        "id": "1321610225538564107",
+        "panoId": "Vhm6QHrFi-Wc855dE8rT5Q",
+        "lat": 54.23348,
+        "lng": 23.07239,
+        "date": "Jun 2024",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1735170364,
+        "author": "binger",
+        "id": "1321625041443487837",
+        "panoId": "J_-gt8H-6ITb8F-ml39EYA",
+        "lat": 51.03527,
+        "lng": 21.05989,
+        "date": "Oct 2024",
+        "country": "PL",
+        "region": "\u015awi\u0119tokrzyskie Voivodeship"
     }
 ]
