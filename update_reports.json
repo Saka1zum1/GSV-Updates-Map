@@ -150698,5 +150698,161 @@
         "date": "Jun 2024",
         "country": "PL",
         "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1735217603,
+        "author": "wojciechhd",
+        "id": "1321823175012519946",
+        "panoId": "l533qu2gWXvpRTZGEcE9-g",
+        "lat": 50.78903,
+        "lng": 20.61122,
+        "date": "Apr 2024",
+        "country": "PL",
+        "region": "\u015awi\u0119tokrzyskie Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735217594,
+        "author": "Tobetelogi",
+        "id": "1321823138429927456",
+        "panoId": "PI8LpdiwgIfWMWpO0lVQSA",
+        "lat": 32.15825,
+        "lng": 131.03497,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Miyazaki"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735217322,
+        "author": "Tobetelogi",
+        "id": "1321821998275629077",
+        "panoId": "dUOJNCBqI2wKu_jXN4peUQ",
+        "lat": -36.32229,
+        "lng": 140.88883,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "South Australia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735217093,
+        "author": "Alok",
+        "id": "1321821037897453630",
+        "panoId": "Tfx7b_e0ApPZUWfSt4V6GQ",
+        "lat": -8.66505,
+        "lng": -75.10953,
+        "date": "Apr 2024",
+        "country": "PE",
+        "region": "Ucayali"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735218821,
+        "author": "Alok",
+        "id": "1321828283125600277",
+        "panoId": "6UlbLejft0t0NuTZA9UjXw",
+        "lat": 67.67737,
+        "lng": 25.2115,
+        "date": "Sep 2024",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735236301,
+        "author": "jolly maxim",
+        "id": "1321901601702678538",
+        "panoId": "DFfKX4ZmOYtbFl3Hxfa5Nw",
+        "lat": 50.03888,
+        "lng": 18.39484,
+        "date": "Jul 2023",
+        "country": "PL",
+        "region": "Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735235785,
+        "author": "._.",
+        "id": "1321899437689409607",
+        "panoId": "qdGNu33LuJNzOS5o3iQslA",
+        "lat": 50.9106,
+        "lng": 21.39894,
+        "date": "Aug 2024",
+        "country": "PL",
+        "region": "\u015awi\u0119tokrzyskie Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735240899,
+        "author": "Tobetelogi",
+        "id": "1321920888039411815",
+        "panoId": "AaLvv2XZa5_4bxMtsLtzcg",
+        "lat": 35.34802,
+        "lng": 140.38841,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Chiba"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735247238,
+        "author": "HoustonMediaHD",
+        "id": "1321947475283808317",
+        "panoId": "6b7FNnJ-38iQfkrEod_KCg",
+        "lat": 40.29429,
+        "lng": -79.67694,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Pennsylvania"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1735246476,
+        "author": "Tobetelogi",
+        "id": "1321944278171123795",
+        "panoId": "WcSmoARZVxHBzLTyD8OXGA",
+        "lat": -13.30233,
+        "lng": -76.25293,
+        "date": "Oct 2024",
+        "country": "PE",
+        "region": "Lima Region"
+    },
+    {
+        "types": [
+            "new_brunswick",
+            "gen3update"
+        ],
+        "report_time": 1735250046,
+        "author": "Frost",
+        "id": "1321959251253395537",
+        "panoId": "h21b94oVSzbqdkFX8z8i5Q",
+        "lat": 47.33779,
+        "lng": -65.03641,
+        "date": "Oct 2024",
+        "country": "CA",
+        "region": "New Brunswick"
     }
 ]
