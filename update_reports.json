@@ -150854,5 +150854,121 @@
         "date": "Oct 2024",
         "country": "CA",
         "region": "New Brunswick"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735288385,
+        "author": "WaveBoy",
+        "id": "1322120056238248010",
+        "panoId": "tg4WWge3RdjkwOI_tqxuvQ",
+        "lat": 31.61837,
+        "lng": -93.17069,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735287144,
+        "author": "Alok",
+        "id": "1322114852688363552",
+        "panoId": "yNtJIen0NJRS6uM-39IxHg",
+        "lat": 54.80483,
+        "lng": -101.46315,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735287144,
+        "author": "Alok",
+        "id": "1322114852688363552",
+        "panoId": "h2E1KBcL8z-2PqmN7gCyfQ",
+        "lat": 55.23059,
+        "lng": -102.78299,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735287144,
+        "author": "Alok",
+        "id": "1322114852688363552",
+        "panoId": "tNio5ukHIDRfL1fbkLkiGQ",
+        "lat": 54.6673,
+        "lng": -101.66734,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735287144,
+        "author": "Alok",
+        "id": "1322114852688363552",
+        "panoId": "XNgquACznOATe-tYQz_Z8g",
+        "lat": 54.11664,
+        "lng": -99.89832,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735287144,
+        "author": "Alok",
+        "id": "1322114852688363552",
+        "panoId": "09fYLAAOwrtTpvafFp7JAg",
+        "lat": 54.89053,
+        "lng": -102.83098,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1735286540,
+        "author": "Alok",
+        "id": "1322112318900801607",
+        "panoId": "75G9z9Ge7SiHJMDUa55SiQ",
+        "lat": -17.50742,
+        "lng": 140.82276,
+        "date": "Oct 2024",
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "types": [
+            "newroad",
+            "gen1update"
+        ],
+        "report_time": 1735286540,
+        "author": "Alok",
+        "id": "1322112318900801607",
+        "panoId": "-g5yAl1yZ8JUEyH_HBfU5A",
+        "lat": -17.3306,
+        "lng": 141.50105,
+        "date": "Oct 2024",
+        "country": "AU",
+        "region": "Queensland"
     }
 ]
