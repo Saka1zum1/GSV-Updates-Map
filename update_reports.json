@@ -150970,5 +150970,104 @@
         "date": "Oct 2024",
         "country": "AU",
         "region": "Queensland"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735308266,
+        "author": "BurgerwithPeel",
+        "id": "1322203443577884703",
+        "panoId": "AHGVc70NhpuqerZn7CyWoA",
+        "lat": 23.48531,
+        "lng": 55.80481,
+        "date": "Sep 2024",
+        "country": "OM",
+        "region": "Al Buraimi Governorate"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735317239,
+        "author": "._.",
+        "id": "1322241079663136870",
+        "panoId": "2AkB-Fha4yGlBwNZDvIrug",
+        "lat": 50.56284,
+        "lng": 21.16716,
+        "date": "Mar 2024",
+        "country": "PL",
+        "region": "\u015awi\u0119tokrzyskie Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735314370,
+        "author": "Tobetelogi",
+        "id": "1322229047253536798",
+        "panoId": "Z2JTgLxkk7EiCjakn4fgKA",
+        "lat": 34.08423,
+        "lng": 134.60294,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Tokushima"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735326288,
+        "author": "Frost",
+        "id": "1322279033647403029",
+        "panoId": "iyU0Y2AREKHJaG2YgLYXNA",
+        "lat": 54.80328,
+        "lng": -101.46332,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735325610,
+        "author": "Frost",
+        "id": "1322276191490801676",
+        "panoId": "5wRuZa62cZZWaQTjA6Nn_g",
+        "lat": 49.15547,
+        "lng": -123.0515,
+        "date": "Aug 2024",
+        "country": "CA",
+        "region": "British Columbia"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735336790,
+        "author": "Dr.Clive",
+        "id": "1322323083209605162",
+        "panoId": "y79TMp6eCJCH5b2u2nhPug",
+        "lat": 19.61375,
+        "lng": -104.45313,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735373185,
+        "author": "Redpork",
+        "id": "1322475735041970227",
+        "panoId": "k6vCjfeLNyJtr6nkB8EwEA",
+        "lat": 55.01657,
+        "lng": -101.11275,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
     }
 ]

@@ -30209,5 +30209,21 @@
         "lng": -79.40032,
         "country": "US",
         "region": "North Carolina"
+    },
+    {
+        "spot_date": "2024/12/26",
+        "id": "1322189464046538845",
+        "links": [
+            "https://www.tiktok.com/@abbyastrid/video/7452968788007472389",
+            "https://maps.app.goo.gl/6z1WjQEWZWzWkPYb9"
+        ],
+        "report_time": 1735304933,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "4Z5va6x4_8ZBtPVt6yVaag",
+        "lat": 17.96687,
+        "lng": -92.93188,
+        "country": "MX",
+        "region": "Tabasco"
     }
 ]
