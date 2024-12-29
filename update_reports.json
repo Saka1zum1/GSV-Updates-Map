@@ -151595,5 +151595,239 @@
         "date": "Aug 2024",
         "country": "CL",
         "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735465283,
+        "author": "Alok",
+        "id": "1322862022504874046",
+        "panoId": "KTxOVyHiHHDOyVM8mr_Arg",
+        "lat": 55.78472,
+        "lng": -98.90229,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1735465283,
+        "author": "Alok",
+        "id": "1322862022504874046",
+        "panoId": "0q0CuxAEE5JaSpVwcPskIQ",
+        "lat": 55.66142,
+        "lng": -97.92981,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735465283,
+        "author": "Alok",
+        "id": "1322862022504874046",
+        "panoId": "FpTC1_2OSExbVex2Efi0Lw",
+        "lat": 54.44347,
+        "lng": -97.99876,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735465283,
+        "author": "Alok",
+        "id": "1322862022504874046",
+        "panoId": "M5mgsEJDXkqaUXoz-M7OAQ",
+        "lat": 54.54388,
+        "lng": -98.027,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735465283,
+        "author": "Alok",
+        "id": "1322862022504874046",
+        "panoId": "B2MoH2JJYNMKlLPZlZQcEQ",
+        "lat": 54.6305,
+        "lng": -97.77932,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newisland",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735465283,
+        "author": "Alok",
+        "id": "1322862022504874046",
+        "panoId": "E6-eUKoLVj6Y7ofgpeVmlA",
+        "lat": 54.60448,
+        "lng": -97.79103,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735465283,
+        "author": "Alok",
+        "id": "1322862022504874046",
+        "panoId": "PvOuRP1OXnOomZd_4PxD7w",
+        "lat": 54.69224,
+        "lng": -98.83218,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735468756,
+        "author": "Tobetelogi",
+        "id": "1322876588999835681",
+        "panoId": "l-xlLNOxqkn493f9TL5-4A",
+        "lat": -28.93049,
+        "lng": 150.39249,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "New South Wales"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1735472664,
+        "author": "binger",
+        "id": "1322892981266812949",
+        "panoId": "rhzy-i7fXoUCRpXsvt8hnQ",
+        "lat": 54.0723,
+        "lng": 17.73676,
+        "date": "Apr 2024",
+        "country": "PL",
+        "region": "Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735476856,
+        "author": "Jac_00b",
+        "id": "1322910560974536734",
+        "panoId": "W0APCCZxYJvD0vrvv_i3bA",
+        "lat": 53.59704,
+        "lng": -102.11419,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735475289,
+        "author": "Alok",
+        "id": "1322903989087375371",
+        "panoId": "SXNGkTy2O1YbcK-qsjzxhA",
+        "lat": -22.65164,
+        "lng": -68.16741,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735472664,
+        "author": "binger",
+        "id": "1322892981266812949",
+        "panoId": "U7ZFlHzLEsDYJeZI8InxPQ",
+        "lat": 54.17314,
+        "lng": 17.76772,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735479688,
+        "author": "Tobetelogi",
+        "id": "1322922442410295306",
+        "panoId": "xKZTdDuIQscoGoDtgYH0gQ",
+        "lat": -40.86667,
+        "lng": 176.22165,
+        "date": "Nov 2024",
+        "country": "NZ",
+        "region": "Wellington"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1735478646,
+        "author": "Tobetelogi",
+        "id": "1322918070192177233",
+        "panoId": "e2lSIZ6cLNRGf_YaXcpGew",
+        "lat": -41.0422,
+        "lng": 176.04317,
+        "date": "Nov 2024",
+        "country": "NZ",
+        "region": "Wellington"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735476856,
+        "author": "Jac_00b",
+        "id": "1322910560974536734",
+        "panoId": "WSJh0WM7nKzeXckr6Y5W0w",
+        "lat": 53.59779,
+        "lng": -102.11276,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735483563,
+        "author": "snowf",
+        "id": "1322938692041572496",
+        "panoId": "H9CgXGevSvwb1TgRuEFXSQ",
+        "lat": -37.01202,
+        "lng": 174.84526,
+        "date": "Dec 2024",
+        "country": "NZ",
+        "region": "Auckland"
     }
 ]

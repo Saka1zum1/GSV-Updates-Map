@@ -30257,5 +30257,37 @@
         "lng": -39.07518,
         "country": "BR",
         "region": "State of Bahia"
+    },
+    {
+        "spot_date": "2024/12/26",
+        "id": "1322911892225654904",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10161257754146867&set=a.10150416948266867",
+            "https://maps.app.goo.gl/WtTXpf1wdY8uJvuq8"
+        ],
+        "report_time": 1735477173,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "WY9CvEdZ16HCNJOhbfv2TQ",
+        "lat": 32.54177,
+        "lng": -92.62501,
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "spot_date": "2024/12/28",
+        "id": "1322910853372182590",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=994605536020480&set=pcb.994605562687144",
+            "https://maps.app.goo.gl/Qu7NCcBxj56wMK6u8"
+        ],
+        "report_time": 1735476925,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "DePYVIA6Z7lY8TFd5y344g",
+        "lat": 33.97835,
+        "lng": -78.36424,
+        "country": "US",
+        "region": "North Carolina"
     }
 ]
