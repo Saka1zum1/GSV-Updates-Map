@@ -151069,5 +151069,92 @@
         "date": "Sep 2024",
         "country": "CA",
         "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1735401956,
+        "author": "\u8c46\u8c46\u5196",
+        "id": "1322596407755931748",
+        "panoId": "bkg3JG3hjxtL6e-q5g-YbA",
+        "lat": 33.19624,
+        "lng": 132.76512,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Kochi"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735401956,
+        "author": "\u8c46\u8c46\u5196",
+        "id": "1322596407755931748",
+        "panoId": "K6KXvUA2AsBOvNGLsGYblw",
+        "lat": 34.41748,
+        "lng": 132.711,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Hiroshima"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735401956,
+        "author": "\u8c46\u8c46\u5196",
+        "id": "1322596407755931748",
+        "panoId": "TOvosuH-IqYQOQNTkuFEYg",
+        "lat": 34.9794,
+        "lng": 139.06299,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Shizuoka"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735401956,
+        "author": "\u8c46\u8c46\u5196",
+        "id": "1322596407755931748",
+        "panoId": "pbeFZDe9aqXLIutWUXfICA",
+        "lat": 34.27255,
+        "lng": 133.75726,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Kagawa"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735419229,
+        "author": "Frost",
+        "id": "1322668855163621518",
+        "panoId": "qmM42dwM38IHDTL3r3zoqA",
+        "lat": 55.49057,
+        "lng": -102.33609,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea"
+        ],
+        "report_time": 1735419717,
+        "author": "Dr.Clive",
+        "id": "1322670904316006451",
+        "panoId": "4EhoaCKlyWp5GuDO8QtQww",
+        "lat": 55.12319,
+        "lng": -101.11115,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
     }
 ]
