@@ -151427,5 +151427,173 @@
         "date": "Aug 2024",
         "country": "CL",
         "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735452947,
+        "author": "chise",
+        "id": "1322810280840921139",
+        "panoId": "BM0NtGCKf7Em3qxF1-FEHQ",
+        "lat": -23.82414,
+        "lng": -67.44076,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735452517,
+        "author": "chise",
+        "id": "1322808478242439254",
+        "panoId": "7nJKuzh-dSt9O25_UNkHug",
+        "lat": -41.39857,
+        "lng": -72.63663,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735452444,
+        "author": "Ryan",
+        "id": "1322808170200039446",
+        "panoId": "jmBukr4PMNOv54LSgSkiIA",
+        "lat": 36.47604,
+        "lng": -93.00655,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735451636,
+        "author": "chise",
+        "id": "1322804781533761589",
+        "panoId": "UBDNF7ACKrQsdoR8xoVfnA",
+        "lat": -41.4051,
+        "lng": -72.6281,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1735457975,
+        "author": "chise",
+        "id": "1322831369402843136",
+        "panoId": "rlBVRtLvizO6fc20PQea-A",
+        "lat": -37.45821,
+        "lng": -72.49906,
+        "date": "Oct 2024",
+        "country": "CL",
+        "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1735457587,
+        "author": "chise",
+        "id": "1322829741081755688",
+        "panoId": "m9QV0xhaEcWMYeUif_Y1CQ",
+        "lat": -41.66357,
+        "lng": -72.30976,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735457558,
+        "author": "chise",
+        "id": "1322829620596445257",
+        "panoId": "jEnUHJO0-hx0JkFgymLh1w",
+        "lat": -41.7177,
+        "lng": -72.44949,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735456946,
+        "author": "Palmerranian",
+        "id": "1322827053606633473",
+        "panoId": "7Vp7MV-Wa5z5dqsbkJgJaA",
+        "lat": -22.65912,
+        "lng": -68.33628,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735456946,
+        "author": "Palmerranian",
+        "id": "1322827053606633473",
+        "panoId": "mAx3j9iYmYJ2dPWLkx7BDw",
+        "lat": -23.00623,
+        "lng": -68.42976,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735462225,
+        "author": "Palmerranian",
+        "id": "1322849196004610153",
+        "panoId": "MgFUEajKkLDFnWAWRxBRYQ",
+        "lat": -38.71554,
+        "lng": -72.56847,
+        "date": "Oct 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735460729,
+        "author": "JHK",
+        "id": "1322842920407273525",
+        "panoId": "nLOhpz7JHwkBqatIxRUuTg",
+        "lat": 39.04476,
+        "lng": -120.48782,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1735459867,
+        "author": "chise",
+        "id": "1322839303742820352",
+        "panoId": "Xu1ocxjczGp4_YiM7e2MPg",
+        "lat": -41.39352,
+        "lng": -73.46344,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
     }
 ]

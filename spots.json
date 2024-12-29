@@ -30225,5 +30225,37 @@
         "lng": -92.93188,
         "country": "MX",
         "region": "Tabasco"
+    },
+    {
+        "spot_date": "2024/12/24",
+        "id": "1322849382546018335",
+        "links": [
+            "https://www.instagram.com/reel/DD_lNVWBKnm/?igsh=NTc4MTIwNjQ2YQ==",
+            "https://maps.app.goo.gl/ntvxbQwo5YBoVto57"
+        ],
+        "report_time": 1735462270,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "WG0a403vq1HF_r6a5mR_fg",
+        "lat": 35.66086,
+        "lng": 139.69854,
+        "country": "JP",
+        "region": "Tokyo"
+    },
+    {
+        "spot_date": "2024/12/28",
+        "id": "1322847750206787585",
+        "links": [
+            "https://www.jornalanossavoz.com.br/2024/12/carro-do-google-street-view-volta.html?m=1",
+            "https://maps.app.goo.gl/dQUv5NPwXk4ngL436"
+        ],
+        "report_time": 1735461880,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "WqvgQ8DnQBY_PM4QI-z5Dw",
+        "lat": -11.5312,
+        "lng": -39.07518,
+        "country": "BR",
+        "region": "State of Bahia"
     }
 ]
