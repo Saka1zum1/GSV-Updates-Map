@@ -30289,5 +30289,21 @@
         "lng": -78.36424,
         "country": "US",
         "region": "North Carolina"
+    },
+    {
+        "spot_date": "2024/11/17",
+        "id": "1322184912572383273",
+        "links": [
+            "https://vt.tiktok.com/ZS6rsrWPw",
+            "https://maps.app.goo.gl/HcTbrTCiX1uC1rhw9"
+        ],
+        "report_time": 1735303848,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4/H1",
+        "panoId": "eweMDr4LgTuworGK1Cg2rA",
+        "lat": 34.42288,
+        "lng": 135.3233,
+        "country": "JP",
+        "region": "Osaka"
     }
 ]
