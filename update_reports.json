@@ -153137,5 +153137,354 @@
         "date": "Jul 2024",
         "country": "GB",
         "region": "England"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735557687,
+        "author": "DerZiggi",
+        "id": "1323249591151235124",
+        "panoId": "Zw3NTrckTRvxdXc1dUbynQ",
+        "lat": -24.8401,
+        "lng": 151.71079,
+        "date": "Dec 2024",
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735562382,
+        "author": "Tobetelogi",
+        "id": "1323269285312729199",
+        "panoId": "uEi4j9xq6GuAiJn3fi1gfQ",
+        "lat": 54.21064,
+        "lng": -97.58168,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newarea",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735562193,
+        "author": "Alok",
+        "id": "1323268489494003794",
+        "panoId": "fTv69dMZc7Jf93wrecpTyQ",
+        "lat": 56.53945,
+        "lng": -94.08684,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735562193,
+        "author": "Alok",
+        "id": "1323268489494003794",
+        "panoId": "ZJRqexFog3IMUcXeruc9vw",
+        "lat": 56.3952,
+        "lng": -94.36824,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735562193,
+        "author": "Alok",
+        "id": "1323268489494003794",
+        "panoId": "xHn0FhFyx5nOr9cM8678WQ",
+        "lat": 56.34727,
+        "lng": -94.7018,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1735560643,
+        "author": "DerZiggi",
+        "id": "1323261992135561287",
+        "panoId": "mz5px6Qwx681eJHq2r-yKQ",
+        "lat": -38.3133,
+        "lng": 143.7268,
+        "date": "Dec 2024",
+        "country": "AU",
+        "region": "Victoria"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735558594,
+        "author": "Tobetelogi",
+        "id": "1323253397201096715",
+        "panoId": "N8YIbOJxh9LVP7s2bxvUlQ",
+        "lat": -24.73602,
+        "lng": 151.50286,
+        "date": "Dec 2024",
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735507353,
+        "author": "DeSlagen",
+        "id": "1323038476383555727",
+        "panoId": "lyI56VXPcW2CJwNyHNqljA",
+        "lat": 49.77668,
+        "lng": 21.27319,
+        "date": "Oct 2024",
+        "country": "PL",
+        "region": "Podkarpackie Voivodeship"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1735570861,
+        "author": "Palmerranian",
+        "id": "1323304848757887026",
+        "panoId": "3O_mSAzISRPx01cB1xmxNg",
+        "lat": -23.40723,
+        "lng": -67.96079,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735570139,
+        "author": "Palmerranian",
+        "id": "1323301820172599369",
+        "panoId": "NyvFa7QriL9S75r8PXvpJg",
+        "lat": -22.7819,
+        "lng": -68.08035,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735569134,
+        "author": "mpk",
+        "id": "1323297604267675771",
+        "panoId": "C3BDEW0TGqrlko7XhZqZgQ",
+        "lat": -41.6483,
+        "lng": -72.16889,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735568146,
+        "author": "snowf",
+        "id": "1323293459045679124",
+        "panoId": "abQsW3HYc5vXQQlk2KVB-Q",
+        "lat": 14.97596,
+        "lng": 120.97203,
+        "date": "Dec 2024",
+        "country": "PH",
+        "region": "Central Luzon"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735568146,
+        "author": "snowf",
+        "id": "1323293459045679124",
+        "panoId": "hdG8CRkc9a-n5mzeA4li7w",
+        "lat": 10.2489,
+        "lng": 123.94527,
+        "date": "Nov 2024",
+        "country": "PH",
+        "region": "Central Visayas"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735567653,
+        "author": "Tobetelogi",
+        "id": "1323291392495190026",
+        "panoId": "o5Gwcl3dfPBVVLnn1tkg6A",
+        "lat": -25.25212,
+        "lng": 151.44388,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735566966,
+        "author": "snowf",
+        "id": "1323288509569699850",
+        "panoId": "164qSVR5T7_LAkK6DSQkbg",
+        "lat": 24.80475,
+        "lng": 121.16571,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Hsinchu County"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735566966,
+        "author": "snowf",
+        "id": "1323288509569699850",
+        "panoId": "rmlE0hAa2tFVJ7WMpUo-7g",
+        "lat": 22.90826,
+        "lng": 120.22584,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Kaohsiung City"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735566966,
+        "author": "snowf",
+        "id": "1323288509569699850",
+        "panoId": "EcdyW5cWBp82aQxXhaRpCw",
+        "lat": 22.91787,
+        "lng": 120.22023,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Tainan City"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735566966,
+        "author": "snowf",
+        "id": "1323288509569699850",
+        "panoId": "zaCjHrjvsgjsRujGbqJuCQ",
+        "lat": 24.24846,
+        "lng": 120.65044,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Taichung City"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735566966,
+        "author": "snowf",
+        "id": "1323288509569699850",
+        "panoId": "7RR5N0XJD5hdClEecvYV5A",
+        "lat": 24.54536,
+        "lng": 120.74376,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Miaoli County"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735566594,
+        "author": "Alok",
+        "id": "1323286949716430848",
+        "panoId": "nH0XKPp6kFQjp8U1cGDfaw",
+        "lat": -41.39411,
+        "lng": -73.83618,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735566588,
+        "author": "chise",
+        "id": "1323286923879514152",
+        "panoId": "L9WLAT9P-wmaCx8DsafapA",
+        "lat": -22.46618,
+        "lng": -68.92284,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735566370,
+        "author": "Palmerranian",
+        "id": "1323286010720944199",
+        "panoId": "5RbmkbmlRiyARHZq6UNroA",
+        "lat": -42.10778,
+        "lng": -72.46309,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735565733,
+        "author": "Alok",
+        "id": "1323283339406475295",
+        "panoId": "MKSEKXE8ib8nRF22NsI9cQ",
+        "lat": -42.02558,
+        "lng": -72.69129,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735565517,
+        "author": "Palmerranian",
+        "id": "1323282434824998952",
+        "panoId": "Y_ZWk9xMn1Ks56B2Sd9Okw",
+        "lat": -23.78237,
+        "lng": -69.9908,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
     }
 ]
