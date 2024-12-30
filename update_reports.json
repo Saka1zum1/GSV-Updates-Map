@@ -152908,5 +152908,234 @@
         "date": "Dec 2024",
         "country": "US",
         "region": "Georgia"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735517700,
+        "author": "Frost",
+        "id": "1323081873726902353",
+        "panoId": "30OJ_RaF2_-A9i__8OMkIQ",
+        "lat": 54.41724,
+        "lng": -124.33396,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "British Columbia"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1735520569,
+        "author": "chise",
+        "id": "1323093905641574480",
+        "panoId": "I2MvkxlzGj9bmIafQa_JpA",
+        "lat": -41.8,
+        "lng": -72.72057,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735520506,
+        "author": "Franz",
+        "id": "1323093642692526163",
+        "panoId": "CnRhlfX30dVx-hAhH0G15g",
+        "lat": -29.11653,
+        "lng": 150.48255,
+        "date": "Nov 2024",
+        "country": "AU",
+        "region": "New South Wales"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735520353,
+        "author": "Palmerranian",
+        "id": "1323093001588834314",
+        "panoId": "MLzHU9gFpGkCApRonWm89w",
+        "lat": -23.39255,
+        "lng": -68.79328,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newarea"
+        ],
+        "report_time": 1735526846,
+        "author": "JHK",
+        "id": "1323120236488163348",
+        "panoId": "oUtxeVVPA99FRAUq7KOhNw",
+        "lat": 56.31886,
+        "lng": -95.00907,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newarea"
+        ],
+        "report_time": 1735528862,
+        "author": "souvlaki",
+        "id": "1323128690762055731",
+        "panoId": "WKnRrliHqJWLR03fyksOhA",
+        "lat": -24.05352,
+        "lng": -69.8006,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1735531396,
+        "author": "chise",
+        "id": "1323139317857521744",
+        "panoId": "gx1t23Y4HFvPflpAYWjhFA",
+        "lat": -38.70727,
+        "lng": -72.6269,
+        "date": "Oct 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735536010,
+        "author": "Dr.Clive",
+        "id": "1323158673991667852",
+        "panoId": "TPdNQhxdXr3PLLUZWUuWnA",
+        "lat": 54.66175,
+        "lng": -102.08444,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735533709,
+        "author": "1xqd",
+        "id": "1323149021015048274",
+        "panoId": "3n1I-nlbrBv46sOumfRv6g",
+        "lat": -40.73524,
+        "lng": 175.81229,
+        "date": "Nov 2024",
+        "country": "NZ",
+        "region": "Manawat\u016b-Whanganui"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735533588,
+        "author": "chise",
+        "id": "1323148512510083153",
+        "panoId": "autAp9ME0qS-Nh8Tpy68BA",
+        "lat": -23.49043,
+        "lng": -68.29632,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735533305,
+        "author": "chise",
+        "id": "1323147328449937408",
+        "panoId": "_sGY-Rks5OQZVrD89XV0uQ",
+        "lat": -24.46366,
+        "lng": -69.8064,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newarea",
+            "newtown",
+            "newstreet"
+        ],
+        "report_time": 1735531530,
+        "author": "Jac_00b",
+        "id": "1323139883161616457",
+        "panoId": "gD6FYuCE6PnYdRkmFK9rhg",
+        "lat": 56.24406,
+        "lng": -96.09737,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735543178,
+        "author": "chise",
+        "id": "1323188738062417942",
+        "panoId": "4y2VBX3iSvhFil7-hDYPxg",
+        "lat": -22.90036,
+        "lng": -69.31254,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1735546751,
+        "author": "DerZiggi",
+        "id": "1323203721492168765",
+        "panoId": "ggF_Xs5k86sr1kwTgWcmPg",
+        "lat": 11.70997,
+        "lng": 122.36252,
+        "date": "Dec 2024",
+        "country": "PH",
+        "region": "Western Visayas"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735556171,
+        "author": "DeSlagen",
+        "id": "1323243231529668660",
+        "panoId": "HAarj63GiSR2kKJwGNiSaA",
+        "lat": 50.28439,
+        "lng": -3.85941,
+        "date": "Jul 2024",
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735556171,
+        "author": "DeSlagen",
+        "id": "1323243231529668660",
+        "panoId": "8gzINf6JLRrrBCOq8Im6xw",
+        "lat": 50.24301,
+        "lng": -3.81013,
+        "date": "Jul 2024",
+        "country": "GB",
+        "region": "England"
     }
 ]
