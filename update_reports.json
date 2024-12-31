@@ -153614,5 +153614,146 @@
         "date": "Oct 2024",
         "country": "CL",
         "region": "Bio Bio"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1735602083,
+        "author": "TfLfan",
+        "id": "1323435803644264468",
+        "panoId": "8jfl6FEAI8pkla3dowrX9g",
+        "lat": 33.84531,
+        "lng": -84.36858,
+        "date": "Sep 2024",
+        "country": "US",
+        "region": "Georgia"
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1735603944,
+        "author": "HoustonMediaHD",
+        "id": "1323443607692120065",
+        "panoId": "w4WW_-S9FiYmJ_zmRPobqg",
+        "lat": 32.19066,
+        "lng": -80.78158,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "South Carolina"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735610485,
+        "author": "Update Tracker Bot",
+        "id": "1323471041653117040",
+        "panoId": "dWvaknJwaU26i0qv26BZVA",
+        "lat": 23.51973,
+        "lng": 120.48466,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Chiayi County"
+    },
+    {
+        "types": [
+            "newarea"
+        ],
+        "report_time": 1735613735,
+        "author": "TfLfan",
+        "id": "1323484672906367017",
+        "panoId": "RI0N0ge9T1URAT8fjwCGig",
+        "lat": -25.45725,
+        "lng": 147.26574,
+        "date": "Oct 2024",
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "types": [
+            "gen2update"
+        ],
+        "report_time": 1735616448,
+        "author": "Dr.Clive",
+        "id": "1323496054926082069",
+        "panoId": "ox6huoso8PXtkifFWKasYg",
+        "lat": 55.90057,
+        "lng": -98.25343,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735620141,
+        "author": "Palmerranian",
+        "id": "1323511542586544162",
+        "panoId": "2rHrLnvJTroO42VBjKa1zg",
+        "lat": -41.40941,
+        "lng": -72.81748,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735632242,
+        "author": "macca",
+        "id": "1323562297276239993",
+        "panoId": "H3TaOGcvEZscBfVxHa_1mg",
+        "lat": -37.1748,
+        "lng": 140.83744,
+        "date": "Dec 2024",
+        "country": "AU",
+        "region": "South Australia"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735635718,
+        "author": "Update Tracker Bot",
+        "id": "1323576877473992715",
+        "panoId": "CP-461CPbpglyD4EAudjnA",
+        "lat": 23.7746,
+        "lng": 120.65999,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Nantou County"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735639316,
+        "author": "Update Tracker Bot",
+        "id": "1323591968122732614",
+        "panoId": "-F222RlOZYsVOEGQ5D-8Bw",
+        "lat": 23.73796,
+        "lng": 120.59234,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Yunlin County"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735639097,
+        "author": "Alok",
+        "id": "1323591049956032524",
+        "panoId": "-_ISbaM7GuVGbowrDRCKHQ",
+        "lat": 54.96598,
+        "lng": -125.26799,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "British Columbia"
     }
 ]
