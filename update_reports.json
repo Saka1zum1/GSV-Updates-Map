@@ -153486,5 +153486,133 @@
         "date": "Sep 2024",
         "country": "CL",
         "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735576607,
+        "author": "Dr.Clive",
+        "id": "1323328947173462046",
+        "panoId": "6ocQtoQ5gf33W_xGofejgA",
+        "lat": 55.53712,
+        "lng": -102.31395,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735576607,
+        "author": "Dr.Clive",
+        "id": "1323328947173462046",
+        "panoId": "4Aq8_KGZHQ9071Qs9asheg",
+        "lat": 55.52624,
+        "lng": -102.34758,
+        "date": "Sep 2024",
+        "country": "CA",
+        "region": "Saskatchewan"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735580156,
+        "author": "chise",
+        "id": "1323343832489660507",
+        "panoId": "rhizU4fLOYM7RDy4UJBHPw",
+        "lat": -38.69513,
+        "lng": -72.59088,
+        "date": "Oct 2024",
+        "country": "CL",
+        "region": "Araucania"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735585520,
+        "author": "Tobetelogi",
+        "id": "1323366333815193743",
+        "panoId": "Yhs2vRu0pc3GSIiG2i9YOw",
+        "lat": 44.52325,
+        "lng": -89.48309,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Wisconsin"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735586577,
+        "author": "Tobetelogi",
+        "id": "1323370764015243405",
+        "panoId": "HPVxrqSN6Wln0Ge2j8UBZg",
+        "lat": 41.65039,
+        "lng": -89.0612,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Illinois"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735590022,
+        "author": "Dr.Clive",
+        "id": "1323385213660958893",
+        "panoId": "Qyo8WVRq8McxHTKqub049g",
+        "lat": 38.91371,
+        "lng": -77.01825,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "District of Columbia"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735589416,
+        "author": "Tobetelogi",
+        "id": "1323382671069548695",
+        "panoId": "UkBq6uCZ2Zc68QoHOpAGng",
+        "lat": 36.14773,
+        "lng": -115.02926,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Nevada"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735591222,
+        "author": "Tobetelogi",
+        "id": "1323390247324876841",
+        "panoId": "PrdcE5qVzEgE7uRAW-xrmg",
+        "lat": 10.80543,
+        "lng": 122.99554,
+        "date": "Nov 2024",
+        "country": "PH",
+        "region": "Western Visayas"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1735591190,
+        "author": "chise",
+        "id": "1323390112402505819",
+        "panoId": "XzGNIwLp42FFVY1y69MbGQ",
+        "lat": -37.47475,
+        "lng": -72.32452,
+        "date": "Oct 2024",
+        "country": "CL",
+        "region": "Bio Bio"
     }
 ]

@@ -30305,5 +30305,21 @@
         "lng": 135.3233,
         "country": "JP",
         "region": "Osaka"
+    },
+    {
+        "spot_date": "2024/12/30",
+        "id": "1323357877833957477",
+        "links": [
+            "https://www.youtube.com/watch?v=Mup87J7m5s0",
+            "https://maps.app.goo.gl/i1gXfMyDuRAddgUv6"
+        ],
+        "report_time": 1735583504,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "wUTd9Vlio0sTspakS2qZNg",
+        "lat": 17.70241,
+        "lng": 79.16709,
+        "country": "IN",
+        "region": "Telangana"
     }
 ]
