@@ -153755,5 +153755,259 @@
         "date": "Sep 2024",
         "country": "CA",
         "region": "British Columbia"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1735649441,
+        "author": "chise",
+        "id": "1323634438118047784",
+        "panoId": "Mb6iKQtMEBWvib_oodo4aQ",
+        "lat": -22.94535,
+        "lng": -68.18597,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1735651594,
+        "author": "juliosalg",
+        "id": "1323643465522872320",
+        "panoId": "ACei1YIs2yjmyHMEaqizuA",
+        "lat": -41.4119,
+        "lng": -73.28441,
+        "date": "Jul 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1735659538,
+        "author": "chise",
+        "id": "1323676784859938846",
+        "panoId": "NmihtPwzxYAGifgQu_xoIQ",
+        "lat": -23.19075,
+        "lng": -68.00461,
+        "date": "Sep 2024",
+        "country": "CL",
+        "region": "Antofagasta"
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1735670598,
+        "author": "Ryan",
+        "id": "1323723175552487464",
+        "panoId": "tnlJN0olHdaAQYnIqqUEdA",
+        "lat": 34.8619,
+        "lng": -91.60987,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735672832,
+        "author": "Tobetelogi",
+        "id": "1323732546097516604",
+        "panoId": "qyQPwgdSDggDKUOPBXhnFw",
+        "lat": 41.12006,
+        "lng": -74.10077,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "New York"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735676221,
+        "author": "Frost",
+        "id": "1323746759851114607",
+        "panoId": "M_yaAGzXY0MGFamNcp0alg",
+        "lat": 46.09033,
+        "lng": -73.87462,
+        "date": "Oct 2024",
+        "country": "CA",
+        "region": "Quebec"
+    },
+    {
+        "types": [
+            "newregion",
+            "newyear",
+            "newarea",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735634771,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1323572904536834100",
+        "panoId": "_utMXm50X2o4am6WKkKUAA",
+        "lat": 11.41786,
+        "lng": 7.47879,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Katsina"
+    },
+    {
+        "types": [
+            "newarea",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735634771,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1323572904536834100",
+        "panoId": "1_GCH-HiNpCgVC-UW5EEwA",
+        "lat": 11.21985,
+        "lng": 7.33007,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kaduna"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735634771,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1323572904536834100",
+        "panoId": "EzEtFKmk_0UZLT7KxPBQ1Q",
+        "lat": 11.06951,
+        "lng": 7.22661,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kaduna"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735634771,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1323572904536834100",
+        "panoId": "ybg1gZeC7GnO788UH6nQEA",
+        "lat": 10.53429,
+        "lng": 7.42784,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kaduna"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newyear",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1735538953,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1323171014007459930",
+        "panoId": "Vx12plIYGW1CvWUq_fbkeA",
+        "lat": 11.25822,
+        "lng": 7.59779,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kaduna"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735517459,
+        "author": "DerZiggi",
+        "id": "1323080861721038848",
+        "panoId": "5x0kbHURFAt3ySLXD-ufjA",
+        "lat": 17.49673,
+        "lng": 78.31882,
+        "date": "Dec 2024",
+        "country": "IN",
+        "region": "Telangana"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1735727085,
+        "author": "mpk",
+        "id": "1323960096581095444",
+        "panoId": "DlN49xAB_im6zKTpcisb6g",
+        "lat": -33.9875,
+        "lng": 21.95325,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Western Cape"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735726660,
+        "author": "Alok",
+        "id": "1323958317118128128",
+        "panoId": "1B4jpx0calMNYhAS_HCpOA",
+        "lat": -30.30366,
+        "lng": 21.85004,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735726660,
+        "author": "Alok",
+        "id": "1323958317118128128",
+        "panoId": "Nn2xZi7kHAtkV4zGIS0pdQ",
+        "lat": -30.35831,
+        "lng": 21.88026,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad",
+            "newregion"
+        ],
+        "report_time": 1735717035,
+        "author": "JHK",
+        "id": "1323917947462488165",
+        "panoId": "-Qt7GN8T5q-mVzzHUO9qPQ",
+        "lat": -32.23674,
+        "lng": 24.63111,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Eastern Cape"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea",
+            "newcountry"
+        ],
+        "report_time": 1735716194,
+        "author": "JHK",
+        "id": "1323914419570348086",
+        "panoId": "u2MT1f6P27Gs8PsU9UmF9A",
+        "lat": -27.7209,
+        "lng": 22.0197,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
     }
 ]
