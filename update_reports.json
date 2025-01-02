@@ -154151,5 +154151,193 @@
         "date": "Oct 2024",
         "country": "ZA",
         "region": "North West"
+    },
+    {
+        "types": [
+            "newstreet",
+            "newroad"
+        ],
+        "report_time": 1735800565,
+        "author": "Ethan",
+        "id": "1324268296379564062",
+        "panoId": "R7UAyt8zWoYu_KazXQXkXA",
+        "lat": 37.19447,
+        "lng": -91.36624,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Missouri"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735807251,
+        "author": "TfLfan",
+        "id": "1324296337868587019",
+        "panoId": "nIM-MDYA-iSrDle6KCsuzg",
+        "lat": 36.04448,
+        "lng": -77.54114,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "North Carolina"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735807178,
+        "author": "TfLfan",
+        "id": "1324296031856230400",
+        "panoId": "ACwZ9YWB-QFdzUSHYq-lyA",
+        "lat": 32.42449,
+        "lng": -102.43515,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1735803872,
+        "author": "TfLfan",
+        "id": "1324282166707752970",
+        "panoId": "2DK1GviH0qy1iW6enG9cNg",
+        "lat": 48.24254,
+        "lng": 16.39181,
+        "date": "Oct 2024",
+        "country": "AT",
+        "region": "Vienna"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735810671,
+        "author": "Alok",
+        "id": "1324310681670914088",
+        "panoId": "5a2EAaClIZby_1iIxFSf1A",
+        "lat": -29.75903,
+        "lng": 21.87533,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735815420,
+        "author": "Tobetelogi",
+        "id": "1324330601972764732",
+        "panoId": "7LXd-Fz0JgbGS5qU1K5yjg",
+        "lat": -32.16943,
+        "lng": 23.41862,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Western Cape"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735815152,
+        "author": "Tobetelogi",
+        "id": "1324329477920002048",
+        "panoId": "6Ld08dCW6UBaRBb6x-tiqA",
+        "lat": -29.21199,
+        "lng": 22.48969,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen2update"
+        ],
+        "report_time": 1735816329,
+        "author": "Tobetelogi",
+        "id": "1324334415316521024",
+        "panoId": "rzWilZJ07PoEu_j85k9TJQ",
+        "lat": -26.69545,
+        "lng": 28.78922,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Mpumalanga"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735816329,
+        "author": "Tobetelogi",
+        "id": "1324334415316521024",
+        "panoId": "LSM5UTnaJGq-EtcN-LE9-Q",
+        "lat": -26.46863,
+        "lng": 28.41687,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Gauteng"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1735816329,
+        "author": "Tobetelogi",
+        "id": "1324334415316521024",
+        "panoId": "AwoTDNTquqEuwScNyLMraw",
+        "lat": -27.29173,
+        "lng": 32.40813,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "KwaZulu-Natal"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735816152,
+        "author": "Tobetelogi",
+        "id": "1324333673549529188",
+        "panoId": "-JcN9VPLfI-gb712Q66NKQ",
+        "lat": -29.75972,
+        "lng": 25.95662,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Free State"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735816043,
+        "author": "TfLfan",
+        "id": "1324333216911462421",
+        "panoId": "hoVHy69bO_Yu5PQeDIKjeA",
+        "lat": 33.16397,
+        "lng": -97.31775,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735828163,
+        "author": "Tobetelogi",
+        "id": "1324384048449196074",
+        "panoId": "pNZklamcwNUOTxKGeWkokA",
+        "lat": -25.17879,
+        "lng": 29.15477,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Limpopo"
     }
 ]

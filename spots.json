@@ -30337,5 +30337,21 @@
         "lng": -71.254196,
         "country": "CL",
         "region": "Coquimbo"
+    },
+    {
+        "spot_date": "2025/01/01",
+        "id": "1324270443015831552",
+        "links": [
+            "https://www.instagram.com/reel/DESkv2dJsqj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/6cMLSTLbL18p1Uhq6"
+        ],
+        "report_time": 1735801077,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "GHXu9bYzmSf8510AsANzYQ",
+        "lat": -20.76139,
+        "lng": -41.53376,
+        "country": "BR",
+        "region": "State of Esp\u00edrito Santo"
     }
 ]
