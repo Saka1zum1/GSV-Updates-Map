@@ -154009,5 +154009,147 @@
         "date": "Nov 2024",
         "country": "ZA",
         "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735738262,
+        "author": "DeSlagen",
+        "id": "1324006979198521407",
+        "panoId": "o4mmnUAjT1drEbreIqMRGA",
+        "lat": 45.55954,
+        "lng": -70.7893,
+        "date": "Oct 2024",
+        "country": "CA",
+        "region": "Quebec"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735737739,
+        "author": "DeSlagen",
+        "id": "1324004786315464714",
+        "panoId": "2EL3DV__UHgYNlbp72z7og",
+        "lat": -41.38606,
+        "lng": -73.60642,
+        "date": "Aug 2024",
+        "country": "CL",
+        "region": "Los Lagos"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735737574,
+        "author": "DeSlagen",
+        "id": "1324004091080216690",
+        "panoId": "a4sLq90rQg5ngATQiU0-YQ",
+        "lat": -30.59664,
+        "lng": 21.91553,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735737425,
+        "author": "DeSlagen",
+        "id": "1324003465642512456",
+        "panoId": "1_qKh73PtazR3Dm51PVt_A",
+        "lat": -32.44383,
+        "lng": 23.39462,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Eastern Cape"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735736782,
+        "author": "Tobetelogi",
+        "id": "1324000772622651433",
+        "panoId": "QmS7jdkaepU48iAbj17MWw",
+        "lat": -25.13247,
+        "lng": 27.2426,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "region": "North West"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735738604,
+        "author": "DeSlagen",
+        "id": "1324008411464994939",
+        "panoId": "_95orQnO_U5OjATWy1EfCw",
+        "lat": -24.67031,
+        "lng": 28.97131,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "region": "Limpopo"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735752880,
+        "author": "ManToledo",
+        "id": "1324068290552795240",
+        "panoId": "7L6iJ_Pihj6vKlbcsKAxqA",
+        "lat": 37.12366,
+        "lng": -92.10007,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Missouri"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1735751353,
+        "author": "JHK",
+        "id": "1324061885980475454",
+        "panoId": "utN64mwOOO1WzqaIRum6Aw",
+        "lat": 37.32394,
+        "lng": -91.95545,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Missouri"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735757372,
+        "author": "mpk",
+        "id": "1324087131181813801",
+        "panoId": "dRlQTyaNzrDYnSKUZ5BcPA",
+        "lat": -30.29467,
+        "lng": 22.45512,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735759708,
+        "author": "Tobetelogi",
+        "id": "1324096928580894782",
+        "panoId": "eXZeY543MUyHbZRrFOBOkg",
+        "lat": -26.90673,
+        "lng": 24.15107,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "region": "North West"
     }
 ]
