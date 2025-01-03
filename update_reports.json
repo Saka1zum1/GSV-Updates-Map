@@ -154382,5 +154382,163 @@
         "date": "Dec 2024",
         "country": "US",
         "region": "Arkansas"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735864501,
+        "author": "ManToledo",
+        "id": "1324536462422835211",
+        "panoId": "nbVUsG9xmIWxyX6Jhb9_4w",
+        "lat": -31.98836,
+        "lng": 23.65131,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Western Cape"
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1735874848,
+        "author": "TfLfan",
+        "id": "1324579860475150376",
+        "panoId": "X3iYA_TcxHIAqzmJ3pjg7w",
+        "lat": 37.08577,
+        "lng": -106.38061,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Colorado"
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1735874689,
+        "author": "TfLfan",
+        "id": "1324579193496801392",
+        "panoId": "MbCVIZPpFWT0Uhn31Y5OSw",
+        "lat": 43.63507,
+        "lng": -90.10102,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Wisconsin"
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1735874615,
+        "author": "TfLfan",
+        "id": "1324578883302854716",
+        "panoId": "C2f8XfXy1anh7UUNLWghjw",
+        "lat": 39.36433,
+        "lng": -122.65118,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "types": [
+            "gen1update"
+        ],
+        "report_time": 1735874539,
+        "author": "TfLfan",
+        "id": "1324578566461067406",
+        "panoId": "-q2ssJn_JISpaK5TQ1Zy6A",
+        "lat": 33.43779,
+        "lng": -85.84595,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Alabama"
+    },
+    {
+        "types": [
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1735899238,
+        "author": "Tobetelogi",
+        "id": "1324682160665530420",
+        "panoId": "ewYo6NrWbpLjmGExAyTDVw",
+        "lat": -31.50982,
+        "lng": 24.48078,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735899169,
+        "author": "Tobetelogi",
+        "id": "1324681872977952819",
+        "panoId": "gzqVs90Bj82GK3P5mS7kyw",
+        "lat": -34.38043,
+        "lng": 20.42039,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Western Cape"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea"
+        ],
+        "report_time": 1735898999,
+        "author": "Tobetelogi",
+        "id": "1324681160051134524",
+        "panoId": "_Hm7veBwtWvrRl0Pb9tHSg",
+        "lat": -27.06116,
+        "lng": 21.37892,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea"
+        ],
+        "report_time": 1735898999,
+        "author": "Tobetelogi",
+        "id": "1324681160051134524",
+        "panoId": "mGKQfJ4KCiqYFq9R9hulUQ",
+        "lat": -27.38992,
+        "lng": 21.53424,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1735900138,
+        "author": "Update Tracker Bot",
+        "id": "1324685936587444266",
+        "panoId": "_1kLCfIn_3qK7SG7oWwSJw",
+        "lat": 24.82294,
+        "lng": 121.19988,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Taoyuan City"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea"
+        ],
+        "report_time": 1735899379,
+        "author": "Tobetelogi",
+        "id": "1324682753953894411",
+        "panoId": "Y3kO9S8Hq8Naq22igWubmQ",
+        "lat": -29.97764,
+        "lng": 21.63861,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
     }
 ]
