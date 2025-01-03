@@ -154339,5 +154339,48 @@
         "date": "Nov 2024",
         "country": "ZA",
         "region": "Limpopo"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735842810,
+        "author": "Alok",
+        "id": "1324445484978409554",
+        "panoId": "QuSwIse041uBfVqLxhIm8w",
+        "lat": -34.3848,
+        "lng": 21.76662,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "region": "Western Cape"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1735855338,
+        "author": "Simon't",
+        "id": "1324498029033689141",
+        "panoId": "-CyUaopyHS7p57AkJTuUmw",
+        "lat": -32.52365,
+        "lng": 24.48866,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Eastern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1735861030,
+        "author": "Ryan",
+        "id": "1324521903385481226",
+        "panoId": "HVn5u4YGH0WMA7oAld7Pxw",
+        "lat": 35.52396,
+        "lng": -92.60695,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Arkansas"
     }
 ]

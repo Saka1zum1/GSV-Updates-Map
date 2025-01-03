@@ -30353,5 +30353,21 @@
         "lng": -41.53376,
         "country": "BR",
         "region": "State of Esp\u00edrito Santo"
+    },
+    {
+        "spot_date": "2024/12/27",
+        "id": "1324463129413025898",
+        "links": [
+            "https://www.youtube.com/watch?v=5GEF62Vr3ik",
+            "https://maps.app.goo.gl/MJo1Su8Tb7FDSbet8"
+        ],
+        "report_time": 1735847017,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "lYhffUnZxd8bqp5n00-SWA",
+        "lat": -34.69816,
+        "lng": -58.60058,
+        "country": "AR",
+        "region": "Buenos Aires Province"
     }
 ]
