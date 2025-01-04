@@ -30369,5 +30369,21 @@
         "lng": -58.60058,
         "country": "AR",
         "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2019/05/24",
+        "id": "1324646957486047252",
+        "links": [
+            "https://x.com/kecchi0/status/1131813325803671552/photo/1",
+            "https://maps.app.goo.gl/xkPompHE7Faftcxm7"
+        ],
+        "report_time": 1735890845,
+        "author": "Aedan",
+        "spot_type": "Gen4/H1",
+        "panoId": "q3bLGuI5xLnqwCg26TwxEg",
+        "lat": -31.94086,
+        "lng": 115.84016,
+        "country": "AU",
+        "region": "Western Australia"
     }
 ]

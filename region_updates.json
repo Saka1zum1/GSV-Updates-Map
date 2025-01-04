@@ -4648,6 +4648,21 @@
                 "country": "PE",
                 "altitude": 26.27,
                 "region": "Lima Region"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1735246476,
+                "author": "Tobetelogi",
+                "id": "1321944278171123795",
+                "panoId": "WcSmoARZVxHBzLTyD8OXGA",
+                "lat": -13.30233,
+                "lng": -76.25293,
+                "date": "Oct 2024",
+                "country": "PE",
+                "region": "Lima Region"
             }
         },
         "Amazonas": {
@@ -4892,6 +4907,65 @@
                 "country": "PE",
                 "altitude": 175.3,
                 "region": "Arequipa"
+            },
+            "May": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1735192845,
+                "author": "Redpork",
+                "id": "1321719331880697978",
+                "panoId": "T1QJe2glKvTzA7pKFhU2hg",
+                "lat": -16.4393,
+                "lng": -71.52137,
+                "date": "May 2024",
+                "country": "PE",
+                "region": "Arequipa"
+            },
+            "Jun": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1735192845,
+                "author": "Redpork",
+                "id": "1321719331880697978",
+                "panoId": "bYzk5pJayoQWS4P8njRcgQ",
+                "lat": -16.4116,
+                "lng": -71.59197,
+                "date": "Jun 2024",
+                "country": "PE",
+                "region": "Arequipa"
+            },
+            "Jul": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1735186353,
+                "author": "macca",
+                "id": "1321692103587270719",
+                "panoId": "8lfmS11vv7W6Zj4J4BAgzg",
+                "lat": -16.31693,
+                "lng": -72.17167,
+                "date": "Jul 2024",
+                "country": "PE",
+                "region": "Arequipa"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735186353,
+                "author": "macca",
+                "id": "1321692103587270719",
+                "panoId": "484r07cNM32ZfzDEVKwQAw",
+                "lat": -16.46346,
+                "lng": -71.62521,
+                "date": "Aug 2024",
+                "country": "PE",
+                "region": "Arequipa"
             }
         },
         "Huanuco": {
@@ -5000,6 +5074,35 @@
                 "date": "Aug 2024",
                 "country": "PE",
                 "altitude": 82.61,
+                "region": "Ica"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1735204965,
+                "author": "Unhook",
+                "id": "1321770167826645002",
+                "panoId": "kCpSi2Y-QFG0T9auPjphYg",
+                "lat": -13.81569,
+                "lng": -76.30128,
+                "date": "Sep 2024",
+                "country": "PE",
+                "region": "Ica"
+            },
+            "Oct": {
+                "types": [
+                    "newcountry"
+                ],
+                "report_time": 1735191005,
+                "author": "Update Tracker Bot",
+                "id": "1321711615237816330",
+                "panoId": "FOYZg519AA3J4Avh1u3IRw",
+                "lat": -13.60126,
+                "lng": -75.61951,
+                "date": "Oct 2024",
+                "country": "PE",
                 "region": "Ica"
             }
         },
@@ -7070,6 +7173,20 @@
                 "date": "Sep 2024",
                 "country": "US",
                 "region": "District of Columbia"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735590022,
+                "author": "Dr.Clive",
+                "id": "1323385213660958893",
+                "panoId": "Qyo8WVRq8McxHTKqub049g",
+                "lat": 38.91371,
+                "lng": -77.01825,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "District of Columbia"
             }
         },
         "Nevada": {
@@ -7187,6 +7304,20 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 595.74,
+                "region": "Nevada"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735589416,
+                "author": "Tobetelogi",
+                "id": "1323382671069548695",
+                "panoId": "UkBq6uCZ2Zc68QoHOpAGng",
+                "lat": 36.14773,
+                "lng": -115.02926,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "Nevada"
             }
         },
@@ -8525,6 +8656,20 @@
                 "country": "US",
                 "altitude": 305.18,
                 "region": "New York"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735672832,
+                "author": "Tobetelogi",
+                "id": "1323732546097516604",
+                "panoId": "qyQPwgdSDggDKUOPBXhnFw",
+                "lat": 41.12006,
+                "lng": -74.10077,
+                "date": "Dec 2024",
+                "country": "US",
+                "region": "New York"
             }
         },
         "Maryland": {
@@ -9670,6 +9815,20 @@
                 "date": "Nov 2024",
                 "country": "US",
                 "altitude": 315.98,
+                "region": "Wisconsin"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735585520,
+                "author": "Tobetelogi",
+                "id": "1323366333815193743",
+                "panoId": "Yhs2vRu0pc3GSIiG2i9YOw",
+                "lat": 44.52325,
+                "lng": -89.48309,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "Wisconsin"
             }
         },
@@ -11116,17 +11275,16 @@
             },
             "Dec": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1704473826,
-                "author": "Jkmilo13",
-                "panoId": "wX6pUuw60UsdHCBO3-XwHg",
-                "lat": 38.5286,
-                "lng": -89.25462,
-                "date": "Dec 2023",
+                "report_time": 1735586577,
+                "author": "Tobetelogi",
+                "id": "1323370764015243405",
+                "panoId": "HPVxrqSN6Wln0Ge2j8UBZg",
+                "lat": 41.65039,
+                "lng": -89.0612,
+                "date": "Dec 2024",
                 "country": "US",
-                "altitude": 140.48,
                 "region": "Illinois"
             },
             "Nov": {
@@ -11295,6 +11453,21 @@
                 "date": "OCT 2024",
                 "country": "US",
                 "altitude": 445.25,
+                "region": "North Carolina"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1735129336,
+                "author": "Tobetelogi",
+                "id": "1321452957597696000",
+                "panoId": "8XsYYk0UCaJWPbvmIHx-FA",
+                "lat": 36.01634,
+                "lng": -77.56983,
+                "date": "Dec 2024",
+                "country": "US",
                 "region": "North Carolina"
             }
         },
@@ -11887,6 +12060,35 @@
                 "country": "PH",
                 "altitude": 106.65,
                 "region": "Western Visayas"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1735546751,
+                "author": "DerZiggi",
+                "id": "1323203721492168765",
+                "panoId": "ggF_Xs5k86sr1kwTgWcmPg",
+                "lat": 11.70997,
+                "lng": 122.36252,
+                "date": "Dec 2024",
+                "country": "PH",
+                "region": "Western Visayas"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735591222,
+                "author": "Tobetelogi",
+                "id": "1323390247324876841",
+                "panoId": "PrdcE5qVzEgE7uRAW-xrmg",
+                "lat": 10.80543,
+                "lng": 122.99554,
+                "date": "Nov 2024",
+                "country": "PH",
+                "region": "Western Visayas"
             }
         },
         "Central Luzon": {
@@ -11945,6 +12147,20 @@
                 "date": "Apr 2024",
                 "country": "PH",
                 "altitude": 89.38,
+                "region": "Central Luzon"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735568146,
+                "author": "snowf",
+                "id": "1323293459045679124",
+                "panoId": "abQsW3HYc5vXQQlk2KVB-Q",
+                "lat": 14.97596,
+                "lng": 120.97203,
+                "date": "Dec 2024",
+                "country": "PH",
                 "region": "Central Luzon"
             }
         },
@@ -12283,6 +12499,20 @@
                 "date": "Feb 2024",
                 "country": "PH",
                 "altitude": 13.16,
+                "region": "Central Visayas"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735568146,
+                "author": "snowf",
+                "id": "1323293459045679124",
+                "panoId": "hdG8CRkc9a-n5mzeA4li7w",
+                "lat": 10.2489,
+                "lng": 123.94527,
+                "date": "Nov 2024",
+                "country": "PH",
                 "region": "Central Visayas"
             }
         },
@@ -16320,6 +16550,20 @@
                 "country": "JP",
                 "altitude": 736.8,
                 "region": "Miyazaki"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735217594,
+                "author": "Tobetelogi",
+                "id": "1321823138429927456",
+                "panoId": "PI8LpdiwgIfWMWpO0lVQSA",
+                "lat": 32.15825,
+                "lng": 131.03497,
+                "date": "Dec 2024",
+                "country": "JP",
+                "region": "Miyazaki"
             }
         },
         "Shiga": {
@@ -16366,6 +16610,20 @@
                 "date": "Aug 2024",
                 "country": "JP",
                 "altitude": 6.17,
+                "region": "Mie"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735129283,
+                "author": "Tobetelogi",
+                "id": "1321452735106912256",
+                "panoId": "bddPgKVFhWu3DSbAWe00jQ",
+                "lat": 33.84602,
+                "lng": 136.00666,
+                "date": "Dec 2024",
+                "country": "JP",
                 "region": "Mie"
             }
         },
@@ -16544,6 +16802,20 @@
                 "date": "Sep 2024",
                 "country": "JP",
                 "altitude": 14.35,
+                "region": "Kagawa"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735401956,
+                "author": "\u8c46\u8c46\u5196",
+                "id": "1322596407755931748",
+                "panoId": "pbeFZDe9aqXLIutWUXfICA",
+                "lat": 34.27255,
+                "lng": 133.75726,
+                "date": "Dec 2024",
+                "country": "JP",
                 "region": "Kagawa"
             }
         },
@@ -17172,6 +17444,20 @@
                 "date": "Nov 2024",
                 "country": "JP",
                 "altitude": 39.01,
+                "region": "Hiroshima"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735401956,
+                "author": "\u8c46\u8c46\u5196",
+                "id": "1322596407755931748",
+                "panoId": "K6KXvUA2AsBOvNGLsGYblw",
+                "lat": 34.41748,
+                "lng": 132.711,
+                "date": "Dec 2024",
+                "country": "JP",
                 "region": "Hiroshima"
             }
         },
@@ -18005,6 +18291,20 @@
                 "country": "JP",
                 "altitude": 11.25,
                 "region": "Chiba"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735240899,
+                "author": "Tobetelogi",
+                "id": "1321920888039411815",
+                "panoId": "AaLvv2XZa5_4bxMtsLtzcg",
+                "lat": 35.34802,
+                "lng": 140.38841,
+                "date": "Dec 2024",
+                "country": "JP",
+                "region": "Chiba"
             }
         },
         "Aichi": {
@@ -18123,6 +18423,21 @@
                 "date": "Nov 2024",
                 "country": "JP",
                 "altitude": 404.81,
+                "region": "Kochi"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1735401956,
+                "author": "\u8c46\u8c46\u5196",
+                "id": "1322596407755931748",
+                "panoId": "bkg3JG3hjxtL6e-q5g-YbA",
+                "lat": 33.19624,
+                "lng": 132.76512,
+                "date": "Dec 2024",
+                "country": "JP",
                 "region": "Kochi"
             }
         },
@@ -18291,6 +18606,21 @@
                 "date": "Nov 2024",
                 "country": "JP",
                 "altitude": 365.85,
+                "region": "Oita"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1735183394,
+                "author": "snowf",
+                "id": "1321679694768377907",
+                "panoId": "kxLByiUvfqJOmsLpXfOWvQ",
+                "lat": 33.73248,
+                "lng": 131.69039,
+                "date": "Dec 2024",
+                "country": "JP",
                 "region": "Oita"
             }
         },
@@ -18952,6 +19282,20 @@
                 "country": "JP",
                 "altitude": 59.88,
                 "region": "Tokushima"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735314370,
+                "author": "Tobetelogi",
+                "id": "1322229047253536798",
+                "panoId": "Z2JTgLxkk7EiCjakn4fgKA",
+                "lat": 34.08423,
+                "lng": 134.60294,
+                "date": "Dec 2024",
+                "country": "JP",
+                "region": "Tokushima"
             }
         },
         "Hyogo": {
@@ -19039,6 +19383,20 @@
                 "lat": 34.7476,
                 "lng": 138.7614,
                 "date": "Nov 2024",
+                "country": "JP",
+                "region": "Shizuoka"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735401956,
+                "author": "\u8c46\u8c46\u5196",
+                "id": "1322596407755931748",
+                "panoId": "TOvosuH-IqYQOQNTkuFEYg",
+                "lat": 34.9794,
+                "lng": 139.06299,
+                "date": "Dec 2024",
                 "country": "JP",
                 "region": "Shizuoka"
             }
@@ -22819,6 +23177,34 @@
                 "country": "AU",
                 "altitude": 299.69,
                 "region": "South Australia"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735217322,
+                "author": "Tobetelogi",
+                "id": "1321821998275629077",
+                "panoId": "dUOJNCBqI2wKu_jXN4peUQ",
+                "lat": -36.32229,
+                "lng": 140.88883,
+                "date": "Nov 2024",
+                "country": "AU",
+                "region": "South Australia"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735632242,
+                "author": "macca",
+                "id": "1323562297276239993",
+                "panoId": "H3TaOGcvEZscBfVxHa_1mg",
+                "lat": -37.1748,
+                "lng": 140.83744,
+                "date": "Dec 2024",
+                "country": "AU",
+                "region": "South Australia"
             }
         },
         "New South Wales": {
@@ -23031,17 +23417,17 @@
             },
             "Dec": {
                 "types": [
-                    "newregion",
-                    "gen1update"
+                    "newcountry",
+                    "newregion"
                 ],
-                "report_time": 1709241683,
-                "author": "macca",
-                "panoId": "nipyhtBqvdvuNJHCD7o3pw",
-                "lat": -27.90597,
-                "lng": 151.29112,
-                "date": "Dec 2023",
+                "report_time": 1735557687,
+                "author": "DerZiggi",
+                "id": "1323249591151235124",
+                "panoId": "Zw3NTrckTRvxdXc1dUbynQ",
+                "lat": -24.8401,
+                "lng": 151.71079,
+                "date": "Dec 2024",
                 "country": "AU",
-                "altitude": 418.98,
                 "region": "Queensland"
             },
             "Jan": {
@@ -23154,16 +23540,16 @@
             "Dec": {
                 "types": [
                     "newregion",
-                    "gen1update"
+                    "gen3update"
                 ],
-                "report_time": 1706270489,
-                "author": "vegetal",
-                "panoId": "xk2Oo1Ps3fJFOpRgYgsxIw",
-                "lat": -37.52513,
-                "lng": 141.02161,
-                "date": "Dec 2023",
+                "report_time": 1735560643,
+                "author": "DerZiggi",
+                "id": "1323261992135561287",
+                "panoId": "mz5px6Qwx681eJHq2r-yKQ",
+                "lat": -38.3133,
+                "lng": 143.7268,
+                "date": "Dec 2024",
                 "country": "AU",
-                "altitude": 75.61,
                 "region": "Victoria"
             },
             "Nov": {
@@ -29012,6 +29398,21 @@
                 "country": "NZ",
                 "altitude": 65.92,
                 "region": "Auckland"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1735483563,
+                "author": "snowf",
+                "id": "1322938692041572496",
+                "panoId": "H9CgXGevSvwb1TgRuEFXSQ",
+                "lat": -37.01202,
+                "lng": 174.84526,
+                "date": "Dec 2024",
+                "country": "NZ",
+                "region": "Auckland"
             }
         },
         "Northland": {
@@ -29108,16 +29509,17 @@
             },
             "Nov": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1706350127,
-                "author": "Unhook",
-                "panoId": "UepvOtYh9A6iYDBNdQ_Ceg",
-                "lat": -40.37635,
-                "lng": 175.31995,
-                "date": "Nov 2023",
+                "report_time": 1735499138,
+                "author": "snowf",
+                "id": "1323004019878269089",
+                "panoId": "SnaSvYwMtcr_i2xKTNWABQ",
+                "lat": -40.56429,
+                "lng": 176.15865,
+                "date": "Nov 2024",
                 "country": "NZ",
-                "altitude": 23.4,
                 "region": "Manawat\u016b-Whanganui"
             },
             "Oct": {
@@ -29377,6 +29779,21 @@
                 "country": "NZ",
                 "region": "Wellington",
                 "altitude": 9.79
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1735478646,
+                "author": "Tobetelogi",
+                "id": "1322918070192177233",
+                "panoId": "e2lSIZ6cLNRGf_YaXcpGew",
+                "lat": -41.0422,
+                "lng": 176.04317,
+                "date": "Nov 2024",
+                "country": "NZ",
+                "region": "Wellington"
             }
         },
         "Gisborne": {},
@@ -30363,6 +30780,21 @@
                 "country": "CL",
                 "altitude": 77.65,
                 "region": "Los Lagos"
+            },
+            "Aug": {
+                "types": [
+                    "newregion",
+                    "newtown"
+                ],
+                "report_time": 1735449415,
+                "author": "Palmerranian",
+                "id": "1322795467314167838",
+                "panoId": "k6DCMnqb2DCRCExbz-8zEg",
+                "lat": -41.96103,
+                "lng": -72.46326,
+                "date": "Aug 2024",
+                "country": "CL",
+                "region": "Los Lagos"
             }
         },
         "Araucania": {
@@ -30393,6 +30825,20 @@
                 "lat": -39.30104,
                 "lng": -72.02501,
                 "date": "Sep 2024",
+                "country": "CL",
+                "region": "Araucania"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735462225,
+                "author": "Palmerranian",
+                "id": "1322849196004610153",
+                "panoId": "MgFUEajKkLDFnWAWRxBRYQ",
+                "lat": -38.71554,
+                "lng": -72.56847,
+                "date": "Oct 2024",
                 "country": "CL",
                 "region": "Araucania"
             }
@@ -32861,6 +33307,21 @@
                 "date": "Nov 2024",
                 "country": "CN",
                 "region": "Hsinchu County"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1735566966,
+                "author": "snowf",
+                "id": "1323288509569699850",
+                "panoId": "164qSVR5T7_LAkK6DSQkbg",
+                "lat": 24.80475,
+                "lng": 121.16571,
+                "date": "Dec 2024",
+                "country": "CN",
+                "region": "Hsinchu County"
             }
         },
         "Taoyuan City": {
@@ -32920,6 +33381,20 @@
                 "country": "CN",
                 "altitude": 267.54,
                 "region": "Taoyuan City"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735900138,
+                "author": "Update Tracker Bot",
+                "id": "1324685936587444266",
+                "panoId": "_1kLCfIn_3qK7SG7oWwSJw",
+                "lat": 24.82294,
+                "lng": 121.19988,
+                "date": "Dec 2024",
+                "country": "CN",
+                "region": "Taoyuan City"
             }
         },
         "Kaohsiung City": {
@@ -32948,6 +33423,21 @@
                 "lat": 22.63667,
                 "lng": 120.3421,
                 "date": "Oct 2024",
+                "country": "CN",
+                "region": "Kaohsiung City"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1735566966,
+                "author": "snowf",
+                "id": "1323288509569699850",
+                "panoId": "rmlE0hAa2tFVJ7WMpUo-7g",
+                "lat": 22.90826,
+                "lng": 120.22584,
+                "date": "Dec 2024",
                 "country": "CN",
                 "region": "Kaohsiung City"
             }
@@ -33008,6 +33498,21 @@
                 "date": "Nov 2024",
                 "country": "CN",
                 "altitude": 90.98,
+                "region": "Taichung City"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1735566966,
+                "author": "snowf",
+                "id": "1323288509569699850",
+                "panoId": "zaCjHrjvsgjsRujGbqJuCQ",
+                "lat": 24.24846,
+                "lng": 120.65044,
+                "date": "Dec 2024",
+                "country": "CN",
                 "region": "Taichung City"
             }
         },
@@ -33100,6 +33605,21 @@
                 "country": "CN",
                 "region": "Miaoli County",
                 "altitude": 275.78
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1735566966,
+                "author": "snowf",
+                "id": "1323288509569699850",
+                "panoId": "7RR5N0XJD5hdClEecvYV5A",
+                "lat": 24.54536,
+                "lng": 120.74376,
+                "date": "Dec 2024",
+                "country": "CN",
+                "region": "Miaoli County"
             }
         },
         "Nantou County": {
@@ -33144,6 +33664,20 @@
                 "date": "Apr 2024",
                 "country": "CN",
                 "altitude": 1048.64,
+                "region": "Nantou County"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735635718,
+                "author": "Update Tracker Bot",
+                "id": "1323576877473992715",
+                "panoId": "CP-461CPbpglyD4EAudjnA",
+                "lat": 23.7746,
+                "lng": 120.65999,
+                "date": "Dec 2024",
+                "country": "CN",
                 "region": "Nantou County"
             }
         },
@@ -33216,6 +33750,20 @@
                 "date": "Feb 2024",
                 "country": "CN",
                 "altitude": 88.46,
+                "region": "Chiayi County"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735610485,
+                "author": "Update Tracker Bot",
+                "id": "1323471041653117040",
+                "panoId": "dWvaknJwaU26i0qv26BZVA",
+                "lat": 23.51973,
+                "lng": 120.48466,
+                "date": "Dec 2024",
+                "country": "CN",
                 "region": "Chiayi County"
             }
         },
@@ -33370,6 +33918,20 @@
                 "country": "CN",
                 "altitude": 26.89,
                 "region": "Yunlin County"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735639316,
+                "author": "Update Tracker Bot",
+                "id": "1323591968122732614",
+                "panoId": "-F222RlOZYsVOEGQ5D-8Bw",
+                "lat": 23.73796,
+                "lng": 120.59234,
+                "date": "Dec 2024",
+                "country": "CN",
+                "region": "Yunlin County"
             }
         },
         "Kowloon": {
@@ -33483,6 +34045,21 @@
                 "date": "Nov 2024",
                 "country": "CN",
                 "altitude": 8.7,
+                "region": "Tainan City"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1735566966,
+                "author": "snowf",
+                "id": "1323288509569699850",
+                "panoId": "EcdyW5cWBp82aQxXhaRpCw",
+                "lat": 22.91787,
+                "lng": 120.22023,
+                "date": "Dec 2024",
+                "country": "CN",
                 "region": "Tainan City"
             }
         },
@@ -34397,16 +34974,16 @@
             },
             "Dec": {
                 "types": [
-                    "newregion"
+                    "newcountry"
                 ],
-                "report_time": 1704185949,
-                "author": "macca",
-                "panoId": "jpd8IrfE3yhu3NaYnh648w",
-                "lat": -7.36991,
-                "lng": 108.1338,
-                "date": "Dec 2023",
+                "report_time": 1735185135,
+                "author": "Update Tracker Bot",
+                "id": "1321686996833538099",
+                "panoId": "gfQp-bNE1u3kjKCkv_wZLw",
+                "lat": -6.80683,
+                "lng": 108.57899,
+                "date": "Dec 2024",
                 "country": "ID",
-                "altitude": 394.09,
                 "region": "West Java"
             },
             "Nov": {
@@ -37546,6 +38123,20 @@
                 "country": "ZA",
                 "altitude": 1481.25,
                 "region": "Free State"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735816152,
+                "author": "Tobetelogi",
+                "id": "1324333673549529188",
+                "panoId": "-JcN9VPLfI-gb712Q66NKQ",
+                "lat": -29.75972,
+                "lng": 25.95662,
+                "date": "Nov 2024",
+                "country": "ZA",
+                "region": "Free State"
             }
         },
         "Western Cape": {
@@ -37679,6 +38270,21 @@
                 "country": "ZA",
                 "altitude": 31.34,
                 "region": "Western Cape"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1735727085,
+                "author": "mpk",
+                "id": "1323960096581095444",
+                "panoId": "DlN49xAB_im6zKTpcisb6g",
+                "lat": -33.9875,
+                "lng": 21.95325,
+                "date": "Nov 2024",
+                "country": "ZA",
+                "region": "Western Cape"
             }
         },
         "Gauteng": {
@@ -37781,6 +38387,20 @@
                 "country": "ZA",
                 "altitude": 1477.84,
                 "region": "Gauteng"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735816329,
+                "author": "Tobetelogi",
+                "id": "1324334415316521024",
+                "panoId": "LSM5UTnaJGq-EtcN-LE9-Q",
+                "lat": -26.46863,
+                "lng": 28.41687,
+                "date": "Nov 2024",
+                "country": "ZA",
+                "region": "Gauteng"
             }
         },
         "North West": {
@@ -37843,6 +38463,20 @@
                 "country": "ZA",
                 "altitude": 1241.42,
                 "region": "North West"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735736782,
+                "author": "Tobetelogi",
+                "id": "1324000772622651433",
+                "panoId": "QmS7jdkaepU48iAbj17MWw",
+                "lat": -25.13247,
+                "lng": 27.2426,
+                "date": "Oct 2024",
+                "country": "ZA",
+                "region": "North West"
             }
         },
         "Northern Cape": {
@@ -37872,6 +38506,22 @@
                 "date": "Feb 2024",
                 "country": "ZA",
                 "altitude": 1337.98,
+                "region": "Northern Cape"
+            },
+            "Nov": {
+                "types": [
+                    "newroad",
+                    "newarea",
+                    "newcountry"
+                ],
+                "report_time": 1735716194,
+                "author": "JHK",
+                "id": "1323914419570348086",
+                "panoId": "u2MT1f6P27Gs8PsU9UmF9A",
+                "lat": -27.7209,
+                "lng": 22.0197,
+                "date": "Nov 2024",
+                "country": "ZA",
                 "region": "Northern Cape"
             }
         },
@@ -37935,6 +38585,21 @@
                 "country": "ZA",
                 "altitude": 1289.68,
                 "region": "Mpumalanga"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "gen2update"
+                ],
+                "report_time": 1735816329,
+                "author": "Tobetelogi",
+                "id": "1324334415316521024",
+                "panoId": "rzWilZJ07PoEu_j85k9TJQ",
+                "lat": -26.69545,
+                "lng": 28.78922,
+                "date": "Nov 2024",
+                "country": "ZA",
+                "region": "Mpumalanga"
             }
         },
         "Gqeberha": {
@@ -37996,6 +38661,21 @@
                 "lat": -30.80281,
                 "lng": 27.25303,
                 "date": "Sep 2024",
+                "country": "ZA",
+                "region": "Eastern Cape"
+            },
+            "Nov": {
+                "types": [
+                    "newroad",
+                    "newregion"
+                ],
+                "report_time": 1735717035,
+                "author": "JHK",
+                "id": "1323917947462488165",
+                "panoId": "-Qt7GN8T5q-mVzzHUO9qPQ",
+                "lat": -32.23674,
+                "lng": 24.63111,
+                "date": "Nov 2024",
                 "country": "ZA",
                 "region": "Eastern Cape"
             }
@@ -38100,6 +38780,21 @@
                 "country": "ZA",
                 "altitude": 1057.02,
                 "region": "KwaZulu-Natal"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1735816329,
+                "author": "Tobetelogi",
+                "id": "1324334415316521024",
+                "panoId": "AwoTDNTquqEuwScNyLMraw",
+                "lat": -27.29173,
+                "lng": 32.40813,
+                "date": "Nov 2024",
+                "country": "ZA",
+                "region": "KwaZulu-Natal"
             }
         },
         "Limpopo": {
@@ -38147,6 +38842,20 @@
                 "date": "Oct 2024",
                 "country": "ZA",
                 "altitude": 1039.06,
+                "region": "Limpopo"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735828163,
+                "author": "Tobetelogi",
+                "id": "1324384048449196074",
+                "panoId": "pNZklamcwNUOTxKGeWkokA",
+                "lat": -25.17879,
+                "lng": 29.15477,
+                "date": "Nov 2024",
+                "country": "ZA",
                 "region": "Limpopo"
             }
         }
@@ -44918,6 +45627,34 @@
                 "date": "Apr 2024",
                 "country": "PL",
                 "region": "Masovian Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "ki0giYK0ur0EMwp3kn4eOw",
+                "lat": 52.16148,
+                "lng": 22.22385,
+                "date": "Mar 2024",
+                "country": "PL",
+                "region": "Masovian Voivodeship"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "IzbXl7toBidApH1K6-Y4uw",
+                "lat": 51.35918,
+                "lng": 21.5652,
+                "date": "Jul 2023",
+                "country": "PL",
+                "region": "Masovian Voivodeship"
             }
         },
         "Silesian Voivodeship": {
@@ -44925,14 +45662,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721079484,
+                "report_time": 1735507348,
                 "author": "DeSlagen",
-                "panoId": "iAnZOKYw5t7wNkh3CF7ZaQ",
-                "lat": 50.8129,
-                "lng": 19.11245,
-                "date": "Jun 2023",
+                "id": "1323038454530965595",
+                "panoId": "8yBBqlYDk2bEqKtxprZwtw",
+                "lat": 49.72904,
+                "lng": 19.1825,
+                "date": "Jun 2024",
                 "country": "PL",
-                "altitude": 258.01,
                 "region": "Silesian Voivodeship"
             },
             "Apr": {
@@ -44981,13 +45718,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734103100,
-                "author": "mpk",
-                "id": "1317148610520944723",
-                "panoId": "vwpPMixQ7vslrBEgPY3YKQ",
-                "lat": 50.27096,
-                "lng": 18.90308,
-                "date": "Aug 2023",
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "Ug8dgKYjWkXhxAFoZs6kyA",
+                "lat": 49.71619,
+                "lng": 19.35666,
+                "date": "Aug 2024",
                 "country": "PL",
                 "region": "Silesian Voivodeship"
             },
@@ -45002,6 +45739,20 @@
                 "lat": 50.813,
                 "lng": 19.21647,
                 "date": "Sep 2024",
+                "country": "PL",
+                "region": "Silesian Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "x8lDk7uYGCluhkg9nH8B2A",
+                "lat": 49.81815,
+                "lng": 19.03304,
+                "date": "Mar 2024",
                 "country": "PL",
                 "region": "Silesian Voivodeship"
             }
@@ -45082,13 +45833,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734046741,
+                "report_time": 1735586700,
                 "author": "DeSlagen",
-                "id": "1316912227026210909",
-                "panoId": "IP4n5s_Jj53G1oHWv-gs9A",
-                "lat": 51.13443,
-                "lng": 17.01316,
-                "date": "Aug 2024",
+                "id": "1323371280577073164",
+                "panoId": "k_ZCU3bJrz7z662fltUqhw",
+                "lat": 51.05357,
+                "lng": 16.23346,
+                "date": "Aug 2023",
                 "country": "PL",
                 "region": "Lower Silesian Voivodeship"
             },
@@ -45167,15 +45918,14 @@
             },
             "Oct": {
                 "types": [
-                    "newyear",
                     "newregion"
                 ],
-                "report_time": 1734030872,
+                "report_time": 1735507353,
                 "author": "DeSlagen",
-                "id": "1316845663744425995",
-                "panoId": "nWJcE7Zor3KA1Yci9dChqw",
-                "lat": 50.47388,
-                "lng": 21.53272,
+                "id": "1323038476383555727",
+                "panoId": "lyI56VXPcW2CJwNyHNqljA",
+                "lat": 49.77668,
+                "lng": 21.27319,
                 "date": "Oct 2024",
                 "country": "PL",
                 "region": "Podkarpackie Voivodeship"
@@ -45184,13 +45934,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734103100,
-                "author": "mpk",
-                "id": "1317148610520944723",
-                "panoId": "oeBvZAy_9qf3zUMt0upuFQ",
-                "lat": 50.67702,
-                "lng": 21.82526,
-                "date": "Aug 2023",
+                "report_time": 1735586701,
+                "author": "DeSlagen",
+                "id": "1323371284037505054",
+                "panoId": "nk_vDWfI9kfBqXIWZ6aszw",
+                "lat": 50.30135,
+                "lng": 23.35314,
+                "date": "Aug 2024",
                 "country": "PL",
                 "region": "Podkarpackie Voivodeship"
             },
@@ -45212,13 +45962,27 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734103100,
-                "author": "mpk",
-                "id": "1317148610520944723",
-                "panoId": "d-dKTUEnjtSy7dMbkqND5g",
-                "lat": 50.67109,
-                "lng": 21.82967,
-                "date": "Sep 2023",
+                "report_time": 1735507353,
+                "author": "DeSlagen",
+                "id": "1323038476383555727",
+                "panoId": "YlSaIzadmawncrq4L84-Ew",
+                "lat": 49.74253,
+                "lng": 21.48642,
+                "date": "Sep 2024",
+                "country": "PL",
+                "region": "Podkarpackie Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "WwVXi6KeebptcZkp7zPFJg",
+                "lat": 49.73369,
+                "lng": 21.82233,
+                "date": "Mar 2024",
                 "country": "PL",
                 "region": "Podkarpackie Voivodeship"
             }
@@ -45228,14 +45992,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721086891,
-                "author": "Update Tracker Bot",
-                "panoId": "EsPYdhmoDCIg0lw1DbPvpw",
-                "lat": 50.87657,
-                "lng": 21.68438,
-                "date": "Jun 2023",
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "LBiwA-JtckbNW-geU2DWYQ",
+                "lat": 50.49899,
+                "lng": 20.82868,
+                "date": "Jun 2024",
                 "country": "PL",
-                "altitude": 185.61,
                 "region": "\u015awi\u0119tokrzyskie Voivodeship"
             },
             "May": {
@@ -45307,6 +46071,20 @@
                 "date": "Jul 2024",
                 "country": "PL",
                 "region": "\u015awi\u0119tokrzyskie Voivodeship"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "qUya0dH_OWnNZ4JqS6cgSA",
+                "lat": 50.6928,
+                "lng": 21.76462,
+                "date": "Aug 2023",
+                "country": "PL",
+                "region": "\u015awi\u0119tokrzyskie Voivodeship"
             }
         },
         "Opole Voivodeship": {
@@ -45373,13 +46151,41 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734183504,
-                "author": "mpk",
-                "id": "1317485852406054933",
-                "panoId": "PMHSNSj4XbqAib6i747OgQ",
-                "lat": 50.67406,
-                "lng": 17.92066,
-                "date": "Jul 2023",
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "OTvlb29a4UW2q6Hae3WyYA",
+                "lat": 50.54413,
+                "lng": 17.92201,
+                "date": "Jul 2024",
+                "country": "PL",
+                "region": "Opole Voivodeship"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "Bs8eXwlg8YIizC6QEZzl5Q",
+                "lat": 51.05957,
+                "lng": 17.66983,
+                "date": "Sep 2023",
+                "country": "PL",
+                "region": "Opole Voivodeship"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "N2kHsDvGf2am6cezoENIpw",
+                "lat": 50.73237,
+                "lng": 17.88528,
+                "date": "Aug 2023",
                 "country": "PL",
                 "region": "Opole Voivodeship"
             }
@@ -45387,15 +46193,15 @@
         "Podlaskie Voivodeship": {
             "Aug": {
                 "types": [
-                    "newcountry"
+                    "newregion"
                 ],
-                "report_time": 1734027940,
+                "report_time": 1735507334,
                 "author": "DeSlagen",
-                "id": "1316833367714566234",
-                "panoId": "R9YqPz9jPUPxuyUJhN1ghw",
-                "lat": 53.8545,
-                "lng": 22.944,
-                "date": "Aug 2024",
+                "id": "1323038398025564191",
+                "panoId": "bkWnwQCuAIkj8415INyGnQ",
+                "lat": 53.35139,
+                "lng": 22.62787,
+                "date": "Aug 2023",
                 "country": "PL",
                 "region": "Podlaskie Voivodeship"
             },
@@ -45403,13 +46209,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734029751,
-                "author": "Tobetelogi",
-                "id": "1316840962529558631",
-                "panoId": "7RHdHosDOSSgYX00YNyECw",
-                "lat": 53.85151,
-                "lng": 22.94704,
-                "date": "Sep 2024",
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "lIpLB4sseZNC4sH02E_CYA",
+                "lat": 53.39282,
+                "lng": 22.81448,
+                "date": "Sep 2023",
                 "country": "PL",
                 "region": "Podlaskie Voivodeship"
             },
@@ -45454,6 +46260,48 @@
                 "date": "Jun 2024",
                 "country": "PL",
                 "region": "Podlaskie Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "0fZRVQ3T7wCOEveKH33Ylg",
+                "lat": 54.05234,
+                "lng": 22.88864,
+                "date": "Mar 2024",
+                "country": "PL",
+                "region": "Podlaskie Voivodeship"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "HZulEv1M7kX8EI_DICS90w",
+                "lat": 54.05112,
+                "lng": 22.89319,
+                "date": "Apr 2024",
+                "country": "PL",
+                "region": "Podlaskie Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586701,
+                "author": "DeSlagen",
+                "id": "1323371284037505054",
+                "panoId": "rTn7YasFg9jxOfSLozWxVA",
+                "lat": 53.45841,
+                "lng": 21.68505,
+                "date": "Oct 2024",
+                "country": "PL",
+                "region": "Podlaskie Voivodeship"
             }
         },
         "West Pomeranian Voivodeship": {
@@ -45491,14 +46339,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721078708,
+                "report_time": 1735586700,
                 "author": "DeSlagen",
-                "panoId": "A0bjqOMIarx0rG5UuhZkZg",
-                "lat": 53.3331,
-                "lng": 14.57285,
-                "date": "Mar 2023",
+                "id": "1323371280577073164",
+                "panoId": "Ncfn9Bm5AXShE5Nc5wK84A",
+                "lat": 53.19094,
+                "lng": 16.38002,
+                "date": "Mar 2024",
                 "country": "PL",
-                "altitude": 31.41,
                 "region": "West Pomeranian Voivodeship"
             },
             "Jun": {
@@ -45515,6 +46363,48 @@
                 "date": "Jun 2024",
                 "country": "PL",
                 "region": "West Pomeranian Voivodeship"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "YsxssngWwVaZluFEBh2A9w",
+                "lat": 53.26872,
+                "lng": 16.50546,
+                "date": "Sep 2023",
+                "country": "PL",
+                "region": "West Pomeranian Voivodeship"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "B-4Cuj7e7EwlzEuT9Rzkew",
+                "lat": 53.40838,
+                "lng": 14.46652,
+                "date": "Jul 2024",
+                "country": "PL",
+                "region": "West Pomeranian Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "NBS63cErNirtt8JzrWtZJg",
+                "lat": 53.25601,
+                "lng": 16.41807,
+                "date": "Oct 2023",
+                "country": "PL",
+                "region": "West Pomeranian Voivodeship"
             }
         },
         "\u0141\u00f3d\u017a Voivodeship": {
@@ -45522,14 +46412,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721075961,
-                "author": "Update Tracker Bot",
-                "panoId": "ApyJB8Gv1SaZqUUBfBK27g",
-                "lat": 51.7736,
-                "lng": 19.78023,
-                "date": "Apr 2023",
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "ldCer02EmUTa2r4igckM3g",
+                "lat": 51.60979,
+                "lng": 19.35118,
+                "date": "Apr 2024",
                 "country": "PL",
-                "altitude": 203.79,
                 "region": "\u0141\u00f3d\u017a Voivodeship"
             },
             "Aug": {
@@ -45562,16 +46452,15 @@
             },
             "Oct": {
                 "types": [
-                    "newregion",
-                    "gen3update"
+                    "newregion"
                 ],
-                "report_time": 1734170584,
-                "author": "jpeters",
-                "id": "1317431659527671820",
-                "panoId": "D0TUhCoJyU4dXHyXQKrq-A",
-                "lat": 50.98938,
-                "lng": 19.42869,
-                "date": "Oct 2024",
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "GSeFgzyrS_WnR5CASjlaig",
+                "lat": 51.20171,
+                "lng": 18.48259,
+                "date": "Oct 2023",
                 "country": "PL",
                 "region": "\u0141\u00f3d\u017a Voivodeship"
             },
@@ -45579,13 +46468,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734183502,
-                "author": "mpk",
-                "id": "1317485844046680105",
-                "panoId": "n6Xrb9NndbxnrYo_6iO4lg",
-                "lat": 51.41213,
-                "lng": 19.728,
-                "date": "Jul 2023",
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "d06LrB11KmqAR7ymW36SAg",
+                "lat": 51.45952,
+                "lng": 19.22793,
+                "date": "Jul 2024",
                 "country": "PL",
                 "region": "\u0141\u00f3d\u017a Voivodeship"
             },
@@ -45602,6 +46491,34 @@
                 "date": "Jun 2024",
                 "country": "PL",
                 "region": "\u0141\u00f3d\u017a Voivodeship"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "p9HYAYq7WbsINnoSO0xALQ",
+                "lat": 51.23813,
+                "lng": 19.51882,
+                "date": "May 2024",
+                "country": "PL",
+                "region": "\u0141\u00f3d\u017a Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "40JlFkKC7_iWgsD_sh-PeA",
+                "lat": 51.34874,
+                "lng": 19.22754,
+                "date": "Mar 2024",
+                "country": "PL",
+                "region": "\u0141\u00f3d\u017a Voivodeship"
             }
         },
         "Kuyavian-Pomeranian Voivodeship": {
@@ -45609,28 +46526,28 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721068974,
+                "report_time": 1735507335,
                 "author": "DeSlagen",
-                "panoId": "B3ZnNWDr24WLHH5Rh2zKoA",
-                "lat": 53.12174,
-                "lng": 17.9683,
-                "date": "Apr 2023",
+                "id": "1323038401552711720",
+                "panoId": "0UwQUKUymjYPLk81H3J5gw",
+                "lat": 53.0898,
+                "lng": 19.58367,
+                "date": "Apr 2024",
                 "country": "PL",
-                "altitude": 69.76,
                 "region": "Kuyavian-Pomeranian Voivodeship"
             },
             "Jun": {
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721069160,
+                "report_time": 1735507348,
                 "author": "DeSlagen",
-                "panoId": "kH0wouUXeB5lbOX6-907SA",
-                "lat": 53.11548,
-                "lng": 17.96417,
-                "date": "Jun 2023",
+                "id": "1323038454530965595",
+                "panoId": "_4JNR2qFdzEOBGF_Khmp1w",
+                "lat": 53.08748,
+                "lng": 19.05383,
+                "date": "Jun 2024",
                 "country": "PL",
-                "altitude": 71.43,
                 "region": "Kuyavian-Pomeranian Voivodeship"
             },
             "Oct": {
@@ -45652,13 +46569,69 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734046741,
+                "report_time": 1735507353,
                 "author": "DeSlagen",
-                "id": "1316912227026210909",
-                "panoId": "GE6QMov-IeFR5NTO4gmaYQ",
-                "lat": 53.48343,
-                "lng": 18.74219,
-                "date": "Sep 2023",
+                "id": "1323038476383555727",
+                "panoId": "tcyzou239r1201OZAzQLlw",
+                "lat": 53.45449,
+                "lng": 18.96051,
+                "date": "Sep 2024",
+                "country": "PL",
+                "region": "Kuyavian-Pomeranian Voivodeship"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "24WTcpsfHeGYyd65CGWXtA",
+                "lat": 53.19659,
+                "lng": 19.07647,
+                "date": "May 2024",
+                "country": "PL",
+                "region": "Kuyavian-Pomeranian Voivodeship"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "KQiQtjn31i5vU-uGr-EBJg",
+                "lat": 52.89027,
+                "lng": 19.34391,
+                "date": "Jul 2024",
+                "country": "PL",
+                "region": "Kuyavian-Pomeranian Voivodeship"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "0Gn5j-KinHTRpkBOhSvMtw",
+                "lat": 52.66314,
+                "lng": 18.31917,
+                "date": "Aug 2023",
+                "country": "PL",
+                "region": "Kuyavian-Pomeranian Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "T2JzrDUzQtY7naZ5BdFP2w",
+                "lat": 53.25349,
+                "lng": 19.39107,
+                "date": "Mar 2024",
                 "country": "PL",
                 "region": "Kuyavian-Pomeranian Voivodeship"
             }
@@ -45711,13 +46684,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734031253,
+                "report_time": 1735507334,
                 "author": "DeSlagen",
-                "id": "1316847264928501903",
-                "panoId": "QYw9AwArzZyvDHDFn846TQ",
-                "lat": 54.60375,
-                "lng": 18.21518,
-                "date": "Jul 2024",
+                "id": "1323038398025564191",
+                "panoId": "JSYY9OcERWroTJlzANaMow",
+                "lat": 54.433,
+                "lng": 18.46496,
+                "date": "Jul 2023",
                 "country": "PL",
                 "region": "Pomeranian Voivodeship"
             },
@@ -45734,22 +46707,63 @@
                 "date": "Oct 2024",
                 "country": "PL",
                 "region": "Pomeranian Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "0IVkzfreOgigHRJSqdN0xg",
+                "lat": 54.12693,
+                "lng": 17.95589,
+                "date": "Mar 2024",
+                "country": "PL",
+                "region": "Pomeranian Voivodeship"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "0LH3TJMuMn4nE31vNHZx6g",
+                "lat": 54.50867,
+                "lng": 18.54358,
+                "date": "Aug 2023",
+                "country": "PL",
+                "region": "Pomeranian Voivodeship"
+            },
+            "Jun": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "SBJEa_9VGx42rgrxsjjrAw",
+                "lat": 54.15177,
+                "lng": 17.59916,
+                "date": "Jun 2024",
+                "country": "PL",
+                "region": "Pomeranian Voivodeship"
             }
         },
         "Greater Poland Voivodeship": {
             "Jun": {
                 "types": [
-                    "newregion",
-                    "gen3update"
+                    "newregion"
                 ],
-                "report_time": 1721076045,
-                "author": "Update Tracker Bot",
-                "panoId": "pPJpMSz004L42ZbxoTXIrg",
-                "lat": 51.15888,
-                "lng": 17.88126,
-                "date": "Jun 2023",
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "L4O4RNJId5mp-7ttYcCY_g",
+                "lat": 51.49109,
+                "lng": 17.85729,
+                "date": "Jun 2024",
                 "country": "PL",
-                "altitude": 178.84,
                 "region": "Greater Poland Voivodeship"
             },
             "Sep": {
@@ -45814,13 +46828,41 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734183502,
-                "author": "mpk",
-                "id": "1317485844046680105",
-                "panoId": "v8R5egZboIbhB50Wt46nlw",
-                "lat": 51.68212,
-                "lng": 17.43206,
-                "date": "Jul 2024",
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "2uIZjA3oyMDItPDGYzZg2w",
+                "lat": 52.3689,
+                "lng": 17.41544,
+                "date": "Jul 2023",
+                "country": "PL",
+                "region": "Greater Poland Voivodeship"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "_z88kPgvmVgNbi--1Vqipg",
+                "lat": 51.43665,
+                "lng": 17.96735,
+                "date": "May 2024",
+                "country": "PL",
+                "region": "Greater Poland Voivodeship"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "d_8XhMpCPEBQNwyFlGgmvg",
+                "lat": 51.43722,
+                "lng": 17.94306,
+                "date": "Apr 2024",
                 "country": "PL",
                 "region": "Greater Poland Voivodeship"
             }
@@ -45844,41 +46886,41 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721069911,
-                "author": "simonnt",
-                "panoId": "qazzQu3CEGN0QcDjP9aLrg",
-                "lat": 50.01289,
-                "lng": 20.97969,
-                "date": "May 2023",
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "mEIm4d9SwyZf9Zw-oyv6xA",
+                "lat": 49.81188,
+                "lng": 19.69485,
+                "date": "May 2024",
                 "country": "PL",
-                "altitude": 203.8,
                 "region": "Lesser Poland Voivodeship"
             },
             "Apr": {
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721069072,
+                "report_time": 1735507335,
                 "author": "DeSlagen",
-                "panoId": "t1izIia_vuDDm9LvPVHQIA",
-                "lat": 50.11823,
-                "lng": 19.92427,
-                "date": "Apr 2023",
+                "id": "1323038401552711720",
+                "panoId": "KcqzklzQlMa26-BDaaPciA",
+                "lat": 50.14257,
+                "lng": 20.10933,
+                "date": "Apr 2024",
                 "country": "PL",
-                "altitude": 236.15,
                 "region": "Lesser Poland Voivodeship"
             },
             "Oct": {
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734028494,
-                "author": "mpk",
-                "id": "1316835692378193930",
-                "panoId": "scy4DhjYCyBuD1LKnRkcqQ",
-                "lat": 49.38974,
-                "lng": 20.90836,
-                "date": "Oct 2023",
+                "report_time": 1735586701,
+                "author": "DeSlagen",
+                "id": "1323371284037505054",
+                "panoId": "D7D-FX6n0DiftVld3OuLLQ",
+                "lat": 50.13055,
+                "lng": 20.99642,
+                "date": "Oct 2024",
                 "country": "PL",
                 "region": "Lesser Poland Voivodeship"
             },
@@ -45900,13 +46942,41 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734183502,
-                "author": "mpk",
-                "id": "1317485844046680105",
-                "panoId": "NT7IJZRN8eZmEuS7VZTdvw",
-                "lat": 50.00035,
-                "lng": 19.41273,
-                "date": "Aug 2023",
+                "report_time": 1735586701,
+                "author": "DeSlagen",
+                "id": "1323371284037505054",
+                "panoId": "OvL8f7My_IXBGPzOooYqlg",
+                "lat": 49.74963,
+                "lng": 21.01968,
+                "date": "Aug 2024",
+                "country": "PL",
+                "region": "Lesser Poland Voivodeship"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586701,
+                "author": "DeSlagen",
+                "id": "1323371284037505054",
+                "panoId": "8BGM4HNRkWC1rIvxon_psQ",
+                "lat": 49.68061,
+                "lng": 21.14093,
+                "date": "Sep 2024",
+                "country": "PL",
+                "region": "Lesser Poland Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "HyuGzuTKrOZbb4WA0G8Imw",
+                "lat": 50.22315,
+                "lng": 20.01219,
+                "date": "Mar 2024",
                 "country": "PL",
                 "region": "Lesser Poland Voivodeship"
             }
@@ -45988,13 +47058,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734171486,
-                "author": "jpeters",
-                "id": "1317435445440942142",
-                "panoId": "mm432YGPPxPqvWDDXGxb6A",
-                "lat": 52.75495,
-                "lng": 15.26527,
-                "date": "Oct 2024",
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "rg7lKit0i4Ec4BWj_D0FPA",
+                "lat": 52.26711,
+                "lng": 15.54186,
+                "date": "Oct 2023",
                 "country": "PL",
                 "region": "Lubusz Voivodeship"
             },
@@ -46002,13 +47072,27 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734183502,
-                "author": "mpk",
-                "id": "1317485844046680105",
-                "panoId": "seoBynDNvnUPWnFB-5RQXg",
-                "lat": 51.9388,
-                "lng": 15.58545,
-                "date": "Jul 2023",
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "_zR6dxVjOI8nu0g-7nBHiw",
+                "lat": 51.78073,
+                "lng": 14.98301,
+                "date": "Jul 2024",
+                "country": "PL",
+                "region": "Lubusz Voivodeship"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735586701,
+                "author": "DeSlagen",
+                "id": "1323371284037505054",
+                "panoId": "jBmt0_7UAJa5nOqgjACfYA",
+                "lat": 52.74308,
+                "lng": 15.16183,
+                "date": "Sep 2024",
                 "country": "PL",
                 "region": "Lubusz Voivodeship"
             }
@@ -46018,14 +47102,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721076123,
-                "author": "Update Tracker Bot",
-                "panoId": "cP8vcOkI0YiKd7b-8iyolQ",
-                "lat": 53.58078,
-                "lng": 19.80672,
-                "date": "Apr 2023",
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "YXhb5Xm8nZpmoc7jetM3Qg",
+                "lat": 54.21989,
+                "lng": 20.11698,
+                "date": "Apr 2024",
                 "country": "PL",
-                "altitude": 130.86,
                 "region": "Warmian-Masurian Voivodeship"
             },
             "Jun": {
@@ -46044,16 +47128,15 @@
             },
             "Aug": {
                 "types": [
-                    "newregion",
-                    "newyear"
+                    "newregion"
                 ],
-                "report_time": 1734034272,
-                "author": "snowf",
-                "id": "1316859926043431023",
-                "panoId": "q6eLLxr00VYkrh-xmgWqyQ",
-                "lat": 53.86107,
-                "lng": 22.71461,
-                "date": "Aug 2024",
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "wG5_q2WTbozICq2yms-8NQ",
+                "lat": 53.78312,
+                "lng": 20.37163,
+                "date": "Aug 2023",
                 "country": "PL",
                 "region": "Warmian-Masurian Voivodeship"
             },
@@ -46061,13 +47144,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734198737,
-                "author": "ewde_",
-                "id": "1317549741269057658",
-                "panoId": "u9JwlxxkFwrkzBGftmQPXg",
-                "lat": 53.77788,
-                "lng": 20.48271,
-                "date": "Oct 2024",
+                "report_time": 1735586700,
+                "author": "DeSlagen",
+                "id": "1323371280577073164",
+                "panoId": "zqfU_aJsAPsHKyRrtG0nQg",
+                "lat": 53.24259,
+                "lng": 19.95583,
+                "date": "Oct 2023",
                 "country": "PL",
                 "region": "Warmian-Masurian Voivodeship"
             },
@@ -46084,6 +47167,34 @@
                 "date": "Sep 2024",
                 "country": "PL",
                 "region": "Warmian-Masurian Voivodeship"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "xHQgfWz1JTvPFiJZnx6Liw",
+                "lat": 53.9526,
+                "lng": 22.40367,
+                "date": "Mar 2024",
+                "country": "PL",
+                "region": "Warmian-Masurian Voivodeship"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "Ty-Iu-G4vjZ6whsIwbQHxQ",
+                "lat": 53.91492,
+                "lng": 20.11263,
+                "date": "Jul 2023",
+                "country": "PL",
+                "region": "Warmian-Masurian Voivodeship"
             }
         },
         "Lublin Voivodeship": {
@@ -46091,14 +47202,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1721075986,
-                "author": "Update Tracker Bot",
-                "panoId": "BFSI-E85rn41-6ZYdzJQnQ",
-                "lat": 50.87749,
-                "lng": 21.90234,
-                "date": "Jun 2023",
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "bhZU8PN8k-TEoZ-12tIP3Q",
+                "lat": 51.78035,
+                "lng": 23.58963,
+                "date": "Jun 2024",
                 "country": "PL",
-                "altitude": 203.48,
                 "region": "Lublin Voivodeship"
             },
             "Jul": {
@@ -46119,13 +47230,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1734183502,
-                "author": "mpk",
-                "id": "1317485844046680105",
-                "panoId": "Ke1hziHVwhsfKB2Mqww-bA",
-                "lat": 50.72199,
-                "lng": 23.21903,
-                "date": "Aug 2024",
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "E1Hf0R7JzJfcG3A3cdD5nw",
+                "lat": 51.52948,
+                "lng": 22.33081,
+                "date": "Aug 2023",
                 "country": "PL",
                 "region": "Lublin Voivodeship"
             },
@@ -46141,6 +47252,48 @@
                 "lat": 51.3006,
                 "lng": 22.59277,
                 "date": "Nov 2023",
+                "country": "PL",
+                "region": "Lublin Voivodeship"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507348,
+                "author": "DeSlagen",
+                "id": "1323038454530965595",
+                "panoId": "o0SwN-GnUZpQSy3t3pl2cQ",
+                "lat": 51.83444,
+                "lng": 22.2003,
+                "date": "May 2024",
+                "country": "PL",
+                "region": "Lublin Voivodeship"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507335,
+                "author": "DeSlagen",
+                "id": "1323038401552711720",
+                "panoId": "cw8lNlsXGGTjOHv-MzKTmg",
+                "lat": 50.73253,
+                "lng": 22.55891,
+                "date": "Oct 2023",
+                "country": "PL",
+                "region": "Lublin Voivodeship"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735507334,
+                "author": "DeSlagen",
+                "id": "1323038398025564191",
+                "panoId": "EPRSpM1waqGYDJy90USanw",
+                "lat": 51.78033,
+                "lng": 23.58964,
+                "date": "Sep 2023",
                 "country": "PL",
                 "region": "Lublin Voivodeship"
             }
@@ -46850,6 +48003,20 @@
                 "date": "Jun 2023",
                 "country": "FI",
                 "altitude": 136.21,
+                "region": "Kainuu"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735121772,
+                "author": "Alex*",
+                "id": "1321421231542505563",
+                "panoId": "XNUNKoY-RsIy6XLf9olWrQ",
+                "lat": 64.92936,
+                "lng": 27.60514,
+                "date": "Sep 2024",
+                "country": "FI",
                 "region": "Kainuu"
             }
         },
@@ -48168,6 +49335,20 @@
                 "country": "IN",
                 "altitude": 585.79,
                 "region": "Telangana"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735517459,
+                "author": "DerZiggi",
+                "id": "1323080861721038848",
+                "panoId": "5x0kbHURFAt3ySLXD-ufjA",
+                "lat": 17.49673,
+                "lng": 78.31882,
+                "date": "Dec 2024",
+                "country": "IN",
+                "region": "Telangana"
             }
         },
         "Meghalaya": {
@@ -48291,6 +49472,20 @@
                 "country": "IN",
                 "region": "Maharashtra",
                 "altitude": 20.73
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1734914951,
+                "author": "DerZiggi",
+                "id": "1320553759843156010",
+                "panoId": "_QXMlJPh2cCo-PAVa9wuew",
+                "lat": 18.67921,
+                "lng": 73.78042,
+                "date": "Dec 2024",
+                "country": "IN",
+                "region": "Maharashtra"
             }
         },
         "Khardung La Rd": {},
@@ -48435,6 +49630,20 @@
                 "country": "IN",
                 "region": "Rajasthan",
                 "altitude": 413.65
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735429846,
+                "author": "DeSlagen",
+                "id": "1322713388446646335",
+                "panoId": "PeHt6tnwpvQa82iLdQUwoA",
+                "lat": 26.90092,
+                "lng": 75.74395,
+                "date": "Dec 2024",
+                "country": "IN",
+                "region": "Rajasthan"
             }
         },
         "Punjab": {
@@ -48656,6 +49865,20 @@
                 "date": "Jul 2024",
                 "country": "IN",
                 "altitude": 32.75,
+                "region": "Gujarat"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1735247858,
+                "author": "Tobetelogi",
+                "id": "1321950075378729081",
+                "panoId": "65KWaJiZ9F1J30FA7Do5KA",
+                "lat": 23.22404,
+                "lng": 72.50929,
+                "date": "Nov 2024",
+                "country": "IN",
                 "region": "Gujarat"
             }
         },
@@ -49460,6 +50683,63 @@
                 "date": "Nov 2024",
                 "country": "NG",
                 "region": "Taraba"
+            }
+        },
+        "Katsina": {
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newarea",
+                    "newtown",
+                    "newroad"
+                ],
+                "report_time": 1735634771,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1323572904536834100",
+                "panoId": "_utMXm50X2o4am6WKkKUAA",
+                "lat": 11.41786,
+                "lng": 7.47879,
+                "date": "Dec 2024",
+                "country": "NG",
+                "region": "Katsina"
+            }
+        },
+        "Kaduna": {
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newyear",
+                    "newtown",
+                    "newroad"
+                ],
+                "report_time": 1735538953,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1323171014007459930",
+                "panoId": "Vx12plIYGW1CvWUq_fbkeA",
+                "lat": 11.25822,
+                "lng": 7.59779,
+                "date": "Dec 2024",
+                "country": "NG",
+                "region": "Kaduna"
+            }
+        },
+        "A2": {
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1735907245,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1324715745002917981",
+                "panoId": "LKuuy07Lv5qWId5tXUcesA",
+                "lat": 11.42095,
+                "lng": 8.14505,
+                "date": "Dec 2024",
+                "country": "NG",
+                "region": "A2"
             }
         }
     },
