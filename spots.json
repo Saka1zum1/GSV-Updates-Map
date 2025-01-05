@@ -30385,5 +30385,21 @@
         "lng": 115.84016,
         "country": "AU",
         "region": "Western Australia"
+    },
+    {
+        "spot_date": "2025/01/03",
+        "id": "1325129938457727076",
+        "links": [
+            "https://www.instagram.com/flysicardi/reel/DEVcNKgv-K2/",
+            "https://maps.app.goo.gl/8V72ktR3fCUfA3Gf8"
+        ],
+        "report_time": 1736005997,
+        "author": "Woly",
+        "spot_type": "Gen4",
+        "panoId": "behikl44UCkj2Ac5sxzBQA",
+        "lat": -34.60974,
+        "lng": -58.40002,
+        "country": "AR",
+        "region": "Buenos Aires"
     }
 ]
