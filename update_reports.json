@@ -155975,5 +155975,33 @@
         "date": "Nov 2024",
         "country": "NZ",
         "region": "Wellington"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736103329,
+        "author": "Diamond Armor Steve",
+        "id": "1325538179737981080",
+        "panoId": "rwHxWRWbtSm1Th5KV0ZsMQ",
+        "lat": 36.72858,
+        "lng": -80.9984,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Virginia"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1736125229,
+        "author": "Ryan",
+        "id": "1325630035339509791",
+        "panoId": "sLY-jHHP_FcEK1Gm7NqMAg",
+        "lat": 39.75044,
+        "lng": -123.81838,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "California"
     }
 ]
