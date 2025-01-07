@@ -156032,5 +156032,193 @@
         "date": "Nov 2024",
         "country": "EC",
         "region": "Guayas"
+    },
+    {
+        "types": [
+            "newtown",
+            "newarea"
+        ],
+        "report_time": 1736212004,
+        "author": "K\u00fcgul",
+        "id": "1325993996962496533",
+        "panoId": "wD3C0goZWePBq9JcLof7zg",
+        "lat": -30.34823,
+        "lng": 21.8252,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736211852,
+        "author": "K\u00fcgul",
+        "id": "1325993358891683923",
+        "panoId": "se-v8snPxaTciuRePQaU4Q",
+        "lat": -32.21118,
+        "lng": 24.66748,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Eastern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736211745,
+        "author": "K\u00fcgul",
+        "id": "1325992910566461561",
+        "panoId": "HtbgVXKIzimE2nDN0rTigQ",
+        "lat": -34.00825,
+        "lng": 21.86782,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Western Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736211727,
+        "author": "K\u00fcgul",
+        "id": "1325992833492193320",
+        "panoId": "cOlFy8nK-vvlesgGQYIxcA",
+        "lat": -34.38333,
+        "lng": 21.77184,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "region": "Western Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736211540,
+        "author": "K\u00fcgul",
+        "id": "1325992050398855232",
+        "panoId": "aSGdb94hKhBkUfhDLvAG2g",
+        "lat": -29.3339,
+        "lng": 31.06461,
+        "date": "Oct 2024",
+        "country": "ZA",
+        "region": "KwaZulu-Natal"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea"
+        ],
+        "report_time": 1736211386,
+        "author": "K\u00fcgul",
+        "id": "1325991403859214366",
+        "panoId": "gA8MmaqP6QBJuOhx5zWqpw",
+        "lat": -27.32374,
+        "lng": 32.31778,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "KwaZulu-Natal"
+    },
+    {
+        "types": [
+            "newgen4",
+            "ariupdate"
+        ],
+        "report_time": 1736211212,
+        "author": "K\u00fcgul",
+        "id": "1325990673748332655",
+        "panoId": "Fkvi61vKxcJUZiny4eucBA",
+        "lat": -0.23273,
+        "lng": -78.45695,
+        "date": "Nov 2024",
+        "country": "EC",
+        "region": "Pichincha"
+    },
+    {
+        "types": [
+            "newroad",
+            "newarea"
+        ],
+        "report_time": 1736210981,
+        "author": "mpk",
+        "id": "1325989707389206699",
+        "panoId": "DC0Jp1UE3wonpJKAaln40Q",
+        "lat": -27.54372,
+        "lng": 21.32824,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736213948,
+        "author": "Patxepi",
+        "id": "1326002150106595359",
+        "panoId": "8fdmVEnaQNLrmyu3K8t9Hw",
+        "lat": -0.28667,
+        "lng": -78.58347,
+        "date": "Oct 2024",
+        "country": "EC",
+        "region": "Pichincha"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736251268,
+        "author": "Mr. Toledo",
+        "id": "1326158682689503252",
+        "panoId": "OgVCSc4vPX9vyTBxY-ZGFg",
+        "lat": 41.96359,
+        "lng": -85.0234,
+        "date": "Aug 2024",
+        "country": "US",
+        "region": "Michigan"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1736263939,
+        "author": "malguem_qwer",
+        "id": "1326211829583581236",
+        "panoId": "Oql5huzIQbPAhF5L4G5zgw",
+        "lat": 54.35432,
+        "lng": 17.90613,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1736263939,
+        "author": "malguem_qwer",
+        "id": "1326211829583581236",
+        "panoId": "ncZ2ykwzeUiJnF1LEsMwEg",
+        "lat": 54.31613,
+        "lng": 17.90898,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet",
+            "newtown"
+        ],
+        "report_time": 1736263573,
+        "author": "malguem_qwer",
+        "id": "1326210292253851711",
+        "panoId": "ByUz2Yi2cIz6kdpjiVpt8w",
+        "lat": 54.24018,
+        "lng": 16.88575,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Pomeranian Voivodeship"
     }
 ]

@@ -30417,5 +30417,37 @@
         "lng": 120.60157,
         "country": "PH",
         "region": "Cordillera Administrative Region"
+    },
+    {
+        "spot_date": "2025/01/07",
+        "id": "1326084687332114585",
+        "links": [
+            "https://youtu.be/DQpT2BiY3J0",
+            "https://maps.app.goo.gl/o9E17ZT6UeMvjVAj6"
+        ],
+        "report_time": 1736233626,
+        "author": "macca",
+        "spot_type": "Gen4",
+        "panoId": "OX9fXHKOQY8dzmB7vENa9A",
+        "lat": -34.56083,
+        "lng": 146.40051,
+        "country": "AU",
+        "region": "New South Wales"
+    },
+    {
+        "spot_date": "2025/01/06",
+        "id": "1326164897549258883",
+        "links": [
+            "https://www.facebook.com/reel/2512695788933333",
+            "https://maps.app.goo.gl/BiLfmaeUPpp1qgiU6"
+        ],
+        "report_time": 1736252750,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "SlP-0jmWyVQ74bWa-0xpVA",
+        "lat": -7.81718,
+        "lng": 109.99609,
+        "country": "ID",
+        "region": "Central Java"
     }
 ]
