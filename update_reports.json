@@ -156003,5 +156003,34 @@
         "date": "Nov 2024",
         "country": "US",
         "region": "California"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1736181309,
+        "author": "HoustonMediaHD",
+        "id": "1325865252184658041",
+        "panoId": "NGJx1JFV7gKl4lRif4wgwg",
+        "lat": 32.64022,
+        "lng": -117.09834,
+        "date": "Oct 2024",
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1736204506,
+        "author": "DerZiggi",
+        "id": "1325962548360515595",
+        "panoId": "CUchWBqUZnfJvziOb6DvRg",
+        "lat": -2.10047,
+        "lng": -79.9248,
+        "date": "Nov 2024",
+        "country": "EC",
+        "region": "Guayas"
     }
 ]

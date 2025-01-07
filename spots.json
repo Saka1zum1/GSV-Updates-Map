@@ -30401,5 +30401,21 @@
         "lng": -58.40002,
         "country": "AR",
         "region": "Buenos Aires"
+    },
+    {
+        "spot_date": "2025/01/06",
+        "id": "1325802551932878983",
+        "links": [
+            "https://youtu.be/dm4K9MgqWqw?si=bamZX1O7JWQNe2NR&t=9",
+            "https://maps.app.goo.gl/LGY3qtviaWBrw6qd8"
+        ],
+        "report_time": 1736166360,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "_iSoPvkQqJc396cDc4lkKw",
+        "lat": 16.40888,
+        "lng": 120.60157,
+        "country": "PH",
+        "region": "Cordillera Administrative Region"
     }
 ]
