@@ -156220,5 +156220,75 @@
         "date": "May 2024",
         "country": "PL",
         "region": "Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736267177,
+        "author": "Update Tracker Bot",
+        "id": "1326225410249195590",
+        "panoId": "LLsmDuaKHp3bsiwpTa29EQ",
+        "lat": 25.02609,
+        "lng": 121.50655,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Taipei City"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736265279,
+        "author": "Tobetelogi",
+        "id": "1326217448898297876",
+        "panoId": "2d7ajwJUEM5hafEMqu-4Dw",
+        "lat": 43.39293,
+        "lng": -93.34969,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Iowa"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736264649,
+        "author": "Tobetelogi",
+        "id": "1326214805106987078",
+        "panoId": "Ep_Ahc7fJcOhLNdfF5kbsA",
+        "lat": 43.79569,
+        "lng": -93.30363,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Minnesota"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736286967,
+        "author": "Update Tracker Bot",
+        "id": "1326308412874690573",
+        "panoId": "306pySzRb6azzd9WXtjvTQ",
+        "lat": 24.09919,
+        "lng": 120.58798,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "Changhua County"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736282220,
+        "author": "snowf",
+        "id": "1326288501758758962",
+        "panoId": "DBu5BLlULqxtlVWGjMs_3A",
+        "lat": 35.71327,
+        "lng": 139.5882,
+        "date": "Dec 2024",
+        "country": "JP",
+        "region": "Tokyo"
     }
 ]
