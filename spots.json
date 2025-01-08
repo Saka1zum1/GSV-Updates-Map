@@ -30449,5 +30449,53 @@
         "lng": 109.99609,
         "country": "ID",
         "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/01/07",
+        "id": "1326271776887668746",
+        "links": [
+            "https://www.threads.net/@rover.roger1/post/DEiTFzrybbG",
+            "https://maps.app.goo.gl/8UeSca7awVWNEpmr6"
+        ],
+        "report_time": 1736278232,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "GeEWNlDqKNl8kBeSar4bGQ",
+        "lat": 38.67547,
+        "lng": -121.39209,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2025/01/07",
+        "id": "1326527768569053307",
+        "links": [
+            "https://bsky.app/profile/jovany13.bsky.social/post/3lf6zcpdwl22t",
+            "https://maps.app.goo.gl/wvFSYmHaFEGDN2sL8"
+        ],
+        "report_time": 1736339265,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "zwsTBEpYJ88PLvq8hJ6_rw",
+        "lat": 32.13403,
+        "lng": -110.98184,
+        "country": "US",
+        "region": "Arizona"
+    },
+    {
+        "spot_date": "2025/01/08",
+        "id": "1326544721924980807",
+        "links": [
+            "https://x.com/ChiyoAcor/status/1876837547646619743?t=d56sl4AG3C-N7o9IPVU8mA&s=19",
+            "https://maps.app.goo.gl/Vnw6XkhnBRApbUhJ9"
+        ],
+        "report_time": 1736343307,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "DTiFXPhUKGUG4ieVTrfD-Q",
+        "lat": 34.93535,
+        "lng": 136.6152,
+        "country": "JP",
+        "region": "Mie"
     }
 ]

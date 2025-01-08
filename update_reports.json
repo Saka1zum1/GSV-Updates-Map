@@ -156290,5 +156290,47 @@
         "date": "Dec 2024",
         "country": "JP",
         "region": "Tokyo"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736299594,
+        "author": "Update Tracker Bot",
+        "id": "1326361374728654953",
+        "panoId": "ncwumR8hCfMcqODd1DHfXQ",
+        "lat": 24.98892,
+        "lng": 121.53582,
+        "date": "Dec 2024",
+        "country": "CN",
+        "region": "New Taipei City"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736333769,
+        "author": "Alok",
+        "id": "1326504714820649011",
+        "panoId": "DbcVNC6Ct9J4O0BwKEVAmw",
+        "lat": -27.74806,
+        "lng": 21.26281,
+        "date": "Nov 2024",
+        "country": "ZA",
+        "region": "Northern Cape"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736333265,
+        "author": "1xqd",
+        "id": "1326502602791194645",
+        "panoId": "iCvVlahdRiWqoEqbvlavDw",
+        "lat": 40.65232,
+        "lng": 17.15218,
+        "date": "Dec 2024",
+        "country": "IT",
+        "region": "Apulia"
     }
 ]
