@@ -156332,5 +156332,47 @@
         "date": "Dec 2024",
         "country": "IT",
         "region": "Apulia"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736372161,
+        "author": "ReAnna",
+        "id": "1326665741692309624",
+        "panoId": "95qn_kSOT0JTfbiF6i-O7g",
+        "lat": 63.88711,
+        "lng": 28.42173,
+        "date": "Oct 2024",
+        "country": "FI",
+        "region": "Kainuu"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736376758,
+        "author": "Mr. Toledo",
+        "id": "1326685026754105366",
+        "panoId": "Zh8oBC-7PkpnTM91JlHOPQ",
+        "lat": 38.98608,
+        "lng": -78.31876,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Virginia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736376758,
+        "author": "Mr. Toledo",
+        "id": "1326685026754105366",
+        "panoId": "3zinFhr1JpDwW_4Z8gbBJw",
+        "lat": 39.06448,
+        "lng": -77.82729,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Virginia"
     }
 ]
