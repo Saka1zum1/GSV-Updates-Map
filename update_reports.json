@@ -156374,5 +156374,103 @@
         "date": "Nov 2024",
         "country": "US",
         "region": "Virginia"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1736446109,
+        "author": "malguem_qwer",
+        "id": "1326975904219660389",
+        "panoId": "w3uK8M7XJRf90XNx68cqig",
+        "lat": 50.76234,
+        "lng": 16.33822,
+        "date": "Apr 2024",
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736445539,
+        "author": "ReAnna",
+        "id": "1326973513688682549",
+        "panoId": "cFg-oD--1bvPHv7ge8ff0w",
+        "lat": -16.16942,
+        "lng": -50.47569,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of Goi\u00e1s"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736450719,
+        "author": "Tobetelogi",
+        "id": "1326995239390674944",
+        "panoId": "6r8wUeG8-mBm3vZK-RCnWQ",
+        "lat": -9.41676,
+        "lng": -40.55977,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of Pernambuco"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736450375,
+        "author": "ReAnna",
+        "id": "1326993798747783189",
+        "panoId": "VBhMakZcvF76Ob6TO3C96w",
+        "lat": -9.47858,
+        "lng": -40.80814,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of Bahia"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736447408,
+        "author": "HoustonMediaHD",
+        "id": "1326981353538846882",
+        "panoId": "F8mulbn9CrYMLYkcYAr-hA",
+        "lat": 13.68166,
+        "lng": 100.61005,
+        "date": "Dec 2024",
+        "country": "TH",
+        "region": "Bangkok"
+    },
+    {
+        "types": [
+            "newcountry"
+        ],
+        "report_time": 1736447187,
+        "author": "Update Tracker Bot",
+        "id": "1326980426115580005",
+        "panoId": "QDRAnmF8ycRfJNIsSiLx9Q",
+        "lat": 13.66015,
+        "lng": 100.66421,
+        "date": "Dec 2024",
+        "country": "TH",
+        "region": "Samut Prakan"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736462635,
+        "author": "Ryan",
+        "id": "1327045220021567550",
+        "panoId": "39S3Yjr8UTxGBfG_ShRgVQ",
+        "lat": 38.46903,
+        "lng": -120.85809,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "California"
     }
 ]
