@@ -156472,5 +156472,322 @@
         "date": "Dec 2024",
         "country": "US",
         "region": "California"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736506691,
+        "author": "juliosalg",
+        "id": "1327230002286039121",
+        "panoId": "XYlXriAc607V-zP6s4uEKA",
+        "lat": -16.12391,
+        "lng": -50.21054,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Goi\u00e1s"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736510838,
+        "author": "juliosalg",
+        "id": "1327247395162947693",
+        "panoId": "t3V3uPG-fEfbHtn4DK6ENw",
+        "lat": -11.45412,
+        "lng": -38.45424,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Bahia"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736510276,
+        "author": "juliosalg",
+        "id": "1327245041206431794",
+        "panoId": "yPmiDdiB_2TeSxON3G1CnA",
+        "lat": -11.75362,
+        "lng": -39.82548,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Bahia"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736509962,
+        "author": "juliosalg",
+        "id": "1327243723347722313",
+        "panoId": "denDfNMrQvpEJ8z4yXNkxA",
+        "lat": -16.05275,
+        "lng": -49.6031,
+        "date": "Mar 2024",
+        "country": "BR",
+        "region": "State of Goi\u00e1s"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736509756,
+        "author": "juliosalg",
+        "id": "1327242859627413565",
+        "panoId": "LOLqR437W-lM5J_mQzzN0w",
+        "lat": -16.15875,
+        "lng": -50.40049,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of Goi\u00e1s"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1736491155,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1327164840258703370",
+        "panoId": "H0KHzOtNYndee6ISRQzQ3g",
+        "lat": 9.73874,
+        "lng": 9.3519,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Bauchi"
+    },
+    {
+        "types": [
+            "newregion",
+            "newarea",
+            "newroad"
+        ],
+        "report_time": 1736455523,
+        "author": "Alex*",
+        "id": "1327015389250715749",
+        "panoId": "mKiBevFE1iT3ShuEEbFtww",
+        "lat": 9.53005,
+        "lng": 9.16215,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Plateau"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736242461,
+        "author": "DerZiggi",
+        "id": "1326121743500185622",
+        "panoId": "K22yfcmaJ5t_2ZlhcDRIyg",
+        "lat": 23.01886,
+        "lng": 72.46102,
+        "date": "Dec 2024",
+        "country": "IN",
+        "region": "Gujarat"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736238866,
+        "author": "jpeters",
+        "id": "1326106663756894309",
+        "panoId": "utzbmTq5Yb-El9ZmdTgYCg",
+        "lat": 18.67672,
+        "lng": 73.79602,
+        "date": "Dec 2024",
+        "country": "IN",
+        "region": "Maharashtra"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736215046,
+        "author": "mpk",
+        "id": "1326006757008347147",
+        "panoId": "3xh6RaguwzwdXIPEuFNXKQ",
+        "lat": 11.42783,
+        "lng": 8.36261,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kano"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1736215046,
+        "author": "mpk",
+        "id": "1326006757008347147",
+        "panoId": "2VmpSZu4N5U2Nw7MhpMA2A",
+        "lat": 11.63631,
+        "lng": 8.01581,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kano"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1736215046,
+        "author": "mpk",
+        "id": "1326006757008347147",
+        "panoId": "PwOQj7hXSlyLSZFaNkAiZw",
+        "lat": 11.20753,
+        "lng": 8.10897,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kaduna"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736215046,
+        "author": "mpk",
+        "id": "1326006757008347147",
+        "panoId": "1vwuBqIeyEEQiknume1Glw",
+        "lat": 11.46138,
+        "lng": 7.98911,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kaduna"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1736215046,
+        "author": "mpk",
+        "id": "1326006757008347147",
+        "panoId": "urFXKH79eewhEnU9TxtR4w",
+        "lat": 11.38009,
+        "lng": 7.88303,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kaduna"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736213197,
+        "author": "mpk",
+        "id": "1325998999500623964",
+        "panoId": "nQ-aUiEQWz3RAA4ONL51FQ",
+        "lat": 12.93633,
+        "lng": 77.50458,
+        "date": "Dec 2024",
+        "country": "IN",
+        "region": "Karnataka"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736520990,
+        "author": "jpeters",
+        "id": "1327289979289993266",
+        "panoId": "L27I2nHonzVKeLI9XjfnBg",
+        "lat": 38.1527,
+        "lng": -76.63137,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Virginia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736520594,
+        "author": "jpeters",
+        "id": "1327288314578866176",
+        "panoId": "owUA_oJP2sg8lTi4bzrrwA",
+        "lat": 37.53936,
+        "lng": -91.94473,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Missouri"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736540821,
+        "author": "Tobetelogi",
+        "id": "1327373154359709716",
+        "panoId": "dADWkYQGuXoyNtE6_CFkEQ",
+        "lat": -9.35158,
+        "lng": -38.17939,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of Alagoas"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736540821,
+        "author": "Tobetelogi",
+        "id": "1327373154359709716",
+        "panoId": "D3XOtWRX2kQTRRfe6me--g",
+        "lat": -22.46607,
+        "lng": -47.51529,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736547420,
+        "author": "Mr. Toledo",
+        "id": "1327400831875551254",
+        "panoId": "PwUKotO6rlCA5zMWoO9E-g",
+        "lat": 32.27068,
+        "lng": -89.45693,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Mississippi"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736546353,
+        "author": "Mr. Toledo",
+        "id": "1327396355684958281",
+        "panoId": "UqMqlpuS_48xqzEL27GsQQ",
+        "lat": 38.37,
+        "lng": -83.48369,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Kentucky"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1736548083,
+        "author": "Mr. Toledo",
+        "id": "1327403614854971437",
+        "panoId": "0EXn0pxwByi2AYM9TXvO2g",
+        "lat": 11.5352,
+        "lng": 8.15862,
+        "date": "Dec 2024",
+        "country": "NG",
+        "region": "Kano"
     }
 ]

@@ -30497,5 +30497,53 @@
         "lng": 136.6152,
         "country": "JP",
         "region": "Mie"
+    },
+    {
+        "spot_date": "2025/01/09",
+        "id": "1327138229647966311",
+        "links": [
+            "https://www.youtube.com/watch?v=Ff930tlRAuw&ab_channel=RonzandEthan",
+            "https://maps.app.goo.gl/7o7tfJpQNt9ijibTA"
+        ],
+        "report_time": 1736484810,
+        "author": "HoustonMediaHD",
+        "spot_type": "Gen4",
+        "panoId": "zlDSB7-eby8YlKDFzkzAhQ",
+        "lat": 14.39402,
+        "lng": 121.04477,
+        "country": "PH",
+        "region": "Metro Manila"
+    },
+    {
+        "spot_date": "2018/06/28",
+        "id": "1327354638839845021",
+        "links": [
+            "https://www.instagram.com/p/Bkkt6IzFV1e/?utm_source=ig_tumblr_share",
+            "https://maps.app.goo.gl/o5oasdcDv6U3FPdK7"
+        ],
+        "report_time": 1736536406,
+        "author": "vegetal",
+        "spot_type": "Gen3",
+        "panoId": "7xzVTlyQ958dLVVrlzhQyQ",
+        "lat": 57.73121,
+        "lng": 11.98534,
+        "country": "SE",
+        "region": "V\u00e4stra G\u00f6taland County"
+    },
+    {
+        "spot_date": "2023/06/21",
+        "id": "1327271192364843070",
+        "links": [
+            "https://x.com/DaymoBrew/status/1861808523727765833/photo/2",
+            "https://maps.app.goo.gl/4Cxy4qzoHjzYWu188"
+        ],
+        "report_time": 1736516511,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4/H1",
+        "panoId": "ld1OvR32b042A3E4z_F_4w",
+        "lat": 53.36626,
+        "lng": -6.34193,
+        "country": "IE",
+        "region": "County Dublin"
     }
 ]
