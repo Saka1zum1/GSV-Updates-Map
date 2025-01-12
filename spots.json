@@ -30545,5 +30545,21 @@
         "lng": -6.34193,
         "country": "IE",
         "region": "County Dublin"
+    },
+    {
+        "spot_date": "2025/01/09",
+        "id": "1327713439879266364",
+        "links": [
+            "https://www.tiktok.com/@moyp3/video/7458104346945998085",
+            "https://maps.app.goo.gl/yCRFeP81EnVEjCHb9"
+        ],
+        "report_time": 1736621951,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "SbX49D2Kde8atXYt9g6gIg",
+        "lat": 17.96945,
+        "lng": -92.95853,
+        "country": "MX",
+        "region": "Tabasco"
     }
 ]

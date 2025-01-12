@@ -156789,5 +156789,91 @@
         "date": "Dec 2024",
         "country": "NG",
         "region": "Kano"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736589510,
+        "author": "juliosalg",
+        "id": "1327577370651004978",
+        "panoId": "yd7OpbHpYiUdCn9H2KXZow",
+        "lat": -21.72451,
+        "lng": -43.07254,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736588085,
+        "author": "juliosalg",
+        "id": "1327571395873607721",
+        "panoId": "_ql0YMMyc7Vs1A0--6Q0mw",
+        "lat": -9.79226,
+        "lng": -41.51756,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Bahia"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1736612581,
+        "author": "Mr. Toledo",
+        "id": "1327674135995875388",
+        "panoId": "liFGo086kUkuefQJO4Jgog",
+        "lat": -21.57959,
+        "lng": -42.98026,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1736612581,
+        "author": "Mr. Toledo",
+        "id": "1327674135995875388",
+        "panoId": "MuJ4S96PSl-I7mqgfsClqQ",
+        "lat": -21.60497,
+        "lng": -42.92733,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736613637,
+        "author": "Mr. Toledo",
+        "id": "1327678567412273184",
+        "panoId": "oD9zJUSaxOPvGVH9t1zYNg",
+        "lat": -11.57152,
+        "lng": -38.21531,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Bahia"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1736618968,
+        "author": "juliosalg",
+        "id": "1327700927750340628",
+        "panoId": "1SR5vF1q4LVe0AFPda78sw",
+        "lat": -13.65819,
+        "lng": -38.97639,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Bahia"
     }
 ]
