@@ -156875,5 +156875,61 @@
         "date": "Nov 2024",
         "country": "BR",
         "region": "State of Bahia"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1736659285,
+        "author": "Henrique",
+        "id": "1327870030461014047",
+        "panoId": "fd9WAUy9fJWK1-5iE-nn5w",
+        "lat": -22.36956,
+        "lng": -43.12789,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of Rio de Janeiro"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736696266,
+        "author": "Mr. Toledo",
+        "id": "1328025137441800203",
+        "panoId": "z9Ebip8eH4ocQ4Ao83UJuw",
+        "lat": 35.33363,
+        "lng": -96.6181,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Oklahoma"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736696266,
+        "author": "Mr. Toledo",
+        "id": "1328025137441800203",
+        "panoId": "79cjiIIznmBJccSeqsoI3Q",
+        "lat": 35.69715,
+        "lng": -96.41012,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Oklahoma"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736696266,
+        "author": "Mr. Toledo",
+        "id": "1328025137441800203",
+        "panoId": "DhcFNwfH6wHSJtZ53zuYjA",
+        "lat": 35.62458,
+        "lng": -96.44312,
+        "date": "Dec 2024",
+        "country": "US",
+        "region": "Oklahoma"
     }
 ]

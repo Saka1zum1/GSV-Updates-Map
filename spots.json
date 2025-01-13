@@ -30561,5 +30561,37 @@
         "lng": -92.95853,
         "country": "MX",
         "region": "Tabasco"
+    },
+    {
+        "spot_date": "2024/12/27",
+        "id": "1327841597269737595",
+        "links": [
+            "https://www.youtube.com/watch?v=hJ6FeXdJz_Q",
+            "https://maps.app.goo.gl/4UMpa2wKrZkPw6Rq5"
+        ],
+        "report_time": 1736652506,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "ctvKkcvxikibPIWcfhqSSA",
+        "lat": -33.35227,
+        "lng": -60.24043,
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2025/01/11",
+        "id": "1327976335687155813",
+        "links": [
+            "https://www.instagram.com/p/DEq2sq1gZiQ/",
+            "https://maps.app.goo.gl/inqYGjGvncntTuij9"
+        ],
+        "report_time": 1736684631,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "He-HtWSAb9SAlKXqizgeEg",
+        "lat": -0.95194,
+        "lng": 100.50401,
+        "country": "ID",
+        "region": "West Sumatra"
     }
 ]
