@@ -30593,5 +30593,117 @@
         "lng": 100.50401,
         "country": "ID",
         "region": "West Sumatra"
+    },
+    {
+        "spot_date": "2022/11/25",
+        "id": "1327578366827560990",
+        "links": [
+            "https://plomi.smugmug.com/Cars/Current-cars-in-Germany",
+            "https://maps.app.goo.gl/av73tn6vHfQdbQn19"
+        ],
+        "report_time": 1736589747,
+        "author": "vegetal",
+        "spot_type": "Gen4/H1",
+        "panoId": "L_nFtoKPrFMU5usXHdI0tA",
+        "lat": 49.49744,
+        "lng": 11.05457,
+        "country": "DE",
+        "region": "Bavaria"
+    },
+    {
+        "spot_date": "2014/04/14",
+        "id": "1327541651056496742",
+        "links": [
+            "https://www.incoprint.es/gran-formato/rotulacion-publicitaria/",
+            "https://maps.app.goo.gl/A1je1mK2oSvdDGmU7"
+        ],
+        "report_time": 1736580994,
+        "author": "vegetal",
+        "spot_type": "Gen3",
+        "panoId": "8GtuGtpc87_KQ7yReQz5LQ",
+        "lat": 40.45836,
+        "lng": -3.46328,
+        "country": "ES",
+        "region": "Community of Madrid"
+    },
+    {
+        "spot_date": "2025/01/12",
+        "id": "1328420212634026105",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=122201321810205508&set=gm.8886092701511033&idorvanity=2129549490498755",
+            "https://maps.app.goo.gl/uz7B5h2QhM4Jxj538"
+        ],
+        "report_time": 1736790459,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "SLkLMbs6SRekzZcIv3t-cw",
+        "lat": 18.0019,
+        "lng": -94.54501,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/01/06",
+        "id": "1328419975504855114",
+        "links": [
+            "https://www.threads.net/@a901531/post/DEfRKfeyuQZ",
+            "https://maps.app.goo.gl/Q9PgJQUButb94xgw8"
+        ],
+        "report_time": 1736790403,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "C5qfrr6FaQ_vLGq0eD9ogw",
+        "lat": 24.99647,
+        "lng": 121.56006,
+        "country": "CN",
+        "region": "Taipei City"
+    },
+    {
+        "spot_date": "2025/01/13",
+        "id": "1328490674273779763",
+        "links": [
+            "https://youtube.com/video/_JDxKJx7_Do?si=EIsXoMdenSqzigwe",
+            "https://maps.app.goo.gl/uhQwzWYDmLJFUWkP7"
+        ],
+        "report_time": 1736807258,
+        "author": "kirkcatcat",
+        "spot_type": "Gen4",
+        "panoId": "pGVMPwOMUUQhQ1z7lRyQAQ",
+        "lat": 17.44368,
+        "lng": 78.37578,
+        "country": "IN",
+        "region": "Telangana"
+    },
+    {
+        "spot_date": "2025/01/13",
+        "id": "1328713812412731523",
+        "links": [
+            "https://www.tiktok.com/@driyorejo_update/video/7459363846579440916",
+            "https://maps.app.goo.gl/z25K2nAnd7T1twWi8"
+        ],
+        "report_time": 1736860459,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "UM_u0THP-t9u2ztPL3Rs2w",
+        "lat": -7.36189,
+        "lng": 112.58471,
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "spot_date": "2025/01/02",
+        "id": "1328824796300967989",
+        "links": [
+            "https://www.instagram.com/reel/DEVlhQSycaH/",
+            "https://maps.app.goo.gl/NfMcBYUQ2gTowSxa6"
+        ],
+        "report_time": 1736886919,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "859SaMIOP1lbc6O8VIxGaw",
+        "lat": -1.74536,
+        "lng": -47.06462,
+        "country": "BR",
+        "region": "State of Par\u00e1"
     }
 ]
