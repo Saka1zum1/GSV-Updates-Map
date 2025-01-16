@@ -30705,5 +30705,85 @@
         "lng": -47.06462,
         "country": "BR",
         "region": "State of Par\u00e1"
+    },
+    {
+        "spot_date": "2025/01/14",
+        "id": "1328949006948237437",
+        "links": [
+            "https://www.tiktok.com/@duda_da_vl/video/7459957596951268614",
+            "https://maps.app.goo.gl/wy8ykXe9ecAxWsYS6"
+        ],
+        "report_time": 1736916533,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "lSi111k7zx6W19m_kTQPUA",
+        "lat": -23.28388,
+        "lng": -52.6044,
+        "country": "BR",
+        "region": "State of Paran\u00e1"
+    },
+    {
+        "spot_date": "2025/01/15",
+        "id": "1329200450934931476",
+        "links": [
+            "https://www.tiktok.com/@s_daaani/video/7460221283511307525",
+            "https://maps.app.goo.gl/dEDMZnePQEznvgS99"
+        ],
+        "report_time": 1736976482,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "BdNEu1x0R85H43-IS0Yh3Q",
+        "lat": -5.46387,
+        "lng": -47.88575,
+        "country": "BR",
+        "region": "State of Tocantins"
+    },
+    {
+        "spot_date": "2025/01/14",
+        "id": "1329188448229130292",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9529165763773325&set=gm.1834061610745956&idorvanity=1592385758246877",
+            "https://maps.app.goo.gl/tjFsbjDYmJ2xZM87A"
+        ],
+        "report_time": 1736973621,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "3N0gQAdQfE7UCuhcq6SxJw",
+        "lat": 32.76776,
+        "lng": -115.53309,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2025/01/08",
+        "id": "1329155040950091796",
+        "links": [
+            "https://www.tiktok.com/@marcosjunior__063/video/7457281266342251781",
+            "https://maps.app.goo.gl/2yW263ZJN4ppBPKz6"
+        ],
+        "report_time": 1736965656,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "BOrLnJYSo-N8HNs2ov1eOg",
+        "lat": -7.19429,
+        "lng": -48.21501,
+        "country": "BR",
+        "region": "State of Tocantins"
+    },
+    {
+        "spot_date": "2025/01/14",
+        "id": "1329140444684091402",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9613972038632592&set=a.474644305898790",
+            "https://maps.app.goo.gl/kEPwQgBwQ8qYg8579"
+        ],
+        "report_time": 1736962176,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "d2mgxnbkBcJqSKUAkmu7LA",
+        "lat": 19.97407,
+        "lng": -102.29438,
+        "country": "MX",
+        "region": "Michoac\u00e1n"
     }
 ]

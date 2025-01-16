@@ -157001,5 +157001,33 @@
         "date": "Dec 2024",
         "country": "US",
         "region": "California"
+    },
+    {
+        "types": [
+            "newtrekker"
+        ],
+        "report_time": 1736683752,
+        "author": "Ferrambo",
+        "id": "1327972648755396659",
+        "panoId": "7OcuaHAGOgdrB1UsTrogGQ",
+        "lat": -37.82185,
+        "lng": 144.97511,
+        "date": "Aug 2024",
+        "country": "AU",
+        "region": "Victoria"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1736986315,
+        "author": "Mr. Toledo",
+        "id": "1329241692808941588",
+        "panoId": "p_tdPSckihPj3iVOmALW9g",
+        "lat": 53.6516,
+        "lng": 16.11472,
+        "date": "Apr 2024",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
     }
 ]
