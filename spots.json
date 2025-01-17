@@ -30785,5 +30785,53 @@
         "lng": -102.29438,
         "country": "MX",
         "region": "Michoac\u00e1n"
+    },
+    {
+        "spot_date": "2024/01/15",
+        "id": "1329106155535863858",
+        "links": [
+            "https://x.com/KAME1219_2/status/1879342190578810944/photo/1",
+            "https://maps.app.goo.gl/czSp1cLkY1SZCFQFA"
+        ],
+        "report_time": 1736954001,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "nF6LyuMoZs8K8qqTvX1HeQ",
+        "lat": 35.51645,
+        "lng": 139.48104,
+        "country": "JP",
+        "region": "Tokyo"
+    },
+    {
+        "spot_date": "2025/01/15",
+        "id": "1329556854497349683",
+        "links": [
+            "https://www.instagram.com/reel/DE3kKDHAqGl/",
+            "https://maps.app.goo.gl/7jSwfXwXBWnuiVnTA"
+        ],
+        "report_time": 1737061456,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "3_QapA3GQW5ZXeMD7BUbWg",
+        "lat": -7.8069,
+        "lng": -37.79646,
+        "country": "BR",
+        "region": "State of Pernambuco"
+    },
+    {
+        "spot_date": "2025/01/14",
+        "id": "1329562356526612542",
+        "links": [
+            "https://www.youtube.com/watch?v=MLuQC5PZJxo",
+            "https://maps.app.goo.gl/uSBMBRFofFVTPZvF8"
+        ],
+        "report_time": 1737062767,
+        "author": "K\u00fcgul",
+        "spot_type": "Gen4",
+        "panoId": "gUynKAzIlqf-GbEDmORE7Q",
+        "lat": 35.97408,
+        "lng": -78.93197,
+        "country": "US",
+        "region": "North Carolina"
     }
 ]
