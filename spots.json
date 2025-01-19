@@ -30833,5 +30833,181 @@
         "lng": -78.93197,
         "country": "US",
         "region": "North Carolina"
+    },
+    {
+        "spot_date": "2025/01/18",
+        "id": "1330138232905793557",
+        "links": [
+            "https://www.reddit.com/r/hyderabad/comments/1i43a9g/anyone_know_what_this_vehicle_is_doing/",
+            "https://maps.app.goo.gl/drLf21hZRY72K2as9"
+        ],
+        "report_time": 1737200067,
+        "author": "Jay",
+        "spot_type": "Gen4",
+        "panoId": "xW6DfNbdUuZVC89OnEgdVQ",
+        "lat": 17.45258,
+        "lng": 78.38233,
+        "country": "IN",
+        "region": "Telangana"
+    },
+    {
+        "spot_date": "2025/01/18",
+        "id": "1330118500605497374",
+        "links": [
+            "https://www.reddit.com/r/hyderabad/comments/1i43a9g/anyone_know_what_this_vehicle_is_doing/",
+            "https://maps.app.goo.gl/hTSR8L1cJ3KxgjC69"
+        ],
+        "report_time": 1737195362,
+        "author": "Aedan",
+        "spot_type": "Gen4",
+        "panoId": "aJbMPjIFqUESAGCEfG_NsA",
+        "lat": 17.42304,
+        "lng": 78.38167,
+        "country": "IN",
+        "region": "Telangana"
+    },
+    {
+        "spot_date": "2025/01/17",
+        "id": "1329820301428523010",
+        "links": [
+            "https://x.com/furinadefontain/status/1880122028050772462/photo/1",
+            "https://maps.app.goo.gl/MgPv226ak6hw4q75A"
+        ],
+        "report_time": 1737124266,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "-iA2hzANGiZSe9E1cN54JA",
+        "lat": -6.30597,
+        "lng": 106.865,
+        "country": "ID",
+        "region": "Jakarta"
+    },
+    {
+        "spot_date": "2025/01/16",
+        "id": "1329808305970872434",
+        "links": [
+            "https://x.com/jdpereira/status/1880019284933636190/photo/1",
+            "https://maps.app.goo.gl/daJdke4vGEwP35N8A"
+        ],
+        "report_time": 1737121406,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "8vXhZS6Acz29EsQ9nmDCfA",
+        "lat": 37.79042,
+        "lng": -122.39311,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2025/01/17",
+        "id": "1329804660340424865",
+        "links": [
+            "https://youtu.be/4Yno8aVAm0w?si=arfD9edXTWQHpbqZ",
+            "https://maps.app.goo.gl/NPg2y1EhbYztdeUY9"
+        ],
+        "report_time": 1737120537,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "4GxCw9G9l7nIPrKt2xHzXw",
+        "lat": -7.56041,
+        "lng": 110.75878,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/01/12",
+        "id": "1330230810611159242",
+        "links": [
+            "https://www.tiktok.com/@motoyeezy1/video/7458885967202487568",
+            "https://maps.app.goo.gl/oYsNPQPmJAxR6zcr5"
+        ],
+        "report_time": 1737222139,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "gCmevNL-j4C0j8m-Iy6Odw",
+        "lat": 14.44436,
+        "lng": 120.91407,
+        "country": "PH",
+        "region": "Calabarzon"
+    },
+    {
+        "spot_date": "2025/01/18",
+        "id": "1330228732186726440",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1138242288302677&set=a.409633537830226",
+            "https://maps.app.goo.gl/J4hyAZAVxqRu7vsE7"
+        ],
+        "report_time": 1737221644,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "c80-zqZaJpvSaEKQoOueww",
+        "lat": 19.86024,
+        "lng": -102.03326,
+        "country": "MX",
+        "region": "Michoac\u00e1n"
+    },
+    {
+        "spot_date": "2025/01/18",
+        "id": "1330389694114168904",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1144858777647735&set=a.662739055859712",
+            "https://maps.app.goo.gl/yCjaRfjBEHk9fw2W9"
+        ],
+        "report_time": 1737260020,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "ozcQsJawWRvhF3hg-43cRQ",
+        "lat": 16.23224,
+        "lng": -93.27093,
+        "country": "MX",
+        "region": "Chiapas"
+    },
+    {
+        "spot_date": "2025/01/16",
+        "id": "1330301710585036913",
+        "links": [
+            "https://www.tiktok.com/@safira_zs/video/7460324126830398725?q=google%20street%20view%20%23loencontre&t=1737238856012",
+            "https://maps.app.goo.gl/HpmaRayFZDdt9gB19"
+        ],
+        "report_time": 1737239043,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "PmBgIMpwPrPHjiZE7oWe_g",
+        "lat": -5.46853,
+        "lng": -47.8891,
+        "country": "BR",
+        "region": "State of Tocantins"
+    },
+    {
+        "spot_date": "2025/01/17",
+        "id": "1330515233453768847",
+        "links": [
+            "https://www.instagram.com/reel/DE665BVybm6/?utm_source=ig_web_copy_link",
+            "https://maps.app.goo.gl/inqYGjGvncntTuij9"
+        ],
+        "report_time": 1737289951,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "He-HtWSAb9SAlKXqizgeEg",
+        "lat": -0.95194,
+        "lng": 100.50401,
+        "country": "ID",
+        "region": "West Sumatra"
+    },
+    {
+        "spot_date": "2025/01/17",
+        "id": "1330499438027870260",
+        "links": [
+            "https://www.instagram.com/reel/DE6G2TqT71_/?utm_source=ig_web_copy_link",
+            "https://maps.app.goo.gl/jY7zAPVsY514WjvV9"
+        ],
+        "report_time": 1737286185,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "1SDkMXp3g5OPditWnhUa5g",
+        "lat": -6.82285,
+        "lng": 107.12824,
+        "country": "ID",
+        "region": "West Java"
     }
 ]

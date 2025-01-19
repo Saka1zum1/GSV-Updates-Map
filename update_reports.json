@@ -157004,20 +157004,6 @@
     },
     {
         "types": [
-            "newtrekker"
-        ],
-        "report_time": 1736683752,
-        "author": "Ferrambo",
-        "id": "1327972648755396659",
-        "panoId": "7OcuaHAGOgdrB1UsTrogGQ",
-        "lat": -37.82185,
-        "lng": 144.97511,
-        "date": "Aug 2024",
-        "country": "AU",
-        "region": "Victoria"
-    },
-    {
-        "types": [
             "newroad"
         ],
         "report_time": 1736986315,
@@ -157029,5 +157015,219 @@
         "date": "Apr 2024",
         "country": "PL",
         "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newisland"
+        ],
+        "report_time": 1737291518,
+        "author": "jpeters",
+        "id": "1330521805466894387",
+        "panoId": "-p1HMDoRnfrWkFrqNVyJrw",
+        "lat": 60.01004,
+        "lng": 22.50835,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1737290934,
+        "author": "kakicz",
+        "id": "1330519355129069569",
+        "panoId": "Vit4kMTyXS7gmWC00jN_gQ",
+        "lat": 52.74138,
+        "lng": 23.58728,
+        "date": "Nov 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737290934,
+        "author": "kakicz",
+        "id": "1330519355129069569",
+        "panoId": "WpA2KjPylnVkam4z3XqwKg",
+        "lat": 52.73609,
+        "lng": 23.58159,
+        "date": "Nov 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet",
+            "gen3update"
+        ],
+        "report_time": 1737290934,
+        "author": "kakicz",
+        "id": "1330519355129069569",
+        "panoId": "U6rTxUq3kjssvRGqZBXqdg",
+        "lat": 52.74881,
+        "lng": 23.5673,
+        "date": "Oct 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet",
+            "gen3update"
+        ],
+        "report_time": 1737290934,
+        "author": "kakicz",
+        "id": "1330519355129069569",
+        "panoId": "jkz9vsHsjEjjod9C_lD-rg",
+        "lat": 52.7437,
+        "lng": 23.59488,
+        "date": "Nov 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737290912,
+        "author": "kakicz",
+        "id": "1330519262510452868",
+        "panoId": "b0T2Gcs5NtOzT7D2rW4lng",
+        "lat": 52.70886,
+        "lng": 23.84899,
+        "date": "Oct 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737290912,
+        "author": "kakicz",
+        "id": "1330519262510452868",
+        "panoId": "9OCOLZJIlb4Xiu29WDszPQ",
+        "lat": 52.70911,
+        "lng": 23.85373,
+        "date": "Oct 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1737290912,
+        "author": "kakicz",
+        "id": "1330519262510452868",
+        "panoId": "ujmW9V3yqwU111N9dmrKmw",
+        "lat": 52.70044,
+        "lng": 23.8434,
+        "date": "Oct 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1737290912,
+        "author": "kakicz",
+        "id": "1330519262510452868",
+        "panoId": "YD_UZlryu1IP1b9t91bYHQ",
+        "lat": 52.69674,
+        "lng": 23.84199,
+        "date": "Oct 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1737290912,
+        "author": "kakicz",
+        "id": "1330519262510452868",
+        "panoId": "4LJ-yreTi94oKY96NC_I9A",
+        "lat": 52.70304,
+        "lng": 23.85504,
+        "date": "Nov 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet",
+            "gen3update"
+        ],
+        "report_time": 1737290912,
+        "author": "kakicz",
+        "id": "1330519262510452868",
+        "panoId": "smpFN0xf7GOzBdYWe2emzw",
+        "lat": 52.69957,
+        "lng": 23.84354,
+        "date": "Oct 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newstreet",
+            "gen3update"
+        ],
+        "report_time": 1737290912,
+        "author": "kakicz",
+        "id": "1330519262510452868",
+        "panoId": "Vyx8ck_fpLOXpsbODarIVw",
+        "lat": 52.69897,
+        "lng": 23.84903,
+        "date": "Nov 2022",
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737287761,
+        "author": "Tobetelogi",
+        "id": "1330506047424692265",
+        "panoId": "52G_9W_9SUE_gcdLVR5ntg",
+        "lat": 63.57052,
+        "lng": 27.37753,
+        "date": "Jul 2023",
+        "country": "FI",
+        "region": "North Savo"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737287761,
+        "author": "Tobetelogi",
+        "id": "1330506047424692265",
+        "panoId": "skyQ4557NzNtSMdHfu0BLA",
+        "lat": 63.442,
+        "lng": 27.42743,
+        "date": "Aug 2023",
+        "country": "FI",
+        "region": "North Savo"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1737294460,
+        "author": "malguem_qwer",
+        "id": "1330534147625713795",
+        "panoId": "5_iGa5T821Z96DH7qyuENQ",
+        "lat": 50.73166,
+        "lng": 16.27418,
+        "date": "Jun 2024",
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
     }
 ]
