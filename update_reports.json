@@ -157229,5 +157229,221 @@
         "date": "Jun 2024",
         "country": "PL",
         "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1737295832,
+        "author": "Alex*",
+        "id": "1330539900407386124",
+        "panoId": "sVHnp-CYhgibOxbOp1I6QA",
+        "lat": 68.65382,
+        "lng": 23.32744,
+        "date": "Oct 2024",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1737295832,
+        "author": "Alex*",
+        "id": "1330539900407386124",
+        "panoId": "g3XId0nHsNdf4mgrpYrbBA",
+        "lat": 68.60207,
+        "lng": 23.57441,
+        "date": "Oct 2024",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1737295832,
+        "author": "Alex*",
+        "id": "1330539900407386124",
+        "panoId": "Y3Cl_ZG9QW_hy6_xnvSRDg",
+        "lat": 68.48873,
+        "lng": 24.70819,
+        "date": "Oct 2024",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737301545,
+        "author": "Mr. Toledo",
+        "id": "1330563861451112559",
+        "panoId": "OWJXrW1Ge898szw03iLr6w",
+        "lat": 51.65676,
+        "lng": 17.04186,
+        "date": "Apr 2024",
+        "country": "PL",
+        "region": "Greater Poland Voivodeship"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737300222,
+        "author": "Mr. Toledo",
+        "id": "1330558311656980561",
+        "panoId": "NYIc8KIbOJ_zoejEO2ZbJQ",
+        "lat": 61.6297,
+        "lng": 25.09298,
+        "date": "Jul 2024",
+        "country": "FI",
+        "region": "Pirkanmaa"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737300222,
+        "author": "Mr. Toledo",
+        "id": "1330558311656980561",
+        "panoId": "_pDGp3u5X9pDIHpxeY3xDQ",
+        "lat": 61.06544,
+        "lng": 21.31628,
+        "date": "Apr 2024",
+        "country": "FI",
+        "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737300222,
+        "author": "Mr. Toledo",
+        "id": "1330558311656980561",
+        "panoId": "0v8OKROq84sgCKnQQwxOcw",
+        "lat": 61.14756,
+        "lng": 27.71638,
+        "date": "Jul 2024",
+        "country": "FI",
+        "region": "South Karelia"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737300222,
+        "author": "Mr. Toledo",
+        "id": "1330558311656980561",
+        "panoId": "z-2sfKBYMg4WTlBl5-Tiuw",
+        "lat": 67.24561,
+        "lng": 26.28904,
+        "date": "Sep 2024",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737302575,
+        "author": "Mr. Toledo",
+        "id": "1330568181684637757",
+        "panoId": "RkhNmOKcZBbWwBY7aGApbw",
+        "lat": 53.15922,
+        "lng": 15.28098,
+        "date": "Oct 2024",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737302575,
+        "author": "Mr. Toledo",
+        "id": "1330568181684637757",
+        "panoId": "aIe1_YtE7A8kuHV7DQe3cQ",
+        "lat": 53.181,
+        "lng": 15.85576,
+        "date": "Jun 2024",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newisland",
+            "newroad"
+        ],
+        "report_time": 1737373568,
+        "author": "Tobetelogi",
+        "id": "1330865947765899294",
+        "panoId": "_O8RV_uWyV17Qf-1PBdBnw",
+        "lat": 60.25132,
+        "lng": 21.41633,
+        "date": "Jun 2009",
+        "country": "FI",
+        "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "newisland",
+            "newroad"
+        ],
+        "report_time": 1737373568,
+        "author": "Tobetelogi",
+        "id": "1330865947765899294",
+        "panoId": "h9DAtq0sLnvRPlqmzdoUlw",
+        "lat": 60.21882,
+        "lng": 21.43606,
+        "date": "Jun 2009",
+        "country": "FI",
+        "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737387131,
+        "author": "JustEmilo",
+        "id": "1330922836029603863",
+        "panoId": "2ybifP_uKN-iibIT0TnXwg",
+        "lat": 67.93232,
+        "lng": 23.80809,
+        "date": "Oct 2024",
+        "country": "FI",
+        "region": "Lapland"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737386272,
+        "author": "JustEmilo",
+        "id": "1330919234728886446",
+        "panoId": "Fi99tLAYybRMOOnjxzZMvg",
+        "lat": 60.1898,
+        "lng": 21.89868,
+        "date": "Sep 2024",
+        "country": "FI",
+        "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737386120,
+        "author": "JustEmilo",
+        "id": "1330918595932459081",
+        "panoId": "SJvUVDtzn5RQT6L-B1SKyA",
+        "lat": 60.20573,
+        "lng": 21.8206,
+        "date": "Sep 2024",
+        "country": "FI",
+        "region": "Southwest Finland"
     }
 ]

@@ -31009,5 +31009,53 @@
         "lng": 107.12824,
         "country": "ID",
         "region": "West Java"
+    },
+    {
+        "spot_date": "2025/01/15",
+        "id": "1330555965195685899",
+        "links": [
+            "https://www.instagram.com/reel/DE2eISxPkCu/",
+            "https://maps.app.goo.gl/xzuCmpf3rmC9a6yG8"
+        ],
+        "report_time": 1737299662,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "s0sh3_iqf0IaJ5FDAorIBw",
+        "lat": -7.6417,
+        "lng": -37.87525,
+        "country": "BR",
+        "region": "State of Para\u00edba"
+    },
+    {
+        "spot_date": "2025/01/17",
+        "id": "1330555161545932862",
+        "links": [
+            "https://www.instagram.com/reel/DE7gapFu5qU/",
+            "https://maps.app.goo.gl/G8GjoNcjvyiiXudr6"
+        ],
+        "report_time": 1737299471,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "sD-KFiOu_Nn8kZKfN58EBw",
+        "lat": -7.7351,
+        "lng": -37.99321,
+        "country": "BR",
+        "region": "State of Para\u00edba"
+    },
+    {
+        "spot_date": "2025/01/16",
+        "id": "1330690651104350261",
+        "links": [
+            "https://www.tiktok.com/@india.guera.ojos_azules/video/7460502966496234770",
+            "https://maps.app.goo.gl/XDpgV9HgKZ8dUWWQ7"
+        ],
+        "report_time": 1737331774,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "gucTzMSuV25q3BOlhDWwDg",
+        "lat": 28.60675,
+        "lng": -106.09404,
+        "country": "MX",
+        "region": "Chihuahua"
     }
 ]
