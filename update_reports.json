@@ -157445,5 +157445,65 @@
         "date": "Sep 2024",
         "country": "FI",
         "region": "Southwest Finland"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737389330,
+        "author": "Mr. Toledo",
+        "id": "1330932060201816164",
+        "panoId": "rBDnT6LquMI9PFhANE6RyA",
+        "lat": 53.64653,
+        "lng": 17.81027,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Kuyavian-Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737389330,
+        "author": "Mr. Toledo",
+        "id": "1330932060201816164",
+        "panoId": "BWGOaWPaia5GjUYUvY9dUQ",
+        "lat": 53.68082,
+        "lng": 18.07122,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Kuyavian-Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737389330,
+        "author": "Mr. Toledo",
+        "id": "1330932060201816164",
+        "panoId": "aL2-3kCX_FsYoIE3wW6oAw",
+        "lat": 53.69115,
+        "lng": 17.8342,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "Kuyavian-Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737477216,
+        "author": "Mr. Toledo",
+        "id": "1331300678227726336",
+        "panoId": "FF4kfzeSQx44PjO8F1p-tQ",
+        "lat": 54.08873,
+        "lng": 16.59445,
+        "date": "May 2024",
+        "country": "PL",
+        "region": "West Pomeranian Voivodeship"
     }
 ]

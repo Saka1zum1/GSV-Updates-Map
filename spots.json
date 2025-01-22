@@ -31057,5 +31057,101 @@
         "lng": -106.09404,
         "country": "MX",
         "region": "Chihuahua"
+    },
+    {
+        "spot_date": "2025/01/20",
+        "id": "1330991293446488106",
+        "links": [
+            "https://www.tiktok.com/@leehroosa/video/7462066762876554501",
+            "https://maps.app.goo.gl/bCyKJoVwD2shQNgY7"
+        ],
+        "report_time": 1737403452,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "gWrj8hYVz_OPq708eI5nSQ",
+        "lat": -20.02524,
+        "lng": -48.94096,
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/01/18",
+        "id": "1330929255462338580",
+        "links": [
+            "https://www.instagram.com/p/DE-gIdUBQIS/",
+            "https://maps.app.goo.gl/eiEpQxJJw1EuMpMG9"
+        ],
+        "report_time": 1737388661,
+        "author": "Woly",
+        "spot_type": "Gen4",
+        "panoId": "kvy_hm3SRmJuXueB5yhGRg",
+        "lat": 17.46825,
+        "lng": 78.39996,
+        "country": "IN",
+        "region": "Telangana"
+    },
+    {
+        "spot_date": "2025/01/16",
+        "id": "1331221383094599680",
+        "links": [
+            "https://www.tiktok.com/@domengkatigbak/video/7460153292501372168",
+            "https://maps.app.goo.gl/WNictvjpJs1PVjrC7"
+        ],
+        "report_time": 1737458310,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "DLKDVJ-fl3qlLxPRGzBERQ",
+        "lat": 13.76447,
+        "lng": 121.06166,
+        "country": "PH",
+        "region": "Calabarzon"
+    },
+    {
+        "spot_date": "2025/01/20",
+        "id": "1331259470776504363",
+        "links": [
+            "https://www.instagram.com/nice_tn_wei/p/DFEmFluPHUD/",
+            "https://maps.app.goo.gl/g4pxT6fAFJfncRKn7"
+        ],
+        "report_time": 1737467391,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "ILGkno8DoBtRWZvKrIK3eA",
+        "lat": 22.98973,
+        "lng": 120.22686,
+        "country": "CN",
+        "region": "Tainan City"
+    },
+    {
+        "spot_date": "2025/01/21",
+        "id": "1331361710744932374",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1953718912067718&set=a.112380572868237",
+            "https://maps.app.goo.gl/qcNLXELHFx24ZW8m9"
+        ],
+        "report_time": 1737491767,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "34XrgNtWvLJMJi8H_rwLZg",
+        "lat": 16.39111,
+        "lng": 102.70777,
+        "country": "TH",
+        "region": "Khon Kaen"
+    },
+    {
+        "spot_date": "2025/01/21",
+        "id": "1331363648924287200",
+        "links": [
+            "https://www.facebook.com/jornalopratense/videos/28937202399204007/",
+            "https://maps.app.goo.gl/KAW1UonUEVHFZ8pw7"
+        ],
+        "report_time": 1737492229,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "bV9K05wamGrznPZNha67vA",
+        "lat": -20.01479,
+        "lng": -48.94376,
+        "country": "BR",
+        "region": "State of Minas Gerais"
     }
 ]
