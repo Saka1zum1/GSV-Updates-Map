@@ -157505,5 +157505,825 @@
         "date": "May 2024",
         "country": "PL",
         "region": "West Pomeranian Voivodeship"
+    },
+    {
+        "types": [
+            "newarea",
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737617269,
+        "author": "OUAI OUAI TU PARLES TROP",
+        "id": "1331888103471714367",
+        "panoId": "16DZUSTlyGR-LWtHSm3M_w",
+        "lat": 8.81049,
+        "lng": 9.65708,
+        "date": "Nov 2024",
+        "country": "NG",
+        "region": "Plateau"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737880429,
+        "author": "vegetal",
+        "id": "1332991877485432853",
+        "panoId": "kaZ6x0DgcGWJhz8cHGTdNw",
+        "lat": 36.36504,
+        "lng": -77.67293,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "North Carolina"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737880429,
+        "author": "vegetal",
+        "id": "1332991877485432853",
+        "panoId": "kziu4EHH3GbSTSLJwzbVmg",
+        "lat": 36.01219,
+        "lng": -83.76366,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "Tennessee"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737876752,
+        "author": "souvlaki",
+        "id": "1332976455256113162",
+        "panoId": "sGSYNMugj2j5M1JVmaBBYA",
+        "lat": -7.06288,
+        "lng": 110.49678,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737876133,
+        "author": "vegetal",
+        "id": "1332973860940681296",
+        "panoId": "prPJ1TjxHWpL2A4KDNVXJw",
+        "lat": 32.39366,
+        "lng": -90.14564,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "Mississippi"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1737876036,
+        "author": "Aedan",
+        "id": "1332973451736125451",
+        "panoId": "Oc4g2q2vJe-X8b1fnEKUpw",
+        "lat": -46.59707,
+        "lng": -71.14425,
+        "date": "Dec 2024",
+        "country": "AR",
+        "region": "Santa Cruz Province"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1737876036,
+        "author": "Aedan",
+        "id": "1332973451736125451",
+        "panoId": "sHOZSMTQL6_-4r4bs8cDbQ",
+        "lat": -46.54724,
+        "lng": -71.62919,
+        "date": "Dec 2024",
+        "country": "AR",
+        "region": "Santa Cruz Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737876036,
+        "author": "Aedan",
+        "id": "1332973451736125451",
+        "panoId": "8iFQyZsv5iQI0YtTWhq7dg",
+        "lat": -46.56382,
+        "lng": -71.64897,
+        "date": "Dec 2024",
+        "country": "AR",
+        "region": "Santa Cruz Province"
+    },
+    {
+        "types": [
+            "gen3update"
+        ],
+        "report_time": 1737875714,
+        "author": "Melting Ice",
+        "id": "1332972100838887524",
+        "panoId": "6N4nELHY9TSFVNmzXNrWvg",
+        "lat": -35.97749,
+        "lng": -62.7302,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737874398,
+        "author": "souvlaki",
+        "id": "1332966580585500824",
+        "panoId": "GbNGoUy7xZjqr1DPf1uinA",
+        "lat": -3.44921,
+        "lng": 102.58604,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "Bengkulu"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737874347,
+        "author": "souvlaki",
+        "id": "1332966366445309983",
+        "panoId": "WyeZ_YBhyfWzG9RGoxjcYw",
+        "lat": 35.95102,
+        "lng": -96.01273,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "Oklahoma"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737874306,
+        "author": "souvlaki",
+        "id": "1332966194176851979",
+        "panoId": "5iO9jVmjXPf3dxFIzZyJsw",
+        "lat": 0.60484,
+        "lng": 101.39724,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "Riau"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737873139,
+        "author": "souvlaki",
+        "id": "1332961299780337726",
+        "panoId": "3w_XdMf4eHlTU856BHOO_w",
+        "lat": -0.81342,
+        "lng": 100.68043,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "West Sumatra"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737872555,
+        "author": "souvlaki",
+        "id": "1332958851158380626",
+        "panoId": "07-EUgi2wnBfBHfWMhR5kw",
+        "lat": -23.03365,
+        "lng": -50.81721,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "State of Paran\u00e1"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737872507,
+        "author": "souvlaki",
+        "id": "1332958651480281090",
+        "panoId": "Rx4TJB9-WUm-m-ATc_WDrw",
+        "lat": -1.24781,
+        "lng": 116.93639,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "East Kalimantan"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737872473,
+        "author": "vegetal",
+        "id": "1332958507485630514",
+        "panoId": "vLURIosK6mjet4DMkYsfpg",
+        "lat": -44.04904,
+        "lng": -70.59084,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Chubut Province"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1737871175,
+        "author": "souvlaki",
+        "id": "1332953061882200066",
+        "panoId": "Qu2wtlELaJFwFiVrd6ZVXQ",
+        "lat": -46.55237,
+        "lng": -71.63376,
+        "date": "Dec 2024",
+        "country": "AR",
+        "region": "Santa Cruz Province"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion"
+        ],
+        "report_time": 1737858688,
+        "author": "HoustonMediaHD",
+        "id": "1332900689218637918",
+        "panoId": "ttaH80ohZhQZhvOO6qsFNg",
+        "lat": 29.77741,
+        "lng": -95.42896,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737884465,
+        "author": "snowf",
+        "id": "1333008806849937561",
+        "panoId": "-xPimPd5CxbrjeUi5fyCFw",
+        "lat": -3.94344,
+        "lng": 115.0507,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "South Kalimantan"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737883844,
+        "author": "snowf",
+        "id": "1333006203537588358",
+        "panoId": "O8pxPutKL_fT2Hyfsbi_9g",
+        "lat": -40.71512,
+        "lng": 175.64239,
+        "date": "Dec 2024",
+        "country": "NZ",
+        "region": "Manawat\u016b-Whanganui"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737883157,
+        "author": "souvlaki",
+        "id": "1333003318074671135",
+        "panoId": "wpYH94kVvblCsB4OWtwBRg",
+        "lat": -7.16772,
+        "lng": 112.66005,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737883113,
+        "author": "souvlaki",
+        "id": "1333003135618257020",
+        "panoId": "82l4JKgT81-iXre-_00MUw",
+        "lat": -15.77588,
+        "lng": -47.93656,
+        "date": "Dec 2024",
+        "country": "BR",
+        "region": "Federal District"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737882129,
+        "author": "snowf",
+        "id": "1332999006418112533",
+        "panoId": "5sfCZuLgC6jd76ACBceszQ",
+        "lat": -2.24611,
+        "lng": 111.64886,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "Central Kalimantan"
+    },
+    {
+        "types": [
+            "newtown",
+            "newstreet"
+        ],
+        "report_time": 1737882047,
+        "author": "Unhook",
+        "id": "1332998664381272104",
+        "panoId": "RARfxF_5oRqzp67mPbVinQ",
+        "lat": -36.26206,
+        "lng": -63.15887,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newstreet"
+        ],
+        "report_time": 1737882047,
+        "author": "Unhook",
+        "id": "1332998664381272104",
+        "panoId": "a9xSmCPDjZ9o2SlTljw-nw",
+        "lat": -35.3955,
+        "lng": -62.41683,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newarea"
+        ],
+        "report_time": 1737881890,
+        "author": "souvlaki",
+        "id": "1332998004982153277",
+        "panoId": "0oVPyAnotltV3BHsmQa9zQ",
+        "lat": -35.14052,
+        "lng": -62.23938,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737881735,
+        "author": "Unhook",
+        "id": "1332997353921314826",
+        "panoId": "bCEgoBsSRKSNIRbrR3k6Zw",
+        "lat": -36.58423,
+        "lng": -64.18923,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "La Pampa Province"
+    },
+    {
+        "types": [
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1737881451,
+        "author": "souvlaki",
+        "id": "1332996163313340540",
+        "panoId": "s2dsEp6q2vsnGbex7w5wRg",
+        "lat": -39.09634,
+        "lng": -67.05007,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "R\u00edo Negro Province"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737881388,
+        "author": "souvlaki",
+        "id": "1332995901614198804",
+        "panoId": "ApTp_dXN4pZVIQ-k_WvN3Q",
+        "lat": 2.04483,
+        "lng": 102.56644,
+        "date": "Nov 2024",
+        "country": "MY",
+        "region": "Johor"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737881355,
+        "author": "souvlaki",
+        "id": "1332995763772329995",
+        "panoId": "iMG2vuroNGzjN51JqfIOYg",
+        "lat": -3.29698,
+        "lng": 102.92136,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "South Sumatra"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737881303,
+        "author": "souvlaki",
+        "id": "1332995541843443712",
+        "panoId": "zkjPQAtGqw2jlk9Nus0lzg",
+        "lat": 2.21627,
+        "lng": 102.29422,
+        "date": "Nov 2024",
+        "country": "MY",
+        "region": "Malacca"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737881254,
+        "author": "souvlaki",
+        "id": "1332995338939666564",
+        "panoId": "LyAoTrCx4Hka68HKprSPUQ",
+        "lat": -4.82252,
+        "lng": 104.88642,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "Lampung"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737881224,
+        "author": "souvlaki",
+        "id": "1332995210917056655",
+        "panoId": "lIkxSilJBBxTZxsaEKvnmw",
+        "lat": -40.95348,
+        "lng": 175.66397,
+        "date": "Dec 2024",
+        "country": "NZ",
+        "region": "Wellington"
+    },
+    {
+        "types": [
+            "newcountry",
+            "newregion"
+        ],
+        "report_time": 1737887834,
+        "author": "Sora",
+        "id": "1333022937761972246",
+        "panoId": "sS30nIKoq5tQxeNZvyffCw",
+        "lat": 35.03589,
+        "lng": 136.78596,
+        "date": "Jan 2025",
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737886419,
+        "author": "souvlaki",
+        "id": "1333017003656478761",
+        "panoId": "AIiMYE3432VQjqTk5FEHvQ",
+        "lat": 18.87972,
+        "lng": -96.06998,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737884739,
+        "author": "souvlaki",
+        "id": "1333009954017247254",
+        "panoId": "IojM5zqHMdRf0oilVQbBug",
+        "lat": 20.54961,
+        "lng": -103.35649,
+        "date": "Nov 2024",
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion"
+        ],
+        "report_time": 1737891424,
+        "author": "snowf",
+        "id": "1333037993124167790",
+        "panoId": "YCpL3O3qB__lHfO8C5hHXA",
+        "lat": 35.48031,
+        "lng": 139.42645,
+        "date": "Jan 2025",
+        "country": "JP",
+        "region": "Kanagawa"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737891039,
+        "author": "Unhook",
+        "id": "1333036380657553552",
+        "panoId": "gc1Vc4YG86-3yTB9LWmLfA",
+        "lat": -36.94241,
+        "lng": -62.33296,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newregion",
+            "newyear"
+        ],
+        "report_time": 1737889478,
+        "author": "jpeters",
+        "id": "1333029833407598613",
+        "panoId": "iWH33Pl2prKEShbsKFCf9Q",
+        "lat": 38.95752,
+        "lng": -77.01102,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "District of Columbia"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1737889427,
+        "author": "souvlaki",
+        "id": "1333029619074338928",
+        "panoId": "QDzkP9Pc_n8JTWo6UICj8w",
+        "lat": 20.19681,
+        "lng": -101.60586,
+        "date": "Nov 2024",
+        "country": "MX",
+        "region": "Michoac\u00e1n"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion"
+        ],
+        "report_time": 1737889419,
+        "author": "jpeters",
+        "id": "1333029586610556971",
+        "panoId": "Y9io9Yk51snEdHlV5kr-xg",
+        "lat": 38.96151,
+        "lng": -76.99284,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "Maryland"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737887928,
+        "author": "souvlaki",
+        "id": "1333023330860793888",
+        "panoId": "_atdZ6dxfKCOBG8JCiAhiA",
+        "lat": 18.13919,
+        "lng": -96.13208,
+        "date": "Nov 2024",
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "types": [
+            "newregion",
+            "newyear"
+        ],
+        "report_time": 1737893438,
+        "author": "Unhook",
+        "id": "1333046443639967786",
+        "panoId": "Em-SZRqmbMNlXqgIXQ9v-A",
+        "lat": 35.01233,
+        "lng": -106.59663,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "New Mexico"
+    },
+    {
+        "types": [
+            "newregion",
+            "newyear",
+            "gen1update"
+        ],
+        "report_time": 1737893061,
+        "author": "Unhook",
+        "id": "1333044861905145866",
+        "panoId": "5qo3_VrycDPclVBScG07TQ",
+        "lat": 33.30964,
+        "lng": -94.00664,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "Arkansas"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737892733,
+        "author": "Steve",
+        "id": "1333043482968850493",
+        "panoId": "b93Jgym7Y_D9ss0uUz18Ww",
+        "lat": 18.22733,
+        "lng": -97.2945,
+        "date": "Nov 2024",
+        "country": "MX",
+        "region": "Puebla"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1737892476,
+        "author": "Sora",
+        "id": "1333042404768485437",
+        "panoId": "mirLAIIFtUw2CNK6tZ9Viw",
+        "lat": 35.12301,
+        "lng": 136.56172,
+        "date": "Jan 2025",
+        "country": "JP",
+        "region": "Mie"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737897978,
+        "author": "Alok",
+        "id": "1333065484970491926",
+        "panoId": "jvCACmdeiUA7U7UaEyhK8Q",
+        "lat": 20.46676,
+        "lng": -101.72437,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Guanajuato"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737897978,
+        "author": "Alok",
+        "id": "1333065484970491926",
+        "panoId": "Xe1x3he7Dbzgb8xOSf2cIA",
+        "lat": 20.1187,
+        "lng": -102.08261,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Michoac\u00e1n"
+    },
+    {
+        "types": [
+            "newroad",
+            "newtown"
+        ],
+        "report_time": 1737897727,
+        "author": "Alok",
+        "id": "1333064430514212895",
+        "panoId": "BoHsR66rwEq_gbERcdM2jw",
+        "lat": 18.38593,
+        "lng": -96.05757,
+        "date": "Nov 2024",
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737897727,
+        "author": "Alok",
+        "id": "1333064430514212895",
+        "panoId": "IHV_I5WbKL8iD8ozUf01IQ",
+        "lat": 18.23539,
+        "lng": -96.15175,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "types": [
+            "newtown",
+            "newroad"
+        ],
+        "report_time": 1737897224,
+        "author": "Alok",
+        "id": "1333062320170995743",
+        "panoId": "dPe-Lunp1n-YQYOW5mpYjg",
+        "lat": -14.55477,
+        "lng": -48.16815,
+        "date": "Nov 2024",
+        "country": "BR",
+        "region": "State of Goi\u00e1s"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1737896219,
+        "author": "Alok",
+        "id": "1333058106527059978",
+        "panoId": "vp1GLX_g6sx0hoJefMOAqg",
+        "lat": -36.75528,
+        "lng": -62.49362,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737895846,
+        "author": "Alok",
+        "id": "1333056540613152869",
+        "panoId": "frgwasuY_p_F1kxUTB2mYg",
+        "lat": -1.45252,
+        "lng": 116.31484,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "East Kalimantan"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion",
+            "newroad"
+        ],
+        "report_time": 1737902092,
+        "author": "mpk",
+        "id": "1333082740429553726",
+        "panoId": "8TNKue7IfHajVPIWGl4J5w",
+        "lat": 36.56213,
+        "lng": -78.2885,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "Virginia"
+    },
+    {
+        "types": [
+            "newregion",
+            "gen3update"
+        ],
+        "report_time": 1737901257,
+        "author": "souvlaki",
+        "id": "1333079238185582603",
+        "panoId": "EP5JI2dNfZ8aUzzjIckJVQ",
+        "lat": -39.26567,
+        "lng": -68.85631,
+        "date": "Nov 2024",
+        "country": "AR",
+        "region": "Neuqu\u00e9n Province"
+    },
+    {
+        "types": [
+            "newregion",
+            "newstreet"
+        ],
+        "report_time": 1737901084,
+        "author": "vegetal",
+        "id": "1333078512499949580",
+        "panoId": "5f6vFtMI7i08fn1Z_ELxDg",
+        "lat": -43.87883,
+        "lng": -68.41577,
+        "date": "Oct 2024",
+        "country": "AR",
+        "region": "Chubut Province"
+    },
+    {
+        "types": [
+            "newyear",
+            "newregion"
+        ],
+        "report_time": 1737901004,
+        "author": "vegetal",
+        "id": "1333078175315656757",
+        "panoId": "5AwaY9WmteGPRh0dCtKLBA",
+        "lat": 36.86764,
+        "lng": -89.5961,
+        "date": "Jan 2025",
+        "country": "US",
+        "region": "Missouri"
     }
 ]

@@ -31329,5 +31329,69 @@
         "lng": -46.65218,
         "country": "BR",
         "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "spot_date": "2025/01/21",
+        "id": "1332883413992079411",
+        "links": [
+            "https://katelmedia.blogspot.com/2025/01/street-view-2025.html",
+            "https://maps.app.goo.gl/D4aWRVW4YrQWYqqN6"
+        ],
+        "report_time": 1737854569,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "13J63hC3PmWrUyEldL1K1g",
+        "lat": 25.68608,
+        "lng": -80.42002,
+        "country": "US",
+        "region": "Florida"
+    },
+    {
+        "spot_date": "2024/01/23",
+        "id": "1332791110606651485",
+        "links": [
+            "https://www.threads.net/@sasukekantoku/post/DFKt22aSfic",
+            "https://maps.app.goo.gl/gkpRv2WUPQwF4Dwy5"
+        ],
+        "report_time": 1737832562,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "WLQtTPxiqM9LBoOPvnIAtw",
+        "lat": 34.05031,
+        "lng": 134.04679,
+        "country": "JP",
+        "region": "Tokushima"
+    },
+    {
+        "spot_date": "2025/01/24",
+        "id": "1332767837751738439",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=122115822338646105&set=a.122108082674646105",
+            "https://maps.app.goo.gl/TSupFCVC8zePPwTU6"
+        ],
+        "report_time": 1737827014,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "HH14ZTEs8aoP69KDMkWIlA",
+        "lat": 37.30343,
+        "lng": -89.5504,
+        "country": "US",
+        "region": "Missouri"
+    },
+    {
+        "spot_date": "2025/01/24",
+        "id": "1332761110176206858",
+        "links": [
+            "https://www.youtube.com/watch?v=EXdn9GEH9Do",
+            "https://maps.app.goo.gl/GL2VLq8Lw57LBQci6"
+        ],
+        "report_time": 1737825410,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "uOssRRzSF96SDYo5L-n_rg",
+        "lat": 34.95467,
+        "lng": -82.11694,
+        "country": "US",
+        "region": "South Carolina"
     }
 ]
