@@ -31425,5 +31425,21 @@
         "lng": -89.88147,
         "country": "US",
         "region": "Louisiana"
+    },
+    {
+        "spot_date": "2009/11/11",
+        "id": "1333118339840606319",
+        "links": [
+            "https://www.mayl.id.au/?page_id=1027",
+            "https://maps.app.goo.gl/2mo3oVJtebD6eLrv5"
+        ],
+        "report_time": 1737910580,
+        "author": "hellhound#1981",
+        "spot_type": "Gen1/2",
+        "panoId": "fn3qX7jfBQOCZIKNTY5cLQ",
+        "lat": -34.92334,
+        "lng": 138.59271,
+        "country": "AU",
+        "region": "South Australia"
     }
 ]
