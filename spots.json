@@ -31393,5 +31393,37 @@
         "lng": -82.11694,
         "country": "US",
         "region": "South Carolina"
+    },
+    {
+        "spot_date": "2024/09/10",
+        "id": "1333275457126137966",
+        "links": [
+            "https://www.reddit.com/r/googlemapsshenanigans/comments/1i9z84q/4_months_ago_google_street_view_snapped_me_and_i/",
+            "https://maps.app.goo.gl/mYaLGnNuCEpw3vzZ7"
+        ],
+        "report_time": 1737948040,
+        "author": "hellhound#1981",
+        "spot_type": "Gen4/H1",
+        "panoId": "d7y0Avc9VPPZcMk25gxbVw",
+        "lat": 48.20267,
+        "lng": 16.36952,
+        "country": "AT",
+        "region": "Vienna"
+    },
+    {
+        "spot_date": "2024/11/14",
+        "id": "1329345289441509487",
+        "links": [
+            "https://archive.md/3dJCC",
+            "https://maps.app.goo.gl/hKM96DvjPDZhE9d46"
+        ],
+        "report_time": 1737011015,
+        "author": "vegetal",
+        "spot_type": "Gen4/H1",
+        "panoId": "XQF7HzBQK3KmfdvKbKAxjA",
+        "lat": 30.53496,
+        "lng": -89.88147,
+        "country": "US",
+        "region": "Louisiana"
     }
 ]
