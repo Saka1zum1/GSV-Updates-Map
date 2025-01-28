@@ -159417,5 +159417,47 @@
         "date": "Jan 2025",
         "country": "US",
         "region": "Florida"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737979100,
+        "author": "Mr. Toledo",
+        "id": "1333405733991223318",
+        "panoId": "f3QTsDwUtCwVC_fJBDMbQA",
+        "lat": 38.94029,
+        "lng": -82.72396,
+        "date": "Nov 2024",
+        "country": "US",
+        "region": "Ohio"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1737994812,
+        "author": "DeSlagen",
+        "id": "1333471636678119434",
+        "panoId": "UrEi3XQ9auZPL3hpmbMD8g",
+        "lat": 33.97868,
+        "lng": 136.07342,
+        "date": "Jan 2025",
+        "country": "JP",
+        "region": "Mie"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1738000039,
+        "author": "Cranno",
+        "id": "1333493556681113611",
+        "panoId": "ce3q7sHtRcVnanqQkuEqZQ",
+        "lat": 0.56627,
+        "lng": 110.50914,
+        "date": "Dec 2024",
+        "country": "ID",
+        "region": "West Kalimantan"
     }
 ]

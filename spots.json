@@ -31441,5 +31441,21 @@
         "lng": 138.59271,
         "country": "AU",
         "region": "South Australia"
+    },
+    {
+        "spot_date": "2025/01/27",
+        "id": "1333404255218040914",
+        "links": [
+            "https://maps.app.goo.gl/SGUtYrgu3z8eJyzL8",
+            "https://maps.app.goo.gl/SGUtYrgu3z8eJyzL8"
+        ],
+        "report_time": 1737978747,
+        "author": "maccem",
+        "spot_type": "Gen4",
+        "panoId": "PSOVuTgDdilwoZdGMQYXUA",
+        "lat": 55.72054,
+        "lng": 13.21212,
+        "country": "SE",
+        "region": "Sk\u00e5ne County"
     }
 ]
