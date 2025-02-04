@@ -31761,5 +31761,53 @@
         "lng": -58.81869,
         "country": "AR",
         "region": "Corrientes Province"
+    },
+    {
+        "spot_date": "2025/01/25",
+        "id": "1335901774082740269",
+        "links": [
+            "https://cartune.me/notes/Kr1a14tmW9",
+            "https://maps.app.goo.gl/j5Mek1RrRM7pHxUu5"
+        ],
+        "report_time": 1738574202,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "Ro4NaUB5AXD4AbUA1XSyuw",
+        "lat": 31.53785,
+        "lng": 130.55124,
+        "country": "JP",
+        "region": "Kagoshima"
+    },
+    {
+        "spot_date": "2025/01/30",
+        "id": "1336106903025225919",
+        "links": [
+            "https://www.reddit.com/r/ArAutos/comments/1icsy2n/lo_encontre_bro_lo_encontre/",
+            "https://maps.app.goo.gl/GzxZeqN6of9DybTU9"
+        ],
+        "report_time": 1738623109,
+        "author": "Melting Ice",
+        "spot_type": "Gen4",
+        "panoId": "8hfvZ_6XHlHTPp5YaBxxyw",
+        "lat": -34.68506,
+        "lng": -58.55508,
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2025/01/14",
+        "id": "1336032421325312144",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=9247689881950814&set=p.9247689881950814&type=3",
+            "https://maps.app.goo.gl/DNooyvrUbjSqANUz8"
+        ],
+        "report_time": 1738605351,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "7HC0JEq6gxDdbuZLRrBdDw",
+        "lat": 19.95144,
+        "lng": -102.30695,
+        "country": "MX",
+        "region": "Michoac\u00e1n"
     }
 ]
