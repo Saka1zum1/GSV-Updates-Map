@@ -163289,5 +163289,89 @@
         "date": "Jan 2025",
         "country": "US",
         "region": "California"
+    },
+    {
+        "types": [
+            "newtown"
+        ],
+        "report_time": 1738761362,
+        "author": "glebovski",
+        "id": "1336686778895175732",
+        "panoId": "QQ2hr20YNC75V6VNG3OJgA",
+        "lat": 19.66452,
+        "lng": -103.93678,
+        "date": "Dec 2024",
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1738761182,
+        "author": "glebovski",
+        "id": "1336686024734015561",
+        "panoId": "vnNqg0zdpl3NSSKWqMWIfA",
+        "lat": 21.23831,
+        "lng": -100.94714,
+        "date": "Oct 2024",
+        "country": "MX",
+        "region": "Guanajuato"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1738761182,
+        "author": "glebovski",
+        "id": "1336686024734015561",
+        "panoId": "RlVDCPBGMJ7EqHrkPefREw",
+        "lat": 21.04198,
+        "lng": -100.6139,
+        "date": "Dec 2024",
+        "country": "MX",
+        "region": "Guanajuato"
+    },
+    {
+        "types": [
+            "newroad"
+        ],
+        "report_time": 1738787990,
+        "author": "malguem_qwer",
+        "id": "1336798466730496053",
+        "panoId": "WYRwM9esPa6-ieH5jKxpZw",
+        "lat": 50.7718,
+        "lng": 15.99675,
+        "date": "Oct 2023",
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1738846746,
+        "author": "Update Tracker Bot",
+        "id": "1337044905247244340",
+        "panoId": "FQ-xn_LW5fYys1DMTylWeg",
+        "lat": 13.81638,
+        "lng": 100.51563,
+        "date": "Jan 2025",
+        "country": "TH",
+        "region": "Bangkok"
+    },
+    {
+        "types": [
+            "newregion"
+        ],
+        "report_time": 1738882001,
+        "author": "Update Tracker Bot",
+        "id": "1337192774696702022",
+        "panoId": "yaaUAVMNkE_yk-X7oNB30Q",
+        "lat": 19.33662,
+        "lng": -99.1898,
+        "date": "Nov 2024",
+        "country": "MX",
+        "region": "Mexico City"
     }
 ]

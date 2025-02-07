@@ -31985,5 +31985,85 @@
         "lng": 139.41973,
         "country": "JP",
         "region": "Kanagawa"
+    },
+    {
+        "spot_date": "2025/02/06",
+        "id": "1337071579858866206",
+        "links": [
+            "https://www.facebook.com/mdal.auddinhossain.9887/videos/984811203543813",
+            "https://maps.app.goo.gl/mpk5K6DcGMMBR1tg9"
+        ],
+        "report_time": 1738853106,
+        "author": "Larissa Santos-de Oliveira",
+        "spot_type": "Gen4",
+        "panoId": "kpVyrKIVZ4ix9-t-Fy6-Hg",
+        "lat": 23.80894,
+        "lng": 90.43055,
+        "country": "BD",
+        "region": "Dhaka Division"
+    },
+    {
+        "spot_date": "2025/02/05",
+        "id": "1337065928029900860",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10162299196776138&set=g.1530787893804624",
+            "https://maps.app.goo.gl/AGiRhDk24Nc8HrKJ8"
+        ],
+        "report_time": 1738851758,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "pqxssLO7xUa2F4yqCzAq7g",
+        "lat": 21.32861,
+        "lng": -158.0207,
+        "country": "US",
+        "region": "Hawaii"
+    },
+    {
+        "spot_date": "2025/02/01",
+        "id": "1337064639384649769",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10227101525496502&set=g.2012132362375810",
+            "https://maps.app.goo.gl/JcfpFWqJycHqnCnE8"
+        ],
+        "report_time": 1738851451,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "U2YNKRROlfHagnLqA_3IzA",
+        "lat": 32.22054,
+        "lng": -110.98377,
+        "country": "US",
+        "region": "Arizona"
+    },
+    {
+        "spot_date": "2025/02/06",
+        "id": "1337063846925303850",
+        "links": [
+            "https://maps.app.goo.gl/AByNmmK8YeYQREUW9",
+            "https://maps.app.goo.gl/AByNmmK8YeYQREUW9"
+        ],
+        "report_time": 1738851262,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "BF7e75aITOKweCPw31buQg",
+        "lat": 52.17308,
+        "lng": 5.43874,
+        "country": "NL",
+        "region": "Utrecht"
+    },
+    {
+        "spot_date": "2025/02/06",
+        "id": "1337184177287856158",
+        "links": [
+            "https://vm.tiktok.com/ZMkggmWMh/",
+            "https://maps.app.goo.gl/1wy9tHTjMzJuggUx9"
+        ],
+        "report_time": 1738879951,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "hN91eCaWQVkgJOkFAKW4_w",
+        "lat": 20.32528,
+        "lng": -102.27585,
+        "country": "MX",
+        "region": "Michoac\u00e1n"
     }
 ]
