@@ -32257,5 +32257,69 @@
         "lng": -102.32954,
         "country": "MX",
         "region": "Michoac\u00e1n"
+    },
+    {
+        "spot_date": "2025/02/07",
+        "id": "1337821645594824880",
+        "links": [
+            "https://www.tiktok.com/@visitando.tepa/video/7468879531399466246",
+            "https://maps.app.goo.gl/ioMLX9mbcLgPhdFWA"
+        ],
+        "report_time": 1739031935,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "UmoibSbDujSsljmCmGM_0g",
+        "lat": 20.81284,
+        "lng": -102.7519,
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "spot_date": "2025/01/30",
+        "id": "1337863015873384500",
+        "links": [
+            "https://vm.tiktok.com/ZMkptrkn9/",
+            "https://maps.app.goo.gl/EoXu9ocMK1MKagWP7"
+        ],
+        "report_time": 1739041799,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "2lmZnwXP3_nQLSr4xao5AA",
+        "lat": -18.0766,
+        "lng": -43.24667,
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/01/06",
+        "id": "1337461104028155924",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=2294596230896675&set=gm.3942571875998506&idorvanity=2012132362375810",
+            "https://maps.app.goo.gl/azMUb5d9RthJ9x8D9"
+        ],
+        "report_time": 1738945976,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4/H1",
+        "panoId": "O0AcNs2JUllR1a8Y6g7djw",
+        "lat": 32.22093,
+        "lng": -110.94459,
+        "country": "US",
+        "region": "Arizona"
+    },
+    {
+        "spot_date": "2024/10/22",
+        "id": "1337460391004999751",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10162443698812002&set=pcb.10162443698852002",
+            "https://maps.app.goo.gl/SeQ6YGLwYNDcXvpk9"
+        ],
+        "report_time": 1738945806,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4/H1",
+        "panoId": "BcBEVTmj83KEnHVPw5hmiQ",
+        "lat": -36.87302,
+        "lng": 174.75674,
+        "country": "NZ",
+        "region": "Auckland"
     }
 ]
