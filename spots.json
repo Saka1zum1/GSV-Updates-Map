@@ -32321,5 +32321,21 @@
         "lng": 174.75674,
         "country": "NZ",
         "region": "Auckland"
+    },
+    {
+        "spot_date": "2025/02/06",
+        "id": "1338276206684016701",
+        "links": [
+            "https://www.instagram.com/p/DFveXIhPDPm/",
+            "https://maps.app.goo.gl/aSVHgUXQVsbFvqKS6"
+        ],
+        "report_time": 1739140311,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "UKvJRN4sHDVZSyrMNPeUfA",
+        "lat": -16.07247,
+        "lng": -57.6885,
+        "country": "BR",
+        "region": "State of Mato Grosso"
     }
 ]
