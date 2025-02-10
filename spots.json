@@ -32337,5 +32337,37 @@
         "lng": -57.6885,
         "country": "BR",
         "region": "State of Mato Grosso"
+    },
+    {
+        "spot_date": "2024/12/16",
+        "id": "1338208269617074217",
+        "links": [
+            "https://www.instagram.com/p/DFklOYouSOz/",
+            "https://maps.app.goo.gl/9HFia83Rkv6VexcL8"
+        ],
+        "report_time": 1739124114,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "MJewm7xzx8OO8gGKApmzNA",
+        "lat": -23.02641,
+        "lng": -46.9862,
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "spot_date": "2024/10/22",
+        "id": "1338067518258024480",
+        "links": [
+            "https://mobilehub.ro/stiri/masinile-google-street-view-sunt-in-romania-localitatile-mapate/",
+            "https://maps.app.goo.gl/a3JiRPATJYbvdfAy6"
+        ],
+        "report_time": 1739090556,
+        "author": "Rob",
+        "spot_type": "Gen4/H1",
+        "panoId": "5uIuzvWHW5nws_-hOQWC_w",
+        "lat": 44.95204,
+        "lng": 24.92813,
+        "country": "RO",
+        "region": "Arge\u0219"
     }
 ]
