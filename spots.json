@@ -32369,5 +32369,117 @@
         "lng": 24.92813,
         "country": "RO",
         "region": "Arge\u0219"
+    },
+    {
+        "spot_date": "2025/02/10",
+        "id": "1338646859832492158",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1019471833550126",
+            "https://maps.app.goo.gl/Z6Ep9dKscLFJLTry7"
+        ],
+        "report_time": 1739228682,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "hpCqVVq0YAdnBVyLKxr15w",
+        "lat": -23.66594,
+        "lng": -52.61624,
+        "country": "BR",
+        "region": "State of Paran\u00e1"
+    },
+    {
+        "spot_date": "2025/02/10",
+        "id": "1338561843324522539",
+        "links": [
+            "https://www.eldigitaldealbacete.com/2025/02/10/el-coche-de-google-street-view-recorre-las-calles-de-albacete/",
+            "https://maps.app.goo.gl/3wZQMMYZSP5PfVfEA"
+        ],
+        "report_time": 1739208412,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "P4Vkn5NcXW2conYJucQmrg",
+        "lat": 38.99494,
+        "lng": -1.8615,
+        "country": "ES",
+        "region": "Castile-La Mancha"
+    },
+    {
+        "spot_date": "2025/02/06",
+        "id": "1338551929256673491",
+        "links": [
+            "https://vm.tiktok.com/ZMksG7h9c/",
+            "https://maps.app.goo.gl/RHesD4khskh4LWAB6"
+        ],
+        "report_time": 1739206049,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "0VsYOrSo3mMwq32xhkw2oA",
+        "lat": -33.45514,
+        "lng": -70.69303,
+        "country": "CL",
+        "region": "Santiago Metropolitan Region"
+    },
+    {
+        "spot_date": "2025/02/09",
+        "id": "1338541419794796654",
+        "links": [
+            "https://x.com/ZSa3t/status/1888590163040932219/photo/1",
+            "https://maps.app.goo.gl/LqPqH1r9i3DhCWLe6"
+        ],
+        "report_time": 1739203543,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "wAcI9eQxaBoe8xtaxCvmEw",
+        "lat": 35.14128,
+        "lng": 136.98974,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/02/09",
+        "id": "1338526760160985129",
+        "links": [
+            "https://vm.tiktok.com/ZMksx15M6/",
+            "https://maps.app.goo.gl/RP8LSR2DAcAKJQ58A"
+        ],
+        "report_time": 1739200048,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "S4TTurGaQcTE9XoI-H2T6w",
+        "lat": -0.85289,
+        "lng": -47.92232,
+        "country": "BR",
+        "region": "State of Par\u00e1"
+    },
+    {
+        "spot_date": "2025/02/07",
+        "id": "1338243487090475082",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=604135789139994&set=a.105493532337558",
+            "https://maps.app.goo.gl/NRH52W1NcACP3gWdA"
+        ],
+        "report_time": 1739132510,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "oV79Mdd2c8LW_lxnPJTPdQ",
+        "lat": 17.77201,
+        "lng": -94.64703,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/02/06",
+        "id": "1338243101772349500",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=122151909698368237&set=a.122106638150368237",
+            "https://maps.app.goo.gl/zQaTqbUNsJGSXDUN7"
+        ],
+        "report_time": 1739132418,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "uPilj6DcP2GLKOwoBXYKKQ",
+        "lat": 17.82695,
+        "lng": -93.38868,
+        "country": "MX",
+        "region": "Tabasco"
     }
 ]
