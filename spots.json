@@ -32481,5 +32481,21 @@
         "lng": -93.38868,
         "country": "MX",
         "region": "Tabasco"
+    },
+    {
+        "spot_date": "2025/02/09",
+        "id": "1338540176015757313",
+        "links": [
+            "https://x.com/ysnsn_ensen/status/1888897148642832714/photo/1",
+            "https://maps.app.goo.gl/sUQrRcjVSNkFKyG99"
+        ],
+        "report_time": 1739203246,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "z0CnumDRTk4dx8A9YAlynQ",
+        "lat": 33.84992,
+        "lng": 132.73449,
+        "country": "JP",
+        "region": "Ehime"
     }
 ]
