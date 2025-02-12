@@ -32497,5 +32497,53 @@
         "lng": 132.73449,
         "country": "JP",
         "region": "Ehime"
+    },
+    {
+        "spot_date": "2025/02/10",
+        "id": "1338897091946352692",
+        "links": [
+            "https://www.instagram.com/p/DF5e_F-xeaM/",
+            "https://maps.app.goo.gl/Bc1Gnd6X27hGZkoa6"
+        ],
+        "report_time": 1739288342,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "XN4TJu_C1JR5V8spMgHbQA",
+        "lat": -7.26219,
+        "lng": -36.2414,
+        "country": "BR",
+        "region": "State of Para\u00edba"
+    },
+    {
+        "spot_date": "2025/02/10",
+        "id": "1338942381541560321",
+        "links": [
+            "https://x.com/TIGERTAILZ777/status/1888950848069497093/photo/1",
+            "https://maps.app.goo.gl/Ar7HrbzcQXWH2uDu7"
+        ],
+        "report_time": 1739299140,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "PRvMbSnun3CYYpv9kIoijg",
+        "lat": 35.06313,
+        "lng": 136.94122,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/02/10",
+        "id": "1338945062867963984",
+        "links": [
+            "https://bsky.app/profile/phiter.dev/post/3lhtpqvke3s2q",
+            "https://maps.app.goo.gl/Z8eRDZqen9ERGAhi7"
+        ],
+        "report_time": 1739299779,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "bBKKnBbT8ALn0gFcf23OaA",
+        "lat": -19.44557,
+        "lng": -42.56354,
+        "country": "BR",
+        "region": "State of Minas Gerais"
     }
 ]
