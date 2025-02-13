@@ -32545,5 +32545,53 @@
         "lng": -42.56354,
         "country": "BR",
         "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/02/12",
+        "id": "1339366145001652276",
+        "links": [
+            "https://www.tiktok.com/@mr.sabdi2/video/7470585656654171438",
+            "https://maps.app.goo.gl/fUBQ4f4AeUwgSVhZA"
+        ],
+        "report_time": 1739400173,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "pdkFfSGiCqadyXgfUSOuWQ",
+        "lat": 30.68662,
+        "lng": -83.19744,
+        "country": "US",
+        "region": "Georgia"
+    },
+    {
+        "spot_date": "2025/02/13",
+        "id": "1339582714336120872",
+        "links": [
+            "https://x.com/hirokun39/status/1889947994990272743",
+            "https://maps.app.goo.gl/Y2TkYSB3MPPQW9wz6"
+        ],
+        "report_time": 1739451807,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "PEf8I7-ofM7h-YjXXL7RZg",
+        "lat": 35.05319,
+        "lng": 137.00844,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/02/10",
+        "id": "1339597398787231907",
+        "links": [
+            "https://www.tiktok.com/@paratielhogarideal/video/7469925433178393911",
+            "https://maps.app.goo.gl/7cfy1JsFp4iaa6wD6"
+        ],
+        "report_time": 1739455308,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "lY4p2Rj2cs0g-5cdV6olIA",
+        "lat": -37.99163,
+        "lng": -57.54907,
+        "country": "AR",
+        "region": "Buenos Aires Province"
     }
 ]
