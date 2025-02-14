@@ -8742,6 +8742,20 @@
                 "date": "Jan 2025",
                 "country": "US",
                 "region": "Virginia"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739490141,
+                "author": "Steve",
+                "id": "1339743500400463872",
+                "panoId": "KAWjZ23wQKIHXALKjfPsJQ",
+                "lat": 37.37429,
+                "lng": -77.39321,
+                "date": "Feb 2025",
+                "country": "US",
+                "region": "Virginia"
             }
         },
         "Ohio": {
@@ -10015,6 +10029,20 @@
                 "date": "Dec 2024",
                 "country": "US",
                 "region": "Georgia"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739490141,
+                "author": "Steve",
+                "id": "1339743500400463872",
+                "panoId": "3236sPG3KP6PV_N4Lkf_dw",
+                "lat": 33.80562,
+                "lng": -84.80949,
+                "date": "Feb 2025",
+                "country": "US",
+                "region": "Georgia"
             }
         },
         "South Dakota": {
@@ -10939,6 +10967,21 @@
                 "lat": 33.30964,
                 "lng": -94.00664,
                 "date": "Jan 2025",
+                "country": "US",
+                "region": "Arkansas"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1739508313,
+                "author": "Update Tracker Bot",
+                "id": "1339819718118473760",
+                "panoId": "g8f5UiaGkes67uwHZpcoag",
+                "lat": 36.29865,
+                "lng": -94.13889,
+                "date": "Feb 2025",
                 "country": "US",
                 "region": "Arkansas"
             }
@@ -13031,6 +13074,21 @@
                 "country": "PH",
                 "altitude": 1113.14,
                 "region": "Cordillera Administrative Region"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1739545172,
+                "author": "snowf",
+                "id": "1339974314187030569",
+                "panoId": "OGsTs_xl_Jzp0bzXpYvCwA",
+                "lat": 16.47863,
+                "lng": 120.49948,
+                "date": "Jan 2025",
+                "country": "PH",
+                "region": "Cordillera Administrative Region"
             }
         },
         "Cagayan Valley": {
@@ -13106,6 +13164,21 @@
                 "lat": 14.54368,
                 "lng": 121.05813,
                 "date": "Oct 2024",
+                "country": "PH",
+                "region": "Metro Manila"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1739545172,
+                "author": "snowf",
+                "id": "1339974314187030569",
+                "panoId": "ukLTEe5s_yDrUGDAh6DOoQ",
+                "lat": 14.38034,
+                "lng": 121.04027,
+                "date": "Jan 2025",
                 "country": "PH",
                 "region": "Metro Manila"
             }
@@ -54794,6 +54867,22 @@
                 "date": "Nov 2024",
                 "country": "PR",
                 "region": "Aguas Buenas"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "newroad",
+                    "ariupdate"
+                ],
+                "report_time": 1739543122,
+                "author": "Tobetelogi",
+                "id": "1339965718325624923",
+                "panoId": "GT95U-Ukoinb1KPBvI9d8A",
+                "lat": 18.27116,
+                "lng": -66.13798,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Aguas Buenas"
             }
         },
         "Las Piedras": {
@@ -55016,6 +55105,122 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "Yabucoa"
+            },
+            "Jan": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1739544216,
+                "author": "Tobetelogi",
+                "id": "1339970305552289912",
+                "panoId": "pe_GW_IdajZ87Zp_fG-XcA",
+                "lat": 18.10504,
+                "lng": -65.84835,
+                "date": "Jan 2025",
+                "country": "PR",
+                "region": "Yabucoa"
+            }
+        },
+        "Bayam\u00f3n": {
+            "Dec": {
+                "types": [
+                    "newgen4",
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "ariupdate"
+                ],
+                "report_time": 1739522588,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1339879590033625099",
+                "panoId": "_Z-H_M-stMe2U3QMFE6Jdw",
+                "lat": 18.30022,
+                "lng": -66.14041,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Bayam\u00f3n"
+            }
+        },
+        "Humacao": {
+            "Jan": {
+                "types": [
+                    "newgen4",
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1739522297,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1339878369508065320",
+                "panoId": "CF9pChjjdmaKZFjxy0GbGA",
+                "lat": 18.11831,
+                "lng": -65.80383,
+                "date": "Jan 2025",
+                "country": "PR",
+                "region": "Humacao"
+            }
+        },
+        "Aibonito": {
+            "Dec": {
+                "types": [
+                    "newgen4",
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "ariupdate"
+                ],
+                "report_time": 1739522196,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1339877946034491472",
+                "panoId": "A5jCgHi5ZcihE_WRAEDShw",
+                "lat": 18.09777,
+                "lng": -66.22631,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Aibonito"
+            }
+        },
+        "Cata\u00f1o": {
+            "Dec": {
+                "types": [
+                    "newgen4",
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1739542588,
+                "author": "Tobetelogi",
+                "id": "1339963476633845851",
+                "panoId": "92vLzt4Se88qGZXhIlUtZQ",
+                "lat": 18.43943,
+                "lng": -66.11829,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Cata\u00f1o"
+            }
+        },
+        "Salinas": {
+            "Dec": {
+                "types": [
+                    "newgen4",
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1739542385,
+                "author": "Tobetelogi",
+                "id": "1339962627392147496",
+                "panoId": "CZVB7kzvveayTSIt25ts2g",
+                "lat": 18.05076,
+                "lng": -66.2049,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Salinas"
             }
         }
     },

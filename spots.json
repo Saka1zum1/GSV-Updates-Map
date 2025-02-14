@@ -32625,5 +32625,37 @@
         "lng": -98.24101,
         "country": "MX",
         "region": "Tlaxcala"
+    },
+    {
+        "spot_date": "2025/02/14",
+        "id": "1339959548332736605",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1191012113027170&set=a.502738775187844",
+            "https://maps.app.goo.gl/Tk6iv2w2hYf6Ec78A"
+        ],
+        "report_time": 1739541651,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "5jBYdpW-f5hotx21Er-6Mw",
+        "lat": -41.19195,
+        "lng": 146.33666,
+        "country": "AU",
+        "region": "Tasmania"
+    },
+    {
+        "spot_date": "2025/02/13",
+        "id": "1339956519965425715",
+        "links": [
+            "https://www.tiktok.com/@juanmaciasporcolombia/video/7471063070052306182",
+            "https://maps.app.goo.gl/sADPkLshopgHhmS57"
+        ],
+        "report_time": 1739540929,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "wgTVuWJPCzxj-KEiN0cImg",
+        "lat": 5.19871,
+        "lng": -74.89225,
+        "country": "CO",
+        "region": "Tolima"
     }
 ]
