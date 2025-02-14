@@ -32593,5 +32593,37 @@
         "lng": -57.54907,
         "country": "AR",
         "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2025/02/12",
+        "id": "1339628592446836828",
+        "links": [
+            "https://www.tiktok.com/@maco7l/video/7470713478144216326",
+            "https://maps.app.goo.gl/aa8mz9Tr1AHZxZ7X7"
+        ],
+        "report_time": 1739462745,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "XbuOyFmaNWavnPA_1yVWYw",
+        "lat": -39.84443,
+        "lng": -73.20249,
+        "country": "CL",
+        "region": "Los R\u00edos"
+    },
+    {
+        "spot_date": "2025/02/12",
+        "id": "1339605517902807050",
+        "links": [
+            "https://www.facebook.com/Pixels3000/videos/3892644610978600",
+            "https://maps.app.goo.gl/aPWoefo8RhieFgkE7"
+        ],
+        "report_time": 1739457244,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "qetPfEkAVvMOXWS4toMGMg",
+        "lat": 19.30581,
+        "lng": -98.24101,
+        "country": "MX",
+        "region": "Tlaxcala"
     }
 ]
