@@ -28521,6 +28521,20 @@
                 "date": "Jan 2025",
                 "country": "ES",
                 "region": "Aragon"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739583892,
+                "author": "Tobetelogi",
+                "id": "1340136719747383376",
+                "panoId": "vqS-75iVuLypa-p2tUUGvw",
+                "lat": 42.12436,
+                "lng": -1.23745,
+                "date": "Feb 2025",
+                "country": "ES",
+                "region": "Aragon"
             }
         },
         "Andaluc\u00eda": {},
@@ -44753,6 +44767,21 @@
                 "country": "TH",
                 "altitude": 130.42,
                 "region": "Ubon Ratchathani"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1739548266,
+                "author": "snowf",
+                "id": "1339987291698888704",
+                "panoId": "RAJpXMkMnsavpRuWRJ20-w",
+                "lat": 15.86931,
+                "lng": 105.05098,
+                "date": "Jan 2025",
+                "country": "TH",
+                "region": "Ubon Ratchathani"
             }
         },
         "Narathiwat": {
@@ -44818,7 +44847,24 @@
                 "region": "Phayao"
             }
         },
-        "Chumphon": {},
+        "Chumphon": {
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1739548266,
+                "author": "snowf",
+                "id": "1339987291698888704",
+                "panoId": "4x5xg_AjqPFGgjllTqg8dg",
+                "lat": 10.84954,
+                "lng": 99.38443,
+                "date": "Jan 2025",
+                "country": "TH",
+                "region": "Chumphon"
+            }
+        },
         "Kanchanaburi": {
             "May": {
                 "types": [
@@ -45191,6 +45237,23 @@
                 "date": "Jan 2025",
                 "country": "TH",
                 "region": "Prachuap Khiri Khan"
+            }
+        },
+        "Amnat Charoen": {
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1739548266,
+                "author": "snowf",
+                "id": "1339987291698888704",
+                "panoId": "OgcBsPWPXHI3EMgQFIxGcQ",
+                "lat": 15.99727,
+                "lng": 104.98591,
+                "date": "Jan 2025",
+                "country": "TH",
+                "region": "Amnat Charoen"
             }
         }
     },
@@ -55221,6 +55284,26 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "Salinas"
+            }
+        },
+        "Naguabo": {
+            "Jan": {
+                "types": [
+                    "newgen4",
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1739553699,
+                "author": "Tobetelogi",
+                "id": "1340010083056095286",
+                "panoId": "5VG97NEn-qMMvSAVlvVtzw",
+                "lat": 18.21794,
+                "lng": -65.82897,
+                "date": "Jan 2025",
+                "country": "PR",
+                "region": "Naguabo"
             }
         }
     },

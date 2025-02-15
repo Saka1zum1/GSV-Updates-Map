@@ -32657,5 +32657,53 @@
         "lng": -74.89225,
         "country": "CO",
         "region": "Tolima"
+    },
+    {
+        "spot_date": "2025/02/06",
+        "id": "1339994513527017484",
+        "links": [
+            "https://www.tiktok.com/@fawnlee2740/video/7468316957004139781",
+            "https://maps.app.goo.gl/f9k3j4sMah5eDHcL7"
+        ],
+        "report_time": 1739549987,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "rrr5VaQ0Zb4u0frSm1JdQg",
+        "lat": 25.05637,
+        "lng": 121.5082,
+        "country": "CN",
+        "region": "Taipei City"
+    },
+    {
+        "spot_date": "2024/08/05",
+        "id": "1338896670196240405",
+        "links": [
+            "https://infraccionesba.gba.gob.ar/consulta-infraccion",
+            "https://maps.app.goo.gl/LiZPRGvAByiceTsz9"
+        ],
+        "report_time": 1739288241,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4/H1",
+        "panoId": "17KIl2aVvKZjzKDl7qnvnA",
+        "lat": -34.99063,
+        "lng": -58.13823,
+        "country": "AR",
+        "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2024/11/06",
+        "id": "1338894581089173618",
+        "links": [
+            "https://infraccionesba.gba.gob.ar/consulta-infraccion",
+            "https://maps.app.goo.gl/LiZPRGvAByiceTsz9"
+        ],
+        "report_time": 1739287743,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4/H1",
+        "panoId": "17KIl2aVvKZjzKDl7qnvnA",
+        "lat": -34.99063,
+        "lng": -58.13823,
+        "country": "AR",
+        "region": "Buenos Aires Province"
     }
 ]
