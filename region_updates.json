@@ -8542,6 +8542,21 @@
                 "date": "Jan 2025",
                 "country": "US",
                 "region": "Kentucky"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1739609931,
+                "author": "Update Tracker Bot",
+                "id": "1340245934600228884",
+                "panoId": "d3fUhkeRsJVucYTEM29bNg",
+                "lat": 37.38357,
+                "lng": -82.25476,
+                "date": "Feb 2025",
+                "country": "US",
+                "region": "Kentucky"
             }
         },
         "Montana": {
@@ -55304,6 +55319,26 @@
                 "date": "Jan 2025",
                 "country": "PR",
                 "region": "Naguabo"
+            }
+        },
+        "Can\u00f3vanas": {
+            "Dec": {
+                "types": [
+                    "newgen4",
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1739608271,
+                "author": "Tobetelogi",
+                "id": "1340238972340932618",
+                "panoId": "lrBduUgwEdn1yU52HW1mFg",
+                "lat": 18.26986,
+                "lng": -65.91408,
+                "date": "Dec 2024",
+                "country": "PR",
+                "region": "Can\u00f3vanas"
             }
         }
     },
