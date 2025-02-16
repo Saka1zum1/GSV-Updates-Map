@@ -32705,5 +32705,85 @@
         "lng": -58.13823,
         "country": "AR",
         "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2025/02/15",
+        "id": "1340503778905948235",
+        "links": [
+            "https://www.instagram.com/p/DGHS84wpnHg/",
+            "https://maps.app.goo.gl/R5dXFqHuGCVmWMou5"
+        ],
+        "report_time": 1739671406,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "FcJB9QyWjbJ9JQRIA16Wog",
+        "lat": -29.75982,
+        "lng": -57.0687,
+        "country": "BR",
+        "region": "State of Rio Grande do Sul"
+    },
+    {
+        "spot_date": "2025/02/15",
+        "id": "1340478717855793325",
+        "links": [
+            "https://maps.app.goo.gl/rP3AkoixUQ9Has966",
+            "https://maps.app.goo.gl/rP3AkoixUQ9Has966"
+        ],
+        "report_time": 1739665431,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "I1orxrsGZxwFq6IicEd9JA",
+        "lat": 36.1416,
+        "lng": -78.71888,
+        "country": "US",
+        "region": "North Carolina"
+    },
+    {
+        "spot_date": "2025/02/15",
+        "id": "1340445503133057065",
+        "links": [
+            "https://www.tiktok.com/@videossinsentidos2.0/video/7471708802518125829",
+            "https://maps.app.goo.gl/WgLz8zJoSZg3Zq6AA"
+        ],
+        "report_time": 1739657512,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "Eqbs6KScg5r97QRtvbcQnw",
+        "lat": 17.95023,
+        "lng": -94.9154,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/02/14",
+        "id": "1340248545260998657",
+        "links": [
+            "https://www.youtube.com/watch?v=SilCe9sDD1I&ab_channel=SANDIEGOSH1T",
+            "https://maps.app.goo.gl/Y4GDKWbPpGTZhmAY8"
+        ],
+        "report_time": 1739610553,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "8a3KCd0V78iW-wqGsNcjyg",
+        "lat": 32.86749,
+        "lng": -117.10866,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2025/02/14",
+        "id": "1340157761677295770",
+        "links": [
+            "https://www.facebook.com/share/p/1ATC7L7nbZ/?mibextid=wwXIfr",
+            "https://maps.app.goo.gl/CuHwUtxau4hq6BU57"
+        ],
+        "report_time": 1739588909,
+        "author": "utakata",
+        "spot_type": "Gen4",
+        "panoId": "mC37hsJJOxl5WPFhVrntsg",
+        "lat": 23.01267,
+        "lng": 120.23667,
+        "country": "CN",
+        "region": "Tainan City"
     }
 ]
