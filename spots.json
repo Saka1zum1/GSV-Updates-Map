@@ -32785,5 +32785,21 @@
         "lng": 120.23667,
         "country": "CN",
         "region": "Tainan City"
+    },
+    {
+        "spot_date": "2025/02/14",
+        "id": "1340718664919289940",
+        "links": [
+            "https://x.com/DIVER_DOWN_X/status/1890196437671235653?t=Xe75hdksp0bN9bkmxBqKsw&s=19",
+            "https://maps.app.goo.gl/52gaVMt2xek3PU1RA"
+        ],
+        "report_time": 1739722639,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "N3PLS0AIePNAzIO-DHeJKg",
+        "lat": 34.65637,
+        "lng": 133.92617,
+        "country": "JP",
+        "region": "Okayama"
     }
 ]
