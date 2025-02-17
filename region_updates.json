@@ -7746,6 +7746,20 @@
                 "date": "Dec 2024",
                 "country": "US",
                 "region": "Nevada"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739742347,
+                "author": "Update Tracker Bot",
+                "id": "1340801329425022997",
+                "panoId": "8IxdsxXTl0Tm-cqvspyPJw",
+                "lat": 36.06473,
+                "lng": -115.17213,
+                "date": "Feb 2025",
+                "country": "US",
+                "region": "Nevada"
             }
         },
         "Wyoming": {
@@ -8181,6 +8195,21 @@
                 "lat": 36.62984,
                 "lng": -90.5203,
                 "date": "Dec 2024",
+                "country": "US",
+                "region": "Missouri"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1739689735,
+                "author": "Update Tracker Bot",
+                "id": "1340580656194785334",
+                "panoId": "mWsZemgafbezlPXxWHxojw",
+                "lat": 36.77609,
+                "lng": -89.27329,
+                "date": "Feb 2025",
                 "country": "US",
                 "region": "Missouri"
             }
@@ -9924,6 +9953,20 @@
                 "lat": 32.87561,
                 "lng": -85.2317,
                 "date": "Dec 2024",
+                "country": "US",
+                "region": "Alabama"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739714461,
+                "author": "Tobetelogi",
+                "id": "1340684365520437379",
+                "panoId": "jWfKur88lgGgGa0ct5jkjQ",
+                "lat": 30.67738,
+                "lng": -87.47043,
+                "date": "Feb 2025",
                 "country": "US",
                 "region": "Alabama"
             }
@@ -17474,6 +17517,20 @@
                 "date": "Jan 2025",
                 "country": "JP",
                 "region": "Miyazaki"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739710101,
+                "author": "DeSlagen",
+                "id": "1340666076945449061",
+                "panoId": "ig4KZD8URLU4DaZdR5Di1g",
+                "lat": 31.75808,
+                "lng": 131.12122,
+                "date": "Feb 2025",
+                "country": "JP",
+                "region": "Miyazaki"
             }
         },
         "Shiga": {
@@ -18263,6 +18320,35 @@
                 "country": "JP",
                 "altitude": 857.07,
                 "region": "Gunma"
+            },
+            "Feb": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1739700646,
+                "author": "maccem",
+                "id": "1340626422590607392",
+                "panoId": "BTSrMSoFDgYq8bNghq2NLQ",
+                "lat": 36.38046,
+                "lng": 138.99608,
+                "date": "Feb 2025",
+                "country": "JP",
+                "region": "Gunma"
+            },
+            "Jan": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739709443,
+                "author": "mpk",
+                "id": "1340663317613772845",
+                "panoId": "JkldxOKOiqz9vp937NWfcA",
+                "lat": 36.46313,
+                "lng": 139.04423,
+                "date": "Jan 2025",
+                "country": "JP",
+                "region": "Gunma"
             }
         },
         "Ibaraki": {
@@ -18424,6 +18510,21 @@
                 "lat": 34.41748,
                 "lng": 132.711,
                 "date": "Dec 2024",
+                "country": "JP",
+                "region": "Hiroshima"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1739709443,
+                "author": "mpk",
+                "id": "1340663317613772845",
+                "panoId": "rcghtVyiLXi-KkcdsyEVgw",
+                "lat": 34.62831,
+                "lng": 132.48553,
+                "date": "Jan 2025",
                 "country": "JP",
                 "region": "Hiroshima"
             }
@@ -19433,6 +19534,20 @@
                 "date": "Jan 2025",
                 "country": "JP",
                 "region": "Aichi"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739704609,
+                "author": "Sora",
+                "id": "1340643043765780532",
+                "panoId": "aHCl-Eh7yDnjH7CtDjVklw",
+                "lat": 35.05545,
+                "lng": 136.96445,
+                "date": "Feb 2025",
+                "country": "JP",
+                "region": "Aichi"
             }
         },
         "Kochi": {
@@ -20096,6 +20211,35 @@
                 "date": "Dec 2024",
                 "country": "JP",
                 "region": "Ehime"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1739709443,
+                "author": "mpk",
+                "id": "1340663317613772845",
+                "panoId": "OFml2aihIQ6kqFXJSn_sdQ",
+                "lat": 33.54778,
+                "lng": 132.68422,
+                "date": "Jan 2025",
+                "country": "JP",
+                "region": "Ehime"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739709921,
+                "author": "Update Tracker Bot",
+                "id": "1340665323921346570",
+                "panoId": "P2IUjRXo0pO-P_Hthv7ZSQ",
+                "lat": 33.85728,
+                "lng": 132.72714,
+                "date": "Feb 2025",
+                "country": "JP",
+                "region": "Ehime"
             }
         },
         "Iwate": {
@@ -20231,6 +20375,20 @@
                 "date": "Jan 2025",
                 "country": "JP",
                 "region": "Osaka"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739710645,
+                "author": "Sora",
+                "id": "1340668360744112170",
+                "panoId": "xID6A25Ff54LC90o4pC2IA",
+                "lat": 34.67373,
+                "lng": 135.59606,
+                "date": "Feb 2025",
+                "country": "JP",
+                "region": "Osaka"
             }
         },
         "Nara": {
@@ -20362,6 +20520,35 @@
                 "lat": 34.02637,
                 "lng": 130.92113,
                 "date": "Dec 2024",
+                "country": "JP",
+                "region": "Yamaguchi"
+            },
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1739707692,
+                "author": "DeSlagen",
+                "id": "1340655974117150741",
+                "panoId": "N3sTZ_rpagdoL5eor7KuAA",
+                "lat": 34.06489,
+                "lng": 131.74023,
+                "date": "Feb 2025",
+                "country": "JP",
+                "region": "Yamaguchi"
+            },
+            "Jan": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1739709443,
+                "author": "mpk",
+                "id": "1340663317613772845",
+                "panoId": "SB_IT-0sMLfWMXkI6S0m1w",
+                "lat": 34.08462,
+                "lng": 131.63406,
+                "date": "Jan 2025",
                 "country": "JP",
                 "region": "Yamaguchi"
             }
@@ -54018,6 +54205,22 @@
                 "date": "Nov 2024",
                 "country": "NG",
                 "region": "Ondo"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1739698729,
+                "author": "Tobetelogi",
+                "id": "1340618380326993983",
+                "panoId": "shiwBKXqKkweGst8Mf_Jqw",
+                "lat": 6.84964,
+                "lng": 5.76273,
+                "date": "Jan 2025",
+                "country": "NG",
+                "region": "Ondo"
             }
         },
         "Bayelsa": {
@@ -54054,6 +54257,23 @@
                 "country": "NG",
                 "altitude": 369.13,
                 "region": "Edo"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newroad",
+                    "newarea"
+                ],
+                "report_time": 1739698694,
+                "author": "Tobetelogi",
+                "id": "1340618232729702410",
+                "panoId": "53TbiyPGMkwfRHuGvfIsWw",
+                "lat": 7.19924,
+                "lng": 6.00206,
+                "date": "Jan 2025",
+                "country": "NG",
+                "region": "Edo"
             }
         },
         "Cross River": {},
@@ -54088,6 +54308,22 @@
                 "date": "Jul 2024",
                 "country": "NG",
                 "altitude": 36.35,
+                "region": "Kogi"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1739698386,
+                "author": "Tobetelogi",
+                "id": "1340616941588451398",
+                "panoId": "QTpJVHZognDrUjeT1xE-pA",
+                "lat": 7.26414,
+                "lng": 7.62476,
+                "date": "Jan 2025",
+                "country": "NG",
                 "region": "Kogi"
             }
         },
@@ -54140,6 +54376,22 @@
                 "lat": 7.56005,
                 "lng": 9.72751,
                 "date": "Nov 2024",
+                "country": "NG",
+                "region": "Benue"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1739698487,
+                "author": "Tobetelogi",
+                "id": "1340617366387556373",
+                "panoId": "ymm6pbX_Qy6Q-2uX6YaKKQ",
+                "lat": 7.12656,
+                "lng": 7.66306,
+                "date": "Jan 2025",
                 "country": "NG",
                 "region": "Benue"
             }
@@ -54351,6 +54603,23 @@
                 "date": "Jan 2025",
                 "country": "NG",
                 "region": "Oyo"
+            }
+        },
+        "Nasarawa": {
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1739778714,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1340953863145918476",
+                "panoId": "Ao2LfkQY3mqyZbUIO-YiNQ",
+                "lat": 8.01377,
+                "lng": 7.81882,
+                "date": "Jan 2025",
+                "country": "NG",
+                "region": "Nasarawa"
             }
         }
     },

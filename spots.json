@@ -32801,5 +32801,53 @@
         "lng": 133.92617,
         "country": "JP",
         "region": "Okayama"
+    },
+    {
+        "spot_date": "2024/08/26",
+        "id": "1340696046904410164",
+        "links": [
+            "https://weibo.com/6205478974/Ou3zPr2Rn/",
+            "https://maps.app.goo.gl/QANA8pSmNFhXuRCq7"
+        ],
+        "report_time": 1739717246,
+        "author": "\u5361\u5361",
+        "spot_type": "Gen4/H1",
+        "panoId": "IlFT1DrpDA_eIRTNkmLYvA",
+        "lat": 34.64993,
+        "lng": 135.51362,
+        "country": "JP",
+        "region": "Osaka"
+    },
+    {
+        "spot_date": "2025/02/15",
+        "id": "1341033528766365746",
+        "links": [
+            "https://www.tiktok.com/@anaiaam/video/7471118759818743058",
+            "https://maps.app.goo.gl/9bkS5FQXRxx2rqEWA"
+        ],
+        "report_time": 1739797708,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "RtwgUJCpMkqwcxMdKOx-7Q",
+        "lat": -7.31749,
+        "lng": 108.23226,
+        "country": "ID",
+        "region": "West Java"
+    },
+    {
+        "spot_date": "2025/02/11",
+        "id": "1341044007806959707",
+        "links": [
+            "https://www.shutterstock.com/fr/image-photo/google-street-view-cars-on-carcarrier-2585002491",
+            "https://maps.app.goo.gl/fiDskP1CFjL7rix2A"
+        ],
+        "report_time": 1739800206,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "uSanPluOWxFU1bNWNPLwRQ",
+        "lat": 48.78175,
+        "lng": 2.20964,
+        "country": "FR",
+        "region": "\u00cele-de-France"
     }
 ]
