@@ -32849,5 +32849,37 @@
         "lng": 2.20964,
         "country": "FR",
         "region": "\u00cele-de-France"
+    },
+    {
+        "spot_date": "2025/02/15",
+        "id": "1341176763216035842",
+        "links": [
+            "https://youtu.be/GqzsHZeZ3GM",
+            "https://maps.app.goo.gl/Ce13RVKbqXWpUQZr8"
+        ],
+        "report_time": 1739831858,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "q9JkXfUCS4glL-N2x3mKMA",
+        "lat": -28.18295,
+        "lng": 153.53758,
+        "country": "AU",
+        "region": "New South Wales"
+    },
+    {
+        "spot_date": "2025/02/17",
+        "id": "1341184866275819601",
+        "links": [
+            "https://www.tiktok.com/@xonce09x/video/7472459099397967159",
+            "https://maps.app.goo.gl/dkmTULhG15WC6PP97"
+        ],
+        "report_time": 1739833790,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "pCUU5ANzGvYsTQIxmMjrLA",
+        "lat": 4.86375,
+        "lng": -74.91464,
+        "country": "CO",
+        "region": "Tolima"
     }
 ]
