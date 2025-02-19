@@ -32945,5 +32945,21 @@
         "lng": -39.48547,
         "country": "BR",
         "region": "State of Bahia"
+    },
+    {
+        "spot_date": "2025/02/19",
+        "id": "1341735508157530124",
+        "links": [
+            "https://youtube.com/shorts/QwvixkFY2gM?si=RgiZ1rVGhDLgvlfE",
+            "https://maps.app.goo.gl/ArxWz2RC35JQqUvV8"
+        ],
+        "report_time": 1739965073,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "0r_CEkhDDXN86L96UJHPAg",
+        "lat": -0.96306,
+        "lng": 100.35253,
+        "country": "ID",
+        "region": "West Sumatra"
     }
 ]
