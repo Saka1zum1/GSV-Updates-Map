@@ -32881,5 +32881,69 @@
         "lng": -74.91464,
         "country": "CO",
         "region": "Tolima"
+    },
+    {
+        "spot_date": "2025/02/17",
+        "id": "1341428685042880522",
+        "links": [
+            "https://x.com/okuradanigolf/status/1891688334843363641?t=ft-83jKJIVoDbeI8vnkX7A&s=19",
+            "https://maps.app.goo.gl/QZsh71vo7sd6AjvC7"
+        ],
+        "report_time": 1739891921,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "PhodveSHAc4syQ0vVNMskg",
+        "lat": 34.6506,
+        "lng": 135.01173,
+        "country": "JP",
+        "region": "Hyogo"
+    },
+    {
+        "spot_date": "2025/02/16",
+        "id": "1341489880492150945",
+        "links": [
+            "https://www.facebook.com/reel/1659848644917438",
+            "https://maps.app.goo.gl/QPw6CVD9DowWEK589"
+        ],
+        "report_time": 1739906511,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "3iyHs4C5NIQ-OEwoDjyJHg",
+        "lat": -22.68171,
+        "lng": -43.27811,
+        "country": "BR",
+        "region": "State of Rio de Janeiro"
+    },
+    {
+        "spot_date": "2025/02/18",
+        "id": "1341560717190627359",
+        "links": [
+            "https://www.tiktok.com/@janaynagomes91/video/7472776931608497413",
+            "https://maps.app.goo.gl/Jr3H4grwTaS96zmZ9"
+        ],
+        "report_time": 1739923399,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "xT_vGFvSuQpOdSpEUv65Pg",
+        "lat": -20.26661,
+        "lng": -44.99695,
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/02/18",
+        "id": "1341559962458919004",
+        "links": [
+            "https://www.tiktok.com/@ghenifer_lhorrani/video/7472820815067647238",
+            "https://maps.app.goo.gl/BFG5xxn3Pfu9jtodA"
+        ],
+        "report_time": 1739923220,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "YAhBW1FHVFSl6JtlXzLbOA",
+        "lat": -13.74307,
+        "lng": -39.48547,
+        "country": "BR",
+        "region": "State of Bahia"
     }
 ]
