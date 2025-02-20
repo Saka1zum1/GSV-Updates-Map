@@ -32961,5 +32961,85 @@
         "lng": 100.35253,
         "country": "ID",
         "region": "West Sumatra"
+    },
+    {
+        "spot_date": "2025/02/18",
+        "id": "1341791936385912965",
+        "links": [
+            "https://www.facebook.com/photo?fbid=9267755786622704&set=pcb.9267761969955419",
+            "https://maps.app.goo.gl/kPpPuymxFk17aHpo8"
+        ],
+        "report_time": 1739978526,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "I2DMAogsDy-hLlWwmSrrIQ",
+        "lat": 16.26397,
+        "lng": 101.04343,
+        "country": "TH",
+        "region": "Phetchabun"
+    },
+    {
+        "spot_date": "2025/02/18",
+        "id": "1341594520751444010",
+        "links": [
+            "https://www.facebook.com/reel/515314974916196",
+            "https://maps.app.goo.gl/rBQaCp6At9gx5GGr6"
+        ],
+        "report_time": 1739931459,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "2TVd049ma__-UAjmGnFj6w",
+        "lat": -32.75459,
+        "lng": -63.7914,
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "spot_date": "2025/02/19",
+        "id": "1341928255283925084",
+        "links": [
+            "https://www.tiktok.com/@edsonscorpion/video/7473269185741606199",
+            "https://maps.app.goo.gl/cWfp7WSCyfmLui6CA"
+        ],
+        "report_time": 1740011027,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "wCk7pf95Q83sa_0SEblv9w",
+        "lat": -8.06268,
+        "lng": -48.46669,
+        "country": "BR",
+        "region": "State of Tocantins"
+    },
+    {
+        "spot_date": "2025/02/18",
+        "id": "1342101856440156191",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10233837999912303&set=a.10201843418547765",
+            "https://maps.app.goo.gl/WfzHTeAECn8Ddz8W8"
+        ],
+        "report_time": 1740052417,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "9DzIlvOJV23Qb79C77VObw",
+        "lat": 35.32896,
+        "lng": -85.08922,
+        "country": "US",
+        "region": "Tennessee"
+    },
+    {
+        "spot_date": "2025/02/15",
+        "id": "1342101440973246495",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=955545866671006&set=pcb.955546136670979",
+            "https://maps.app.goo.gl/rcVdw2j9t4W6T1jr5"
+        ],
+        "report_time": 1740052318,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "GDGEu64V_IXa6Q_nYpwfHQ",
+        "lat": 23.62019,
+        "lng": -100.63947,
+        "country": "MX",
+        "region": "San Luis Potosi"
     }
 ]
