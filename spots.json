@@ -33041,5 +33041,37 @@
         "lng": -100.63947,
         "country": "MX",
         "region": "San Luis Potosi"
+    },
+    {
+        "spot_date": "2025/02/20",
+        "id": "1342369889934905424",
+        "links": [
+            "https://www.tiktok.com/@ulii977x/video/7473609055265623301",
+            "https://maps.app.goo.gl/EosUAsFatdAUfNk36"
+        ],
+        "report_time": 1740116321,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "ZniHM8MEoLdtV7fwU4j-vA",
+        "lat": 17.50848,
+        "lng": -91.98133,
+        "country": "MX",
+        "region": "Chiapas"
+    },
+    {
+        "spot_date": "2025/02/19",
+        "id": "1342479302633066536",
+        "links": [
+            "https://youtube.com/shorts/lbaTmBUtngk?si=YVP_rG1soQL4xYyO",
+            "https://maps.app.goo.gl/T5uqLiUBn23uTAJG8"
+        ],
+        "report_time": 1740142407,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "NSnNxH7UBQnszH9ovF-ERg",
+        "lat": -6.12115,
+        "lng": 106.17218,
+        "country": "ID",
+        "region": "Banten"
     }
 ]
