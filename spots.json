@@ -33265,5 +33265,21 @@
         "lng": 120.41278,
         "country": "PH",
         "region": "Ilocos Region"
+    },
+    {
+        "spot_date": "2025/02/22",
+        "id": "1343546416802431091",
+        "links": [
+            "https://www.tiktok.com/@kawal_experience1/video/7474114291969297682",
+            "https://maps.app.goo.gl/LfFrvtGZYhDXRVZs8"
+        ],
+        "report_time": 1740396827,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "1WYKIXGq6yOxg7h8Jiy0jA",
+        "lat": -2.17507,
+        "lng": 111.46243,
+        "country": "ID",
+        "region": "Central Kalimantan"
     }
 ]
