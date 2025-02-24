@@ -33233,5 +33233,37 @@
         "lng": 23.55367,
         "country": "RO",
         "region": "Cluj County"
+    },
+    {
+        "spot_date": "2025/02/22",
+        "id": "1343277230595248265",
+        "links": [
+            "https://www.reddit.com/r/maui/comments/1iw0dvq/seen_in_the_wilds_of_wailuku/",
+            "https://maps.app.goo.gl/7HuBLXx7K1XZsLGA6"
+        ],
+        "report_time": 1740332648,
+        "author": "TheRealWoly",
+        "spot_type": "Gen4",
+        "panoId": "CGmaE_4q-OmwWWbowqHlYw",
+        "lat": 20.88021,
+        "lng": -156.50894,
+        "country": "US",
+        "region": "Hawaii"
+    },
+    {
+        "spot_date": "2025/02/17",
+        "id": "1343344131199598592",
+        "links": [
+            "https://www.facebook.com/reel/1353325012490051",
+            "https://maps.app.goo.gl/D3h5MH4ZwEP8x7976"
+        ],
+        "report_time": 1740348599,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "nSMeEXdv5GMlrjxkI5ONqA",
+        "lat": 17.58806,
+        "lng": 120.41278,
+        "country": "PH",
+        "region": "Ilocos Region"
     }
 ]
