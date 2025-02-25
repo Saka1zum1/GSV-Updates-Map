@@ -33281,5 +33281,21 @@
         "lng": 111.46243,
         "country": "ID",
         "region": "Central Kalimantan"
+    },
+    {
+        "spot_date": "2025/02/24",
+        "id": "1343716802886238249",
+        "links": [
+            "https://maps.app.goo.gl/Q7oiwbAFoTBfsEMZA",
+            "https://maps.app.goo.gl/Q7oiwbAFoTBfsEMZA"
+        ],
+        "report_time": 1740437450,
+        "author": "Tinh1000000",
+        "spot_type": "Gen4",
+        "panoId": "7rd6vAl-BHvB7Fr3rcGp-A",
+        "lat": 34.00406,
+        "lng": -117.5798,
+        "country": "US",
+        "region": "California"
     }
 ]
