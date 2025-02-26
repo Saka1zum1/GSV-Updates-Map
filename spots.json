@@ -33377,5 +33377,37 @@
         "lng": -114.84391,
         "country": "MX",
         "region": "Baja California"
+    },
+    {
+        "spot_date": "2025/02/24",
+        "id": "1344289993593454693",
+        "links": [
+            "https://www.tiktok.com/@maktun.tv/video/7474961615385791751",
+            "https://maps.app.goo.gl/xQhhguvnUW5Jba41A"
+        ],
+        "report_time": 1740574110,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "S2fU9Eid_MK3ElI55-HKnQ",
+        "lat": -7.0779,
+        "lng": 110.30813,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/02/26",
+        "id": "1344336024528224309",
+        "links": [
+            "https://x.com/tranquil_smoker/status/1894543985118777719?t=tlvHjuNbdeyrnxtZ07tWKA&s=19",
+            "https://maps.app.goo.gl/WahieqvG9jQ1i84F8"
+        ],
+        "report_time": 1740585084,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "yahcjJWUIbQc30Yi_8gIAg",
+        "lat": 35.84643,
+        "lng": 139.64673,
+        "country": "JP",
+        "region": "Saitama"
     }
 ]
