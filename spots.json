@@ -33297,5 +33297,85 @@
         "lng": -117.5798,
         "country": "US",
         "region": "California"
+    },
+    {
+        "spot_date": "2025/02/25",
+        "id": "1343975392301682699",
+        "links": [
+            "https://www.facebook.com/share/r/1HKDssPWVJ/",
+            "https://maps.app.goo.gl/srcB1JvD7FSAUWjA9"
+        ],
+        "report_time": 1740499103,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "_oQsfJMZ_5xtuadh1xd64g",
+        "lat": 34.01298,
+        "lng": 131.18353,
+        "country": "JP",
+        "region": "Yamaguchi"
+    },
+    {
+        "spot_date": "2025/02/21",
+        "id": "1343968316838117399",
+        "links": [
+            "https://x.com/setouchi1192/status/1892826800612659467?t=FuGyFslG7P58IJyCbkNVMw&s=19",
+            "https://maps.app.goo.gl/6aPWktsXqn4jEo1X9"
+        ],
+        "report_time": 1740497416,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "eD_TIFO3VkGVfD3X3GRR5A",
+        "lat": 34.29107,
+        "lng": 133.79307,
+        "country": "JP",
+        "region": "Kagawa"
+    },
+    {
+        "spot_date": "2025/02/24",
+        "id": "1343997682808782981",
+        "links": [
+            "https://proini.news/nea-figaleia-to-ochima-tis-google-chartografei-to-odiko-diktyo/",
+            "https://maps.app.goo.gl/qqPbBnXG2C83JmtZ8"
+        ],
+        "report_time": 1740504417,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "2CYD_t0myye8HL1wxVgVfA",
+        "lat": 37.44165,
+        "lng": 21.77112,
+        "country": "GR",
+        "region": "Western Greece and the Ionian"
+    },
+    {
+        "spot_date": "2025/02/25",
+        "id": "1344083819883528275",
+        "links": [
+            "https://www.tiktok.com/@porselpremium/video/7475428716701584645",
+            "https://maps.app.goo.gl/CoQax5ctKvVfnF3s6"
+        ],
+        "report_time": 1740524954,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "eDaUFdzcZz_5Jo1P5WsKKg",
+        "lat": -23.11417,
+        "lng": -46.56099,
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "spot_date": "2025/02/25",
+        "id": "1344082834461163551",
+        "links": [
+            "https://www.tiktok.com/@pinatas_con_el_sulivan/video/7475486479913946374",
+            "https://maps.app.goo.gl/8JYq6nVmhVBYci2J9"
+        ],
+        "report_time": 1740524719,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "1lOXr7I_mZ1_iH06bnuLmA",
+        "lat": 31.02602,
+        "lng": -114.84391,
+        "country": "MX",
+        "region": "Baja California"
     }
 ]
