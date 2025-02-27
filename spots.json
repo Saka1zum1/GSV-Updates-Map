@@ -33409,5 +33409,21 @@
         "lng": 139.64673,
         "country": "JP",
         "region": "Saitama"
+    },
+    {
+        "spot_date": "2025/02/26",
+        "id": "1344439245993017345",
+        "links": [
+            "https://www.facebook.com/61550094705587/videos/659866073058102",
+            "https://maps.app.goo.gl/jCzSQ4RpZUJG3cYQ7"
+        ],
+        "report_time": 1740609694,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "MgJEwA87VxHesCJQ0_6vZw",
+        "lat": -36.31807,
+        "lng": -57.67847,
+        "country": "AR",
+        "region": "Buenos Aires Province"
     }
 ]
