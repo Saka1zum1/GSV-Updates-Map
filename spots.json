@@ -33569,5 +33569,85 @@
         "lng": 137.49611,
         "country": "JP",
         "region": "Gifu"
+    },
+    {
+        "spot_date": "2025/02/26",
+        "id": "1345795693012451358",
+        "links": [
+            "https://www.threads.net/@usagimanma/post/DGhfpynJsOZ",
+            "https://maps.app.goo.gl/GKhWzAtXfSiptC977"
+        ],
+        "report_time": 1740933096,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "gqwUeOz92QzVW9vx9gqo7w",
+        "lat": 24.94689,
+        "lng": 121.37983,
+        "country": "CN",
+        "region": "New Taipei City"
+    },
+    {
+        "spot_date": "2025/02/28",
+        "id": "1345835695695986748",
+        "links": [
+            "https://www.tiktok.com/@228biker/video/7476546782504455479",
+            "https://maps.app.goo.gl/YYf46bfKLjpXn14G9"
+        ],
+        "report_time": 1740942634,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "NwYCbqs6jdp6UkVbZ8yjug",
+        "lat": 19.53553,
+        "lng": -96.9115,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/02/27",
+        "id": "1345835108078452756",
+        "links": [
+            "https://www.tiktok.com/@inesmata2/video/7476180932291005701",
+            "https://maps.app.goo.gl/SJqHWdwJLWW6Hgpf7"
+        ],
+        "report_time": 1740942494,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "Ap__0rbblnWgS-kpyz4MwA",
+        "lat": 20.36954,
+        "lng": -102.76958,
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "spot_date": "2025/02/24",
+        "id": "1345755699015061577",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=10234225592572461&set=a.1843602061009&type=3",
+            "https://maps.app.goo.gl/3cj3G5dNKBP6VB1S9"
+        ],
+        "report_time": 1740923561,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "PDDJaBZ2OOKx85WTP6GcZQ",
+        "lat": -3.74558,
+        "lng": 103.80094,
+        "country": "ID",
+        "region": "South Sumatra"
+    },
+    {
+        "spot_date": "2025/02/26",
+        "id": "1346097636851322900",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10232882303667215&set=pcb.10232882326387783",
+            "https://maps.app.goo.gl/eujCVsKQ4oG25xQ69"
+        ],
+        "report_time": 1741005085,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "1KxYpNtq-V2lHuRfUEwWEA",
+        "lat": 25.05505,
+        "lng": 121.49382,
+        "country": "CN",
+        "region": "New Taipei City"
     }
 ]
