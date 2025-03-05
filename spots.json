@@ -33649,5 +33649,101 @@
         "lng": 121.49382,
         "country": "CN",
         "region": "New Taipei City"
+    },
+    {
+        "spot_date": "2011/06/27",
+        "id": "1346224691488227499",
+        "links": [
+            "https://wroclaw.naszemiasto.pl/wroclaw-obejrzymy-na-google-street-view/ar/c4-3193129",
+            "https://maps.app.goo.gl/dgnfisBcMX3nLwN67"
+        ],
+        "report_time": 1741035378,
+        "author": "Jaki\u015b Bartu\u015b",
+        "spot_type": "Gen3",
+        "panoId": "XrsiCWhdv_vf8GGQQeNwvA",
+        "lat": 51.09862,
+        "lng": 17.02621,
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "spot_date": "2025/03/03",
+        "id": "1346786070188261377",
+        "links": [
+            "https://www.facebook.com/groups/523920553550791/posts/649706560972189/?_rdr",
+            "https://maps.app.goo.gl/h7DLsAjCupW9ZhqMA"
+        ],
+        "report_time": 1741169221,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "R7uXAtqVsl9RBZzjfs5pzA",
+        "lat": -5.40211,
+        "lng": 120.03003,
+        "country": "ID",
+        "region": "South Sulawesi"
+    },
+    {
+        "spot_date": "2025/03/04",
+        "id": "1346635634466357379",
+        "links": [
+            "https://www.tiktok.com/@chairo20022000/video/7478076605949119751",
+            "https://maps.app.goo.gl/nTzhjrwZbzVTaMvo6"
+        ],
+        "report_time": 1741133354,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "i4Mo-dK7Os4t4i2p1D_4xw",
+        "lat": 19.03339,
+        "lng": -98.22455,
+        "country": "MX",
+        "region": "Puebla"
+    },
+    {
+        "spot_date": "2025/02/28",
+        "id": "1346604911030440068",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10162276091844000",
+            "https://maps.app.goo.gl/NhSe2V99oUNn2q3fA"
+        ],
+        "report_time": 1741126029,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "ZMHddxzFro8LWXUxRyC5dg",
+        "lat": 14.78419,
+        "lng": 102.00811,
+        "country": "TH",
+        "region": "Nakhon Ratchasima"
+    },
+    {
+        "spot_date": "2025/03/03",
+        "id": "1346552553248395335",
+        "links": [
+            "https://www.tiktok.com/@henrycrisolo/video/7477638188866030903",
+            "https://maps.app.goo.gl/WhZgoM7oVcJjUBjU8"
+        ],
+        "report_time": 1741113546,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "HJXbOxQj3M3NVfyjhLsljA",
+        "lat": -11.10802,
+        "lng": -77.58641,
+        "country": "PE",
+        "region": "Lima Region"
+    },
+    {
+        "spot_date": "2025/03/01",
+        "id": "1346533058924380192",
+        "links": [
+            "https://www.tiktok.com/@millyaventuras/video/7476972487641763089",
+            "https://maps.app.goo.gl/uijL2DxVxBzmh3gZ8"
+        ],
+        "report_time": 1741108898,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "moIhKbM0tQ4-HcfnGlgo7w",
+        "lat": 20.09074,
+        "lng": -99.24485,
+        "country": "MX",
+        "region": "Hidalgo"
     }
 ]
