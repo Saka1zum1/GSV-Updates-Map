@@ -33745,5 +33745,53 @@
         "lng": -99.24485,
         "country": "MX",
         "region": "Hidalgo"
+    },
+    {
+        "spot_date": "2025/02/17",
+        "id": "1341424311667265641",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10161824082956973&set=pcb.10161824091121973",
+            "https://maps.app.goo.gl/n7dPbb4EodUyAums5"
+        ],
+        "report_time": 1739890878,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "teq7xvtSSd1vZMNc9iSM9Q",
+        "lat": 30.44285,
+        "lng": -84.32448,
+        "country": "US",
+        "region": "Florida"
+    },
+    {
+        "spot_date": "2025/02/12",
+        "id": "1339960610380714055",
+        "links": [
+            "https://www.facebook.com/reel/926501889638922",
+            "https://maps.app.goo.gl/hsBJw68hM5eAxewZ9"
+        ],
+        "report_time": 1739541904,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "-5g0ysfo6ipPOWtgIxL2fA",
+        "lat": 15.46248,
+        "lng": 120.67581,
+        "country": "PH",
+        "region": "Central Luzon"
+    },
+    {
+        "spot_date": "2025/02/11",
+        "id": "1339196180571357215",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1028900442596805&set=a.104182761735249",
+            "https://maps.app.goo.gl/9Ji7CfXN51Jq1qo59"
+        ],
+        "report_time": 1739359650,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "Rg3vhNhh2Q5ak3vYJzToMA",
+        "lat": 33.60989,
+        "lng": -85.82755,
+        "country": "US",
+        "region": "Alabama"
     }
 ]
