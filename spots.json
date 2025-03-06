@@ -33793,5 +33793,101 @@
         "lng": -85.82755,
         "country": "US",
         "region": "Alabama"
+    },
+    {
+        "spot_date": "2025/01/21",
+        "id": "1331196101688033322",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1161312759336861&set=a.658394726295336",
+            "https://maps.app.goo.gl/aRU5Ho4gznQHMWcx6"
+        ],
+        "report_time": 1737452283,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "1-EWHt0bpa3zVxdx12yKew",
+        "lat": -21.13847,
+        "lng": 149.1816,
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "spot_date": "2025/01/02",
+        "id": "1324812950044676229",
+        "links": [
+            "https://www.instagram.com/p/DEUnjv6RYpq/",
+            "https://maps.app.goo.gl/JtZT84H89buG5S6c8"
+        ],
+        "report_time": 1735930421,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "iDawqGn7zlzOA_U7dskJpg",
+        "lat": -7.48631,
+        "lng": -38.99991,
+        "country": "BR",
+        "region": "Cear\u00e1"
+    },
+    {
+        "spot_date": "2024/12/17",
+        "id": "1321584476635271239",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10221189185519716&set=a.1917622120748",
+            "https://maps.app.goo.gl/VvXaBhCdxjreeHcD9"
+        ],
+        "report_time": 1735160693,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "RKnZ3p4vd6fdLg8Q7LnzLQ",
+        "lat": 13.6376,
+        "lng": 100.59129,
+        "country": "TH",
+        "region": "Samut Prakan"
+    },
+    {
+        "spot_date": "2024/12/14",
+        "id": "1318920533919924346",
+        "links": [
+            "https://www.tiktok.com/@h.muhammadfaisal/video/7448080906377563398",
+            "https://maps.app.goo.gl/Z2efxPqJ1H59oC2z6"
+        ],
+        "report_time": 1734525559,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "AEXFIJJDzW1JYkvm0qSh8w",
+        "lat": -2.34438,
+        "lng": 114.0865,
+        "country": "ID",
+        "region": "Central Kalimantan"
+    },
+    {
+        "spot_date": "2024/12/15",
+        "id": "1318367683389161613",
+        "links": [
+            "https://www.youtube.com/watch?v=3o7HNPpCORA",
+            "https://maps.app.goo.gl/ALexrd8q2vucciCw6"
+        ],
+        "report_time": 1734393749,
+        "author": "Ethan",
+        "spot_type": "Gen4",
+        "panoId": "81u33G9AscuF07_pwyRW0g",
+        "lat": 43.32289,
+        "lng": -90.38169,
+        "country": "US",
+        "region": "Wisconsin"
+    },
+    {
+        "spot_date": "2024/12/11",
+        "id": "1316674061715378187",
+        "links": [
+            "https://www.facebook.com/damon.tucker/posts/google-street-view-is-on-island/10228325449660947/",
+            "https://maps.app.goo.gl/gCzhZtUuaszoCHwB7"
+        ],
+        "report_time": 1733989958,
+        "author": "macca",
+        "spot_type": "Gen4",
+        "panoId": "sTWbuyR4Blc7hacxH6iGEA",
+        "lat": 19.68825,
+        "lng": -155.12916,
+        "country": "US",
+        "region": "Hawaii"
     }
 ]
