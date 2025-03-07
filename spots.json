@@ -33889,5 +33889,21 @@
         "lng": -155.12916,
         "country": "US",
         "region": "Hawaii"
+    },
+    {
+        "spot_date": "2024/10/29",
+        "id": "1307303440745238570",
+        "links": [
+            "https://www.corrierecesenate.it/lauto-di-google-a-cesena-per-aggiornare-le-mappe/l-auto-di-google-a-cesena-per-aggiornare-le-mappe/",
+            "https://maps.app.goo.gl/sSpMqyMYyUyXgD9KA"
+        ],
+        "report_time": 1731755828,
+        "author": "K\u00fcgul",
+        "spot_type": "Gen4",
+        "panoId": "RGnc0Zgt6NTCebAf775_OA",
+        "lat": 44.13666,
+        "lng": 12.24331,
+        "country": "IT",
+        "region": "Emilia-Romagna"
     }
 ]
