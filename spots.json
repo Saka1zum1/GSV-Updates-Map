@@ -34081,5 +34081,53 @@
         "lng": -5.74081,
         "country": "ES",
         "region": "Castile and Le\u00f3n"
+    },
+    {
+        "spot_date": "2025/03/06",
+        "id": "1347587304029425794",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10100256740682528&set=a.514096565318",
+            "https://maps.app.goo.gl/5R4vJ2kyMCarxQjC7"
+        ],
+        "report_time": 1741360250,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "sZInHhvk86Wif9yX86QyTw",
+        "lat": 30.38662,
+        "lng": -91.01426,
+        "country": "US",
+        "region": "Louisiana"
+    },
+    {
+        "spot_date": "2025/03/07",
+        "id": "1348052134033100902",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10212480625567423&set=a.10207342124468107",
+            "https://maps.app.goo.gl/CUKVMh2ooHKZgSKY9"
+        ],
+        "report_time": 1741471074,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "39oKJ9Sb5AGutBDVrLGdxQ",
+        "lat": 48.69092,
+        "lng": 5.72445,
+        "country": "FR",
+        "region": "Grand Est"
+    },
+    {
+        "spot_date": "2025/03/07",
+        "id": "1348030333018308688",
+        "links": [
+            "https://bsky.app/profile/andreasmeow.bsky.social/post/3ljtaw6uftk23",
+            "https://maps.app.goo.gl/eYf7AHApvHWvSdBP9"
+        ],
+        "report_time": 1741465876,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "V4gxc6NcIwcy0pek5zKOLw",
+        "lat": 38.11641,
+        "lng": -121.30827,
+        "country": "US",
+        "region": "California"
     }
 ]
