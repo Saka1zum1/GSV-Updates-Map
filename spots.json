@@ -34129,5 +34129,53 @@
         "lng": -121.30827,
         "country": "US",
         "region": "California"
+    },
+    {
+        "spot_date": "2025/03/08",
+        "id": "1348260247369679012",
+        "links": [
+            "https://x.com/kakeru1364/status/1898192650769227900?t=XXlBdyURebr2VkyP0JTtdw&s=19",
+            "https://maps.app.goo.gl/CGGrwgHrCBBTCgzt8"
+        ],
+        "report_time": 1741520692,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "s2tyfxdpXB8vPgLAJWfE8A",
+        "lat": 38.27549,
+        "lng": 140.9876,
+        "country": "JP",
+        "region": "Miyagi"
+    },
+    {
+        "spot_date": "2025/03/04",
+        "id": "1348324352432672842",
+        "links": [
+            "https://www.threads.net/@marilu.horton84/post/DGy3ei3yquo",
+            "https://maps.app.goo.gl/LYW9KiZkgWbLPuqd8"
+        ],
+        "report_time": 1741535976,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "KaJozXHUpFOm_jhcdBbrjA",
+        "lat": 33.21822,
+        "lng": -98.15337,
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "spot_date": "2025/03/06",
+        "id": "1348335239495417857",
+        "links": [
+            "https://www.threads.net/@bruno.benites.31/post/DG3Bi8FRYlT",
+            "https://maps.app.goo.gl/rDFmYTZ5MtzyzviRA"
+        ],
+        "report_time": 1741538571,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "tBtYL5XeL6WdLIhyoTTn6A",
+        "lat": -29.78822,
+        "lng": -57.11192,
+        "country": "BR",
+        "region": "State of Rio Grande do Sul"
     }
 ]
