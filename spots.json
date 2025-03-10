@@ -34177,5 +34177,37 @@
         "lng": -57.11192,
         "country": "BR",
         "region": "State of Rio Grande do Sul"
+    },
+    {
+        "spot_date": "2025/03/09",
+        "id": "1348473083593494589",
+        "links": [
+            "https://www.tiktok.com/@moronimoncada1/video/7479808819288132919",
+            "https://maps.app.goo.gl/VWoc6RJ6rnJiQ44W7"
+        ],
+        "report_time": 1741571436,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "8s-bo9yuYzO5D8IP1sx5Og",
+        "lat": 25.42524,
+        "lng": -101.00467,
+        "country": "MX",
+        "region": "Coahuila"
+    },
+    {
+        "spot_date": "2025/03/09",
+        "id": "1348673649762107433",
+        "links": [
+            "https://x.com/kai_cho3/status/1898726225138582013?t=beN_vRPtTdbjSlftd1EcBQ&s=19",
+            "https://maps.app.goo.gl/McMT6pKLU8nPNNjs5"
+        ],
+        "report_time": 1741619255,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "_34D3x0427hbNzj7svsc8w",
+        "lat": 35.23816,
+        "lng": 136.74662,
+        "country": "JP",
+        "region": "Aichi"
     }
 ]
