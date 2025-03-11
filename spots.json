@@ -34209,5 +34209,37 @@
         "lng": 136.74662,
         "country": "JP",
         "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/03/10",
+        "id": "1348760125963239507",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=122120248622717245",
+            "https://maps.app.goo.gl/vx4CpwTJXnpwPEbdA"
+        ],
+        "report_time": 1741639872,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "vJiEAYclX8zc4JgN-ZYyew",
+        "lat": -19.62717,
+        "lng": -41.64606,
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/03/08",
+        "id": "1348329364827406429",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9724726727577574&set=a.525115160872156",
+            "https://maps.app.goo.gl/WVXG6t5eLuZ3E3jQ8"
+        ],
+        "report_time": 1741537171,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "fnlt3CLphVv2g3hYOYiF-Q",
+        "lat": 42.47682,
+        "lng": -83.02713,
+        "country": "US",
+        "region": "Michigan"
     }
 ]
