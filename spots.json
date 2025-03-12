@@ -34241,5 +34241,37 @@
         "lng": -83.02713,
         "country": "US",
         "region": "Michigan"
+    },
+    {
+        "spot_date": "2025/03/11",
+        "id": "1349107255064137830",
+        "links": [
+            "https://www.tiktok.com/@el_pachivalenz.6/video/7480599060613696774",
+            "https://maps.app.goo.gl/4upH5vSxJEpfih268"
+        ],
+        "report_time": 1741722634,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "ev9XkCnIreM7IEUalxDOpg",
+        "lat": 20.98151,
+        "lng": -89.61859,
+        "country": "MX",
+        "region": "Yucatan"
+    },
+    {
+        "spot_date": "2025/03/11",
+        "id": "1349236831228530749",
+        "links": [
+            "https://www.tiktok.com/@castelanlu/video/7480683821134859526",
+            "https://maps.app.goo.gl/BusRjbRCAgSVFzuv7"
+        ],
+        "report_time": 1741753528,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "4DQRuUW3eJb85UwlGmgK7g",
+        "lat": 19.27,
+        "lng": -99.64757,
+        "country": "MX",
+        "region": "State of Mexico"
     }
 ]
