@@ -34273,5 +34273,21 @@
         "lng": -99.64757,
         "country": "MX",
         "region": "State of Mexico"
+    },
+    {
+        "spot_date": "2025/03/11",
+        "id": "1349323739942096967",
+        "links": [
+            "https://youtu.be/2M3p1Ok2ChM?si=bdfsJavBwqHxidsr",
+            "https://maps.app.goo.gl/hRuCktmZbBZFbsCB6"
+        ],
+        "report_time": 1741774248,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "CNXAV5oTwCe9VtFGdDAHVQ",
+        "lat": -6.24922,
+        "lng": 107.09511,
+        "country": "ID",
+        "region": "West Java"
     }
 ]
