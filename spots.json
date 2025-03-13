@@ -34289,5 +34289,101 @@
         "lng": 107.09511,
         "country": "ID",
         "region": "West Java"
+    },
+    {
+        "spot_date": "2025/03/13",
+        "id": "1349680196092956723",
+        "links": [
+            "https://www.aisnenouvelle.fr/id613968/article/2025-03-13/une-voiture-sillonne-homblieres-pour-google-street-view",
+            "https://maps.app.goo.gl/a838cup8rXrXDXwj6"
+        ],
+        "report_time": 1741859234,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "9sTtEv-Dnuj3IqD0-nmxPg",
+        "lat": 49.84963,
+        "lng": 3.36345,
+        "country": "FR",
+        "region": "Hauts-de-France"
+    },
+    {
+        "spot_date": "2025/03/12",
+        "id": "1349617705962967111",
+        "links": [
+            "https://www.instagram.com/p/DHGoHXVO-MJ/",
+            "https://maps.app.goo.gl/LWgfu6tP4i82KTJR9"
+        ],
+        "report_time": 1741844335,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "GmL1yVpD_4wYJvhwdJjitA",
+        "lat": -8.3996,
+        "lng": -35.05721,
+        "country": "BR",
+        "region": "State of Pernambuco"
+    },
+    {
+        "spot_date": "2025/03/12",
+        "id": "1349606435104751690",
+        "links": [
+            "https://www.tiktok.com/@jorgelacerda09/video/7480901575909723398",
+            "https://maps.app.goo.gl/ArWMU4iRF6UkmR5P6"
+        ],
+        "report_time": 1741841648,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "eeVmr4nOx2sUZVF6OYcTyg",
+        "lat": -6.90879,
+        "lng": -37.60361,
+        "country": "BR",
+        "region": "State of Para\u00edba"
+    },
+    {
+        "spot_date": "2025/03/12",
+        "id": "1349605034777903155",
+        "links": [
+            "https://www.tiktok.com/@jjavier921/video/7481014710175927557",
+            "https://maps.app.goo.gl/mfCjjzwHPk3jeNX39"
+        ],
+        "report_time": 1741841314,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "XPjzXrWgH2q6Vt9Wswqfcg",
+        "lat": 18.63776,
+        "lng": -91.78659,
+        "country": "MX",
+        "region": "Campeche"
+    },
+    {
+        "spot_date": "2025/03/11",
+        "id": "1349603740100989109",
+        "links": [
+            "https://www.tiktok.com/@ce.kurniawan/video/7480358403492171063",
+            "https://maps.app.goo.gl/g9GCYKTXkBnxJdYHA"
+        ],
+        "report_time": 1741841006,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "IiX-bo6zq5DeJHS89Bnubg",
+        "lat": -6.55323,
+        "lng": 107.44382,
+        "country": "ID",
+        "region": "West Java"
+    },
+      {
+        "id": "1349058215563755541",
+        "links": [
+            "https://x.com/ANCOIxVoice/status/1897903213002830269?t=QBj7VAVES36jlqzFkHX-uA&s=19",
+            "https://maps.app.goo.gl/V9giT6AWoXY7BAEm9"
+        ],
+        "report_time": 1741710942,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "Ae-jU8IpzDF7I6irLtyDKw",
+        "lat": 34.273469,
+        "lng": 133.768301,
+        "country": "JP",
+        "spot_date": "2025/03/07",
+        "region": "Kagawa"
     }
 ]

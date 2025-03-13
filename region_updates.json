@@ -19308,6 +19308,21 @@
                 "country": "JP",
                 "altitude": 422.87,
                 "region": "Yamanashi"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1741725790,
+                "author": "BurgerwithPeel",
+                "id": "1349120492736614560",
+                "panoId": "JM7Cs9h5nBO_P1zYSZ69Kg",
+                "lat": 35.60596,
+                "lng": 138.82827,
+                "date": "Feb 2025",
+                "country": "JP",
+                "region": "Yamanashi"
             }
         },
         "Kanagawa": {
@@ -55489,6 +55504,21 @@
                 "country": "NG",
                 "altitude": 475.52,
                 "region": "Federal Capital Territory"
+            },
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1741786281,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1349374210367291513",
+                "panoId": "8ZIBxq4LewSY0Jruhb99oQ",
+                "lat": 8.94462,
+                "lng": 7.07841,
+                "date": "Feb 2025",
+                "country": "NG",
+                "region": "Federal Capital Territory"
             }
         },
         "Osun": {
@@ -55624,6 +55654,21 @@
                 "date": "Jul 2024",
                 "country": "NG",
                 "altitude": 431.28,
+                "region": "Niger"
+            },
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1741786281,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1349374210367291513",
+                "panoId": "UZkL1TDfS0sljdZS932v1w",
+                "lat": 9.12959,
+                "lng": 7.228,
+                "date": "Feb 2025",
+                "country": "NG",
                 "region": "Niger"
             }
         },
@@ -55879,6 +55924,23 @@
                 "date": "Dec 2024",
                 "country": "NG",
                 "region": "Kaduna"
+            },
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newarea",
+                    "newroad"
+                ],
+                "report_time": 1741786281,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1349374210367291513",
+                "panoId": "Kx5xCAuMPiag3Z-upVM66Q",
+                "lat": 9.30173,
+                "lng": 7.80711,
+                "date": "Feb 2025",
+                "country": "NG",
+                "region": "Kaduna"
             }
         },
         "A2": {
@@ -55931,6 +55993,22 @@
                 "date": "Dec 2024",
                 "country": "NG",
                 "region": "Bauchi"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1741515348,
+                "author": "Tobetelogi",
+                "id": "1348237832552058912",
+                "panoId": "iv7LroMxFIpmc9mt4QDBkA",
+                "lat": 9.74715,
+                "lng": 9.17887,
+                "date": "Feb 2025",
+                "country": "NG",
+                "region": "Bauchi"
             }
         },
         "Plateau": {
@@ -55962,6 +56040,23 @@
                 "lat": 9.33247,
                 "lng": 9.41263,
                 "date": "Dec 2024",
+                "country": "NG",
+                "region": "Plateau"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newarea",
+                    "newroad"
+                ],
+                "report_time": 1741515348,
+                "author": "Tobetelogi",
+                "id": "1348237832552058912",
+                "panoId": "XCbhqxEQym0ZxnRJQ7cfJg",
+                "lat": 9.75198,
+                "lng": 9.1502,
+                "date": "Feb 2025",
                 "country": "NG",
                 "region": "Plateau"
             }
@@ -56016,6 +56111,42 @@
                 "date": "Nov 2024",
                 "country": "NG",
                 "region": "Nasarawa"
+            }
+        },
+        "Adamawa": {
+            "Feb": {
+                "types": [
+                    "newarea",
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1741591084,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1348555494096244846",
+                "panoId": "MK2KCTVKvMmXg7zfcPHY5Q",
+                "lat": 9.71107,
+                "lng": 11.95466,
+                "date": "Feb 2025",
+                "country": "NG",
+                "region": "Adamawa"
+            }
+        },
+        "Gombe": {
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1741591206,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1348556003914022952",
+                "panoId": "INN0XdWFhVs-ExfPC1B4mQ",
+                "lat": 9.71735,
+                "lng": 11.73855,
+                "date": "Feb 2025",
+                "country": "NG",
+                "region": "Gombe"
             }
         }
     },
