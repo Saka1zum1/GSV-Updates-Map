@@ -34370,7 +34370,7 @@
         "country": "ID",
         "region": "West Java"
     },
-      {
+    {
         "id": "1349058215563755541",
         "links": [
             "https://x.com/ANCOIxVoice/status/1897903213002830269?t=QBj7VAVES36jlqzFkHX-uA&s=19",
@@ -34385,5 +34385,53 @@
         "country": "JP",
         "spot_date": "2025/03/07",
         "region": "Kagawa"
+    },
+    {
+        "spot_date": "2025/03/11",
+        "id": "1349604410031997030",
+        "links": [
+            "https://www.instagram.com/p/DHC6ntTtmv6/",
+            "https://maps.app.goo.gl/61tdjATZNPgiDdGp6"
+        ],
+        "report_time": 1741841165,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "9jA_1V0C3RVc_snMFGx3hQ",
+        "lat": 30.5551,
+        "lng": -97.79686,
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "spot_date": "2025/03/12",
+        "id": "1350054546973392957",
+        "links": [
+            "https://www.instagram.com/reel/DHFsQcZBZHD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/sv2S6pL4S1bRCzEo7"
+        ],
+        "report_time": 1741948486,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "bUEaGHm3HTNmSZMCGXeTEw",
+        "lat": -7.11369,
+        "lng": 110.92943,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/03/13",
+        "id": "1350054413074563123",
+        "links": [
+            "https://www.tiktok.com/@mochiell.bpc7/video/7481122350147095863",
+            "https://maps.app.goo.gl/HjHN4ean3nZWQpUQ9"
+        ],
+        "report_time": 1741948454,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "JQbw77xtQ2jH7l3SQWAg0w",
+        "lat": -7.11442,
+        "lng": 110.89183,
+        "country": "ID",
+        "region": "Central Java"
     }
 ]
