@@ -34468,6 +34468,22 @@
     },
     {
         "spot_date": "2025/03/14",
+        "id": "1350182191656865803",
+        "links": [
+            "https://www.youtube.com/watch?v=m5JruArAaJk",
+            "https://maps.app.goo.gl/RTKjinP1KuW24mBw5"
+        ],
+        "report_time": 1741978890,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "31a-_DXgLFrjKZuQQFL0KA",
+        "lat": 40.1498568,
+        "lng": -75.0201605,
+        "country": "US",
+        "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2025/03/14",
         "id": "1350198307833778176",
         "links": [
             "https://www.youtube.com/watch?v=VwBXH3Vcbnw&ab_channel=NatureLover",
@@ -34577,5 +34593,69 @@
         "lng": 106.93332,
         "country": "ID",
         "region": "West Java"
+    },
+    {
+        "spot_date": "2025/03/13",
+        "id": "1350511678323687465",
+        "links": [
+            "https://web.facebook.com/photo/?fbid=24009826918604273",
+            "https://maps.app.goo.gl/iajThUboyzK1ujPA9"
+        ],
+        "report_time": 1742057475,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "nzrxDJ1mWux7-gygBWyMWA",
+        "lat": 44.39968,
+        "lng": -122.7412,
+        "country": "US",
+        "region": "Oregon"
+    },
+    {
+        "spot_date": "2025/03/14",
+        "id": "1350521056800149596",
+        "links": [
+            "https://x.com/YOSHINARI_18/status/1900444544140739007/photo/1",
+            "https://maps.app.goo.gl/GqAfLgjtYYJPM5RZ9"
+        ],
+        "report_time": 1742059711,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "1uDsuJZz7808yBQfnGvJlA",
+        "lat": 34.70492,
+        "lng": 135.219,
+        "country": "JP",
+        "region": "Hyogo"
+    },
+    {
+        "spot_date": "2025/03/14",
+        "id": "1350574163324309507",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9585005134883111&set=a.149008041816248",
+            "https://maps.app.goo.gl/TWmqYLkZUpxWyjJ8A"
+        ],
+        "report_time": 1742072372,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "Slkes30-a5UbPZ9lRfONJw",
+        "lat": 23.95172,
+        "lng": 120.53769,
+        "country": "CN",
+        "region": "Changhua County"
+    },
+    {
+        "spot_date": "2025/03/09",
+        "id": "1350780264371982417",
+        "links": [
+            "https://x.com/BromineYote/status/1898549754847768987",
+            "https://maps.app.goo.gl/tv5fAz8V56LLiXux8"
+        ],
+        "report_time": 1742121511,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "udoYzfs32FuwHl3hRf12yQ",
+        "lat": 43.03883,
+        "lng": -87.91551,
+        "country": "US",
+        "region": "Wisconsin"
     }
 ]
