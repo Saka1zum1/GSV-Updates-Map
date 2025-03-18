@@ -34657,5 +34657,53 @@
         "lng": -87.91551,
         "country": "US",
         "region": "Wisconsin"
+    },
+    {
+        "spot_date": "2025/03/15",
+        "id": "1351176996037726268",
+        "links": [
+            "https://www.tiktok.com/@nakazawanobuyasu/video/7482000523516841237",
+            "https://maps.app.goo.gl/1ih5Ttr9BwEJVBxz5"
+        ],
+        "report_time": 1742216099,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "li1WUuiwv5DSnfUrIBTi_A",
+        "lat": 33.81167,
+        "lng": 132.73487,
+        "country": "JP",
+        "region": "Ehime"
+    },
+    {
+        "spot_date": "2025/03/01",
+        "id": "1351240238562807900",
+        "links": [
+            "https://www.facebook.com/reel/1176518090523766",
+            "https://maps.app.goo.gl/HPT6hocEx7GugBz4A"
+        ],
+        "report_time": 1742231177,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "0hPJL1thgOA_sxHah47XLQ",
+        "lat": 22.68668,
+        "lng": 91.7932,
+        "country": "BD",
+        "region": "Chittagong Division"
+    },
+    {
+        "spot_date": "2025/03/17",
+        "id": "1351289620138295468",
+        "links": [
+            "https://www.youtube.com/shorts/JOsKuu8gDXc",
+            "https://maps.app.goo.gl/NvZkqKhWwkQZXimP7"
+        ],
+        "report_time": 1742242951,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "cYcyWxatFGcX-fvI1-DCqA",
+        "lat": 7.02145,
+        "lng": 125.0901,
+        "country": "PH",
+        "region": "SOCCSKSARGEN"
     }
 ]
