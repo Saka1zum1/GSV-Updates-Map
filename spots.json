@@ -34705,5 +34705,37 @@
         "lng": 125.0901,
         "country": "PH",
         "region": "SOCCSKSARGEN"
+    },
+    {
+        "spot_date": "2025/03/18",
+        "id": "1351588714773741732",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1232168851601646&set=a.298596678292206",
+            "https://maps.app.goo.gl/ihqh93BpdbkSKcfVA"
+        ],
+        "report_time": 1742314260,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "aOaJeqQm3601ndoGCgFYZg",
+        "lat": -27.45146,
+        "lng": 153.04541,
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "spot_date": "2025/03/16",
+        "id": "1351606745364959453",
+        "links": [
+            "https://x.com/8IJz2J4aYNOVRze/status/1901204294990266453?t=M7JRvf_uc8VsCqaywv-8fg&s=19",
+            "https://maps.app.goo.gl/bnvDyhTQQKrPeLp7A"
+        ],
+        "report_time": 1742318559,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "tiMM5s5NobMnqwxNaUYmzw",
+        "lat": 34.07603,
+        "lng": 134.54149,
+        "country": "JP",
+        "region": "Tokushima"
     }
 ]
