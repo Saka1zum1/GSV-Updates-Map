@@ -34753,5 +34753,21 @@
         "lng": -3.06845,
         "country": "ES",
         "region": "Castile and Le\u00f3n"
+    },
+    {
+        "spot_date": "2025/03/18",
+        "id": "1352226272343752785",
+        "links": [
+            "https://www.instagram.com/reel/DHVH78gi0NC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/YskMW3sd5huYb8HA8"
+        ],
+        "report_time": 1742466266,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "kJSwPRWdYAGfcG9idH9Jvg",
+        "lat": -6.33134,
+        "lng": 107.35274,
+        "country": "ID",
+        "region": "West Java"
     }
 ]
