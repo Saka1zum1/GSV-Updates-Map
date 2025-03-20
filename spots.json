@@ -34737,5 +34737,21 @@
         "lng": 134.54149,
         "country": "JP",
         "region": "Tokushima"
+    },
+    {
+        "spot_date": "2025/03/17",
+        "id": "1351989542390861956",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=2946936458819694&set=gm.4056679521257250&idorvanity=2549131645345386",
+            "https://maps.app.goo.gl/LRV32muYQBdYqLAT9"
+        ],
+        "report_time": 1742409825,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "TsdRLxblpMQV3fsXpCtPkQ",
+        "lat": 41.83002,
+        "lng": -3.06845,
+        "country": "ES",
+        "region": "Castile and Le\u00f3n"
     }
 ]
