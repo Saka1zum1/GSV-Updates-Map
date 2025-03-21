@@ -34769,5 +34769,53 @@
         "lng": 107.35274,
         "country": "ID",
         "region": "West Java"
+    },
+    {
+        "spot_date": "2025/03/18",
+        "id": "1352319900642967593",
+        "links": [
+            "https://www.instagram.com/bookmanorange/p/DHURf9TyGdl/",
+            "https://maps.app.goo.gl/sbK8TyfhHfUE5aPy7"
+        ],
+        "report_time": 1742488589,
+        "author": "JustEmilo",
+        "spot_type": "Gen4",
+        "panoId": "P5g7LsitpC3jf6Jvf1n7MQ",
+        "lat": 33.80902,
+        "lng": -117.84976,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2025/03/19",
+        "id": "1352407200600952914",
+        "links": [
+            "https://www.tiktok.com/@alexandertejeda/video/7483619563456843014",
+            "https://maps.app.goo.gl/3Dde8kSh8bK4H5TU9"
+        ],
+        "report_time": 1742509403,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "diYrsqCwYA_0LoStUl4zQg",
+        "lat": 40.43634,
+        "lng": -79.99884,
+        "country": "US",
+        "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2025/03/19",
+        "id": "1352414397422637188",
+        "links": [
+            "https://www.tiktok.com/@marielacejap/video/7483721838720290053",
+            "https://maps.app.goo.gl/V64KY2pNXPLnaH178"
+        ],
+        "report_time": 1742511118,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "skSeC4NajKikwyrsYAB5og",
+        "lat": 19.99172,
+        "lng": -102.71842,
+        "country": "MX",
+        "region": "Michoac\u00e1n"
     }
 ]
