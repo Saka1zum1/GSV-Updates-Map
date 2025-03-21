@@ -34817,5 +34817,37 @@
         "lng": -102.71842,
         "country": "MX",
         "region": "Michoac\u00e1n"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1352589956190699530",
+        "links": [
+            "https://www.facebook.com/groups/2719134401474810/posts/9412481912139992/",
+            "https://maps.app.goo.gl/EH3bUuwuu986B5rh9"
+        ],
+        "report_time": 1742552975,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "Ba-wZPlqiYMqa0Y-4p7I0A",
+        "lat": -7.16125,
+        "lng": 111.11152,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1352589823705223219",
+        "links": [
+            "https://www.facebook.com/aboy.stexal/posts/seumur-umur-baru-lihat-langsung-mobil-google-maps-lewat-di-depan-mata/2854898914716767/",
+            "https://maps.app.goo.gl/bUTfuj9DQZBWpt7X8"
+        ],
+        "report_time": 1742552943,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "6Rfah471SaqPKGYUnblGtg",
+        "lat": -6.35761,
+        "lng": 107.29057,
+        "country": "ID",
+        "region": "West Java"
     }
 ]
