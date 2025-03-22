@@ -34849,5 +34849,85 @@
         "lng": 107.29057,
         "country": "ID",
         "region": "West Java"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1352679935155638292",
+        "links": [
+            "https://x.com/R3DNO5E/status/1902554658222305351/photo/1",
+            "https://maps.app.goo.gl/9er3A67CXniurv159"
+        ],
+        "report_time": 1742574428,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "gy41XW7NoJ1All3Um72hJQ",
+        "lat": 34.75472,
+        "lng": 135.49701,
+        "country": "JP",
+        "region": "Osaka"
+    },
+    {
+        "spot_date": "2025/03/07",
+        "id": "1352717245637460019",
+        "links": [
+            "https://www.facebook.com/photo?fbid=122163214232304233&set=pcb.122163214412304233",
+            "https://maps.app.goo.gl/acKXcditSHV6DNnx6"
+        ],
+        "report_time": 1742583323,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "rpiEOWpZxa6nUOh24YZdGQ",
+        "lat": 18.84973,
+        "lng": -97.10573,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/03/21",
+        "id": "1352781004934484041",
+        "links": [
+            "https://www.tiktok.com/@mendesdann/video/7484321723379207430",
+            "https://maps.app.goo.gl/JjPrNdYabP1269ZM7"
+        ],
+        "report_time": 1742598525,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "wwsPozbyCZxS14k5YJYkGw",
+        "lat": -23.67856,
+        "lng": -46.55725,
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1352778528864866499",
+        "links": [
+            "https://www.tiktok.com/@sistisis/video/7483983996532133142",
+            "https://maps.app.goo.gl/RUjhNQjfZ3mA2Sd78"
+        ],
+        "report_time": 1742597934,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "2EZpmB5rfwNHPvyjE-CloA",
+        "lat": 42.75202,
+        "lng": -3.41336,
+        "country": "ES",
+        "region": "Castile and Le\u00f3n"
+    },
+    {
+        "spot_date": "2025/03/21",
+        "id": "1352770931893997601",
+        "links": [
+            "https://www.instagram.com/stories/googlestreetview.supercars/3593468844253385079?igsh=ZHN1OTF2NDJ6bnlh",
+            "https://maps.app.goo.gl/tL8JrePHLuxjwpJR8"
+        ],
+        "report_time": 1742596123,
+        "author": "Jordeter",
+        "spot_type": "Gen4",
+        "panoId": "f5_IVEFa3EtDOUYavKo9DA",
+        "lat": 52.78656,
+        "lng": 4.79696,
+        "country": "NL",
+        "region": "North Holland"
     }
 ]

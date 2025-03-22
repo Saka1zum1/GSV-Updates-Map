@@ -10409,6 +10409,22 @@
                 "country": "US",
                 "altitude": 1469.1,
                 "region": "South Dakota"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1742640133,
+                "author": "Alex*",
+                "id": "1352955523611230228",
+                "panoId": "VimwsBeeycu-gmeCNoVD0A",
+                "lat": 45.26896,
+                "lng": -99.19542,
+                "date": "Mar 2025",
+                "country": "US",
+                "region": "South Dakota"
             }
         },
         "Mississippi": {
@@ -10633,17 +10649,16 @@
             },
             "Mar": {
                 "types": [
-                    "newregion",
-                    "gen3update"
+                    "newregion"
                 ],
-                "report_time": 1712469364,
-                "author": "Aedan",
-                "panoId": "gu7iUygwGiZmNbh24FpMIg",
-                "lat": 30.17298,
-                "lng": -93.10996,
-                "date": "Mar 2024",
+                "report_time": 1742614914,
+                "author": "HoustonMediaHD",
+                "id": "1352849746636701696",
+                "panoId": "jjEebkPBa32ntS4wVXwiiQ",
+                "lat": 30.38908,
+                "lng": -91.09407,
+                "date": "Mar 2025",
                 "country": "US",
-                "altitude": 7.81,
                 "region": "Louisiana"
             },
             "Nov": {
@@ -17936,6 +17951,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Miyazaki"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742631422,
+                "author": "Sora",
+                "id": "1352918987855630376",
+                "panoId": "QE48J6aq7f8_uSNcDFOJUQ",
+                "lat": 31.7221,
+                "lng": 131.13839,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Miyazaki"
             }
         },
         "Shiga": {
@@ -18823,6 +18852,20 @@
                 "lat": 36.46313,
                 "lng": 139.04423,
                 "date": "Jan 2025",
+                "country": "JP",
+                "region": "Gunma"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742632100,
+                "author": "Sora",
+                "id": "1352921829194469396",
+                "panoId": "La81uSoS70jBLtIbWxJLrg",
+                "lat": 36.30459,
+                "lng": 139.0506,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Gunma"
             }
@@ -22575,16 +22618,16 @@
             "Feb": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "gen3update"
                 ],
-                "report_time": 1712326895,
-                "author": "Franz",
-                "panoId": "qkbQXR5LSKgBQLbz1NsyCA",
-                "lat": -16.36606,
-                "lng": -48.42375,
-                "date": "Feb 2024",
+                "report_time": 1742562796,
+                "author": "Henrique",
+                "id": "1352631148181848064",
+                "panoId": "jVFt2nE0fhYuASrnqkjBMg",
+                "lat": -17.29179,
+                "lng": -49.49194,
+                "date": "Feb 2025",
                 "country": "BR",
-                "altitude": 966.39,
                 "region": "State of Goi\u00e1s"
             },
             "Nov": {
@@ -22765,6 +22808,22 @@
                 "lat": -3.10425,
                 "lng": -51.6446,
                 "date": "Jan 2025",
+                "country": "BR",
+                "region": "State of Par\u00e1"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newarea",
+                    "newroad"
+                ],
+                "report_time": 1742519281,
+                "author": "Henrique",
+                "id": "1352448634418892852",
+                "panoId": "pd-nROKAhn30EJY9Znlysw",
+                "lat": -7.11135,
+                "lng": -50.79973,
+                "date": "Feb 2025",
                 "country": "BR",
                 "region": "State of Par\u00e1"
             }
@@ -23741,6 +23800,21 @@
                 "date": "Nov 2024",
                 "country": "BR",
                 "region": "State of Maranh\u00e3o"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1742528055,
+                "author": "Henrique",
+                "id": "1352485434608975922",
+                "panoId": "4iMYtxj8dso2_rY5AjBSSw",
+                "lat": -5.46902,
+                "lng": -47.02493,
+                "date": "Feb 2025",
+                "country": "BR",
+                "region": "State of Maranh\u00e3o"
             }
         },
         "Roraima": {
@@ -24198,6 +24272,20 @@
                 "lat": -6.76807,
                 "lng": -48.54297,
                 "date": "Jan 2025",
+                "country": "BR",
+                "region": "State of Tocantins"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742520683,
+                "author": "Henrique",
+                "id": "1352454514493489213",
+                "panoId": "fjh-SozwkVrk5qEGMym1Jg",
+                "lat": -10.41391,
+                "lng": -48.3109,
+                "date": "Feb 2025",
                 "country": "BR",
                 "region": "State of Tocantins"
             }
@@ -24876,17 +24964,16 @@
             },
             "Feb": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1712284651,
-                "author": "Franz",
-                "panoId": "aQdBQMhH0jjY2g4afpbbcQ",
-                "lat": -26.89101,
-                "lng": -53.03659,
-                "date": "Feb 2024",
+                "report_time": 1742402142,
+                "author": "Tobetelogi",
+                "id": "1351957318274908190",
+                "panoId": "XtVaMkc7V1r1PfInROYxhg",
+                "lat": -27.19474,
+                "lng": -52.64753,
+                "date": "Feb 2025",
                 "country": "BR",
-                "altitude": 311.2,
                 "region": "State of Santa Catarina"
             },
             "Jan": {
@@ -25387,6 +25474,21 @@
                 "lat": -11.0031,
                 "lng": -37.34698,
                 "date": "Dec 2024",
+                "country": "BR",
+                "region": "State of Sergipe"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1742580086,
+                "author": "Steve",
+                "id": "1352703669685981184",
+                "panoId": "bUEGpwZzomKNl-Xo2GZa4A",
+                "lat": -11.41416,
+                "lng": -37.67107,
+                "date": "Jan 2025",
                 "country": "BR",
                 "region": "State of Sergipe"
             }
@@ -26237,14 +26339,14 @@
                     "newregion",
                     "newroad"
                 ],
-                "report_time": 1710008489,
-                "author": "Unhook",
-                "panoId": "Rs5ud1ZmehXyyO3S8APYtw",
-                "lat": 2.50831,
-                "lng": 102.54203,
-                "date": "Jan 2024",
+                "report_time": 1742610981,
+                "author": "Update Tracker Bot",
+                "id": "1352833249281572986",
+                "panoId": "JRq_EB44VTpWPqEaUJYbmQ",
+                "lat": 2.4427,
+                "lng": 102.05386,
+                "date": "Jan 2025",
                 "country": "MY",
-                "altitude": 77.27,
                 "region": "Negeri Sembilan"
             },
             "Oct": {
@@ -26488,6 +26590,20 @@
                 "lat": 4.55994,
                 "lng": 101.10054,
                 "date": "Nov 2024",
+                "country": "MY",
+                "region": "Perak"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742555693,
+                "author": "Steve",
+                "id": "1352601355986141255",
+                "panoId": "sDn_i9oXmISKMm_qphCNcg",
+                "lat": 4.6383,
+                "lng": 101.1138,
+                "date": "Dec 2024",
                 "country": "MY",
                 "region": "Perak"
             }
@@ -45850,6 +45966,20 @@
                 "date": "Feb 2025",
                 "country": "TH",
                 "region": "Nakhon Ratchasima"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742402176,
+                "author": "Tobetelogi",
+                "id": "1351957459178229770",
+                "panoId": "dFiBKrszPA2twrmU8IxsAw",
+                "lat": 14.89393,
+                "lng": 101.98536,
+                "date": "Mar 2025",
+                "country": "TH",
+                "region": "Nakhon Ratchasima"
             }
         },
         "Songkhla": {
@@ -46454,6 +46584,20 @@
                 "lat": 15.86931,
                 "lng": 105.05098,
                 "date": "Jan 2025",
+                "country": "TH",
+                "region": "Ubon Ratchathani"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742397445,
+                "author": "Tobetelogi",
+                "id": "1351937614227443714",
+                "panoId": "kukDcjncNhm2O3irknpixQ",
+                "lat": 15.63469,
+                "lng": 104.97426,
+                "date": "Mar 2025",
                 "country": "TH",
                 "region": "Ubon Ratchathani"
             }
@@ -54810,6 +54954,21 @@
                 "date": "Feb 2025",
                 "country": "IN",
                 "region": "Telangana"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newstreet"
+                ],
+                "report_time": 1742501427,
+                "author": "Tobetelogi",
+                "id": "1352373748384403507",
+                "panoId": "6nWktC2xVsMfqsuiaKzsPA",
+                "lat": 17.45125,
+                "lng": 78.50925,
+                "date": "Mar 2025",
+                "country": "IN",
+                "region": "Telangana"
             }
         },
         "Meghalaya": {
@@ -55428,6 +55587,20 @@
                 "lat": 23.07759,
                 "lng": 72.58546,
                 "date": "Feb 2025",
+                "country": "IN",
+                "region": "Gujarat"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742489894,
+                "author": "Tobetelogi",
+                "id": "1352325375765512253",
+                "panoId": "3oiqsQVoPaG_wX5HLY_twA",
+                "lat": 23.14676,
+                "lng": 72.7595,
+                "date": "Mar 2025",
                 "country": "IN",
                 "region": "Gujarat"
             }
