@@ -3068,17 +3068,17 @@
             },
             "Mar": {
                 "types": [
-                    "newregion",
-                    "newstreet"
+                    "newcountry",
+                    "newregion"
                 ],
-                "report_time": 1712857574,
-                "author": "chise",
-                "panoId": "zDvrukp3K0kO7wDNcHYJQA",
-                "lat": -37.30789,
-                "lng": -59.1491,
-                "date": "Mar 2024",
+                "report_time": 1742664475,
+                "author": "DerZiggi",
+                "id": "1353057619517898763",
+                "panoId": "2bfxSkjiBX3M8yYprte55w",
+                "lat": -35.14917,
+                "lng": -58.25172,
+                "date": "Mar 2025",
                 "country": "AR",
-                "altitude": 192.07,
                 "region": "Buenos Aires Province"
             },
             "Nov": {
@@ -3517,6 +3517,21 @@
                 "date": "Apr 2024",
                 "country": "AR",
                 "altitude": 915.09,
+                "region": "San Juan Province"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1742672141,
+                "author": "Melting Ice",
+                "id": "1353089774038155368",
+                "panoId": "_9BTaU-xrKoW-7P5emnz3A",
+                "lat": -31.62974,
+                "lng": -68.53378,
+                "date": "Feb 2025",
+                "country": "AR",
                 "region": "San Juan Province"
             }
         },
@@ -8710,14 +8725,14 @@
                     "newregion",
                     "newroad"
                 ],
-                "report_time": 1711053644,
-                "author": "Diamond Armor Steve",
-                "panoId": "-LxiBRnz692jv1-OpXbEIg",
-                "lat": 37.3948,
-                "lng": -82.40634,
-                "date": "Mar 2024",
+                "report_time": 1742669013,
+                "author": "frefromwig",
+                "id": "1353076653013860502",
+                "panoId": "doLZV-iM5QrzWMdGvoG_Kg",
+                "lat": 37.08334,
+                "lng": -86.08588,
+                "date": "Mar 2025",
                 "country": "US",
-                "altitude": 324.28,
                 "region": "Kentucky"
             },
             "Nov": {
@@ -19651,6 +19666,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Kanagawa"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742667808,
+                "author": "frefromwig",
+                "id": "1353071601528078547",
+                "panoId": "G9Z4A0eN6AShR8xc4viraQ",
+                "lat": 35.54366,
+                "lng": 139.49898,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Kanagawa"
             }
         },
         "Kyoto": {
@@ -21197,6 +21226,21 @@
                 "lat": 34.08462,
                 "lng": 131.63406,
                 "date": "Jan 2025",
+                "country": "JP",
+                "region": "Yamaguchi"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1742667808,
+                "author": "frefromwig",
+                "id": "1353071601528078547",
+                "panoId": "eMpGbte8aWDCkPF4LYifBg",
+                "lat": 34.61915,
+                "lng": 131.58904,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Yamaguchi"
             }
@@ -26683,6 +26727,20 @@
                 "lat": 2.04483,
                 "lng": 102.56644,
                 "date": "Nov 2024",
+                "country": "MY",
+                "region": "Johor"
+            },
+            "Jan": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742689063,
+                "author": "Update Tracker Bot",
+                "id": "1353160750654554154",
+                "panoId": "Gk5VfWXNIIZKFhLd46ukxA",
+                "lat": 2.09856,
+                "lng": 102.52497,
+                "date": "Jan 2025",
                 "country": "MY",
                 "region": "Johor"
             }

@@ -34929,5 +34929,117 @@
         "lng": 4.79696,
         "country": "NL",
         "region": "North Holland"
+    },
+    {
+        "spot_date": "2025/03/22",
+        "id": "1353031170165706793",
+        "links": [
+            "https://www.youtube.com/watch?v=EbKywoWqpak",
+            "https://maps.app.goo.gl/eLwJhcMNdLeN4wCb6"
+        ],
+        "report_time": 1742658169,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "jvmC59fJXiE5pjsEGrK9Lg",
+        "lat": -27.18195,
+        "lng": 151.26552,
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "spot_date": "2025/03/21",
+        "id": "1353099129198481549",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=10230446467519458&set=pb.1052171477.-2207520000&type=3",
+            "https://maps.app.goo.gl/gpzmgAqvNruHN2e77"
+        ],
+        "report_time": 1742674371,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "OajQCSAu_j_JG-dZotqICw",
+        "lat": 40.37519,
+        "lng": -75.92715,
+        "country": "US",
+        "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2025/03/21",
+        "id": "1353109613641465856",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10228016003770209",
+            "https://maps.app.goo.gl/AUEARzajhKGeLLFq8"
+        ],
+        "report_time": 1742676871,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "LT1UnPh7yFeHrN2KRfphDA",
+        "lat": 38.87193,
+        "lng": -77.08067,
+        "country": "US",
+        "region": "Virginia"
+    },
+    {
+        "spot_date": "2024/02/08",
+        "id": "1353066913403506842",
+        "links": [
+            "https://webexterno.sutran.gob.pe/WebExterno/Pages/frmPapeletasCinemometro.aspx",
+            "https://maps.app.goo.gl/XT6jPFh95ttJhZXr7"
+        ],
+        "report_time": 1742666690,
+        "author": "vegetal",
+        "spot_type": "Gen4/H1",
+        "panoId": "uPB71hdN4h-_M37z12BILw",
+        "lat": -12.71004,
+        "lng": -76.63303,
+        "country": "PE",
+        "region": "Lima Region"
+    },
+    {
+        "spot_date": "2024/08/28",
+        "id": "1351559961716592763",
+        "links": [
+            "https://www.hln.be/roeselare/jack-8-ziet-zijn-grote-droom-uitkomen-eigen-straat-en-huis-op-google-streetview-dankzij-de-droomfabriek~ae74d288/254231094/",
+            "https://maps.app.goo.gl/cNZYh3UfW2teQyws6"
+        ],
+        "report_time": 1742307405,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4/H1",
+        "panoId": "nW69Mwn55QPmWv8k9iEWSQ",
+        "lat": 50.95605,
+        "lng": 3.16303,
+        "country": "BE",
+        "region": "Flanders"
+    },
+    {
+        "spot_date": "2024/02/08",
+        "id": "1353066913403506842",
+        "links": [
+            "https://webexterno.sutran.gob.pe/WebExterno/Pages/frmPapeletasCinemometro.aspx",
+            "https://maps.app.goo.gl/XT6jPFh95ttJhZXr7"
+        ],
+        "report_time": 1742666690,
+        "author": "vegetal",
+        "spot_type": "Gen4/H1",
+        "panoId": "uPB71hdN4h-_M37z12BILw",
+        "lat": -12.71004,
+        "lng": -76.63303,
+        "country": "PE",
+        "region": "Lima Region"
+    },
+    {
+        "spot_date": "2024/08/28",
+        "id": "1351559961716592763",
+        "links": [
+            "https://www.hln.be/roeselare/jack-8-ziet-zijn-grote-droom-uitkomen-eigen-straat-en-huis-op-google-streetview-dankzij-de-droomfabriek~ae74d288/254231094/",
+            "https://maps.app.goo.gl/cNZYh3UfW2teQyws6"
+        ],
+        "report_time": 1742307405,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4/H1",
+        "panoId": "nW69Mwn55QPmWv8k9iEWSQ",
+        "lat": 50.95605,
+        "lng": 3.16303,
+        "country": "BE",
+        "region": "Flanders"
     }
 ]
