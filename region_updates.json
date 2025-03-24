@@ -3232,6 +3232,21 @@
                 "date": "Dec 2024",
                 "country": "AR",
                 "region": "Entre R\u00edos Province"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1742768771,
+                "author": "Tobetelogi",
+                "id": "1353495069801578506",
+                "panoId": "rqtFTJ7FpWTv6Y1d_Z7DWA",
+                "lat": -30.91162,
+                "lng": -58.04335,
+                "date": "Feb 2025",
+                "country": "AR",
+                "region": "Entre R\u00edos Province"
             }
         },
         "C\u00f3rdoba Province": {
@@ -4401,6 +4416,20 @@
                 "lat": -26.94162,
                 "lng": -58.64653,
                 "date": "Jan 2025",
+                "country": "AR",
+                "region": "Chaco Province"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742728726,
+                "author": "Unhook",
+                "id": "1353327111208960010",
+                "panoId": "6AFv5de9vB1GsAr7VnnqPQ",
+                "lat": -27.48049,
+                "lng": -59.00755,
+                "date": "Feb 2025",
                 "country": "AR",
                 "region": "Chaco Province"
             }
@@ -26482,6 +26511,21 @@
                 "country": "MY",
                 "altitude": 15.98,
                 "region": "Selangor"
+            },
+            "Jan": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1742750074,
+                "author": "BurgerwithPeel",
+                "id": "1353416647431426059",
+                "panoId": "Nr86VG-bvMG726-rIRGCHA",
+                "lat": 3.07056,
+                "lng": 101.55599,
+                "date": "Jan 2025",
+                "country": "MY",
+                "region": "Selangor"
             }
         },
         "Pulau Pinang": {},
@@ -28846,6 +28890,20 @@
                 "date": "Feb 2025",
                 "country": "ES",
                 "region": "Andalusia"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742744305,
+                "author": "Tobetelogi",
+                "id": "1353392452375019631",
+                "panoId": "3k3_CaIb8rIjKTrTHPmfYg",
+                "lat": 37.68584,
+                "lng": -2.55952,
+                "date": "Mar 2025",
+                "country": "ES",
+                "region": "Andalusia"
             }
         },
         "Galicia": {
@@ -29189,6 +29247,21 @@
                 "date": "Feb 2025",
                 "country": "ES",
                 "region": "Community of Madrid"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1742757124,
+                "author": "frefromwig",
+                "id": "1353446218583375973",
+                "panoId": "vEB5P_ztSAygCwRl5LceUg",
+                "lat": 40.19626,
+                "lng": -3.85731,
+                "date": "Mar 2025",
+                "country": "ES",
+                "region": "Community of Madrid"
             }
         },
         "Castile-La Mancha": {
@@ -29267,16 +29340,17 @@
             },
             "Mar": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newstreet"
                 ],
-                "report_time": 1711548598,
-                "author": "Jkmilo13",
-                "panoId": "cYkdZ1VJOsMO3h4c3E_8xA",
-                "lat": 39.80869,
-                "lng": -5.23495,
-                "date": "Mar 2024",
+                "report_time": 1742757124,
+                "author": "frefromwig",
+                "id": "1353446218583375973",
+                "panoId": "5ELBxRG7EhDe3Ndd-X5Enw",
+                "lat": 40.14418,
+                "lng": -3.81961,
+                "date": "Mar 2025",
                 "country": "ES",
-                "altitude": 461.88,
                 "region": "Castile-La Mancha"
             },
             "Jan": {

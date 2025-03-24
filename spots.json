@@ -35041,5 +35041,37 @@
         "lng": 3.16303,
         "country": "BE",
         "region": "Flanders"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1353559438501351488",
+        "links": [
+            "https://www.instagram.com/p/DHbBomOsdtG/",
+            "https://maps.app.goo.gl/Am7vJK8isydFckun7"
+        ],
+        "report_time": 1742784118,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "nDLUUhHqYdDeYmmuGnwGhA",
+        "lat": 49.11152,
+        "lng": 6.17572,
+        "country": "FR",
+        "region": "Grand Est"
+    },
+    {
+        "spot_date": "2025/03/21",
+        "id": "1353544452446224464",
+        "links": [
+            "https://www.tiktok.com/@bruce_cheee/video/7483954447379434798",
+            "https://maps.app.goo.gl/WHBvGZgopavSqfpA8"
+        ],
+        "report_time": 1742780545,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "vMCS4LBi6DrHwBy1byIlFw",
+        "lat": 48.15723,
+        "lng": 17.17467,
+        "country": "SK",
+        "region": "Bratislava Region"
     }
 ]
