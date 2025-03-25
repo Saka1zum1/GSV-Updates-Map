@@ -35153,5 +35153,53 @@
         "lng": -117.07176,
         "country": "US",
         "region": "California"
+    },
+    {
+        "spot_date": "2025/03/24",
+        "id": "1354098788372840539",
+        "links": [
+            "https://www.facebook.com/share/p/1DdrE4DTBe/",
+            "https://maps.app.goo.gl/qtPVGpiA4AoXJphN6"
+        ],
+        "report_time": 1742912709,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "EzMxfPlEODb_0CjJjARwqA",
+        "lat": 38.27352,
+        "lng": 140.87704,
+        "country": "JP",
+        "region": "Miyagi"
+    },
+    {
+        "spot_date": "2025/03/24",
+        "id": "1354092549538709515",
+        "links": [
+            "https://www.facebook.com/reel/1277769943311788",
+            "https://maps.app.goo.gl/UaDoxWAzQKMzsMR99"
+        ],
+        "report_time": 1742911221,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "yaAtcjDtbPya3BXoqpTdfg",
+        "lat": 13.35898,
+        "lng": 123.72979,
+        "country": "PH",
+        "region": "Bicol"
+    },
+    {
+        "spot_date": "2025/03/25",
+        "id": "1354090051730014209",
+        "links": [
+            "https://www.youtube.com/watch?v=NuyH6uNzvzs&ab_channel=RajashreeShorts",
+            "https://maps.app.goo.gl/DwjV8fNonGxgZC479"
+        ],
+        "report_time": 1742910626,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "vC8_0fhi3sG9oHkgQhkNUQ",
+        "lat": 20.21339,
+        "lng": 85.80433,
+        "country": "IN",
+        "region": "Odisha"
     }
 ]

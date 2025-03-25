@@ -20239,6 +20239,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Aichi"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742902105,
+                "author": "Update Tracker Bot",
+                "id": "1354054313403617353",
+                "panoId": "ykL6x33JxrH_UB7LFKiaLg",
+                "lat": 35.16546,
+                "lng": 137.02564,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Aichi"
             }
         },
         "Kochi": {
@@ -20780,6 +20794,20 @@
                 "lat": 38.28184,
                 "lng": 141.00752,
                 "date": "Feb 2025",
+                "country": "JP",
+                "region": "Miyagi"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742912867,
+                "author": "Update Tracker Bot",
+                "id": "1354099451865862205",
+                "panoId": "2tlUpBr-gVapkgdKMfdbyw",
+                "lat": 38.23866,
+                "lng": 140.95336,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Miyagi"
             }
