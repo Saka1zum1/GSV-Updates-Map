@@ -12572,6 +12572,20 @@
                 "date": "Feb 2025",
                 "country": "US",
                 "region": "Illinois"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742848296,
+                "author": "HoustonMediaHD",
+                "id": "1353828622644809729",
+                "panoId": "KUxXX-HV-8fLM67afpUbuw",
+                "lat": 41.93392,
+                "lng": -87.99897,
+                "date": "Mar 2025",
+                "country": "US",
+                "region": "Illinois"
             }
         },
         "New Hampshire": {
@@ -20946,6 +20960,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Ehime"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742883185,
+                "author": "Update Tracker Bot",
+                "id": "1353974958660911146",
+                "panoId": "wU-F9hkTV_cnAax3mkSZjQ",
+                "lat": 34.24364,
+                "lng": 133.04788,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Ehime"
             }
         },
         "Iwate": {
@@ -23769,6 +23797,21 @@
                 "date": "Oct 2024",
                 "country": "BR",
                 "altitude": 215.97,
+                "region": "State of Mato Grosso"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1742836608,
+                "author": "Tobetelogi",
+                "id": "1353779597778489474",
+                "panoId": "1AIANQvuNJB6e4pX30U7yA",
+                "lat": -16.36173,
+                "lng": -57.32937,
+                "date": "Feb 2025",
+                "country": "BR",
                 "region": "State of Mato Grosso"
             }
         },
@@ -46052,6 +46095,21 @@
                 "date": "Feb 2025",
                 "country": "TH",
                 "region": "Udon Thani"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1742847450,
+                "author": "Tobetelogi",
+                "id": "1353825074980978789",
+                "panoId": "tbQeSLCA05q99FG7pjD62Q",
+                "lat": 17.14192,
+                "lng": 102.81961,
+                "date": "Mar 2025",
+                "country": "TH",
+                "region": "Udon Thani"
             }
         },
         "Nakhon Ratchasima": {
@@ -46983,6 +47041,21 @@
                 "country": "TH",
                 "altitude": 182.33,
                 "region": "Phrae"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1742848756,
+                "author": "Tobetelogi",
+                "id": "1353830553295781951",
+                "panoId": "eMwrvIay3dIZgkrPNnLjIg",
+                "lat": 18.17208,
+                "lng": 99.83956,
+                "date": "Feb 2025",
+                "country": "TH",
+                "region": "Phrae"
             }
         },
         "Surin": {},
@@ -47436,6 +47509,20 @@
                 "lat": 16.66615,
                 "lng": 104.07655,
                 "date": "Feb 2025",
+                "country": "TH",
+                "region": "Kalasin"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742847450,
+                "author": "Tobetelogi",
+                "id": "1353825074980978789",
+                "panoId": "Q6F-WHWzneHBe6HLMQmUfQ",
+                "lat": 16.77661,
+                "lng": 103.70273,
+                "date": "Mar 2025",
                 "country": "TH",
                 "region": "Kalasin"
             }
@@ -51041,7 +51128,24 @@
         "Khentii": {}
     },
     "SG": {
-        "Singapore": {},
+        "Singapore": {
+            "Mar": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1742840333,
+                "author": "DerZiggi",
+                "id": "1353795223272161401",
+                "panoId": "qT7HWK2zUhfkdvN0-2BNjQ",
+                "lat": 1.27464,
+                "lng": 103.79697,
+                "date": "Mar 2025",
+                "country": "SG",
+                "region": "Singapore"
+            }
+        },
         "West Region": {}
     },
     "AE": {

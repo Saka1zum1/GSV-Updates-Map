@@ -35073,5 +35073,85 @@
         "lng": 17.17467,
         "country": "SK",
         "region": "Bratislava Region"
+    },
+    {
+        "spot_date": "2025/03/19",
+        "id": "1353695454532993026",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10077368018944399&set=a.620491201298842",
+            "https://maps.app.goo.gl/3BTi2Sr714UohrpX7"
+        ],
+        "report_time": 1742816546,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "DtR1_YFSylpNpIKvmyuGVw",
+        "lat": 25.13066,
+        "lng": 121.50115,
+        "country": "CN",
+        "region": "Taipei City"
+    },
+    {
+        "spot_date": "2025/03/25",
+        "id": "1353734489012178995",
+        "links": [
+            "https://x.com/noriske512/status/1903948308449816782",
+            "https://maps.app.goo.gl/gS9W6UsZNgsqVQ9s9"
+        ],
+        "report_time": 1742825853,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "mCpO8U9UNAACg7hUvWARXw",
+        "lat": 35.44094,
+        "lng": 139.36241,
+        "country": "JP",
+        "region": "Kanagawa"
+    },
+    {
+        "spot_date": "2025/03/06",
+        "id": "1353787805502799982",
+        "links": [
+            "https://jsdl.in/RSL-KMD1742838368",
+            "https://maps.app.goo.gl/QMwd6LDkXzstAZv6A"
+        ],
+        "report_time": 1742838564,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "VYXFeBMhj7LUxmsiKYDLMA",
+        "lat": 13.14405,
+        "lng": 80.22393,
+        "country": "IN",
+        "region": "Tamil Nadu"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1353839436894310566",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=671989242430065&set=a.112780701684258",
+            "https://maps.app.goo.gl/e9mTFJjWA8m7uBvH9"
+        ],
+        "report_time": 1742850874,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "BkD_LQERyWKJPdl6ePXfAQ",
+        "lat": 20.94396,
+        "lng": -97.4019,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/03/24",
+        "id": "1353909922118504540",
+        "links": [
+            "https://maps.app.goo.gl/xSCPnsBLkTgZUcMU6",
+            "https://maps.app.goo.gl/xSCPnsBLkTgZUcMU6"
+        ],
+        "report_time": 1742867679,
+        "author": "nur",
+        "spot_type": "Gen4",
+        "panoId": "8Mdm7XgwBSMc0kFfX9GNGw",
+        "lat": 33.05576,
+        "lng": -117.07176,
+        "country": "US",
+        "region": "California"
     }
 ]
