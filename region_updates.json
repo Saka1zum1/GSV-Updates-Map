@@ -21403,6 +21403,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Tokushima"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1742937200,
+                "author": "Update Tracker Bot",
+                "id": "1354201512359891154",
+                "panoId": "yTsNY8lVcTUt29toSb4Y3g",
+                "lat": 34.09456,
+                "lng": 134.23216,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Tokushima"
             }
         },
         "Hyogo": {
@@ -21498,13 +21512,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1711074385,
-                "author": "Update Tracker Bot",
-                "id": "1220559178758750221",
-                "panoId": "H9knUJv8mwEBvEVGR4sGLw",
-                "lat": 35.19455,
-                "lng": 138.64168,
-                "date": "Mar 2024",
+                "report_time": 1742941194,
+                "author": "Tobetelogi",
+                "id": "1354218266008223744",
+                "panoId": "iWfb9Cy1JlmdzybTttJaBw",
+                "lat": 35.14048,
+                "lng": 138.9811,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Shizuoka"
             },
@@ -47140,16 +47154,16 @@
             "Mar": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "newyear"
                 ],
-                "report_time": 1712451893,
-                "author": "Franz",
-                "panoId": "I6Nq6klmVKIYWIyH9klufA",
-                "lat": 15.9664,
-                "lng": 100.55813,
-                "date": "Mar 2024",
+                "report_time": 1742934705,
+                "author": "BurgerwithPeel",
+                "id": "1354191047055380721",
+                "panoId": "jTiJHWSv_xw7VQq0nfcn6g",
+                "lat": 16.29731,
+                "lng": 100.48469,
+                "date": "Mar 2025",
                 "country": "TH",
-                "altitude": 45.29,
                 "region": "Phichit"
             }
         },
@@ -47553,6 +47567,23 @@
                 "date": "Mar 2025",
                 "country": "TH",
                 "region": "Kalasin"
+            }
+        },
+        "Lamphun": {
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1742915198,
+                "author": "Tobetelogi",
+                "id": "1354109229618696255",
+                "panoId": "1mdo932pwka_tnoLwp_TZQ",
+                "lat": 17.92137,
+                "lng": 99.0557,
+                "date": "Mar 2025",
+                "country": "TH",
+                "region": "Lamphun"
             }
         }
     },

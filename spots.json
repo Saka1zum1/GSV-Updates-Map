@@ -35201,5 +35201,69 @@
         "lng": 85.80433,
         "country": "IN",
         "region": "Odisha"
+    },
+    {
+        "spot_date": "2025/03/06",
+        "id": "1354111219371479173",
+        "links": [
+            "https://www.tiktok.com/@tv.guanajuato/video/7478782247324224773",
+            "https://maps.app.goo.gl/F56dwodwTGoyDmZ49"
+        ],
+        "report_time": 1742915672,
+        "author": "ensalada",
+        "spot_type": "Gen4",
+        "panoId": "nX_6MkbTZ-41Y6Kk-uSTrw",
+        "lat": 21.01717,
+        "lng": -101.25485,
+        "country": "MX",
+        "region": "Guanajuato"
+    },
+    {
+        "spot_date": "2025/03/14",
+        "id": "1354145366714613882",
+        "links": [
+            "https://web.facebook.com/photo/?fbid=1068908348567472&set=pcb.1068909205234053",
+            "https://maps.app.goo.gl/2maoRBz8Y8UdnjuK9"
+        ],
+        "report_time": 1742923814,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "gkfIdwcaU0IQcMu0NWBAew",
+        "lat": -20.21109,
+        "lng": -70.14918,
+        "country": "CL",
+        "region": "Tarapac\u00e1"
+    },
+    {
+        "spot_date": "2025/03/12",
+        "id": "1354139240778432715",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=122209979600219718&set=pcb.122209979648219718",
+            "https://maps.app.goo.gl/quJR45V66iBmntmK8"
+        ],
+        "report_time": 1742922353,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "b5Q_x-rL_zUX4IQwic7tkg",
+        "lat": 36.42153,
+        "lng": -5.43569,
+        "country": "ES",
+        "region": "Andalusia"
+    },
+    {
+        "spot_date": "2025/03/12",
+        "id": "1354139167080185968",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1042674874563017&set=pcb.1042674901229681",
+            "https://maps.app.goo.gl/Lq9qsQVQcWohJaWX6"
+        ],
+        "report_time": 1742922336,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "OCXrMcx9AKKj65gl0f3saw",
+        "lat": 20.06308,
+        "lng": -99.36366,
+        "country": "MX",
+        "region": "Hidalgo"
     }
 ]
