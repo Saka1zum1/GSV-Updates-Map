@@ -35393,5 +35393,69 @@
         "lng": -1.29758,
         "country": "GB",
         "region": "England"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1354722763511824507",
+        "links": [
+            "https://www.tiktok.com/@deniscordova30/video/7484047569056713990",
+            "https://maps.app.goo.gl/LtorocwStm4qwCZp6"
+        ],
+        "report_time": 1743061476,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "RxMkWMRGCyMpcnYUNIrrZQ",
+        "lat": 28.83942,
+        "lng": -111.50443,
+        "country": "MX",
+        "region": "Sonora"
+    },
+    {
+        "spot_date": "2025/03/27",
+        "id": "1354784371973820579",
+        "links": [
+            "https://www.facebook.com/reel/649328687845705",
+            "https://maps.app.goo.gl/ZSVhNjqRXoVR6gXJA"
+        ],
+        "report_time": 1743076164,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "E6EcXObH7pIlzA9HUtrRMQ",
+        "lat": 48.17775,
+        "lng": 17.12824,
+        "country": "SK",
+        "region": "Bratislava Region"
+    },
+    {
+        "spot_date": "2025/03/26",
+        "id": "1354801541143466035",
+        "links": [
+            "https://www.instagram.com/p/DHqKBIopUgc/?igsh=NTc4MTIwNjQ2YQ==",
+            "https://www.google.com/maps/@35.221535,136.74124,3a,51.900734y,263.4858h,85.12354t/data=!3m4!1e1!3m2!1sNwU7qHMBeF2gTZjmPkbMAg!2e0"
+        ],
+        "report_time": 1743080258,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "NwU7qHMBeF2gTZjmPkbMAg",
+        "lat": 35.22157,
+        "lng": 136.74126,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/03/26",
+        "id": "1354784163840004166",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=3182945781843585&set=a.138399572964903",
+            "https://maps.app.goo.gl/2XcQzrANtX3Ca5yt6"
+        ],
+        "report_time": 1743076115,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "LE5pvjOL_C9MyCRdku6nLA",
+        "lat": 16.12451,
+        "lng": 104.11404,
+        "country": "TH",
+        "region": "Roi Et"
     }
 ]

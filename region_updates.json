@@ -19399,6 +19399,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Kumamoto"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743066788,
+                "author": "Update Tracker Bot",
+                "id": "1354745045462290533",
+                "panoId": "vS0MdVTWb5VuOhkZbXGuaQ",
+                "lat": 33.14503,
+                "lng": 131.11116,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Kumamoto"
             }
         },
         "Okayama": {
