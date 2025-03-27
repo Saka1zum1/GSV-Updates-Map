@@ -35265,5 +35265,133 @@
         "lng": -99.36366,
         "country": "MX",
         "region": "Hidalgo"
+    },
+    {
+        "spot_date": "2025/03/13",
+        "id": "1354310224558952599",
+        "links": [
+            "https://www.tiktok.com/@thewhitejack777/video/7481278953894841655",
+            "https://maps.app.goo.gl/JZnmiHLfmyvUmt5G8"
+        ],
+        "report_time": 1742963119,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "59X7H0UeL7F20Qu1ioTiTQ",
+        "lat": -16.39407,
+        "lng": -71.55514,
+        "country": "PE",
+        "region": "Arequipa"
+    },
+    {
+        "spot_date": "2025/03/25",
+        "id": "1354319425251053688",
+        "links": [
+            "https://www.threads.net/@roman_touchit/post/DHoTeHwIJxL",
+            "https://maps.app.goo.gl/PsEgAPfTrKh7xjTY8"
+        ],
+        "report_time": 1742965313,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "njAlWBbUICllqUL_BoBHlw",
+        "lat": 48.19002,
+        "lng": 17.13743,
+        "country": "SK",
+        "region": "Bratislava Region"
+    },
+    {
+        "spot_date": "2024/07/21",
+        "id": "1354301485818843229",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1016501196843895",
+            "https://maps.app.goo.gl/67Le9cCBFiC2AjoLA"
+        ],
+        "report_time": 1742961035,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "feHwNd0ib9CeSLUKF1CeVg",
+        "lat": -3.12875,
+        "lng": -60.00773,
+        "country": "BR",
+        "region": "State of Amazonas"
+    },
+    {
+        "spot_date": "2019/11/04",
+        "id": "1354300356841967798",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1533971240060921",
+            "https://maps.app.goo.gl/SPzH7hwmYq3YKT9E8"
+        ],
+        "report_time": 1742960766,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "7KGpUTaxlAIdZBAI-dBEWw",
+        "lat": -4.71282,
+        "lng": -61.29305,
+        "country": "BR",
+        "region": "State of Amazonas"
+    },
+    {
+        "spot_date": "2019/06/26",
+        "id": "1354299614588829859",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=2537169862969328",
+            "https://maps.app.goo.gl/xVXRZ8VFqrdkJhir6"
+        ],
+        "report_time": 1742960589,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "peqH6EmNn7bqozjbjYvZkw",
+        "lat": -3.02575,
+        "lng": -59.9848,
+        "country": "BR",
+        "region": "State of Amazonas"
+    },
+    {
+        "spot_date": "2019/06/26",
+        "id": "1354299101919051836",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=2521848027846668",
+            "https://maps.app.goo.gl/5PyjNqWNTeTgX8167"
+        ],
+        "report_time": 1742960467,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "mo7e7mGbkKZhs8J0Gi5mSw",
+        "lat": -3.06631,
+        "lng": -60.02516,
+        "country": "BR",
+        "region": "State of Amazonas"
+    },
+    {
+        "spot_date": "2012/05/21",
+        "id": "1354298454284832891",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=413791795318979",
+            "https://maps.app.goo.gl/rB7PQ1HiFKCMJicE6"
+        ],
+        "report_time": 1742960313,
+        "author": "Henrique",
+        "spot_type": "Gen3",
+        "panoId": "ViZ2lxBI7rmz9YQe7ppotQ",
+        "lat": -3.09211,
+        "lng": -60.01511,
+        "country": "BR",
+        "region": "State of Amazonas"
+    },
+    {
+        "spot_date": "2025/03/26",
+        "id": "1354564025798754405",
+        "links": [
+            "https://maps.app.goo.gl/YrGq1M85dDs36JdUA",
+            "https://maps.app.goo.gl/YrGq1M85dDs36JdUA"
+        ],
+        "report_time": 1743023630,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "SIwjo7szqdrUwZQ6uxeVZg",
+        "lat": 52.83418,
+        "lng": -1.29758,
+        "country": "GB",
+        "region": "England"
     }
 ]

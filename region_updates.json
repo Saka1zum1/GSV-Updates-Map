@@ -3669,6 +3669,20 @@
                 "date": "Dec 2024",
                 "country": "AR",
                 "region": "Formosa Province"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743008360,
+                "author": "Tobetelogi",
+                "id": "1354499977497280562",
+                "panoId": "isBtz8dtJaMrJ1ANAt_KZQ",
+                "lat": -26.40823,
+                "lng": -58.3602,
+                "date": "Feb 2025",
+                "country": "AR",
+                "region": "Formosa Province"
             }
         },
         "Neuqu\u00e9n Province": {
@@ -19117,6 +19131,20 @@
                 "lat": 34.37266,
                 "lng": 133.18415,
                 "date": "Feb 2025",
+                "country": "JP",
+                "region": "Hiroshima"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743018214,
+                "author": "Update Tracker Bot",
+                "id": "1354541309179985991",
+                "panoId": "JxO4VguQCPBuEY_csp4WnA",
+                "lat": 34.33254,
+                "lng": 133.15589,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Hiroshima"
             }
@@ -47003,6 +47031,20 @@
                 "date": "Feb 2025",
                 "country": "TH",
                 "region": "Lampang"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743008419,
+                "author": "Tobetelogi",
+                "id": "1354500225858797765",
+                "panoId": "ryz3ol93QR-1S1bNUg53Eg",
+                "lat": 17.92116,
+                "lng": 99.29943,
+                "date": "Mar 2025",
+                "country": "TH",
+                "region": "Lampang"
             }
         },
         "Nan": {
@@ -47382,6 +47424,20 @@
                 "date": "Feb 2025",
                 "country": "TH",
                 "region": "Phetchabun"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743008419,
+                "author": "Tobetelogi",
+                "id": "1354500225858797765",
+                "panoId": "C1P1FimEZLPrLMiTyX8Cxg",
+                "lat": 16.30419,
+                "lng": 100.70572,
+                "date": "Mar 2025",
+                "country": "TH",
+                "region": "Phetchabun"
             }
         },
         "Yasothon": {
@@ -47443,6 +47499,20 @@
                 "lat": 15.69209,
                 "lng": 104.13565,
                 "date": "Feb 2025",
+                "country": "TH",
+                "region": "Roi Et"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743008419,
+                "author": "Tobetelogi",
+                "id": "1354500225858797765",
+                "panoId": "x6TN_JqHYgTxhI9CR1eofw",
+                "lat": 15.58217,
+                "lng": 103.88114,
+                "date": "Mar 2025",
                 "country": "TH",
                 "region": "Roi Et"
             }
