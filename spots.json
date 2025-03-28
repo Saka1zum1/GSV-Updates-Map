@@ -35489,5 +35489,101 @@
         "lng": -102.7162,
         "country": "MX",
         "region": "Michoac\u00e1n"
+    },
+    {
+        "spot_date": "2025/03/27",
+        "id": "1355023536196030474",
+        "links": [
+            "https://www.facebook.com/tracybrs/posts/10229234329742871",
+            "https://maps.app.goo.gl/Dm7Fg8TuG4Jp6kTD6"
+        ],
+        "report_time": 1743133186,
+        "author": "hellhound#1981",
+        "spot_type": "Gen4",
+        "panoId": "CltqX_fwUQav54QSOVDmMQ",
+        "lat": 40.29276,
+        "lng": -78.83825,
+        "country": "US",
+        "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2025/03/27",
+        "id": "1354802426061783131",
+        "links": [
+            "https://www.instagram.com/reel/DHs0CmLsmQ7/?igsh=NTc4MTIwNjQ2YQ==",
+            "https://maps.app.goo.gl/HLCMeac6jLgLY6HMA"
+        ],
+        "report_time": 1743080469,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "6bV499AfRVM2HUUjbgg2Jg",
+        "lat": 54.28077,
+        "lng": -0.41463,
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "spot_date": "2025/03/27",
+        "id": "1354941912758358106",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=972687785077820&set=a.392005109812760",
+            "https://maps.app.goo.gl/5tPvr5f1QHBG8Vwa9"
+        ],
+        "report_time": 1743113725,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "Ocxnxylyl0UcSJCitD_PaQ",
+        "lat": 39.67322,
+        "lng": -1.60704,
+        "country": "ES",
+        "region": "Castile-La Mancha"
+    },
+    {
+        "spot_date": "2025/03/28",
+        "id": "1355165062503071866",
+        "links": [
+            "https://www.youtube.com/watch?v=JmazAm1UyxY&ab_channel=VExplores",
+            "https://maps.app.goo.gl/WCE9rDxuZ3FGvEFr5"
+        ],
+        "report_time": 1743166928,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "4MmCTEXMFY6MxG0F02pJog",
+        "lat": 1.39599,
+        "lng": 103.87896,
+        "country": "SG",
+        "region": "Singapore"
+    },
+    {
+        "spot_date": "2025/03/27",
+        "id": "1355164690547867800",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10096595140352619&set=g.35748862669",
+            "https://maps.app.goo.gl/w7gKrC6FRhYDMpZ76"
+        ],
+        "report_time": 1743166839,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "T0GJT81T026HJTjK4wGNnQ",
+        "lat": 48.21491,
+        "lng": 17.15423,
+        "country": "SK",
+        "region": "Bratislava Region"
+    },
+    {
+        "spot_date": "2025/03/27",
+        "id": "1355200940566904863",
+        "links": [
+            "https://www.tiktok.com/@ivan_san_martin/video/7486665506716470583",
+            "https://maps.app.goo.gl/5ZLqMdPdHpy3pLH38"
+        ],
+        "report_time": 1743175482,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "d9ZIvNoSXztc9D-Q2KgAUA",
+        "lat": 18.13915,
+        "lng": -94.48299,
+        "country": "MX",
+        "region": "Veracruz"
     }
 ]

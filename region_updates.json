@@ -21208,6 +21208,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Osaka"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743153239,
+                "author": "Update Tracker Bot",
+                "id": "1355107644179746826",
+                "panoId": "feSLr49FzAoD5FYb6rin_Q",
+                "lat": 34.83603,
+                "lng": 135.55039,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Osaka"
             }
         },
         "Nara": {
@@ -45820,6 +45834,20 @@
                 "date": "Jan 2025",
                 "country": "TH",
                 "region": "Pathum Thani"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743171850,
+                "author": "Tobetelogi",
+                "id": "1355185706099802273",
+                "panoId": "6xVkHaowUWIl8uv9OrnjNA",
+                "lat": 14.00291,
+                "lng": 100.46456,
+                "date": "Mar 2025",
+                "country": "TH",
+                "region": "Pathum Thani"
             }
         },
         "Rayong": {
@@ -46013,6 +46041,20 @@
                 "lat": 13.90781,
                 "lng": 100.44957,
                 "date": "Jan 2025",
+                "country": "TH",
+                "region": "Nonthaburi"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743171850,
+                "author": "Tobetelogi",
+                "id": "1355185706099802273",
+                "panoId": "_HMFts0h2wllsXZguMjy4g",
+                "lat": 13.97059,
+                "lng": 100.46213,
+                "date": "Mar 2025",
                 "country": "TH",
                 "region": "Nonthaburi"
             }
@@ -47421,6 +47463,21 @@
                 "lat": 14.1747,
                 "lng": 101.89587,
                 "date": "Feb 2025",
+                "country": "TH",
+                "region": "Prachin Buri"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743171850,
+                "author": "Tobetelogi",
+                "id": "1355185706099802273",
+                "panoId": "HyAOgBFPmIlaC3tKQhdjNw",
+                "lat": 13.99249,
+                "lng": 101.68896,
+                "date": "Mar 2025",
                 "country": "TH",
                 "region": "Prachin Buri"
             }
