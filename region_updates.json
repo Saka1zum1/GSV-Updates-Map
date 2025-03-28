@@ -18332,6 +18332,21 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Kagawa"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743115415,
+                "author": "Update Tracker Bot",
+                "id": "1354949001660731453",
+                "panoId": "aSka5dmk3OXdCc-z_bj3Yw",
+                "lat": 34.1785,
+                "lng": 133.80258,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Kagawa"
             }
         },
         "Nagano": {

@@ -35457,5 +35457,37 @@
         "lng": 104.11404,
         "country": "TH",
         "region": "Roi Et"
+    },
+    {
+        "spot_date": "2025/02/26",
+        "id": "1354897649207218369",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=3934144260162432&set=a.1400514463525437",
+            "https://maps.app.goo.gl/rWF83aWW5DPAJngK7"
+        ],
+        "report_time": 1743103172,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "nCUJr4AqGmubMNTWK-t-kw",
+        "lat": 39.4985,
+        "lng": 20.26618,
+        "country": "GR",
+        "region": "Decentralized Administration of Epirus and Western Macedonia"
+    },
+    {
+        "spot_date": "2025/03/25",
+        "id": "1354924040854442197",
+        "links": [
+            "https://www.tiktok.com/@valeriaordaz23/video/7485850721179487543",
+            "https://maps.app.goo.gl/7b4BdoxFRJEhauoQ7"
+        ],
+        "report_time": 1743109464,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "B6IiBOdOs8gbA9bdrNKxIg",
+        "lat": 20.05383,
+        "lng": -102.7162,
+        "country": "MX",
+        "region": "Michoac\u00e1n"
     }
 ]
