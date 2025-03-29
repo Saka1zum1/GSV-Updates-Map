@@ -35585,5 +35585,53 @@
         "lng": -94.48299,
         "country": "MX",
         "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/03/28",
+        "id": "1355298716113965147",
+        "links": [
+            "https://www.tiktok.com/@terejimenez545/video/7486948910590709047",
+            "https://maps.app.goo.gl/VA7NSwj8UFUQ42LW6"
+        ],
+        "report_time": 1743198794,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "OofRK3XA_nvZ3-oHKPSPug",
+        "lat": 17.99254,
+        "lng": -92.91763,
+        "country": "MX",
+        "region": "Tabasco"
+    },
+    {
+        "spot_date": "2025/03/28",
+        "id": "1355293900629348462",
+        "links": [
+            "https://www.facebook.com/photo?fbid=637638889148131",
+            "https://maps.app.goo.gl/2Af5E2BSMmK33KPe7"
+        ],
+        "report_time": 1743197646,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "0gLGa1yMMPSQpfOzpe0o6A",
+        "lat": -7.21884,
+        "lng": -35.89917,
+        "country": "BR",
+        "region": "State of Para\u00edba"
+    },
+    {
+        "spot_date": "2025/03/28",
+        "id": "1355332174424969337",
+        "links": [
+            "https://www.facebook.com/reel/1249441833857296",
+            "https://maps.app.goo.gl/7wVi4yz2kyGtXRDXA"
+        ],
+        "report_time": 1743206771,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "GwJyLjpPkksHANpZ3nLnLg",
+        "lat": 14.91099,
+        "lng": -92.2655,
+        "country": "MX",
+        "region": "Chiapas"
     }
 ]

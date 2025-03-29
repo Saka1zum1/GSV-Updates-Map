@@ -9152,6 +9152,21 @@
                 "date": "Dec 2024",
                 "country": "US",
                 "region": "Ohio"
+            },
+            "Mar": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1743183272,
+                "author": "Steve",
+                "id": "1355233611896324156",
+                "panoId": "SFeGWnyO_X_l8xgZ1KggmA",
+                "lat": 41.02196,
+                "lng": -83.67653,
+                "date": "Mar 2025",
+                "country": "US",
+                "region": "Ohio"
             }
         },
         "Minnesota": {
@@ -19507,14 +19522,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1714731695,
-                "author": "GeoLuminous",
-                "panoId": "v8Q2EBBow8hTVi735EA_Og",
-                "lat": 34.9952,
-                "lng": 134.1583,
-                "date": "Mar 2024",
+                "report_time": 1743180233,
+                "author": "Update Tracker Bot",
+                "id": "1355220865922502656",
+                "panoId": "I8TgHi5a1wIx7aSCrX6eFw",
+                "lat": 34.71833,
+                "lng": 133.87888,
+                "date": "Mar 2025",
                 "country": "JP",
-                "altitude": 123.19,
                 "region": "Okayama"
             },
             "Nov": {
