@@ -36072,6 +36072,20 @@
                 "date": "Oct 2024",
                 "country": "CO",
                 "region": "Antioquia"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743247359,
+                "author": "Tobetelogi",
+                "id": "1355502413595017287",
+                "panoId": "-AfUq2xKcg2a_Qz0_q65iA",
+                "lat": 5.94309,
+                "lng": -75.31267,
+                "date": "Nov 2024",
+                "country": "CO",
+                "region": "Antioquia"
             }
         },
         "Bogot\u00e1": {},
@@ -36168,6 +36182,21 @@
                 "date": "Nov 2024",
                 "country": "CO",
                 "region": "Meta"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743249239,
+                "author": "Unhook",
+                "id": "1355510299318423672",
+                "panoId": "yMDobvKMXlvMe8P8FZMb4A",
+                "lat": 4.32371,
+                "lng": -72.0826,
+                "date": "Dec 2024",
+                "country": "CO",
+                "region": "Meta"
             }
         },
         "Boyaca": {
@@ -36197,6 +36226,21 @@
                 "date": "Mar 2024",
                 "country": "CO",
                 "altitude": 2904.01,
+                "region": "Boyaca"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743246952,
+                "author": "Steve",
+                "id": "1355500705766576300",
+                "panoId": "1-YCUSfSW7kAWwBqPqRY0g",
+                "lat": 5.50794,
+                "lng": -73.94388,
+                "date": "Dec 2024",
+                "country": "CO",
                 "region": "Boyaca"
             }
         },

@@ -9645,7 +9645,7 @@
         "country": "JP",
         "spot_type": "Gen4",
         "spot_date": "2024/06/04",
-        "region": "Tokyo Prefecture"
+        "region": "Tokyo"
     },
     {
         "id": "1247290665826652271",
@@ -35633,5 +35633,53 @@
         "lng": -92.2655,
         "country": "MX",
         "region": "Chiapas"
+    },
+    {
+        "spot_date": "2025/03/24",
+        "id": "1355373814690746509",
+        "links": [
+            "https://www.instagram.com/p/DHlUlOkRXV7/",
+            "https://maps.app.goo.gl/WTXfAjWkjtGywd9u7"
+        ],
+        "report_time": 1743216699,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "0iwziGQGXWxl0H_2n1yJ6g",
+        "lat": -8.59128,
+        "lng": -35.11689,
+        "country": "BR",
+        "region": "State of Pernambuco"
+    },
+    {
+        "spot_date": "2025/03/28",
+        "id": "1355400641891270706",
+        "links": [
+            "https://www.tiktok.com/t/ZT2cdE3hL/",
+            "https://maps.app.goo.gl/qs9WyF9VnPMeXJ3Y6"
+        ],
+        "report_time": 1743223095,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "4l3C0i9FywS_7KRdJXJy9g",
+        "lat": -45.56602,
+        "lng": -72.07006,
+        "country": "CL",
+        "region": "Ays\u00e9n"
+    },
+    {
+        "spot_date": "2025/03/27",
+        "id": "1355485363992268822",
+        "links": [
+            "https://youtu.be/i7JICN__V14?si=VNtVYU_mqO1-Hknz",
+            "https://maps.app.goo.gl/XZHjNHEunccNC7wA7"
+        ],
+        "report_time": 1743243294,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "LDr_c_MP8K3UFB1XW9Wczw",
+        "lat": -4.4839,
+        "lng": 121.5147,
+        "country": "ID",
+        "region": "South East Sulawesi"
     }
 ]
