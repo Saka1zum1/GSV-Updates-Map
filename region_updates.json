@@ -20597,6 +20597,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Oita"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743282790,
+                "author": "Update Tracker Bot",
+                "id": "1355651021254426745",
+                "panoId": "exAQIvuaQi8gMX38gBw7kA",
+                "lat": 33.18846,
+                "lng": 131.14857,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Oita"
             }
         },
         "Gifu": {
@@ -35730,6 +35744,20 @@
                 "country": "CO",
                 "altitude": 1415.49,
                 "region": "Caldas"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743256644,
+                "author": "Jkmilo13",
+                "id": "1355541357611061449",
+                "panoId": "5gmZHgLOI1Qd8K6HH8-P0A",
+                "lat": 5.61254,
+                "lng": -75.46043,
+                "date": "Nov 2024",
+                "country": "CO",
+                "region": "Caldas"
             }
         },
         "Cundinamarca": {
@@ -47272,7 +47300,23 @@
                 "region": "Phrae"
             }
         },
-        "Surin": {},
+        "Surin": {
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1743288750,
+                "author": "Steve",
+                "id": "1355676018467406006",
+                "panoId": "aS6MkkSfK4PBBD8ppwoTvw",
+                "lat": 15.45894,
+                "lng": 103.89374,
+                "date": "Feb 2025",
+                "country": "TH",
+                "region": "Surin"
+            }
+        },
         "Surat Thani": {
             "Mar": {
                 "types": [
