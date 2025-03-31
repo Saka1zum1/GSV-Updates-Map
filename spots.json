@@ -35681,5 +35681,53 @@
         "lng": 121.5147,
         "country": "ID",
         "region": "South East Sulawesi"
+    },
+    {
+        "spot_date": "2025/02/21",
+        "id": "1355592241913139364",
+        "links": [
+            "https://www.instagram.com/p/DGV7f3cJwWr/",
+            "https://maps.app.goo.gl/AhvGPkdHhhYZxSNA7"
+        ],
+        "report_time": 1743268776,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "pzBQ3luhkf9_lMzT61MCww",
+        "lat": -18.84811,
+        "lng": -50.12506,
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2019/10/03",
+        "id": "1355586575379075162",
+        "links": [
+            "https://www.instagram.com/p/B3J85Roh6U4/",
+            "https://maps.app.goo.gl/ybkGRtaG8jd8BeM1A"
+        ],
+        "report_time": 1743267425,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "_C3_MLMG9T9Q1qrkLarG4w",
+        "lat": -0.7642,
+        "lng": -48.51963,
+        "country": "BR",
+        "region": "State of Par\u00e1"
+    },
+    {
+        "spot_date": "2025/03/30",
+        "id": "1355961102785315047",
+        "links": [
+            "https://ameblo.jp/kotetsupapa/image-12891880062-15560313811.html",
+            "https://maps.app.goo.gl/sizEVfeBLEAUTm8k9"
+        ],
+        "report_time": 1743356719,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "bSTn-4xNR69Kh2v8_O8dgg",
+        "lat": 34.30438,
+        "lng": 135.5493,
+        "country": "JP",
+        "region": "Wakayama"
     }
 ]
