@@ -11270,6 +11270,21 @@
                 "country": "US",
                 "altitude": 262.8,
                 "region": "North Dakota"
+            },
+            "Mar": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1743340764,
+                "author": "Steve",
+                "id": "1355894184447443064",
+                "panoId": "_48Ibx-D6uX4C1tvlu7nvQ",
+                "lat": 47.14241,
+                "lng": -100.60147,
+                "date": "Mar 2025",
+                "country": "US",
+                "region": "North Dakota"
             }
         },
         "Arkansas": {
@@ -11566,6 +11581,20 @@
                 "lat": 37.78966,
                 "lng": -81.11678,
                 "date": "Feb 2025",
+                "country": "US",
+                "region": "West Virginia"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743413982,
+                "author": "BurgerwithPeel",
+                "id": "1356201279973757029",
+                "panoId": "BsE1U9GH5wQjoPI94oKljA",
+                "lat": 37.87068,
+                "lng": -80.55834,
+                "date": "Mar 2025",
                 "country": "US",
                 "region": "West Virginia"
             }
