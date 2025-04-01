@@ -21808,13 +21808,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1711072053,
+                "report_time": 1743512355,
                 "author": "Update Tracker Bot",
-                "id": "1220549398954774540",
-                "panoId": "HYis80wxGF1M5JGfglctCA",
-                "lat": 34.75562,
-                "lng": 134.91967,
-                "date": "Mar 2024",
+                "id": "1356613887549509835",
+                "panoId": "lQhR-v5ZQSoOaIqqhZTW4w",
+                "lat": 34.7005,
+                "lng": 135.06575,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Hyogo"
             },
@@ -56544,6 +56544,22 @@
                 "lat": 22.69974,
                 "lng": 75.83754,
                 "date": "Dec 2024",
+                "country": "IN",
+                "region": "Madhya Pradesh"
+            },
+            "Jan": {
+                "types": [
+                    "newregion",
+                    "newgen4",
+                    "newsmallcam"
+                ],
+                "report_time": 1743512958,
+                "author": "Patata Obesa",
+                "id": "1356616416094064682",
+                "panoId": "5qwETvdX0SoJU1RQP9dwCQ",
+                "lat": 24.53846,
+                "lng": 81.28525,
+                "date": "Jan 2025",
                 "country": "IN",
                 "region": "Madhya Pradesh"
             }
