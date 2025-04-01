@@ -4340,6 +4340,21 @@
                 "date": "Dec 2024",
                 "country": "AR",
                 "region": "Santiago del Estero Province"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1743518080,
+                "author": "Tobetelogi",
+                "id": "1356637900984291550",
+                "panoId": "uFZFbu-Qy5e87YTcfcBqHA",
+                "lat": -26.99939,
+                "lng": -64.66772,
+                "date": "Feb 2025",
+                "country": "AR",
+                "region": "Santiago del Estero Province"
             }
         },
         "Misiones Province": {
@@ -19086,13 +19101,13 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1711093465,
-                "author": "Update Tracker Bot",
-                "id": "1220639207450476605",
-                "panoId": "tWty4sOrMvNIfQwknv-YIQ",
-                "lat": 33.14902,
-                "lng": 129.69542,
-                "date": "Mar 2024",
+                "report_time": 1743516797,
+                "author": "Tobetelogi",
+                "id": "1356632520032256052",
+                "panoId": "EglFxQ8-h_ql6SkhjKtp9w",
+                "lat": 32.60604,
+                "lng": 130.22,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Nagasaki"
             },
@@ -21591,6 +21606,20 @@
                 "lat": 34.68601,
                 "lng": 135.7147,
                 "date": "Jan 2025",
+                "country": "JP",
+                "region": "Nara"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743516797,
+                "author": "Tobetelogi",
+                "id": "1356632520032256052",
+                "panoId": "dWtiesxR-hbDMOgGE2ifnQ",
+                "lat": 34.63436,
+                "lng": 135.91864,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Nara"
             }
@@ -28300,6 +28329,21 @@
                 "date": "Mar 2025",
                 "country": "FR",
                 "region": "Auvergne-Rh\u00f4ne-Alpes"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743516708,
+                "author": "Tobetelogi",
+                "id": "1356632145455747182",
+                "panoId": "GR7H8FfOyKn3sOy-QtPY5g",
+                "lat": 45.82511,
+                "lng": 2.97998,
+                "date": "Feb 2025",
+                "country": "FR",
+                "region": "Auvergne-Rh\u00f4ne-Alpes"
             }
         },
         "Bourgogne-Franche-Comt\u00e9": {
@@ -28815,17 +28859,16 @@
             },
             "Feb": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1712315007,
-                "author": "DarkShadow MH,ER,MC",
-                "panoId": "-Q82_BUSvbo3k8TMZ1DTMA",
-                "lat": 46.75983,
-                "lng": 2.84465,
-                "date": "Feb 2024",
+                "report_time": 1743516708,
+                "author": "Tobetelogi",
+                "id": "1356632145455747182",
+                "panoId": "IAlOTo6CWJCGhwFKR80XSQ",
+                "lat": 47.52402,
+                "lng": 1.173,
+                "date": "Feb 2025",
                 "country": "FR",
-                "altitude": 256.57,
                 "region": "Centre-Val de Loire"
             },
             "Mar": {
@@ -28841,6 +28884,20 @@
                 "lat": 47.58271,
                 "lng": 1.26077,
                 "date": "Mar 2025",
+                "country": "FR",
+                "region": "Centre-Val de Loire"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743516496,
+                "author": "Tobetelogi",
+                "id": "1356631257433378877",
+                "panoId": "nOXhlZJJTQ1aRa-T0znUbQ",
+                "lat": 47.37028,
+                "lng": 0.67535,
+                "date": "Nov 2024",
                 "country": "FR",
                 "region": "Centre-Val de Loire"
             }
@@ -29329,6 +29386,20 @@
                 "lat": 50.66062,
                 "lng": 3.08706,
                 "date": "Nov 2024",
+                "country": "FR",
+                "region": "Hauts-de-France"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743516708,
+                "author": "Tobetelogi",
+                "id": "1356632145455747182",
+                "panoId": "yn_PeBCyFbHvd19JvFVxug",
+                "lat": 49.78078,
+                "lng": 3.19113,
+                "date": "Feb 2025",
                 "country": "FR",
                 "region": "Hauts-de-France"
             }
@@ -35830,6 +35901,20 @@
                 "date": "Mar 2025",
                 "country": "GR",
                 "region": "Decentralized Administration of Epirus and Western Macedonia"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743516708,
+                "author": "Tobetelogi",
+                "id": "1356632145455747182",
+                "panoId": "6sLKpb71gdb-XMSUYuMVAw",
+                "lat": 39.31555,
+                "lng": 20.46435,
+                "date": "Feb 2025",
+                "country": "GR",
+                "region": "Decentralized Administration of Epirus and Western Macedonia"
             }
         },
         "\u0395\u03c0\u03b1\u03c1\u03c7\u03b9\u03b1\u03ba\u03ae \u039f\u03b4\u03cc\u03c2 \u039c\u03b1\u03bd\u03c4\u03bf\u03c5\u03b4\u03af\u03bf\u03c5": {},
@@ -36325,6 +36410,20 @@
                 "lat": 5.61254,
                 "lng": -75.46043,
                 "date": "Nov 2024",
+                "country": "CO",
+                "region": "Caldas"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743520392,
+                "author": "Jkmilo13",
+                "id": "1356647597627937000",
+                "panoId": "mBtXeNF4N8xxhmLVWjO9iw",
+                "lat": 5.52587,
+                "lng": -75.46078,
+                "date": "Dec 2024",
                 "country": "CO",
                 "region": "Caldas"
             }
