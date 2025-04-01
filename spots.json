@@ -35745,5 +35745,69 @@
         "lng": -96.9601,
         "country": "MX",
         "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/03/15",
+        "id": "1356466034797973614",
+        "links": [
+            "https://www.instagram.com/tabinoyokaze68/p/DHNUhWtTzvl",
+            "https://maps.app.goo.gl/aVycuuGTonCWDULo8"
+        ],
+        "report_time": 1743477104,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "fNbUmU8j5mi0elZLMRvy_Q",
+        "lat": 34.66822,
+        "lng": 135.15804,
+        "country": "JP",
+        "region": "Hyogo"
+    },
+    {
+        "spot_date": "2025/02/28",
+        "id": "1356465748545114245",
+        "links": [
+            "https://x.com/arne_jacobsen/status/1895354576452362705",
+            "https://maps.app.goo.gl/ikRuVHLh5srTu6AS6"
+        ],
+        "report_time": 1743477036,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "qCTDDeOO_aFnHQ-3bT36-A",
+        "lat": 34.63167,
+        "lng": 133.90062,
+        "country": "JP",
+        "region": "Okayama"
+    },
+    {
+        "spot_date": "2025/03/11",
+        "id": "1356459763667308627",
+        "links": [
+            "https://x.com/econsulta_ver/status/1899574665628291436",
+            "https://maps.app.goo.gl/UaUAbcmk2w5FXtR69"
+        ],
+        "report_time": 1743475609,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "e2tG_6Fj-HGHyHuVX1kA_g",
+        "lat": 19.52638,
+        "lng": -96.92018,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/03/11",
+        "id": "1356455592193032387",
+        "links": [
+            "https://www.facebook.com/nutchanon.mananamkasem.5/videos/510683562089110/",
+            "https://maps.app.goo.gl/1oMZjQENUn2fGBBM6"
+        ],
+        "report_time": 1743474614,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "5mNMH-U9tUaqxGznyLW5sg",
+        "lat": 13.98456,
+        "lng": 100.51472,
+        "country": "TH",
+        "region": "Pathum Thani"
     }
 ]
