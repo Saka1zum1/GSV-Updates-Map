@@ -21075,6 +21075,20 @@
                 "date": "Jan 2025",
                 "country": "JP",
                 "region": "Saitama"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743506966,
+                "author": "Update Tracker Bot",
+                "id": "1356591283589873664",
+                "panoId": "M_F9nP68kGgqFRPXO2C5dQ",
+                "lat": 36.09217,
+                "lng": 139.54476,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Saitama"
             }
         },
         "Yamagata": {
