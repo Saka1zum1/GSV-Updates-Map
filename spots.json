@@ -35729,5 +35729,21 @@
         "lng": 135.5493,
         "country": "JP",
         "region": "Wakayama"
+    },
+    {
+        "spot_date": "2025/03/31",
+        "id": "1356337451378937956",
+        "links": [
+            "https://www.tiktok.com/@mrthn.tzze/video/7487934192135753015?_r=1&_t=ZM-8v9K8qUYqG5",
+            "https://maps.app.goo.gl/jYW6xhYbR5PrURjf9"
+        ],
+        "report_time": 1743446447,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "ipbY0qSuo5FAFS_culcumw",
+        "lat": 19.45424,
+        "lng": -96.9601,
+        "country": "MX",
+        "region": "Veracruz"
     }
 ]
