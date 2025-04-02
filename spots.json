@@ -35809,5 +35809,21 @@
         "lng": 100.51472,
         "country": "TH",
         "region": "Pathum Thani"
+    },
+    {
+        "spot_date": "2025/04/01",
+        "id": "1356732643227730122",
+        "links": [
+            "https://x.com/bvsgwy/status/1906974435535384990/photo/1",
+            "https://maps.app.goo.gl/1XZ5VSwrsPc4fprQA"
+        ],
+        "report_time": 1743540669,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "zwOt1fVrRSjbUhdHwB91pg",
+        "lat": 41.51547,
+        "lng": -5.74477,
+        "country": "ES",
+        "region": "Castile and Le\u00f3n"
     }
 ]

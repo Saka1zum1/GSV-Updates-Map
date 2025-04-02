@@ -6512,6 +6512,20 @@
                 "country": "NO",
                 "altitude": 92.11,
                 "region": "Akershus"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743531595,
+                "author": "Tobetelogi",
+                "id": "1356694586998919239",
+                "panoId": "fhsJHHkO-I_6utx2ny_ZMg",
+                "lat": 59.90931,
+                "lng": 10.64034,
+                "date": "Sep 2024",
+                "country": "NO",
+                "region": "Akershus"
             }
         },
         "Vestland fylke": {
@@ -13109,6 +13123,21 @@
                 "lat": 19.67344,
                 "lng": -155.97915,
                 "date": "Nov 2024",
+                "country": "US",
+                "region": "Hawaii"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1743537916,
+                "author": "Tobetelogi",
+                "id": "1356721099332911204",
+                "panoId": "9HeQvO-_AT8tRbK_cEg38w",
+                "lat": 21.63264,
+                "lng": -157.92368,
+                "date": "Oct 2024",
                 "country": "US",
                 "region": "Hawaii"
             }
@@ -20111,6 +20140,20 @@
                 "date": "Jan 2025",
                 "country": "JP",
                 "region": "Kyoto"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743528588,
+                "author": "Update Tracker Bot",
+                "id": "1356681972629504041",
+                "panoId": "zb4Bzq6R-vRSVPi0uWZMSA",
+                "lat": 34.75818,
+                "lng": 135.73977,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Kyoto"
             }
         },
         "Fukushima": {
@@ -26863,17 +26906,16 @@
             },
             "Feb": {
                 "types": [
-                    "newregion",
-                    "newtown"
+                    "newregion"
                 ],
-                "report_time": 1712166034,
-                "author": "vegetal",
-                "panoId": "jeawliaXu9aT1ye_uboODA",
-                "lat": 3.07082,
-                "lng": 102.40364,
-                "date": "Feb 2024",
+                "report_time": 1743545079,
+                "author": "Update Tracker Bot",
+                "id": "1356751143593840853",
+                "panoId": "p7F0SL8UsOqpjv2IG2teSg",
+                "lat": 2.48445,
+                "lng": 102.31911,
+                "date": "Feb 2025",
                 "country": "MY",
-                "altitude": 61.54,
                 "region": "Negeri Sembilan"
             },
             "Jan": {
@@ -35854,6 +35896,20 @@
                 "date": "Mar 2025",
                 "country": "GR",
                 "region": "Decentralized Administration of Thessaly and Central Greece"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743525047,
+                "author": "DeSlagen",
+                "id": "1356667121584832662",
+                "panoId": "QXQ1d9n9iV0CvwtTYkmazw",
+                "lat": 38.30946,
+                "lng": 23.31271,
+                "date": "Sep 2024",
+                "country": "GR",
+                "region": "Decentralized Administration of Thessaly and Central Greece"
             }
         },
         "Decentralized Administration of Epirus and Western Macedonia": {
@@ -39595,6 +39651,21 @@
                 "lat": 51.87647,
                 "lng": 4.96711,
                 "date": "Nov 2024",
+                "country": "NL",
+                "region": "South Holland"
+            },
+            "Sep": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743530037,
+                "author": "mpk",
+                "id": "1356688050503286965",
+                "panoId": "HTe-qBmT2KhSlujmjUq2PQ",
+                "lat": 52.0018,
+                "lng": 4.38425,
+                "date": "Sep 2024",
                 "country": "NL",
                 "region": "South Holland"
             }
@@ -54776,6 +54847,21 @@
                 "lat": 60.92073,
                 "lng": 24.61443,
                 "date": "Jul 2023",
+                "country": "FI",
+                "region": "Kanta-H\u00e4me"
+            },
+            "Aug": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743529802,
+                "author": "DeSlagen",
+                "id": "1356687065911398581",
+                "panoId": "2wLbs9XQUqnr_rSurBHT9g",
+                "lat": 60.99278,
+                "lng": 24.457,
+                "date": "Aug 2024",
                 "country": "FI",
                 "region": "Kanta-H\u00e4me"
             }
