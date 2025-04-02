@@ -35825,5 +35825,37 @@
         "lng": -5.74477,
         "country": "ES",
         "region": "Castile and Le\u00f3n"
+    },
+    {
+        "spot_date": "2025/03/13",
+        "id": "1356808489393061948",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=3979731508935977",
+            "https://maps.app.goo.gl/kYWRGjeW6wDUfi7n8"
+        ],
+        "report_time": 1743558752,
+        "author": "hellhound#1981",
+        "spot_type": "Gen4",
+        "panoId": "8KyEKZVCsYZDY_niPa4Pkg",
+        "lat": 36.02741,
+        "lng": -80.29305,
+        "country": "US",
+        "region": "North Carolina"
+    },
+    {
+        "spot_date": "2025/04/01",
+        "id": "1356973235190890517",
+        "links": [
+            "https://youtube.com/shorts/wmtKaSPT8YE?si=g5WAZ6OyLV0QSpDH",
+            "https://maps.app.goo.gl/rxFYyMgxU3dH8qka6"
+        ],
+        "report_time": 1743598030,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "kDoS_FdCQ4QVuNY0Y-GMQQ",
+        "lat": 45.0269,
+        "lng": -93.48141,
+        "country": "US",
+        "region": "Minnesota"
     }
 ]

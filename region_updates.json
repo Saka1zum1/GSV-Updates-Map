@@ -20434,6 +20434,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Tokyo"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743574531,
+                "author": "Update Tracker Bot",
+                "id": "1356874673144725594",
+                "panoId": "bvlfg9HZ9745dSIC0zfkwg",
+                "lat": 35.68764,
+                "lng": 139.40345,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Tokyo"
             }
         },
         "Chiba": {
@@ -35648,6 +35662,20 @@
                 "country": "GR",
                 "altitude": 343.34,
                 "region": "Western Greece and the Ionian"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743574087,
+                "author": "Update Tracker Bot",
+                "id": "1356872810365980742",
+                "panoId": "llf-g3lO9z5K_lD8OqAJPg",
+                "lat": 37.48089,
+                "lng": 22.07776,
+                "date": "Mar 2025",
+                "country": "GR",
+                "region": "Western Greece and the Ionian"
             }
         },
         "Decentralized Administration of Attica": {
@@ -35720,6 +35748,20 @@
                 "lat": 37.86254,
                 "lng": 23.74771,
                 "date": "Feb 2025",
+                "country": "GR",
+                "region": "Decentralized Administration of Attica"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743599171,
+                "author": "DeSlagen",
+                "id": "1356978019301855313",
+                "panoId": "vhU4VtFIV6XsoZCcCjoMZw",
+                "lat": 37.88043,
+                "lng": 23.75372,
+                "date": "Mar 2025",
                 "country": "GR",
                 "region": "Decentralized Administration of Attica"
             }
@@ -35908,6 +35950,20 @@
                 "lat": 38.30946,
                 "lng": 23.31271,
                 "date": "Sep 2024",
+                "country": "GR",
+                "region": "Decentralized Administration of Thessaly and Central Greece"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743599171,
+                "author": "DeSlagen",
+                "id": "1356978019301855313",
+                "panoId": "xt5TUzBjDf7QmRuwli97eA",
+                "lat": 39.57662,
+                "lng": 21.76391,
+                "date": "Feb 2025",
                 "country": "GR",
                 "region": "Decentralized Administration of Thessaly and Central Greece"
             }
