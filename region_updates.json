@@ -15996,6 +15996,21 @@
                 "date": "Sep 2024",
                 "country": "IE",
                 "region": "County Clare"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1743619964,
+                "author": "Rob",
+                "id": "1357065233637838988",
+                "panoId": "rgw-BAAihIluBoQh22Dkyw",
+                "lat": 52.83277,
+                "lng": -9.00341,
+                "date": "Oct 2024",
+                "country": "IE",
+                "region": "County Clare"
             }
         },
         "County Limerick": {
@@ -16147,7 +16162,24 @@
             }
         },
         "Dublin": {},
-        "Letterkenny": {}
+        "Letterkenny": {},
+        "County Galway": {
+            "Sep": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743620083,
+                "author": "Rob",
+                "id": "1357065730826178842",
+                "panoId": "7f20bl_wTDF_cn1gd5SGFA",
+                "lat": 53.06434,
+                "lng": -8.81568,
+                "date": "Sep 2024",
+                "country": "IE",
+                "region": "County Galway"
+            }
+        }
     },
     "LV": {
         "Prei\u013ci Municipality": {
@@ -20519,6 +20551,22 @@
                 "lat": 35.34802,
                 "lng": 140.38841,
                 "date": "Dec 2024",
+                "country": "JP",
+                "region": "Chiba"
+            },
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1743630904,
+                "author": "Steve",
+                "id": "1357111119621394555",
+                "panoId": "uB36mZy54OqrXK8mJocTuw",
+                "lat": 35.69967,
+                "lng": 140.08696,
+                "date": "Feb 2025",
                 "country": "JP",
                 "region": "Chiba"
             }
