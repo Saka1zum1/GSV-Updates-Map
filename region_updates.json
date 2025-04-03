@@ -15273,7 +15273,23 @@
                 "region": "Friuli-Venezia Giulia"
             }
         },
-        "Davagna": {}
+        "Davagna": {},
+        "unknown": {
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743681332,
+                "author": "Tobetelogi",
+                "id": "1357322628964155413",
+                "panoId": "-nJ-TuQIEfm9L1PFmUGSxQ",
+                "lat": 44.00804,
+                "lng": 10.09899,
+                "date": "Nov 2024",
+                "country": "IT",
+                "region": "unknown"
+            }
+        }
     },
     "GB": {
         "England": {
@@ -57690,6 +57706,21 @@
                 "lat": 13.05073,
                 "lng": 80.21889,
                 "date": "Jan 2025",
+                "country": "IN",
+                "region": "Tamil Nadu"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743641909,
+                "author": "Update Tracker Bot",
+                "id": "1357157274778472561",
+                "panoId": "OlHcg3YxS-nvpHLoT5L5Pw",
+                "lat": 12.96662,
+                "lng": 80.15184,
+                "date": "Mar 2025",
                 "country": "IN",
                 "region": "Tamil Nadu"
             }

@@ -35857,5 +35857,85 @@
         "lng": -93.48141,
         "country": "US",
         "region": "Minnesota"
+    },
+    {
+        "spot_date": "2025/04/03",
+        "id": "1357182500505518111",
+        "links": [
+            "https://www.facebook.com/606228584/videos/1649697595914468/",
+            "https://maps.app.goo.gl/CcuRSQFMbmh2ZxKJ6"
+        ],
+        "report_time": 1743647923,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "ozR4y14sQxpzo65LMxKk5A",
+        "lat": -16.91124,
+        "lng": 145.76316,
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "spot_date": "2025/04/02",
+        "id": "1357222241674199073",
+        "links": [
+            "https://www.tiktok.com/@jesus_ramirez017/video/7488739882030992695?_r=1&_t=ZM-8vDTNTt1Gzf",
+            "https://maps.app.goo.gl/MtMU9Bfpugr4px4g7"
+        ],
+        "report_time": 1743657398,
+        "author": "chise",
+        "spot_type": "Gen4",
+        "panoId": "zPiDwwlnt_Dq-A9Hp4-9sQ",
+        "lat": -30.03658,
+        "lng": -70.71737,
+        "country": "CL",
+        "region": "Coquimbo"
+    },
+    {
+        "spot_date": "2025/03/31",
+        "id": "1357216415442010292",
+        "links": [
+            "https://x.com/kenty01160116/status/1906556073399742702?t=W8i-uG8AM3xznW5ee4cGxg&s=19",
+            "https://maps.app.goo.gl/XaD7CvxFTQUniKAEA"
+        ],
+        "report_time": 1743656009,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "64Z84iW6BiUfNs2-0w7uAA",
+        "lat": 34.88708,
+        "lng": 135.12413,
+        "country": "JP",
+        "region": "Hyogo"
+    },
+    {
+        "spot_date": "2025/03/08",
+        "id": "1357302932885864599",
+        "links": [
+            "https://www.tiktok.com/@sankhirawisa/video/7479393705196047624?is_from_webapp=1&sender_device=pc&web_id=7274582088686306817",
+            "https://maps.app.goo.gl/4cwJECp3UB8GhkuF8"
+        ],
+        "report_time": 1743676636,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "KMNVTilsRvYGcnfFG4P3Vw",
+        "lat": -6.33974,
+        "lng": 106.88989,
+        "country": "ID",
+        "region": "Jakarta"
+    },
+    {
+        "spot_date": "2025/04/02",
+        "id": "1357302708184547368",
+        "links": [
+            "https://youtube.com/shorts/xXsSXBiRqiU?si=ye9QbGG5dy1c8Uop",
+            "https://maps.app.goo.gl/BdjBNvzxvy7RxKDh9"
+        ],
+        "report_time": 1743676583,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "eSKPZnycBLeVS1mCxGnewA",
+        "lat": 30.31768,
+        "lng": -92.04948,
+        "country": "US",
+        "region": "Louisiana"
     }
 ]
