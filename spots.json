@@ -35937,5 +35937,101 @@
         "lng": -92.04948,
         "country": "US",
         "region": "Louisiana"
+    },
+    {
+        "spot_date": "2025/04/03",
+        "id": "1357446196012122183",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10233566592359128&set=a.10202534107806409",
+            "https://maps.app.goo.gl/EwUKk63qDssTWD6c8"
+        ],
+        "report_time": 1743710793,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "FlZQSb7GBS1U2Jhm17niRA",
+        "lat": 37.54885,
+        "lng": -88.97035,
+        "country": "US",
+        "region": "Illinois"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1357481161252933682",
+        "links": [
+            "https://www.tiktok.com/@rickyquintanaa/video/7483954055858015534",
+            "https://maps.app.goo.gl/NxQsjW1h4Mq5SQFC9"
+        ],
+        "report_time": 1743719129,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "w4S1YRcMm2ZvvQ6EuO6dEw",
+        "lat": 18.59619,
+        "lng": -99.25781,
+        "country": "MX",
+        "region": "Morelos"
+    },
+    {
+        "spot_date": "2024/04/03",
+        "id": "1357478115596570896",
+        "links": [
+            "https://maps.app.goo.gl/n4Z3qALqpPP6FeXq9",
+            "https://maps.app.goo.gl/n4Z3qALqpPP6FeXq9"
+        ],
+        "report_time": 1743718403,
+        "author": "DCLN",
+        "spot_type": "Gen4",
+        "panoId": "chBYMs2itB-CAxfWZo2r9Q",
+        "lat": 35.32904,
+        "lng": 25.1066,
+        "country": "GR",
+        "region": "Decentralized Administration of Crete"
+    },
+    {
+        "spot_date": "2025/04/03",
+        "id": "1357492085636468937",
+        "links": [
+            "https://www.tiktok.com/@janevidaemfamilia/video/7489003712560516358",
+            "https://maps.app.goo.gl/DTQDgEZ6ZmVE7DRg8"
+        ],
+        "report_time": 1743721734,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "LclPCVAbta0BnB9wgd006A",
+        "lat": 39.80219,
+        "lng": -8.09846,
+        "country": "PT",
+        "region": "Castelo Branco District"
+    },
+    {
+        "spot_date": "2025/04/02",
+        "id": "1357500226394521861",
+        "links": [
+            "https://www.tiktok.com/@lngrid.lamz/video/7488890449667820805",
+            "https://maps.app.goo.gl/s1a5v1RghbQWYysr5"
+        ],
+        "report_time": 1743723675,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "W4CAuH2T9jrgatGce-zKFw",
+        "lat": 18.02011,
+        "lng": -94.38839,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/04/01",
+        "id": "1357522833491759285",
+        "links": [
+            "https://www.tiktok.com/@melmeni/video/7488417293043567927",
+            "https://maps.app.goo.gl/UNFeQtnR3Bb2U6NS8"
+        ],
+        "report_time": 1743729065,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "-jj7_jOP6yRgEd2pCuB5XA",
+        "lat": 19.2914,
+        "lng": -98.56259,
+        "country": "MX",
+        "region": "Puebla"
     }
 ]
