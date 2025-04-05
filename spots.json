@@ -36033,5 +36033,21 @@
         "lng": -98.56259,
         "country": "MX",
         "region": "Puebla"
+    },
+    {
+        "spot_date": "2025/04/04",
+        "id": "1357846599975436431",
+        "links": [
+            "https://www.youtube.com/shorts/68zf4zBq4oI",
+            "https://maps.app.goo.gl/Hhz5C4hEN831diDC8"
+        ],
+        "report_time": 1743806257,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "BRZjIHsVVY3mvga3SK3bcw",
+        "lat": -8.70852,
+        "lng": -35.52148,
+        "country": "BR",
+        "region": "State of Pernambuco"
     }
 ]
