@@ -6735,10 +6735,8 @@ copy_button.addEventListener('click', function () {
     panoId: item.panoId,
     extra: {
       tags: [
-        item.author || null,
         item.country || null,
         item.date || null,
-        item.region || null,
         ...(item.types || [])
       ].filter(Boolean)
     }

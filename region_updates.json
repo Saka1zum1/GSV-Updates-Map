@@ -16121,6 +16121,21 @@
                 "country": "IE",
                 "altitude": 95.97,
                 "region": "County Tipperary"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newsmallcam"
+                ],
+                "report_time": 1743944657,
+                "author": "ReAnna",
+                "id": "1358427092424986815",
+                "panoId": "PW5rFj8OMVrq_lTj7P4Jcw",
+                "lat": 52.84659,
+                "lng": -8.03299,
+                "date": "Oct 2024",
+                "country": "IE",
+                "region": "County Tipperary"
             }
         },
         "County Offaly": {
@@ -28688,6 +28703,21 @@
                 "date": "Mar 2025",
                 "country": "FR",
                 "region": "Normandy"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1743946127,
+                "author": "DarkShadow MH,ER,MC",
+                "id": "1358433260559925250",
+                "panoId": "d2wKOB24Uv-1nSvs22HcvQ",
+                "lat": 49.43706,
+                "lng": 1.06848,
+                "date": "Nov 2024",
+                "country": "FR",
+                "region": "Normandy"
             }
         },
         "Pays de la Loire": {
@@ -33333,6 +33363,20 @@
                 "lat": 37.79564,
                 "lng": 38.30331,
                 "date": "Oct 2024",
+                "country": "TR",
+                "region": "Ad\u0131yaman"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743944763,
+                "author": "ReAnna",
+                "id": "1358427539399250020",
+                "panoId": "j4RTbBzGqKpf55g9GRuXMg",
+                "lat": 37.77443,
+                "lng": 38.25305,
+                "date": "Nov 2024",
                 "country": "TR",
                 "region": "Ad\u0131yaman"
             }
@@ -55445,6 +55489,21 @@
                 "lat": 63.03806,
                 "lng": 24.27906,
                 "date": "Sep 2023",
+                "country": "FI",
+                "region": "Central Finland"
+            },
+            "Aug": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743939064,
+                "author": "DeSlagen",
+                "id": "1358403634508857515",
+                "panoId": "G_FsGS8al_8o3f2oL4yXxQ",
+                "lat": 62.14527,
+                "lng": 25.8986,
+                "date": "Aug 2024",
                 "country": "FI",
                 "region": "Central Finland"
             }
