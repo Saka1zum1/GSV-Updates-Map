@@ -36113,5 +36113,21 @@
         "lng": -102.87957,
         "country": "MX",
         "region": "Zacatecas"
+    },
+    {
+        "spot_date": "2025/04/03",
+        "id": "1358372135562903573",
+        "links": [
+            "https://platesmania.com/nl/nomer27719302",
+            "https://maps.app.goo.gl/1nuVgt1hhSJBUnQa9"
+        ],
+        "report_time": 1743931554,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "6lSfcZidYIW0yFA3mKE-lg",
+        "lat": 50.09259,
+        "lng": 14.43967,
+        "country": "CZ",
+        "region": "Prague"
     }
 ]

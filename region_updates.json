@@ -14838,6 +14838,22 @@
                 "country": "IT",
                 "altitude": 15.3,
                 "region": "Liguria"
+            },
+            "Nov": {
+                "types": [
+                    "newsmallcam",
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743931625,
+                "author": "Steve",
+                "id": "1358372435312906352",
+                "panoId": "p6htFJOUIRfGPeNZX4f6zQ",
+                "lat": 44.27836,
+                "lng": 9.77744,
+                "date": "Nov 2024",
+                "country": "IT",
+                "region": "Liguria"
             }
         },
         "Piedmont": {
