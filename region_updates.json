@@ -28538,6 +28538,35 @@
                 "country": "FR",
                 "altitude": 90.04,
                 "region": "Bourgogne-Franche-Comt\u00e9"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743877065,
+                "author": "Steve",
+                "id": "1358143591930921305",
+                "panoId": "WgajmUE0nBlDAqx0AocKQg",
+                "lat": 46.75768,
+                "lng": 5.90615,
+                "date": "Oct 2024",
+                "country": "FR",
+                "region": "Bourgogne-Franche-Comt\u00e9"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743890126,
+                "author": "DeSlagen",
+                "id": "1358198373882269778",
+                "panoId": "g-43fBH8dugvYm0fISH-yQ",
+                "lat": 47.39227,
+                "lng": 6.77641,
+                "date": "Mar 2025",
+                "country": "FR",
+                "region": "Bourgogne-Franche-Comt\u00e9"
             }
         },
         "Normandy": {

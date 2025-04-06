@@ -36049,5 +36049,69 @@
         "lng": -35.52148,
         "country": "BR",
         "region": "State of Pernambuco"
+    },
+    {
+        "spot_date": "2025/03/31",
+        "id": "1358123190865498272",
+        "links": [
+            "https://www.instagram.com/p/DH4GNrmpKOT/?img_index=6",
+            "https://maps.app.goo.gl/SPQTNLTXtRUYLmq56"
+        ],
+        "report_time": 1743872201,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "8GHijt9QyRJtee_KnxjCLA",
+        "lat": -26.30033,
+        "lng": -48.85058,
+        "country": "BR",
+        "region": "State of Santa Catarina"
+    },
+    {
+        "spot_date": "2025/04/03",
+        "id": "1358120698685558925",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1197571282072806",
+            "https://maps.app.goo.gl/1ZmA4LB1VDemzMJQ6"
+        ],
+        "report_time": 1743871607,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "jVX3VojK6nqPpjOpos0blQ",
+        "lat": 20.44905,
+        "lng": -97.32213,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/04/05",
+        "id": "1358141715881394446",
+        "links": [
+            "https://www.youtube.com/watch?v=0VF7KY39lrc",
+            "https://maps.app.goo.gl/Dsxr1Q83dbzeZXuc6"
+        ],
+        "report_time": 1743876618,
+        "author": "anghelsal",
+        "spot_type": "Gen4",
+        "panoId": "C3WjfwV61NE1rghBuyYRSQ",
+        "lat": 51.36331,
+        "lng": -0.69159,
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "spot_date": "2025/04/04",
+        "id": "1358192046254456963",
+        "links": [
+            "https://www.tiktok.com/@jcruzgmendiola/video/7489530994060561719",
+            "https://maps.app.goo.gl/uicps32xtp5NBjpm7"
+        ],
+        "report_time": 1743888617,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "izoy1JcHswGiEGarQrVEOQ",
+        "lat": 23.17663,
+        "lng": -102.87957,
+        "country": "MX",
+        "region": "Zacatecas"
     }
 ]
