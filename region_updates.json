@@ -29597,6 +29597,20 @@
                 "date": "Feb 2025",
                 "country": "FR",
                 "region": "Hauts-de-France"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743946127,
+                "author": "DarkShadow MH,ER,MC",
+                "id": "1358433260559925250",
+                "panoId": "3Wkd8Ie11WCOivX6BQWFsA",
+                "lat": 50.0903,
+                "lng": 1.42539,
+                "date": "Aug 2024",
+                "country": "FR",
+                "region": "Hauts-de-France"
             }
         },
         "Corse": {},
