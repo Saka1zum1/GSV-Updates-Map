@@ -14403,6 +14403,20 @@
                 "country": "IT",
                 "altitude": 97.8,
                 "region": "Lombardy"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743966646,
+                "author": "DeSlagen",
+                "id": "1358519322401837116",
+                "panoId": "R0F3NF4S8BVx4QFjtk0fWw",
+                "lat": 46.00182,
+                "lng": 9.06919,
+                "date": "Dec 2024",
+                "country": "IT",
+                "region": "Lombardy"
             }
         },
         "Sicily": {
@@ -15287,6 +15301,20 @@
                 "date": "Sep 2024",
                 "country": "IT",
                 "region": "Friuli-Venezia Giulia"
+            },
+            "Jul": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743952937,
+                "author": "DeSlagen",
+                "id": "1358461824030474441",
+                "panoId": "TzI__TZV9x7zL_tEiZxQZw",
+                "lat": 46.17024,
+                "lng": 13.49187,
+                "date": "Jul 2024",
+                "country": "IT",
+                "region": "Friuli-Venezia Giulia"
             }
         },
         "Davagna": {},
@@ -15901,6 +15929,21 @@
                 "country": "IE",
                 "altitude": 92.16,
                 "region": "County Westmeath"
+            },
+            "Sep": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743975104,
+                "author": "DeSlagen",
+                "id": "1358554796050874488",
+                "panoId": "icGUAqmdkD4auZCCdd8nYw",
+                "lat": 53.42181,
+                "lng": -7.9735,
+                "date": "Sep 2024",
+                "country": "IE",
+                "region": "County Westmeath"
             }
         },
         "County Cavan": {
@@ -15932,6 +15975,21 @@
                 "date": "Sep 2024",
                 "country": "IE",
                 "altitude": 66.44,
+                "region": "County Cavan"
+            },
+            "Aug": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743978017,
+                "author": "DeSlagen",
+                "id": "1358567015756861550",
+                "panoId": "5LDAUb9Z0gGrCfgnO1bbrw",
+                "lat": 54.12101,
+                "lng": -7.74348,
+                "date": "Aug 2024",
+                "country": "IE",
                 "region": "County Cavan"
             }
         },
@@ -16090,6 +16148,21 @@
                 "country": "IE",
                 "altitude": 125.49,
                 "region": "County Limerick"
+            },
+            "Oct": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743978017,
+                "author": "DeSlagen",
+                "id": "1358567015756861550",
+                "panoId": "UvUzn_XemU751zUEJJdYZw",
+                "lat": 52.6418,
+                "lng": -8.62772,
+                "date": "Oct 2024",
+                "country": "IE",
+                "region": "County Limerick"
             }
         },
         "County Tipperary": {
@@ -16170,6 +16243,21 @@
                 "country": "IE",
                 "altitude": 82.19,
                 "region": "County Offaly"
+            },
+            "Sep": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743955477,
+                "author": "DeSlagen",
+                "id": "1358472476472119367",
+                "panoId": "SRyjkeVIlIaCOSsHKxKXJA",
+                "lat": 52.88189,
+                "lng": -7.95869,
+                "date": "Sep 2024",
+                "country": "IE",
+                "region": "County Offaly"
             }
         },
         "Contae Shligigh": {
@@ -16225,6 +16313,52 @@
                 "date": "Sep 2024",
                 "country": "IE",
                 "region": "County Galway"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743978017,
+                "author": "DeSlagen",
+                "id": "1358567015756861550",
+                "panoId": "Z8rUM8vrQ-6FDT_AhzES5w",
+                "lat": 53.17299,
+                "lng": -8.84196,
+                "date": "Aug 2024",
+                "country": "IE",
+                "region": "County Galway"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743978017,
+                "author": "DeSlagen",
+                "id": "1358567015756861550",
+                "panoId": "8YwQmgRS1oI1zMW0xWorpQ",
+                "lat": 53.20667,
+                "lng": -8.82778,
+                "date": "Oct 2024",
+                "country": "IE",
+                "region": "County Galway"
+            }
+        },
+        "County Laois": {
+            "Aug": {
+                "types": [
+                    "newsmallcam",
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1743975104,
+                "author": "DeSlagen",
+                "id": "1358554796050874488",
+                "panoId": "J8rqJGK9jygSWhdw76xryg",
+                "lat": 53.08213,
+                "lng": -7.18935,
+                "date": "Aug 2024",
+                "country": "IE",
+                "region": "County Laois"
             }
         }
     },
@@ -28389,6 +28523,20 @@
                 "date": "Jul 2024",
                 "country": "FR",
                 "region": "Provence-Alpes-C\u00f4te d'Azur"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743952393,
+                "author": "DeSlagen",
+                "id": "1358459541854879874",
+                "panoId": "px3n0Zami73d_r0Cvo0vFQ",
+                "lat": 43.95616,
+                "lng": 6.89792,
+                "date": "Nov 2024",
+                "country": "FR",
+                "region": "Provence-Alpes-C\u00f4te d'Azur"
             }
         },
         "Auvergne-Rh\u00f4ne-Alpes": {
@@ -28493,6 +28641,20 @@
                 "lat": 45.82511,
                 "lng": 2.97998,
                 "date": "Feb 2025",
+                "country": "FR",
+                "region": "Auvergne-Rh\u00f4ne-Alpes"
+            },
+            "Dec": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743966646,
+                "author": "DeSlagen",
+                "id": "1358519322401837116",
+                "panoId": "ue262WiSfVLiuP5-ykeoog",
+                "lat": 45.04671,
+                "lng": 4.83603,
+                "date": "Dec 2024",
                 "country": "FR",
                 "region": "Auvergne-Rh\u00f4ne-Alpes"
             }
@@ -31112,6 +31274,21 @@
                 "country": "TR",
                 "altitude": 1336.12,
                 "region": "Kahramanmara\u015f"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "newsmallcam"
+                ],
+                "report_time": 1743954628,
+                "author": "ReAnna",
+                "id": "1358468916703133717",
+                "panoId": "xg7JduHShznh0v-uwf3plQ",
+                "lat": 37.30109,
+                "lng": 37.15283,
+                "date": "Nov 2024",
+                "country": "TR",
+                "region": "Kahramanmara\u015f"
             }
         },
         "Hatay": {},
@@ -31425,6 +31602,21 @@
                 "date": "Sep 2024",
                 "country": "TR",
                 "altitude": 261.91,
+                "region": "Osmaniye"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newsmallcam"
+                ],
+                "report_time": 1743966590,
+                "author": "Unhook",
+                "id": "1358519088107884646",
+                "panoId": "Rz26KxLw7ToQu_knfJMuBg",
+                "lat": 37.07056,
+                "lng": 36.28842,
+                "date": "Oct 2024",
+                "country": "TR",
                 "region": "Osmaniye"
             }
         },
@@ -31843,6 +32035,21 @@
                 "date": "Jan 2024",
                 "country": "TR",
                 "altitude": 917.22,
+                "region": "Malatya"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newsmallcam"
+                ],
+                "report_time": 1743967493,
+                "author": "vegetal",
+                "id": "1358522876826882310",
+                "panoId": "GCebXQ9S759cYBh9n0tNAg",
+                "lat": 38.33206,
+                "lng": 38.47206,
+                "date": "Oct 2024",
+                "country": "TR",
                 "region": "Malatya"
             }
         },
@@ -33393,6 +33600,23 @@
                 "date": "Nov 2024",
                 "country": "TR",
                 "region": "Ad\u0131yaman"
+            }
+        },
+        "Kilis": {
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1743961576,
+                "author": "JHK",
+                "id": "1358498056038781233",
+                "panoId": "Z45WpfoCT492SA6d-uTbhw",
+                "lat": 36.66986,
+                "lng": 37.45855,
+                "date": "Oct 2024",
+                "country": "TR",
+                "region": "Kilis"
             }
         }
     },
@@ -37571,6 +37795,21 @@
                 "country": "PT",
                 "altitude": 877.84,
                 "region": "Vila Real District"
+            },
+            "Oct": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743953074,
+                "author": "DeSlagen",
+                "id": "1358462396909490218",
+                "panoId": "aUXg4P1yuUoH_Q9jMD_JJw",
+                "lat": 41.69623,
+                "lng": -7.37954,
+                "date": "Oct 2024",
+                "country": "PT",
+                "region": "Vila Real District"
             }
         },
         "Braga": {
@@ -37861,6 +38100,21 @@
                 "country": "PT",
                 "altitude": 46.83,
                 "region": "Leiria District"
+            },
+            "Nov": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743970491,
+                "author": "DeSlagen",
+                "id": "1358535448456200263",
+                "panoId": "lx8kX7Rvw7LgQXzBeRLQ4Q",
+                "lat": 39.52591,
+                "lng": -9.02114,
+                "date": "Nov 2024",
+                "country": "PT",
+                "region": "Leiria District"
             }
         },
         "Lisboa": {},
@@ -37908,6 +38162,35 @@
                 "date": "May 2024",
                 "country": "PT",
                 "altitude": 29.9,
+                "region": "Coimbra District"
+            },
+            "Nov": {
+                "types": [
+                    "newsmallcam",
+                    "newregion"
+                ],
+                "report_time": 1743974882,
+                "author": "Steve",
+                "id": "1358553864902541334",
+                "panoId": "yuZ3XoOskdXoy_xZp6Ty0w",
+                "lat": 40.35304,
+                "lng": -8.49453,
+                "date": "Nov 2024",
+                "country": "PT",
+                "region": "Coimbra District"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743976366,
+                "author": "DeSlagen",
+                "id": "1358560091673989213",
+                "panoId": "qkSl929iZ8QF18stHCVn_g",
+                "lat": 40.16459,
+                "lng": -8.49337,
+                "date": "Oct 2024",
+                "country": "PT",
                 "region": "Coimbra District"
             }
         },
@@ -38075,7 +38358,25 @@
                 "region": "Faro District"
             }
         },
-        "La Codosera": {}
+        "La Codosera": {},
+        "Aveiro District": {
+            "Nov": {
+                "types": [
+                    "newsmallcam",
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1743976366,
+                "author": "DeSlagen",
+                "id": "1358560091673989213",
+                "panoId": "VGd9qAgNOCy9-ZR1rg9rJg",
+                "lat": 40.68405,
+                "lng": -8.51863,
+                "date": "Nov 2024",
+                "country": "PT",
+                "region": "Aveiro District"
+            }
+        }
     },
     "CN": {
         "New Taipei City": {
@@ -39828,6 +40129,20 @@
                 "lat": 51.20007,
                 "lng": 6.02915,
                 "date": "Mar 2025",
+                "country": "NL",
+                "region": "Limburg"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743960694,
+                "author": "DeSlagen",
+                "id": "1358494357841252499",
+                "panoId": "IheP93JMmGexL_gONIoCSw",
+                "lat": 51.16645,
+                "lng": 5.83305,
+                "date": "Nov 2024",
                 "country": "NL",
                 "region": "Limburg"
             }
@@ -55705,6 +56020,20 @@
                 "date": "Oct 2024",
                 "country": "FI",
                 "region": "North Karelia"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1743970491,
+                "author": "DeSlagen",
+                "id": "1358535448456200263",
+                "panoId": "OQvicOx2k6rJoO97CxXjWA",
+                "lat": 63.11929,
+                "lng": 29.79903,
+                "date": "Aug 2024",
+                "country": "FI",
+                "region": "North Karelia"
             }
         }
     },
@@ -57635,6 +57964,22 @@
                 "date": "Apr 2024",
                 "country": "IN",
                 "altitude": 364.27,
+                "region": "Chhattisgarh"
+            },
+            "Jan": {
+                "types": [
+                    "newsmallcam",
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1743954035,
+                "author": "Alex*",
+                "id": "1358466425899188314",
+                "panoId": "g3MqNKmpVUqK7XSNAMEe2A",
+                "lat": 22.56398,
+                "lng": 83.95722,
+                "date": "Jan 2025",
+                "country": "IN",
                 "region": "Chhattisgarh"
             }
         },

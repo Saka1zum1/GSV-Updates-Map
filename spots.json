@@ -36129,5 +36129,21 @@
         "lng": 14.43967,
         "country": "CZ",
         "region": "Prague"
+    },
+    {
+        "spot_date": "2025/04/02",
+        "id": "1358479883034038444",
+        "links": [
+            "https://www.youtube.com/watch?v=5Sp_vL8RFlc",
+            "https://maps.app.goo.gl/bTTuv2NkkSCJfxka8"
+        ],
+        "report_time": 1743957243,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "TlgIK6tZLYZ2P_8dD9ruIw",
+        "lat": 35.60667,
+        "lng": -84.89225,
+        "country": "US",
+        "region": "Tennessee"
     }
 ]
