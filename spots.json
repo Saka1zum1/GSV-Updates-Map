@@ -36177,5 +36177,21 @@
         "lng": 10.41001,
         "country": "DK",
         "region": "Region of Southern Denmark"
+    },
+    {
+        "spot_date": "2025/04/07",
+        "id": "1358815575106781245",
+        "links": [
+            "https://www.youtube.com/shorts/3YDL_Owf4mw",
+            "https://maps.app.goo.gl/uF8GxujdbLxmo63e7"
+        ],
+        "report_time": 1744037278,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "ODo_4Tugt7cVj9SraY-FoA",
+        "lat": 23.68364,
+        "lng": 89.69902,
+        "country": "BD",
+        "region": "Dhaka Division"
     }
 ]
