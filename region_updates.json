@@ -15911,6 +15911,21 @@
                 "country": "IE",
                 "altitude": 58.81,
                 "region": "County Roscommon"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1744030947,
+                "author": "DeSlagen",
+                "id": "1358789020028768337",
+                "panoId": "V_lBaB4PNtFUlcqXZAWQOw",
+                "lat": 53.34591,
+                "lng": -8.0801,
+                "date": "Sep 2024",
+                "country": "IE",
+                "region": "County Roscommon"
             }
         },
         "County Westmeath": {
@@ -39789,6 +39804,21 @@
                 "country": "NL",
                 "altitude": 4.16,
                 "region": "Groningen"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1744030947,
+                "author": "DeSlagen",
+                "id": "1358789020028768337",
+                "panoId": "km8u2iE9dJNzaMaH6nk4EA",
+                "lat": 53.22166,
+                "lng": 6.55267,
+                "date": "Oct 2024",
+                "country": "NL",
+                "region": "Groningen"
             }
         },
         "Friesland": {
@@ -39833,6 +39863,21 @@
                 "date": "Jul 2024",
                 "country": "NL",
                 "altitude": 3.11,
+                "region": "Friesland"
+            },
+            "Aug": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1744030947,
+                "author": "DeSlagen",
+                "id": "1358789020028768337",
+                "panoId": "tsQqj4XcWDb2OqmIMQqlcw",
+                "lat": 53.15537,
+                "lng": 6.09241,
+                "date": "Aug 2024",
+                "country": "NL",
                 "region": "Friesland"
             }
         },

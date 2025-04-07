@@ -36145,5 +36145,37 @@
         "lng": -84.89225,
         "country": "US",
         "region": "Tennessee"
+    },
+    {
+        "spot_date": "2025/04/06",
+        "id": "1358750110007427084",
+        "links": [
+            "https://www.tiktok.com/@themaitebates/video/7489974819472035102?is_from_webapp=1&sender_device=pc&web_id=7274582088686306817",
+            "https://maps.app.goo.gl/u8ZjZnCgEVD3xXSd9"
+        ],
+        "report_time": 1744021670,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "dWlSxIoS7iNOCCcJ62SBOg",
+        "lat": 33.85889,
+        "lng": -84.68659,
+        "country": "US",
+        "region": "Georgia"
+    },
+    {
+        "spot_date": "2025/04/07",
+        "id": "1358797416916193562",
+        "links": [
+            "https://www.youtube.com/@bruhliver",
+            "https://maps.app.goo.gl/KEapq1LgyS7Lc4KF8"
+        ],
+        "report_time": 1744032949,
+        "author": "JustEmilo",
+        "spot_type": "Gen4",
+        "panoId": "46BcBWNmM9FffU9QWDGBzQ",
+        "lat": 55.40508,
+        "lng": 10.41001,
+        "country": "DK",
+        "region": "Region of Southern Denmark"
     }
 ]
