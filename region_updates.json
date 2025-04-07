@@ -14943,6 +14943,21 @@
                 "country": "IT",
                 "altitude": 291.96,
                 "region": "Piedmont"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1743968432,
+                "author": "DeSlagen",
+                "id": "1358526815118819572",
+                "panoId": "KxVKY_UXZsmAWD9CRs-HIw",
+                "lat": 45.70716,
+                "lng": 8.60321,
+                "date": "Dec 2024",
+                "country": "IT",
+                "region": "Piedmont"
             }
         },
         "Emilia-Romagna": {
@@ -15313,6 +15328,20 @@
                 "lat": 46.17024,
                 "lng": 13.49187,
                 "date": "Jul 2024",
+                "country": "IT",
+                "region": "Friuli-Venezia Giulia"
+            },
+            "Oct": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744019404,
+                "author": "DeSlagen",
+                "id": "1358740604506472650",
+                "panoId": "JALqoxUlKoZHn6JO-b0mVA",
+                "lat": 46.49849,
+                "lng": 13.40746,
+                "date": "Oct 2024",
                 "country": "IT",
                 "region": "Friuli-Venezia Giulia"
             }
@@ -33617,6 +33646,21 @@
                 "date": "Oct 2024",
                 "country": "TR",
                 "region": "Kilis"
+            },
+            "Nov": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1743968517,
+                "author": "Unhook",
+                "id": "1358527170536017991",
+                "panoId": "zI1RC-PG9CALJsjJZ7b13g",
+                "lat": 36.85928,
+                "lng": 36.96288,
+                "date": "Nov 2024",
+                "country": "TR",
+                "region": "Kilis"
             }
         }
     },
@@ -36424,17 +36468,16 @@
         "Decentralized Administration of Crete": {
             "Nov": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1714105452,
-                "author": "macca",
-                "panoId": "dh0eesEbQBCBnrsQQYAS1g",
-                "lat": 35.00339,
-                "lng": 25.73798,
-                "date": "Nov 2023",
+                "report_time": 1743503146,
+                "author": "DeSlagen",
+                "id": "1356575260383907991",
+                "panoId": "ghPpj7Nukthn0xf8Q0rcww",
+                "lat": 35.51211,
+                "lng": 23.92876,
+                "date": "Nov 2024",
                 "country": "GR",
-                "altitude": 3.25,
                 "region": "Decentralized Administration of Crete"
             },
             "Sep": {
@@ -36450,6 +36493,52 @@
                 "lat": 35.34552,
                 "lng": 24.42967,
                 "date": "Sep 2024",
+                "country": "GR",
+                "region": "Decentralized Administration of Crete"
+            },
+            "Aug": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743503146,
+                "author": "DeSlagen",
+                "id": "1356575260383907991",
+                "panoId": "AJp1Q1YYFTQ46vZ3V1QqSw",
+                "lat": 35.44932,
+                "lng": 24.19446,
+                "date": "Aug 2024",
+                "country": "GR",
+                "region": "Decentralized Administration of Crete"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1743503146,
+                "author": "DeSlagen",
+                "id": "1356575260383907991",
+                "panoId": "zc_TSP7H9XiwYVHczrnelg",
+                "lat": 35.40411,
+                "lng": 24.78338,
+                "date": "Oct 2024",
+                "country": "GR",
+                "region": "Decentralized Administration of Crete"
+            },
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newstreet"
+                ],
+                "report_time": 1743503146,
+                "author": "DeSlagen",
+                "id": "1356575260383907991",
+                "panoId": "T7t2EA2rPYrIzV-HyyM8Ug",
+                "lat": 35.33159,
+                "lng": 25.34437,
+                "date": "Feb 2025",
                 "country": "GR",
                 "region": "Decentralized Administration of Crete"
             }
