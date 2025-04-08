@@ -36241,5 +36241,21 @@
         "lng": -119.27182,
         "country": "US",
         "region": "California"
+    },
+    {
+        "spot_date": "2025/04/06",
+        "id": "1359112775112069248",
+        "links": [
+            "https://youtube.com/shorts/wv55EIsTXb4?si=8ww6YxyEuv5wwuoV",
+            "https://maps.app.goo.gl/inqYGjGvncntTuij9"
+        ],
+        "report_time": 1744108136,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "He-HtWSAb9SAlKXqizgeEg",
+        "lat": -0.95194,
+        "lng": 100.50401,
+        "country": "ID",
+        "region": "West Sumatra"
     }
 ]

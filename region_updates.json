@@ -13768,6 +13768,21 @@
                 "date": "Feb 2025",
                 "country": "PH",
                 "region": "Central Luzon"
+            },
+            "Jan": {
+                "types": [
+                    "newtrekker",
+                    "newregion"
+                ],
+                "report_time": 1744097282,
+                "author": "inferNOOBY",
+                "id": "1359067250690359346",
+                "panoId": "IN9iUihE66emBHTYnfw4tw",
+                "lat": 14.81349,
+                "lng": 121.07211,
+                "date": "Jan 2025",
+                "country": "PH",
+                "region": "Central Luzon"
             }
         },
         "Sorsogon City Coastal Road": {
