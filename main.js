@@ -6812,5 +6812,29 @@ filter_country.addEventListener('click', function () {
     terrainLabelsLayer.setUrl(LabelsUrl)
     satelliteLabelsLayer.setUrl(LabelsUrl)
   }
-
 })
+
+function jsonToCSV() {
+  const rows = filterdata.map(item => {
+      const lat = item.lat|| '';
+      const lng = item.lng|| '';
+      return [
+          lat,
+          lng
+      ];
+  })
+  const csvContent = [...rows].map(row => row.join(",")).join("\n");
+  return csvContent;
+}
+
+document.addEventListener("keydown", function(event) {
+  if (event.shiftKey && (event.key === "c"||event.key === "C")) {
+    const csvData = jsonToCSV();
+
+    navigator.clipboard.writeText(csvData).then(() => {
+      alert("CSV data copied to clipboard!");
+    }).catch(err => {
+      console.error("Failed to copy CSV data to clipboard: ", err);
+    });
+  }
+});

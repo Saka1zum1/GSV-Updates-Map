@@ -36257,5 +36257,37 @@
         "lng": 100.50401,
         "country": "ID",
         "region": "West Sumatra"
+    },
+    {
+        "spot_date": "2025/04/08",
+        "id": "1359151975492489359",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1085396933609094&set=a.314781394003989",
+            "https://maps.app.goo.gl/gwx3PRGLtujaTpkg7"
+        ],
+        "report_time": 1744117482,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "SdB1PARt-NXyGzpfqZx4wQ",
+        "lat": 53.11153,
+        "lng": -1.12027,
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "spot_date": "2025/04/07",
+        "id": "1359144120534433813",
+        "links": [
+            "https://www.facebook.com/JONEPECKARIN/videos/jone-street-view-siell%C3%A4-miss%C3%A4-tapahtuu-/1177386390147203/",
+            "https://maps.app.goo.gl/FDEf9sLcF1RjrMsq8"
+        ],
+        "report_time": 1744115610,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "bT3nnWkO8hgv621khovZnw",
+        "lat": 62.89617,
+        "lng": 27.68727,
+        "country": "FI",
+        "region": "North Savo"
     }
 ]
