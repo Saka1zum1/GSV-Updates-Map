@@ -36193,5 +36193,53 @@
         "lng": 89.69902,
         "country": "BD",
         "region": "Dhaka Division"
+    },
+    {
+        "spot_date": "2025/04/04",
+        "id": "1358877986824126555",
+        "links": [
+            "https://www.youtube.com/watch?v=nlJ94BAEA6Q",
+            "https://maps.app.goo.gl/168yHHPHUV6aVbgz9"
+        ],
+        "report_time": 1744052158,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "owuBmZNtCiTQJ1QcyBjbeg",
+        "lat": 34.3952,
+        "lng": 132.92933,
+        "country": "JP",
+        "region": "Hiroshima"
+    },
+    {
+        "spot_date": "2025/04/07",
+        "id": "1358876689903521865",
+        "links": [
+            "https://x.com/l8ohXbiL0m46766/status/1909005111114027441/photo/1",
+            "https://maps.app.goo.gl/WsthaxCW5tTZZv6JA"
+        ],
+        "report_time": 1744051849,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "F7vXWeKgrggUuGlvQ8TdRw",
+        "lat": 32.74258,
+        "lng": 129.87763,
+        "country": "JP",
+        "region": "Nagasaki"
+    },
+    {
+        "spot_date": "2025/04/05",
+        "id": "1358888797713989744",
+        "links": [
+            "https://www.tiktok.com/@presliedivaalert/video/7489925958200347947",
+            "https://maps.app.goo.gl/ZdU6LoT7tSbL7vcv8"
+        ],
+        "report_time": 1744054736,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "iicniZBupCA-EvkHyxKn6w",
+        "lat": 34.25877,
+        "lng": -119.27182,
+        "country": "US",
+        "region": "California"
     }
 ]

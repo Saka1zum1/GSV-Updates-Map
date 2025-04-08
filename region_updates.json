@@ -16404,6 +16404,25 @@
                 "country": "IE",
                 "region": "County Laois"
             }
+        },
+        "County Kilkenny": {
+            "Aug": {
+                "types": [
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1744062389,
+                "author": "DeSlagen",
+                "id": "1358920895573397654",
+                "panoId": "lCqUx6i0sLpk5cXZskIfdw",
+                "lat": 52.72209,
+                "lng": -7.59564,
+                "date": "Aug 2024",
+                "country": "IE",
+                "region": "County Kilkenny"
+            }
         }
     },
     "LV": {
