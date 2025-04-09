@@ -36289,5 +36289,69 @@
         "lng": 27.68727,
         "country": "FI",
         "region": "North Savo"
+    },
+    {
+        "spot_date": "2025/04/07",
+        "id": "1359207063120773121",
+        "links": [
+            "https://www.instagram.com/p/DIJ0YDgA5-H/",
+            "https://maps.app.goo.gl/8QgJt2jijhGpGQH37"
+        ],
+        "report_time": 1744130616,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "lWe4WFCtPR66tZgrdAlstw",
+        "lat": -19.22477,
+        "lng": -42.32402,
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/04/08",
+        "id": "1359202359066230977",
+        "links": [
+            "http://pico.way-nifty.com/diary/2025/04/post-d2cc6f.html",
+            "https://maps.app.goo.gl/KvnyfJAdCNCXWg6f7"
+        ],
+        "report_time": 1744129495,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "804oueOuYgrNDM6ad6bXYw",
+        "lat": 35.09819,
+        "lng": 136.92736,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/04/08",
+        "id": "1359208448620761212",
+        "links": [
+            "https://www.facebook.com/share/p/1AEyFjE7N8/",
+            "https://maps.app.goo.gl/DhtwAd8kCdT9oWLW8"
+        ],
+        "report_time": 1744130947,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "41lyEciaLDTzfjJEHrKYgA",
+        "lat": 15.75661,
+        "lng": 121.62059,
+        "country": "PH",
+        "region": "Central Luzon"
+    },
+    {
+        "spot_date": "2025/04/08",
+        "id": "1359214429832745020",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1332163634668533&set=pcb.1332163711335192",
+            "https://maps.app.goo.gl/f34P14C7YMrEN8Ff9"
+        ],
+        "report_time": 1744132373,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "sr-Ms_yx6QAEJ9AhKWK-Gw",
+        "lat": 22.79666,
+        "lng": 90.29254,
+        "country": "BD",
+        "region": "Barisal Division"
     }
 ]
