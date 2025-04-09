@@ -36353,5 +36353,37 @@
         "lng": 90.29254,
         "country": "BD",
         "region": "Barisal Division"
+    },
+    {
+        "spot_date": "2025/04/07",
+        "id": "1359352543783813330",
+        "links": [
+            "https://www.instagram.com/p/DIJYZsTs048",
+            "https://maps.app.goo.gl/2FqGZrVe78buUZhz5"
+        ],
+        "report_time": 1744165301,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "eDnLxZZu-FnKxQWryQxymw",
+        "lat": 45.08588,
+        "lng": 7.65492,
+        "country": "IT",
+        "region": "Piedmont"
+    },
+    {
+        "spot_date": "2025/04/08",
+        "id": "1359477479147966527",
+        "links": [
+            "https://youtube.com/shorts/M_beZshbNN0?si=UXhkQpjPARt8E66G",
+            "https://maps.app.goo.gl/NqupkXffv6CNiLfn9"
+        ],
+        "report_time": 1744195088,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "Sh198lmqpLCHYxuO7F71Sw",
+        "lat": 37.79955,
+        "lng": -122.43827,
+        "country": "US",
+        "region": "California"
     }
 ]

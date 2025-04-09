@@ -15620,6 +15620,20 @@
                 "date": "Nov 2024",
                 "country": "GB",
                 "region": "Akrotiri and Dhekelia"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744202848,
+                "author": "DeSlagen",
+                "id": "1359510026607263896",
+                "panoId": "V1C6pjC2XqnvdjNQyTbExQ",
+                "lat": 34.69661,
+                "lng": 32.83512,
+                "date": "Sep 2024",
+                "country": "GB",
+                "region": "Akrotiri and Dhekelia"
             }
         }
     },
@@ -45244,14 +45258,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1714396162,
-                "author": "Alex*",
-                "panoId": "VGbVP1h7805gjr6hgEMenA",
-                "lat": -30.68707,
-                "lng": 25.23787,
-                "date": "Feb 2024",
+                "report_time": 1744203337,
+                "author": "Tobetelogi",
+                "id": "1359512077492031658",
+                "panoId": "qNnXLNhtg1RxtLtZn02OAw",
+                "lat": -28.09864,
+                "lng": 24.86838,
+                "date": "Feb 2025",
                 "country": "ZA",
-                "altitude": 1337.98,
                 "region": "Northern Cape"
             },
             "Nov": {
