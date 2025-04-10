@@ -36385,5 +36385,21 @@
         "lng": -122.43827,
         "country": "US",
         "region": "California"
+    },
+    {
+        "spot_date": "2025/04/09",
+        "id": "1359638897679798362",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=3985477968394938&set=pcb.3985478131728255",
+            "https://maps.app.goo.gl/ZgBot11ctnsgDGRp8"
+        ],
+        "report_time": 1744233574,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "eHPkegjRR0yW7mjgXAH_6A",
+        "lat": 55.69441,
+        "lng": 13.1919,
+        "country": "SE",
+        "region": "Sk\u00e5ne County"
     }
 ]

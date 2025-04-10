@@ -15635,7 +15635,8 @@
                 "country": "GB",
                 "region": "Akrotiri and Dhekelia"
             }
-        }
+        },
+        "Erimi": {}
     },
     "IE": {
         "County Kildare": {
@@ -31398,7 +31399,22 @@
                 "region": "Kahramanmara\u015f"
             }
         },
-        "Hatay": {},
+        "Hatay": {
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744235205,
+                "author": "Update Tracker Bot",
+                "id": "1359645741387350026",
+                "panoId": "UUVHWtUY0XT80_ZNGJpXKQ",
+                "lat": 36.50561,
+                "lng": 36.41939,
+                "date": "Feb 2025",
+                "country": "TR",
+                "region": "Hatay"
+            }
+        },
         "Burdur": {
             "Aug": {
                 "types": [
