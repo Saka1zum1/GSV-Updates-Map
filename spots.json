@@ -36401,5 +36401,53 @@
         "lng": 13.1919,
         "country": "SE",
         "region": "Sk\u00e5ne County"
+    },
+    {
+        "spot_date": "2025/04/10",
+        "id": "1359812922653675590",
+        "links": [
+            "https://www.klikni.hr/aktualno/2025/04/10/pazi-snima-se-googleov-auto-stigao-i-u-nas-kraj-evo-do-kada-ostaje/",
+            "https://maps.app.goo.gl/oUsaTdDArQiDvHLx7"
+        ],
+        "report_time": 1744275064,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "qK1GPP7QjvSgAddYMVHp-Q",
+        "lat": 45.89605,
+        "lng": 16.83964,
+        "country": "HR",
+        "region": "Bjelovar-Bilogora County"
+    },
+    {
+        "spot_date": "2025/04/08",
+        "id": "1359840573166587935",
+        "links": [
+            "https://www.tiktok.com/@cla.nayla/video/7490776569976343813?is_from_webapp=1&sender_device=pc&web_id=7274582088686306817",
+            "https://maps.app.goo.gl/K8t5BQQJGd71dGXi9"
+        ],
+        "report_time": 1744281657,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "r2dfVlrbe6iulcq0hA37OQ",
+        "lat": -5.37628,
+        "lng": 105.2769,
+        "country": "ID",
+        "region": "Lampung"
+    },
+    {
+        "spot_date": "2025/04/10",
+        "id": "1359838988906664158",
+        "links": [
+            "https://www.facebook.com/100000449472053/videos/pcb.9906267256064825/1211232727024309",
+            "https://maps.app.goo.gl/qpAEGN5C6yTPiV7o9"
+        ],
+        "report_time": 1744281279,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "A5FTMvduUHffXuBie-SINA",
+        "lat": 3.19641,
+        "lng": 113.0534,
+        "country": "MY",
+        "region": "Sarawak"
     }
 ]

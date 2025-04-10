@@ -41564,6 +41564,20 @@
                 "date": "Feb 2025",
                 "country": "ID",
                 "region": "South Sulawesi"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744271511,
+                "author": "Steve",
+                "id": "1359798018093879438",
+                "panoId": "ZQTbQ_xdvrze9SGwpWkeyw",
+                "lat": -3.75081,
+                "lng": 119.65224,
+                "date": "Mar 2025",
+                "country": "ID",
+                "region": "South Sulawesi"
             }
         },
         "Central Kalimantan": {
