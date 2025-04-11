@@ -36449,5 +36449,69 @@
         "lng": 113.0534,
         "country": "MY",
         "region": "Sarawak"
+    },
+    {
+        "spot_date": "2025/03/13",
+        "id": "1360202197031321659",
+        "links": [
+            "https://www.tiktok.com/@khzinn2/video/7481081436653587720",
+            "https://maps.app.goo.gl/munJ57xQFrkH1wN39"
+        ],
+        "report_time": 1744367875,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "uxfo3O3ekrPOFpzMYIBC7g",
+        "lat": -6.82326,
+        "lng": 111.07592,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/04/09",
+        "id": "1360202106136694977",
+        "links": [
+            "https://www.instagram.com/reel/DINwV3RId-h/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/fRCr6NfaMRcMJtF58"
+        ],
+        "report_time": 1744367853,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "3BZA9rQ6YvK4t35gp0PjDg",
+        "lat": 10.30444,
+        "lng": 123.91211,
+        "country": "PH",
+        "region": "Central Visayas"
+    },
+    {
+        "spot_date": "2025/04/11",
+        "id": "1360197631241883700",
+        "links": [
+            "https://x.com/tenko_fish/status/1910520763763077383?t=DgbMvjQcC-ZRqD54Fjx0jQ&s=19",
+            "https://maps.app.goo.gl/7dpHv3sqLWdYdW2g8"
+        ],
+        "report_time": 1744366786,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "9-drEPU_Wl-yoJGQVFQSmw",
+        "lat": 34.11512,
+        "lng": 133.80023,
+        "country": "JP",
+        "region": "Kagawa"
+    },
+    {
+        "spot_date": "2025/04/10",
+        "id": "1359923221239169206",
+        "links": [
+            "https://www.estrepublicain.fr/economie/2025/04/10/la-voiture-google-au-village",
+            "https://maps.app.goo.gl/w2dNLcyjN2Pa8FVz6"
+        ],
+        "report_time": 1744301362,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "jArt_D8rGEcTqlMy0hy0-A",
+        "lat": 48.77792,
+        "lng": 5.86971,
+        "country": "FR",
+        "region": "Grand Est"
     }
 ]

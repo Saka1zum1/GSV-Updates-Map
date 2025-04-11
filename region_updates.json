@@ -13636,6 +13636,20 @@
                 "date": "Jan 2025",
                 "country": "PH",
                 "region": "MIMAROPA"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744372415,
+                "author": "Tobetelogi",
+                "id": "1360221240375115909",
+                "panoId": "SYcFlJalLs-9sNVoRcwKUQ",
+                "lat": 9.99958,
+                "lng": 119.00775,
+                "date": "Feb 2025",
+                "country": "PH",
+                "region": "MIMAROPA"
             }
         },
         "Western Visayas": {
@@ -19040,6 +19054,20 @@
                 "lat": 36.03532,
                 "lng": 138.06918,
                 "date": "Feb 2025",
+                "country": "JP",
+                "region": "Nagano"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744363748,
+                "author": "Steve",
+                "id": "1360184890288640191",
+                "panoId": "7kQGt2SU5WTpXhpwtqjKiw",
+                "lat": 35.95433,
+                "lng": 138.51055,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Nagano"
             }
@@ -41864,6 +41892,20 @@
                 "lat": -6.30548,
                 "lng": 106.85475,
                 "date": "Feb 2025",
+                "country": "ID",
+                "region": "Jakarta"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744271511,
+                "author": "Steve",
+                "id": "1359798018093879438",
+                "panoId": "ZiEnXw0fscVLlk4NU0b3Mw",
+                "lat": -6.15192,
+                "lng": 106.7075,
+                "date": "Mar 2025",
                 "country": "ID",
                 "region": "Jakarta"
             }
