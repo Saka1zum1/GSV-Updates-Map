@@ -38575,6 +38575,21 @@
                 "date": "Nov 2024",
                 "country": "PT",
                 "region": "Aveiro District"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1744327701,
+                "author": "DeSlagen",
+                "id": "1360033696111132855",
+                "panoId": "tByFPFvjmaGpq5Ur3QROPQ",
+                "lat": 40.65791,
+                "lng": -8.51614,
+                "date": "Oct 2024",
+                "country": "PT",
+                "region": "Aveiro District"
             }
         }
     },
@@ -40512,6 +40527,21 @@
                 "date": "Mar 2025",
                 "country": "NL",
                 "region": "Gelderland"
+            },
+            "Sep": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1744327718,
+                "author": "DeSlagen",
+                "id": "1360033769968631870",
+                "panoId": "VUwPkhhHTX4YNZg8J4vb_A",
+                "lat": 52.17412,
+                "lng": 5.44619,
+                "date": "Sep 2024",
+                "country": "NL",
+                "region": "Gelderland"
             }
         },
         "Overijssel": {
@@ -41684,6 +41714,20 @@
                 "lat": -2.13914,
                 "lng": 111.39922,
                 "date": "Feb 2025",
+                "country": "ID",
+                "region": "Central Kalimantan"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744271511,
+                "author": "Steve",
+                "id": "1359798018093879438",
+                "panoId": "e6vgSEUCf1fC_yZvbdV9Aw",
+                "lat": -1.161,
+                "lng": 113.89073,
+                "date": "Mar 2025",
                 "country": "ID",
                 "region": "Central Kalimantan"
             }
