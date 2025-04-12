@@ -18263,7 +18263,10 @@
                 "region": "City of Zagreb"
             }
         },
-        "Koprivnica-Kri\u017eevci County": {}
+        "Koprivnica-Kri\u017eevci County": {},
+        "Me\u0111imurje County": {},
+        "Banjol": {},
+        "Virovitica-Podravina County": {}
     },
     "DK": {
         "Capital Region of Denmark": {
@@ -42088,6 +42091,20 @@
                 "date": "Feb 2025",
                 "country": "ID",
                 "region": "Central Java"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744271511,
+                "author": "Steve",
+                "id": "1359798018093879438",
+                "panoId": "eJJ5UhVSIvVb7CeGnWDQHw",
+                "lat": -7.67483,
+                "lng": 109.69752,
+                "date": "Mar 2025",
+                "country": "ID",
+                "region": "Central Java"
             }
         },
         "East Nusa Tenggara": {
@@ -57226,7 +57243,23 @@
                 "region": "Lakshadweep"
             }
         },
-        "Andaman and Nicobar Islands": {},
+        "Andaman and Nicobar Islands": {
+            "Mar": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1743493526,
+                "author": "Steve",
+                "id": "1356534913364525117",
+                "panoId": "HuS5b0PcSJQ40HdkY0bt8g",
+                "lat": 12.53037,
+                "lng": 92.97347,
+                "date": "Mar 2025",
+                "country": "IN",
+                "region": "Andaman and Nicobar Islands"
+            }
+        },
         "Telangana": {
             "Sep": {
                 "types": [
@@ -57498,6 +57531,21 @@
                 "lat": 19.12194,
                 "lng": 72.99708,
                 "date": "Jan 2025",
+                "country": "IN",
+                "region": "Maharashtra"
+            },
+            "Mar": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1743493526,
+                "author": "Steve",
+                "id": "1356534913364525117",
+                "panoId": "BO7mCtrouCoBjU1pgxAPDA",
+                "lat": 19.16855,
+                "lng": 73.22729,
+                "date": "Mar 2025",
                 "country": "IN",
                 "region": "Maharashtra"
             }
@@ -58813,7 +58861,25 @@
                 "region": "Nagaland"
             }
         },
-        "Kavaratti": {}
+        "Kavaratti": {},
+        "unknown": {
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newisland"
+                ],
+                "report_time": 1743516618,
+                "author": "Alok",
+                "id": "1356631767083258017",
+                "panoId": "qSjYmrD2Tt3otVsYQ9qjmQ",
+                "lat": 10.05845,
+                "lng": 73.64181,
+                "date": "Feb 2025",
+                "country": "IN",
+                "region": "unknown"
+            }
+        }
     },
     "NG": {
         "Rivers": {},
@@ -59014,6 +59080,21 @@
                 "lat": 9.12959,
                 "lng": 7.228,
                 "date": "Feb 2025",
+                "country": "NG",
+                "region": "Niger"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newstreet"
+                ],
+                "report_time": 1743533005,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1356700499117867058",
+                "panoId": "oQygQzuZZvmk4GfaKRw2Cw",
+                "lat": 9.1754,
+                "lng": 7.1846,
+                "date": "Mar 2025",
                 "country": "NG",
                 "region": "Niger"
             }
