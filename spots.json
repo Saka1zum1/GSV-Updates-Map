@@ -36737,5 +36737,85 @@
         "lng": 11.97749,
         "country": "NO",
         "region": "Innlandet"
+    },
+    {
+        "spot_date": "2025/04/11",
+        "id": "1360566368801656945",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1260737858831700&set=a.817132303192260",
+            "https://maps.app.goo.gl/61ib3WyhLn5DpKMv5"
+        ],
+        "report_time": 1744454700,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "5y5jL-2IU1jiVpzQplVQCg",
+        "lat": 40.80617,
+        "lng": -96.65338,
+        "country": "US",
+        "region": "Nebraska"
+    },
+    {
+        "spot_date": "2025/04/12",
+        "id": "1360565812359991447",
+        "links": [
+            "https://youtube.com/shorts/VXaR_HpDJpM?si=kUFW9FNcv1Tml1uO",
+            "https://maps.app.goo.gl/7XhZ34cijt9fJ2md8"
+        ],
+        "report_time": 1744454567,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "vY0-A1jJay7wZOr4XZzOUg",
+        "lat": -8.30216,
+        "lng": 112.65839,
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "spot_date": "2025/04/08",
+        "id": "1360628603582157072",
+        "links": [
+            "https://www.tiktok.com/@phithak147/video/7490823114356493576",
+            "https://maps.app.goo.gl/xV9RzcDiocbmyyZt8"
+        ],
+        "report_time": 1744469538,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "IxWpYdRT3Megv15DnqgR-g",
+        "lat": 16.2285,
+        "lng": 105.0036,
+        "country": "TH",
+        "region": "Amnat Charoen"
+    },
+    {
+        "spot_date": "2025/04/09",
+        "id": "1360650597581193357",
+        "links": [
+            "https://www.tiktok.com/@dalianoriega58/video/7491395137713622327",
+            "https://maps.app.goo.gl/oeiMKbsFAiy2PBZP9"
+        ],
+        "report_time": 1744474782,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "taIoxR0_LQvyvmRVuf4ZeA",
+        "lat": 18.74422,
+        "lng": -99.25786,
+        "country": "MX",
+        "region": "Morelos"
+    },
+    {
+        "spot_date": "2025/04/08",
+        "id": "1360649325537001795",
+        "links": [
+            "https://www.tiktok.com/@victinhoms/video/7491019814039899447",
+            "https://maps.app.goo.gl/v2Qqn9MwbbY9zrZcA"
+        ],
+        "report_time": 1744474182,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": null,
+        "lat": -20.369270,
+        "lng":  -46.277516,
+        "country": "BR",
+        "region": "State of Minas Gerais"
     }
 ]
