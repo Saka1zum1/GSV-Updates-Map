@@ -36813,9 +36813,41 @@
         "author": "Henrique",
         "spot_type": "Gen4",
         "panoId": null,
-        "lat": -20.369270,
-        "lng":  -46.277516,
+        "lat": -20.36927,
+        "lng": -46.277516,
         "country": "BR",
         "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/04/10",
+        "id": "1360921310523424799",
+        "links": [
+            "https://youtube.com/shorts/cR-_PgHsATQ?si=60MHkBAA0Qco7lAi",
+            "https://maps.app.goo.gl/3Aje4u8ecSBRXSXf6"
+        ],
+        "report_time": 1744539325,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "rOA61hPXiC5Ha7_s1n29Yg",
+        "lat": -8.24158,
+        "lng": 112.60289,
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "spot_date": "2025/04/12",
+        "id": "1360921189320491099",
+        "links": [
+            "https://www.tiktok.com/@ajunn_011/video/7492273224005274935",
+            "https://maps.app.goo.gl/DdRjt7unnowadk9A9"
+        ],
+        "report_time": 1744539296,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "ZittYtWiex_rj6YVIw8gtQ",
+        "lat": -4.39789,
+        "lng": 122.0589,
+        "country": "ID",
+        "region": "South East Sulawesi"
     }
 ]
