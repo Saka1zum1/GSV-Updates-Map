@@ -36849,5 +36849,21 @@
         "lng": 122.0589,
         "country": "ID",
         "region": "South East Sulawesi"
+    },
+    {
+        "spot_date": "2025/04/11",
+        "id": "1361008624759079083",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9111419865630186",
+            "https://maps.app.goo.gl/UsNqbCP487Jo4jc66"
+        ],
+        "report_time": 1744560142,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "9pg-vNFqYOvFv304ISKrdg",
+        "lat": 51.67947,
+        "lng": -4.15673,
+        "country": "GB",
+        "region": "Wales"
     }
 ]

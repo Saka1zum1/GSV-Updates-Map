@@ -44954,6 +44954,21 @@
                 "date": "Nov 2024",
                 "country": "ZA",
                 "region": "Free State"
+            },
+            "Jan": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1744565135,
+                "author": "Jordeter",
+                "id": "1361029568022057030",
+                "panoId": "f1gIpItCV_icqE5j0oMSzA",
+                "lat": -28.65234,
+                "lng": 25.07108,
+                "date": "Jan 2025",
+                "country": "ZA",
+                "region": "Free State"
             }
         },
         "Western Cape": {
