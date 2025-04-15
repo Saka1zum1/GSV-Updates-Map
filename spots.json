@@ -36865,5 +36865,69 @@
         "lng": -4.15673,
         "country": "GB",
         "region": "Wales"
+    },
+    {
+        "spot_date": "2025/04/14",
+        "id": "1361408516593815726",
+        "links": [
+            "https://www.instagram.com/p/DIblPBsN3s3/",
+            "https://maps.app.goo.gl/1HUe1EfDpZLXVzSw7"
+        ],
+        "report_time": 1744655484,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "bn3YuUJWykonHRAv0vCTnA",
+        "lat": 45.73489,
+        "lng": 21.252,
+        "country": "RO",
+        "region": "Timi\u0219"
+    },
+    {
+        "spot_date": "2025/04/13",
+        "id": "1361349561901125933",
+        "links": [
+            "https://x.com/kosato_tsuri/status/1911405332225482820/photo/1",
+            "https://maps.app.goo.gl/MUmWmtarzv5eYAPK7"
+        ],
+        "report_time": 1744641428,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "vu_ShO9UxpyMtU7VFRLdUw",
+        "lat": 34.37568,
+        "lng": 132.45975,
+        "country": "JP",
+        "region": "Hiroshima"
+    },
+    {
+        "spot_date": "2025/04/14",
+        "id": "1361349169985491294",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10161429319196304&set=gm.1667136320580345&idorvanity=394939311133392",
+            "https://maps.app.goo.gl/1efrhU3NHAkGbsx5A"
+        ],
+        "report_time": 1744641334,
+        "author": "Rob",
+        "spot_type": "Gen4",
+        "panoId": "kEVFH_TMrXPb6k5x_GymaA",
+        "lat": 52.20282,
+        "lng": 5.95949,
+        "country": "NL",
+        "region": "Gelderland"
+    },
+    {
+        "spot_date": "2025/04/14",
+        "id": "1361278441781202986",
+        "links": [
+            "https://maps.app.goo.gl/epnXW7myykwXgGX38",
+            "https://maps.app.goo.gl/epnXW7myykwXgGX38"
+        ],
+        "report_time": 1744624471,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "O1m8SpsyzSXdmI7VZDv_GA",
+        "lat": 48.14308,
+        "lng": 17.11353,
+        "country": "SK",
+        "region": "Bratislava Region"
     }
 ]
