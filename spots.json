@@ -36929,5 +36929,101 @@
         "lng": 17.11353,
         "country": "SK",
         "region": "Bratislava Region"
+    },
+    {
+        "spot_date": "2025/04/14",
+        "id": "1361519872760348682",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1229610835757825&set=pcb.1229607932424782",
+            "https://maps.app.goo.gl/cJY3Pa7Cg7cnEYU57"
+        ],
+        "report_time": 1744682033,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "vWktSIW0I1lOYo-fmWvXYA",
+        "lat": 23.63127,
+        "lng": -103.63999,
+        "country": "MX",
+        "region": "Zacatecas"
+    },
+    {
+        "spot_date": "2025/04/13",
+        "id": "1361609453836697661",
+        "links": [
+            "https://maps.app.goo.gl/Egr6z3xBEmEdsBSC8",
+            "https://maps.app.goo.gl/Egr6z3xBEmEdsBSC8"
+        ],
+        "report_time": 1744703391,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "rG2d8hg6SoX-pjUGYggHOw",
+        "lat": 45.38403,
+        "lng": 15.61313,
+        "country": "HR",
+        "region": "Karlovac County"
+    },
+    {
+        "spot_date": "2025/04/14",
+        "id": "1361615241284292658",
+        "links": [
+            "https://twitter.com/wwgamba/status/1911584086558380265?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/drvbTfSmnMVd1Fpv9"
+        ],
+        "report_time": 1744704771,
+        "author": "utakata",
+        "spot_type": "Gen4",
+        "panoId": "xeo4JRsuLH_H4Xo0GAm7fw",
+        "lat": 34.80924,
+        "lng": 135.55286,
+        "country": "JP",
+        "region": "Osaka"
+    },
+    {
+        "spot_date": "2025/04/14",
+        "id": "1361613729761857546",
+        "links": [
+            "https://twitter.com/ryo6/status/1911698404566323244?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/e4zFCw2EpXync9Wk6"
+        ],
+        "report_time": 1744704410,
+        "author": "utakata",
+        "spot_type": "Gen4",
+        "panoId": "Jj73MKTSQNQShDisXbuGCQ",
+        "lat": 22.64139,
+        "lng": 120.34747,
+        "country": "CN",
+        "region": "Kaohsiung City"
+    },
+    {
+        "spot_date": "2025/04/14",
+        "id": "1361631639305719970",
+        "links": [
+            "https://www.facebook.com/photo?fbid=122172781394326239&set=a.122110879526326239",
+            "https://maps.app.goo.gl/Pc2g6sg1uxerxETj7"
+        ],
+        "report_time": 1744708680,
+        "author": "Rob",
+        "spot_type": "Gen4",
+        "panoId": "w5CzBRUCA6hJO0u3SShogg",
+        "lat": 18.14414,
+        "lng": -94.14161,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/04/15",
+        "id": "1361581557529448513",
+        "links": [
+            "https://www.youtube.com/shorts/Mkt5Ik5sQXE",
+            "https://maps.app.goo.gl/yQthnLCDbhSjAhkk7"
+        ],
+        "report_time": 1744696740,
+        "author": "anghelsal",
+        "spot_type": "Gen4",
+        "panoId": "AALVLd0YGYtVQ8wmS2F4wA",
+        "lat": 23.16891,
+        "lng": 89.21445,
+        "country": "BD",
+        "region": "Khulna Division"
     }
 ]

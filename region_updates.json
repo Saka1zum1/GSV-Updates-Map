@@ -9389,17 +9389,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1713451787,
-                "author": "Alex*",
-                "panoId": "60X3FNyuW_RPb8alSQFnCw",
-                "lat": 30.63822,
-                "lng": -85.93072,
-                "date": "Apr 2024",
+                "report_time": 1744698914,
+                "author": "DerZiggi",
+                "id": "1361590675170136179",
+                "panoId": "VGD3qdqg7IgeG36MoZ31lw",
+                "lat": 28.55833,
+                "lng": -81.85121,
+                "date": "Apr 2025",
                 "country": "US",
-                "altitude": 21.17,
                 "region": "Florida"
             },
             "Jan": {
@@ -11732,17 +11731,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1713121260,
-                "author": "Diamond Armor Steve",
-                "panoId": "kyP5saG9zCaFCAYATwjM8g",
-                "lat": 29.20296,
-                "lng": -98.68693,
-                "date": "Apr 2024",
+                "report_time": 1744698776,
+                "author": "DerZiggi",
+                "id": "1361590097136451754",
+                "panoId": "Avf_HNu-tPa-IRbp016YNw",
+                "lat": 32.9612,
+                "lng": -96.81511,
+                "date": "Apr 2025",
                 "country": "US",
-                "altitude": 201.82,
                 "region": "Texas"
             },
             "Jan": {
@@ -27331,6 +27329,20 @@
                 "country": "MY",
                 "altitude": 94.79,
                 "region": "Negeri Sembilan"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744700193,
+                "author": "Update Tracker Bot",
+                "id": "1361596041002225675",
+                "panoId": "c5mFkcqECkLj_wDBvuqc8Q",
+                "lat": 2.70371,
+                "lng": 101.87679,
+                "date": "Mar 2025",
+                "country": "MY",
+                "region": "Negeri Sembilan"
             }
         },
         "Selangor": {
@@ -31552,6 +31564,23 @@
                 "date": "Nov 2024",
                 "country": "TR",
                 "region": "Gaziantep"
+            },
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newtown",
+                    "SmallCam"
+                ],
+                "report_time": 1744708142,
+                "author": "DeSlagen",
+                "id": "1361629381293772901",
+                "panoId": "9qbFKnVCNKhSWRz77LmqEQ",
+                "lat": 37.39478,
+                "lng": 37.80653,
+                "date": "Feb 2025",
+                "country": "TR",
+                "region": "Gaziantep"
             }
         },
         "Bal\u0131kesir": {
@@ -33931,6 +33960,24 @@
                 "date": "Nov 2024",
                 "country": "TR",
                 "region": "Kilis"
+            }
+        },
+        "Karaman": {
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newroad",
+                    "SmallCam"
+                ],
+                "report_time": 1744688723,
+                "author": "DerZiggi",
+                "id": "1361547933421539459",
+                "panoId": "0hMwX6Qody1_YPUDaygH0A",
+                "lat": 36.57145,
+                "lng": 32.72056,
+                "date": "Feb 2025",
+                "country": "TR",
+                "region": "Karaman"
             }
         }
     },
@@ -36809,6 +36856,21 @@
                 "lat": 35.33159,
                 "lng": 25.34437,
                 "date": "Feb 2025",
+                "country": "GR",
+                "region": "Decentralized Administration of Crete"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1744698859,
+                "author": "DerZiggi",
+                "id": "1361590447675543673",
+                "panoId": "waO1DtlQo46VaeUkCiScew",
+                "lat": 35.33612,
+                "lng": 25.15038,
+                "date": "Mar 2025",
                 "country": "GR",
                 "region": "Decentralized Administration of Crete"
             }
@@ -46111,6 +46173,20 @@
                 "country": "SK",
                 "altitude": 135.46,
                 "region": "Bratislava Region"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744686434,
+                "author": "Update Tracker Bot",
+                "id": "1361538332756283413",
+                "panoId": "bFPBmsQxtzKebB8_blVovQ",
+                "lat": 48.14023,
+                "lng": 17.21202,
+                "date": "Mar 2025",
+                "country": "SK",
+                "region": "Bratislava Region"
             }
         },
         "Bansk\u00e1 Bystrica Region": {
@@ -49734,6 +49810,20 @@
                 "date": "Feb 2025",
                 "country": "TH",
                 "region": "Prachuap Khiri Khan"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744702520,
+                "author": "Steve",
+                "id": "1361605801831305329",
+                "panoId": "nQ5IH84BSv9Nw7eGeWQwZA",
+                "lat": 11.93981,
+                "lng": 99.75648,
+                "date": "Mar 2025",
+                "country": "TH",
+                "region": "Prachuap Khiri Khan"
             }
         },
         "Amnat Charoen": {
@@ -49844,7 +49934,8 @@
                 "country": "TH",
                 "region": "Lamphun"
             }
-        }
+        },
+        "Mukdahan": {}
     },
     "OM": {
         "Dhofar Governorate": {
