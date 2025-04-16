@@ -9021,17 +9021,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1713436127,
-                "author": "Alex*",
-                "panoId": "umI8qmFS9YYME4p9_T06fA",
-                "lat": 36.88452,
-                "lng": -82.806,
-                "date": "Apr 2024",
+                "report_time": 1744755448,
+                "author": "Steve",
+                "id": "1361827797852487821",
+                "panoId": "I9nKN8ruB7cK4ebmLqIXAg",
+                "lat": 37.46851,
+                "lng": -77.56642,
+                "date": "Apr 2025",
                 "country": "US",
-                "altitude": 524.07,
                 "region": "Virginia"
             },
             "Mar": {
@@ -21378,6 +21377,20 @@
                 "date": "Dec 2024",
                 "country": "JP",
                 "region": "Gifu"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744750492,
+                "author": "BurgerwithPeel",
+                "id": "1361807012090085496",
+                "panoId": "St1URVRbNw2nUnRqBvwS-g",
+                "lat": 35.54328,
+                "lng": 136.63603,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Gifu"
             }
         },
         "Aomori": {
@@ -22384,6 +22397,20 @@
                 "lat": 34.77408,
                 "lng": 137.92831,
                 "date": "Feb 2025",
+                "country": "JP",
+                "region": "Shizuoka"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744742039,
+                "author": "Update Tracker Bot",
+                "id": "1361771556790861976",
+                "panoId": "DplEqOgVzntyDgTQ214n7A",
+                "lat": 34.75225,
+                "lng": 137.91182,
+                "date": "Apr 2025",
                 "country": "JP",
                 "region": "Shizuoka"
             }
@@ -31291,6 +31318,21 @@
                 "lat": 38.18705,
                 "lng": -0.70849,
                 "date": "Feb 2025",
+                "country": "ES",
+                "region": "Valencian Community"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1744754091,
+                "author": "lancelot25_",
+                "id": "1361822105859002641",
+                "panoId": "J1dORtmxw7ZPhQ6A7wRaWg",
+                "lat": 38.09456,
+                "lng": -0.72835,
+                "date": "Mar 2025",
                 "country": "ES",
                 "region": "Valencian Community"
             }
