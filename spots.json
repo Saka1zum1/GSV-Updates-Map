@@ -37105,5 +37105,21 @@
         "lng": -99.23742,
         "country": "MX",
         "region": "Morelos"
+    },
+    {
+        "spot_date": "2025/03/31",
+        "id": "1361859605558329445",
+        "links": [
+            "https://www.instagram.com/p/DH32nAQO3Yn",
+            "https://maps.app.goo.gl/9xWgGYwLaPvZKPPCA"
+        ],
+        "report_time": 1744763032,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "z32Q58IJZR4SqXegzppHCA",
+        "lat": -45.57202,
+        "lng": -72.074,
+        "country": "CL",
+        "region": "Ays\u00e9n"
     }
 ]

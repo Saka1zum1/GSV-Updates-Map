@@ -14028,17 +14028,16 @@
             },
             "Mar": {
                 "types": [
-                    "newregion",
-                    "gen3update"
+                    "newregion"
                 ],
-                "report_time": 1712724131,
-                "author": "Aedan",
-                "panoId": "REomUKDODtY7okK36V8jPw",
-                "lat": 15.94199,
-                "lng": 120.50213,
-                "date": "Mar 2024",
+                "report_time": 1744784220,
+                "author": "Update Tracker Bot",
+                "id": "1361948475058683984",
+                "panoId": "tus0Fgor8y6OBZVBpc8WSA",
+                "lat": 17.60673,
+                "lng": 120.36534,
+                "date": "Mar 2025",
                 "country": "PH",
-                "altitude": 31.27,
                 "region": "Ilocos Region"
             },
             "Feb": {
