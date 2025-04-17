@@ -37296,5 +37296,21 @@
         "lng": -128.58489,
         "country": "CA",
         "region": "British Columbia"
+    },
+    {
+        "spot_date": "2025/04/16",
+        "id": "1362094497684783326",
+        "links": [
+            "https://x.com/BanbeeRadio/status/1912339899975635276?t=CHuUDpcZG4QKSQHI1Qf07w&s=19",
+            "https://maps.app.goo.gl/WXrWWsmvrjGeWPPA6"
+        ],
+        "report_time": 1744819034,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "CA9zbtswtx-wIH-OjTShcQ",
+        "lat": 35.58828,
+        "lng": 138.49802,
+        "country": "JP",
+        "region": "Yamanashi"
     }
 ]
