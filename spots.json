@@ -37312,5 +37312,85 @@
         "lng": 138.49802,
         "country": "JP",
         "region": "Yamanashi"
+    },
+    {
+        "spot_date": "2025/04/17",
+        "id": "1362475947709825104",
+        "links": [
+            "https://x.com/kenobi_no_hare/status/1912747617567797589/photo/1",
+            "https://maps.app.goo.gl/59dx3YwtVnet7xac7"
+        ],
+        "report_time": 1744909979,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "LQi6H0auStGMKoA10oHegg",
+        "lat": 31.65184,
+        "lng": 130.52939,
+        "country": "JP",
+        "region": "Kagoshima"
+    },
+    {
+        "spot_date": "2025/04/16",
+        "id": "1362483085106741509",
+        "links": [
+            "https://x.com/Deandawiz/status/1912610947249893634",
+            "https://maps.app.goo.gl/e52NSAcebivda2N18"
+        ],
+        "report_time": 1744911681,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "ejJb5YWRYUrimmTIt1seEg",
+        "lat": 28.53959,
+        "lng": -81.45825,
+        "country": "US",
+        "region": "Florida"
+    },
+    {
+        "spot_date": "2025/04/17",
+        "id": "1362489092453044584",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1285299146408460&set=a.819124753025904",
+            "https://maps.app.goo.gl/zawCGEyGD7PxwZJy5"
+        ],
+        "report_time": 1744913113,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "K7au6f9j2yewa5H7dVIoQQ",
+        "lat": 53.52491,
+        "lng": -7.3444,
+        "country": "IE",
+        "region": "County Westmeath"
+    },
+    {
+        "spot_date": "2025/04/13",
+        "id": "1362492515587981513",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1195905575501500&set=gm.9556610854452826&idorvanity=1902545183192803",
+            "https://maps.app.goo.gl/y8Do25FsjysJca766"
+        ],
+        "report_time": 1744913929,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "q7gxDsw88TgbMrHpcnI1kA",
+        "lat": 35.19724,
+        "lng": 136.91522,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/04/16",
+        "id": "1362228669585559713",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1108831564605596&set=pcb.1108834814605271",
+            "https://maps.app.goo.gl/RYSjiGchJpSa63LK6"
+        ],
+        "report_time": 1744851023,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "-QF8cHBqa6L9RzAQVefcIw",
+        "lat": 31.31784,
+        "lng": -109.55516,
+        "country": "MX",
+        "region": "Sonora"
     }
 ]

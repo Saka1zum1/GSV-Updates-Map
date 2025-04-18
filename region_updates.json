@@ -23865,6 +23865,21 @@
                 "country": "BR",
                 "altitude": 84.91,
                 "region": "State of Roraima"
+            },
+            "Jan": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1744914937,
+                "author": "Henrique",
+                "id": "1362496742926585880",
+                "panoId": "kfo1eYUnTp3hML0pmbfMWg",
+                "lat": 2.82687,
+                "lng": -60.69588,
+                "date": "Jan 2025",
+                "country": "BR",
+                "region": "State of Roraima"
             }
         },
         "Cear\u00e1": {
@@ -29243,17 +29258,16 @@
         "Brittany": {
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1715173522,
-                "author": "DarkShadow MH,ER,MC",
-                "panoId": "BVYF2QoWfmzNBaNTdOfLrA",
-                "lat": 48.04661,
-                "lng": -2.38178,
-                "date": "Apr 2024",
+                "report_time": 1744909490,
+                "author": "Update Tracker Bot",
+                "id": "1362473894702743693",
+                "panoId": "ZbtgL4b1QAdmWEoQx14Jmg",
+                "lat": 48.03612,
+                "lng": -1.87475,
+                "date": "Apr 2025",
                 "country": "FR",
-                "altitude": 83.46,
                 "region": "Brittany"
             },
             "Oct": {
