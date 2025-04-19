@@ -1,3 +1,8 @@
 [build]
   functions = "functions"  
   command = "npm run build"  
+
+[[redirects]]
+  from = "/*"
+  to = "https://updates.virtualstreets.org/:splat"
+  status = 301

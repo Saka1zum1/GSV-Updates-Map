@@ -11525,17 +11525,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1722781835,
-                "author": "Diamond Armor Steve",
-                "panoId": "uZYyYmCtjOOLJDq6uEJ2iQ",
-                "lat": 37.51326,
-                "lng": -80.97559,
-                "date": "Apr 2024",
+                "report_time": 1744986096,
+                "author": "Steve",
+                "id": "1362795203886448690",
+                "panoId": "X7137f15OwqRsv9VP8mF2Q",
+                "lat": 38.92892,
+                "lng": -80.47798,
+                "date": "Apr 2025",
                 "country": "US",
-                "altitude": 846.51,
                 "region": "West Virginia"
             },
             "Jul": {
@@ -29500,16 +29499,17 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "gen2update",
+                    "SmallCam"
                 ],
-                "report_time": 1716906343,
-                "author": "DarkShadow MH,ER,MC",
-                "panoId": "TSszBTCfRYYUE2Icch_UEA",
-                "lat": 49.74446,
-                "lng": 4.35993,
-                "date": "Apr 2024",
+                "report_time": 1745001978,
+                "author": "DeSlagen",
+                "id": "1362861821513568439",
+                "panoId": "vtsQo6E5GUoqliR_1veKnA",
+                "lat": 49.02595,
+                "lng": 7.08076,
+                "date": "Apr 2025",
                 "country": "FR",
-                "altitude": 279.28,
                 "region": "Grand Est"
             },
             "Mar": {
@@ -46227,6 +46227,20 @@
                 "date": "Aug 2024",
                 "country": "SK",
                 "altitude": 220.92,
+                "region": "Nitra Region"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1744988744,
+                "author": "DeSlagen",
+                "id": "1362806311171133706",
+                "panoId": "DS-1dBRxe9HnRmxJP-ulzw",
+                "lat": 48.22239,
+                "lng": 17.91962,
+                "date": "Mar 2025",
+                "country": "SK",
                 "region": "Nitra Region"
             }
         },

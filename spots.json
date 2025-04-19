@@ -37600,5 +37600,85 @@
         "lng": 7.21516,
         "country": "DE",
         "region": "North Rhine-Westphalia"
+    },
+    {
+        "spot_date": "2009/11/04",
+        "id": "1362839952639004834",
+        "links": [
+            "https://www.flickr.com/photos/lushmonkey1/4094285397/",
+            "https://maps.app.goo.gl/9Wdaz7RUocxfgdwS8"
+        ],
+        "report_time": 1744996765,
+        "author": "vegetal",
+        "spot_type": "Gen1/2",
+        "panoId": "Tqjwy4agMUvr1xWSxktK_w",
+        "lat": 34.05342,
+        "lng": -118.23006,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2025/04/18",
+        "id": "1362932045013323977",
+        "links": [
+            "https://www.facebook.com/dan.lisman.1/videos/2133908617070053",
+            "https://maps.app.goo.gl/5M9QrSqgdpfepoJE9"
+        ],
+        "report_time": 1745018721,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "2Ut6EqEgNhbCcUS4vibXBQ",
+        "lat": 35.13562,
+        "lng": -101.94671,
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "spot_date": "2025/04/15",
+        "id": "1362827318980120777",
+        "links": [
+            "https://www.tiktok.com/@monfrnandz_/video/7493644969526316295",
+            "https://maps.app.goo.gl/JcETBxPacyM75u286"
+        ],
+        "report_time": 1744993752,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "NoaayRjDVS0YFCdfM3RrEA",
+        "lat": 19.00561,
+        "lng": -98.26041,
+        "country": "MX",
+        "region": "Puebla"
+    },
+    {
+        "spot_date": "2025/04/09",
+        "id": "1362819299281993879",
+        "links": [
+            "https://www.kwai.com/@kuringaosamura489/video/5206029802923147411",
+            "https://maps.app.goo.gl/2ePTt4zhSr4Y2pAs7"
+        ],
+        "report_time": 1744991840,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "5S-dJ5awqD81J5BgIwaIKw",
+        "lat": -13.06995,
+        "lng": -55.94016,
+        "country": "BR",
+        "region": "State of Mato Grosso"
+    },
+    {
+        "spot_date": "2025/04/11",
+        "id": "1362781904872538173",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=10161100387113479",
+            "https://maps.app.goo.gl/DMod6T8cRe6HiDib9"
+        ],
+        "report_time": 1744982925,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "7drJ9t7tn3I0UNMgoAo4rA",
+        "lat": 56.66765,
+        "lng": 16.35644,
+        "country": "SE",
+        "region": "Kalmar County"
     }
 ]
