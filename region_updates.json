@@ -13446,14 +13446,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1715162211,
-                "author": "Unhook",
-                "panoId": "wjRWWLARZuRIIbd3KIfEDw",
-                "lat": 13.28478,
-                "lng": 123.49123,
-                "date": "Mar 2024",
+                "report_time": 1745038349,
+                "author": "Update Tracker Bot",
+                "id": "1363014369251688448",
+                "panoId": "xyNiAfXj4i8MJX4uO_1m-Q",
+                "lat": 14.16572,
+                "lng": 122.91956,
+                "date": "Mar 2025",
                 "country": "PH",
-                "altitude": 29.13,
                 "region": "Bicol"
             }
         },
@@ -30786,6 +30786,20 @@
                 "lat": 41.89431,
                 "lng": 2.81063,
                 "date": "Feb 2025",
+                "country": "ES",
+                "region": "Catalonia"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745066943,
+                "author": "Steve",
+                "id": "1363134300425293864",
+                "panoId": "LYhBtH_rTt5ageh1hcalWA",
+                "lat": 41.63179,
+                "lng": 2.70318,
+                "date": "Apr 2025",
                 "country": "ES",
                 "region": "Catalonia"
             }
