@@ -20796,6 +20796,20 @@
                 "date": "Mar 2025",
                 "country": "JP",
                 "region": "Tokyo"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745153559,
+                "author": "Update Tracker Bot",
+                "id": "1363497597167210497",
+                "panoId": "0M-x_DHebjvOfHWAcjPmTg",
+                "lat": 35.7133,
+                "lng": 139.38671,
+                "date": "Apr 2025",
+                "country": "JP",
+                "region": "Tokyo"
             }
         },
         "Chiba": {
@@ -27673,6 +27687,20 @@
                 "country": "MY",
                 "altitude": 860.99,
                 "region": "Pahang"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745143475,
+                "author": "ReAnna",
+                "id": "1363455300275011675",
+                "panoId": "wzW0SrKMBSwNSbSbY8Py6Q",
+                "lat": 3.89136,
+                "lng": 101.8192,
+                "date": "Mar 2025",
+                "country": "MY",
+                "region": "Pahang"
             }
         },
         "Johor": {
@@ -29665,16 +29693,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "SmallCam"
                 ],
-                "report_time": 1714568457,
-                "author": "DarkShadow MH,ER,MC",
-                "panoId": "y0oPJoUGGXQFkemthonBuA",
-                "lat": 48.67086,
-                "lng": 2.69305,
-                "date": "Apr 2024",
+                "report_time": 1745153900,
+                "author": "DeSlagen",
+                "id": "1363499024434462801",
+                "panoId": "TVY25JlGGTXo87X0VCRXDg",
+                "lat": 48.34108,
+                "lng": 2.9579,
+                "date": "Apr 2025",
                 "country": "FR",
-                "altitude": 90.24,
                 "region": "\u00cele-de-France"
             },
             "Mar": {
@@ -30024,14 +30053,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1713885515,
-                "author": "Update Tracker Bot",
-                "panoId": "33S58DDv13YQTjCxHcmmBw",
-                "lat": 41.11248,
-                "lng": -5.10119,
-                "date": "Apr 2024",
+                "report_time": 1745153880,
+                "author": "DeSlagen",
+                "id": "1363498942893129768",
+                "panoId": "VWNBaoGUeidEKQ-zLhrJIw",
+                "lat": 42.04701,
+                "lng": -3.85551,
+                "date": "Apr 2025",
                 "country": "ES",
-                "altitude": 795.41,
                 "region": "Castile and Le\u00f3n"
             },
             "Jan": {
@@ -31906,16 +31935,17 @@
             "Mar": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "newroad",
+                    "SmallCam"
                 ],
-                "report_time": 1711548388,
-                "author": "vegetal",
-                "panoId": "n0aDU9SNsVGqLMWDcM2xDg",
-                "lat": 36.93703,
-                "lng": 31.11715,
-                "date": "Mar 2024",
+                "report_time": 1745132771,
+                "author": "JHK",
+                "id": "1363410407028691104",
+                "panoId": "k2ELse7u5o8t-KJqS_xg4w",
+                "lat": 37.38788,
+                "lng": 31.26823,
+                "date": "Mar 2025",
                 "country": "TR",
-                "altitude": 21.24,
                 "region": "Antalya"
             },
             "Jan": {
@@ -33826,6 +33856,23 @@
                 "date": "Jun 2024",
                 "country": "TR",
                 "altitude": 921.44,
+                "region": "Isparta"
+            },
+            "Mar": {
+                "types": [
+                    "newsmallcam",
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1745140700,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1363443659722330265",
+                "panoId": "elvzCmiG58mXRpR7M_K6Ig",
+                "lat": 37.47131,
+                "lng": 31.26731,
+                "date": "Mar 2025",
+                "country": "TR",
                 "region": "Isparta"
             }
         },
@@ -41495,6 +41542,21 @@
                 "country": "ID",
                 "altitude": 65.86,
                 "region": "Jambi"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1745157103,
+                "author": "Tobetelogi",
+                "id": "1363512458857287810",
+                "panoId": "YVafJsC63X5ctCllRlGYCA",
+                "lat": -1.27317,
+                "lng": 101.96822,
+                "date": "Mar 2025",
+                "country": "ID",
+                "region": "Jambi"
             }
         },
         "South East Sulawesi": {
@@ -46240,6 +46302,21 @@
                 "date": "Aug 2024",
                 "country": "SK",
                 "altitude": 138.08,
+                "region": "Trnava Region"
+            },
+            "Mar": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1745103319,
+                "author": "DeSlagen",
+                "id": "1363286876433285372",
+                "panoId": "R0Z_EakL8-259fCJSg2pKw",
+                "lat": 48.2658,
+                "lng": 17.80349,
+                "date": "Mar 2025",
+                "country": "SK",
                 "region": "Trnava Region"
             }
         },
@@ -56943,7 +57020,22 @@
                 "region": "Klaip\u0117da County"
             }
         },
-        "Panev\u0117\u017eys County": {},
+        "Panev\u0117\u017eys County": {
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745146674,
+                "author": "Update Tracker Bot",
+                "id": "1363468719946334259",
+                "panoId": "OCmomG0SyZiGzl6HcNYxDQ",
+                "lat": 55.75799,
+                "lng": 24.28257,
+                "date": "Apr 2025",
+                "country": "LT",
+                "region": "Panev\u0117\u017eys County"
+            }
+        },
         "\u0160iauliai County": {
             "Jun": {
                 "types": [
@@ -56958,6 +57050,20 @@
                 "date": "Jun 2024",
                 "country": "LT",
                 "altitude": 148.31,
+                "region": "\u0160iauliai County"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745146216,
+                "author": "Update Tracker Bot",
+                "id": "1363466795503059187",
+                "panoId": "xDhECaCNicNYG3TOmvKeqg",
+                "lat": 55.76211,
+                "lng": 23.77419,
+                "date": "Apr 2025",
+                "country": "LT",
                 "region": "\u0160iauliai County"
             }
         },

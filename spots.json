@@ -37680,5 +37680,69 @@
         "lng": 16.35644,
         "country": "SE",
         "region": "Kalmar County"
+    },
+    {
+        "spot_date": "2025/04/17",
+        "id": "1362997562595868852",
+        "links": [
+            "https://www.facebook.com/photo?fbid=24120711350848956&set=pcb.2747942632059770",
+            "https://maps.app.goo.gl/goqPx8Drk6bXvR4s6"
+        ],
+        "report_time": 1745034342,
+        "author": "ktz",
+        "spot_type": "Gen4",
+        "panoId": "0QALi4mtb_ZzGRPHjrlOpQ",
+        "lat": 43.22823,
+        "lng": 27.87803,
+        "country": "BG",
+        "region": "Varna"
+    },
+    {
+        "spot_date": "2025/04/18",
+        "id": "1362935643914899477",
+        "links": [
+            "https://platesmania.com/de/nomer27858261",
+            "https://maps.app.goo.gl/eFcL4jV5gZaKy5uM8"
+        ],
+        "report_time": 1745019579,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "hMoyMwPYA5AXKUWDdh-VTg",
+        "lat": 43.20718,
+        "lng": 27.91763,
+        "country": "BG",
+        "region": "Varna"
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1363297142093123735",
+        "links": [
+            "https://www.reddit.com/r/geoguessr/comments/1k33c2v/i_spotted_this_what_are_the_chances_that_i_will/#lightbox",
+            "https://maps.app.goo.gl/oGCc8tRm61Evv1cC8"
+        ],
+        "report_time": 1745105767,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "9PrMgzZm_0PHIPj6R5ePdQ",
+        "lat": 25.88164,
+        "lng": -80.35389,
+        "country": "US",
+        "region": "Florida"
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1363463530593914982",
+        "links": [
+            "https://youtube.com/shorts/FDfD7NSeurc?si=WbJlewIDnWvLbxbK",
+            "https://maps.app.goo.gl/h1QyR25huTvkircv8"
+        ],
+        "report_time": 1745145437,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "3zlocQnNhWv3u4RMOTcn4Q",
+        "lat": -6.15754,
+        "lng": 106.90047,
+        "country": "ID",
+        "region": "Jakarta"
     }
 ]
