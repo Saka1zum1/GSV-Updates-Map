@@ -19505,16 +19505,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1713514848,
+                "report_time": 1745234635,
                 "author": "Update Tracker Bot",
-                "panoId": "UGMnPNGvIhETNIoaXkKvfQ",
-                "lat": 33.22588,
-                "lng": 129.745,
-                "date": "Apr 2024",
+                "id": "1363837652809420821",
+                "panoId": "xAd5lyCVf1UN5gWmS1-Whg",
+                "lat": 32.89929,
+                "lng": 130.04739,
+                "date": "Apr 2025",
                 "country": "JP",
-                "altitude": 373.04,
                 "region": "Nagasaki"
             },
             "Mar": {
@@ -20282,6 +20283,21 @@
                 "date": "Jun 2024",
                 "country": "JP",
                 "altitude": 401.32,
+                "region": "Shimane"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1745227573,
+                "author": "BurgerwithPeel",
+                "id": "1363808034572472350",
+                "panoId": "JB1_eVvcj3uJS7iCENGD7A",
+                "lat": 34.44162,
+                "lng": 131.72291,
+                "date": "Mar 2025",
+                "country": "JP",
                 "region": "Shimane"
             }
         },
@@ -21072,6 +21088,20 @@
                 "lat": 35.16546,
                 "lng": 137.02564,
                 "date": "Mar 2025",
+                "country": "JP",
+                "region": "Aichi"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745230860,
+                "author": "Update Tracker Bot",
+                "id": "1363821818980335726",
+                "panoId": "MVDb1vMVabWfZtGiHbV1IA",
+                "lat": 35.19392,
+                "lng": 136.96348,
+                "date": "Apr 2025",
                 "country": "JP",
                 "region": "Aichi"
             }
@@ -46493,6 +46523,20 @@
                 "lat": 48.14023,
                 "lng": 17.21202,
                 "date": "Mar 2025",
+                "country": "SK",
+                "region": "Bratislava Region"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745227084,
+                "author": "DeSlagen",
+                "id": "1363805984014995678",
+                "panoId": "_1r2iwyTBkx6MvZm6FkdOg",
+                "lat": 48.15894,
+                "lng": 17.09593,
+                "date": "Apr 2025",
                 "country": "SK",
                 "region": "Bratislava Region"
             }

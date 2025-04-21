@@ -37840,5 +37840,85 @@
         "lng": 15.27614,
         "country": "SI",
         "region": "Celje"
-    }
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1363711220158562364",
+        "links": [
+            "https://www.tiktok.com/@joselarax/video/7495070035812109590",
+            "https://maps.app.goo.gl/VdjH9xRz4z3eWd258"
+        ],
+        "report_time": 1745204491,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "RLRaD5LBvleud43fWBfH2A",
+        "lat": 37.40696,
+        "lng": -5.97414,
+        "country": "ES",
+        "region": "Andalusia"
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1363825556843397281",
+        "links": [
+            "https://www.tiktok.com/@vannwry/video/7494925319879609607",
+            "https://maps.app.goo.gl/LEMZ1dyrEDbhjiw96"
+        ],
+        "report_time": 1745231751,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "tyXeXjt35KpsdkdgK9fW0w",
+        "lat": 0.40147,
+        "lng": 101.85766,
+        "country": "ID",
+        "region": "Riau"
+    },
+    {
+        "spot_date": "2025/04/21",
+        "id": "1363825453759987734",
+        "links": [
+            "https://www.tiktok.com/@wak_ujhe/video/7495572931079114039",
+            "https://maps.app.goo.gl/V72tXd6e7GZmhpJi9"
+        ],
+        "report_time": 1745231726,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "0MudSt3Scw8to4IznJ8DwA",
+        "lat": 0.39119,
+        "lng": 101.84435,
+        "country": "ID",
+        "region": "Riau"
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1363825217373339879",
+        "links": [
+            "https://www.tiktok.com/@vannwry/video/7494927216950758664",
+            "https://maps.app.goo.gl/EDEgiq6qH38C12Bu5"
+        ],
+        "report_time": 1745231670,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "kb9KmsCH_u8JOzj_J1io-Q",
+        "lat": 0.40145,
+        "lng": 101.85609,
+        "country": "ID",
+        "region": "Riau"
+    },
+  {
+        "spot_date": "2025/04/21",
+        "id": "1363808978966155345",
+        "links": [
+            "https://maps.app.goo.gl/93UQFxMq5C4ouyay7",
+            "https://maps.app.goo.gl/93UQFxMq5C4ouyay7"
+        ],
+        "report_time": 1745227971,
+        "author": "MRC.GRB",
+        "spot_type": "Gen4",
+        "panoId": "8nislylWp-yK4FS20dey7g",
+        "lat":46.6317952,
+        "lng": 13.8567256,
+        "country": "AT",
+        "region": "Carinthia"
+  }
 ]
