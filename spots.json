@@ -37744,5 +37744,101 @@
         "lng": 106.90047,
         "country": "ID",
         "region": "Jakarta"
+    },
+    {
+        "spot_date": "2025/04/16",
+        "id": "1363532290335965325",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1503374887291543&set=gm.2714585945407575&idorvanity=629750703891120",
+            "https://maps.app.goo.gl/ixp4tbpPYLLHzRZB9"
+        ],
+        "report_time": 1745161831,
+        "author": "Rob",
+        "spot_type": "Gen4",
+        "panoId": "Q_QyPRt0_bPV8sa-LYMa5Q",
+        "lat": 43.24609,
+        "lng": 27.84813,
+        "country": "BG",
+        "region": "Varna"
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1363537856802328786",
+        "links": [
+            "https://www.tiktok.com/@luisangelucan/video/7494915594077080850",
+            "https://maps.app.goo.gl/1CFWnRtiWNSqEcvc8"
+        ],
+        "report_time": 1745163158,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "kXn00bqZmJ6-BVBB4FCe5w",
+        "lat": 20.64781,
+        "lng": -89.45524,
+        "country": "MX",
+        "region": "Yucatan"
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1363537468036481197",
+        "links": [
+            "https://www.tiktok.com/@historiasenyucatan/video/7495100872146373904",
+            "https://maps.app.goo.gl/4tXTA653jZ2QSbq3A"
+        ],
+        "report_time": 1745163065,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "EhHs0HvJ8uWX8vHnGlz2XA",
+        "lat": 20.48557,
+        "lng": -89.71359,
+        "country": "MX",
+        "region": "Yucatan"
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1363537118642573463",
+        "links": [
+            "https://www.tiktok.com/@rosy81.bg/video/7495141794359889160",
+            "https://maps.app.goo.gl/oAEYhzZzpRxy9Y1P7"
+        ],
+        "report_time": 1745162982,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "AdEHFR7O9MS4_CRL_R4bag",
+        "lat": 19.25652,
+        "lng": -99.66001,
+        "country": "MX",
+        "region": "State of Mexico"
+    },
+    {
+        "spot_date": "2025/04/18",
+        "id": "1363536793202593972",
+        "links": [
+            "https://www.tiktok.com/@axel_rodrigz/video/7494859763830902023",
+            "https://maps.app.goo.gl/stVLuHH9j89FTBkPA"
+        ],
+        "report_time": 1745162904,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "SW1oYZNrCQ7u9yLrFBGYQQ",
+        "lat": 23.47535,
+        "lng": -104.39402,
+        "country": "MX",
+        "region": "Durango"
+    },
+    {
+        "spot_date": "2025/04/20",
+        "id": "1363647445732692048",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1322707332586824&set=a.610944123763152",
+            "https://maps.app.goo.gl/T9e9gcqa1TAXmqa27"
+        ],
+        "report_time": 1745189286,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "GOPFlg_hmbCbe3Y9nv6Lzg",
+        "lat": 46.23556,
+        "lng": 15.27614,
+        "country": "SI",
+        "region": "Celje"
     }
 ]
