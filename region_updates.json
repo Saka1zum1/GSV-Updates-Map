@@ -11059,17 +11059,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1714220104,
-                "author": "Alex*",
-                "panoId": "TjIUdmUUMUe4JkcVp6x41g",
-                "lat": 35.65845,
-                "lng": -84.75971,
-                "date": "Apr 2024",
+                "report_time": 1745242893,
+                "author": "Update Tracker Bot",
+                "id": "1363872291846361160",
+                "panoId": "z5cAcVvpWYXhH0HqT9tIhw",
+                "lat": 35.71561,
+                "lng": -84.13403,
+                "date": "Apr 2025",
                 "country": "US",
-                "altitude": 258.79,
                 "region": "Tennessee"
             },
             "Jan": {
@@ -15670,6 +15669,22 @@
                 "lat": 34.69661,
                 "lng": 32.83512,
                 "date": "Sep 2024",
+                "country": "GB",
+                "region": "Akrotiri and Dhekelia"
+            },
+            "Dec": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1745262911,
+                "author": "DeSlagen",
+                "id": "1363956250835943434",
+                "panoId": "eS0vwr_y6jidNGqDgCpsww",
+                "lat": 34.68016,
+                "lng": 32.76054,
+                "date": "Dec 2024",
                 "country": "GB",
                 "region": "Akrotiri and Dhekelia"
             }
@@ -20385,6 +20400,20 @@
                 "lat": 35.60596,
                 "lng": 138.82827,
                 "date": "Feb 2025",
+                "country": "JP",
+                "region": "Yamanashi"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745243992,
+                "author": "\u8c46\u8c46\u5196",
+                "id": "1363876899192963202",
+                "panoId": "H2EsgGY-kBKA2klUjQcOkw",
+                "lat": 35.93795,
+                "lng": 138.44853,
+                "date": "Mar 2025",
                 "country": "JP",
                 "region": "Yamanashi"
             }
@@ -28910,16 +28939,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "SmallCam"
                 ],
-                "report_time": 1713947082,
-                "author": "Update Tracker Bot",
-                "panoId": "EDHS3U0tiB3s4xMRYuqlrg",
-                "lat": 46.29,
-                "lng": 3.36592,
-                "date": "Apr 2024",
+                "report_time": 1745263384,
+                "author": "DeSlagen",
+                "id": "1363958235362754702",
+                "panoId": "AUZiyBbQKGnGcgDVjnq3eA",
+                "lat": 45.91319,
+                "lng": 6.15429,
+                "date": "Apr 2025",
                 "country": "FR",
-                "altitude": 245.53,
                 "region": "Auvergne-Rh\u00f4ne-Alpes"
             },
             "Nov": {
@@ -30681,6 +30711,20 @@
                 "lat": 40.19626,
                 "lng": -3.85731,
                 "date": "Mar 2025",
+                "country": "ES",
+                "region": "Community of Madrid"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745277991,
+                "author": "lancelot25_",
+                "id": "1364019500395139162",
+                "panoId": "KbyCG1_pFiXfm4PwA6rdCA",
+                "lat": 40.28682,
+                "lng": -3.76104,
+                "date": "Apr 2025",
                 "country": "ES",
                 "region": "Community of Madrid"
             }
@@ -33954,6 +33998,21 @@
                 "lat": 40.89399,
                 "lng": 29.26203,
                 "date": "Feb 2025",
+                "country": "TR",
+                "region": "\u0130stanbul"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1745264377,
+                "author": "Tobetelogi",
+                "id": "1363962401401077811",
+                "panoId": "YTcgeIG52d6q8eSGgAqfBA",
+                "lat": 40.9002,
+                "lng": 29.29633,
+                "date": "Mar 2025",
                 "country": "TR",
                 "region": "\u0130stanbul"
             }

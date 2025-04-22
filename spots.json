@@ -37905,7 +37905,7 @@
         "country": "ID",
         "region": "Riau"
     },
-  {
+    {
         "spot_date": "2025/04/21",
         "id": "1363808978966155345",
         "links": [
@@ -37916,9 +37916,25 @@
         "author": "MRC.GRB",
         "spot_type": "Gen4",
         "panoId": "8nislylWp-yK4FS20dey7g",
-        "lat":46.6317952,
+        "lat": 46.6317952,
         "lng": 13.8567256,
         "country": "AT",
         "region": "Carinthia"
-  }
+    },
+    {
+        "spot_date": "2025/04/21",
+        "id": "1363981054578262037",
+        "links": [
+            "https://maps.app.goo.gl/2cLC3BGv4p5xvoW28",
+            "https://maps.app.goo.gl/2cLC3BGv4p5xvoW28"
+        ],
+        "report_time": 1745268824,
+        "author": "theSupreme",
+        "spot_type": "Gen4",
+        "panoId": "gdJw0afMvcLcF5AgJ4eAWw",
+        "lat": 36.1807,
+        "lng": -86.82432,
+        "country": "US",
+        "region": "Tennessee"
+    }
 ]
