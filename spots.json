@@ -37936,5 +37936,133 @@
         "lng": -86.82432,
         "country": "US",
         "region": "Tennessee"
+    },
+    {
+        "spot_date": "2025/04/21",
+        "id": "1363949732107387022",
+        "links": [
+            "https://youtube.com/shorts/EOlZ7rwKFMg?si=Ycsb7Lez5f_ZzxNQ",
+            "https://maps.app.goo.gl/y3vU56t31UJ44fEd6"
+        ],
+        "report_time": 1745261357,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "1FUtrCiMoPteuD7lJDgVTA",
+        "lat": -6.24377,
+        "lng": 106.89232,
+        "country": "ID",
+        "region": "Jakarta"
+    },
+    {
+        "spot_date": "2025/04/21",
+        "id": "1364183621245866004",
+        "links": [
+            "https://discord.com/channels/1216922768680026122/1216922769233543271/1363791490278494319",
+            "https://maps.app.goo.gl/omMnNenS6cm8q4fc8"
+        ],
+        "report_time": 1745317120,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "ZDP-APh8U5Lb326m_Nl6wg",
+        "lat": -7.4228,
+        "lng": 109.2422,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/04/11",
+        "id": "1364188986150490162",
+        "links": [
+            "https://www.instagram.com/p/DISVvb8TnWu/?igsh=YXNqZTNicGF0dGFn",
+            "https://maps.app.goo.gl/c2bHFPujyEDKHsaB7"
+        ],
+        "report_time": 1745318399,
+        "author": "va",
+        "spot_type": "Gen4",
+        "panoId": "yQpN9Eb1bcMPaFlFexKdsA",
+        "lat": 35.86347,
+        "lng": 138.31616,
+        "country": "JP",
+        "region": "Yamanashi"
+    },
+    {
+        "spot_date": "2023/07/13",
+        "id": "1363923401114386625",
+        "links": [
+            "https://www.facebook.com/share/p/18deJmiEH5/?mibextid=wwXIfr",
+            "https://maps.app.goo.gl/TFmAVW9Wfcvi4sVa7"
+        ],
+        "report_time": 1745255079,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4/H1",
+        "panoId": "N3cioUX0WFU5RlAa7igBKw",
+        "lat": 54.29414,
+        "lng": 9.66945,
+        "country": "DE",
+        "region": "Schleswig-Holstein"
+    },
+    {
+        "spot_date": "2025/02/15",
+        "id": "1363210842992021694",
+        "links": [
+            "https://www.kwai.com/@missaocemfronteira/video/5242340071332789679",
+            "https://maps.app.goo.gl/QYtkQndnhzd6qd4j6"
+        ],
+        "report_time": 1745085192,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "IIX6pOG9vYCDkld6RRpMkg",
+        "lat": -11.58601,
+        "lng": -61.25949,
+        "country": "BR",
+        "region": "State of Rond\u00f4nia"
+    },
+    {
+        "spot_date": "2024/10/26",
+        "id": "1362897284311810230",
+        "links": [
+            "https://www.facebook.com/photo.php?fbid=955593583279966&set=pb.100064879980232.-2207520000&type=3",
+            "https://maps.app.goo.gl/ckde9sVyPsHD5bLd8"
+        ],
+        "report_time": 1745010433,
+        "author": "HoustonMediaHD",
+        "spot_type": "Gen4/H1",
+        "panoId": "4frk2V8GiRp1WZBiSzH5-w",
+        "lat": 37.04953,
+        "lng": -80.35583,
+        "country": "US",
+        "region": "Virginia"
+    },
+    {
+        "spot_date": "2017/05/03",
+        "id": "1364191345970778142",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10158492514070386&set=a.10150234341530386",
+            "https://maps.app.goo.gl/ZhsL2YHrzQsgvGk19"
+        ],
+        "report_time": 1745318962,
+        "author": "Tobetelogi",
+        "spot_type": "Gen3",
+        "panoId": "ySVh53n7_Cpw8dtCwaY84Q",
+        "lat": 59.90964,
+        "lng": 10.74189,
+        "country": "NO",
+        "region": "Oslo"
+    },
+    {
+        "spot_date": "2011/07/20",
+        "id": "1363154476042817677",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1097011802464555",
+            "https://maps.app.goo.gl/3Wi2HJUHrk5EkT4Q8"
+        ],
+        "report_time": 1745071753,
+        "author": "Henrique",
+        "spot_type": "Gen3",
+        "panoId": "jQyMf17MdlrMDCtN2Kgj_g",
+        "lat": -25.43756,
+        "lng": -49.2687,
+        "country": "BR",
+        "region": "State of Paran\u00e1"
     }
 ]
