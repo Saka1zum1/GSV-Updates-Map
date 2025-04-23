@@ -21520,6 +21520,20 @@
                 "date": "Mar 2025",
                 "country": "JP",
                 "region": "Gifu"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745342653,
+                "author": "Update Tracker Bot",
+                "id": "1364290714355236987",
+                "panoId": "iizOzNMrip2IdzkmuCeivw",
+                "lat": 35.45443,
+                "lng": 136.67049,
+                "date": "Apr 2025",
+                "country": "JP",
+                "region": "Gifu"
             }
         },
         "Aomori": {

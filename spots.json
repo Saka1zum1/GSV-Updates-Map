@@ -38064,5 +38064,21 @@
         "lng": -49.2687,
         "country": "BR",
         "region": "State of Paran\u00e1"
+    },
+    {
+        "spot_date": "2024/04/22",
+        "id": "1364263562696200265",
+        "links": [
+            "https://maps.app.goo.gl/8ESsbxfm7jbHRDzdA",
+            "https://maps.app.goo.gl/8ESsbxfm7jbHRDzdA"
+        ],
+        "report_time": 1745336180,
+        "author": "the_gymtimidator",
+        "spot_type": "Gen4",
+        "panoId": "I--jONO_1AHO1jTkw-V5gg",
+        "lat": 40.79602,
+        "lng": -77.67438,
+        "country": "US",
+        "region": "Pennsylvania"
     }
 ]
