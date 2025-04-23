@@ -38080,5 +38080,21 @@
         "lng": -77.67438,
         "country": "US",
         "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2025/04/22",
+        "id": "1364446988795646025",
+        "links": [
+            "https://www.tiktok.com/@luzeey_17/video/7496212069608377608?q=luzeey_17&t=1745379850499",
+            "https://maps.app.goo.gl/tUmYnLiGdWXuEUq67"
+        ],
+        "report_time": 1745379912,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "Jn162asyz2YnG25BRSENug",
+        "lat": 20.1517,
+        "lng": -89.25162,
+        "country": "MX",
+        "region": "Yucatan"
     }
 ]
