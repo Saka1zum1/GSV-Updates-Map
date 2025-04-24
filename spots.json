@@ -38192,5 +38192,117 @@
         "lng": 139.57946,
         "country": "JP",
         "region": "Kanagawa"
+    },
+    {
+        "spot_date": "2025/04/23",
+        "id": "1364765112128372788",
+        "links": [
+            "https://www.tiktok.com/@maggiemartiinzlopz/video/7496649914412322056",
+            "https://maps.app.goo.gl/3qbUjxJzcE9yj8Dh7"
+        ],
+        "report_time": 1745455758,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "-OdwTVTI4rlfidyL2iEj5g",
+        "lat": 21.14079,
+        "lng": -88.14826,
+        "country": "MX",
+        "region": "Yucatan"
+    },
+    {
+        "spot_date": "2025/04/23",
+        "id": "1364764349201252362",
+        "links": [
+            "https://www.tiktok.com/@wilbertcc/video/7496645542223695112",
+            "https://maps.app.goo.gl/WQd2wQYZsuM6uTZq7"
+        ],
+        "report_time": 1745455576,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "Lg_tdkshULszrZGE8BHhtg",
+        "lat": 20.20384,
+        "lng": -89.29043,
+        "country": "MX",
+        "region": "Yucatan"
+    },
+    {
+        "spot_date": "2025/04/22",
+        "id": "1364807147220897863",
+        "links": [
+            "https://www.tiktok.com/@clarketridstar/video/7496328018084810014",
+            "https://maps.app.goo.gl/wSBHu95qCDLJTR9q7"
+        ],
+        "report_time": 1745465780,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "kZY-UQ7tis4wcYqpybJG8g",
+        "lat": 44.90124,
+        "lng": -93.5888,
+        "country": "US",
+        "region": "Minnesota"
+    },
+    {
+        "spot_date": "2025/04/23",
+        "id": "1364913474928644157",
+        "links": [
+            "https://www.tiktok.com/@mahakarya_nh/video/7496476184415325495",
+            "https://maps.app.goo.gl/qkPVVzuXjwUMeXsi9"
+        ],
+        "report_time": 1745491131,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "a1xTWtMcamgce9BftShPSA",
+        "lat": -6.1144,
+        "lng": 106.9264,
+        "country": "ID",
+        "region": "Jakarta"
+    },
+    {
+        "spot_date": "2025/03/07",
+        "id": "1364876015268134923",
+        "links": [
+            "https://www.instagram.com/p/DG4u2eghr6l/?igsh=b2VubGRlb3Q5eW83",
+            "https://maps.app.goo.gl/3YnBayfSidkqSz336"
+        ],
+        "report_time": 1745482200,
+        "author": "va",
+        "spot_type": "Gen4/H1",
+        "panoId": "_7ty1KVCBjFl-NViBlIOrA",
+        "lat": 34.39224,
+        "lng": 132.4474,
+        "country": "JP",
+        "region": "Hiroshima"
+    },
+    {
+        "spot_date": "2024/10/10",
+        "id": "1364711032945377431",
+        "links": [
+            "https://www.insomnia.gr/forums/topic/838707-%CE%B7-google-%CE%BE%CE%B5%CE%BA%CE%B9%CE%BD%CE%AC-%CE%BD%CE%AD%CE%B1-%CF%87%CE%B1%CF%81%CF%84%CE%BF%CE%B3%CF%81%CE%AC%CF%86%CE%B7%CF%83%CE%B7-%CF%84%CE%B7%CF%82-%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF-street-view-%CE%BC%CE%B5-%CE%AD%CE%BC%CF%86%CE%B1%CF%83%CE%B7-%CF%83%CF%84%CE%B1-%CF%80%CF%81%CE%BF%CF%83%CF%89%CF%80%CE%B9%CE%BA%CE%AC-%CE%B4%CE%B5%CE%B4%CE%BF%CE%BC%CE%AD%CE%BD%CE%B1/",
+            "https://maps.app.goo.gl/z1Jmh2UPVsJk4CwX6"
+        ],
+        "report_time": 1745442865,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "UQL5skvoPP4alaaQTOhsRg",
+        "lat": 38.37234,
+        "lng": 26.13725,
+        "country": "GR",
+        "region": "Decentralized Administration of the Aegean"
+    },
+    {
+        "spot_date": "2024/09/02",
+        "id": "1364436576234373160",
+        "links": [
+            "https://www.kwai.com/@cesarsilva026/video/5230236650976419007",
+            "https://maps.app.goo.gl/Mqhqo7iJzqzkCgtk6"
+        ],
+        "report_time": 1745377429,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "hbp9YIpy9kCQfyz51yppdQ",
+        "lat": -3.83135,
+        "lng": -38.494,
+        "country": "BR",
+        "region": "Cear\u00e1"
     }
 ]
