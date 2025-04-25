@@ -38304,5 +38304,21 @@
         "lng": -38.494,
         "country": "BR",
         "region": "Cear\u00e1"
+    },
+    {
+        "spot_date": "2025/04/24",
+        "id": "1365014274027814943",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=659095620211851&set=a.654465960674817",
+            "https://maps.app.goo.gl/rPVchrgWRZvcSjGRA"
+        ],
+        "report_time": 1745515163,
+        "author": "Rob",
+        "spot_type": "Gen4",
+        "panoId": "BB9Xbf0Xs9AdT-KzZiMVjA",
+        "lat": -32.5049,
+        "lng": 27.9808,
+        "country": "ZA",
+        "region": "Eastern Cape"
     }
 ]
