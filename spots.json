@@ -38320,5 +38320,37 @@
         "lng": 27.9808,
         "country": "ZA",
         "region": "Eastern Cape"
+    },
+    {
+        "spot_date": "2025/03/20",
+        "id": "1365141460210683937",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9911161442248537&set=a.100783723286407",
+            "https://maps.app.goo.gl/ArFiMgmHsFNHj7uG7"
+        ],
+        "report_time": 1745545487,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "kW4e2xnqiIOzhDRZXZ0s8A",
+        "lat": -34.85716,
+        "lng": -56.21908,
+        "country": "UY",
+        "region": "Montevideo Department"
+    },
+    {
+        "spot_date": "2025/04/25",
+        "id": "1365278433613189251",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10224111790456752&set=a.1524557168109",
+            "https://maps.app.goo.gl/K3aYdZc4XBGGZQW1A"
+        ],
+        "report_time": 1745578144,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "zMUA6qAK4RgwxkmKYPfPWw",
+        "lat": 25.03006,
+        "lng": 121.52735,
+        "country": "CN",
+        "region": "Taipei City"
     }
 ]

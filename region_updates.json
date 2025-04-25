@@ -14920,6 +14920,21 @@
                 "date": "Nov 2024",
                 "country": "IT",
                 "region": "Liguria"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1745568548,
+                "author": "Steve",
+                "id": "1365238184610627614",
+                "panoId": "XYe_ovw-88oJKAMGcbQjsw",
+                "lat": 44.66431,
+                "lng": 8.94435,
+                "date": "Dec 2024",
+                "country": "IT",
+                "region": "Liguria"
             }
         },
         "Piedmont": {
@@ -22403,14 +22418,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1713449550,
+                "report_time": 1745558795,
                 "author": "Update Tracker Bot",
-                "panoId": "AfM-Ic2KUm9jL3txYSrfNg",
-                "lat": 34.7284,
-                "lng": 134.86717,
-                "date": "Apr 2024",
+                "id": "1365197277248880650",
+                "panoId": "JBJWfsANQXBAi1YMNd9--w",
+                "lat": 34.65557,
+                "lng": 135.13963,
+                "date": "Apr 2025",
                 "country": "JP",
-                "altitude": 8.78,
                 "region": "Hyogo"
             },
             "Nov": {
