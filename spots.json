@@ -38496,5 +38496,69 @@
         "lng": -46.05324,
         "country": "BR",
         "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/04/24",
+        "id": "1365544178439684206",
+        "links": [
+            "https://twitter.com/higgy_marcus/status/1915459357745070151?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/Ew19XRoB7rKboKtH6"
+        ],
+        "report_time": 1745641502,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "9wW6AVateUet7OYgtklFHg",
+        "lat": 40.78569,
+        "lng": -77.83166,
+        "country": "US",
+        "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2025/04/17",
+        "id": "1365541801582133279",
+        "links": [
+            "https://twitter.com/santo_/status/1912543538447020397?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/bQf7qYHj3k32bjdu5"
+        ],
+        "report_time": 1745640936,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "NzxGVxDXVMHhmvjdMSVq5Q",
+        "lat": 22.24844,
+        "lng": -97.83657,
+        "country": "MX",
+        "region": "Tamaulipas"
+    },
+    {
+        "spot_date": "2025/04/25",
+        "id": "1365559587197161534",
+        "links": [
+            "https://www.tiktok.com/@franckitotodopoderoso/video/7497407331416689926",
+            "https://maps.app.goo.gl/eJakZ6Dazhqunr1o9"
+        ],
+        "report_time": 1745645176,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "KQ8aeOJjLKWaxWiwhT-LlA",
+        "lat": -10.7549,
+        "lng": -77.76032,
+        "country": "PE",
+        "region": "Lima Region"
+    },
+    {
+        "spot_date": "2025/04/13",
+        "id": "1365565212731768904",
+        "links": [
+            "https://www.tiktok.com/@mdimranhossenchowdhury/video/7492709618397826311",
+            "https://maps.app.goo.gl/jMFjZfEc9dHK3RTt8"
+        ],
+        "report_time": 1745646517,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "PhKllB_AD0lyxBnTQSOqPg",
+        "lat": 21.99063,
+        "lng": 90.21981,
+        "country": "BD",
+        "region": "Barisal Division"
     }
 ]
