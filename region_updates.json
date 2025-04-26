@@ -29220,16 +29220,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "SmallCam"
                 ],
-                "report_time": 1717174068,
-                "author": "OUAI OUAI TU PARLES TROP",
-                "panoId": "yKEQ85-DHw02JWg3302E9w",
-                "lat": 48.98989,
-                "lng": -0.00277,
-                "date": "Apr 2024",
+                "report_time": 1745628105,
+                "author": "DarkShadow MH,ER,MC",
+                "id": "1365487984371044384",
+                "panoId": "_WqIXsH7YKA6rhR-KWvVAA",
+                "lat": 49.24163,
+                "lng": -0.86999,
+                "date": "Apr 2025",
                 "country": "FR",
-                "altitude": 62.21,
                 "region": "Normandy"
             },
             "Feb": {

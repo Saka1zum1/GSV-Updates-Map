@@ -38352,5 +38352,149 @@
         "lng": 121.52735,
         "country": "CN",
         "region": "Taipei City"
+    },
+    {
+        "spot_date": "2025/04/22",
+        "id": "1365283671686516758",
+        "links": [
+            "https://twitter.com/sentmantnamub/status/1914499772851089791?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/jKD5FcQCoXJrMdC76"
+        ],
+        "report_time": 1745579393,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "FWX4voVu0bAjwmunGQ9iag",
+        "lat": 34.69395,
+        "lng": 135.78391,
+        "country": "JP",
+        "region": "Nara"
+    },
+    {
+        "spot_date": "2025/04/19",
+        "id": "1365277598992695326",
+        "links": [
+            "https://twitter.com/22pg2nm/status/1913356623478968437?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/yb88Zgq4R3YsjeTCA"
+        ],
+        "report_time": 1745577945,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "ATDgmTSaL5FvV2VZk_2LfQ",
+        "lat": 34.69547,
+        "lng": 135.20523,
+        "country": "JP",
+        "region": "Hyogo"
+    },
+    {
+        "spot_date": "2025/04/24",
+        "id": "1365276009515057203",
+        "links": [
+            "https://twitter.com/rain_of_desert_/status/1915174910747668570?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/2qeDsSq4b6FsuvH39"
+        ],
+        "report_time": 1745577566,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "G6P6eWTCFDIm6wblmg_ZHg",
+        "lat": 35.17765,
+        "lng": 136.85554,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/04/24",
+        "id": "1365278389333921852",
+        "links": [
+            "https://twitter.com/damenamaqua/status/1915329947431817537?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/Sp7xP1WjF4hCUWa3A"
+        ],
+        "report_time": 1745578133,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "UKA5c7BfySnEp9ol1BEYFg",
+        "lat": 36.33606,
+        "lng": 140.29605,
+        "country": "JP",
+        "region": "Ibaraki"
+    },
+    {
+        "spot_date": "2025/04/17",
+        "id": "1365278138430652487",
+        "links": [
+            "https://twitter.com/kohaku0842dai/status/1912681057834660141?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/H9gt7fD7hZ3GHgS37"
+        ],
+        "report_time": 1745578073,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "Y5LfNK6zIPAK2kzSU6viEw",
+        "lat": 35.12169,
+        "lng": 136.96146,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/04/24",
+        "id": "1365280113742184469",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10234381840354658&set=pcb.3847333932078886",
+            "https://maps.app.goo.gl/dMreterj3dU9MVa36"
+        ],
+        "report_time": 1745578544,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "ZwrUrK-uSyONJD7UU1L86Q",
+        "lat": 41.72065,
+        "lng": -90.83098,
+        "country": "US",
+        "region": "Iowa"
+    },
+    {
+        "spot_date": "2025/04/25",
+        "id": "1365295586189901845",
+        "links": [
+            "https://maps.app.goo.gl/KpsZ2NrN1dCyNbKCA",
+            "https://maps.app.goo.gl/KpsZ2NrN1dCyNbKCA"
+        ],
+        "report_time": 1745582233,
+        "author": "whatsahuman?",
+        "spot_type": "Gen4",
+        "panoId": "kGv1_KstXklP5ThJcYqAig",
+        "lat": 56.16452,
+        "lng": 9.54497,
+        "country": "DK",
+        "region": "Central Denmark Region"
+    },
+    {
+        "spot_date": "2025/04/11",
+        "id": "1365451452902019264",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1179918760589542&set=pcb.1179918910589527",
+            "https://maps.app.goo.gl/DC4yduPQowEi1bVm8"
+        ],
+        "report_time": 1745619395,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "OX_sJqD19TY_IWuhqFnN4A",
+        "lat": 16.90756,
+        "lng": -92.09274,
+        "country": "MX",
+        "region": "Chiapas"
+    },
+    {
+        "spot_date": "2025/04/25",
+        "id": "1365466717299671071",
+        "links": [
+            "https://www.tiktok.com/@anilsoferreira86/video/7497264415054564613",
+            "https://maps.app.goo.gl/bb2tvTpetRd79chq6"
+        ],
+        "report_time": 1745623034,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "h-YEYCZ_wMyafW3CH0d3mA",
+        "lat": -19.30909,
+        "lng": -46.05324,
+        "country": "BR",
+        "region": "State of Minas Gerais"
     }
 ]
