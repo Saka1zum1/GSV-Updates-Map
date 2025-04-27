@@ -38560,5 +38560,37 @@
         "lng": 90.21981,
         "country": "BD",
         "region": "Barisal Division"
+    },
+    {
+        "spot_date": "2025/04/25",
+        "id": "1365707995165495439",
+        "links": [
+            "https://x.com/siratama_ra_men/status/1915613435624391028/photo/1",
+            "https://maps.app.goo.gl/vUEdvTRMXouu11zR6"
+        ],
+        "report_time": 1745680559,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "XiOS8TZmb2P0aeDOTMLtyA",
+        "lat": 35.61215,
+        "lng": 140.11526,
+        "country": "JP",
+        "region": "Chiba"
+    },
+    {
+        "spot_date": "2025/04/26",
+        "id": "1365716435241795584",
+        "links": [
+            "https://x.com/7PB5fKh46Dx5hqZ/status/1915953784427303174/photo/1",
+            "https://maps.app.goo.gl/rx8BcBKZFxRn37JJ7"
+        ],
+        "report_time": 1745682571,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "2aPzj4GFCJbXQrMXwDwSVg",
+        "lat": 34.69351,
+        "lng": 135.73426,
+        "country": "JP",
+        "region": "Nara"
     }
 ]

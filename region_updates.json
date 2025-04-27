@@ -20282,6 +20282,20 @@
                 "date": "Feb 2025",
                 "country": "JP",
                 "region": "Okayama"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745688241,
+                "author": "BurgerwithPeel",
+                "id": "1365740216303878215",
+                "panoId": "EbGZidklKH0UuKrYJP_Dqw",
+                "lat": 34.66556,
+                "lng": 133.96229,
+                "date": "Apr 2025",
+                "country": "JP",
+                "region": "Okayama"
             }
         },
         "Shimane": {
