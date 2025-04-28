@@ -38672,5 +38672,21 @@
         "lng": -61.50502,
         "country": "AR",
         "region": "Santa Fe Province"
+    },
+    {
+        "spot_date": "2025/04/28",
+        "id": "1366366065180934235",
+        "links": [
+            "https://www.facebook.com/reel/1645544639435291",
+            "https://maps.app.goo.gl/Vg4QQbrTXCE2Mi5J8"
+        ],
+        "report_time": 1745837455,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "bQ2qHHfreRXw1anzDE0whg",
+        "lat": 10.7016,
+        "lng": 122.56841,
+        "country": "PH",
+        "region": "Western Visayas"
     }
 ]
