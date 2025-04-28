@@ -18776,6 +18776,20 @@
                 "date": "Jan 2025",
                 "country": "JP",
                 "region": "Mie"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1745774387,
+                "author": "BurgerwithPeel",
+                "id": "1366101535490314242",
+                "panoId": "yhSShu6jovXXkJByx-RT9w",
+                "lat": 35.09048,
+                "lng": 136.59335,
+                "date": "Mar 2025",
+                "country": "JP",
+                "region": "Mie"
             }
         },
         "Fukuoka": {
@@ -38901,6 +38915,21 @@
                 "lat": 39.52591,
                 "lng": -9.02114,
                 "date": "Nov 2024",
+                "country": "PT",
+                "region": "Leiria District"
+            },
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1745790447,
+                "author": "DeSlagen",
+                "id": "1366168896125669507",
+                "panoId": "NXfD8HOhAe_xr9N-23kzxA",
+                "lat": 39.65511,
+                "lng": -8.68762,
+                "date": "Oct 2024",
                 "country": "PT",
                 "region": "Leiria District"
             }

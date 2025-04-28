@@ -38592,5 +38592,85 @@
         "lng": 135.73426,
         "country": "JP",
         "region": "Nara"
+    },
+    {
+        "spot_date": "2025/04/24",
+        "id": "1365989993289486401",
+        "links": [
+            "https://twitter.com/mito_tentekomai/status/1915358073574625369?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/mhM9aDjcY4NNyyZw8"
+        ],
+        "report_time": 1745747793,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "7iRiFpZK3RTvu_x68EqMvw",
+        "lat": 35.16864,
+        "lng": 136.85491,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/04/26",
+        "id": "1365939977200078941",
+        "links": [
+            "https://www.youtube.com/watch?v=hNfPelWQPtQ",
+            "https://maps.app.goo.gl/RYXUaaRm77LsZMoN6"
+        ],
+        "report_time": 1745735868,
+        "author": "anghelsal",
+        "spot_type": "Gen4",
+        "panoId": "EEONtpgWQenqdH25Jxnfjg",
+        "lat": 24.36018,
+        "lng": 88.62129,
+        "country": "BD",
+        "region": "Rajshahi Division"
+    },
+    {
+        "spot_date": "2025/04/23",
+        "id": "1366132667317354536",
+        "links": [
+            "https://es.linkedin.com/posts/incoprint-rotulacion-digital-sl_tumarcaenmovimiento-rotulaci\u00f3ndeveh\u00edculos-activity-7320778944650067969-A8dA",
+            "https://maps.app.goo.gl/x8GDULoBfkgtaM3r7"
+        ],
+        "report_time": 1745781809,
+        "author": "HoustonMediaHD",
+        "spot_type": "Gen4",
+        "panoId": "kpnhtCVlw2Ress6-WPMpkg",
+        "lat": 40.45878,
+        "lng": -3.46327,
+        "country": "ES",
+        "region": "Community of Madrid"
+    },
+    {
+        "spot_date": "2025/04/25",
+        "id": "1365951886489948182",
+        "links": [
+            "https://www.facebook.com/share/r/144phf1ZHk/?mibextid=wwXIfr",
+            "https://maps.app.goo.gl/4XkCaxCrkjGveJiM9"
+        ],
+        "report_time": 1745738707,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "isTo2W_rlPl9ILN9_8niTQ",
+        "lat": 37.93451,
+        "lng": 15.35707,
+        "country": "IT",
+        "region": "Sicily"
+    },
+    {
+        "spot_date": "2025/04/26",
+        "id": "1365949988626239618",
+        "links": [
+            "https://www.facebook.com/share/r/199soBcnir/?mibextid=wwXIfr",
+            "https://maps.app.goo.gl/ZZaUcfkbiVfotxNDA"
+        ],
+        "report_time": 1745738255,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "iTttm1x_JYIiwu6TAghR5g",
+        "lat": -31.2524,
+        "lng": -61.50502,
+        "country": "AR",
+        "region": "Santa Fe Province"
     }
 ]
