@@ -38688,5 +38688,69 @@
         "lng": 122.56841,
         "country": "PH",
         "region": "Western Visayas"
+    },
+    {
+        "spot_date": "2025/04/25",
+        "id": "1366469692834709504",
+        "links": [
+            "https://www.tiktok.com/@themountaineverests/video/7497146967202696450",
+            "https://maps.app.goo.gl/t7M5egGFy91oqPou7"
+        ],
+        "report_time": 1745862162,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "3OKCy3gktim-jAxMLFdE0A",
+        "lat": 56.96961,
+        "lng": 24.13238,
+        "country": "LV",
+        "region": "Riga"
+    },
+    {
+        "spot_date": "2025/04/27",
+        "id": "1366482747517833300",
+        "links": [
+            "https://www.threads.com/@capuajr/post/DI-HRPbxQjU",
+            "https://maps.app.goo.gl/fpV5fpqzhY2w4HHd9"
+        ],
+        "report_time": 1745865275,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "DEQ7FgT4LMX9_3KUH-nDqw",
+        "lat": -23.5697,
+        "lng": -46.60583,
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "spot_date": "2025/04/28",
+        "id": "1366523848853295165",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=3614871155482045&set=a.1407105279591988",
+            "https://maps.app.goo.gl/bAUEsmm5fPJC8Jjc7"
+        ],
+        "report_time": 1745875074,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "FJL4hPL1MYNDw_MQnVZO0g",
+        "lat": 44.83281,
+        "lng": 11.61627,
+        "country": "IT",
+        "region": "Emilia-Romagna"
+    },
+    {
+        "spot_date": "2025/04/28",
+        "id": "1366546889272463421",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9574425845944560&set=pcb.9574426362611175",
+            "https://maps.app.goo.gl/kwzqvF4WEMfJyj8A8"
+        ],
+        "report_time": 1745880567,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "rNPnd3gmrJ4mSgVLR7hQ7Q",
+        "lat": 37.28627,
+        "lng": -89.02236,
+        "country": "US",
+        "region": "Illinois"
     }
 ]
