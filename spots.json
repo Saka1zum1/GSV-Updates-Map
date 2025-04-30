@@ -38752,5 +38752,133 @@
         "lng": -89.02236,
         "country": "US",
         "region": "Illinois"
+    },
+    {
+        "spot_date": "2025/04/24",
+        "id": "1366763523752857610",
+        "links": [
+            "https://www.tiktok.com/@johanhudson/video/7497147426143309074",
+            "https://maps.app.goo.gl/RP9fFmSG6Jw81dc57"
+        ],
+        "report_time": 1745932217,
+        "author": "Cranno",
+        "spot_type": "Gen4",
+        "panoId": "4QnFGHRJ6ID2zOMRodnjxw",
+        "lat": 19.42713,
+        "lng": -99.16718,
+        "country": "MX",
+        "region": "Mexico City"
+    },
+    {
+        "spot_date": "2025/04/24",
+        "id": "1366769750474096711",
+        "links": [
+            "https://www.tiktok.com/@monito.banderas/video/7496955810996555026",
+            "https://maps.app.goo.gl/UwDks4qVak35yY25A"
+        ],
+        "report_time": 1745933701,
+        "author": "Cranno",
+        "spot_type": "Gen4",
+        "panoId": "0hhMupWxKlva4NqbcoeLnA",
+        "lat": 20.5656,
+        "lng": -103.13474,
+        "country": "MX",
+        "region": "Jalisco"
+    },
+    {
+        "spot_date": "2025/04/29",
+        "id": "1366813025713262754",
+        "links": [
+            "https://gazetadeespinho.blogspot.com/2025/04/o-google-maps-street-view-nas-ruas-sao.html?fbclid=IwY2xjawJ93J9leHRuA2FlbQIxMQABHl-m0af06cUjpcmKlKxyua33WW9UYu8mDfIiRIdQf6q6Oy3Us-mfSt0Y-XRw_aem_4yTkcgNSNX7wodx5i6-q1Q&m=1",
+            "https://maps.app.goo.gl/1rjdkW7SzWQNASaz9"
+        ],
+        "report_time": 1745944019,
+        "author": "Rob",
+        "spot_type": "Gen4",
+        "panoId": "90z3f0EgqM_2OxuVrWOx8A",
+        "lat": 41.02427,
+        "lng": -8.64212,
+        "country": "PT",
+        "region": "Porto District"
+    },
+    {
+        "spot_date": "2025/04/21",
+        "id": "1366833445522640956",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=772571745098217&set=pcb.4046281925592862",
+            "https://maps.app.goo.gl/VLmV5fq6A35yiYd49"
+        ],
+        "report_time": 1745948887,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "583ixOgAKtzwZ58MaJQ3jA",
+        "lat": 25.12958,
+        "lng": 121.74344,
+        "country": "CN",
+        "region": "Keelung City"
+    },
+    {
+        "spot_date": "2025/04/28",
+        "id": "1366833169118265484",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=3239692519517154&set=g.2753494244871643",
+            "https://maps.app.goo.gl/ocrTmcLhq5qQ35xR6"
+        ],
+        "report_time": 1745948822,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "S7DIOhyI7y9lAuOyuXIlKw",
+        "lat": 25.13044,
+        "lng": 121.7439,
+        "country": "CN",
+        "region": "Keelung City"
+    },
+    {
+        "spot_date": "2025/04/28",
+        "id": "1366860546091253893",
+        "links": [
+            "https://www.tiktok.com/@normal_person0101/photo/7498331072560663830",
+            "https://maps.app.goo.gl/d5YDNUtCVnn7b4cm8"
+        ],
+        "report_time": 1745955349,
+        "author": "Cranno",
+        "spot_type": "Gen4",
+        "panoId": "tLou_tPCcQVnqsPWRrltUA",
+        "lat": 55.22283,
+        "lng": 11.75886,
+        "country": "DK",
+        "region": "Region Zealand"
+    },
+    {
+        "spot_date": "2025/04/26",
+        "id": "1366890670161264644",
+        "links": [
+            "https://www.tiktok.com/@iirsanrsd/video/7497576132741516599",
+            "https://maps.app.goo.gl/LL9mmw71LyL6Q42D8"
+        ],
+        "report_time": 1745962531,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "4z9F6CxmzU8nh1CJStElTQ",
+        "lat": -2.17182,
+        "lng": 115.42022,
+        "country": "ID",
+        "region": "South Kalimantan"
+    },
+    {
+        "spot_date": "2025/04/29",
+        "id": "1366924615074713670",
+        "links": [
+            "https://www.tiktok.com/@dbris.06/video/7498865792457395474",
+            "https://maps.app.goo.gl/ayiHuHhb7PBGmHtQA"
+        ],
+        "report_time": 1745970624,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "siBTXPnYj5ZFqOxOW-7-lQ",
+        "lat": 20.30033,
+        "lng": -89.40915,
+        "country": "MX",
+        "region": "Yucatan"
     }
 ]
