@@ -14005,6 +14005,21 @@
                 "date": "Jan 2025",
                 "country": "PH",
                 "region": "Metro Manila"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newtrekker"
+                ],
+                "report_time": 1746016693,
+                "author": "Steve",
+                "id": "1367117843778240613",
+                "panoId": "WoFBg2pc-uIh5g3o5h6KlA",
+                "lat": 14.61782,
+                "lng": 121.0013,
+                "date": "Feb 2025",
+                "country": "PH",
+                "region": "Metro Manila"
             }
         },
         "SOCCSKSARGEN": {

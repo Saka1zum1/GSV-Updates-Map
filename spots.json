@@ -38880,5 +38880,149 @@
         "lng": -89.40915,
         "country": "MX",
         "region": "Yucatan"
+    },
+    {
+        "spot_date": "2025/04/29",
+        "id": "1366937983747625010",
+        "links": [
+            "https://maps.app.goo.gl/EXLL6D46wEzcapMDA",
+            "https://maps.app.goo.gl/EXLL6D46wEzcapMDA"
+        ],
+        "report_time": 1745973811,
+        "author": "whereisthegooglecar.com",
+        "spot_type": "Gen4",
+        "panoId": "0NPwaUJqgN5OUMq8bWqK7g",
+        "lat": 41.50826,
+        "lng": -90.67821,
+        "country": "US",
+        "region": "Iowa"
+    },
+    {
+        "spot_date": "2025/04/30",
+        "id": "1367149733784850504",
+        "links": [
+            "https://www.instagram.com/p/DJEoi5ZMthj/",
+            "https://maps.app.goo.gl/Rj2ZvEfcHcqKsMz79"
+        ],
+        "report_time": 1746024296,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "Ctrh15NfNzYQf7FdtnGF1A",
+        "lat": 43.31012,
+        "lng": 11.31703,
+        "country": "IT",
+        "region": "Tuscany"
+    },
+    {
+        "spot_date": "2025/04/30",
+        "id": "1367106257067970590",
+        "links": [
+            "https://twitter.com/tani_ka/status/1917479534108332173?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/KHgSdbvd2mcwf6P58"
+        ],
+        "report_time": 1746013931,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "EVwREmY-0dyFDzCWUf-w3Q",
+        "lat": 33.7591,
+        "lng": 132.70788,
+        "country": "JP",
+        "region": "Ehime"
+    },
+    {
+        "spot_date": "2025/04/29",
+        "id": "1367086719555600414",
+        "links": [
+            "https://www.tiktok.com/@fdh90s/video/7498553368760044806",
+            "https://maps.app.goo.gl/h56yZE9QrNndgX2d7"
+        ],
+        "report_time": 1746009273,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "NV-CzJi2ApF2uwWFRYdmEg",
+        "lat": -7.71157,
+        "lng": 114.07349,
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "spot_date": "2025/04/25",
+        "id": "1367086635451289703",
+        "links": [
+            "https://www.tiktok.com/@keww_786/video/7497123382828256567",
+            "https://maps.app.goo.gl/62GmjRYizhBnb4Dh6"
+        ],
+        "report_time": 1746009253,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "FNDZu8oMdqnaVxPEx4Z0nA",
+        "lat": -7.1598,
+        "lng": 108.20223,
+        "country": "ID",
+        "region": "West Java"
+    },
+    {
+        "spot_date": "2025/04/29",
+        "id": "1367086541482229812",
+        "links": [
+            "https://www.instagram.com/reel/DJB8kVqzPiY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/oFiSC8th6Cmn2K997"
+        ],
+        "report_time": 1746009230,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "Qg15fWY1VLK-thOlpYJljQ",
+        "lat": -7.42074,
+        "lng": 109.20435,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/04/29",
+        "id": "1367086414608728105",
+        "links": [
+            "https://www.facebook.com/reel/1448482166517701",
+            "https://maps.app.goo.gl/ht1RewTysTvg9kYz7"
+        ],
+        "report_time": 1746009200,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "zlD11RvVc36XNn-xML89YA",
+        "lat": 2.05902,
+        "lng": 99.95281,
+        "country": "ID",
+        "region": "North Sumatra"
+    },
+    {
+        "spot_date": "2025/04/30",
+        "id": "1367185752051417108",
+        "links": [
+            "https://www.leprogresstaffricain.fr/actualite-12814-saint-affrique-comment-fonctionne-la-voiture-de-google-street-view-qui-tourne-en-centre-ville",
+            "https://maps.app.goo.gl/NRQeD5DdreMiwSVT8"
+        ],
+        "report_time": 1746032884,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "34Sz8E13qU7Dh2lEsGMmZw",
+        "lat": 43.95873,
+        "lng": 2.8868,
+        "country": "FR",
+        "region": "Occitanie"
+    },
+    {
+        "spot_date": "2025/04/30",
+        "id": "1367256876978405376",
+        "links": [
+            "https://www.facebook.com/reel/2944478795754141",
+            "https://maps.app.goo.gl/ctzDs9ftHsqyJjdUA"
+        ],
+        "report_time": 1746049841,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "slN7xJui3gQMIs21zVXZjw",
+        "lat": 29.46598,
+        "lng": -95.02923,
+        "country": "US",
+        "region": "Texas"
     }
 ]
