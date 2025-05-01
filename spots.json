@@ -39024,5 +39024,21 @@
         "lng": -95.02923,
         "country": "US",
         "region": "Texas"
+    },
+    {
+        "spot_date": "2025/04/29",
+        "id": "1367365918413553765",
+        "links": [
+            "https://x.com/SimonSorensen9/status/1917213353174241435/photo/1",
+            "https://maps.app.goo.gl/Jh72f4U6DQmNY33c9"
+        ],
+        "report_time": 1746075839,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "nv48xa1VEn08KYRCOtOFAA",
+        "lat": 56.1668,
+        "lng": 9.5456,
+        "country": "DK",
+        "region": "Central Denmark Region"
     }
 ]

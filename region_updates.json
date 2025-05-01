@@ -61265,6 +61265,22 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "Bayam\u00f3n"
+            },
+            "Feb": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1746079318,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1367380512938790922",
+                "panoId": "3Wv9ShF9SRyJ4XoiGDjHQg",
+                "lat": 18.41786,
+                "lng": -66.14178,
+                "date": "Feb 2025",
+                "country": "PR",
+                "region": "Bayam\u00f3n"
             }
         },
         "Humacao": {
