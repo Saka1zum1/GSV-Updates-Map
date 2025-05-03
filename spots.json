@@ -39264,5 +39264,245 @@
         "lng": -78.40737,
         "country": "US",
         "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2025/05/01",
+        "id": "1367811135553671289",
+        "links": [
+            "https://www.tiktok.com/@arundutchsdiary/video/7499474504054361352",
+            "https://maps.app.goo.gl/ipfhmexDXi1raFxB9"
+        ],
+        "report_time": 1746181987,
+        "author": "Cranno",
+        "spot_type": "Gen4",
+        "panoId": "wjup6MftRUm8o9Qvl5MeXw",
+        "lat": 52.69961,
+        "lng": 4.81283,
+        "country": "NL",
+        "region": "North Holland"
+    },
+    {
+        "spot_date": "2025/05/02",
+        "id": "1367965605017292922",
+        "links": [
+            "https://maps.app.goo.gl/Dkd5k5csKLhZtuZE7",
+            "https://maps.app.goo.gl/Dkd5k5csKLhZtuZE7"
+        ],
+        "report_time": 1746218815,
+        "author": "oblo",
+        "spot_type": "Gen4",
+        "panoId": "Rc4O2H4s-9Af8xBLUYeo7Q",
+        "lat": 55.19808,
+        "lng": -118.77859,
+        "country": "CA",
+        "region": "Alberta"
+    },
+    {
+        "spot_date": "2025/05/01",
+        "id": "1368071396105650248",
+        "links": [
+            "https://www.facebook.com/michael.j.cregan/videos/3602890536510579",
+            "https://maps.app.goo.gl/cSXu6ifj43uPSJCq8"
+        ],
+        "report_time": 1746244038,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "PcHsgb6TH_xComVFTMoFzg",
+        "lat": 34.45342,
+        "lng": -119.75944,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2025/05/02",
+        "id": "1368070763885756427",
+        "links": [
+            "https://www.tiktok.com/@dbris.06/video/7499924496565161234",
+            "https://maps.app.goo.gl/7tedubMyYJA4kKA66"
+        ],
+        "report_time": 1746243887,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "R7nArblww6Np-RH2jqzdHg",
+        "lat": 20.30111,
+        "lng": -89.39634,
+        "country": "MX",
+        "region": "Yucatan"
+    },
+    {
+        "spot_date": "2025/04/28",
+        "id": "1368069590269169786",
+        "links": [
+            "https://www.tiktok.com/@guzflores/video/7498462772762594567",
+            "https://maps.app.goo.gl/NGRrTMju5jpDbYqV9"
+        ],
+        "report_time": 1746243607,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "U4jnb51eXmtxKwD3IclHmQ",
+        "lat": 19.41884,
+        "lng": -97.00544,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2022/08/19",
+        "id": "1366872200057192459",
+        "links": [
+            "https://en.paperjam.lu/article/google-street-view-updates-lux",
+            "https://maps.app.goo.gl/tYKDNRtB6Xua6WHN9"
+        ],
+        "report_time": 1745958127,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "jNIz7SPmoepGQpfzOj_r9w",
+        "lat": 49.60608,
+        "lng": 6.12955,
+        "country": "LU",
+        "region": "Luxembourg"
+    },
+    {
+        "spot_date": "2024/05/01",
+        "id": "1366409998363787295",
+        "links": [
+            "https://www.instagram.com/p/C6bkbyyLnSm",
+            "https://maps.app.goo.gl/E3aF1aYMgWw5VVXr7"
+        ],
+        "report_time": 1745847930,
+        "author": "Henrique",
+        "spot_type": "Gen4/H1",
+        "panoId": "1NIEY9d0hQiVcyh--YDBbQ",
+        "lat": -6.97613,
+        "lng": -63.09547,
+        "country": "BR",
+        "region": "State of Amazonas"
+    },
+    {
+        "spot_date": "2019/06/27",
+        "id": "1365452139618631866",
+        "links": [
+            "https://szegederarchivum.hu/balaton-mav-vonat-utazas-bufekocsi-utasellato-szeged/",
+            "https://maps.app.goo.gl/s8gQRyoq59eDuiXi6"
+        ],
+        "report_time": 1745619558,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "MzSkfRWtKxyKbPROIKWeNw",
+        "lat": 46.88906,
+        "lng": 17.89161,
+        "country": "HU",
+        "region": "Veszpr\u00e9m"
+    },
+    {
+        "spot_date": "2017/06/14",
+        "id": "1367956935969865850",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1230320577077776",
+            "https://maps.app.goo.gl/GH7bFr4MMsUyCYcu6"
+        ],
+        "report_time": 1746216748,
+        "author": "Henrique",
+        "spot_type": "Gen3",
+        "panoId": "aZBSK7vaOe4_ePbFEXfXvg",
+        "lat": -1.45155,
+        "lng": -48.47031,
+        "country": "BR",
+        "region": "State of Par\u00e1"
+    },
+    {
+        "spot_date": "2018/08/09",
+        "id": "1367149620156694529",
+        "links": [
+            "https://x.com/ralfschaber/status/1027627020476407808",
+            "https://maps.app.goo.gl/o6Ui3GAnWs6RVVxDA"
+        ],
+        "report_time": 1746024269,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "A3k0U_PWhIJFIwZ5KM4FGA",
+        "lat": 49.99819,
+        "lng": 8.41757,
+        "country": "DE",
+        "region": "Hessen"
+    },
+    {
+        "spot_date": "2014/09/08",
+        "id": "1367149164747821109",
+        "links": [
+            "https://commons.wikimedia.org/wiki/File:Google_Maps_streetview_car_in_Greece.jpg",
+            "https://maps.app.goo.gl/5KV4MLaB2c16p5gj9"
+        ],
+        "report_time": 1746024161,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "zKN3N6dGD1alEYd3URDZ0A",
+        "lat": 38.00107,
+        "lng": 23.7379,
+        "country": "GR",
+        "region": "Decentralized Administration of Attica"
+    },
+    {
+        "spot_date": "2025/04/07",
+        "id": "1368143533596348479",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9478559105590532&set=gm.3175048939319301&idorvanity=236738686483689",
+            "https://maps.app.goo.gl/X8LVPonxpspMEy2W7"
+        ],
+        "report_time": 1746261237,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "nyoWpn_jZhOxDsOpi8NgyA",
+        "lat": 56.94194,
+        "lng": 24.12889,
+        "country": "LV",
+        "region": "Riga"
+    },
+    {
+        "spot_date": "2025/05/01",
+        "id": "1368123783449280542",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1400607557737338&set=pcb.2078576105956416",
+            "https://maps.app.goo.gl/xoqs9WxRJgLDNWDK7"
+        ],
+        "report_time": 1746256528,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "b8vk4Sb5UMVcqeitvnH-WA",
+        "lat": 51.5196,
+        "lng": 3.88134,
+        "country": "NL",
+        "region": "Zeeland"
+    },
+    {
+        "spot_date": "2025/05/01",
+        "id": "1368194605442662473",
+        "links": [
+            "https://youtube.com/shorts/rfaPpKEHqpM?si=ioO6v-nOWViBrQUk",
+            "https://maps.app.goo.gl/tPmhPw93BBgnAJbD7"
+        ],
+        "report_time": 1746273413,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "xzt16Nd7f4zdu-6HX7qWYQ",
+        "lat": -6.27324,
+        "lng": 107.26912,
+        "country": "ID",
+        "region": "West Java"
+    },
+    {
+        "spot_date": "2025/05/02",
+        "id": "1368194508050665543",
+        "links": [
+            "https://www.tiktok.com/@khaerulrabbiyan832/video/7499797048066182405",
+            "https://maps.app.goo.gl/1YWs3amj54CSUBNv7"
+        ],
+        "report_time": 1746273390,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "0KTyV4tVZVfc6YhfIVKrwg",
+        "lat": -6.31962,
+        "lng": 107.02598,
+        "country": "ID",
+        "region": "West Java"
     }
 ]
