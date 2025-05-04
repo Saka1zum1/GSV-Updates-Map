@@ -39504,5 +39504,117 @@
         "lng": 107.02598,
         "country": "ID",
         "region": "West Java"
+    },
+    {
+        "spot_date": "2017/03/23",
+        "id": "1368369456551821402",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1613306038684831",
+            "https://maps.app.goo.gl/cKM6YHKSenF2HSu27"
+        ],
+        "report_time": 1746315101,
+        "author": "Henrique",
+        "spot_type": "Gen3",
+        "panoId": "5tStk1NCWX0xxj6ZTtBIGw",
+        "lat": -23.56409,
+        "lng": -46.68448,
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "spot_date": "2012/06/15",
+        "id": "1368365344602718228",
+        "links": [
+            "https://www.instagram.com/p/L5W8NAJ2sz",
+            "https://maps.app.goo.gl/Pd1UWKe1xarZTApNA"
+        ],
+        "report_time": 1746314121,
+        "author": "Henrique",
+        "spot_type": "Gen3",
+        "panoId": "4aEdwbohY4Uk1NHti8TUPQ",
+        "lat": -6.77202,
+        "lng": -36.98964,
+        "country": "BR",
+        "region": "State of Para\u00edba"
+    },
+    {
+        "spot_date": "2021/05/06",
+        "id": "1368327011197648947",
+        "links": [
+            "https://www.miestai.net/forumas/forum/kitos-diskusijos/visuomen%C4%97-ir-%C5%ABkis/13336-google-maps-street-view-google-gatvi%C5%B3-vaizdai/page25",
+            "https://maps.app.goo.gl/B293SRqqoiuNfshm9"
+        ],
+        "report_time": 1746304981,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "EXTDOZPNoInv3Yfxw7nILA",
+        "lat": 54.91496,
+        "lng": 23.89647,
+        "country": "LT",
+        "region": "Kaunas County"
+    },
+    {
+        "spot_date": "2021/02/03",
+        "id": "1368294882145210549",
+        "links": [
+            "https://www.facebook.com/outrouverquoiacaen/posts/3694577800628272/?locale=de_DE&_rdr",
+            "https://maps.app.goo.gl/4Qcscw5QwDzdw6G49"
+        ],
+        "report_time": 1746297321,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "xFqyhXCrFHefdqZNBeUE6w",
+        "lat": 49.15334,
+        "lng": -0.41586,
+        "country": "FR",
+        "region": "Normandy"
+    },
+    {
+        "spot_date": "2025/05/02",
+        "id": "1368428961675350017",
+        "links": [
+            "https://www.instagram.com/p/DJLN4yMR9iz",
+            "https://maps.app.goo.gl/AEo8X6774Vfpdd3V9"
+        ],
+        "report_time": 1746329288,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "Kw1WEW9sVYC6kH72S_EY6A",
+        "lat": 28.51488,
+        "lng": -81.49805,
+        "country": "US",
+        "region": "Florida"
+    },
+    {
+        "spot_date": "2025/05/04",
+        "id": "1368483154096165024",
+        "links": [
+            "https://twitter.com/akachan_jp/status/1918798373710438785?s=46&t=tC5_Z6VptBbWs_-VMWeeJA",
+            "https://maps.app.goo.gl/TBxscX534vqWZZ38A"
+        ],
+        "report_time": 1746342209,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "AiMpJoAb2Fe1rDtkmRlDeA",
+        "lat": 35.71707,
+        "lng": 139.46517,
+        "country": "JP",
+        "region": "Tokyo"
+    },
+    {
+        "spot_date": "2025/05/04",
+        "id": "1368508908330815569",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10161184322988479&set=pcb.10161184323043479",
+            "https://maps.app.goo.gl/hnL33QTykUFEH4JS6"
+        ],
+        "report_time": 1746348349,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "3tRbC1G51vwLeuMb12Bd4g",
+        "lat": 50.50054,
+        "lng": 13.63949,
+        "country": "CZ",
+        "region": "\u00dast\u00ed nad Labem Region"
     }
 ]
