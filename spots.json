@@ -39648,5 +39648,21 @@
         "lng": 90.44797,
         "country": "BD",
         "region": "Dhaka Division"
+    },
+    {
+        "spot_date": "2025/05/04",
+        "id": "1369016446809800887",
+        "links": [
+            "https://x.com/akachan_jp/status/1918798373710438785/photo/1",
+            "https://maps.app.goo.gl/YGXC355ZHPjCbLB49"
+        ],
+        "report_time": 1746469356,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "AiMpJoAb2Fe1rDtkmRlDeA",
+        "lat": 35.71707,
+        "lng": 139.46517,
+        "country": "JP",
+        "region": "Tokyo"
     }
 ]
