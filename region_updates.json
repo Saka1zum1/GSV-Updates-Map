@@ -8225,16 +8225,16 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "newstreet"
+                    "newroad"
                 ],
-                "report_time": 1715083361,
-                "author": "Alex*",
-                "panoId": "0FfxQSRNkxNz_r7A0AeC1w",
-                "lat": 42.42715,
-                "lng": -123.2934,
-                "date": "Apr 2024",
+                "report_time": 1746450491,
+                "author": "Unhook",
+                "id": "1368937324154458202",
+                "panoId": "ZLBemtHToxdZ0Tz9BSZVGg",
+                "lat": 44.76347,
+                "lng": -123.11137,
+                "date": "Apr 2025",
                 "country": "US",
-                "altitude": 291.09,
                 "region": "Oregon"
             },
             "Nov": {
@@ -10108,6 +10108,20 @@
                 "lat": 35.07515,
                 "lng": -112.20815,
                 "date": "Mar 2025",
+                "country": "US",
+                "region": "Arizona"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746450156,
+                "author": "Unhook",
+                "id": "1368935919872114698",
+                "panoId": "vVZQqZlY7iyfiXiBLgMprg",
+                "lat": 32.42902,
+                "lng": -110.74313,
+                "date": "Apr 2025",
                 "country": "US",
                 "region": "Arizona"
             }
@@ -18699,7 +18713,23 @@
             }
         },
         "Capital Region": {},
-        "Lille Langebro": {}
+        "Lille Langebro": {},
+        "Brande": {
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746449814,
+                "author": "Update Tracker Bot",
+                "id": "1368934484493336587",
+                "panoId": "bKuwiD72cC1KCdNKY_aQ4w",
+                "lat": 55.91093,
+                "lng": 9.18946,
+                "date": "Apr 2025",
+                "country": "DK",
+                "region": "Brande"
+            }
+        }
     },
     "JP": {
         "Miyazaki": {
@@ -24583,6 +24613,20 @@
                 "date": "Feb 2025",
                 "country": "BR",
                 "region": "State of S\u00e3o Paulo"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746450480,
+                "author": "Henrique",
+                "id": "1368937277283106857",
+                "panoId": "2CdTUJyZ2YeT5O-2Lz2ZEw",
+                "lat": -20.56145,
+                "lng": -47.51807,
+                "date": "Mar 2025",
+                "country": "BR",
+                "region": "State of S\u00e3o Paulo"
             }
         },
         "State of Rond\u00f4nia": {
@@ -26158,16 +26202,16 @@
             "Mar": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "newstreet"
                 ],
-                "report_time": 1716236121,
-                "author": "Franz",
-                "panoId": "uDSBxuAjDkCZDSpeYId_OA",
-                "lat": -20.07235,
-                "lng": -40.3651,
-                "date": "Mar 2024",
+                "report_time": 1746451635,
+                "author": "Henrique",
+                "id": "1368942123352723577",
+                "panoId": "kXS3nqEuP9SXuP44npcvoQ",
+                "lat": -19.52582,
+                "lng": -41.00699,
+                "date": "Mar 2025",
                 "country": "BR",
-                "altitude": 57.78,
                 "region": "State of Esp\u00edrito Santo"
             },
             "Feb": {
@@ -34786,6 +34830,20 @@
                 "lat": -36.98345,
                 "lng": 174.83127,
                 "date": "Feb 2025",
+                "country": "NZ",
+                "region": "Auckland"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746451121,
+                "author": "Update Tracker Bot",
+                "id": "1368939964720611408",
+                "panoId": "jsfLddlrjLy3YjblxjNlIQ",
+                "lat": -37.00229,
+                "lng": 174.81531,
+                "date": "Mar 2025",
                 "country": "NZ",
                 "region": "Auckland"
             }
@@ -50486,16 +50544,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newroad"
                 ],
-                "report_time": 1713958145,
+                "report_time": 1746450475,
                 "author": "Update Tracker Bot",
-                "panoId": "yFFyyeO4acKVC2Xq0O0dZg",
-                "lat": 14.03573,
-                "lng": 99.53272,
-                "date": "Apr 2024",
+                "id": "1368937254852104263",
+                "panoId": "dxfXDK2ZYGgGMXFXRAe6dQ",
+                "lat": 13.97145,
+                "lng": 99.82334,
+                "date": "Apr 2025",
                 "country": "TH",
-                "altitude": 34.19,
                 "region": "Kanchanaburi"
             }
         },
@@ -60091,16 +60150,17 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "newtown",
+                    "SmallCam"
                 ],
-                "report_time": 1714075246,
-                "author": "OUAI OUAI TU PARLES TROP",
-                "panoId": "K_Y8AVE38eV2JkuIzV1y_w",
-                "lat": 21.74427,
-                "lng": 87.35151,
-                "date": "Apr 2024",
+                "report_time": 1746450721,
+                "author": "vegetal",
+                "id": "1368938288718807141",
+                "panoId": "BJ-2ZIu8_tediXVdkwcBvw",
+                "lat": 19.99848,
+                "lng": 85.64804,
+                "date": "Apr 2025",
                 "country": "IN",
-                "altitude": 28.08,
                 "region": "Odisha"
             },
             "Mar": {
