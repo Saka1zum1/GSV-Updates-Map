@@ -39616,5 +39616,37 @@
         "lng": 13.63949,
         "country": "CZ",
         "region": "\u00dast\u00ed nad Labem Region"
+    },
+    {
+        "spot_date": "2025/04/26",
+        "id": "1368594170658291775",
+        "links": [
+            "https://www.facebook.com/share/1EbTeNwP43/?mibextid=wwXIfr",
+            "https://maps.app.goo.gl/agfYGerE5ZyALRt36"
+        ],
+        "report_time": 1746368677,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen4",
+        "panoId": "f9v86KdIRBr6WjqKhgKkAA",
+        "lat": 43.30052,
+        "lng": 28.04953,
+        "country": "BG",
+        "region": "Varna"
+    },
+    {
+        "spot_date": "2025/03/04",
+        "id": "1368705089396674590",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1052205416927591&set=pcb.1052205460260920",
+            "https://maps.app.goo.gl/FT6bMRm9rHYegnzG7"
+        ],
+        "report_time": 1746395122,
+        "author": "ktz",
+        "spot_type": "Gen4/H1",
+        "panoId": "FHTbAjUMkj0jha8KynJrEg",
+        "lat": 23.83068,
+        "lng": 90.44797,
+        "country": "BD",
+        "region": "Dhaka Division"
     }
 ]

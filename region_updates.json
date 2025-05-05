@@ -7051,17 +7051,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newstreet"
+                    "newregion"
                 ],
-                "report_time": 1715823071,
-                "author": "Franz",
-                "panoId": "_z5TfEJlbPSwquNE8EOSfQ",
-                "lat": 49.54955,
-                "lng": 15.9409,
-                "date": "Apr 2024",
+                "report_time": 1746425581,
+                "author": "Update Tracker Bot",
+                "id": "1368832841466646580",
+                "panoId": "TEKhyJkA4AQCwCwnOF93Ag",
+                "lat": 49.51055,
+                "lng": 15.41696,
+                "date": "Apr 2025",
                 "country": "CZ",
-                "altitude": 588.11,
                 "region": "Vyso\u010dina Region"
             }
         },
@@ -7699,6 +7698,20 @@
                 "lat": 43.41893,
                 "lng": -82.92662,
                 "date": "Dec 2024",
+                "country": "US",
+                "region": "Michigan"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746424305,
+                "author": "drew",
+                "id": "1368827491388620860",
+                "panoId": "ZyAw62Kv1BxWnOlmDK5erA",
+                "lat": 42.44425,
+                "lng": -84.01711,
+                "date": "Apr 2025",
                 "country": "US",
                 "region": "Michigan"
             }
@@ -12125,16 +12138,16 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "newyear"
                 ],
-                "report_time": 1715012444,
-                "author": "Alex*",
-                "panoId": "Zy8iXDekNbdFTpztukjgzA",
-                "lat": 40.82879,
-                "lng": -98.05328,
-                "date": "Apr 2024",
+                "report_time": 1746424393,
+                "author": "HoustonMediaHD",
+                "id": "1368827859858358333",
+                "panoId": "kfNrJ92Ae0CXEVDRfcwI9w",
+                "lat": 40.77037,
+                "lng": -96.7343,
+                "date": "Apr 2025",
                 "country": "US",
-                "altitude": 550.56,
                 "region": "Nebraska"
             },
             "Nov": {
@@ -38873,6 +38886,20 @@
                 "country": "PT",
                 "altitude": 378.53,
                 "region": "Castelo Branco District"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746422375,
+                "author": "Update Tracker Bot",
+                "id": "1368819395245117541",
+                "panoId": "PSpuYgPcqTDO7kDBds8SKQ",
+                "lat": 39.73713,
+                "lng": -8.13574,
+                "date": "Apr 2025",
+                "country": "PT",
+                "region": "Castelo Branco District"
             }
         },
         "Leiria District": {
@@ -39548,6 +39575,21 @@
                 "date": "Jan 2025",
                 "country": "CN",
                 "region": "Kaohsiung City"
+            },
+            "Apr": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1746422417,
+                "author": "snowf",
+                "id": "1368819572152598650",
+                "panoId": "R-gPzm7TlJhFwbjVzg1ZHw",
+                "lat": 22.79747,
+                "lng": 120.45735,
+                "date": "Apr 2025",
+                "country": "CN",
+                "region": "Kaohsiung City"
             }
         },
         "Taichung City": {
@@ -39998,16 +40040,18 @@
             },
             "Apr": {
                 "types": [
+                    "newcountry",
+                    "newyear",
                     "newregion"
                 ],
-                "report_time": 1713929132,
-                "author": "Update Tracker Bot",
-                "panoId": "8WawJsU33xtJCHlXYl41Kw",
-                "lat": 22.81182,
-                "lng": 120.62454,
-                "date": "Apr 2024",
+                "report_time": 1746422417,
+                "author": "snowf",
+                "id": "1368819572152598650",
+                "panoId": "kZDEBbsjHmzH8ZnOTmivVg",
+                "lat": 22.83464,
+                "lng": 120.49349,
+                "date": "Apr 2025",
                 "country": "CN",
-                "altitude": 85.44,
                 "region": "Pingtung County"
             },
             "Mar": {
@@ -49833,16 +49877,17 @@
         "Phrae": {
             "Apr": {
                 "types": [
+                    "newcountry",
                     "newregion"
                 ],
-                "report_time": 1714645414,
-                "author": "Franz",
-                "panoId": "q29ggyXGrws-UWOJFw8b1w",
-                "lat": 18.27789,
-                "lng": 100.25901,
-                "date": "Apr 2024",
+                "report_time": 1746423282,
+                "author": "snowf",
+                "id": "1368823201035194418",
+                "panoId": "sYud4bVTvyfIjT43wkkOXg",
+                "lat": 17.95389,
+                "lng": 99.96126,
+                "date": "Apr 2025",
                 "country": "TH",
-                "altitude": 182.33,
                 "region": "Phrae"
             },
             "Feb": {
