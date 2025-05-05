@@ -39664,5 +39664,149 @@
         "lng": 139.46517,
         "country": "JP",
         "region": "Tokyo"
+    },
+    {
+        "spot_date": "2018/07/18",
+        "id": "1369017453648019476",
+        "links": [
+            "https://www.bizeps.or.at/google-street-view-jetzt-auch-in-wien/",
+            "https://maps.app.goo.gl/G9HcQDUrjQA2kS3X6"
+        ],
+        "report_time": 1746469596,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "Z8tOlAruVl2_9wtGbbc_uQ",
+        "lat": 48.2112,
+        "lng": 16.36146,
+        "country": "AT",
+        "region": "Vienna"
+    },
+    {
+        "spot_date": "2019/05/06",
+        "id": "1369015295842320464",
+        "links": [
+            "https://epoznan.pl/news-news-139287-samochody_google_znowu_odwiedza_poznan",
+            "https://maps.app.goo.gl/fAX6E6NnbDwDJmrC7"
+        ],
+        "report_time": 1746469081,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "hsd9I0xp3VTWEzFFwrgcHA",
+        "lat": 52.40563,
+        "lng": 16.9381,
+        "country": "PL",
+        "region": "Greater Poland Voivodeship"
+    },
+    {
+        "spot_date": "2024/08/07",
+        "id": "1368907751639486575",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10160869204607750&set=a.89715432749",
+            "https://maps.app.goo.gl/fJy6NYmHzbDoDA1v9"
+        ],
+        "report_time": 1746443441,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4/H1",
+        "panoId": "CpCP4y3podKWj-kMqO4kPw",
+        "lat": 47.16765,
+        "lng": 0.24481,
+        "country": "FR",
+        "region": "Centre-Val de Loire"
+    },
+    {
+        "spot_date": "2018/10/27",
+        "id": "1368596590402605177",
+        "links": [
+            "https://www.document.no/2018/11/01/men-google-kan-gjore-hva-de-vil/",
+            "https://maps.app.goo.gl/yTfbWQ8BfbYteHeB9"
+        ],
+        "report_time": 1746369254,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "1J8RPtMmUtgI-EEBruYY-Q",
+        "lat": 59.51392,
+        "lng": 10.20454,
+        "country": "NO",
+        "region": "Vestfold"
+    },
+    {
+        "spot_date": "2021/10/15",
+        "id": "1368585645945262120",
+        "links": [
+            "https://de.linkedin.com/posts/frank-fasse-852bb61b2_buderus-heizung-blauerplanet-activity-6854745880969408512-5cjg",
+            "https://maps.app.goo.gl/T1aRYo7AxS5nm8WC7"
+        ],
+        "report_time": 1746366645,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "gxXhHG64WYiRiT3NpNIyMA",
+        "lat": 50.59011,
+        "lng": 8.7172,
+        "country": "DE",
+        "region": "Hessen"
+    },
+    {
+        "spot_date": "2013/04/23",
+        "id": "1369053812685541407",
+        "links": [
+            "https://calisia.pl/kalisz-jest-w-street-view-,31753",
+            "https://maps.app.goo.gl/YZPvJaG39RbhWcpv7"
+        ],
+        "report_time": 1746478264,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "o5YkVVe46LhmMHGlg-bV3A",
+        "lat": 51.76064,
+        "lng": 18.08963,
+        "country": "PL",
+        "region": "Greater Poland Voivodeship"
+    },
+    {
+        "spot_date": "2011/11/27",
+        "id": "1369037795397603359",
+        "links": [
+            "https://www.flickr.com/photos/25477837@N08/6414006157/in/pool-1039326@N24/",
+            "https://maps.app.goo.gl/rNE5hVaniVhJdNkV7"
+        ],
+        "report_time": 1746474445,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "CB7YxysJDu1Ty0kPxUmcgQ",
+        "lat": 47.70578,
+        "lng": 17.6341,
+        "country": "HU",
+        "region": "Gyor-Moson-Sopron"
+    },
+    {
+        "spot_date": "2019/08/06",
+        "id": "1369034523928428737",
+        "links": [
+            "https://www.oberpfalzecho.de/beitrag/google-street-view-auto-unterwegs-in-der-nordoberpfalz",
+            "https://maps.app.goo.gl/gFapm7N7hD7yACHZ8"
+        ],
+        "report_time": 1746473665,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "THsvGLLqG8S0SgVjZ4fw3Q",
+        "lat": 49.67886,
+        "lng": 12.16515,
+        "country": "DE",
+        "region": "Bavaria"
+    },
+    {
+        "spot_date": "2012/07/30",
+        "id": "1369018364088946851",
+        "links": [
+            "https://www.youtube.com/watch?v=wlCrywYa4M8",
+            "https://maps.app.goo.gl/MevzYWsrNvCiReNd6"
+        ],
+        "report_time": 1746469813,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "0DmjUi4PEnh9YstIAUSZ8w",
+        "lat": 51.26201,
+        "lng": 15.55935,
+        "country": "PL",
+        "region": "Lower Silesian Voivodeship"
     }
 ]

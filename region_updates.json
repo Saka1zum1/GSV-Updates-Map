@@ -51536,7 +51536,23 @@
                 "region": "Lamphun"
             }
         },
-        "Mukdahan": {}
+        "Mukdahan": {
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1746487945,
+                "author": "DanolD",
+                "id": "1369094415431241809",
+                "panoId": "gMzhTugyfCImmIxGQvog2A",
+                "lat": 16.43517,
+                "lng": 104.63958,
+                "date": "Apr 2025",
+                "country": "TH",
+                "region": "Mukdahan"
+            }
+        }
     },
     "OM": {
         "Dhofar Governorate": {
