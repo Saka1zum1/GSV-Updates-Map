@@ -7909,6 +7909,20 @@
                 "date": "Apr 2025",
                 "country": "US",
                 "region": "District of Columbia"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746498608,
+                "author": "HoustonMediaHD",
+                "id": "1369139142276939776",
+                "panoId": "jw5Ovc-3LTAiKL5d1biDZw",
+                "lat": 38.87899,
+                "lng": -77.03489,
+                "date": "Mar 2025",
+                "country": "US",
+                "region": "District of Columbia"
             }
         },
         "Nevada": {
@@ -9763,6 +9777,20 @@
                 "lat": 38.84245,
                 "lng": -76.965,
                 "date": "Apr 2025",
+                "country": "US",
+                "region": "Maryland"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746498608,
+                "author": "HoustonMediaHD",
+                "id": "1369139142276939776",
+                "panoId": "_q7TIuzrzJl3BLuX1wFgzg",
+                "lat": 38.8534,
+                "lng": -76.93705,
+                "date": "Mar 2025",
                 "country": "US",
                 "region": "Maryland"
             }
@@ -19737,16 +19765,17 @@
             "Apr": {
                 "types": [
                     "newregion",
+                    "newyear",
                     "newroad"
                 ],
-                "report_time": 1716808150,
-                "author": "GeoLuminous",
-                "panoId": "-wAXxuJVJcw84P3XS06hqg",
-                "lat": 36.4559,
-                "lng": 139.79034,
-                "date": "Apr 2024",
+                "report_time": 1746524409,
+                "author": "BurgerwithPeel",
+                "id": "1369247358961057873",
+                "panoId": "qys3BPiijRpd1o1cIoUHZQ",
+                "lat": 36.79988,
+                "lng": 139.92406,
+                "date": "Apr 2025",
                 "country": "JP",
-                "altitude": 77.84,
                 "region": "Tochigi"
             }
         },
@@ -20468,6 +20497,20 @@
                 "lat": 33.14503,
                 "lng": 131.11116,
                 "date": "Mar 2025",
+                "country": "JP",
+                "region": "Kumamoto"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746524359,
+                "author": "BurgerwithPeel",
+                "id": "1369247149685997619",
+                "panoId": "KTy4yS55gkYzRbz1fWy7nA",
+                "lat": 32.1339,
+                "lng": 130.81484,
+                "date": "Apr 2025",
                 "country": "JP",
                 "region": "Kumamoto"
             }
@@ -45684,6 +45727,20 @@
                 "date": "May 2024",
                 "country": "MX",
                 "altitude": 2197.98,
+                "region": "Tlaxcala"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746519870,
+                "author": "Update Tracker Bot",
+                "id": "1369228318280388629",
+                "panoId": "OruQxCZMnAv_duObeOW_Ew",
+                "lat": 19.34659,
+                "lng": -98.28579,
+                "date": "Feb 2025",
+                "country": "MX",
                 "region": "Tlaxcala"
             }
         },
