@@ -39808,5 +39808,85 @@
         "lng": 15.55935,
         "country": "PL",
         "region": "Lower Silesian Voivodeship"
+    },
+    {
+        "spot_date": "2025/05/06",
+        "id": "1369272235847716914",
+        "links": [
+            "https://twitter.com/aginverse/status/1919579616936919223/photo/1",
+            "https://maps.app.goo.gl/EBo5yTR9BBPfmUN4A"
+        ],
+        "report_time": 1746530340,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "DJV1N4rA36uIkgwr8cU-nA",
+        "lat": -6.22351,
+        "lng": 106.84125,
+        "country": "ID",
+        "region": "Jakarta"
+    },
+    {
+        "spot_date": "2025/05/05",
+        "id": "1369257986274496512",
+        "links": [
+            "https://www.tiktok.com/@adv.h.anwar_musyadad/video/7500771318023949574?is_from_webapp=1&sender_device=pc&web_id=7274582088686306817",
+            "https://maps.app.goo.gl/RpVz4izje43oXES6A"
+        ],
+        "report_time": 1746526943,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "rOR2HImi49DuJga2p1Ul1Q",
+        "lat": -6.2957,
+        "lng": 107.05767,
+        "country": "ID",
+        "region": "West Java"
+    },
+    {
+        "spot_date": "2025/05/05",
+        "id": "1369010603791745106",
+        "links": [
+            "https://x.com/Nobushi15892740/status/1919284054236533165/photo/1",
+            "https://maps.app.goo.gl/tMRcjJFm4tNDPGPW9"
+        ],
+        "report_time": 1746467962,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "t9btAH7n_0awrfME8Y0kPQ",
+        "lat": 38.23137,
+        "lng": 140.32119,
+        "country": "JP",
+        "region": "Yamagata"
+    },
+    {
+        "spot_date": "2018/08/14",
+        "id": "1369400594279694377",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1471735826260083&set=pcb.1471736579593341",
+            "https://maps.app.goo.gl/z1R4sJjdqCft57xM6"
+        ],
+        "report_time": 1746560943,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "soTb_PHsbj4y5_4jHIQHmw",
+        "lat": 47.09506,
+        "lng": 5.49649,
+        "country": "FR",
+        "region": "Bourgogne-Franche-Comt\u00e9"
+    },
+    {
+        "spot_date": "2018/08/16",
+        "id": "1369399691233591346",
+        "links": [
+            "https://www.grani.lv/daugavpils/99226-fotofakt-google-street-view-vnov-v-daugavpilse.html",
+            "https://maps.app.goo.gl/txCvpc3JzdWH6DZCA"
+        ],
+        "report_time": 1746560728,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "Kfb2dpcP_VZW7_kHPfTgkA",
+        "lat": 55.8715,
+        "lng": 26.51722,
+        "country": "LV",
+        "region": "Daugavpils"
     }
 ]
