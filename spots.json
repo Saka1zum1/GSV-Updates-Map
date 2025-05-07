@@ -39888,5 +39888,149 @@
         "lng": 26.51722,
         "country": "LV",
         "region": "Daugavpils"
+    },
+    {
+        "spot_date": "2025/05/07",
+        "id": "1369618766555516939",
+        "links": [
+            "https://www.tiktok.com/@deeandra_12/video/7501564478119611653",
+            "https://maps.app.goo.gl/cBJepFxuFbhWTFyD6"
+        ],
+        "report_time": 1746612960,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "0VcFnMXWEWh0f4dUSv06Uw",
+        "lat": -8.30499,
+        "lng": 112.96912,
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "spot_date": "2025/05/06",
+        "id": "1369618620795191346",
+        "links": [
+            "https://youtu.be/nOt4UWNrz9k?si=kUEx8Xx1qltsdzFP",
+            "https://maps.app.goo.gl/Hby24z2bECMU24fa7"
+        ],
+        "report_time": 1746612925,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "e_cHusm1anCuYjJqMHMbWA",
+        "lat": -6.17935,
+        "lng": 106.83201,
+        "country": "ID",
+        "region": "Jakarta"
+    },
+    {
+        "spot_date": "2025/05/02",
+        "id": "1369618527895683184",
+        "links": [
+            "https://www.facebook.com/reel/671475032265435",
+            "https://maps.app.goo.gl/NNXjz5CuCcmg9H9c9"
+        ],
+        "report_time": 1746612903,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "A3pXGONIoMPbk1r09G-gGA",
+        "lat": -6.70353,
+        "lng": 108.44222,
+        "country": "ID",
+        "region": "West Java"
+    },
+    {
+        "spot_date": "2025/05/05",
+        "id": "1369169180498202654",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9448229241972032",
+            "https://maps.app.goo.gl/rKDtDQKXoUhwzMuv7"
+        ],
+        "report_time": 1746505770,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "ZiC-h7nfRTH8IUm-monuNw",
+        "lat": 44.00787,
+        "lng": -76.03792,
+        "country": "US",
+        "region": "New York"
+    },
+    {
+        "spot_date": "2023/06/23",
+        "id": "1369311576041197623",
+        "links": [
+            "https://diagnostykasamochodowahajnowka.weebly.com/",
+            "https://maps.app.goo.gl/2kAqPRp6e859FzVf9"
+        ],
+        "report_time": 1746539720,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "8VPvFIBj3Y8WDUq_1wV3LQ",
+        "lat": 52.74079,
+        "lng": 23.56702,
+        "country": "PL",
+        "region": "Podlaskie Voivodeship"
+    },
+    {
+        "spot_date": "2019/06/24",
+        "id": "1369310320736338001",
+        "links": [
+            "https://sib.net.hr/vijesti/ostalo/86649/nasmijesite-se-google-vozilo-je-na-ulicama-osijeka/",
+            "https://maps.app.goo.gl/BpQFt558GHfKSgjd7"
+        ],
+        "report_time": 1746539421,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "wPNhv4osAiotBomVvFBrNQ",
+        "lat": 45.56185,
+        "lng": 18.67959,
+        "country": "HR",
+        "region": "Osijek-Baranja County"
+    },
+    {
+        "spot_date": "2019/06/19",
+        "id": "1369307962891571270",
+        "links": [
+            "https://vittsjobjarnum.nu/artiklar/reportage/7674-google-street-view-fotade-i-vittsjoe.html",
+            "https://maps.app.goo.gl/KGdMP4jVfmZNBEv97"
+        ],
+        "report_time": 1746538858,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "8aaeEpvuf7YWsnH-YNcSyA",
+        "lat": 56.35358,
+        "lng": 13.66102,
+        "country": "SE",
+        "region": "Sk\u00e5ne County"
+    },
+    {
+        "spot_date": "2020/08/28",
+        "id": "1369306614850388008",
+        "links": [
+            "https://www.facebook.com/oztuneauto/videos/224974535624372",
+            "https://maps.app.goo.gl/7Ti2J2h4getWjMh97"
+        ],
+        "report_time": 1746538537,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "fMzVicFUS3vm0NrUWtgrgw",
+        "lat": -27.6628,
+        "lng": 153.13363,
+        "country": "AU",
+        "region": "Queensland"
+    },
+    {
+        "spot_date": "2018/09/26",
+        "id": "1369303715244281997",
+        "links": [
+            "https://www.leverkusen.com/guide/Bild.php?view=54151",
+            "https://maps.app.goo.gl/qA7AF8bRP4WVsDR19"
+        ],
+        "report_time": 1746537846,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "j2LmyathJedzj9A1pe3f3w",
+        "lat": 51.03404,
+        "lng": 6.98833,
+        "country": "DE",
+        "region": "North Rhine-Westphalia"
     }
 ]

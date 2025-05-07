@@ -28229,16 +28229,17 @@
             },
             "Feb": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newroad"
                 ],
-                "report_time": 1712236050,
-                "author": "vegetal",
-                "panoId": "6JbZiSRmlRzC-BczUEVZnA",
-                "lat": 3.08484,
-                "lng": 101.48687,
-                "date": "Feb 2024",
+                "report_time": 1746579232,
+                "author": "Franz",
+                "id": "1369477302240411780",
+                "panoId": "TxP7aiv6bpnKPpaOHLMd_Q",
+                "lat": 3.70675,
+                "lng": 101.09768,
+                "date": "Feb 2025",
                 "country": "MY",
-                "altitude": 15.69,
                 "region": "Selangor"
             },
             "Oct": {
@@ -28605,6 +28606,20 @@
                 "lat": 2.21627,
                 "lng": 102.29422,
                 "date": "Nov 2024",
+                "country": "MY",
+                "region": "Malacca"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746579232,
+                "author": "Franz",
+                "id": "1369477302240411780",
+                "panoId": "2Fj3U3M5ADY15XiAITwRtw",
+                "lat": 2.47548,
+                "lng": 102.17795,
+                "date": "Mar 2025",
                 "country": "MY",
                 "region": "Malacca"
             }
