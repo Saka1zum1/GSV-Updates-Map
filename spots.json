@@ -40032,5 +40032,53 @@
         "lng": 6.98833,
         "country": "DE",
         "region": "North Rhine-Westphalia"
+    },
+    {
+        "spot_date": "2025/05/07",
+        "id": "1369702123041718342",
+        "links": [
+            "https://www.tiktok.com/@barbandodie/video/7501727556270394632?_t=ZN-8wA0NdHAbiw&_r=1",
+            "https://maps.app.goo.gl/UDEkG5Ph4Z6GijeV9"
+        ],
+        "report_time": 1746632833,
+        "author": "Rob",
+        "spot_type": "Gen4",
+        "panoId": "WhxUKA-59tmsq2OOXzS27g",
+        "lat": 43.42991,
+        "lng": -80.48875,
+        "country": "CA",
+        "region": "Ontario"
+    },
+    {
+        "spot_date": "2025/05/07",
+        "id": "1369754690895614044",
+        "links": [
+            "https://www.tiktok.com/@fernando.rochita/video/7501770111284464904",
+            "https://maps.app.goo.gl/iZWnLmoB5ZEd69M16"
+        ],
+        "report_time": 1746645367,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "LimdJV37DkvrvdxlQgYyPw",
+        "lat": 19.36328,
+        "lng": -90.71897,
+        "country": "MX",
+        "region": "Campeche"
+    },
+    {
+        "spot_date": "2025/05/06",
+        "id": "1369753950001303817",
+        "links": [
+            "https://www.tiktok.com/@jair.mendez74/video/7501463542239939857",
+            "https://maps.app.goo.gl/iMCXZ4BJK3EbcjqM8"
+        ],
+        "report_time": 1746645190,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "3vImjoqI680KelNVaPoxsA",
+        "lat": 14.88323,
+        "lng": -92.2989,
+        "country": "MX",
+        "region": "Chiapas"
     }
 ]

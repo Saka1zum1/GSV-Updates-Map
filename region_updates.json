@@ -62608,6 +62608,21 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "Juncos"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1746627738,
+                "author": "Franz",
+                "id": "1369680749598347284",
+                "panoId": "Qafj_MviE6FEJgc3TcB4fA",
+                "lat": 18.20128,
+                "lng": -65.88947,
+                "date": "Jan 2025",
+                "country": "PR",
+                "region": "Juncos"
             }
         },
         "Gurabo": {
