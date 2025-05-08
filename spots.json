@@ -40176,5 +40176,117 @@
         "lng": -92.21573,
         "country": "MX",
         "region": "Chiapas"
+    },
+    {
+        "spot_date": "2021/11/24",
+        "id": "1370031799216111658",
+        "links": [
+            "https://www.youtube.com/watch?v=deeSV5Ncn7A",
+            "https://maps.app.goo.gl/koLFVN9gYiwn4JFt8"
+        ],
+        "report_time": 1746711434,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "WBGMhP6Tbm2_zximt2O2iA",
+        "lat": -37.84042,
+        "lng": 144.96662,
+        "country": "AU",
+        "region": "Victoria"
+    },
+    {
+        "spot_date": "2022/09/17",
+        "id": "1369711248807301120",
+        "links": [
+            "https://tech.walla.co.il/item/3529197",
+            "https://maps.app.goo.gl/HppAtxG5Qu4S8XWs7"
+        ],
+        "report_time": 1746635009,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "_xSRiHK_JFy8NXEyGa98-A",
+        "lat": 32.06778,
+        "lng": 34.78583,
+        "country": "IL",
+        "region": "Tel Aviv District"
+    },
+    {
+        "spot_date": "2014/09/25",
+        "id": "1370045736741245019",
+        "links": [
+            "https://www.dalmacijanews.hr/clanak/rns5-googleov-automobil-atrakcija-na-splitskim-skalicama/",
+            "https://maps.app.goo.gl/9bhg137MBnRAH4wS7"
+        ],
+        "report_time": 1746714757,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "nvf9-UWoKYyBmLCnYythvg",
+        "lat": 43.51727,
+        "lng": 16.43562,
+        "country": "HR",
+        "region": "Split-Dalmatia County"
+    },
+    {
+        "spot_date": "2011/09/26",
+        "id": "1369716561975316704",
+        "links": [
+            "https://depositphotos.com/editorial/paraty-rio-janeiro-brazil-september-2011-car-google-maps-360-298189408.html",
+            "https://maps.app.goo.gl/Yi9uZXi2DPsWjkKb7"
+        ],
+        "report_time": 1746636276,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "heB8vPJfccrX_46enWAbWw",
+        "lat": -23.22009,
+        "lng": -44.71202,
+        "country": "BR",
+        "region": "State of Rio de Janeiro"
+    },
+    {
+        "spot_date": "2010/09/01",
+        "id": "1370043848545275945",
+        "links": [
+            "https://www.flickr.com/photos/jarnakommunikation/4948312196/in/photostream/",
+            "https://maps.app.goo.gl/XPeTL7TLUwexmG4r7"
+        ],
+        "report_time": 1746714307,
+        "author": "okay1272",
+        "spot_type": "Gen1/2",
+        "panoId": "vW2_cGPQIRChg0VyvzOR9w",
+        "lat": 59.06874,
+        "lng": 17.61794,
+        "country": "SE",
+        "region": "Stockholm County"
+    },
+    {
+        "spot_date": "2011/09/08",
+        "id": "1369033802931896342",
+        "links": [
+            "https://www.sansalvo.net/notizie/attualita/17463/lauto-di-google-maps-a-san-salvo#gallery-2",
+            "https://maps.app.goo.gl/hMKE5YtoYjYtDakS9"
+        ],
+        "report_time": 1746473494,
+        "author": "okay1272",
+        "spot_type": "Gen1/2",
+        "panoId": "2qp9M_gagpjr3LddyM5L1g",
+        "lat": 42.04734,
+        "lng": 14.72912,
+        "country": "IT",
+        "region": "Abruzzo"
+    },
+    {
+        "spot_date": "2011/07/08",
+        "id": "1368589459544870953",
+        "links": [
+            "https://www.asahi.com/special/10005/TKY201107080453.html",
+            "https://maps.app.goo.gl/bZx33oQLPskmkdB99"
+        ],
+        "report_time": 1746367554,
+        "author": "\u2d53\u2d5c\u2d30\u2d3d\u2d30\u2d5c\u2d30",
+        "spot_type": "Gen1/2",
+        "panoId": "ndIsbBQMqdO743sZ4HN1gQ",
+        "lat": 38.88846,
+        "lng": 141.58776,
+        "country": "JP",
+        "region": "Miyagi"
     }
 ]
