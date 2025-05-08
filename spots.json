@@ -40080,5 +40080,101 @@
         "lng": -92.2989,
         "country": "MX",
         "region": "Chiapas"
+    },
+    {
+        "spot_date": "2025/05/08",
+        "id": "1369966170152636459",
+        "links": [
+            "https://www.tiktok.com/@dedstore.id/video/7501949867133046071?_t=ZS-8wBEuS37Mws&_r=1",
+            "https://maps.app.goo.gl/cggWw8LxYo97Jizi7"
+        ],
+        "report_time": 1746695787,
+        "author": "witchpunk",
+        "spot_type": "Gen4",
+        "panoId": "NYBHTpSyjkMug_Hlk2E8Uw",
+        "lat": -8.12197,
+        "lng": 113.16779,
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "spot_date": "2025/05/07",
+        "id": "1370000793146621963",
+        "links": [
+            "https://x.com/takenoco1995/status/1919881238674055480?t=QfOa-Li_YTJSSL5n_eCkog&s=19",
+            "https://maps.app.goo.gl/HLc8aghjCnjfqwLK9"
+        ],
+        "report_time": 1746704042,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "uRw2HSgt5EacyVl5u6Dw2Q",
+        "lat": 35.67186,
+        "lng": 139.45907,
+        "country": "JP",
+        "region": "Tokyo"
+    },
+    {
+        "spot_date": "2025/05/07",
+        "id": "1369999925672284242",
+        "links": [
+            "https://x.com/aNeSw94bw388577/status/1920097783375159301?t=-O_dL3-13fqbekGvwx9Ovg&s=19",
+            "https://www.google.com/maps/@34.573418,133.77557,3a,51.58419y,137.38362h,87.87405t/data=!3m4!1e1!3m2!1sobnygKRyPGnogqOCsxa1ug!2e0"
+        ],
+        "report_time": 1746703835,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "obnygKRyPGnogqOCsxa1ug",
+        "lat": 34.57344,
+        "lng": 133.77557,
+        "country": "JP",
+        "region": "Okayama"
+    },
+    {
+        "spot_date": "2025/05/08",
+        "id": "1369997330899533864",
+        "links": [
+            "https://x.com/SudoVlog/status/1920402128339628296?t=iwcxc30IjGLaq8IXZqtsHg&s=19",
+            "https://maps.app.goo.gl/gpeh5zHfmGznbpJB6"
+        ],
+        "report_time": 1746703217,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "CkG377cGlgN6e6aRyW21RA",
+        "lat": 35.63483,
+        "lng": 139.44677,
+        "country": "JP",
+        "region": "Tokyo"
+    },
+    {
+        "spot_date": "2025/05/02",
+        "id": "1370006178406465593",
+        "links": [
+            "https://www.tiktok.com/@koadao7/video/7499798132180454678",
+            "https://maps.app.goo.gl/YqAntzMxfaMkMfEm8"
+        ],
+        "report_time": 1746705326,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "sIrJKRnWtwfw78dkV4hJSg",
+        "lat": 28.56469,
+        "lng": -16.33155,
+        "country": "ES",
+        "region": "Canary Islands"
+    },
+    {
+        "spot_date": "2025/05/07",
+        "id": "1369842212199858247",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1003023218631218&set=pcb.1003023295297877",
+            "https://maps.app.goo.gl/pUBbZ264yb63aUsc7"
+        ],
+        "report_time": 1746666233,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "rzfDr6hhhv5CGK50P1rfCA",
+        "lat": 15.04657,
+        "lng": -92.21573,
+        "country": "MX",
+        "region": "Chiapas"
     }
 ]
