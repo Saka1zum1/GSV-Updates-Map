@@ -40288,5 +40288,69 @@
         "lng": 141.58776,
         "country": "JP",
         "region": "Miyagi"
+    },
+    {
+        "spot_date": "2025/05/08",
+        "id": "1370089787083718699",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10231624102837870&set=pcb.10231623727468486",
+            "https://maps.app.goo.gl/CYQU5waN8b4oHw6j7"
+        ],
+        "report_time": 1746725260,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "zI50WzQQI9AxWYJvQnG1Ag",
+        "lat": 56.42936,
+        "lng": 10.05515,
+        "country": "DK",
+        "region": "Central Denmark Region"
+    },
+    {
+        "spot_date": "2025/05/08",
+        "id": "1370091045408211115",
+        "links": [
+            "https://x.com/babblingbates/status/1920520371322651037/photo/1",
+            "https://maps.app.goo.gl/3YpAig6AhsMeg6dq8"
+        ],
+        "report_time": 1746725560,
+        "author": "HoustonMediaHD",
+        "spot_type": "Gen4",
+        "panoId": "Y7SYyi_FpTNcODjWMnwZdw",
+        "lat": 54.28077,
+        "lng": -0.40451,
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "spot_date": "2025/05/08",
+        "id": "1370124941453951047",
+        "links": [
+            "https://maps.app.goo.gl/jrA4pakUSm8ve2pp7",
+            "https://maps.app.goo.gl/jrA4pakUSm8ve2pp7"
+        ],
+        "report_time": 1746733641,
+        "author": "d\u00f6minnn",
+        "spot_type": "Gen4",
+        "panoId": "7UX4O7_2WwqYr0S5ZvnyPQ",
+        "lat": 52.185,
+        "lng": 21.14157,
+        "country": "PL",
+        "region": "Masovian Voivodeship"
+    },
+    {
+        "spot_date": "2025/05/08",
+        "id": "1370144268735479921",
+        "links": [
+            "https://www.tiktok.com/@lucaswingenbach/video/7502153509052321029",
+            "https://maps.app.goo.gl/XYAWKXFp24tP6DRB6"
+        ],
+        "report_time": 1746738249,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "7pL5wfTPYcc6E3RzWt_qnA",
+        "lat": -13.64722,
+        "lng": -57.89606,
+        "country": "BR",
+        "region": "State of Mato Grosso"
     }
 ]
