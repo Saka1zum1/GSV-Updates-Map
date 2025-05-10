@@ -45823,6 +45823,21 @@
                 "date": "Dec 2024",
                 "country": "MX",
                 "region": "State of Mexico"
+            },
+            "Jan": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1746841103,
+                "author": "Franz",
+                "id": "1370575668483588107",
+                "panoId": "YU7YZv4Ic4M6teyRu55xHw",
+                "lat": 19.61088,
+                "lng": -99.03415,
+                "date": "Jan 2025",
+                "country": "MX",
+                "region": "State of Mexico"
             }
         },
         "Puebla": {
@@ -45975,6 +45990,20 @@
                 "lat": 19.34659,
                 "lng": -98.28579,
                 "date": "Feb 2025",
+                "country": "MX",
+                "region": "Tlaxcala"
+            },
+            "Jan": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746841103,
+                "author": "Franz",
+                "id": "1370575668483588107",
+                "panoId": "X9wuznc4p3dKK5eFRvDzzw",
+                "lat": 19.17949,
+                "lng": -98.24094,
+                "date": "Jan 2025",
                 "country": "MX",
                 "region": "Tlaxcala"
             }
@@ -51656,6 +51685,20 @@
                 "lat": 15.72797,
                 "lng": 104.32013,
                 "date": "Feb 2025",
+                "country": "TH",
+                "region": "Yasothon"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746829715,
+                "author": "Update Tracker Bot",
+                "id": "1370527902004809890",
+                "panoId": "ixR6B25ygOgPLbqOOVEZPA",
+                "lat": 15.65192,
+                "lng": 104.42538,
+                "date": "Apr 2025",
                 "country": "TH",
                 "region": "Yasothon"
             }
