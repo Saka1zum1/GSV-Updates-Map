@@ -45911,6 +45911,20 @@
                 "date": "Nov 2024",
                 "country": "MX",
                 "region": "Puebla"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746841913,
+                "author": "Franz",
+                "id": "1370579064947081406",
+                "panoId": "waHtUM8YmdnPsHj_FtJxTw",
+                "lat": 19.0968,
+                "lng": -98.18383,
+                "date": "Feb 2025",
+                "country": "MX",
+                "region": "Puebla"
             }
         },
         "Nayarit": {

@@ -40576,5 +40576,21 @@
         "lng": 23.92624,
         "country": "LT",
         "region": "Kaunas County"
+    },
+    {
+        "spot_date": "2025/05/09",
+        "id": "1370689974542008320",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1074250128066692&set=a.547870444037999",
+            "https://maps.app.goo.gl/orsz4iMqKASQRm4f8"
+        ],
+        "report_time": 1746868356,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "KaDsVqFDVGg8oKcM49ABLg",
+        "lat": 41.02621,
+        "lng": -2.76989,
+        "country": "ES",
+        "region": "Castile-La Mancha"
     }
 ]
