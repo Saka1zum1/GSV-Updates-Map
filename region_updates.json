@@ -22739,6 +22739,20 @@
                 "date": "Mar 2025",
                 "country": "JP",
                 "region": "Nara"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746967812,
+                "author": "BurgerwithPeel",
+                "id": "1371107123244699758",
+                "panoId": "U90pc-3vGotolKSRyBHiwg",
+                "lat": 34.56384,
+                "lng": 135.69838,
+                "date": "Apr 2025",
+                "country": "JP",
+                "region": "Nara"
             }
         },
         "Yamaguchi": {
