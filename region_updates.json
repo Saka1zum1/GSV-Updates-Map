@@ -33328,6 +33328,22 @@
                 "date": "Mar 2025",
                 "country": "TR",
                 "region": "Malatya"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newroad",
+                    "SmallCam"
+                ],
+                "report_time": 1747051461,
+                "author": "jpeters",
+                "id": "1371457974115110912",
+                "panoId": "IZVt-RjyArGfqgNShjemwA",
+                "lat": 37.96108,
+                "lng": 37.69336,
+                "date": "Feb 2025",
+                "country": "TR",
+                "region": "Malatya"
             }
         },
         "Tunceli": {
@@ -62592,6 +62608,22 @@
                 "lat": 18.27116,
                 "lng": -66.13798,
                 "date": "Dec 2024",
+                "country": "PR",
+                "region": "Aguas Buenas"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1747054822,
+                "author": "Tobetelogi",
+                "id": "1371472073213608081",
+                "panoId": "hBQTpVsR9CmisrGtlJ4fNQ",
+                "lat": 18.25534,
+                "lng": -66.11749,
+                "date": "Feb 2025",
                 "country": "PR",
                 "region": "Aguas Buenas"
             }
