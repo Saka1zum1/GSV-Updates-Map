@@ -27963,6 +27963,20 @@
                 "date": "Jan 2025",
                 "country": "AU",
                 "region": "Victoria"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747068978,
+                "author": "vegetal",
+                "id": "1371531445390151751",
+                "panoId": "9pPbohQRt3pQZVZ0tun3Ew",
+                "lat": -38.07289,
+                "lng": 145.32262,
+                "date": "Mar 2025",
+                "country": "AU",
+                "region": "Victoria"
             }
         },
         "Tasmania": {
@@ -51955,6 +51969,20 @@
                 "date": "Mar 2025",
                 "country": "TH",
                 "region": "Kalasin"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747067972,
+                "author": "Update Tracker Bot",
+                "id": "1371527226956451932",
+                "panoId": "J2LiWt2fmLdAfHgHM8WObA",
+                "lat": 16.45701,
+                "lng": 104.18025,
+                "date": "Apr 2025",
+                "country": "TH",
+                "region": "Kalasin"
             }
         },
         "Lamphun": {
@@ -51989,6 +52017,24 @@
                 "date": "Apr 2025",
                 "country": "TH",
                 "region": "Mukdahan"
+            }
+        },
+        "Sukhothai": {
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1747077303,
+                "author": "BurgerwithPeel",
+                "id": "1371566364287832209",
+                "panoId": "yKl-vrH09RlrwugfQ0CiFg",
+                "lat": 17.70399,
+                "lng": 99.67142,
+                "date": "Apr 2025",
+                "country": "TH",
+                "region": "Sukhothai"
             }
         }
     },

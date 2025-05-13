@@ -40928,5 +40928,53 @@
         "lng": 10.71606,
         "country": "NO",
         "region": "Oslo"
+    },
+    {
+        "spot_date": "2019/05/28",
+        "id": "1371578920586969239",
+        "links": [
+            "https://lefkadanews.com/lefkada-epikairotita/sti-lefkada-to-aftokinito-tis-google/24598",
+            "https://maps.app.goo.gl/PY9m6CGYfTnWSWXm9"
+        ],
+        "report_time": 1747080297,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "2jiowhWsbbGrala-qsBrfg",
+        "lat": 38.83449,
+        "lng": 20.71086,
+        "country": "GR",
+        "region": "Western Greece and the Ionian"
+    },
+    {
+        "spot_date": "2024/07/13",
+        "id": "1371580665119899833",
+        "links": [
+            "https://www.gasteizhoy.com/coche-google-street-view-alava/",
+            "https://maps.app.goo.gl/Fq7Xwm8T9Pre56mh9"
+        ],
+        "report_time": 1747080713,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "K8odfcyLU2o4lb2ljVanqg",
+        "lat": 42.84244,
+        "lng": -2.51177,
+        "country": "ES",
+        "region": "Basque Country"
+    },
+    {
+        "spot_date": "2022/04/26",
+        "id": "1371590012319301754",
+        "links": [
+            "https://yle.fi/a/3-12416011",
+            "https://maps.app.goo.gl/ZxLJKWMqQbFmnFWe9"
+        ],
+        "report_time": 1747082941,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "49U8WgckE1UZ0TozqUQkAQ",
+        "lat": 60.21174,
+        "lng": 25.09478,
+        "country": "FI",
+        "region": "Uusimaa"
     }
 ]
