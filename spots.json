@@ -40976,5 +40976,85 @@
         "lng": 25.09478,
         "country": "FI",
         "region": "Uusimaa"
+    },
+    {
+        "spot_date": "2015/05/15",
+        "id": "1371615704683380817",
+        "links": [
+            "https://alex-shutyuk.livejournal.com/327423.html",
+            "https://maps.app.goo.gl/Hh7cZdMB43tRnTre6"
+        ],
+        "report_time": 1747089067,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "2NEiDdzJc7mtgrbxPC1e2Q",
+        "lat": 49.78497,
+        "lng": 24.05926,
+        "country": "UA",
+        "region": "Lviv Oblast"
+    },
+    {
+        "spot_date": "2017/12/20",
+        "id": "1370957303339159653",
+        "links": [
+            "https://www.facebook.com/watch/?v=1991008024473049",
+            "https://maps.app.goo.gl/hurEGftGpxcnw25Y7"
+        ],
+        "report_time": 1746932092,
+        "author": "Henrique",
+        "spot_type": "Gen3",
+        "panoId": "Q5wrf7d9JZCLeUedZWgGfA",
+        "lat": -27.60054,
+        "lng": -48.60186,
+        "country": "BR",
+        "region": "State of Santa Catarina"
+    },
+    {
+        "spot_date": "2010/08/06",
+        "id": "1371613151535173775",
+        "links": [
+            "https://www.aftenbladet.no/lokalt/i/jrnEn/se-den-er-her-ennaa",
+            "https://maps.app.goo.gl/skP5YiNAmpV1A3Dv9"
+        ],
+        "report_time": 1747088458,
+        "author": "okay1272",
+        "spot_type": "Gen1/2",
+        "panoId": "H_0y-QvvVa6jH96lAZRJBA",
+        "lat": 58.92879,
+        "lng": 5.74175,
+        "country": "NO",
+        "region": "Rogaland"
+    },
+    {
+        "spot_date": "2010/08/01",
+        "id": "1371612548943581367",
+        "links": [
+            "https://www.aftenbladet.no/lokalt/i/6VMR8/har-du-sett-google-bilen",
+            "https://maps.app.goo.gl/X3EFGcqoD57avmXQA"
+        ],
+        "report_time": 1747088314,
+        "author": "okay1272",
+        "spot_type": "Gen1/2",
+        "panoId": "U5D8rXcNzTSv2XqBi4G-gg",
+        "lat": 58.85118,
+        "lng": 5.73498,
+        "country": "NO",
+        "region": "Rogaland"
+    },
+    {
+        "spot_date": "2010/09/10",
+        "id": "1371609526804942858",
+        "links": [
+            "https://www.tb.no/nyheter/nyheter/se-hvem-som-er-pa-besok/s/2-2.516-1.5616131",
+            "https://maps.app.goo.gl/7LcMUMpitRSEsiVy5"
+        ],
+        "report_time": 1747087594,
+        "author": "okay1272",
+        "spot_type": "Gen1/2",
+        "panoId": "Gk3oSXQvBeaCEAowfgnuWg",
+        "lat": 59.26784,
+        "lng": 10.40528,
+        "country": "NO",
+        "region": "Vestfold"
     }
 ]

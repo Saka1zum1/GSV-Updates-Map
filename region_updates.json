@@ -51439,6 +51439,20 @@
                 "date": "Mar 2025",
                 "country": "TH",
                 "region": "Phichit"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747102365,
+                "author": "Franz",
+                "id": "1371671482022887505",
+                "panoId": "JjXekQDKmmxLI2y1dOlwBg",
+                "lat": 16.64369,
+                "lng": 100.20549,
+                "date": "Apr 2025",
+                "country": "TH",
+                "region": "Phichit"
             }
         },
         "Maha Sarakham": {
