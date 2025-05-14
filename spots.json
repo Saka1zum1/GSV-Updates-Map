@@ -41200,5 +41200,69 @@
         "lng": 18.6891,
         "country": "SE",
         "region": "Stockholm County"
+    },
+    {
+        "spot_date": "2025/05/13",
+        "id": "1372019936876167259",
+        "links": [
+            "https://www.tiktok.com/@palillomartinez/video/7504011213697764615",
+            "https://maps.app.goo.gl/4CL5iQDqHSHyLi1x6"
+        ],
+        "report_time": 1747185443,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "K4wkcNP27lkV8wGDbh1LWw",
+        "lat": 19.59304,
+        "lng": -96.98959,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/05/12",
+        "id": "1372157338114592819",
+        "links": [
+            "https://www.instagram.com/p/DJjNfXEv0G_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/dw7cqEsgu3t8kDBC7"
+        ],
+        "report_time": 1747218202,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "uBde9NsRIiWVnM3CeJdOig",
+        "lat": -7.15383,
+        "lng": 109.89552,
+        "country": "ID",
+        "region": "Central Java"
+    },
+    {
+        "spot_date": "2025/05/07",
+        "id": "1372157217335410768",
+        "links": [
+            "https://www.tiktok.com/@axel_style01/video/7503579773889727749",
+            "https://maps.app.goo.gl/cGnPQLBdGdS3J14h7"
+        ],
+        "report_time": 1747218174,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "LhMraXaePnO-yKK8oUFBuA",
+        "lat": -6.25942,
+        "lng": 107.01331,
+        "country": "ID",
+        "region": "West Java"
+    },
+    {
+        "spot_date": "2025/05/14",
+        "id": "1372193283874488402",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10162604450968728&set=gm.24225189310417274&idorvanity=114762705219938",
+            "https://maps.app.goo.gl/C2pVxgaEusA2vrA5A"
+        ],
+        "report_time": 1747226772,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "gAY9LaVdUbIt1erqsIn93Q",
+        "lat": 59.31028,
+        "lng": 14.1139,
+        "country": "SE",
+        "region": "Varmland County"
     }
 ]

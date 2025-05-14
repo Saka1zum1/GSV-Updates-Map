@@ -4146,14 +4146,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1713524918,
-                "author": "Unhook",
-                "panoId": "QIpSYqMgfZ1hXaLE7rY5dQ",
-                "lat": -27.90628,
-                "lng": -65.56371,
-                "date": "Mar 2024",
+                "report_time": 1747218334,
+                "author": "Steve",
+                "id": "1372157891582099477",
+                "panoId": "qc_XA-SNFlkNMKBaQ9GUqg",
+                "lat": -27.13161,
+                "lng": -65.41902,
+                "date": "Mar 2025",
                 "country": "AR",
-                "altitude": 468.24,
                 "region": "Tucum\u00e1n Province"
             },
             "Jan": {
@@ -37611,6 +37611,22 @@
                 "date": "Mar 2025",
                 "country": "GR",
                 "region": "Western Greece and the Ionian"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newroad",
+                    "SmallCam"
+                ],
+                "report_time": 1747218536,
+                "author": "Steve",
+                "id": "1372158735459291250",
+                "panoId": "M0s9pW_UMoJKzWcrAssMYQ",
+                "lat": 36.85587,
+                "lng": 23.04046,
+                "date": "Apr 2025",
+                "country": "GR",
+                "region": "Western Greece and the Ionian"
             }
         },
         "Decentralized Administration of Attica": {
@@ -40317,6 +40333,20 @@
                 "date": "Dec 2024",
                 "country": "CN",
                 "region": "Hsinchu County"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747204877,
+                "author": "Update Tracker Bot",
+                "id": "1372101448380452945",
+                "panoId": "KwmyV3AOKQVZz3m0Zsle8g",
+                "lat": 24.80954,
+                "lng": 121.20042,
+                "date": "Apr 2025",
+                "country": "CN",
+                "region": "Hsinchu County"
             }
         },
         "Taoyuan City": {
@@ -41243,6 +41273,20 @@
                 "lat": 22.90777,
                 "lng": 120.29045,
                 "date": "Mar 2025",
+                "country": "CN",
+                "region": "Tainan City"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747195541,
+                "author": "Update Tracker Bot",
+                "id": "1372062290299453440",
+                "panoId": "BUoc1HDyRZZIf9qMv79vgw",
+                "lat": 23.30492,
+                "lng": 120.42001,
+                "date": "Apr 2025",
                 "country": "CN",
                 "region": "Tainan City"
             }
@@ -47784,6 +47828,21 @@
                 "lat": -28.53274,
                 "lng": 29.58716,
                 "date": "Dec 2024",
+                "country": "ZA",
+                "region": "KwaZulu-Natal"
+            },
+            "Mar": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1747208079,
+                "author": "DerZiggi",
+                "id": "1372114878227157022",
+                "panoId": "WuB2_H_mgtxT0P9ScI7z7g",
+                "lat": -30.03472,
+                "lng": 30.82508,
+                "date": "Mar 2025",
                 "country": "ZA",
                 "region": "KwaZulu-Natal"
             }
