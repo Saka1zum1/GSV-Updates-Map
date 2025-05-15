@@ -208,6 +208,23 @@
                 "date": "Nov 2024",
                 "country": "AT",
                 "region": "Lower Austria"
+            },
+            "Apr": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "newyear",
+                    "SmallCam"
+                ],
+                "report_time": 1747289786,
+                "author": "DerZiggi",
+                "id": "1372457582526070815",
+                "panoId": "1Z6kue3egefcHrUvzuk14A",
+                "lat": 47.9334,
+                "lng": 16.33021,
+                "date": "Apr 2025",
+                "country": "AT",
+                "region": "Lower Austria"
             }
         },
         "Upper Austria": {
@@ -14677,6 +14694,22 @@
                 "country": "IT",
                 "altitude": 144.79,
                 "region": "Veneto"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1747292684,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1372469736662634589",
+                "panoId": "22UISCTzQh1OpgX1e-aTvA",
+                "lat": 45.61816,
+                "lng": 11.80497,
+                "date": "Apr 2025",
+                "country": "IT",
+                "region": "Veneto"
             }
         },
         "Trentino-South Tyrol": {
@@ -15158,6 +15191,21 @@
                 "country": "IT",
                 "altitude": 546.68,
                 "region": "Umbria"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747292684,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1372469736662634589",
+                "panoId": "Vuvoacj7VQFG57wokVhEtA",
+                "lat": 43.44697,
+                "lng": 12.14056,
+                "date": "Apr 2025",
+                "country": "IT",
+                "region": "Umbria"
             }
         },
         "Marche": {
@@ -15389,16 +15437,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newyear"
                 ],
-                "report_time": 1715695336,
-                "author": "GreatAmadeus",
-                "panoId": "Fyie9T-KYGFQmCFiRPNO8A",
-                "lat": 44.43489,
-                "lng": 11.06093,
-                "date": "Apr 2024",
+                "report_time": 1747292684,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1372469736662634589",
+                "panoId": "5kGDfme1aHiNoz004bc83Q",
+                "lat": 44.71085,
+                "lng": 10.23535,
+                "date": "Apr 2025",
                 "country": "IT",
-                "altitude": 201.45,
                 "region": "Emilia-Romagna"
             },
             "Oct": {
@@ -23481,6 +23530,21 @@
                 "country": "SE",
                 "altitude": 251.03,
                 "region": "Jonkoping County"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747303775,
+                "author": "maccem",
+                "id": "1372516257101779005",
+                "panoId": "d6Nn3bDG-eS-DILHV_kckA",
+                "lat": 57.73848,
+                "lng": 14.15859,
+                "date": "Apr 2025",
+                "country": "SE",
+                "region": "Jonkoping County"
             }
         },
         "Lombardy": {},
@@ -23767,6 +23831,21 @@
                 "date": "Jun 2024",
                 "country": "SE",
                 "altitude": 213.74,
+                "region": "Kronoberg County"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747303775,
+                "author": "maccem",
+                "id": "1372516257101779005",
+                "panoId": "cuQgFoIgn3hoHyK5hQ5HmQ",
+                "lat": 56.87597,
+                "lng": 13.95402,
+                "date": "Apr 2025",
+                "country": "SE",
                 "region": "Kronoberg County"
             }
         },
@@ -25205,14 +25284,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1713301564,
-                "author": "Update Tracker Bot",
-                "panoId": "HQW4yBGytWgJurxzzkxruA",
-                "lat": -28.89357,
-                "lng": -51.55116,
-                "date": "Mar 2024",
+                "report_time": 1747311860,
+                "author": "Steve",
+                "id": "1372550167835836536",
+                "panoId": "jOx_RW7iKtlz9J1xBTvDaA",
+                "lat": -29.69213,
+                "lng": -52.4902,
+                "date": "Mar 2025",
                 "country": "BR",
-                "altitude": 700.06,
                 "region": "State of Rio Grande do Sul"
             },
             "Feb": {
@@ -31855,6 +31934,21 @@
                 "country": "ES",
                 "altitude": 715.77,
                 "region": "Canary Islands"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1747315388,
+                "author": "Alex*",
+                "id": "1372564964425859105",
+                "panoId": "P4jV5SMrdG7A541Hi-sWyA",
+                "lat": 28.65093,
+                "lng": -17.87526,
+                "date": "Apr 2025",
+                "country": "ES",
+                "region": "Canary Islands"
             }
         },
         "Extremadura": {
@@ -37567,7 +37661,25 @@
                 "region": "Tarapac\u00e1"
             }
         },
-        "unknown": {}
+        "unknown": {},
+        "Arica y Parinacota": {
+            "Jan": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "gen3update"
+                ],
+                "report_time": 1747314131,
+                "author": "Tobetelogi",
+                "id": "1372559691380559912",
+                "panoId": "k3gwm0a-_U0BsNe52OWNpw",
+                "lat": -19.18223,
+                "lng": -70.23615,
+                "date": "Jan 2025",
+                "country": "CL",
+                "region": "Arica y Parinacota"
+            }
+        }
     },
     "GR": {
         "Western Greece and the Ionian": {
@@ -47395,16 +47507,17 @@
             },
             "Mar": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "SmallCam"
                 ],
-                "report_time": 1714695137,
-                "author": "Update Tracker Bot",
-                "panoId": "GRh2D_Ok5guE3lgWA7G6Tg",
-                "lat": -26.32512,
-                "lng": 27.4747,
-                "date": "Mar 2024",
+                "report_time": 1747315994,
+                "author": "Steve",
+                "id": "1372567505918234666",
+                "panoId": "3KgDMKEmexGV0D7lJxdGvQ",
+                "lat": -26.14499,
+                "lng": 28.13136,
+                "date": "Mar 2025",
                 "country": "ZA",
-                "altitude": 1525.14,
                 "region": "Gauteng"
             },
             "Oct": {
@@ -57900,6 +58013,22 @@
                 "date": "Oct 2023",
                 "country": "FI",
                 "region": "North Savo"
+            },
+            "Apr": {
+                "types": [
+                    "newyear",
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1747309868,
+                "author": "vegetal",
+                "id": "1372541809862901811",
+                "panoId": "y8rJR9GnBrVu-gin0gSGmQ",
+                "lat": 62.29188,
+                "lng": 27.73343,
+                "date": "Apr 2025",
+                "country": "FI",
+                "region": "North Savo"
             }
         },
         "North Ostrobothnia": {
@@ -59878,6 +60007,21 @@
                 "date": "Mar 2025",
                 "country": "IN",
                 "region": "Andaman and Nicobar Islands"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1746569991,
+                "author": "Franz",
+                "id": "1369438542186676306",
+                "panoId": "CTARwnf2rNIapNJ-nf4imw",
+                "lat": 13.37692,
+                "lng": 92.93242,
+                "date": "Feb 2025",
+                "country": "IN",
+                "region": "Andaman and Nicobar Islands"
             }
         },
         "Telangana": {
@@ -60184,6 +60328,20 @@
                 "date": "Mar 2025",
                 "country": "IN",
                 "region": "Maharashtra"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1746569991,
+                "author": "Franz",
+                "id": "1369438542186676306",
+                "panoId": "-0W-YIr9TfoszpC57s7Log",
+                "lat": 19.19553,
+                "lng": 73.20925,
+                "date": "Feb 2025",
+                "country": "IN",
+                "region": "Maharashtra"
             }
         },
         "Khardung La Rd": {},
@@ -60296,6 +60454,20 @@
                 "date": "Jan 2025",
                 "country": "IN",
                 "region": "Uttar Pradesh"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747293564,
+                "author": "Steve",
+                "id": "1372473427524583434",
+                "panoId": "sHS5UmtfTU_R0zcPVhyF3w",
+                "lat": 25.35851,
+                "lng": 81.85886,
+                "date": "Apr 2025",
+                "country": "IN",
+                "region": "Uttar Pradesh"
             }
         },
         "Madhya Pradesh": {
@@ -60348,17 +60520,16 @@
         "Rajasthan": {
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1714075246,
-                "author": "OUAI OUAI TU PARLES TROP",
-                "panoId": "ImuA3HAd57-x3lvcaYoexQ",
-                "lat": 28.03351,
-                "lng": 73.94351,
-                "date": "Apr 2024",
+                "report_time": 1747293564,
+                "author": "Steve",
+                "id": "1372473427524583434",
+                "panoId": "drDhKkUcG7yxXrvyOguAkA",
+                "lat": 26.83757,
+                "lng": 75.6626,
+                "date": "Apr 2025",
                 "country": "IN",
-                "altitude": 297.71,
                 "region": "Rajasthan"
             },
             "Nov": {
@@ -60402,6 +60573,20 @@
                 "lat": 27.1528,
                 "lng": 75.42785,
                 "date": "Jan 2025",
+                "country": "IN",
+                "region": "Rajasthan"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747293564,
+                "author": "Steve",
+                "id": "1372473427524583434",
+                "panoId": "KlUd-QR_ZKoWds4hkF_kzQ",
+                "lat": 26.82151,
+                "lng": 75.48049,
+                "date": "Mar 2025",
                 "country": "IN",
                 "region": "Rajasthan"
             }
