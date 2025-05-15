@@ -2792,6 +2792,21 @@
                 "country": "SI",
                 "altitude": 685.1,
                 "region": "Celje"
+            },
+            "Apr": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1747264905,
+                "author": "DerZiggi",
+                "id": "1372353222965989407",
+                "panoId": "lF22XdNyEhPKnGvOsWFbqg",
+                "lat": 46.26703,
+                "lng": 15.32232,
+                "date": "Apr 2025",
+                "country": "SI",
+                "region": "Celje"
             }
         },
         "Velenje": {
@@ -6596,6 +6611,21 @@
                 "country": "CZ",
                 "altitude": 293.35,
                 "region": "Moravian-Silesian Region"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747265455,
+                "author": "DeSlagen",
+                "id": "1372355528340144178",
+                "panoId": "Cnmqrw2wsUXj1odUr1txPg",
+                "lat": 49.79162,
+                "lng": 17.62705,
+                "date": "Apr 2025",
+                "country": "CZ",
+                "region": "Moravian-Silesian Region"
             }
         },
         "South Moravian Region": {
@@ -6671,6 +6701,20 @@
                 "date": "Aug 2024",
                 "country": "CZ",
                 "altitude": 225.39,
+                "region": "Olomouc Region"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747247983,
+                "author": "Update Tracker Bot",
+                "id": "1372282245779423393",
+                "panoId": "w2PJzbzYwI3odAbB-pAzzw",
+                "lat": 49.76592,
+                "lng": 17.36029,
+                "date": "Apr 2025",
+                "country": "CZ",
                 "region": "Olomouc Region"
             }
         },
@@ -15716,6 +15760,21 @@
                 "country": "GB",
                 "altitude": 89.72,
                 "region": "England"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1747252811,
+                "author": "Steve",
+                "id": "1372302495883464914",
+                "panoId": "rB28eD34nK41rPPofmVlGg",
+                "lat": 51.89666,
+                "lng": -2.63166,
+                "date": "Apr 2025",
+                "country": "GB",
+                "region": "England"
             }
         },
         "Scotland": {
@@ -15826,17 +15885,18 @@
             },
             "Apr": {
                 "types": [
+                    "newcountry",
                     "newregion",
-                    "newroad"
+                    "SmallCam"
                 ],
-                "report_time": 1718312582,
-                "author": "DeSlagen",
-                "panoId": "jh0XZDjN24--obDS2Q8f8Q",
-                "lat": 52.84712,
-                "lng": -3.19512,
-                "date": "Apr 2024",
+                "report_time": 1747249594,
+                "author": "DerZiggi",
+                "id": "1372289003851747621",
+                "panoId": "P9BHJu32LujtGJKdp7aEDw",
+                "lat": 51.74738,
+                "lng": -2.94085,
+                "date": "Apr 2025",
                 "country": "GB",
-                "altitude": 216.28,
                 "region": "Wales"
             },
             "May": {
@@ -23540,6 +23600,21 @@
                 "date": "Jul 2024",
                 "country": "SE",
                 "altitude": 28.81,
+                "region": "S\u00f6dermanland County"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747263629,
+                "author": "Mr. Toledo",
+                "id": "1372347870774034574",
+                "panoId": "xx95yFN28dOhYa7YHjwa4w",
+                "lat": 58.78636,
+                "lng": 16.45643,
+                "date": "Apr 2025",
+                "country": "SE",
                 "region": "S\u00f6dermanland County"
             }
         },
@@ -41955,6 +42030,20 @@
                 "country": "NL",
                 "altitude": 4.31,
                 "region": "North Holland"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747258906,
+                "author": "Mr. Toledo",
+                "id": "1372328061307191407",
+                "panoId": "yboXXJBkHjzhRYQj-TpvjQ",
+                "lat": 52.84447,
+                "lng": 4.7077,
+                "date": "Apr 2025",
+                "country": "NL",
+                "region": "North Holland"
             }
         },
         "Zeeland": {
@@ -42301,6 +42390,21 @@
                 "country": "NL",
                 "altitude": 2.08,
                 "region": "Overijssel"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "gen2update"
+                ],
+                "report_time": 1747259697,
+                "author": "Mr. Toledo",
+                "id": "1372331379324354720",
+                "panoId": "PrrX9YncaJngulcx4uCouA",
+                "lat": 52.42591,
+                "lng": 6.12382,
+                "date": "Apr 2025",
+                "country": "NL",
+                "region": "Overijssel"
             }
         },
         "Brabant": {}
@@ -42337,16 +42441,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "SmallCam"
                 ],
-                "report_time": 1715712338,
-                "author": "Update Tracker Bot",
-                "panoId": "oH2dh2aD27Xu-AN8dfDjyQ",
-                "lat": 50.77291,
-                "lng": 5.46568,
-                "date": "Apr 2024",
+                "report_time": 1747252987,
+                "author": "HoustonMediaHD",
+                "id": "1372303236912124027",
+                "panoId": "sYNtoiWjFvZWRzuuoGVJZA",
+                "lat": 50.95283,
+                "lng": 5.08591,
+                "date": "Apr 2025",
                 "country": "BE",
-                "altitude": 89.22,
                 "region": "Flanders"
             }
         },
@@ -58372,15 +58477,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen2update",
+                    "newyear"
                 ],
-                "report_time": 1734008642,
-                "author": "Tobetelogi",
-                "id": "1316752424748191795",
-                "panoId": "8GEHFD7k01LRlfZmggx4sA",
-                "lat": 60.32378,
-                "lng": 24.84835,
-                "date": "Apr 2024",
+                "report_time": 1747263247,
+                "author": "Mr. Toledo",
+                "id": "1372346270974480534",
+                "panoId": "w1ZFQPNNB6PWl6aTWX7DeQ",
+                "lat": 60.66417,
+                "lng": 26.00192,
+                "date": "Apr 2025",
                 "country": "FI",
                 "region": "Uusimaa"
             }

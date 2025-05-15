@@ -41264,5 +41264,85 @@
         "lng": 14.1139,
         "country": "SE",
         "region": "Varmland County"
+    },
+    {
+        "spot_date": "2025/05/12",
+        "id": "1372255549722329219",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9876829729064089&set=pcb.9876833119063750",
+            "https://maps.app.goo.gl/iDUCoUCiDJ7DMZeRA"
+        ],
+        "report_time": 1747241618,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "J19CWquhiAkD_K7Z7q5smA",
+        "lat": 57.08618,
+        "lng": 9.26838,
+        "country": "DK",
+        "region": "North Denmark Region"
+    },
+    {
+        "spot_date": "2025/05/13",
+        "id": "1372262164437667861",
+        "links": [
+            "https://x.com/zannshou/status/1922321181564150113/photo/1",
+            "https://maps.app.goo.gl/HjpyUnJDVtFaHVek7"
+        ],
+        "report_time": 1747243195,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "66khfsQ8pcZf8FP0q4XV0Q",
+        "lat": 33.81088,
+        "lng": 132.73359,
+        "country": "JP",
+        "region": "Ehime"
+    },
+    {
+        "spot_date": "2025/05/13",
+        "id": "1372034734154317954",
+        "links": [
+            "https://www.facebook.com/photo?fbid=9743535535708875&set=pcb.9743536339042128",
+            "https://maps.app.goo.gl/kRCsycHRY9TRUT8a7"
+        ],
+        "report_time": 1747188971,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "vePB3gBUZIIvC_DOQbrdmA",
+        "lat": 51.41129,
+        "lng": 6.72027,
+        "country": "DE",
+        "region": "North Rhine-Westphalia"
+    },
+    {
+        "spot_date": "2025/05/13",
+        "id": "1371952344266313820",
+        "links": [
+            "https://www.youtube.com/watch?v=3OJnCktByOI&ab_channel=birdmanyt",
+            "https://maps.app.goo.gl/ywiU3GsTcVVtaKFN7"
+        ],
+        "report_time": 1747169328,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "OJmElHBKx3jtEBSWsg7_Ew",
+        "lat": 51.21566,
+        "lng": -2.66228,
+        "country": "GB",
+        "region": "England"
+    },
+    {
+        "spot_date": "2025/05/14",
+        "id": "1372292489750249616",
+        "links": [
+            "https://x.com/Houseknech9360/status/1922716676862214318",
+            "https://maps.app.goo.gl/t93spDGyjJwnWMv66"
+        ],
+        "report_time": 1747250425,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "5Nt1hVtknys1fYTlWMHbdA",
+        "lat": 40.37294,
+        "lng": -75.63015,
+        "country": "US",
+        "region": "Pennsylvania"
     }
 ]
