@@ -42080,5 +42080,85 @@
         "lng": 10.40749,
         "country": "DK",
         "region": "Region of Southern Denmark"
+    },
+    {
+        "spot_date": "2025/05/14",
+        "id": "1372733687002824724",
+        "links": [
+            "https://www.instagram.com/p/DJpNVshv9er",
+            "https://maps.app.goo.gl/XYNsABiF6f8Bv6NUA"
+        ],
+        "report_time": 1747355615,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "1V1ophVk6dYYa26Xx-ZqIg",
+        "lat": -21.75797,
+        "lng": -43.3457,
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2025/05/15",
+        "id": "1372731957556809780",
+        "links": [
+            "https://www.instagram.com/p/DJsIQHepDxA",
+            "https://maps.app.goo.gl/8PCSqh738rN6oMkn6"
+        ],
+        "report_time": 1747355202,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "k6JndisSXyt7xF6RwFzJ_g",
+        "lat": -9.93281,
+        "lng": -36.54654,
+        "country": "BR",
+        "region": "State of Alagoas"
+    },
+    {
+        "spot_date": "2025/05/15",
+        "id": "1372799896960372806",
+        "links": [
+            "https://drava.info/2025/05/googleov-automobil-snima-koprivnicke-ulice-jos-ce-se-neko-vrijeme-zadrzati-na-nasem-podrucju/",
+            "https://maps.app.goo.gl/qxYCwbeRp9EHzukr6"
+        ],
+        "report_time": 1747371400,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "qUX6ioSn6_dyrRybKbDwiA",
+        "lat": 46.16846,
+        "lng": 16.81784,
+        "country": "HR",
+        "region": "Koprivnica-Kri\u017eevci County"
+    },
+    {
+        "spot_date": "2025/05/07",
+        "id": "1372930344507936779",
+        "links": [
+            "https://www.tiktok.com/@gersone.chavez/video/7501622614234795319",
+            "https://maps.app.goo.gl/ce1P6ZifThKmm7qJ6"
+        ],
+        "report_time": 1747402501,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "VKUJweS2MvPbGiPCvdt-dg",
+        "lat": 40.48246,
+        "lng": -3.39542,
+        "country": "ES",
+        "region": "Community of Madrid"
+    },
+    {
+        "spot_date": "2025/05/16",
+        "id": "1372935199989694554",
+        "links": [
+            "https://www.youtube.com/shorts/zVY3KJSMbgo",
+            "https://maps.app.goo.gl/2jh5rJxTKmbcQtmz8"
+        ],
+        "report_time": 1747403659,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "BODyXLCCU37z4xxOgG3-Hg",
+        "lat": 38.25725,
+        "lng": -0.69603,
+        "country": "ES",
+        "region": "Valencian Community"
     }
 ]
