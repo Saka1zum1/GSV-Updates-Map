@@ -104,6 +104,23 @@
                 "country": "AT",
                 "altitude": 879.97,
                 "region": "Carinthia"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "gen3update",
+                    "SmallCam"
+                ],
+                "report_time": 1747320982,
+                "author": "jpeters",
+                "id": "1372588427387731969",
+                "panoId": "y7jYn3yhU5vuUU0cdbOQMg",
+                "lat": 46.62171,
+                "lng": 14.05521,
+                "date": "Apr 2025",
+                "country": "AT",
+                "region": "Carinthia"
             }
         },
         "Salzburg": {
@@ -2565,16 +2582,16 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "newyear"
                 ],
-                "report_time": 1721409562,
-                "author": "darkshadowmhermc",
-                "panoId": "Yf4c2c5bUF7uSYykTsN_Jg",
-                "lat": 46.09285,
-                "lng": 14.27611,
-                "date": "Apr 2024",
+                "report_time": 1747318721,
+                "author": "DeSlagen",
+                "id": "1372578944502599893",
+                "panoId": "vDiqVxvnPklmmS5R8YClBg",
+                "lat": 46.02665,
+                "lng": 14.48988,
+                "date": "Apr 2025",
                 "country": "SI",
-                "altitude": 636.63,
                 "region": "Ljubljana"
             }
         },
@@ -2711,6 +2728,21 @@
                 "date": "Aug 2024",
                 "country": "SI",
                 "altitude": 465.04,
+                "region": "Vrhnika"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747318721,
+                "author": "DeSlagen",
+                "id": "1372578944502599893",
+                "panoId": "zhOnApMvrI-bjo3X8Ingig",
+                "lat": 45.96931,
+                "lng": 14.30445,
+                "date": "Apr 2025",
+                "country": "SI",
                 "region": "Vrhnika"
             }
         },
@@ -2890,6 +2922,21 @@
                 "country": "SI",
                 "altitude": 294.39,
                 "region": "Dom\u017eale"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747318721,
+                "author": "DeSlagen",
+                "id": "1372578944502599893",
+                "panoId": "gCDwpjZPDWc_LI2kjHnAsg",
+                "lat": 46.1551,
+                "lng": 14.6688,
+                "date": "Apr 2025",
+                "country": "SI",
+                "region": "Dom\u017eale"
             }
         },
         "\u0160entjur": {
@@ -2905,6 +2952,21 @@
                 "date": "May 2024",
                 "country": "SI",
                 "altitude": 476.96,
+                "region": "\u0160entjur"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747318721,
+                "author": "DeSlagen",
+                "id": "1372578944502599893",
+                "panoId": "7Wy9_V7eEBxNE2mSh9g9RA",
+                "lat": 46.22985,
+                "lng": 15.37791,
+                "date": "Apr 2025",
+                "country": "SI",
                 "region": "\u0160entjur"
             }
         },
@@ -2989,7 +3051,41 @@
             }
         },
         "\u0160empeter-Vrtojba": {},
-        "Municipality of Kranj": {}
+        "Municipality of Kranj": {},
+        "Predor Jasovnik": {
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747318721,
+                "author": "DeSlagen",
+                "id": "1372578944502599893",
+                "panoId": "Z0LrIwsT2evQlZgVi1PtwA",
+                "lat": 46.20845,
+                "lng": 14.90432,
+                "date": "Apr 2025",
+                "country": "SI",
+                "region": "Predor Jasovnik"
+            }
+        },
+        "\u017dalec": {
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747318721,
+                "author": "DeSlagen",
+                "id": "1372578944502599893",
+                "panoId": "peVC-4sFyH068XqPjFae8A",
+                "lat": 46.25777,
+                "lng": 15.02216,
+                "date": "Apr 2025",
+                "country": "SI",
+                "region": "\u017dalec"
+            }
+        }
     },
     "AR": {
         "Buenos Aires": {
@@ -3411,6 +3507,20 @@
                 "lat": -32.7326,
                 "lng": -61.84477,
                 "date": "Nov 2024",
+                "country": "AR",
+                "region": "C\u00f3rdoba Province"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747324561,
+                "author": "Redpork",
+                "id": "1372603436671045713",
+                "panoId": "sq04wiJ9k2WlYOY1GF5kCQ",
+                "lat": -33.17222,
+                "lng": -63.28127,
+                "date": "Mar 2025",
                 "country": "AR",
                 "region": "C\u00f3rdoba Province"
             }
@@ -5824,7 +5934,23 @@
                 "region": "Junin"
             }
         },
-        "Tacna": {},
+        "Tacna": {
+            "Oct": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1747331920,
+                "author": "Redpork",
+                "id": "1372634304450134047",
+                "panoId": "aGDO0nmIzfC_57N_Vmsyag",
+                "lat": -17.97445,
+                "lng": -70.2581,
+                "date": "Oct 2024",
+                "country": "PE",
+                "region": "Tacna"
+            }
+        },
         "Madre de Dios": {},
         "Huancavelica": {
             "Sep": {
@@ -6984,6 +7110,20 @@
                 "date": "May 2024",
                 "country": "CZ",
                 "altitude": 241.52,
+                "region": "Prague"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747319249,
+                "author": "Jaki\u015b Bartu\u015b",
+                "id": "1372581157144760320",
+                "panoId": "S1Szo45kGBUg_bDwYkbgkg",
+                "lat": 50.0401,
+                "lng": 14.47931,
+                "date": "Apr 2025",
+                "country": "CZ",
                 "region": "Prague"
             }
         },
@@ -14939,16 +15079,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newyear"
                 ],
-                "report_time": 1713897174,
-                "author": "GreatAmadeus",
-                "panoId": "Nkl_wEGLGzVn3M7DwkMQ_Q",
-                "lat": 42.41433,
-                "lng": 11.45571,
-                "date": "Apr 2024",
+                "report_time": 1747319629,
+                "author": "DeSlagen",
+                "id": "1372582752804802560",
+                "panoId": "zun4j8hdl-sISXcC1PrXwg",
+                "lat": 43.43552,
+                "lng": 11.92901,
+                "date": "Apr 2025",
                 "country": "IT",
-                "altitude": 25.95,
                 "region": "Tuscany"
             }
         },
@@ -25179,16 +25320,17 @@
             "Mar": {
                 "types": [
                     "newregion",
-                    "gen3update"
+                    "newyear",
+                    "newroad"
                 ],
-                "report_time": 1722194161,
-                "author": "Alex*",
-                "panoId": "5NzBybHsfGQ-Sj9nM2QlJQ",
-                "lat": -10.3645,
-                "lng": -63.43383,
-                "date": "Mar 2024",
+                "report_time": 1747322203,
+                "author": "Tobetelogi",
+                "id": "1372593546846015529",
+                "panoId": "nw7FZGWCj8ihYvS93xIgug",
+                "lat": -11.40054,
+                "lng": -61.33477,
+                "date": "Mar 2025",
                 "country": "BR",
-                "altitude": 246.27,
                 "region": "State of Rond\u00f4nia"
             },
             "Jun": {
@@ -37641,6 +37783,21 @@
                 "date": "Jan 2025",
                 "country": "CL",
                 "region": "Los R\u00edos"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1747326505,
+                "author": "Palmerranian",
+                "id": "1372611592612479048",
+                "panoId": "He_pgscZ3XqXDWCUheS5yQ",
+                "lat": -40.28075,
+                "lng": -73.07492,
+                "date": "Feb 2025",
+                "country": "CL",
+                "region": "Los R\u00edos"
             }
         },
         "Tarapac\u00e1": {
@@ -37862,16 +38019,17 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "newroad",
+                    "SmallCam"
                 ],
-                "report_time": 1715017105,
-                "author": "frefromwig",
-                "panoId": "0CQnToLMxJz4oZ9-MkeTmA",
-                "lat": 38.32724,
-                "lng": 23.77719,
-                "date": "Apr 2024",
+                "report_time": 1747328887,
+                "author": "Steve",
+                "id": "1372621581871742997",
+                "panoId": "67KTfOllRO3LI--NwcaKrg",
+                "lat": 37.91139,
+                "lng": 23.83877,
+                "date": "Apr 2025",
                 "country": "GR",
-                "altitude": 4.33,
                 "region": "Decentralized Administration of Attica"
             },
             "Feb": {
@@ -42517,6 +42675,20 @@
                 "date": "Apr 2025",
                 "country": "NL",
                 "region": "Overijssel"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747334188,
+                "author": "DeSlagen",
+                "id": "1372643816124842117",
+                "panoId": "cY-t9-UdPtrZz0yx6fq-ZA",
+                "lat": 52.51228,
+                "lng": 6.03981,
+                "date": "Mar 2025",
+                "country": "NL",
+                "region": "Overijssel"
             }
         },
         "Brabant": {}
@@ -45131,18 +45303,16 @@
             },
             "Feb": {
                 "types": [
-                    "newregion",
-                    "newarea",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1715984235,
-                "author": "Alex*",
-                "panoId": "ogsIPDd-5mQuXdlfjYkVNg",
-                "lat": 21.24271,
-                "lng": -98.61904,
-                "date": "Feb 2024",
+                "report_time": 1747325004,
+                "author": "Steve",
+                "id": "1372605297712959520",
+                "panoId": "lblcRRt_8vB95lajuKtjIA",
+                "lat": 22.39178,
+                "lng": -101.16177,
+                "date": "Feb 2025",
                 "country": "MX",
-                "altitude": 289.68,
                 "region": "San Luis Potosi"
             },
             "Sep": {
@@ -46490,6 +46660,20 @@
                 "date": "Jan 2025",
                 "country": "MX",
                 "region": "Hidalgo"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747325004,
+                "author": "Steve",
+                "id": "1372605297712959520",
+                "panoId": "OrA63TQLZqvgAHrQdmI1Bg",
+                "lat": 20.09037,
+                "lng": -99.23704,
+                "date": "Mar 2025",
+                "country": "MX",
+                "region": "Hidalgo"
             }
         },
         "Quer\u00e9taro": {
@@ -46909,6 +47093,22 @@
                 "lat": 20.24813,
                 "lng": -102.47159,
                 "date": "Feb 2025",
+                "country": "MX",
+                "region": "Michoac\u00e1n"
+            },
+            "Mar": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "newtown"
+                ],
+                "report_time": 1747322246,
+                "author": "DerZiggi",
+                "id": "1372593730498068520",
+                "panoId": "D3mcCYeNIZuqPPA98ha5NQ",
+                "lat": 19.60066,
+                "lng": -102.53033,
+                "date": "Mar 2025",
                 "country": "MX",
                 "region": "Michoac\u00e1n"
             }
