@@ -42160,5 +42160,37 @@
         "lng": -0.69603,
         "country": "ES",
         "region": "Valencian Community"
+    },
+    {
+        "spot_date": "2025/05/15",
+        "id": "1373046679695265872",
+        "links": [
+            "https://www.instagram.com/whatisnewyork",
+            "https://maps.app.goo.gl/SNxR1tomLoU3S3Xf9"
+        ],
+        "report_time": 1747430238,
+        "author": "cane",
+        "spot_type": "Gen4",
+        "panoId": "H2O8zUBOkHJAKnnE-EESqA",
+        "lat": 40.74631,
+        "lng": -73.89676,
+        "country": "US",
+        "region": "New York"
+    },
+    {
+        "spot_date": "2025/05/16",
+        "id": "1373072808556367923",
+        "links": [
+            "https://www.tiktok.com/@___onlycars___/video/7505128943029210374",
+            "https://maps.app.goo.gl/k5VRD82cYZ37GezP6"
+        ],
+        "report_time": 1747436468,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "FS4tYzNQRVqGnrxebuOIqQ",
+        "lat": -34.43507,
+        "lng": -58.79436,
+        "country": "AR",
+        "region": "Buenos Aires Province"
     }
 ]

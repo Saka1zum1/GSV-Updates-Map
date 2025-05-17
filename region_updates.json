@@ -30098,6 +30098,20 @@
                 "date": "Nov 2024",
                 "country": "FR",
                 "region": "Provence-Alpes-C\u00f4te d'Azur"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747412451,
+                "author": "DarkShadow MH,ER,MC",
+                "id": "1372972076385828925",
+                "panoId": "VoEG6u8j3kQn4rVnsYqwlQ",
+                "lat": 43.6036,
+                "lng": 5.05126,
+                "date": "Apr 2025",
+                "country": "FR",
+                "region": "Provence-Alpes-C\u00f4te d'Azur"
             }
         },
         "Auvergne-Rh\u00f4ne-Alpes": {
@@ -42613,14 +42627,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1717935407,
-                "author": "franzyballs",
-                "panoId": "MhqhvbXBPhw9Eeu8NX2JBQ",
-                "lat": 52.28832,
-                "lng": 5.18319,
-                "date": "May 2024",
+                "report_time": 1747416135,
+                "author": "JbJabs",
+                "id": "1372987528730120263",
+                "panoId": "qdsAGvxV0rUWfqOzizRH3g",
+                "lat": 52.69377,
+                "lng": 4.81726,
+                "date": "May 2025",
                 "country": "NL",
-                "altitude": 4.31,
                 "region": "North Holland"
             },
             "Apr": {
@@ -59651,6 +59665,23 @@
                 "date": "Sep 2024",
                 "country": "FI",
                 "region": "Central Ostrobothnia"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newsmallcam",
+                    "newstreet"
+                ],
+                "report_time": 1747428536,
+                "author": "Alex*",
+                "id": "1373039542466117807",
+                "panoId": "iaFnz-01Nd2a0yP1PjFKkg",
+                "lat": 63.84707,
+                "lng": 23.17617,
+                "date": "Apr 2025",
+                "country": "FI",
+                "region": "Central Ostrobothnia"
             }
         },
         "North Karelia": {
@@ -62078,17 +62109,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1714075246,
-                "author": "OUAI OUAI TU PARLES TROP",
-                "panoId": "kzI2s5uY5WJAZ3sujREguw",
-                "lat": 13.86091,
-                "lng": 75.82178,
-                "date": "Apr 2024",
+                "report_time": 1747427595,
+                "author": "TheRealWoly",
+                "id": "1373035593453535415",
+                "panoId": "tOuf8GxnkalfEVa84fw5bA",
+                "lat": 13.00558,
+                "lng": 77.4543,
+                "date": "Apr 2025",
                 "country": "IN",
-                "altitude": 696.6,
                 "region": "Karnataka"
             },
             "Oct": {
