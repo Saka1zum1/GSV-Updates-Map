@@ -42192,5 +42192,149 @@
         "lng": -58.79436,
         "country": "AR",
         "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2025/04/07",
+        "id": "1373045831191629856",
+        "links": [
+            "https://images.app.goo.gl/2RaaTjhrNbJTcbBJ6",
+            "https://maps.app.goo.gl/ufG265vHgXbw2RPR9"
+        ],
+        "report_time": 1747430036,
+        "author": "vegetal",
+        "spot_type": "Gen4/H1",
+        "panoId": "4dbvDoLN3u7dzlotNTguXg",
+        "lat": 60.29403,
+        "lng": 24.94449,
+        "country": "FI",
+        "region": "Uusimaa"
+    },
+    {
+        "spot_date": "2024/08/02",
+        "id": "1373024594373513278",
+        "links": [
+            "https://youtu.be/8-6tWjBMMPU?si=XHpriouwqA0xi971&t=1442",
+            "https://maps.app.goo.gl/3hUKYDryZYm1dbpE7"
+        ],
+        "report_time": 1747424972,
+        "author": "okay1272",
+        "spot_type": "Gen4/H1",
+        "panoId": "qtlf2euxsOi0lmnqvUDHEQ",
+        "lat": 46.96257,
+        "lng": 19.61822,
+        "country": "HU",
+        "region": "B\u00e1cs-Kiskun"
+    },
+    {
+        "spot_date": "2017/10/17",
+        "id": "1372991167561601106",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10155185560602736&set=a.421889882735",
+            "https://maps.app.goo.gl/2epEw4b5QCVyNSSFA"
+        ],
+        "report_time": 1747417003,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "B3tsJb2M6qJZCl54oLw4UQ",
+        "lat": 53.49166,
+        "lng": 18.74844,
+        "country": "PL",
+        "region": "Kuyavian-Pomeranian Voivodeship"
+    },
+    {
+        "spot_date": "2019/04/02",
+        "id": "1372679144659353671",
+        "links": [
+            "https://www.prlekija-on.net/lokalno/27625/google-bo-tokrat-v-prlekiji-snemal-plocnike-in-ulice.html",
+            "https://maps.app.goo.gl/xkJa9JXAoXSh9LUm8"
+        ],
+        "report_time": 1747342611,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "M3RcxULNWgrLZnlCeHIT4Q",
+        "lat": 46.52501,
+        "lng": 16.19349,
+        "country": "SI",
+        "region": "Ljutomer"
+    },
+    {
+        "spot_date": "2017/06/19",
+        "id": "1372676625220636683",
+        "links": [
+            "https://gazetatrybunalska.info/2017/06/samochod-google-w-piotrkowie/",
+            "https://maps.app.goo.gl/gCDtf2RPvvtBQcVg9"
+        ],
+        "report_time": 1747342010,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "VwZt6ZhKuPpCPFe3H-KEdw",
+        "lat": 51.40927,
+        "lng": 19.69461,
+        "country": "PL",
+        "region": "\u0141\u00f3d\u017a Voivodeship"
+    },
+    {
+        "spot_date": "2012/02/23",
+        "id": "1372670434541047889",
+        "links": [
+            "https://botevgrad.com/news/38453/Kolite-na-Google-veche-sa-v-Sofiya/#gallery",
+            "https://maps.app.goo.gl/W3Wn7hAVyH5zQu2aA"
+        ],
+        "report_time": 1747340534,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "-eH98lEvTmNZgZA615wWWQ",
+        "lat": 42.69555,
+        "lng": 23.33174,
+        "country": "BG",
+        "region": "Sofia City Province"
+    },
+    {
+        "spot_date": "2011/07/18",
+        "id": "1372588339311415296",
+        "links": [
+            "https://teplicky.denik.cz/zpravy_region/chovejte-se-slusne-vidi-vas-google20110718.html",
+            "https://maps.app.goo.gl/4eN2jbNe4YDxMhY19"
+        ],
+        "report_time": 1747320961,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "z6o4Li9aXtl7L6ilLe0apg",
+        "lat": 50.65924,
+        "lng": 14.04024,
+        "country": "CZ",
+        "region": "\u00dast\u00ed nad Labem Region"
+    },
+    {
+        "spot_date": "2013/06/04",
+        "id": "1372587423808098466",
+        "links": [
+            "https://bernardino.over-blog.net/sainte-suzanne-et-google-maps",
+            "https://maps.app.goo.gl/BLPMkZyHDwWJKYbz6"
+        ],
+        "report_time": 1747320743,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "tQAUZMAjas3_cC4jzivDcw",
+        "lat": 48.09763,
+        "lng": -0.35214,
+        "country": "FR",
+        "region": "Pays de la Loire"
+    },
+    {
+        "spot_date": "2016/08/06",
+        "id": "1372582167150071898",
+        "links": [
+            "https://www.flickr.com/photos/gilbert_hastert/28189573033/",
+            "https://maps.app.goo.gl/vaivvCdxqj7kR75w9"
+        ],
+        "report_time": 1747319489,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen3",
+        "panoId": "16wrcYmPfgSO14FKH26r2w",
+        "lat": 53.2766,
+        "lng": 5.65858,
+        "country": "NL",
+        "region": "Friesland"
     }
 ]

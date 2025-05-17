@@ -52921,6 +52921,23 @@
                 "country": "TH",
                 "region": "Sukhothai"
             }
+        },
+        "Nakhon Phanom": {
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1747477350,
+                "author": "BurgerwithPeel",
+                "id": "1373244280398676060",
+                "panoId": "n-F9l5xA64gW0kUzo_dHDQ",
+                "lat": 17.43896,
+                "lng": 104.66863,
+                "date": "Apr 2025",
+                "country": "TH",
+                "region": "Nakhon Phanom"
+            }
         }
     },
     "OM": {
@@ -59255,6 +59272,22 @@
                 "lat": 63.88711,
                 "lng": 28.42173,
                 "date": "Oct 2024",
+                "country": "FI",
+                "region": "Kainuu"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1747474411,
+                "author": "Alex*",
+                "id": "1373231956480753726",
+                "panoId": "v_purZyxu_5HtKImWHyVuA",
+                "lat": 64.20685,
+                "lng": 29.68584,
+                "date": "Apr 2025",
                 "country": "FI",
                 "region": "Kainuu"
             }
