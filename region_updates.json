@@ -27239,30 +27239,32 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1716118812,
-                "author": "Unhook",
-                "panoId": "jzfRj4hw_08wXcxNhOB9rA",
-                "lat": -26.87054,
-                "lng": -52.14298,
-                "date": "Apr 2024",
+                "report_time": 1747506892,
+                "author": "Henrique",
+                "id": "1373368192059183256",
+                "panoId": "YwpGRumyq3kKV-S10ngx3A",
+                "lat": -26.26942,
+                "lng": -48.86877,
+                "date": "Apr 2025",
                 "country": "BR",
-                "altitude": 1022.17,
                 "region": "State of Santa Catarina"
             },
             "Mar": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1713103579,
-                "author": "Update Tracker Bot",
-                "panoId": "ukwRkp9NvQhB_8XmqvkCMQ",
-                "lat": -26.82473,
-                "lng": -53.39551,
-                "date": "Mar 2024",
+                "report_time": 1747507097,
+                "author": "Henrique",
+                "id": "1373369049504940084",
+                "panoId": "PA8UZr_1Z677HBXevP3bkQ",
+                "lat": -26.08156,
+                "lng": -48.61162,
+                "date": "Mar 2025",
                 "country": "BR",
-                "altitude": 277.76,
                 "region": "State of Santa Catarina"
             },
             "Feb": {
@@ -37968,16 +37970,17 @@
             },
             "Feb": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1715549727,
-                "author": "Unhook",
-                "panoId": "K4lbTX98mYOFOltappgucg",
-                "lat": -33.80737,
-                "lng": -71.53696,
-                "date": "Feb 2024",
+                "report_time": 1747493755,
+                "author": "Palmerranian",
+                "id": "1373313091541930075",
+                "panoId": "d9OSKrT6b3z547GBlCOz2g",
+                "lat": -33.59281,
+                "lng": -70.84225,
+                "date": "Feb 2025",
                 "country": "CL",
-                "altitude": 248.7,
                 "region": "Santiago Metropolitan Region"
             },
             "Nov": {
@@ -42769,6 +42772,21 @@
                 "lat": 51.16645,
                 "lng": 5.83305,
                 "date": "Nov 2024",
+                "country": "NL",
+                "region": "Limburg"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1747514809,
+                "author": "JbJabs",
+                "id": "1373401395499106478",
+                "panoId": "lqaiUOf0rLcGcyfTdmzpHw",
+                "lat": 51.73949,
+                "lng": 5.92187,
+                "date": "Apr 2025",
                 "country": "NL",
                 "region": "Limburg"
             }

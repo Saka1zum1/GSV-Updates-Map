@@ -42336,5 +42336,21 @@
         "lng": 5.65858,
         "country": "NL",
         "region": "Friesland"
+    },
+    {
+        "spot_date": "2011/10/27",
+        "id": "1373427854808977419",
+        "links": [
+            "https://blogdojosemario.wordpress.com/2011/10/27/flagra-do-blog-passando-na-hora-carro-do-google-maps-e-visto-nas-ruas-de-mossoro/",
+            "https://maps.app.goo.gl/qkJuBvFGzi2dGpfk7"
+        ],
+        "report_time": 1747521117,
+        "author": "Henrique",
+        "spot_type": "Gen3",
+        "panoId": "oVBMpzxXMtG92i5P3FMuCA",
+        "lat": -5.1932,
+        "lng": -37.34176,
+        "country": "BR",
+        "region": "State of Rio Grande do Norte"
     }
 ]
