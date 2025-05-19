@@ -19124,17 +19124,16 @@
             },
             "May": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1717937577,
-                "author": "franzyballs",
-                "panoId": "2hwnmOwFvtEUQQS0Q0PyIQ",
-                "lat": 56.5704,
-                "lng": 9.33649,
-                "date": "May 2024",
+                "report_time": 1747610301,
+                "author": "DeSlagen",
+                "id": "1373801917741928558",
+                "panoId": "9mZSBuk4AUvQ8j9dMS4kZg",
+                "lat": 56.71881,
+                "lng": 9.02176,
+                "date": "May 2025",
                 "country": "DK",
-                "altitude": 7.94,
                 "region": "Central Denmark Region"
             },
             "Oct": {
@@ -37268,7 +37267,8 @@
             }
         },
         "Budinci": {},
-        "Nograd County": {}
+        "Nograd County": {},
+        "J\u00e1sz-Nagykun-Szolnok": {}
     },
     "CL": {
         "Los Lagos": {
