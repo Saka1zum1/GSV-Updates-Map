@@ -42560,5 +42560,21 @@
         "lng": 112.59098,
         "country": "ID",
         "region": "East Java"
+    },
+    {
+        "spot_date": "2025/05/19",
+        "id": "1373970396029915240",
+        "links": [
+            "https://youtu.be/5IDVwzILRHU?si=fVF4d2odtfxjh7Fm",
+            "https://maps.app.goo.gl/kGstGxscJiVneCHP9"
+        ],
+        "report_time": 1747650469,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "EIk9awfq8PXxGxNhEE5E4g",
+        "lat": -8.7445,
+        "lng": 116.8538,
+        "country": "ID",
+        "region": "West Nusa Tenggara"
     }
 ]

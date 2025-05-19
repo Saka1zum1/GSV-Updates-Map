@@ -9319,6 +9319,20 @@
                 "date": "Feb 2025",
                 "country": "US",
                 "region": "Kentucky"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747651865,
+                "author": "Tobetelogi",
+                "id": "1373976249420091473",
+                "panoId": "UOmu21p1SUF0SY5COUe0pg",
+                "lat": 37.44178,
+                "lng": -84.35174,
+                "date": "May 2025",
+                "country": "US",
+                "region": "Kentucky"
             }
         },
         "Montana": {
@@ -12646,17 +12660,16 @@
             },
             "May": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1716213817,
-                "author": "Unhook",
-                "panoId": "sS6ZQYY0G3m2p3BuqcACVg",
-                "lat": 40.72034,
-                "lng": -97.72586,
-                "date": "May 2024",
+                "report_time": 1747648279,
+                "author": "BurgerwithPeel",
+                "id": "1373961212131545159",
+                "panoId": "Kg0DORzExS3JxQ0tj31kcA",
+                "lat": 40.36079,
+                "lng": -96.9135,
+                "date": "May 2025",
                 "country": "US",
-                "altitude": 513.68,
                 "region": "Nebraska"
             },
             "Apr": {
@@ -19561,6 +19574,20 @@
                 "date": "Mar 2025",
                 "country": "JP",
                 "region": "Mie"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747646026,
+                "author": "BurgerwithPeel",
+                "id": "1373951759135019048",
+                "panoId": "kLxYuuuBRFzMnEAJph6zcQ",
+                "lat": 34.77151,
+                "lng": 136.30791,
+                "date": "Apr 2025",
+                "country": "JP",
+                "region": "Mie"
             }
         },
         "Fukuoka": {
@@ -25846,6 +25873,20 @@
                 "lat": -9.47858,
                 "lng": -40.80814,
                 "date": "Dec 2024",
+                "country": "BR",
+                "region": "State of Bahia"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747651841,
+                "author": "Tobetelogi",
+                "id": "1373976151940272288",
+                "panoId": "ME-Ne6jNuu-3GLbp3V-30Q",
+                "lat": -17.46083,
+                "lng": -40.19537,
+                "date": "Apr 2025",
                 "country": "BR",
                 "region": "State of Bahia"
             }
