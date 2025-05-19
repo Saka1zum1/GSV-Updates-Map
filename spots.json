@@ -42576,5 +42576,69 @@
         "lng": 116.8538,
         "country": "ID",
         "region": "West Nusa Tenggara"
+    },
+    {
+        "spot_date": "2025/05/19",
+        "id": "1373979023071252612",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1330614651569853&set=a.122635092367821",
+            "https://maps.app.goo.gl/3HHkHFpF3qTyMsDG6"
+        ],
+        "report_time": 1747652526,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "FmzLfq2P5nxNlg5Cvk6xCg",
+        "lat": 52.3414,
+        "lng": 5.99152,
+        "country": "NL",
+        "region": "Gelderland"
+    },
+    {
+        "spot_date": "2025/05/18",
+        "id": "1374029518200766474",
+        "links": [
+            "https://x.com/mizushimax/status/1923972309418938873/photo/1",
+            "https://maps.app.goo.gl/rH81pFMBDDJLLq857"
+        ],
+        "report_time": 1747664565,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "Strhs1XNUWQ2oAzFpMruWg",
+        "lat": 34.06415,
+        "lng": 134.54944,
+        "country": "JP",
+        "region": "Tokushima"
+    },
+    {
+        "spot_date": "2025/04/29",
+        "id": "1373933749829373992",
+        "links": [
+            "https://www.alamy.com/google-maps-streetview-car-camera-filming-vehicle-frende-baiao-portugal-europe-image678505844.html?imageid=47A9F0A2-2946-454D-98E5-95AEB1C7039C&p=5343&pn=1&searchId=1c651526bf41142acbb2516f41eaaf52&searchtype=0",
+            "https://maps.app.goo.gl/MSyejPEtZULsERhx6"
+        ],
+        "report_time": 1747641732,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "6h1vpb6tDLnfP09v_pCYDA",
+        "lat": 41.12367,
+        "lng": -7.94012,
+        "country": "PT",
+        "region": "Porto District"
+    },
+    {
+        "spot_date": "2025/05/17",
+        "id": "1373750456420929737",
+        "links": [
+            "https://x.com/ftm5462392/status/1923818855669039523",
+            "https://maps.app.goo.gl/HwMv8VPSKhFnmzFYA"
+        ],
+        "report_time": 1747598031,
+        "author": "\u2730",
+        "spot_type": "Gen4",
+        "panoId": "fhp9CkBepwW-HUotsefb7A",
+        "lat": 34.43493,
+        "lng": 132.4708,
+        "country": "JP",
+        "region": "Hiroshima"
     }
 ]
