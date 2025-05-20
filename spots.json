@@ -42800,5 +42800,69 @@
         "lng": 11.98496,
         "country": "SE",
         "region": "V\u00e4stra G\u00f6taland County"
+    },
+    {
+        "spot_date": "2025/05/19",
+        "id": "1374332547986755666",
+        "links": [
+            "https://www.instagram.com/reel/DJ0XNnUup47/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/qEtfRsRP9h4CZD4m7"
+        ],
+        "report_time": 1747736813,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "hcyIQVJ3Gk3-P4HrpUwAvg",
+        "lat": -4.95518,
+        "lng": -37.13479,
+        "country": "BR",
+        "region": "State of Rio Grande do Norte"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374332258600751145",
+        "links": [
+            "https://youtu.be/jISchYEfpuc?si=HXCRZaslBTNKkbqN",
+            "https://maps.app.goo.gl/R984x9E2PMRNLymz6"
+        ],
+        "report_time": 1747736744,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "eFR48F7YS3KaHExvzJd5Tg",
+        "lat": 2.83436,
+        "lng": 117.38177,
+        "country": "ID",
+        "region": "North Kalimantan"
+    },
+    {
+        "spot_date": "2025/05/19",
+        "id": "1374332041163968602",
+        "links": [
+            "https://www.tiktok.com/@faiz.amzad/video/7505957665571392775",
+            "https://maps.app.goo.gl/hKBv2Vd9ynAStGVx7"
+        ],
+        "report_time": 1747736692,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "QKJ4QLIkVbq-VXZCrSxEiw",
+        "lat": -8.19273,
+        "lng": 113.28374,
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "spot_date": "2025/05/15",
+        "id": "1374375413765111908",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=122191713938099924&set=a.122107622042099924",
+            "https://maps.app.goo.gl/cBW1ADGfbkGX1c9f8"
+        ],
+        "report_time": 1747747033,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "fwsPRcK9IyMj7osxv1Q9RQ",
+        "lat": 51.68324,
+        "lng": -4.16349,
+        "country": "GB",
+        "region": "Wales"
     }
 ]

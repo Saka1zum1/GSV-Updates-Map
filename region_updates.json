@@ -13516,6 +13516,20 @@
                 "date": "Apr 2025",
                 "country": "US",
                 "region": "North Carolina"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747702446,
+                "author": "BurgerwithPeel",
+                "id": "1374188401955438732",
+                "panoId": "tRig7UNZ5pQzWjCYX5j_lw",
+                "lat": 36.06235,
+                "lng": -79.57712,
+                "date": "May 2025",
+                "country": "US",
+                "region": "North Carolina"
             }
         },
         "Indiana": {
