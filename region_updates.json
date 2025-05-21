@@ -23100,6 +23100,21 @@
                 "date": "Mar 2025",
                 "country": "JP",
                 "region": "Osaka"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1747770949,
+                "author": "Franz",
+                "id": "1374475723649060904",
+                "panoId": "tn5SJgL1BwRMsAip47TS-Q",
+                "lat": 34.36032,
+                "lng": 135.46091,
+                "date": "Apr 2025",
+                "country": "JP",
+                "region": "Osaka"
             }
         },
         "Nara": {
@@ -52578,6 +52593,20 @@
                 "lat": 17.14018,
                 "lng": 103.94065,
                 "date": "Feb 2025",
+                "country": "TH",
+                "region": "Sakon Nakhon"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747774498,
+                "author": "BurgerwithPeel",
+                "id": "1374490609829806225",
+                "panoId": "0KABZk9Uw_0rAR70LrHlqg",
+                "lat": 17.1854,
+                "lng": 104.09322,
+                "date": "Apr 2025",
                 "country": "TH",
                 "region": "Sakon Nakhon"
             }

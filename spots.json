@@ -42864,5 +42864,117 @@
         "lng": -4.16349,
         "country": "GB",
         "region": "Wales"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374376025101697064",
+        "links": [
+            "https://www.facebook.com/photo?fbid=2742767022588250&set=pcb.2742767075921578",
+            "https://maps.app.goo.gl/bHH6HFgkK9KdqfSm7"
+        ],
+        "report_time": 1747747179,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "Y1qpD_L_wUNMq3hoODQnSA",
+        "lat": -9.56788,
+        "lng": 124.90648,
+        "country": "ID",
+        "region": "East Nusa Tenggara"
+    },
+    {
+        "spot_date": "2025/05/19",
+        "id": "1374374010187681953",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10163145339837313&set=ecnf.562432312",
+            "https://maps.app.goo.gl/NJwAwjv8doJEt1Zj6"
+        ],
+        "report_time": 1747746698,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "1WxSv7vFjtO7OkkakhFwIw",
+        "lat": 46.0427,
+        "lng": 8.92335,
+        "country": "CH",
+        "region": "Ticino"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374372713740767312",
+        "links": [
+            "https://www.facebook.com/reel/1368528954194598/?s=single_unit",
+            "https://maps.app.goo.gl/NGHK8QifWygq4AZA6"
+        ],
+        "report_time": 1747746389,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "DjyoSVYfxFx24moE9EtaIA",
+        "lat": 53.07437,
+        "lng": 21.57362,
+        "country": "PL",
+        "region": "Masovian Voivodeship"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374354871045718126",
+        "links": [
+            "https://www.moja-ostroleka.pl/art/1747730708/samochod-google-street-view-w-ostrolece-bedziecie-w-kamerze-zdjecia",
+            "https://maps.app.goo.gl/SwCMWZKZnbhCTyoL9"
+        ],
+        "report_time": 1747742135,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "Imcz6_9dlo38mIjszELRXg",
+        "lat": 53.08893,
+        "lng": 21.57159,
+        "country": "PL",
+        "region": "Masovian Voivodeship"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374460652147703961",
+        "links": [
+            "https://www.instagram.com/p/DJ3535tuMz5",
+            "https://maps.app.goo.gl/kzqw2cgwonabx65b8"
+        ],
+        "report_time": 1747767355,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "mCWK6wO6aepUA_JSjSme0g",
+        "lat": -25.08881,
+        "lng": -50.16245,
+        "country": "BR",
+        "region": "State of Paran\u00e1"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374532937202270300",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1315502706828722&set=a.788009566244708",
+            "https://maps.app.goo.gl/zUCsyW7mk8PBZLHRA"
+        ],
+        "report_time": 1747784589,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "ZSJsXZ8MwaJpOvn8FL8YVQ",
+        "lat": 49.53804,
+        "lng": -96.68821,
+        "country": "CA",
+        "region": "Manitoba"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374531517379772518",
+        "links": [
+            "https://www.instagram.com/p/DJ5DVr3hzjA/?img_index=2",
+            "https://maps.app.goo.gl/AsCH7BtWLtcyNNdt6"
+        ],
+        "report_time": 1747784251,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "qjOYETG8yGZ6_j6stplpFA",
+        "lat": 24.0294,
+        "lng": -104.65486,
+        "country": "MX",
+        "region": "Durango"
     }
 ]
