@@ -42976,5 +42976,37 @@
         "lng": -104.65486,
         "country": "MX",
         "region": "Durango"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374680881121329205",
+        "links": [
+            "https://www.infoprzasnysz.com/samochod-google-street-view-pojawil-sie-w-przasnyszu/",
+            "https://maps.app.goo.gl/9QyjNxfjALymn8mn9"
+        ],
+        "report_time": 1747819862,
+        "author": "mileyard",
+        "spot_type": "Gen4",
+        "panoId": "2HtOEiklXpW99BgE287M8Q",
+        "lat": 53.01829,
+        "lng": 20.90009,
+        "country": "PL",
+        "region": "Masovian Voivodeship"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1374694332375891968",
+        "links": [
+            "https://www.facebook.com/groups/623711471586525/posts/1680345779256417/",
+            "https://maps.app.goo.gl/48TcadQ6uuxFMKmX9"
+        ],
+        "report_time": 1747823069,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "6jqtiRYn4DpwNVeEu_QFeQ",
+        "lat": 2.08024,
+        "lng": 99.85307,
+        "country": "ID",
+        "region": "North Sumatra"
     }
 ]
