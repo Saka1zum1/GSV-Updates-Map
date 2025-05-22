@@ -43008,5 +43008,37 @@
         "lng": 99.85307,
         "country": "ID",
         "region": "North Sumatra"
+    },
+    {
+        "spot_date": "2025/05/21",
+        "id": "1374826868208828416",
+        "links": [
+            "https://www.huelvainformacion.es/huelva/camara-google-maps-esta-huelva-si-cruzas-este-hombre-podrias-aparecer-street-view-buscador_0_2003976816.html?utm_source=twitter.com&utm_medium=social&utm_campaign=noticias",
+            "https://maps.app.goo.gl/UuqAgyidwfeL5RbQ7"
+        ],
+        "report_time": 1747854668,
+        "author": "TheRealWoly",
+        "spot_type": "Gen4",
+        "panoId": "eaQ533oxh1yYt9kB48nIXA",
+        "lat": 37.25963,
+        "lng": -6.94668,
+        "country": "ES",
+        "region": "Andalusia"
+    },
+    {
+        "spot_date": "2025/05/21",
+        "id": "1374825425435496639",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1256777719147087&set=pcb.1256777819147077",
+            "https://maps.app.goo.gl/QywwNUzLPiahxnZ39"
+        ],
+        "report_time": 1747854324,
+        "author": "TheRealWoly",
+        "spot_type": "Gen4",
+        "panoId": "4hCBZ7q-aWepsuQoAFKacw",
+        "lat": -23.18807,
+        "lng": -47.29105,
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
     }
 ]
