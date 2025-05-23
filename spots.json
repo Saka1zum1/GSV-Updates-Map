@@ -43247,5 +43247,101 @@
         "lng": 15.11695,
         "country": "SI",
         "region": "Municipality of Hrastnik"
+    },
+    {
+        "spot_date": "2025/05/22",
+        "id": "1375181127475658762",
+        "links": [
+            "https://maps.app.goo.gl/W1gp5ca2DfFPiWm87",
+            "https://maps.app.goo.gl/W1gp5ca2DfFPiWm87"
+        ],
+        "report_time": 1747939130,
+        "author": "ktz",
+        "spot_type": "Gen4",
+        "panoId": "_q7RXeGWVE14ahYjeUf49Q",
+        "lat": 40.15173,
+        "lng": -75.34647,
+        "country": "US",
+        "region": "Pennsylvania"
+    },
+    {
+        "spot_date": "2025/05/21",
+        "id": "1375181983600218194",
+        "links": [
+            "https://www.instagram.com/reel/DJ5FN5lvcq1/",
+            "https://maps.app.goo.gl/3a9cUUXqoSQHFrKc7"
+        ],
+        "report_time": 1747939334,
+        "author": "ktz",
+        "spot_type": "Gen4",
+        "panoId": "XUUTCNvg3_bZpSJxzmDi-g",
+        "lat": 4.5312,
+        "lng": -74.11763,
+        "country": "CO",
+        "region": "Bogota"
+    },
+    {
+        "spot_date": "2025/05/22",
+        "id": "1375174758999523481",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10092828394102595&set=pcb.10092828670769234",
+            "https://maps.app.goo.gl/cVaHK6KPAXfGBvhG8"
+        ],
+        "report_time": 1747937612,
+        "author": "TheRealWoly",
+        "spot_type": "Gen4",
+        "panoId": "vbb5xmbqv4u7FKRbM9k_gg",
+        "lat": 43.14362,
+        "lng": -87.9612,
+        "country": "US",
+        "region": "Wisconsin"
+    },
+    {
+        "spot_date": "2025/05/22",
+        "id": "1375203805691379772",
+        "links": [
+            "https://www.facebook.com/marcosperrin/videos/2584881745206640",
+            "https://maps.app.goo.gl/UAPE5r6WMosS6s7Q7"
+        ],
+        "report_time": 1747944537,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "kUlpU_PvOM-v7NG6urWyNg",
+        "lat": -23.51913,
+        "lng": -46.18846,
+        "country": "BR",
+        "region": "State of S\u00e3o Paulo"
+    },
+    {
+        "spot_date": "2025/05/22",
+        "id": "1375212901555769385",
+        "links": [
+            "https://www.facebook.com/reel/9703582319738111",
+            "https://maps.app.goo.gl/ex9xgvQPx22e6fXR7"
+        ],
+        "report_time": 1747946705,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "vPUNWIrWWFvvHqwPAzoEOA",
+        "lat": -6.78276,
+        "lng": -43.01411,
+        "country": "BR",
+        "region": "State of Piau\u00ed"
+    },
+    {
+        "spot_date": "2025/05/22",
+        "id": "1375206484304199771",
+        "links": [
+            "https://www.tiktok.com/@ksisbsisnosn/video/7507265442084375864?is_from_webapp=1&sender_device=pc&web_id=7471529845684487711",
+            "https://maps.app.goo.gl/EsisDJyt7gDNpFSp8"
+        ],
+        "report_time": 1747945175,
+        "author": "HoustonMediaHD",
+        "spot_type": "Gen4",
+        "panoId": "iYlTSVDaV-bUeFUx1TUGVQ",
+        "lat": -4.56467,
+        "lng": -44.62508,
+        "country": "BR",
+        "region": "State of Maranh\u00e3o"
     }
 ]

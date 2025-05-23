@@ -22118,6 +22118,20 @@
                 "date": "Apr 2025",
                 "country": "JP",
                 "region": "Aichi"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1747930775,
+                "author": "Steve",
+                "id": "1375146084195893310",
+                "panoId": "p7EqzpfkIkAsO5GgRHxuSQ",
+                "lat": 35.16188,
+                "lng": 136.90206,
+                "date": "May 2025",
+                "country": "JP",
+                "region": "Aichi"
             }
         },
         "Kochi": {
@@ -64133,6 +64147,21 @@
                 "lat": 18.11831,
                 "lng": -65.80383,
                 "date": "Jan 2025",
+                "country": "PR",
+                "region": "Humacao"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1747939156,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1375181236825493544",
+                "panoId": "7zOg22ldES6pXtQZMscalA",
+                "lat": 18.13098,
+                "lng": -65.81278,
+                "date": "Feb 2025",
                 "country": "PR",
                 "region": "Humacao"
             }
