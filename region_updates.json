@@ -5745,6 +5745,20 @@
                 "date": "Sep 2024",
                 "country": "PE",
                 "region": "Arequipa"
+            },
+            "Nov": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748042234,
+                "author": "Steve",
+                "id": "1375613575346786386",
+                "panoId": "nESNRdldqO7_jEaJf_WK2Q",
+                "lat": -17.02771,
+                "lng": -71.67897,
+                "date": "Nov 2024",
+                "country": "PE",
+                "region": "Arequipa"
             }
         },
         "Huanuco": {

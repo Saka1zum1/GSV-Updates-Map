@@ -43343,5 +43343,37 @@
         "lng": -44.62508,
         "country": "BR",
         "region": "State of Maranh\u00e3o"
+    },
+    {
+        "spot_date": "2025/05/21",
+        "id": "1375424679442907188",
+        "links": [
+            "https://www.tiktok.com/@vhee.project/video/7506789468058160402",
+            "https://maps.app.goo.gl/8iGuhaATnPnqu4mM8"
+        ],
+        "report_time": 1747997197,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "xK27wiLexHvftyUj6yqg8A",
+        "lat": -7.61304,
+        "lng": 112.4919,
+        "country": "ID",
+        "region": "East Java"
+    },
+    {
+        "spot_date": "2025/05/22",
+        "id": "1375454179132444803",
+        "links": [
+            "https://www.tiktok.com/@lagacetadesalamanca/video/7507243066558958870",
+            "https://maps.app.goo.gl/XaS6fyKR5Gdsgjai6"
+        ],
+        "report_time": 1748004231,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "6-GPgUlR7Fa_QLOyEiGO3A",
+        "lat": 40.97494,
+        "lng": -5.64633,
+        "country": "ES",
+        "region": "Castile and Le\u00f3n"
     }
 ]
