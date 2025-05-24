@@ -43375,5 +43375,37 @@
         "lng": -5.64633,
         "country": "ES",
         "region": "Castile and Le\u00f3n"
+    },
+    {
+        "spot_date": "2025/05/20",
+        "id": "1375754164411568188",
+        "links": [
+            "https://www.instagram.com/adolfocardetail/reel/DJ4l8ZjxkES/",
+            "https://maps.app.goo.gl/pHGTfibumPaPcjGRA"
+        ],
+        "report_time": 1748075753,
+        "author": "okay1272",
+        "spot_type": "Gen4",
+        "panoId": "etB9gLbfhGXADgGECPHOow",
+        "lat": -31.24987,
+        "lng": -61.49324,
+        "country": "AR",
+        "region": "Santa Fe Province"
+    },
+    {
+        "spot_date": "2025/05/23",
+        "id": "1375777377468158084",
+        "links": [
+            "https://www.lavozdelsur.es/ediciones/jerez/ojo-si-sales-este-viernes-dar-paseo-por-jerez-google-maps-te-puede-pillar-en-cualquier-momento_334745_102.html",
+            "https://maps.app.goo.gl/ynMWSgdHSwmDbduf8"
+        ],
+        "report_time": 1748081287,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "FNpyAMpAqBQzO134qhYDvw",
+        "lat": 36.68876,
+        "lng": -6.13849,
+        "country": "ES",
+        "region": "Andalusia"
     }
 ]
