@@ -3272,18 +3272,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newtown",
-                    "newarea"
+                    "newregion"
                 ],
-                "report_time": 1715521281,
-                "author": "Melting Ice",
-                "panoId": "IrSnZsLNDMl7S7m5GVU6qA",
-                "lat": -36.41595,
-                "lng": -60.66946,
-                "date": "Apr 2024",
+                "report_time": 1748140076,
+                "author": "Redpork",
+                "id": "1376023958218084423",
+                "panoId": "E2Oux1bd1Jh_lW-NICA-6Q",
+                "lat": -34.60177,
+                "lng": -58.63648,
+                "date": "Apr 2025",
                 "country": "AR",
-                "altitude": 99.83,
                 "region": "Buenos Aires Province"
             },
             "Mar": {
@@ -51968,6 +51966,21 @@
                 "country": "TH",
                 "altitude": 347.24,
                 "region": "Uttaradit"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1748167967,
+                "author": "BurgerwithPeel",
+                "id": "1376140940338663434",
+                "panoId": "0QBAxxShrfvMHhSbPHGffg",
+                "lat": 17.18303,
+                "lng": 100.07169,
+                "date": "Apr 2025",
+                "country": "TH",
+                "region": "Uttaradit"
             }
         },
         "Chanthaburi": {
@@ -59809,6 +59822,21 @@
                 "date": "Jul 2023",
                 "country": "FI",
                 "region": "Lapland"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1748163508,
+                "author": "Alex*",
+                "id": "1376122235789508638",
+                "panoId": "-ta8_qrHqtNhZteP_Zx4MA",
+                "lat": 66.46686,
+                "lng": 25.6095,
+                "date": "Apr 2025",
+                "country": "FI",
+                "region": "Lapland"
             }
         },
         "North Ostrobothia": {},
@@ -59994,6 +60022,20 @@
                 "date": "Jun 2024",
                 "country": "LT",
                 "altitude": 89.58,
+                "region": "Utena County"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748159044,
+                "author": "GreatAmadeus",
+                "id": "1376103514933166190",
+                "panoId": "2HlNBNWhAULeEq5mAVNKyw",
+                "lat": 55.57658,
+                "lng": 24.69528,
+                "date": "Apr 2025",
+                "country": "LT",
                 "region": "Utena County"
             }
         },

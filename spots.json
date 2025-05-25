@@ -43407,5 +43407,21 @@
         "lng": -6.13849,
         "country": "ES",
         "region": "Andalusia"
+    },
+    {
+        "spot_date": "2025/05/23",
+        "id": "1375455181222838332",
+        "links": [
+            "https://www.facebook.com/arns360/videos/9823668274416133",
+            "https://maps.app.goo.gl/Zh6oUVzrTnwz5YpP9"
+        ],
+        "report_time": 1748004469,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "MNdfo9LDmRy1fi9e3c9icQ",
+        "lat": 12.06911,
+        "lng": 124.59374,
+        "country": "PH",
+        "region": "Eastern Visayas"
     }
 ]
