@@ -3586,6 +3586,21 @@
                 "date": "Mar 2025",
                 "country": "AR",
                 "region": "C\u00f3rdoba Province"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1748134302,
+                "author": "Redpork",
+                "id": "1375999736900747364",
+                "panoId": "_Fitlg4tleEwxWczC7ItGQ",
+                "lat": -29.91638,
+                "lng": -63.69356,
+                "date": "Apr 2025",
+                "country": "AR",
+                "region": "C\u00f3rdoba Province"
             }
         },
         "Mendoza Province": {
@@ -22696,6 +22711,20 @@
                 "lat": 36.09217,
                 "lng": 139.54476,
                 "date": "Mar 2025",
+                "country": "JP",
+                "region": "Saitama"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748118968,
+                "author": "BurgerwithPeel",
+                "id": "1375935424798785597",
+                "panoId": "EfJYMoSALBzUiYRUPM88yw",
+                "lat": 35.79033,
+                "lng": 139.48338,
+                "date": "Apr 2025",
                 "country": "JP",
                 "region": "Saitama"
             }
