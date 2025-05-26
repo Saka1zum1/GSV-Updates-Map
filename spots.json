@@ -43423,5 +43423,37 @@
         "lng": 124.59374,
         "country": "PH",
         "region": "Eastern Visayas"
+    },
+    {
+        "spot_date": "2025/05/23",
+        "id": "1376345056834883735",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1669121493717954&set=pcb.1669122633717840",
+            "https://maps.app.goo.gl/Lauw3kA4tgdTmmEW8"
+        ],
+        "report_time": 1748216632,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "X-wsijsq30k18stuWPXzew",
+        "lat": 10.24261,
+        "lng": 123.95602,
+        "country": "PH",
+        "region": "Central Visayas"
+    },
+    {
+        "spot_date": "2025/05/23",
+        "id": "1376347257904959488",
+        "links": [
+            "https://www.tiktok.com/@j.paaaaaa/video/7507785174814313735",
+            "https://maps.app.goo.gl/o26nYCUoyRAhb4c49"
+        ],
+        "report_time": 1748217157,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "mQkQ8UgJe5v_XW5mCSwDSQ",
+        "lat": 21.11352,
+        "lng": -101.65208,
+        "country": "MX",
+        "region": "Guanajuato"
     }
 ]
