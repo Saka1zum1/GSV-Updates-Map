@@ -7127,16 +7127,17 @@
             },
             "Apr": {
                 "types": [
+                    "newyear",
                     "newregion"
                 ],
-                "report_time": 1715091554,
-                "author": "Update Tracker Bot",
-                "panoId": "uQwc9K6KiTP7fmUDSAhyqg",
-                "lat": 50.13284,
-                "lng": 14.79887,
-                "date": "Apr 2024",
+                "report_time": 1748218510,
+                "author": "Mr. Toledo",
+                "id": "1376352931900555284",
+                "panoId": "_SZtclVuAizs34Dd0gj6TA",
+                "lat": 49.92109,
+                "lng": 14.00469,
+                "date": "Apr 2025",
                 "country": "CZ",
-                "altitude": 198.97,
                 "region": "Central Bohemian Region"
             }
         },
@@ -8125,6 +8126,20 @@
                 "lat": 42.44425,
                 "lng": -84.01711,
                 "date": "Apr 2025",
+                "country": "US",
+                "region": "Michigan"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748238126,
+                "author": "drew",
+                "id": "1376435207741116438",
+                "panoId": "PVY1eecny-uARgdg--YLdg",
+                "lat": 42.6325,
+                "lng": -83.16113,
+                "date": "May 2025",
                 "country": "US",
                 "region": "Michigan"
             }
