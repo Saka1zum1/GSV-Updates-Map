@@ -20590,6 +20590,20 @@
                 "date": "Mar 2025",
                 "country": "JP",
                 "region": "Gunma"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748260824,
+                "author": "BurgerwithPeel",
+                "id": "1376530410351104154",
+                "panoId": "NfZT4hut4WF5sht6YvK15w",
+                "lat": 36.32292,
+                "lng": 139.00557,
+                "date": "Apr 2025",
+                "country": "JP",
+                "region": "Gunma"
             }
         },
         "Ibaraki": {
@@ -38643,16 +38657,17 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "newroad"
+                    "gen3update",
+                    "SmallCam"
                 ],
-                "report_time": 1715016913,
-                "author": "frefromwig",
-                "panoId": "R2fIfBehqEaDW25TzjbINg",
-                "lat": 38.30491,
-                "lng": 23.58668,
-                "date": "Apr 2024",
+                "report_time": 1748270169,
+                "author": "DeSlagen",
+                "id": "1376569607414091937",
+                "panoId": "Rk9H1NyhnnQp9Gp3qBGtkA",
+                "lat": 39.68654,
+                "lng": 22.07565,
+                "date": "Apr 2025",
                 "country": "GR",
-                "altitude": 132.59,
                 "region": "Decentralized Administration of Thessaly and Central Greece"
             },
             "Oct": {

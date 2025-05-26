@@ -43455,5 +43455,37 @@
         "lng": -101.65208,
         "country": "MX",
         "region": "Guanajuato"
+    },
+    {
+        "spot_date": "2025/05/25",
+        "id": "1376563567028998184",
+        "links": [
+            "https://www.tiktok.com/@beni.dla/video/7508102131065425174",
+            "https://maps.app.goo.gl/tRu3JXNLGcpU878L6"
+        ],
+        "report_time": 1748268729,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "vzwaoTOqJynTyglQP6uP_Q",
+        "lat": 49.70163,
+        "lng": 9.25562,
+        "country": "DE",
+        "region": "Bavaria"
+    },
+    {
+        "spot_date": "2025/05/25",
+        "id": "1376563361684127785",
+        "links": [
+            "https://www.facebook.com/reel/1015442580741480",
+            "https://maps.app.goo.gl/7NJjBC9T4XBVtHGB8"
+        ],
+        "report_time": 1748268680,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "QAp8xhIRBTWdTjWVDBehcg",
+        "lat": 0.46402,
+        "lng": 101.39903,
+        "country": "ID",
+        "region": "Riau"
     }
 ]
