@@ -43487,5 +43487,37 @@
         "lng": 101.39903,
         "country": "ID",
         "region": "Riau"
+    },
+    {
+        "spot_date": "2025/05/23",
+        "id": "1376590777282465842",
+        "links": [
+            "https://x.com/cipolla_XIV/status/1925794147329249571?t=7VoQlASZCQ7QCmnHbgabNw&s=19",
+            "https://maps.app.goo.gl/9Qmv3aB7E922CKYg7"
+        ],
+        "report_time": 1748275217,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "SiJXBQ3milwnSkUguL6MiQ",
+        "lat": 34.06815,
+        "lng": 134.55727,
+        "country": "JP",
+        "region": "Tokushima"
+    },
+    {
+        "spot_date": "2025/05/21",
+        "id": "1376660932427645079",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=9780132888732758&set=g.191448700943481",
+            "https://maps.app.goo.gl/wquc54sFKoFiscB18"
+        ],
+        "report_time": 1748291943,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "ohns1uk5TS0UtWxCFENhvQ",
+        "lat": 50.00414,
+        "lng": 9.14045,
+        "country": "DE",
+        "region": "Bavaria"
     }
 ]
