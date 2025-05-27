@@ -43519,5 +43519,69 @@
         "lng": 9.14045,
         "country": "DE",
         "region": "Bavaria"
+    },
+    {
+        "spot_date": "2025/05/23",
+        "id": "1376783521422639195",
+        "links": [
+            "https://www.threads.com/@mhblom1975/post/DKAjjqMO88f",
+            "https://maps.app.goo.gl/3KQbCcP832piMaKW6"
+        ],
+        "report_time": 1748321170,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "kTY9teIpFTfF46eDhnjJNQ",
+        "lat": 59.37836,
+        "lng": 17.93771,
+        "country": "SE",
+        "region": "Stockholm County"
+    },
+    {
+        "spot_date": "2025/05/26",
+        "id": "1376780094151987347",
+        "links": [
+            "https://www.threads.com/@mcestaff/post/DKIWZkEBqOk",
+            "https://maps.app.goo.gl/ducUxXg48TcDsYqF9"
+        ],
+        "report_time": 1748320353,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "Gt_l05dkQkiZbGur_nXj5g",
+        "lat": 56.71674,
+        "lng": -111.35144,
+        "country": "CA",
+        "region": "Alberta"
+    },
+    {
+        "spot_date": "2025/05/27",
+        "id": "1376868727861018744",
+        "links": [
+            "https://youtube.com/shorts/Lj5MYkF8GZk?si=uC9IpPtZLdda_Gk0",
+            "https://maps.app.goo.gl/sEVpxHWbQcnq51NL8"
+        ],
+        "report_time": 1748341485,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "XeWWutbPqFgbjiggWGAwRw",
+        "lat": -8.76789,
+        "lng": 115.17823,
+        "country": "ID",
+        "region": "Bali"
+    },
+    {
+        "spot_date": "2025/05/25",
+        "id": "1376868631501078558",
+        "links": [
+            "https://www.instagram.com/p/DKFSBnVtyrl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "https://maps.app.goo.gl/6Kt14oj91BJEgXw18"
+        ],
+        "report_time": 1748341462,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "wyNiq_CnREUjiz19TYjXJw",
+        "lat": 2.09273,
+        "lng": 99.83754,
+        "country": "ID",
+        "region": "North Sumatra"
     }
 ]
