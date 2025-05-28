@@ -3795,6 +3795,20 @@
                 "date": "Feb 2025",
                 "country": "AR",
                 "region": "San Juan Province"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748430883,
+                "author": "Steve",
+                "id": "1377243689935573052",
+                "panoId": "c_9_Uq462bfTMBgxbnYirg",
+                "lat": -30.64207,
+                "lng": -67.40694,
+                "date": "Mar 2025",
+                "country": "AR",
+                "region": "San Juan Province"
             }
         },
         "Salta Province": {
@@ -3840,6 +3854,20 @@
                 "date": "May 2024",
                 "country": "AR",
                 "altitude": 1130.82,
+                "region": "Salta Province"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748429035,
+                "author": "ReAnna",
+                "id": "1377235938056474644",
+                "panoId": "AWer0wfj2KOuJ84JuxGHwg",
+                "lat": -23.78658,
+                "lng": -66.03192,
+                "date": "Apr 2025",
+                "country": "AR",
                 "region": "Salta Province"
             }
         },
@@ -15290,14 +15318,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1717420025,
-                "author": "GreatAmadeus",
-                "panoId": "HTdJUHaQwQJTxSNem0A8tw",
-                "lat": 42.83454,
-                "lng": 11.46773,
-                "date": "May 2024",
+                "report_time": 1748440457,
+                "author": "Steve",
+                "id": "1377283843949727814",
+                "panoId": "RY0pyA7aFP7U7-CvGYulcg",
+                "lat": 43.2403,
+                "lng": 11.19739,
+                "date": "May 2025",
                 "country": "IT",
-                "altitude": 713.49,
                 "region": "Tuscany"
             },
             "Apr": {
@@ -15660,6 +15688,22 @@
                 "lat": 44.66431,
                 "lng": 8.94435,
                 "date": "Dec 2024",
+                "country": "IT",
+                "region": "Liguria"
+            },
+            "May": {
+                "types": [
+                    "newcountry",
+                    "newregion",
+                    "SmallCam"
+                ],
+                "report_time": 1748420006,
+                "author": "DerZiggi",
+                "id": "1377198067828133959",
+                "panoId": "dMSX_As16RSEez4GHq297Q",
+                "lat": 44.56767,
+                "lng": 8.9523,
+                "date": "May 2025",
                 "country": "IT",
                 "region": "Liguria"
             }
@@ -48727,6 +48771,23 @@
                 "lat": -32.23674,
                 "lng": 24.63111,
                 "date": "Nov 2024",
+                "country": "ZA",
+                "region": "Eastern Cape"
+            },
+            "Mar": {
+                "types": [
+                    "SmallCam",
+                    "newregion",
+                    "newroad",
+                    "newsmallcam"
+                ],
+                "report_time": 1748438832,
+                "author": "DerZiggi",
+                "id": "1377277031255117945",
+                "panoId": "QN4eznBYa3YSEcHfqSmGmw",
+                "lat": -31.26648,
+                "lng": 25.21835,
+                "date": "Mar 2025",
                 "country": "ZA",
                 "region": "Eastern Cape"
             }
