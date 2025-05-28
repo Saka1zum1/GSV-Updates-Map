@@ -43583,5 +43583,53 @@
         "lng": 99.83754,
         "country": "ID",
         "region": "North Sumatra"
+    },
+    {
+        "spot_date": "2025/05/27",
+        "id": "1377003603197431879",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10027701600644713&set=gm.3039554469546615&idorvanity=599291043572982",
+            "https://maps.app.goo.gl/TYqPfxHg3r3KPfnE9"
+        ],
+        "report_time": 1748373642,
+        "author": "TheRealWoly",
+        "spot_type": "Gen4",
+        "panoId": "8caNsVFFbxoFIueL4D_BPg",
+        "lat": 53.46896,
+        "lng": 18.7375,
+        "country": "PL",
+        "region": "Kuyavian-Pomeranian Voivodeship"
+    },
+    {
+        "spot_date": "2025/05/27",
+        "id": "1377048567235088445",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=1262894455845549&set=a.450017607133242",
+            "https://maps.app.goo.gl/Y13QqqCtAH2yK2Jr6"
+        ],
+        "report_time": 1748384362,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "_wUlOCeb8NPyOLlqb1D1IA",
+        "lat": 16.68749,
+        "lng": -98.40388,
+        "country": "MX",
+        "region": "Guerrero"
+    },
+    {
+        "spot_date": "2025/05/27",
+        "id": "1377046796437815410",
+        "links": [
+            "https://www.svouranews.gr/%CE%B1%CF%85%CF%84%CE%BF%CE%BA%CE%AF%CE%BD%CE%B7%CF%84%CE%BF-%CF%84%CE%B7%CF%82-google-%CF%83%CF%84%CE%B7%CE%BD-%CE%BA%CE%B1%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%AC-%CF%86%CF%89%CF%84%CE%BF/",
+            "https://maps.app.goo.gl/oqVx3sa21iVRQBbPA"
+        ],
+        "report_time": 1748383940,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "MQ_wd2mfR_5b3e6MFQUKLQ",
+        "lat": 40.51943,
+        "lng": 21.26669,
+        "country": "GR",
+        "region": "Decentralized Administration of Epirus and Western Macedonia"
     }
 ]
