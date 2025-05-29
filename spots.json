@@ -43679,5 +43679,69 @@
         "lng": -59.32822,
         "country": "AR",
         "region": "Formosa Province"
+    },
+    {
+        "spot_date": "2025/05/28",
+        "id": "1377504649887612969",
+        "links": [
+            "https://www.tiktok.com/@sonidos_max_kiara/video/7509473915928841477",
+            "https://maps.app.goo.gl/8z3VG53gbhgTRGcs5"
+        ],
+        "report_time": 1748493101,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "ETvgM9CLjVWKjQr0NhHkRg",
+        "lat": -15.83289,
+        "lng": -71.08536,
+        "country": "PE",
+        "region": "Arequipa"
+    },
+    {
+        "spot_date": "2025/05/28",
+        "id": "1377508178757025832",
+        "links": [
+            "https://www.tiktok.com/@ventura.8998/video/7509630620390133010",
+            "https://maps.app.goo.gl/mBSFqfJ9pZVLZU7s6"
+        ],
+        "report_time": 1748493942,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "ohlS3g-IY-1XV6kVo1H2qg",
+        "lat": 18.83917,
+        "lng": -97.1251,
+        "country": "MX",
+        "region": "Veracruz"
+    },
+    {
+        "spot_date": "2025/05/23",
+        "id": "1377540806281265162",
+        "links": [
+            "https://www.facebook.com/photo?fbid=4061548500782654&set=pcb.3866891530194437",
+            "https://maps.app.goo.gl/XaqbZMDxqiWVgzpq8"
+        ],
+        "report_time": 1748501721,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "2QRLvRXYwxwup5T1gdvwjA",
+        "lat": 51.35475,
+        "lng": 11.99281,
+        "country": "DE",
+        "region": "Saxony-Anhalt"
+    },
+    {
+        "spot_date": "2025/05/24",
+        "id": "1377599042422571058",
+        "links": [
+            "https://www.tiktok.com/@_streetviewbali/photo/7507578151296339206",
+            "https://maps.app.goo.gl/TnBWX9hXeGmEfJRz6"
+        ],
+        "report_time": 1748515606,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "QFZZjaaVpOh6heefkZlPaQ",
+        "lat": -8.70551,
+        "lng": 115.18333,
+        "country": "ID",
+        "region": "Bali"
     }
 ]
