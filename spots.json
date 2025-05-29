@@ -43631,5 +43631,53 @@
         "lng": 21.26669,
         "country": "GR",
         "region": "Decentralized Administration of Epirus and Western Macedonia"
+    },
+    {
+        "spot_date": "2025/05/27",
+        "id": "1377291295319654442",
+        "links": [
+            "https://www.tiktok.com/@sanzaragoza1/video/7509155816696499463",
+            "https://maps.app.goo.gl/rzUGiFQYpu7tfviPA"
+        ],
+        "report_time": 1748442233,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "YbnYbe7vn-3_lRVn9YloWA",
+        "lat": 19.38371,
+        "lng": -99.23233,
+        "country": "MX",
+        "region": "Mexico City"
+    },
+    {
+        "spot_date": "2025/05/28",
+        "id": "1377324843040641074",
+        "links": [
+            "https://maps.app.goo.gl/T36QeMPr4RACV6S98",
+            "https://maps.app.goo.gl/T36QeMPr4RACV6S98"
+        ],
+        "report_time": 1748450232,
+        "author": "Lutsi",
+        "spot_type": "Gen4",
+        "panoId": "HF4ZKRiUel-0WXT23Jw0zw",
+        "lat": 65.01206,
+        "lng": 25.46545,
+        "country": "FI",
+        "region": "North Ostrobothnia"
+    },
+    {
+        "spot_date": "2025/05/28",
+        "id": "1377380103801143347",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=10231349618666854&set=a.3445162410960",
+            "https://maps.app.goo.gl/rLTRsKY47CU3bQuu7"
+        ],
+        "report_time": 1748463407,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "ARS2vUg4Z7dnmH1I3UV6Vg",
+        "lat": -25.55857,
+        "lng": -59.32822,
+        "country": "AR",
+        "region": "Formosa Province"
     }
 ]
