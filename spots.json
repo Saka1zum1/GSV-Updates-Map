@@ -43743,5 +43743,21 @@
         "lng": 115.18333,
         "country": "ID",
         "region": "Bali"
+    },
+    {
+        "spot_date": "2025/05/29",
+        "id": "1377782576928002048",
+        "links": [
+            "https://maps.app.goo.gl/sYApw9poJFbeW74Y8",
+            "https://maps.app.goo.gl/sYApw9poJFbeW74Y8"
+        ],
+        "report_time": 1748559364,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "VQk0pKw3QO16W_3ky9Gqew",
+        "lat": -34.45213,
+        "lng": -58.85957,
+        "country": "AR",
+        "region": "Buenos Aires Province"
     }
 ]
