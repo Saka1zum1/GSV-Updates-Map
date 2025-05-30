@@ -43759,5 +43759,53 @@
         "lng": -58.85957,
         "country": "AR",
         "region": "Buenos Aires Province"
+    },
+    {
+        "spot_date": "2025/05/29",
+        "id": "1377778468862955604",
+        "links": [
+            "https://www.facebook.com/groups/1580970308859130/posts/4193722764250525/",
+            "https://maps.app.goo.gl/5xwELfhnJQC8Xz2j8"
+        ],
+        "report_time": 1748558384,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "l75JmetX8_m0BBg2lbm_8g",
+        "lat": 45.52124,
+        "lng": -73.53863,
+        "country": "CA",
+        "region": "Quebec"
+    },
+    {
+        "spot_date": "2025/05/29",
+        "id": "1377954868999753808",
+        "links": [
+            "https://www.facebook.com/reel/1426127704983496",
+            "https://maps.app.goo.gl/mnQK7YzNnxXuSD5h9"
+        ],
+        "report_time": 1748600441,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "orkaZTAgl1ccSlBFXBrf3g",
+        "lat": 2.03894,
+        "lng": 99.89738,
+        "country": "ID",
+        "region": "North Sumatra"
+    },
+    {
+        "spot_date": "2025/03/21",
+        "id": "1377982798354317392",
+        "links": [
+            "https://www.threads.com/@whiteknightnl/post/DJjDlD7I-VY/media",
+            "https://maps.app.goo.gl/rnBfF9cpFFyV8xS79"
+        ],
+        "report_time": 1748607100,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "bXyDLD6WXvdCYRYs8NV0Eg",
+        "lat": 53.04439,
+        "lng": 5.83816,
+        "country": "NL",
+        "region": "Friesland"
     }
 ]
