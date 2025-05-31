@@ -43807,5 +43807,53 @@
         "lng": 5.83816,
         "country": "NL",
         "region": "Friesland"
+    },
+    {
+        "spot_date": "2025/05/27",
+        "id": "1378018954047393803",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=24242844941967658&set=pcb.24242785321973620",
+            "https://maps.app.goo.gl/K4G8wFptcyh6DkZu7"
+        ],
+        "report_time": 1748615720,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "ocmc2QifGnusVNO-VaR9Xg",
+        "lat": 23.02247,
+        "lng": 120.18892,
+        "country": "CN",
+        "region": "Tainan City"
+    },
+    {
+        "spot_date": "2025/05/30",
+        "id": "1378075729119543426",
+        "links": [
+            "https://www.tiktok.com/@yourcigafter.sex/video/7510024940456889618",
+            "https://maps.app.goo.gl/SfF8v1hjBdaFtMgd7"
+        ],
+        "report_time": 1748629257,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "0Rk2C0YYKVEBqb95OwU_2g",
+        "lat": -37.82584,
+        "lng": 147.65084,
+        "country": "AU",
+        "region": "Victoria"
+    },
+    {
+        "spot_date": "2025/05/29",
+        "id": "1378080185429000335",
+        "links": [
+            "https://www.youtube.com/shorts/fVi3rbhASoQ",
+            "https://maps.app.goo.gl/r4qJQw3mZRNUvpnC8"
+        ],
+        "report_time": 1748630319,
+        "author": "Jaki\u015b Bartu\u015b",
+        "spot_type": "Gen4",
+        "panoId": "LihPXFr6FiBAAsYTiRPO-Q",
+        "lat": 50.16613,
+        "lng": 19.21857,
+        "country": "PL",
+        "region": "Silesian Voivodeship"
     }
 ]

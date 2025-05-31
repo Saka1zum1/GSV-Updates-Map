@@ -3607,16 +3607,16 @@
             "Apr": {
                 "types": [
                     "newregion",
-                    "gen3update"
+                    "newroad"
                 ],
-                "report_time": 1718022860,
-                "author": "Melting Ice",
-                "panoId": "UvhOJQbCqxHLhiEVQkJmOw",
-                "lat": -28.93683,
-                "lng": -58.60948,
-                "date": "Apr 2024",
+                "report_time": 1748644011,
+                "author": "Redpork",
+                "id": "1378137614930022560",
+                "panoId": "61E2mD4vCNOzMCPpeI2SPA",
+                "lat": -27.57888,
+                "lng": -56.67847,
+                "date": "Apr 2025",
                 "country": "AR",
-                "altitude": 67.06,
                 "region": "Corrientes Province"
             },
             "Oct": {
@@ -7543,6 +7543,21 @@
                 "country": "CZ",
                 "altitude": 372.79,
                 "region": "Pardubice Region"
+            },
+            "May": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748641071,
+                "author": "DeSlagen",
+                "id": "1378125281482506330",
+                "panoId": "qdF_Yac-xNsPsSw00r6Uxg",
+                "lat": 49.85467,
+                "lng": 15.51203,
+                "date": "May 2025",
+                "country": "CZ",
+                "region": "Pardubice Region"
             }
         },
         "Central Bohemian Region": {
@@ -11190,17 +11205,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "gen1update"
+                    "newregion"
                 ],
-                "report_time": 1713558202,
-                "author": "Alex*",
-                "panoId": "kRahWhU9y0wRvbhmecgUMA",
-                "lat": 34.7135,
-                "lng": -81.63638,
-                "date": "Apr 2024",
+                "report_time": 1748647885,
+                "author": "HoustonMediaHD",
+                "id": "1378153862900220047",
+                "panoId": "q14Ed4G18gYygVen7fdtmQ",
+                "lat": 34.71241,
+                "lng": -82.44151,
+                "date": "Apr 2025",
                 "country": "US",
-                "altitude": 175.49,
                 "region": "South Carolina"
             },
             "Mar": {
@@ -17930,6 +17944,21 @@
                 "date": "Oct 2024",
                 "country": "IE",
                 "region": "County Limerick"
+            },
+            "Apr": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748641982,
+                "author": "Mr. Toledo",
+                "id": "1378129102933983265",
+                "panoId": "jK4acnQkM5uWaJ4PujIVsw",
+                "lat": 52.2978,
+                "lng": -8.18164,
+                "date": "Apr 2025",
+                "country": "IE",
+                "region": "County Limerick"
             }
         },
         "County Tipperary": {
@@ -18802,16 +18831,17 @@
             },
             "May": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1716972264,
-                "author": "GreatAmadeus",
-                "panoId": "G4bUHlNkZLJxh5Lq2ndmdw",
-                "lat": 56.8951,
-                "lng": 24.17467,
-                "date": "May 2024",
+                "report_time": 1748624999,
+                "author": "frefromwig",
+                "id": "1378057872029646859",
+                "panoId": "SnquS4xEJ5HDxga0pQeyoA",
+                "lat": 56.87943,
+                "lng": 24.14814,
+                "date": "May 2025",
                 "country": "LV",
-                "altitude": 9.1,
                 "region": "\u0136ekava Municipality"
             },
             "Apr": {
@@ -20737,14 +20767,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1716365664,
-                "author": "Update Tracker Bot",
-                "panoId": "aww1pCmMzrStAnpiyF3-kA",
-                "lat": 43.00151,
-                "lng": 144.34683,
-                "date": "May 2024",
+                "report_time": 1748641076,
+                "author": "Mr. Toledo",
+                "id": "1378125301552250880",
+                "panoId": "THya1xPEENZ2SiTdBfjzMw",
+                "lat": 43.10734,
+                "lng": 141.72716,
+                "date": "May 2025",
                 "country": "JP",
-                "altitude": 4.4,
                 "region": "Hokkaido"
             },
             "Apr": {
@@ -20861,6 +20891,20 @@
                 "lat": 34.09728,
                 "lng": 133.76613,
                 "date": "Apr 2025",
+                "country": "JP",
+                "region": "Kagawa"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748617549,
+                "author": "Mr. Toledo",
+                "id": "1378026621818110074",
+                "panoId": "IXsBAygAq5GuTcgJHykotQ",
+                "lat": 34.04109,
+                "lng": 133.68258,
+                "date": "May 2025",
                 "country": "JP",
                 "region": "Kagawa"
             }
@@ -21553,6 +21597,20 @@
                 "lat": 36.32292,
                 "lng": 139.00557,
                 "date": "Apr 2025",
+                "country": "JP",
+                "region": "Gunma"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748641209,
+                "author": "Mr. Toledo",
+                "id": "1378125859361132664",
+                "panoId": "mEdnjZnrByjmV6-CcXGjKQ",
+                "lat": 36.36413,
+                "lng": 138.92975,
+                "date": "May 2025",
                 "country": "JP",
                 "region": "Gunma"
             }
@@ -22313,14 +22371,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1716205374,
-                "author": "\u8c46\u8c46\u5196",
-                "panoId": "XCRb2gA1YXIvqnkwBbqK6Q",
-                "lat": 35.62476,
-                "lng": 139.04447,
-                "date": "May 2024",
+                "report_time": 1748617549,
+                "author": "Mr. Toledo",
+                "id": "1378026621818110074",
+                "panoId": "6X2qOjEkLzJHb5EuytdGCw",
+                "lat": 35.54074,
+                "lng": 138.30598,
+                "date": "May 2025",
                 "country": "JP",
-                "altitude": 396.68,
                 "region": "Yamanashi"
             },
             "Apr": {
@@ -22581,6 +22639,20 @@
                 "lat": 35.13675,
                 "lng": 135.53823,
                 "date": "Apr 2025",
+                "country": "JP",
+                "region": "Kyoto"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748640446,
+                "author": "BurgerwithPeel",
+                "id": "1378122660420124692",
+                "panoId": "NJwwgyoc211dXqsfajsG6Q",
+                "lat": 35.27211,
+                "lng": 135.5506,
+                "date": "May 2025",
                 "country": "JP",
                 "region": "Kyoto"
             }
@@ -23824,6 +23896,20 @@
                 "date": "Apr 2025",
                 "country": "JP",
                 "region": "Miyagi"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748617549,
+                "author": "Mr. Toledo",
+                "id": "1378026621818110074",
+                "panoId": "eo-WrecaX9q5h1S4PzqvMg",
+                "lat": 38.44275,
+                "lng": 140.8956,
+                "date": "May 2025",
+                "country": "JP",
+                "region": "Miyagi"
             }
         },
         "Toyama": {
@@ -24546,6 +24632,21 @@
                 "date": "Apr 2025",
                 "country": "JP",
                 "region": "Tokushima"
+            },
+            "May": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1748617549,
+                "author": "Mr. Toledo",
+                "id": "1378026621818110074",
+                "panoId": "5TAGQ3CoyzsWf02ipwP7IA",
+                "lat": 34.06613,
+                "lng": 134.46583,
+                "date": "May 2025",
+                "country": "JP",
+                "region": "Tokushima"
             }
         },
         "Hyogo": {
@@ -24632,6 +24733,20 @@
                 "lat": 34.68121,
                 "lng": 135.01779,
                 "date": "Feb 2025",
+                "country": "JP",
+                "region": "Hyogo"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748640522,
+                "author": "BurgerwithPeel",
+                "id": "1378122978671329482",
+                "panoId": "jrGcbdXbU4ky07VUZY_X9A",
+                "lat": 34.75939,
+                "lng": 135.32013,
+                "date": "May 2025",
                 "country": "JP",
                 "region": "Hyogo"
             }
@@ -25607,6 +25722,20 @@
                 "date": "Sep 2024",
                 "country": "SE",
                 "altitude": 138.85,
+                "region": "\u00d6rebro County"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748631420,
+                "author": "Update Tracker Bot",
+                "id": "1378084803617886208",
+                "panoId": "MG-iaa7VDE3nb1-uc6JKaQ",
+                "lat": 59.78759,
+                "lng": 15.15287,
+                "date": "May 2025",
+                "country": "SE",
                 "region": "\u00d6rebro County"
             }
         },
@@ -66041,6 +66170,22 @@
                 "date": "Dec 2024",
                 "country": "PR",
                 "region": "Luquillo"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "gen3update"
+                ],
+                "report_time": 1748630572,
+                "author": "Tobetelogi",
+                "id": "1378081247149949039",
+                "panoId": "F25mPuwiqJv4AaeqvIEniw",
+                "lat": 18.35303,
+                "lng": -65.69434,
+                "date": "Feb 2025",
+                "country": "PR",
+                "region": "Luquillo"
             }
         },
         "R\u00edo Grande": {
@@ -66772,7 +66917,27 @@
                 "region": "Naranjito"
             }
         },
-        "Punta Santiago": {}
+        "Punta Santiago": {},
+        "Fajardo": {
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newgen4",
+                    "newsmallcam",
+                    "newyear",
+                    "gen3update"
+                ],
+                "report_time": 1748630802,
+                "author": "Tobetelogi",
+                "id": "1378082208463589476",
+                "panoId": "IACtghFx0p8OmpRco7GivQ",
+                "lat": 18.30366,
+                "lng": -65.6494,
+                "date": "Feb 2025",
+                "country": "PR",
+                "region": "Fajardo"
+            }
+        }
     },
     "RE": {
         "Saint-Denis": {}
