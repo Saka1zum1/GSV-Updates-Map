@@ -44978,5 +44978,37 @@
         "lng": -106.65079,
         "country": "CA",
         "region": "Saskatchewan"
+    },
+    {
+        "spot_date": "2025/05/22",
+        "id": "1378586374621626449",
+        "links": [
+            "https://www.xiaohongshu.com/discovery/item/682ecc3b000000002301682f?app_platform=android&ignoreEngage=true&app_version=8.85.0&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBg9Px7NO46OapyGcdgFZp-fWQq-RPy66w1wV9MdXau3w%3D&author_share=1&xhsshare=CopyLink&shareRedId=OD41QkU8RkE2NzUyOTgwNjdFOTk3Skw6&apptime=1748750942&share_id=6669fb8a29144e5ab6b79b381f73fd59&share_channel=copy_link",
+            "https://maps.app.goo.gl/q5qMAVesKhQKQgzE8"
+        ],
+        "report_time": 1748751004,
+        "author": "Eventide Fareana\u2728",
+        "spot_type": "Gen4",
+        "panoId": "LLgH1KOJ9JLb4s6OSSv7Sw",
+        "lat": 35.27717,
+        "lng": 136.93235,
+        "country": "JP",
+        "region": "Aichi"
+    },
+    {
+        "spot_date": "2025/05/26",
+        "id": "1378692287483089016",
+        "links": [
+            "https://platesmania.com/de/nomer28298919",
+            "https://maps.app.goo.gl/VSv22mWCsxNbPFti9"
+        ],
+        "report_time": 1748776256,
+        "author": "xdTAGCLAN",
+        "spot_type": "Gen4",
+        "panoId": "USVf52JVeqcZazLZMYpb_A",
+        "lat": 53.56903,
+        "lng": 8.09247,
+        "country": "DE",
+        "region": "Lower Saxony"
     }
 ]

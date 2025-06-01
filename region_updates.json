@@ -2541,6 +2541,20 @@
                 "date": "May 2025",
                 "country": "SI",
                 "region": "Se\u017eana"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748781751,
+                "author": "DeSlagen",
+                "id": "1378715337956134987",
+                "panoId": "cdGtJwBHJ4SYBdmAIeK5Mg",
+                "lat": 45.53095,
+                "lng": 14.08567,
+                "date": "Apr 2025",
+                "country": "SI",
+                "region": "Se\u017eana"
             }
         },
         "Ajdov\u0161\u010dina": {
@@ -3389,6 +3403,23 @@
                 "date": "Apr 2025",
                 "country": "SI",
                 "region": "Slovenske Konjice"
+            }
+        },
+        "Grosuplje": {
+            "Apr": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748781751,
+                "author": "DeSlagen",
+                "id": "1378715337956134987",
+                "panoId": "QJWInnup1gcBGYOKFs0yOw",
+                "lat": 45.88861,
+                "lng": 14.63794,
+                "date": "Apr 2025",
+                "country": "SI",
+                "region": "Grosuplje"
             }
         }
     },
@@ -8526,17 +8557,16 @@
             },
             "May": {
                 "types": [
-                    "newregion",
-                    "gen3update"
+                    "newregion"
                 ],
-                "report_time": 1718039301,
-                "author": "Alex*",
-                "panoId": "bsBg-w9UwaFLbxmScS2QXw",
-                "lat": 42.71881,
-                "lng": -113.73068,
-                "date": "May 2024",
+                "report_time": 1748779999,
+                "author": "Steve",
+                "id": "1378707987299958825",
+                "panoId": "aRPEiASs_nxy6PhkCszrxQ",
+                "lat": 47.4102,
+                "lng": -116.95301,
+                "date": "May 2025",
                 "country": "US",
-                "altitude": 1290.51,
                 "region": "Idaho"
             },
             "Apr": {
@@ -18115,6 +18145,20 @@
                 "date": "Apr 2025",
                 "country": "IE",
                 "region": "County Offaly"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748756967,
+                "author": "Update Tracker Bot",
+                "id": "1378611386183061606",
+                "panoId": "_gz-MJwXCxodo_FcGQra6w",
+                "lat": 53.33869,
+                "lng": -7.24172,
+                "date": "May 2025",
+                "country": "IE",
+                "region": "County Offaly"
             }
         },
         "Contae Shligigh": {
@@ -20064,7 +20108,22 @@
         "Koprivnica-Kri\u017eevci County": {},
         "Me\u0111imurje County": {},
         "Banjol": {},
-        "Virovitica-Podravina County": {},
+        "Virovitica-Podravina County": {
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748771617,
+                "author": "Update Tracker Bot",
+                "id": "1378672829989523587",
+                "panoId": "66Mv-DHt-EK5P9a4Zg-Mng",
+                "lat": 45.81813,
+                "lng": 17.50037,
+                "date": "May 2025",
+                "country": "HR",
+                "region": "Virovitica-Podravina County"
+            }
+        },
         "Bjelovar-Bilogora County": {
             "Apr": {
                 "types": [
@@ -20080,6 +20139,22 @@
                 "date": "Apr 2025",
                 "country": "HR",
                 "region": "Bjelovar-Bilogora County"
+            }
+        },
+        "Lika-Senj County": {
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748772552,
+                "author": "Update Tracker Bot",
+                "id": "1378676752062218240",
+                "panoId": "1S1YiNWvQrANmUF3V8F1XQ",
+                "lat": 44.7789,
+                "lng": 15.0995,
+                "date": "May 2025",
+                "country": "HR",
+                "region": "Lika-Senj County"
             }
         }
     },
@@ -20454,17 +20529,16 @@
             },
             "May": {
                 "types": [
-                    "newregion",
-                    "gen3update"
+                    "newregion"
                 ],
-                "report_time": 1716189609,
-                "author": "Update Tracker Bot",
-                "panoId": "Ah2-mTEc_-l5Q0ZjdVFJLw",
-                "lat": 32.41412,
-                "lng": 131.48838,
-                "date": "May 2024",
+                "report_time": 1748775145,
+                "author": "BurgerwithPeel",
+                "id": "1378687629574541333",
+                "panoId": "CmLIDfY3n9zL0NaNa92cKg",
+                "lat": 31.96319,
+                "lng": 130.93552,
+                "date": "May 2025",
                 "country": "JP",
-                "altitude": 327.31,
                 "region": "Miyazaki"
             },
             "Nov": {
@@ -21206,17 +21280,16 @@
             },
             "May": {
                 "types": [
-                    "newregion",
-                    "newstreet"
+                    "newregion"
                 ],
-                "report_time": 1717938940,
-                "author": "franzyballs",
-                "panoId": "Q_vjK9KeQD03yDU5hbDk5A",
-                "lat": 33.53762,
-                "lng": 135.74637,
-                "date": "May 2024",
+                "report_time": 1748775067,
+                "author": "BurgerwithPeel",
+                "id": "1378687301298683954",
+                "panoId": "lPcibffwHZFvCNHpvWe18w",
+                "lat": 34.2682,
+                "lng": 135.3101,
+                "date": "May 2025",
                 "country": "JP",
-                "altitude": 17.98,
                 "region": "Wakayama"
             },
             "Jun": {
@@ -25598,6 +25671,20 @@
                 "lat": 63.16803,
                 "lng": 17.35175,
                 "date": "Apr 2025",
+                "country": "SE",
+                "region": "V\u00e4sternorrland County"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748784927,
+                "author": "Steve",
+                "id": "1378728657769463878",
+                "panoId": "s5bJ2XGhWk_M87LJo8NZ7A",
+                "lat": 62.88218,
+                "lng": 16.66872,
+                "date": "May 2025",
                 "country": "SE",
                 "region": "V\u00e4sternorrland County"
             }
@@ -34534,6 +34621,20 @@
                 "lat": 38.01857,
                 "lng": -1.81552,
                 "date": "Mar 2025",
+                "country": "ES",
+                "region": "Region of Murcia"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748783163,
+                "author": "Steve",
+                "id": "1378721258417422488",
+                "panoId": "m0-rhek9RxGoPbFFHEyQOw",
+                "lat": 38.27342,
+                "lng": -1.98378,
+                "date": "May 2025",
                 "country": "ES",
                 "region": "Region of Murcia"
             }
@@ -45417,6 +45518,21 @@
                 "date": "Feb 2025",
                 "country": "ID",
                 "region": "West Java"
+            },
+            "May": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1748789553,
+                "author": "DerZiggi",
+                "id": "1378748060443607140",
+                "panoId": "4CdzehCoEThonlgxkClOVA",
+                "lat": -6.29821,
+                "lng": 106.98451,
+                "date": "May 2025",
+                "country": "ID",
+                "region": "West Java"
             }
         },
         "South Kalimantan": {
@@ -54203,6 +54319,20 @@
                 "date": "Apr 2025",
                 "country": "TH",
                 "region": "Phitsanulok"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748761148,
+                "author": "Update Tracker Bot",
+                "id": "1378628922694176798",
+                "panoId": "qAwDkrHkDPd5QHEyNgzVDQ",
+                "lat": 16.87124,
+                "lng": 100.24222,
+                "date": "May 2025",
+                "country": "TH",
+                "region": "Phitsanulok"
             }
         },
         "Uttaradit": {
@@ -56034,6 +56164,22 @@
                 "country": "KE",
                 "altitude": 1827.58,
                 "region": "Meru County"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1748762919,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1378636348696690708",
+                "panoId": "7J_g9vjqx3rJ9DWuoDMK5A",
+                "lat": 0.28842,
+                "lng": 37.87016,
+                "date": "Feb 2025",
+                "country": "KE",
+                "region": "Meru County"
             }
         },
         "Machakos County": {
@@ -56193,6 +56339,20 @@
                 "lat": -0.40625,
                 "lng": 37.98618,
                 "date": "Sep 2024",
+                "country": "KE",
+                "region": "Kitui County"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748772505,
+                "author": "maccem",
+                "id": "1378676554879471667",
+                "panoId": "sVnEm4ATeW-alkZQw9Nt-A",
+                "lat": -1.19623,
+                "lng": 37.9982,
+                "date": "Feb 2025",
                 "country": "KE",
                 "region": "Kitui County"
             }
@@ -57764,6 +57924,20 @@
                 "lat": -0.14938,
                 "lng": 35.50107,
                 "date": "Jan 2025",
+                "country": "KE",
+                "region": "Kericho County"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748775042,
+                "author": "maccem",
+                "id": "1378687197020028979",
+                "panoId": "6HBiO3q33VXha-uYEi38lw",
+                "lat": -0.50148,
+                "lng": 35.10475,
+                "date": "Feb 2025",
                 "country": "KE",
                 "region": "Kericho County"
             }
