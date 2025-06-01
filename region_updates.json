@@ -2527,6 +2527,20 @@
                 "country": "SI",
                 "altitude": 348.37,
                 "region": "Se\u017eana"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748674316,
+                "author": "Update Tracker Bot",
+                "id": "1378264720003305522",
+                "panoId": "RFYJMeVgkgUPgq3YC5RFBg",
+                "lat": 45.5908,
+                "lng": 14.09367,
+                "date": "May 2025",
+                "country": "SI",
+                "region": "Se\u017eana"
             }
         },
         "Ajdov\u0161\u010dina": {
@@ -3468,6 +3482,20 @@
                 "date": "Mar 2025",
                 "country": "AR",
                 "region": "Santa Fe Province"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748703633,
+                "author": "Mr. Toledo",
+                "id": "1378387685055402117",
+                "panoId": "uu4FNxFKTAEgW-KAY8mhnQ",
+                "lat": -31.885,
+                "lng": -61.466,
+                "date": "Apr 2025",
+                "country": "AR",
+                "region": "Santa Fe Province"
             }
         },
         "Buenos Aires Province": {
@@ -4029,14 +4057,14 @@
                     "newregion",
                     "newroad"
                 ],
-                "report_time": 1716900979,
-                "author": "Melting Ice",
-                "panoId": "C0WKPqPHubfOXUb-H3cz4w",
-                "lat": -30.6475,
-                "lng": -67.50822,
-                "date": "Apr 2024",
+                "report_time": 1748703974,
+                "author": "Mr. Toledo",
+                "id": "1378389117527916584",
+                "panoId": "SfNbr9WQg2mS6RkIKeXygw",
+                "lat": -31.51934,
+                "lng": -68.38224,
+                "date": "Apr 2025",
                 "country": "AR",
-                "altitude": 915.09,
                 "region": "San Juan Province"
             },
             "Feb": {
@@ -23573,16 +23601,17 @@
             },
             "May": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1716108916,
-                "author": "Update Tracker Bot",
-                "panoId": "FyJPLM8B-JWhmq0SAGtH3w",
-                "lat": 35.51339,
-                "lng": 137.08064,
-                "date": "May 2024",
+                "report_time": 1748688333,
+                "author": "BurgerwithPeel",
+                "id": "1378323513949028424",
+                "panoId": "tp0juXCR4swambMCZ-BsXg",
+                "lat": 35.35447,
+                "lng": 137.43409,
+                "date": "May 2025",
                 "country": "JP",
-                "altitude": 119.83,
                 "region": "Gifu"
             },
             "Jan": {
@@ -32882,7 +32911,23 @@
         "Geneva": {},
         "Britanny": {},
         "Nord": {},
-        "Moselle": {}
+        "Moselle": {},
+        "Redon": {
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748721304,
+                "author": "Update Tracker Bot",
+                "id": "1378461801603403996",
+                "panoId": "l-_8U3FTzVMR8vho07rK5Q",
+                "lat": 47.65644,
+                "lng": -2.04593,
+                "date": "May 2025",
+                "country": "FR",
+                "region": "Redon"
+            }
+        }
     },
     "ES": {
         "Castile and Le\u00f3n": {
@@ -45406,17 +45451,16 @@
             },
             "Apr": {
                 "types": [
-                    "newregion",
-                    "newroad"
+                    "newregion"
                 ],
-                "report_time": 1720473132,
-                "author": "Alex*",
-                "panoId": "Bxbmxk8rYzBNt4uLLS0NTg",
-                "lat": -2.87819,
-                "lng": 115.40685,
-                "date": "Apr 2024",
+                "report_time": 1748711290,
+                "author": "Update Tracker Bot",
+                "id": "1378419802581893184",
+                "panoId": "VL0DgwESK6Hud0IgPs1rIw",
+                "lat": -2.17955,
+                "lng": 115.39383,
+                "date": "Apr 2025",
                 "country": "ID",
-                "altitude": 185.55,
                 "region": "South Kalimantan"
             },
             "May": {
@@ -46823,6 +46867,20 @@
                 "lat": -7.16772,
                 "lng": 112.66005,
                 "date": "Dec 2024",
+                "country": "ID",
+                "region": "East Java"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748705181,
+                "author": "BurgerwithPeel",
+                "id": "1378394180073685185",
+                "panoId": "coI7YfvfzcHLJ0o-0dKBQQ",
+                "lat": -8.27265,
+                "lng": 112.75727,
+                "date": "Apr 2025",
                 "country": "ID",
                 "region": "East Java"
             }
@@ -66936,6 +66994,26 @@
                 "date": "Feb 2025",
                 "country": "PR",
                 "region": "Fajardo"
+            }
+        },
+        "Toa Baja": {
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newgen4",
+                    "newsmallcam",
+                    "gen3update"
+                ],
+                "report_time": 1748686296,
+                "author": "Tobetelogi",
+                "id": "1378314969526833242",
+                "panoId": "QNo8wCB0wu2A5XaibFZoVg",
+                "lat": 18.41907,
+                "lng": -66.19268,
+                "date": "Feb 2025",
+                "country": "PR",
+                "region": "Toa Baja"
             }
         }
     },
