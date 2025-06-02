@@ -45026,5 +45026,37 @@
         "lng": -73.67069,
         "country": "US",
         "region": "New York"
+    },
+    {
+        "spot_date": "2025/06/02",
+        "id": "1379087161218830408",
+        "links": [
+            "https://www.instagram.com/kota_diaries/reel/DKY2xJgRd7j/",
+            "https://maps.app.goo.gl/7885TrGDPC1jvBRA7"
+        ],
+        "report_time": 1748870401,
+        "author": "Tobetelogi",
+        "spot_type": "Gen4",
+        "panoId": "XPL8aNk62caf8buKxWtSrg",
+        "lat": 25.16785,
+        "lng": 75.85312,
+        "country": "IN",
+        "region": "Rajasthan"
+    },
+    {
+        "spot_date": "2025/05/30",
+        "id": "1379104026011897986",
+        "links": [
+            "https://www.tiktok.com/@abner_abnr/video/7510311003746209080",
+            "https://maps.app.goo.gl/Ni4iaVGWJyuqTFDT9"
+        ],
+        "report_time": 1748874422,
+        "author": "Cranno",
+        "spot_type": "Gen4",
+        "panoId": "i1hYv5BTBfJuAu6OkYfAZA",
+        "lat": 34.05901,
+        "lng": -118.45494,
+        "country": "US",
+        "region": "California"
     }
 ]

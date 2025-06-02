@@ -47105,6 +47105,20 @@
                 "date": "Apr 2025",
                 "country": "ID",
                 "region": "Lampung"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748877330,
+                "author": "Update Tracker Bot",
+                "id": "1379116224239243388",
+                "panoId": "8o_oESzniK_7lhjRsBc44g",
+                "lat": -5.07436,
+                "lng": 105.11872,
+                "date": "May 2025",
+                "country": "ID",
+                "region": "Lampung"
             }
         },
         "Bengkulu": {
@@ -53873,6 +53887,21 @@
                 "country": "TH",
                 "altitude": 118.34,
                 "region": "Nakhon Sawan"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1748856641,
+                "author": "BurgerwithPeel",
+                "id": "1379029446513786960",
+                "panoId": "OupPs-goD8hE0Hhdx35msA",
+                "lat": 15.6627,
+                "lng": 100.0671,
+                "date": "Apr 2025",
+                "country": "TH",
+                "region": "Nakhon Sawan"
             }
         },
         "Trat": {
@@ -54292,16 +54321,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newyear"
                 ],
-                "report_time": 1713929193,
-                "author": "Update Tracker Bot",
-                "panoId": "U67l5-Z7NQSvq1fV7IMJxA",
-                "lat": 16.45873,
-                "lng": 99.73199,
-                "date": "Apr 2024",
+                "report_time": 1748856552,
+                "author": "BurgerwithPeel",
+                "id": "1379029072721743893",
+                "panoId": "62QNeDduvGPRKBdVBIgdFQ",
+                "lat": 16.42471,
+                "lng": 99.52067,
+                "date": "Apr 2025",
                 "country": "TH",
-                "altitude": 66.25,
                 "region": "Kamphaeng Phet"
             }
         },
@@ -54939,6 +54969,20 @@
                 "date": "Feb 2024",
                 "country": "TH",
                 "altitude": 313.25,
+                "region": "Chaiyaphum"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748862763,
+                "author": "Update Tracker Bot",
+                "id": "1379055126920036432",
+                "panoId": "AgobvFrC9ff1pknUQid_9Q",
+                "lat": 16.54913,
+                "lng": 101.98787,
+                "date": "May 2025",
+                "country": "TH",
                 "region": "Chaiyaphum"
             }
         },
@@ -59533,15 +59577,16 @@
             },
             "May": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newyear"
                 ],
-                "report_time": 1734183502,
-                "author": "mpk",
-                "id": "1317485844046680105",
-                "panoId": "gjDM6kx_8OGaPK6K2p6bSw",
-                "lat": 52.16838,
-                "lng": 22.28302,
-                "date": "May 2024",
+                "report_time": 1748848769,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1378996429590102067",
+                "panoId": "JnpQ7SbVewSGvPimk3pPrQ",
+                "lat": 51.94239,
+                "lng": 20.25131,
+                "date": "May 2025",
                 "country": "PL",
                 "region": "Masovian Voivodeship"
             },
