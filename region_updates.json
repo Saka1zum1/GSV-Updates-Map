@@ -29026,6 +29026,21 @@
                 "date": "Mar 2025",
                 "country": "BR",
                 "region": "State of Paran\u00e1"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1748832208,
+                "author": "Henrique",
+                "id": "1378926967620898938",
+                "panoId": "jcrQ7ZhSq93RqP_ajJV0FA",
+                "lat": -25.49012,
+                "lng": -49.19766,
+                "date": "Apr 2025",
+                "country": "BR",
+                "region": "State of Paran\u00e1"
             }
         },
         "State of Amazonas": {
@@ -47183,6 +47198,37 @@
                 "country": "ID",
                 "altitude": 38.33,
                 "region": "Kalimantan Timur"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "gen3update"
+                ],
+                "report_time": 1748810276,
+                "author": "Unhook",
+                "id": "1378834978623979612",
+                "panoId": "N926rG8L8yLiostf7kKWzQ",
+                "lat": 0.13876,
+                "lng": 117.51586,
+                "date": "Apr 2025",
+                "country": "ID",
+                "region": "East Kalimantan"
+            },
+            "May": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1748821938,
+                "author": "Unhook",
+                "id": "1378883894669082624",
+                "panoId": "H2eZsm02R5cBi3u5Avh1YQ",
+                "lat": -0.35237,
+                "lng": 117.43203,
+                "date": "May 2025",
+                "country": "ID",
+                "region": "East Kalimantan"
             }
         },
         "Special Region of Yogyakarta": {
@@ -54411,6 +54457,20 @@
                 "date": "Apr 2025",
                 "country": "TH",
                 "region": "Chanthaburi"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748831054,
+                "author": "Update Tracker Bot",
+                "id": "1378922126165413918",
+                "panoId": "q-4_rooy81XdzokJzgUJmg",
+                "lat": 12.51272,
+                "lng": 102.03209,
+                "date": "May 2025",
+                "country": "TH",
+                "region": "Chanthaburi"
             }
         },
         "Chai Nat": {
@@ -56180,6 +56240,20 @@
                 "date": "Feb 2025",
                 "country": "KE",
                 "region": "Meru County"
+            },
+            "Mar": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748809466,
+                "author": "Unhook",
+                "id": "1378831581497524365",
+                "panoId": "lusFG09zuFGEO497vOAuwA",
+                "lat": 0.44216,
+                "lng": 37.84828,
+                "date": "Mar 2025",
+                "country": "KE",
+                "region": "Meru County"
             }
         },
         "Machakos County": {
@@ -57578,6 +57652,22 @@
                 "date": "Jan 2024",
                 "country": "KE",
                 "altitude": 2059.3,
+                "region": "Uasin Gishu County"
+            },
+            "Mar": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1748809486,
+                "author": "Unhook",
+                "id": "1378831667518636134",
+                "panoId": "WI8wLbPBZcGQT5GSz0abNw",
+                "lat": 0.28111,
+                "lng": 35.44924,
+                "date": "Mar 2025",
+                "country": "KE",
                 "region": "Uasin Gishu County"
             }
         },

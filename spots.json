@@ -45010,5 +45010,21 @@
         "lng": 8.09247,
         "country": "DE",
         "region": "Lower Saxony"
+    },
+    {
+        "spot_date": "2025/05/31",
+        "id": "1378922203516768369",
+        "links": [
+            "https://www.tiktok.com/@yagirlzanoob/video/7510832212644744494?lang=en",
+            "https://maps.app.goo.gl/wddNfZ2kaPnSoEaH6"
+        ],
+        "report_time": 1748831072,
+        "author": "HoustonMediaHD",
+        "spot_type": "Gen4",
+        "panoId": "I4HRsJoQyKf9NsR73lB3Ag",
+        "lat": 40.73729,
+        "lng": -73.67069,
+        "country": "US",
+        "region": "New York"
     }
 ]
