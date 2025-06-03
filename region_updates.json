@@ -6682,6 +6682,21 @@
                 "date": "Nov 2024",
                 "country": "PE",
                 "region": "Moquegua"
+            },
+            "Dec": {
+                "types": [
+                    "newregion",
+                    "gen3update"
+                ],
+                "report_time": 1748948549,
+                "author": "Steve",
+                "id": "1379414938337939516",
+                "panoId": "4nDMKt2E88DmMYrYvO9sxw",
+                "lat": -17.63746,
+                "lng": -71.34147,
+                "date": "Dec 2024",
+                "country": "PE",
+                "region": "Moquegua"
             }
         }
     },
@@ -44182,7 +44197,9 @@
                 "country": "CN",
                 "region": "Chiayi City"
             }
-        }
+        },
+        "Hualien County": {},
+        "Yilan County": {}
     },
     "RW": {
         "Eastern Province": {

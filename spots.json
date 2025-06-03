@@ -45090,5 +45090,133 @@
         "lng": 77.31503,
         "country": "IN",
         "region": "Maharashtra"
+    },
+    {
+        "spot_date": "2012/02/29",
+        "id": "1379193964619501578",
+        "links": [
+            "https://blogdoronaldocesar.blogspot.com/2012/02/google-mapsstreet-view-em-garanhuns.html",
+            "https://maps.app.goo.gl/DEig5GGMSGNR6SuH6"
+        ],
+        "report_time": 1748895865,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "dV4diuWJBTpM441RYuSitQ",
+        "lat": -8.88459,
+        "lng": -36.48231,
+        "country": "BR",
+        "region": "State of Pernambuco"
+    },
+    {
+        "spot_date": "2011/09/28",
+        "id": "1379192752201273514",
+        "links": [
+            "https://www.youtube.com/watch?v=YgYQMnpIo_I",
+            "https://maps.app.goo.gl/7qPy2Phb2HyTjdNn7"
+        ],
+        "report_time": 1748895576,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "HbOEbbAYxvYoTp3iMtx3VQ",
+        "lat": -21.31401,
+        "lng": -46.72039,
+        "country": "BR",
+        "region": "State of Minas Gerais"
+    },
+    {
+        "spot_date": "2012/04/18",
+        "id": "1379190737899491449",
+        "links": [
+            "https://noticiasibiapaba.blogspot.com/2012/04/carro-do-google-street-view-mapeia-ruas.html",
+            "https://maps.app.goo.gl/JoJGafQXUFSQH29M8"
+        ],
+        "report_time": 1748895096,
+        "author": "okay1272",
+        "spot_type": "Gen3",
+        "panoId": "iDiiRnyglj0VpVkEAD1vVA",
+        "lat": -4.32846,
+        "lng": -40.70602,
+        "country": "BR",
+        "region": "Cear\u00e1"
+    },
+    {
+        "spot_date": "2009/10/09",
+        "id": "1378542151922618428",
+        "links": [
+            "https://www.flickr.com/photos/gzjian/3994719200/in/photolist-71vC8X-HjAGNp-71tmRv-7eeKt4-7haJUv-7xiC82-yomRob-yzDjKZ-vhtRbr-75ZYQY-eJMPys-7gK38R-bDQWZG-8CUbAb-5XxmSo-S6jNoa-8CUbcq-7G6pC7-5XxmUG-fhiZkT-75JnpK-75Ngtf",
+            "https://maps.app.goo.gl/VTEo4oEGBD7jwzCg7"
+        ],
+        "report_time": 1748740461,
+        "author": "Eventide Fareana\u2728",
+        "spot_type": "Gen1/2",
+        "panoId": "cwYTtUgopuwGKxtBbDCi5g",
+        "lat": 24.18403,
+        "lng": 120.62036,
+        "country": "CN",
+        "region": "Taichung City"
+    },
+    {
+        "spot_date": "2009/11/21",
+        "id": "1378189758928523284",
+        "links": [
+            "https://www.flickr.com/photos/jphotos/4121104885/in/photolist-71vC8X-HjAGNp-71tmRv-7eeKt4-7haJUv-7xiC82-yomRob-yzDjKZ-vhtRbr-75ZYQY-eJMPys-7gK38R-bDQWZG-8CUbAb-5XxmSo-S6jNoa-8CUbcq-7G6pC7-5XxmUG-fhiZkT-75JnpK-75Ngtf",
+            "https://maps.app.goo.gl/MTEe44msbv8WNAcx6"
+        ],
+        "report_time": 1748656444,
+        "author": "Eventide Fareana\u2728",
+        "spot_type": "Gen1/2",
+        "panoId": "cJnTo3yOPk5c5u_T52DoAA",
+        "lat": 23.98305,
+        "lng": 121.6047,
+        "country": "CN",
+        "region": "Hualien County"
+    },
+    {
+        "spot_date": "2016/05/19",
+        "id": "1378187067049119744",
+        "links": [
+            "https://www.flickr.com/photos/cyfan06/27121095475/in/photolist-71vC8X-HjAGNp-71tmRv-7eeKt4-7haJUv-7xiC82-yzDjKZ-vhtRbr-75ZYQY-eJMPys-7gK38R-bDQWZG-8CUbAb-5XxmSo-S6jNoa-8CUbcq-7G6pC7-5XxmUG-fhiZkT-75JnpK-75Ngtf",
+            "https://maps.app.goo.gl/8bvUM8XkqLzhtDem7"
+        ],
+        "report_time": 1748655802,
+        "author": "Eventide Fareana\u2728",
+        "spot_type": "Gen1/2",
+        "panoId": "d9TXivdPtASyY7h-bK8jDQ",
+        "lat": 37.41961,
+        "lng": -122.08727,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2009/09/22",
+        "id": "1378176295590039665",
+        "links": [
+            "https://www.flickr.com/photos/rainlan/3943920421/in/photolist-71tmRv-71vC8X",
+            "https://maps.app.goo.gl/hL3xwUyXWz42XtAL6"
+        ],
+        "report_time": 1748653234,
+        "author": "Eventide Fareana\u2728",
+        "spot_type": "Gen1/2",
+        "panoId": "jLqagkiilZ8Gsd9jNbgL2Q",
+        "lat": 24.76223,
+        "lng": 121.75519,
+        "country": "CN",
+        "region": "Yilan County"
+    },
+    {
+        "spot_date": "2009/09/22",
+        "id": "1378173862935658528",
+        "links": [
+            "https://www.flickr.com/photos/rainlan/3943478783/in/photolist-71tmRv-71vC8X/",
+            "https://maps.app.goo.gl/cTTcnQFtQ3xgvRKB7"
+        ],
+        "report_time": 1748652654,
+        "author": "Eventide Fareana\u2728",
+        "spot_type": "Gen1/2",
+        "panoId": "0ECE4d7ybY9zweil8xHrXA",
+        "lat": 24.76258,
+        "lng": 121.7541,
+        "country": "CN",
+        "region": "Yilan County"
     }
 ]
