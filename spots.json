@@ -45058,5 +45058,37 @@
         "lng": -118.45494,
         "country": "US",
         "region": "California"
+    },
+    {
+        "spot_date": "2025/05/31",
+        "id": "1379140619712204982",
+        "links": [
+            "https://x.com/RYOUICH1/status/1929201640793608198?t=h1Zi6PtNUnRjFhMXKre6Bw&s=19",
+            "https://maps.app.goo.gl/bcyCfhDF2KyEE8vD7"
+        ],
+        "report_time": 1748883146,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "uKdzdws7jW7zgRn_fKsfcA",
+        "lat": 35.76366,
+        "lng": 139.66546,
+        "country": "JP",
+        "region": "Tokyo"
+    },
+    {
+        "spot_date": "2025/05/30",
+        "id": "1379144003399848018",
+        "links": [
+            "https://youtu.be/_onuXyrBMf0?si=a3bqw9pySk3xnwgF",
+            "https://maps.app.goo.gl/3p2Vgq1y4QYxMPGF6"
+        ],
+        "report_time": 1748883953,
+        "author": "\u8c46\u8c46\u5196",
+        "spot_type": "Gen4",
+        "panoId": "aJBp22QiLVoXloVnXdHxBg",
+        "lat": 19.16643,
+        "lng": 77.31503,
+        "country": "IN",
+        "region": "Maharashtra"
     }
 ]

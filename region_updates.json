@@ -3322,6 +3322,20 @@
                 "date": "Apr 2025",
                 "country": "SI",
                 "region": "\u017dalec"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748890703,
+                "author": "Update Tracker Bot",
+                "id": "1379172313152618547",
+                "panoId": "t-5_q-ZfRQhOPG5Wk6b3TQ",
+                "lat": 46.20834,
+                "lng": 15.11859,
+                "date": "May 2025",
+                "country": "SI",
+                "region": "\u017dalec"
             }
         },
         "Ribnica": {
@@ -12343,6 +12357,20 @@
                 "date": "Mar 2025",
                 "country": "US",
                 "region": "Tennessee"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748882130,
+                "author": "HoustonMediaHD",
+                "id": "1379136355228975216",
+                "panoId": "XRELCvviwongPCahC02LkQ",
+                "lat": 36.09394,
+                "lng": -86.72507,
+                "date": "May 2025",
+                "country": "US",
+                "region": "Tennessee"
             }
         },
         "Maine": {
@@ -15259,6 +15287,20 @@
                 "date": "Mar 2025",
                 "country": "PH",
                 "region": "Cordillera Administrative Region"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748889559,
+                "author": "Steve",
+                "id": "1379167514403143873",
+                "panoId": "zR7Qs6IeIfs_0963LZoXaQ",
+                "lat": 18.3382,
+                "lng": 121.38568,
+                "date": "Apr 2025",
+                "country": "PH",
+                "region": "Cordillera Administrative Region"
             }
         },
         "Cagayan Valley": {
@@ -17432,6 +17474,21 @@
                 "date": "Aug 2024",
                 "country": "IE",
                 "altitude": 8.53,
+                "region": "County Dublin"
+            },
+            "Apr": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748887723,
+                "author": "DeSlagen",
+                "id": "1379159816382976111",
+                "panoId": "VwUIPqsj16fbQyQnMcsyxQ",
+                "lat": 53.3158,
+                "lng": -6.37874,
+                "date": "Apr 2025",
+                "country": "IE",
                 "region": "County Dublin"
             }
         },
@@ -20139,6 +20196,20 @@
                 "date": "Apr 2025",
                 "country": "HR",
                 "region": "Bjelovar-Bilogora County"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748892905,
+                "author": "Update Tracker Bot",
+                "id": "1379181551639724283",
+                "panoId": "QFZ12hA7fGQHgJXwPvbhzQ",
+                "lat": 45.75474,
+                "lng": 17.309,
+                "date": "May 2025",
+                "country": "HR",
+                "region": "Bjelovar-Bilogora County"
             }
         },
         "Lika-Senj County": {
@@ -21530,16 +21601,18 @@
             },
             "May": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "newisland",
+                    "newroad"
                 ],
-                "report_time": 1716402451,
-                "author": "Update Tracker Bot",
-                "panoId": "m__8gR2dF58vV6zHB4LtMQ",
-                "lat": 33.20475,
-                "lng": 129.70228,
-                "date": "May 2024",
+                "report_time": 1748896074,
+                "author": "Tobetelogi",
+                "id": "1379194842479071353",
+                "panoId": "490Wctv-rA3CLgvI0YwNGw",
+                "lat": 33.48175,
+                "lng": 129.5315,
+                "date": "May 2025",
                 "country": "JP",
-                "altitude": 113.69,
                 "region": "Nagasaki"
             },
             "Apr": {
@@ -25733,6 +25806,21 @@
                 "date": "Aug 2024",
                 "country": "SE",
                 "altitude": 21.5,
+                "region": "Uppsala County"
+            },
+            "May": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748887595,
+                "author": "DeSlagen",
+                "id": "1379159279570915350",
+                "panoId": "mPZF2ujh83wFdpr6MoXoIA",
+                "lat": 59.75307,
+                "lng": 18.03877,
+                "date": "May 2025",
+                "country": "SE",
                 "region": "Uppsala County"
             }
         },
@@ -44518,6 +44606,21 @@
                 "date": "Mar 2025",
                 "country": "NL",
                 "region": "Flevoland"
+            },
+            "May": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1748886337,
+                "author": "JbJabs",
+                "id": "1379154002100355072",
+                "panoId": "EwON0bkEvfHaN0JZEIqf2Q",
+                "lat": 52.54484,
+                "lng": 5.85353,
+                "date": "May 2025",
+                "country": "NL",
+                "region": "Flevoland"
             }
         },
         "Utrecht": {
@@ -46252,6 +46355,20 @@
                 "country": "ID",
                 "altitude": 27.17,
                 "region": "Central Sulawesi"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748884843,
+                "author": "Update Tracker Bot",
+                "id": "1379147736934518974",
+                "panoId": "ls7ynnmoEiBZZWPUlMX1JQ",
+                "lat": -0.86677,
+                "lng": 122.15863,
+                "date": "Apr 2025",
+                "country": "ID",
+                "region": "Central Sulawesi"
             }
         },
         "South Sulawesi": {
@@ -46933,14 +47050,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1717573398,
+                "report_time": 1748893137,
                 "author": "Update Tracker Bot",
-                "panoId": "ScVYL-LUR_aUNnXNtEEipA",
-                "lat": -7.50787,
-                "lng": 112.71471,
-                "date": "May 2024",
+                "id": "1379182521308156005",
+                "panoId": "COuPZiPXLxeN_sNKH5wmHw",
+                "lat": -7.57157,
+                "lng": 112.41772,
+                "date": "May 2025",
                 "country": "ID",
-                "altitude": 3.95,
                 "region": "East Java"
             },
             "Feb": {
@@ -49025,6 +49142,34 @@
                 "date": "Apr 2024",
                 "country": "MX",
                 "altitude": 1527.25,
+                "region": "Morelos"
+            },
+            "Aug": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748889208,
+                "author": "Steve",
+                "id": "1379166044739862601",
+                "panoId": "g0uhf2qao-2kearpYeNjyA",
+                "lat": 18.8919,
+                "lng": -99.11937,
+                "date": "Aug 2024",
+                "country": "MX",
+                "region": "Morelos"
+            },
+            "Sep": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748889208,
+                "author": "Steve",
+                "id": "1379166044739862601",
+                "panoId": "UYUMqxJrcXNnEKNRx8nn4g",
+                "lat": 18.91838,
+                "lng": -99.21973,
+                "date": "Sep 2024",
+                "country": "MX",
                 "region": "Morelos"
             }
         },
@@ -53215,6 +53360,20 @@
                 "date": "Feb 2025",
                 "country": "TH",
                 "region": "Chachoengsao"
+            },
+            "Apr": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748890345,
+                "author": "BurgerwithPeel",
+                "id": "1379170811977535620",
+                "panoId": "EVMJBV2G3x6yt6Th9xplNQ",
+                "lat": 13.74733,
+                "lng": 101.4369,
+                "date": "Apr 2025",
+                "country": "TH",
+                "region": "Chachoengsao"
             }
         },
         "Pathum Thani": {
@@ -53615,6 +53774,21 @@
                 "lat": 13.66015,
                 "lng": 100.66421,
                 "date": "Dec 2024",
+                "country": "TH",
+                "region": "Samut Prakan"
+            },
+            "Apr": {
+                "types": [
+                    "newregion",
+                    "newyear"
+                ],
+                "report_time": 1748890488,
+                "author": "BurgerwithPeel",
+                "id": "1379171412367114432",
+                "panoId": "cphDZS9nei7XeTCk-Tk9vQ",
+                "lat": 13.57101,
+                "lng": 100.7932,
+                "date": "Apr 2025",
                 "country": "TH",
                 "region": "Samut Prakan"
             }
