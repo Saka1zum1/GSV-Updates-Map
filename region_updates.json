@@ -24703,6 +24703,20 @@
                 "date": "Apr 2025",
                 "country": "JP",
                 "region": "Yamaguchi"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748944134,
+                "author": "BurgerwithPeel",
+                "id": "1379396420385378365",
+                "panoId": "J4fm8H-JX0mD5Swjuj4uDw",
+                "lat": 34.02742,
+                "lng": 131.41785,
+                "date": "May 2025",
+                "country": "JP",
+                "region": "Yamaguchi"
             }
         },
         "Tokushima": {
@@ -43732,6 +43746,21 @@
                 "date": "Dec 2024",
                 "country": "CN",
                 "region": "Chiayi County"
+            },
+            "May": {
+                "types": [
+                    "newcountry",
+                    "newregion"
+                ],
+                "report_time": 1748942251,
+                "author": "snowf",
+                "id": "1379388523815370883",
+                "panoId": "JM7HTWRk9eo_DcIyHqdjSg",
+                "lat": 23.49688,
+                "lng": 120.37499,
+                "date": "May 2025",
+                "country": "CN",
+                "region": "Chiayi County"
             }
         },
         "New Territories": {
@@ -46817,6 +46846,20 @@
                 "date": "Apr 2025",
                 "country": "ID",
                 "region": "Jakarta"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748913693,
+                "author": "Update Tracker Bot",
+                "id": "1379268740654432377",
+                "panoId": "r0PAEBO_XTqXAd6ekBWaow",
+                "lat": -6.12331,
+                "lng": 106.85266,
+                "date": "May 2025",
+                "country": "ID",
+                "region": "Jakarta"
             }
         },
         "Banten": {
@@ -47022,6 +47065,20 @@
                 "lat": -7.67483,
                 "lng": 109.69752,
                 "date": "Mar 2025",
+                "country": "ID",
+                "region": "Central Java"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748916527,
+                "author": "Update Tracker Bot",
+                "id": "1379280626066128896",
+                "panoId": "8vT4PQxHOjEd0T7uZgjpxQ",
+                "lat": -7.38966,
+                "lng": 110.90115,
+                "date": "May 2025",
                 "country": "ID",
                 "region": "Central Java"
             }
@@ -49169,6 +49226,20 @@
                 "lat": 18.91838,
                 "lng": -99.21973,
                 "date": "Sep 2024",
+                "country": "MX",
+                "region": "Morelos"
+            },
+            "Feb": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748943918,
+                "author": "Steve",
+                "id": "1379395512381345843",
+                "panoId": "Wd4JcBhHej8Il26BINAeRw",
+                "lat": 18.89001,
+                "lng": -98.66972,
+                "date": "Feb 2025",
                 "country": "MX",
                 "region": "Morelos"
             }
@@ -53461,6 +53532,20 @@
                 "date": "Apr 2025",
                 "country": "TH",
                 "region": "Pathum Thani"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748913641,
+                "author": "Mr. Toledo",
+                "id": "1379268523531964447",
+                "panoId": "TMQahBkSJZM068ynMe-o2A",
+                "lat": 14.13411,
+                "lng": 100.65258,
+                "date": "May 2025",
+                "country": "TH",
+                "region": "Pathum Thani"
             }
         },
         "Rayong": {
@@ -53743,6 +53828,20 @@
                 "lat": 14.15379,
                 "lng": 100.44275,
                 "date": "Apr 2025",
+                "country": "TH",
+                "region": "Phra Nakhon Si Ayutthaya"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748913227,
+                "author": "Mr. Toledo",
+                "id": "1379266786356105248",
+                "panoId": "n5Rh3FknETpswDgpaUylqw",
+                "lat": 14.16928,
+                "lng": 100.66903,
+                "date": "May 2025",
                 "country": "TH",
                 "region": "Phra Nakhon Si Ayutthaya"
             }
@@ -54120,6 +54219,20 @@
                 "lat": 12.55142,
                 "lng": 102.33157,
                 "date": "Apr 2025",
+                "country": "TH",
+                "region": "Trat"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748930936,
+                "author": "Update Tracker Bot",
+                "id": "1379341065664073729",
+                "panoId": "ffWgVYIfl0_VmFDAgOJsdg",
+                "lat": 12.46527,
+                "lng": 102.37736,
+                "date": "May 2025",
                 "country": "TH",
                 "region": "Trat"
             }
@@ -54613,6 +54726,20 @@
                 "lat": 17.18303,
                 "lng": 100.07169,
                 "date": "Apr 2025",
+                "country": "TH",
+                "region": "Uttaradit"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748935599,
+                "author": "Update Tracker Bot",
+                "id": "1379360622743130142",
+                "panoId": "BDTT_IM4NNYisybRm9ngmw",
+                "lat": 17.56944,
+                "lng": 100.24107,
+                "date": "May 2025",
                 "country": "TH",
                 "region": "Uttaradit"
             }
@@ -55847,6 +55974,22 @@
                 "date": "May 2025",
                 "country": "TH",
                 "region": "Sing Buri"
+            }
+        },
+        "Nong Bua Lam Phu": {
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748936559,
+                "author": "Update Tracker Bot",
+                "id": "1379364646993264702",
+                "panoId": "0xcpx9eVgo_Y73beA2ICtw",
+                "lat": 16.95035,
+                "lng": 102.34208,
+                "date": "May 2025",
+                "country": "TH",
+                "region": "Nong Bua Lam Phu"
             }
         }
     },
