@@ -600,6 +600,20 @@
                 "date": "Apr 2025",
                 "country": "AT",
                 "region": "Burgenland"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748992697,
+                "author": "DeSlagen",
+                "id": "1379600108647354481",
+                "panoId": "VOjCCo0cvGwcOPHVEiPUkQ",
+                "lat": 47.87231,
+                "lng": 16.43489,
+                "date": "May 2025",
+                "country": "AT",
+                "region": "Burgenland"
             }
         },
         "Vorarlberg": {
@@ -5174,16 +5188,17 @@
             },
             "Apr": {
                 "types": [
-                    "newregion"
+                    "newregion",
+                    "gen3update"
                 ],
-                "report_time": 1715607089,
-                "author": "Melting Ice",
-                "panoId": "JyUHAO8DpBjBvbdoCIyEYA",
-                "lat": -30.68766,
-                "lng": -65.62722,
-                "date": "Apr 2024",
+                "report_time": 1748971140,
+                "author": "Steve",
+                "id": "1379509691985563678",
+                "panoId": "2he8qPF5cNG3ynFh1zehZw",
+                "lat": -31.81413,
+                "lng": -65.85548,
+                "date": "Apr 2025",
                 "country": "AR",
-                "altitude": 218.09,
                 "region": "La Rioja Province"
             },
             "Feb": {
@@ -17414,6 +17429,21 @@
                 "country": "IE",
                 "altitude": 87.15,
                 "region": "County Kildare"
+            },
+            "Apr": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748992832,
+                "author": "Mr. Toledo",
+                "id": "1379600676354527332",
+                "panoId": "1Rt7d3V5DQR1m4kW6gjVXA",
+                "lat": 53.15319,
+                "lng": -6.92892,
+                "date": "Apr 2025",
+                "country": "IE",
+                "region": "County Kildare"
             }
         },
         "County Meath": {
@@ -18012,6 +18042,21 @@
                 "date": "Oct 2024",
                 "country": "IE",
                 "region": "County Clare"
+            },
+            "Apr": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748992400,
+                "author": "DeSlagen",
+                "id": "1379598863433990274",
+                "panoId": "d2Ddg6k9XhOgm3k8dZGtRg",
+                "lat": 52.75722,
+                "lng": -8.9134,
+                "date": "Apr 2025",
+                "country": "IE",
+                "region": "County Clare"
             }
         },
         "County Limerick": {
@@ -18346,6 +18391,21 @@
                 "date": "Aug 2024",
                 "country": "IE",
                 "region": "County Laois"
+            },
+            "Apr": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748992400,
+                "author": "DeSlagen",
+                "id": "1379598863433990274",
+                "panoId": "fcu1FuHKfD63pTzNY4ksHQ",
+                "lat": 52.81914,
+                "lng": -7.60101,
+                "date": "Apr 2025",
+                "country": "IE",
+                "region": "County Laois"
             }
         },
         "County Kilkenny": {
@@ -18363,6 +18423,21 @@
                 "lat": 52.72209,
                 "lng": -7.59564,
                 "date": "Aug 2024",
+                "country": "IE",
+                "region": "County Kilkenny"
+            },
+            "Apr": {
+                "types": [
+                    "newyear",
+                    "newregion"
+                ],
+                "report_time": 1748992400,
+                "author": "DeSlagen",
+                "id": "1379598863433990274",
+                "panoId": "ykWExTL9V9bhTqxOXPnd0Q",
+                "lat": 52.79503,
+                "lng": -7.58688,
+                "date": "Apr 2025",
                 "country": "IE",
                 "region": "County Kilkenny"
             }
@@ -25804,6 +25879,22 @@
                 "date": "Sep 2024",
                 "country": "SE",
                 "altitude": 6.05,
+                "region": "V\u00e4sterbotten County"
+            },
+            "May": {
+                "types": [
+                    "newregion",
+                    "gen3update",
+                    "newsmallcam"
+                ],
+                "report_time": 1748974383,
+                "author": "Cranno",
+                "id": "1379523292527989066",
+                "panoId": "qEFROv4LPW2nAbtPIt8N2g",
+                "lat": 64.66316,
+                "lng": 20.79736,
+                "date": "May 2025",
+                "country": "SE",
                 "region": "V\u00e4sterbotten County"
             }
         },
@@ -43378,6 +43469,20 @@
                 "date": "Apr 2025",
                 "country": "CN",
                 "region": "Kaohsiung City"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748995774,
+                "author": "Mr. Toledo",
+                "id": "1379613014939930717",
+                "panoId": "Sy6D2l1CzRYhtYWHZO1rGQ",
+                "lat": 22.93843,
+                "lng": 120.50928,
+                "date": "May 2025",
+                "country": "CN",
+                "region": "Kaohsiung City"
             }
         },
         "Taichung City": {
@@ -45831,6 +45936,20 @@
                 "country": "ID",
                 "altitude": 46.57,
                 "region": "North Sulawesi"
+            },
+            "May": {
+                "types": [
+                    "newregion"
+                ],
+                "report_time": 1748978602,
+                "author": "Steve",
+                "id": "1379540990112698519",
+                "panoId": "4k_yNAiupYazu745KiC9lQ",
+                "lat": 1.4418,
+                "lng": 124.84216,
+                "date": "May 2025",
+                "country": "ID",
+                "region": "North Sulawesi"
             }
         },
         "West Kalimantan": {
@@ -46884,14 +47003,14 @@
                 "types": [
                     "newregion"
                 ],
-                "report_time": 1717438979,
+                "report_time": 1748973472,
                 "author": "Update Tracker Bot",
-                "panoId": "1sgy6VxjOEys-okZPMnjSQ",
-                "lat": -6.1873,
-                "lng": 106.37221,
-                "date": "May 2024",
+                "id": "1379519472452505630",
+                "panoId": "DbuYewTNy3v4yVzDUovcVA",
+                "lat": -6.26597,
+                "lng": 106.61813,
+                "date": "May 2025",
                 "country": "ID",
-                "altitude": 19.0,
                 "region": "Banten"
             },
             "Oct": {
@@ -57339,6 +57458,21 @@
                 "date": "Jan 2025",
                 "country": "KE",
                 "region": "Nyamira County"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newroad"
+                ],
+                "report_time": 1748973057,
+                "author": "Steve",
+                "id": "1379517732692693182",
+                "panoId": "1BwGVHEWN0844pKI2akkaw",
+                "lat": -0.47715,
+                "lng": 35.0193,
+                "date": "Feb 2025",
+                "country": "KE",
+                "region": "Nyamira County"
             }
         },
         "Busia County": {
@@ -58320,17 +58454,18 @@
         "Nandi County": {
             "Mar": {
                 "types": [
+                    "newyear",
                     "newregion",
                     "newroad"
                 ],
-                "report_time": 1706780733,
-                "author": "Unhook",
-                "panoId": "QXAUXmD--leIwHuqRmPCxw",
-                "lat": 0.5164,
-                "lng": 35.07617,
-                "date": "Mar 2023",
+                "report_time": 1748973388,
+                "author": "Mr. Toledo",
+                "id": "1379519120470704280",
+                "panoId": "pA8hJ17VTp2VP65KhEolWw",
+                "lat": 0.18755,
+                "lng": 35.35857,
+                "date": "Mar 2025",
                 "country": "KE",
-                "altitude": 1947.87,
                 "region": "Nandi County"
             },
             "Nov": {
@@ -67214,6 +67349,22 @@
                 "lat": 18.21092,
                 "lng": -66.18088,
                 "date": "Dec 2024",
+                "country": "PR",
+                "region": "Comer\u00edo"
+            },
+            "Feb": {
+                "types": [
+                    "newregion",
+                    "newyear",
+                    "newroad"
+                ],
+                "report_time": 1749031828,
+                "author": "OUAI OUAI TU PARLES TROP",
+                "id": "1379764236577931405",
+                "panoId": "S-Gh8oA7TA0kOTXC-dlXgA",
+                "lat": 18.24873,
+                "lng": -66.18582,
+                "date": "Feb 2025",
                 "country": "PR",
                 "region": "Comer\u00edo"
             }

@@ -45218,5 +45218,117 @@
         "lng": 121.7541,
         "country": "CN",
         "region": "Yilan County"
+    },
+    {
+        "spot_date": "2025/06/02",
+        "id": "1379777120783568951",
+        "links": [
+            "https://youtu.be/ZStb985xIYY?si=Lh7cp0W7A86HqSRU",
+            "https://maps.app.goo.gl/8hZje3FymHr6GrZk9"
+        ],
+        "report_time": 1749034900,
+        "author": "Kemmy",
+        "spot_type": "Gen4",
+        "panoId": "GSLNZz7NQpbZSzh0oMBDvA",
+        "lat": -8.68331,
+        "lng": 115.21993,
+        "country": "ID",
+        "region": "Bali"
+    },
+    {
+        "spot_date": "2025/06/03",
+        "id": "1379607550353477663",
+        "links": [
+            "https://www.tiktok.com/@mirymamade3/video/7511836272747367723",
+            "https://maps.app.goo.gl/kWCu1FnZeWbr4H1UA"
+        ],
+        "report_time": 1748994471,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "wuiUbJLl5AD-27yNt1btyw",
+        "lat": 30.67203,
+        "lng": -96.33905,
+        "country": "US",
+        "region": "Texas"
+    },
+    {
+        "spot_date": "2025/05/29",
+        "id": "1379604058285019286",
+        "links": [
+            "https://www.tiktok.com/@chatitodircio/video/7510054364057242887",
+            "https://maps.app.goo.gl/eWtgMaFm65H4YBgb6"
+        ],
+        "report_time": 1748993639,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "ZLsyzcm4MGo-ivt_5hr1Jw",
+        "lat": 31.31291,
+        "lng": -113.51013,
+        "country": "MX",
+        "region": "Sonora"
+    },
+    {
+        "spot_date": "2025/05/27",
+        "id": "1379602929811591248",
+        "links": [
+            "https://www.tiktok.com/@luisg_2002/video/7509157541369171205",
+            "https://maps.app.goo.gl/jQdh1tZ36ZBCGJDf9"
+        ],
+        "report_time": 1748993370,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "AefXOsAlnk4GwZ4dbDI8-A",
+        "lat": -16.39962,
+        "lng": -71.52174,
+        "country": "PE",
+        "region": "Arequipa"
+    },
+    {
+        "spot_date": "2025/06/03",
+        "id": "1379475902068686981",
+        "links": [
+            "https://www.facebook.com/groups/518258159093897/permalink/1769273627325671/?rdid=70isKitbcHWQqD5A",
+            "https://maps.app.goo.gl/VoHHiG6Fusars1MR6"
+        ],
+        "report_time": 1748963084,
+        "author": "\u2730",
+        "spot_type": "Gen4",
+        "panoId": "2m0oxAoLORVPiSrC0TUrvA",
+        "lat": 41.05851,
+        "lng": -83.67107,
+        "country": "US",
+        "region": "Ohio"
+    },
+    {
+        "spot_date": "2025/06/03",
+        "id": "1379446785298141234",
+        "links": [
+            "https://www.instagram.com/p/DKb-wCipJWS/",
+            "https://maps.app.goo.gl/6DuTakKRHD9PYQZC8"
+        ],
+        "report_time": 1748956142,
+        "author": "Redpork",
+        "spot_type": "Gen4",
+        "panoId": "6JID2YmiyfvtIXJFF5_vLg",
+        "lat": -32.176,
+        "lng": -64.11491,
+        "country": "AR",
+        "region": "C\u00f3rdoba Province"
+    },
+    {
+        "spot_date": "2025/05/30",
+        "id": "1379138251188867299",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10236346205771367&set=a.4261109322081",
+            "https://maps.app.goo.gl/D47MFrfpVogJZubY7"
+        ],
+        "report_time": 1748882582,
+        "author": "TheRealWoly",
+        "spot_type": "Gen4",
+        "panoId": "yR9mC8JHasGWXE9jukksig",
+        "lat": 37.77493,
+        "lng": -122.41934,
+        "country": "US",
+        "region": "California"
     }
 ]
