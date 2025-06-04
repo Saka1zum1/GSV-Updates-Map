@@ -6424,16 +6424,16 @@ function getLastMonthTimestamp() {
   return Math.floor(lastMonth.getTime() / 1000);
 }
 
-async function loadTableData(table, since) {
+async function loadTableData(table, since, until) {
   let url = `/.netlify/functions/getData?table=${table}`;
-  if (since) url += `&since=${since}`;
+  if (since) url += `&since=${since}&until=${until}`;
   const response = await fetch(url);
   if (!response.ok) throw new Error('Network error!');
   return await response.json();
 }
 
 
-async function loadUpdateReports(since) {
+async function loadUpdateReports(since ,until) {
   if (!since) since = getLastMonthTimestamp();
   const data = await loadTableData('update_reports', since);
   update_data = data;
@@ -6442,7 +6442,7 @@ async function loadUpdateReports(since) {
 }
 
 
-async function loadSpots(since) {
+async function loadSpots(since ,until) {
   if (!since) since = getLastMonthTimestamp();
   const data = await loadTableData('spots', since);
   spots_data = data;
