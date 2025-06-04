@@ -6366,33 +6366,18 @@ function getTimestamp(dateString) {
   return date.getTime() / 1000;
 }
 
-async function applyFilters() {
-  let since = filter_check.report_date?.[0];
-  let until = filter_check.report_date?.[1];
-  let table, dataToFilter;
-
-  if (isPeak) {
-    dataToFilter = altitude_data;
-  } else if (isSpot) {
-    table = 'spots';
-  } else {
-    table = 'update_reports';
-  }
-
-  if (table) {
-    let url = `/.netlify/functions/getData?table=${table}`;
-    if (since) url += `&since=${since}`;
-    if (until) url += `&until=${until}`;
-    const response = await fetch(url);
-    dataToFilter = await response.json();
-    if (table === 'spots') spots_data = dataToFilter;
-    if (table === 'update_reports') update_data = dataToFilter;
-  }
+function applyFilters() {
+  var dataToFilter
+  if (isPeak) dataToFilter = altitude_data
+  else if (isSpot) dataToFilter = spots_data
+  else dataToFilter = update_data
 
   filterdata = dataToFilter.filter(item => {
+    const inDateRange = isPeak || isSpot || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
+
     const inSpotDateRange = !isSpot ||
       (getTimestamp(item.spot_date) >= filter_check.report_date[0] &&
-        getTimestamp(item.spot_date) <= filter_check.report_date[1]);
+        getTimestamp(item.spot_date) <= filter_check.report_date[1])
 
     const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.types);
 
@@ -6408,80 +6393,77 @@ async function applyFilters() {
       return poly.contains(point);
     }));
 
-    return matchesType && inMonthRange && pointInPolygon && matchesCountry && matchesRegion && inSpotDateRange;
+    return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry && matchesRegion && inSpotDateRange;
   });
-
   if (filterdata) {
     if (isHeatmap) drawHeatmap(filterdata);
     else drawMarkers(filterdata);
+
   }
 }
 
 
-function getLastMonthTimestamp() {
-  const now = new Date();
-  const lastMonth = new Date(now.getFullYear(), now.getMonth() , now.getDate());
-  return Math.floor(lastMonth.getTime() / 1000);
-}
+fetch('update_reports.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network error!');
+    }
+    return response.json();
+  })
+  .then(data => {
+    update_data = data
+    filterdata = data
+    drawMarkers(data)
+  })
+  .catch(error => console.error('Error parsing json:', error));
 
-async function loadTableData(table, since, until) {
-  let url = `/.netlify/functions/getData?table=${table}`;
-  if (since) url += `&since=${since}&until=${until}`;
-  const response = await fetch(url);
-  if (!response.ok) throw new Error('Network error!');
-  return await response.json();
-}
+fetch('altitude_data.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network error!');
+    }
+    return response.json();
+  })
+  .then(data => {
+    altitude_data = data
+  })
+  .catch(error => console.error('Error parsing json:', error));
 
+fetch('spots.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network error!');
+    }
+    return response.json();
+  })
+  .then(data => {
+    spots_data = data
+  })
+  .catch(error => console.error('Error parsing json:', error));
 
-async function loadUpdateReports(since ,until) {
-  if (!since) since = getLastMonthTimestamp();
-  const data = await loadTableData('update_reports', since);
-  update_data = data;
-  filterdata = data;
-  drawMarkers(data);
-}
+fetch('region_updates.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network error!');
+    }
+    return response.json();
+  })
+  .then(data => {
+    region_updates = data
+  })
+  .catch(error => console.error('Error parsing json:', error));
 
-
-async function loadSpots(since ,until) {
-  if (!since) since = getLastMonthTimestamp();
-  const data = await loadTableData('spots', since);
-  spots_data = data;
-}
-
-
-async function loadRegionUpdates() {
-  const data = await loadTableData('region_updates');
-  region_updates = data;
-}
-
-async function loadAltitudeData() {
-  const data = await loadTableData('altitude_data');
-  altitude_data = data;
-}
-
-
-async function loadCountries() {
-  const response = await fetch('countries.json');
-  if (!response.ok) throw new Error('Network error!');
-  const data = await response.json();
-  countries = data;
-}
-
-// 初始化加载
-(async function initData() {
-  try {
-    await Promise.all([
-      loadUpdateReports(),
-      loadAltitudeData(),
-      loadSpots(),
-      loadRegionUpdates(),
-      loadCountries()
-    ]);
-  } catch (error) {
-    console.error('Error loading data:', error);
-  }
-})();
-
+fetch('countries.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network error!');
+    }
+    return response.json();
+  })
+  .then(data => {
+    countries = data
+  })
+  .catch(error => console.error('Error parsing json:', error));
 
 function get_avatar(id, avatar_id) {
   return `https://cdn.discordapp.com/avatars/${id}/${avatar_id}.webp`
