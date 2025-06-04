@@ -8,7 +8,8 @@
     "build": "echo 'No build step required'"
   },
   "dependencies": {
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^3.0.0",
+    "sqlite3": "^5.1.4"
   },
   "devDependencies": {
     "@netlify/functions": "^2.0.0"

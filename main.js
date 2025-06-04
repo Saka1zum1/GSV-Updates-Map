@@ -6366,18 +6366,40 @@ function getTimestamp(dateString) {
   return date.getTime() / 1000;
 }
 
-function applyFilters() {
-  var dataToFilter
-  if (isPeak) dataToFilter = altitude_data
-  else if (isSpot) dataToFilter = spots_data
-  else dataToFilter = update_data
+// 优化后的 applyFilters，按需动态请求数据
+async function applyFilters() {
+  let since = filter_check.report_date?.[0];
+  let until = filter_check.report_date?.[1];
+  let table, dataToFilter;
 
+  // 动态选择数据表
+  if (isPeak) {
+    dataToFilter = altitude_data;
+  } else if (isSpot) {
+    table = 'spots';
+  } else {
+    table = 'update_reports';
+  }
+
+  // 仅 altitude_data 仍本地过滤，其他表动态请求
+  if (table) {
+    // 动态拼接查询参数
+    let url = `/.netlify/functions/getData?table=${table}`;
+    if (since) url += `&since=${since}`;
+    if (until) url += `&until=${until}`;
+    // 可根据需要扩展更多参数
+    const response = await fetch(url);
+    dataToFilter = await response.json();
+    if (table === 'spots') spots_data = dataToFilter;
+    if (table === 'update_reports') update_data = dataToFilter;
+  }
+
+  // 本地过滤剩余条件
   filterdata = dataToFilter.filter(item => {
-    const inDateRange = isPeak || isSpot || item.report_time >= filter_check.report_date[0] && item.report_time <= filter_check.report_date[1];
-
+    // 时间范围已在查询时处理，无需本地再次判断 report_time
     const inSpotDateRange = !isSpot ||
       (getTimestamp(item.spot_date) >= filter_check.report_date[0] &&
-        getTimestamp(item.spot_date) <= filter_check.report_date[1])
+        getTimestamp(item.spot_date) <= filter_check.report_date[1]);
 
     const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, isPeak ? item.altitude_type : item.types);
 
@@ -6393,77 +6415,81 @@ function applyFilters() {
       return poly.contains(point);
     }));
 
-    return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry && matchesRegion && inSpotDateRange;
+    return matchesType && inMonthRange && pointInPolygon && matchesCountry && matchesRegion && inSpotDateRange;
   });
+
   if (filterdata) {
     if (isHeatmap) drawHeatmap(filterdata);
     else drawMarkers(filterdata);
-
   }
 }
 
 
-fetch('update_reports.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network error!');
-    }
-    return response.json();
-  })
-  .then(data => {
-    update_data = data
-    filterdata = data
-    drawMarkers(data)
-  })
-  .catch(error => console.error('Error parsing json:', error));
+function getLastMonthTimestamp() {
+  const now = new Date();
+  const lastMonth = new Date(now.getFullYear(), now.getMonth() , now.getDate());
+  return Math.floor(lastMonth.getTime() / 1000);
+}
 
-fetch('altitude_data.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network error!');
-    }
-    return response.json();
-  })
-  .then(data => {
-    altitude_data = data
-  })
-  .catch(error => console.error('Error parsing json:', error));
+// 通用数据加载函数，支持 since 参数
+async function loadTableData(table, since) {
+  let url = `/.netlify/functions/getData?table=${table}`;
+  if (since) url += `&since=${since}`;
+  const response = await fetch(url);
+  if (!response.ok) throw new Error('Network error!');
+  return await response.json();
+}
 
-fetch('spots.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network error!');
-    }
-    return response.json();
-  })
-  .then(data => {
-    spots_data = data
-  })
-  .catch(error => console.error('Error parsing json:', error));
 
-fetch('region_updates.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network error!');
-    }
-    return response.json();
-  })
-  .then(data => {
-    region_updates = data
-  })
-  .catch(error => console.error('Error parsing json:', error));
+async function loadUpdateReports(since) {
+  if (!since) since = getLastMonthTimestamp();
+  const data = await loadTableData('update_reports', since);
+  update_data = data;
+  filterdata = data;
+  drawMarkers(data);
+}
 
-fetch('countries.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network error!');
-    }
-    return response.json();
-  })
-  .then(data => {
-    countries = data
-  })
-  .catch(error => console.error('Error parsing json:', error));
+
+async function loadSpots(since) {
+  if (!since) since = getLastMonthTimestamp();
+  const data = await loadTableData('spots', since);
+  spots_data = data;
+}
+
+
+async function loadRegionUpdates() {
+  const data = await loadTableData('region_updates');
+  region_updates = data;
+}
+
+async function loadAltitudeData() {
+  const data = await loadTableData('altitude_data');
+  altitude_data = data;
+}
+
+
+async function loadCountries() {
+  const response = await fetch('countries.json');
+  if (!response.ok) throw new Error('Network error!');
+  const data = await response.json();
+  countries = data;
+}
+
+// 初始化加载
+(async function initData() {
+  try {
+    await Promise.all([
+      loadUpdateReports(),
+      loadAltitudeData(),
+      loadSpots(),
+      loadRegionUpdates(),
+      loadCountries()
+    ]);
+  } catch (error) {
+    console.error('Error loading data:', error);
+  }
+})();
+
 
 function get_avatar(id, avatar_id) {
   return `https://cdn.discordapp.com/avatars/${id}/${avatar_id}.webp`
