@@ -6027,6 +6027,7 @@ const cluster_on = './assets/markers.svg'
 const cluster_off = './assets/marker.svg'
 const clustermarkers = new L.MarkerClusterGroup()
 const specialDates = {
+  '2025-06-03T01:14:00Z': 'na',
   '2025-03-31T19:36:00Z': 'smallcam',
   '2025-02-08T11:49:00Z': 'labuan',
   '2025-02-08T10:31:00Z': 'sabah',
