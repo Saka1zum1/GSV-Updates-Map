@@ -1,8 +1,8 @@
 const sqlite3 = require("sqlite3").verbose();
 
-exports.handler = async function (event, context) {
+exports.handler = async function(event, context) {
     const dbPath = "vs.db";
-    const { table, since } = event.queryStringParameters || {};
+    const { table, since, until } = event.queryStringParameters || {};
     if (!table) {
         return {
             statusCode: 400,
@@ -11,14 +11,22 @@ exports.handler = async function (event, context) {
     }
     let sql = `SELECT * FROM ${table}`;
     let params = [];
-    if (since && (table === 'update_reports' || table === 'spots')) {
-        sql += " WHERE report_time >= ?";
-        params.push(Number(since));
+    if ((table === 'update_reports' || table === 'spots') && (since || until)) {
+        let conditions = [];
+        if (since) {
+            conditions.push("report_time >= ?");
+            params.push(Number(since));
+        }
+        if (until) {
+            conditions.push("report_time <= ?");
+            params.push(Number(until));
+        }
+        sql += " WHERE " + conditions.join(" AND ");
     }
     return new Promise((resolve, reject) => {
         const db = new sqlite3.Database(dbPath, sqlite3.OPEN_READONLY, (err) => {
             if (err) {
-                reject({
+                resolve({
                     statusCode: 500,
                     body: JSON.stringify({ error: "Error fetching data: " + err.message }),
                 });
@@ -27,7 +35,7 @@ exports.handler = async function (event, context) {
         db.all(sql, params, (err, rows) => {
             db.close();
             if (err) {
-                reject({
+                resolve({
                     statusCode: 500,
                     body: JSON.stringify({ error: err.message }),
                 });
@@ -40,5 +48,5 @@ exports.handler = async function (event, context) {
             }
         });
     });
-};
+}
 

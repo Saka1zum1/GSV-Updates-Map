@@ -6366,13 +6366,11 @@ function getTimestamp(dateString) {
   return date.getTime() / 1000;
 }
 
-// 优化后的 applyFilters，按需动态请求数据
 async function applyFilters() {
   let since = filter_check.report_date?.[0];
   let until = filter_check.report_date?.[1];
   let table, dataToFilter;
 
-  // 动态选择数据表
   if (isPeak) {
     dataToFilter = altitude_data;
   } else if (isSpot) {
@@ -6381,22 +6379,17 @@ async function applyFilters() {
     table = 'update_reports';
   }
 
-  // 仅 altitude_data 仍本地过滤，其他表动态请求
   if (table) {
-    // 动态拼接查询参数
     let url = `/.netlify/functions/getData?table=${table}`;
     if (since) url += `&since=${since}`;
     if (until) url += `&until=${until}`;
-    // 可根据需要扩展更多参数
     const response = await fetch(url);
     dataToFilter = await response.json();
     if (table === 'spots') spots_data = dataToFilter;
     if (table === 'update_reports') update_data = dataToFilter;
   }
 
-  // 本地过滤剩余条件
   filterdata = dataToFilter.filter(item => {
-    // 时间范围已在查询时处理，无需本地再次判断 report_time
     const inSpotDateRange = !isSpot ||
       (getTimestamp(item.spot_date) >= filter_check.report_date[0] &&
         getTimestamp(item.spot_date) <= filter_check.report_date[1]);
@@ -6431,7 +6424,6 @@ function getLastMonthTimestamp() {
   return Math.floor(lastMonth.getTime() / 1000);
 }
 
-// 通用数据加载函数，支持 since 参数
 async function loadTableData(table, since) {
   let url = `/.netlify/functions/getData?table=${table}`;
   if (since) url += `&since=${since}`;
