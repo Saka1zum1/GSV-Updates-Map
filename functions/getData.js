@@ -1,8 +1,7 @@
-const sqlite3 = require("sqlite3").verbose();
-const path = require("path");
+const sqlite3 = require("sqlite3").verbose();;
 
-exports.handler = async function(event, context) {
-    const dbPath = path.join(__dirname, "../../vs.db");
+exports.handler = async function (event, context) {
+    const dbPath = path.join(process.cwd(), "vs.db");
     const { table, since, until } = event.queryStringParameters || {};
     if (!table) {
         return {
