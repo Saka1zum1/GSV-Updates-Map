@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "node-fetch": "^3.0.0",
-    "sqlite3": "^5.1.4"
+    "mysql2": "^3.9.7"
   },
   "devDependencies": {
     "@netlify/functions": "^2.0.0"
