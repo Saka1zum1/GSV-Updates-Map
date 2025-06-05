@@ -6007,7 +6007,7 @@ let isCluster = true
 let isPeak = false
 let isSpot = false
 let isRegion = false
-let update_data, altitude_data, spots_data, filterdata, region_updates, countries
+let update_data, altitude_data, spots_data, filterdata, countries
 let datepicker
 let currentView = 'days'
 let filter_check = {
@@ -6174,9 +6174,9 @@ function drawMarkers(data) {
 
 
     marker.on('click', function () {
-      let link = `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`;
-      if (links && links.length > 0) {
-        link = links[0]; // If links exist, open the first one
+      const link = sv_link
+      if (source_link) {
+        link = source_link; // If links exist, open the first one
       }
       window.open(link, '_blank');
     });
@@ -6257,10 +6257,10 @@ function createSearchPopup() {
       flag: flag
     });
 
-    if (Array.isArray(region_updates)) {
+    if (Array.isArray(filterdata)) {
       const regionSet = new Set();
-      region_updates
-        .filter(item => item.country === country)
+      filterdata
+        .filter(item => item.country === country && item.region)
         .forEach(item => {
           if (!regionSet.has(item.region)) {
             regionSet.add(item.region);
@@ -6479,7 +6479,6 @@ async function applyFilters() {
 
     const [updateReports, regionUpdates, countriesResp] = await Promise.all([
       loadTableData({ table: 'update_reports', since }),
-      loadTableData({ table: 'region_updates' }),
       fetch('countries.json')
     ]);
 
@@ -6487,7 +6486,6 @@ async function applyFilters() {
     filterdata = updateReports;
     drawMarkers(updateReports);
 
-    region_updates = regionUpdates;
     countries = await countriesResp.json();
   } catch (error) {
     console.error('Error loading data:', error);

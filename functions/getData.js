@@ -25,7 +25,12 @@ exports.handler = async function (event, context) {
         };
     }
 
-    let sql = `SELECT * FROM \`${table}\``;
+    let sql;
+    if (table === 'region_updates') {
+        sql = "SELECT country, region FROM `region_updates`";
+    } else {
+        sql = `SELECT * FROM \`${table}\``;
+    }
     let conditions = [];
     let params = [];
 
