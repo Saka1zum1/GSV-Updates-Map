@@ -6234,16 +6234,18 @@ function createSearchPopup() {
       flag: flag
     });
 
-    if (region_updates[country]) {
-      Object.keys(region_updates[country]).forEach(region => {
+  if (Array.isArray(region_updates)) {
+    region_updates
+      .filter(item => item.country === country)
+      .forEach(item => {
         combinedData.push({
           type: 'region',
-          name: region,
+          name: item.region,
           code: country,
           flag: flag
         });
       });
-    }
+  }
   });
 
   searchInput.addEventListener('input', debounce(function () {
