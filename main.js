@@ -6474,18 +6474,20 @@ async function applyFilters() {
 
 (async function initData() {
   try {
-    // 近一个月的时间戳
+    // 并发加载所有数据，提升初始化速度
     const since = getLastMonthTimestamp();
-    // update_reports
-    update_data = await loadTableData({ table: 'update_reports', since });
-    filterdata = update_data;
-    drawMarkers(update_data);
 
-    // region_updates（全量）
-    region_updates = await loadTableData({ table: 'region_updates' });
+    const [updateReports, regionUpdates, countriesResp] = await Promise.all([
+      loadTableData({ table: 'update_reports', since }),
+      loadTableData({ table: 'region_updates' }),
+      fetch('countries.json')
+    ]);
 
-    // countries（本地json）
-    const countriesResp = await fetch('countries.json');
+    update_data = updateReports;
+    filterdata = updateReports;
+    drawMarkers(updateReports);
+
+    region_updates = regionUpdates;
     countries = await countriesResp.json();
   } catch (error) {
     console.error('Error loading data:', error);
