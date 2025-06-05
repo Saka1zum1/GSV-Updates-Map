@@ -6105,6 +6105,20 @@ function drawMarkers(data) {
 
   data.forEach(item => {
     const { lat, lng, author, types, report_time, date, panoId, links, id, spot_type, spot_date, region, altitude } = item;
+    let typesList = [];
+    if (typeof types === 'string') {
+      try {
+        typesList = JSON.parse(types);
+        if (!Array.isArray(typesList)) {
+          typesList = types.split(',').map(t => t.trim()).filter(Boolean);
+        }
+      } catch {
+        typesList = types.split(',').map(t => t.trim()).filter(Boolean);
+      }
+    } else if (Array.isArray(types)) {
+      typesList = types;
+    }
+
     if (report_time) {
       var localTime = new Date(report_time * 1000).toLocaleString();
     }
@@ -6112,31 +6126,31 @@ function drawMarkers(data) {
     const marker = L.marker([lat, lng]);
     marker.on('mouseover', async function () {
       var img_url = `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`
-      if (types) {
+      if (typesList.length > 0) {
         popupContent = `
-          <strong>update type:</strong> ${types.map(type =>
+        <strong>update type:</strong> ${typesList.map(type =>
           `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
         ).join(' ')}<br>
-          <strong>pano date:</strong> ${date}<br>
-          <strong>region:</strong> ${region}<br>
-          <strong>report time:</strong> ${localTime}<br>
-          <strong>report by:</strong> ${author}<br>
-          <img src="${img_url}" style="max-width: 100%; height: auto;">`;
+        <strong>pano date:</strong> ${date}<br>
+        <strong>region:</strong> ${region}<br>
+        <strong>report time:</strong> ${localTime}<br>
+        <strong>report by:</strong> ${author}<br>
+        <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       } else if (links) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-          <strong>spot type:</strong> ${spot_type}<br>
-          <strong>spot date:</strong> ${spot_date}<br>
-          <strong>region:</strong> ${region}<br>
-          <strong>archived time:</strong> ${localTime}<br>
-          <strong>archived by:</strong> ${author}<br>
-          <img src="${img_url}" style="max-width: 100%; height: auto;">
-        `;
+        <strong>spot type:</strong> ${spot_type}<br>
+        <strong>spot date:</strong> ${spot_date}<br>
+        <strong>region:</strong> ${region}<br>
+        <strong>archived time:</strong> ${localTime}<br>
+        <strong>archived by:</strong> ${author}<br>
+        <img src="${img_url}" style="max-width: 100%; height: auto;">
+      `;
       } else {
         popupContent = `
-          <strong>pano date:</strong> ${date}<br>
-          <strong>elevation:</strong> ${altitude}m<br>
-          <img src="${img_url}" style="max-width: 100%; height: auto;">`;
+        <strong>pano date:</strong> ${date}<br>
+        <strong>elevation:</strong> ${altitude}m<br>
+        <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       }
 
       this.bindPopup(popupContent, {
@@ -6234,18 +6248,18 @@ function createSearchPopup() {
       flag: flag
     });
 
-  if (Array.isArray(region_updates)) {
-    region_updates
-      .filter(item => item.country === country)
-      .forEach(item => {
-        combinedData.push({
-          type: 'region',
-          name: item.region,
-          code: country,
-          flag: flag
+    if (Array.isArray(region_updates)) {
+      region_updates
+        .filter(item => item.country === country)
+        .forEach(item => {
+          combinedData.push({
+            type: 'region',
+            name: item.region,
+            code: country,
+            flag: flag
+          });
         });
-      });
-  }
+    }
   });
 
   searchInput.addEventListener('input', debounce(function () {
@@ -6553,7 +6567,7 @@ function initDatePicker(view = 'days', minView = 'days') {
           const flagEmoji = getFlagEmoji(matchingDates[randomIndex].countryCode);
           if (matchingDates[randomIndex].countryCode.length != 2) {
             return {
-              html: `<div class="custom-cell"><img class="emoji" style="width:24px; height:${matchingDates[randomIndex].countryCode=='smallcam'?"20px":"14px"}" src="./assets/${matchingDates[randomIndex].countryCode}.png"></div>`,
+              html: `<div class="custom-cell"><img class="emoji" style="width:24px; height:${matchingDates[randomIndex].countryCode == 'smallcam' ? "20px" : "14px"}" src="./assets/${matchingDates[randomIndex].countryCode}.png"></div>`,
               classes: 'custom-cell'
             };
           }
@@ -6824,19 +6838,19 @@ filter_country.addEventListener('click', function () {
 
 function jsonToCSV() {
   const rows = filterdata.map(item => {
-      const lat = item.lat|| '';
-      const lng = item.lng|| '';
-      return [
-          lat,
-          lng
-      ];
+    const lat = item.lat || '';
+    const lng = item.lng || '';
+    return [
+      lat,
+      lng
+    ];
   })
   const csvContent = [...rows].map(row => row.join(",")).join("\n");
   return csvContent;
 }
 
-document.addEventListener("keydown", function(event) {
-  if (event.shiftKey && (event.key === "c"||event.key === "C")) {
+document.addEventListener("keydown", function (event) {
+  if (event.shiftKey && (event.key === "c" || event.key === "C")) {
     const csvData = jsonToCSV();
 
     navigator.clipboard.writeText(csvData).then(() => {
