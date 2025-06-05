@@ -6386,13 +6386,6 @@ function getTimestamp(dateString) {
   return date.getTime() / 1000;
 }
 
-function getLastMonthTimestamp() {
-  const now = new Date();
-  const lastMonth = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
-  return Math.floor(lastMonth.getTime() / 1000);
-}
-
-
 async function loadTableData({ table, since, before, key, value }) {
   let url = `/.netlify/functions/getData?table=${table}`;
   if (since) url += `&since=${since}`;
@@ -6405,56 +6398,52 @@ async function loadTableData({ table, since, before, key, value }) {
 
 
 async function applyFilters() {
-  let since = filter_check.report_date?.[0];
-  let before = filter_check.report_date?.[1];
   let dataToFilter;
 
   if (isPeak) {
-    altitude_data = await loadTableData({ table: 'altitude_data' });;
-    dataToFilter =  altitude_data
+    dataToFilter = altitude_data;
   } else if (isSpot) {
-    spots_data = await loadTableData({
-      table: 'spots',
-      since,
-      before,
-      key: filter_check.country ? 'country' : undefined,
-      value: filter_check.country || undefined
-    });
     dataToFilter = spots_data;
   } else {
-    update_data = await loadTableData({
-      table: 'update_reports',
-      since,
-      before,
-      key: filter_check.country ? 'country' : undefined,
-      value: filter_check.country || undefined
-    });
     dataToFilter = update_data;
   }
 
   filterdata = dataToFilter.filter(item => {
-    // 时间范围已在后端处理
-    const matchesType = isPeak || filter_check.type.length === 0 ||
-      intersect(filter_check.type, isPeak ? (item.altitude_type ? [item.altitude_type] : []) : (item.types ? item.types.split(',') : []));
+    const inDateRange = !item.report_time || (
+      filter_check.report_date &&
+      item.report_time >= filter_check.report_date[0] &&
+      item.report_time <= filter_check.report_date[1]
+    );
 
-    const inMonthRange = isSpot || filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
+    const matchesType = isPeak || filter_check.type.length === 0 ||
+      intersect(
+        filter_check.type,
+        isPeak
+          ? (item.altitude_type ? [item.altitude_type] : [])
+          : (item.types ? (typeof item.types === 'string' ? item.types.split(',') : item.types) : [])
+      );
+
+    const inMonthRange = isSpot || filter_check.pano_date.length === 0 ||
+      monthInRange(item.date, filter_check.pano_date);
 
     const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
 
     const matchesRegion = !filter_check.region || filter_check.region === item.region;
 
-    const pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
-      const point = L.latLng(item.lat, item.lng);
-      const poly = L.polygon(latlngs);
-      return poly.contains(point);
-    }));
+    const pointInPolygon = filter_check.poly.length === 0 ||
+      filter_check.poly.some(polygon =>
+        polygon.getLatLngs().some(latlngs => {
+          const point = L.latLng(item.lat, item.lng);
+          const poly = L.polygon(latlngs);
+          return poly.contains(point);
+        })
+      );
 
-    // spot_date 仅 spots 有
     const inSpotDateRange = !isSpot ||
       (item.spot_date && getTimestamp(item.spot_date) >= filter_check.report_date[0] &&
         getTimestamp(item.spot_date) <= filter_check.report_date[1]);
 
-    return matchesType && inMonthRange && pointInPolygon && matchesCountry && matchesRegion && inSpotDateRange;
+    return inDateRange && matchesType && inMonthRange && pointInPolygon && matchesCountry && matchesRegion && inSpotDateRange;
   });
 
   if (filterdata) {
@@ -6466,15 +6455,16 @@ async function applyFilters() {
 
 (async function initData() {
   try {
-    // 近一个月的时间戳
-    const since = getLastMonthTimestamp();
-    // update_reports
-    update_data = await loadTableData({ table: 'update_reports', since });
+
+    // 全量加载 update_reports、spots、region_updates、altitude_data
+    update_data = await loadTableData({ table: 'update_reports' });
+    spots_data = await loadTableData({ table: 'spots' });
+    region_updates = await loadTableData({ table: 'region_updates' });
+    altitude_data = await loadTableData({ table: 'altitude_data' });
+
+    // 默认显示 update_reports
     filterdata = update_data;
     drawMarkers(update_data);
-
-    // region_updates（全量）
-    region_updates = await loadTableData({ table: 'region_updates' });
 
     // countries（本地json）
     const countriesResp = await fetch('countries.json');
