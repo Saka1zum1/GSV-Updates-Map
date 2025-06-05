@@ -6104,7 +6104,7 @@ function drawMarkers(data) {
   markers = [];
 
   data.forEach(item => {
-    const { lat, lng, author, types, report_time, date, panoId, links, id, spot_type, spot_date, region, altitude } = item;
+    const { lat, lng, author, types, report_time, date, panoId, source_link, sv_link, id, spot_type, spot_date, region, altitude } = item;
     let typesList = [];
     if (typeof types === 'string') {
       try {
@@ -6136,7 +6136,7 @@ function drawMarkers(data) {
         <strong>report time:</strong> ${localTime}<br>
         <strong>report by:</strong> ${author}<br>
         <img src="${img_url}" style="max-width: 100%; height: auto;">`;
-      } else if (links) {
+      } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
         <strong>spot type:</strong> ${spot_type}<br>
@@ -6248,19 +6248,23 @@ function createSearchPopup() {
       flag: flag
     });
 
-    if (Array.isArray(region_updates)) {
-      region_updates
-        .filter(item => item.country === country)
-        .forEach(item => {
+  if (Array.isArray(region_updates)) {
+    const regionSet = new Set();
+    region_updates
+      .filter(item => item.country === country)
+      .forEach(item => {
+        if (!regionSet.has(item.region)) {
+          regionSet.add(item.region);
           combinedData.push({
             type: 'region',
             name: item.region,
             code: country,
             flag: flag
           });
-        });
-    }
-  });
+        }
+      });
+  }
+});
 
   searchInput.addEventListener('input', debounce(function () {
     const searchQuery = searchInput.value.toLowerCase();
@@ -6400,14 +6404,14 @@ async function loadTableData({ table, since, before, key, value }) {
 }
 
 
-
 async function applyFilters() {
   let since = filter_check.report_date?.[0];
   let before = filter_check.report_date?.[1];
   let dataToFilter;
 
   if (isPeak) {
-    dataToFilter = altitude_data;
+    altitude_data = await loadTableData({ table: 'altitude_data' });;
+    dataToFilter =  altitude_data
   } else if (isSpot) {
     spots_data = await loadTableData({
       table: 'spots',
@@ -6469,14 +6473,8 @@ async function applyFilters() {
     filterdata = update_data;
     drawMarkers(update_data);
 
-    // spots
-    spots_data = await loadTableData({ table: 'spots', since });
-
     // region_updates（全量）
     region_updates = await loadTableData({ table: 'region_updates' });
-
-    // altitude_data（全量）
-    altitude_data = await loadTableData({ table: 'altitude_data' });
 
     // countries（本地json）
     const countriesResp = await fetch('countries.json');
