@@ -31,7 +31,7 @@ exports.handler = async function (event, context) {
 
     // 时间字段适配
     let timeField = 'report_time';
-    if (table === 'altitude_data') timeField = null; // altitude_data 没有 report_time
+    if (table === 'altitude_data') timeField = null;
 
     // 时间范围
     if (timeField && since) {
@@ -43,15 +43,21 @@ exports.handler = async function (event, context) {
         params.push(Number(before));
     }
 
-    // 动态关键字段精确或模糊查询
-    if (key && value && TABLE_FIELDS[table].includes(key)) {
-        // types 字段为数组时，建议前端过滤
-        if (key === 'types') {
-            conditions.push(`\`${key}\` LIKE ?`);
-            params.push(`%${value}%`);
-        } else {
-            conditions.push(`\`${key}\` = ?`);
-            params.push(value);
+    // 多字段查询支持
+    if (key && value) {
+        const keys = key.split(',').map(k => k.trim());
+        const values = value.split(',').map(v => v.trim());
+        for (let i = 0; i < Math.min(keys.length, values.length); i++) {
+            const k = keys[i];
+            const v = values[i];
+            if (!TABLE_FIELDS[table].includes(k)) continue;
+            if (k === 'types') {
+                conditions.push(`\`${k}\` LIKE ?`);
+                params.push(`%${v}%`);
+            } else {
+                conditions.push(`\`${k}\` = ?`);
+                params.push(v);
+            }
         }
     }
 
@@ -59,7 +65,6 @@ exports.handler = async function (event, context) {
         sql += " WHERE " + conditions.join(" AND ");
     }
 
-    // 默认排序
     if (timeField) {
         sql += ` ORDER BY ${timeField} DESC`;
     }
