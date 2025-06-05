@@ -6104,7 +6104,7 @@ function drawMarkers(data) {
   markers = [];
 
   data.forEach(item => {
-    const { lat, lng, author, types, report_time, date, panoId, source_link, sv_link, id, spot_type, spot_date, region, altitude } = item;
+    const { lat, lng, author, types, report_time, date, year, month, panoId, source_link, sv_link, id, spot_type, spot_date, region, altitude } = item;
     let typesList = [];
     if (typeof types === 'string') {
       try {
@@ -6122,6 +6122,15 @@ function drawMarkers(data) {
     if (report_time) {
       var localTime = new Date(report_time * 1000).toLocaleString();
     }
+
+    if (year && month) {
+      var panoDate = new Date(year, month - 1);
+      var formatted_date = panoDate.toLocaleString('en-US', {
+        month: 'short',
+        year: 'numeric'
+      });
+    }
+
     let popupContent = '';
     const marker = L.marker([lat, lng]);
     marker.on('mouseover', async function () {
@@ -6131,7 +6140,7 @@ function drawMarkers(data) {
         <strong>update type:</strong> ${typesList.map(type =>
           `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
         ).join(' ')}<br>
-        <strong>pano date:</strong> ${date}<br>
+        <strong>pano date:</strong> ${formatted_date}<br>
         <strong>region:</strong> ${region}<br>
         <strong>report time:</strong> ${localTime}<br>
         <strong>report by:</strong> ${author}<br>
@@ -6248,23 +6257,23 @@ function createSearchPopup() {
       flag: flag
     });
 
-  if (Array.isArray(region_updates)) {
-    const regionSet = new Set();
-    region_updates
-      .filter(item => item.country === country)
-      .forEach(item => {
-        if (!regionSet.has(item.region)) {
-          regionSet.add(item.region);
-          combinedData.push({
-            type: 'region',
-            name: item.region,
-            code: country,
-            flag: flag
-          });
-        }
-      });
-  }
-});
+    if (Array.isArray(region_updates)) {
+      const regionSet = new Set();
+      region_updates
+        .filter(item => item.country === country)
+        .forEach(item => {
+          if (!regionSet.has(item.region)) {
+            regionSet.add(item.region);
+            combinedData.push({
+              type: 'region',
+              name: item.region,
+              code: country,
+              flag: flag
+            });
+          }
+        });
+    }
+  });
 
   searchInput.addEventListener('input', debounce(function () {
     const searchQuery = searchInput.value.toLowerCase();
@@ -6411,12 +6420,12 @@ async function applyFilters() {
 
   if (isPeak) {
     altitude_data = await loadTableData({ table: 'altitude_data' });;
-    dataToFilter =  altitude_data
+    dataToFilter = altitude_data
   } else if (isSpot) {
     spots_data = await loadTableData({
       table: 'spots',
-      since,
-      before,
+      since: since || getLastMonthTimestamp(),
+      before: before || undefined,
       key: filter_check.country ? 'country' : undefined,
       value: filter_check.country || undefined
     });
@@ -6433,7 +6442,6 @@ async function applyFilters() {
   }
 
   filterdata = dataToFilter.filter(item => {
-    // 时间范围已在后端处理
     const matchesType = isPeak || filter_check.type.length === 0 ||
       intersect(filter_check.type, isPeak ? (item.altitude_type ? [item.altitude_type] : []) : (item.types ? item.types.split(',') : []));
 
