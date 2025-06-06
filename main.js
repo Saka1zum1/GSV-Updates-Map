@@ -6477,7 +6477,7 @@ async function applyFilters() {
     // 并发加载所有数据，提升初始化速度
     const since = getLastMonthTimestamp();
 
-    const [updateReports, regionUpdates, countriesResp] = await Promise.all([
+    const [updateReports, countriesResp] = await Promise.all([
       loadTableData({ table: 'update_reports', since }),
       fetch('countries.json')
     ]);
