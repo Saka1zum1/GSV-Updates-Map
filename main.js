@@ -6424,8 +6424,6 @@ async function applyFilters() {
   } else if (isSpot) {
     spots_data = await loadTableData({
       table: 'spots',
-      since: since || getLastMonthTimestamp(),
-      before: before || undefined,
       key: filter_check.country ? 'country' : undefined,
       value: filter_check.country || undefined
     });
@@ -6457,7 +6455,6 @@ async function applyFilters() {
       return poly.contains(point);
     }));
 
-    // spot_date 仅 spots 有
     const inSpotDateRange = !isSpot ||
       (item.spot_date && getTimestamp(item.spot_date) >= filter_check.report_date[0] &&
         getTimestamp(item.spot_date) <= filter_check.report_date[1]);
