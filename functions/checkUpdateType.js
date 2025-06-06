@@ -26,7 +26,7 @@ exports.handler = async function (event, context) {
                 MAX(CASE WHEN country = ? AND region = ? AND year = ? AND month = ? THEN 1 ELSE 0 END) AS has_region,
                 MAX(CASE WHEN country = ? AND year = ? AND month = ? THEN 1 ELSE 0 END) AS has_country,
                 MAX(CASE WHEN region = ? AND year = ? THEN 1 ELSE 0 END) AS has_year
-            FROM region_updates
+            FROM update_reports
         `, [
             country, region, year, month,
             country, year, month,
