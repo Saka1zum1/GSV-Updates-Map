@@ -45330,5 +45330,117 @@
         "lng": -122.41934,
         "country": "US",
         "region": "California"
+    },
+    {
+        "spot_date": "2024/02/16",
+        "id": "1211113305423216720",
+        "links": [
+            "https://x.com/aiaddict1/status/1758281981509640247",
+            "https://maps.app.goo.gl/5D5CK4LcDdmH9Fmr8"
+        ],
+        "report_time": 1708822313,
+        "author": "macca",
+        "spot_type": "Gen4",
+        "panoId": "Ua4LErMtM-aECINYrR7rcw",
+        "lat": 37.25057,
+        "lng": -121.89954,
+        "country": "US",
+        "region": "California"
+    },
+    {
+        "spot_date": "2024/02/23",
+        "id": "1211110435521306624",
+        "links": [
+            "https://www.tiktok.com/@carrenito._.22/video/7338992631336193285",
+            "https://maps.app.goo.gl/UcF3ronxUtYhHLCf7"
+        ],
+        "report_time": 1708821629,
+        "author": "macca",
+        "spot_type": "Gen4",
+        "panoId": "H0Tl5tFv8Zhl3FexWPK6qA",
+        "lat": 6.75282,
+        "lng": -72.97385,
+        "country": "CO",
+        "region": "Santander"
+    },
+    {
+        "spot_date": "2024/02/23",
+        "id": "1210787810668318720",
+        "links": [
+            "https://www.facebook.com/photo?fbid=10160833113893930&set=pcb.10160833115043930",
+            "https://maps.app.goo.gl/oks2t7D565XEQzXs5"
+        ],
+        "report_time": 1708744709,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "1-Y2EtakQkqwESEeKW3QdA",
+        "lat": 34.24969,
+        "lng": -88.77259,
+        "country": "US",
+        "region": "Mississippi"
+    },
+    {
+        "spot_date": "2024/02/20",
+        "id": "1210787198396399748",
+        "links": [
+            "https://www.facebook.com/jules1410/videos/414973431100342",
+            "https://maps.app.goo.gl/VoPS62L2dLUU19zEA"
+        ],
+        "report_time": 1708744563,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "NaaSlGAYOwYV2z3y2r-EbQ",
+        "lat": 31.96881,
+        "lng": -81.97398,
+        "country": "US",
+        "region": "Georgia"
+    },
+    {
+        "spot_date": "2024/02/23",
+        "id": "1210715579342655518",
+        "links": [
+            "https://maps.app.goo.gl/CkTsuQ3bVFi4TrgW9",
+            "https://maps.app.goo.gl/CkTsuQ3bVFi4TrgW9"
+        ],
+        "report_time": 1708727488,
+        "author": "sockwithaglock.",
+        "spot_type": "Gen4",
+        "panoId": "4V8bjBzR0f_wURG11c3jgQ",
+        "lat": 34.89495,
+        "lng": -85.07552,
+        "country": "US",
+        "region": "Georgia"
+    },
+    {
+        "spot_date": "2024/02/21",
+        "id": "1210356107122577461",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=940039681169281&set=gm.1094693365123397&idorvanity=213845066541569",
+            "https://maps.app.goo.gl/M2tGRYUNmkTX9gz5A"
+        ],
+        "report_time": 1708641783,
+        "author": "Woly",
+        "spot_type": "Gen4",
+        "panoId": "dR0qW2-BSCNEtCO2AzXOjQ",
+        "lat": 15.93843,
+        "lng": 100.99346,
+        "country": "TH",
+        "region": "Phetchabun"
+    },
+    {
+        "spot_date": "2024/02/18",
+        "id": "1210053761066868868",
+        "links": [
+            "https://www.facebook.com/photo/?fbid=7026613760770586&set=a.522545747844119",
+            "https://maps.app.goo.gl/zpA27zxnwPXuf5BW9"
+        ],
+        "report_time": 1708569698,
+        "author": "Woly",
+        "spot_type": "Gen4",
+        "panoId": "qwz-KunRCAGZRBDVxppyGQ",
+        "lat": 18.42207,
+        "lng": 98.67712,
+        "country": "TH",
+        "region": "Chiang Mai"
     }
 ]
