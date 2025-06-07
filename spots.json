@@ -45442,5 +45442,37 @@
         "lng": 98.67712,
         "country": "TH",
         "region": "Chiang Mai"
+    },
+    {
+        "spot_date": "2025/05/19",
+        "id": "1374231486160699496",
+        "links": [
+            "https://www.facebook.com/photo?fbid=1300556905412302",
+            "https://maps.app.goo.gl/tE2AtxQEF1SsUkgS6"
+        ],
+        "report_time": 1747712718,
+        "author": "Henrique",
+        "spot_type": "Gen4",
+        "panoId": "9lPY-sC8uVG02h4Qz0VpEw",
+        "lat": 51.1393,
+        "lng": 23.45745,
+        "country": "PL",
+        "region": "Lublin Voivodeship"
+    },
+    {
+        "spot_date": "2025/05/14",
+        "id": "1379171022091059341",
+        "links": [
+            "https://www.facebook.com/reel/689848997086166",
+            "https://maps.app.goo.gl/py2FgwiLrxh7bsq9A"
+        ],
+        "report_time": 1748890395,
+        "author": "vegetal",
+        "spot_type": "Gen4",
+        "panoId": "EYIpR_Vs8IwoBXAmSaTBuQ",
+        "lat": 25.44298,
+        "lng": 81.79663,
+        "country": "IN",
+        "region": "Uttar Pradesh"
     }
 ]
