@@ -6405,6 +6405,7 @@ function getLastMonthTimestamp() {
 
 async function loadTableData({ table, since, before, key, value }) {
   let url = `/.netlify/functions/getData?table=${table}`;
+  if(!since) since=getLastMonthTimestamp
   if (since) url += `&since=${since}`;
   if (before) url += `&before=${before}`;
   if (key && value) url += `&key=${encodeURIComponent(key)}&value=${encodeURIComponent(value)}`;
@@ -6441,8 +6442,7 @@ async function applyFilters() {
   }
 
   filterdata = dataToFilter.filter(item => {
-    const matchesType = isPeak || filter_check.type.length === 0 ||
-      intersect(filter_check.type, isPeak ? (item.altitude_type ? [item.altitude_type] : []) : (item.types ? item.types.split(',') : []));
+    const matchesType = isPeak || filter_check.type.length === 0 ||intersect(filter_check.type, item.types ? JSON.parse(item.types) : []);;
 
     const inMonthRange = isSpot || filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
 
