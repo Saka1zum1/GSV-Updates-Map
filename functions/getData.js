@@ -2,8 +2,8 @@ const mysql = require("mysql2/promise");
 
 const TABLE_FIELDS = {
     region_updates: ['country', 'region', 'month', 'year', 'panoId', 'report_time'],
-    spots: ['id', 'author', 'country', 'region', 'panoId', 'report_time', 'spot_date', 'sv_link', 'source_link', 'lat', 'lng', 'spot_type'],
-    update_reports: ['id', 'author', 'country', 'region', 'month', 'year', 'panoId', 'report_time', 'lat', 'lng', 'types'],
+    spots: ['messgae_id', 'author', 'country', 'region', 'panoId', 'report_time', 'spot_date', 'sv_link', 'source_link', 'lat', 'lng', 'spot_type'],
+    update_reports: ['messgae_id', 'author', 'country', 'region', 'month', 'year', 'panoId', 'report_time', 'lat', 'lng', 'types'],
     altitude_data: ['id', 'panoId', 'lat', 'lng', 'date', 'country', 'altitude']
 };
 
