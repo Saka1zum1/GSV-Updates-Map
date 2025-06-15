@@ -6444,7 +6444,7 @@ async function applyFilters() {
   filterdata = dataToFilter.filter(item => {
     const matchesType = isPeak || filter_check.type.length === 0 ||intersect(filter_check.type, item.types ? JSON.parse(item.types) : []);;
 
-    const inMonthRange = isSpot || filter_check.pano_date.length === 0 || monthInRange(item.date, filter_check.pano_date);
+    const inMonthRange = isSpot || filter_check.pano_date.length === 0 || monthInRange(item, filter_check.pano_date);
 
     const matchesCountry = !filter_check.country || item.country === filter_check.country.toUpperCase();
 
