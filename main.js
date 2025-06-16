@@ -6011,7 +6011,7 @@ let update_data, altitude_data, spots_data, filterdata, countries
 let datepicker
 let currentView = 'days'
 let filter_check = {
-  report_date: [1167580800, 1924963199],
+  report_date: [getMonthTimestamp(), getTimestamp()],
   type: [],
   pano_date: [],
   poly: [],
@@ -6383,30 +6383,34 @@ function monthInRange(pano_date, monthRange) {
   const panoYear = pano_date.year;
 
   if (startYear === endYear) {
-    return panoYear === startYear && panoIndex >= startIndex && panoIndex <= endIndex;
+    return panoYear === Number(startYear) && panoIndex >= startIndex && panoIndex <= endIndex;
   } else {
-    return (panoYear === startYear && panoIndex >= startIndex) ||
-      (panoYear === endYear && panoIndex <= endIndex) ||
-      (panoYear >= startYear && panoYear <= endYear);
+    return (panoYear === Number(startYear) && panoIndex >= startIndex) ||
+      (panoYear === Number(endYear) && panoIndex <= endIndex) ||
+      (panoYear >= Number(startYear) && panoYear <= Number(endYear));
   }
 }
 
 function getTimestamp(dateString) {
+  if(!dateString){
+  const now = new Date();
+  return Math.floor(now.getTime() / 1000);
+  }
   const date = new Date(dateString);
-  return date.getTime() / 1000;
+  return Math.floor(date.getTime() / 1000);
 }
 
-function getLastMonthTimestamp() {
+function getMonthTimestamp() {
   const now = new Date();
-  const lastMonth = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
-  return Math.floor(lastMonth.getTime() / 1000);
+  const firstDay = new Date(now.getFullYear(), now.getMonth(), 1);
+  return Math.floor(firstDay.getTime() / 1000);
 }
 
 
 async function loadTableData({ table, since, before, key, value }) {
   let url = `/.netlify/functions/getData?table=${table}`;
   if (since) url += `&since=${since}`;
-  else since=url += `&since=${getLastMonthTimestamp()}`
+  else since=url += `&since=${getMonthTimestamp()}`
   if (before) url += `&before=${before}`;
   if (key && value) url += `&key=${encodeURIComponent(key)}&value=${encodeURIComponent(value)}`;
   const response = await fetch(url);
@@ -6473,7 +6477,7 @@ async function applyFilters() {
 (async function initData() {
   try {
     // 并发加载所有数据，提升初始化速度
-    const since = getLastMonthTimestamp();
+    const since = getMonthTimestamp();
 
     const [updateReports, countriesResp] = await Promise.all([
       loadTableData({ table: 'update_reports', since }),
