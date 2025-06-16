@@ -6379,7 +6379,7 @@ function monthInRange(pano_date, monthRange) {
 
   const startIndex = months.indexOf(startMonth);
   const endIndex = months.indexOf(endMonth);
-  const panoIndex = pano_date.month-1;
+  const panoIndex = (pano_date.month)-1;
   const panoYear = pano_date.year;
 
   if (startYear === endYear) {
