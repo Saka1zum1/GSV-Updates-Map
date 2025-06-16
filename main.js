@@ -6381,15 +6381,13 @@ function monthInRange(pano_date, monthRange) {
   const endIndex = months.indexOf(endMonth);
   const panoIndex = (pano_date.month)-1;
   const panoYear = pano_date.year;
-  console.log(pano_date)
-  console.log(panoIndex,panoYear)
 
   if (startYear === endYear) {
     return panoYear === startYear && panoIndex >= startIndex && panoIndex <= endIndex;
   } else {
     return (panoYear === startYear && panoIndex >= startIndex) ||
       (panoYear === endYear && panoIndex <= endIndex) ||
-      (panoYear > startYear && panoYear < endYear);
+      (panoYear >= startYear && panoYear <= endYear);
   }
 }
 
