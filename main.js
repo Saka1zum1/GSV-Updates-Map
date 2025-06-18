@@ -6766,8 +6766,8 @@ copy_button.addEventListener('click', function () {
     extra: {
       tags: [
         item.country || null,
-        item.date || null,
-        ...(item.types || [])
+        `${item.year}-${item.month}` || null,
+        ...(JSON.parse(item.types) || [])
       ].filter(Boolean)
     }
   }));
