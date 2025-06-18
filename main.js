@@ -6756,6 +6756,7 @@ toggle_spot.addEventListener('click', function () {
 
 const copy_button = document.querySelector('.control.copy')
 copy_button.addEventListener('click', function () {
+  const months=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const formattedData = filterdata.map(item => ({
     lat: item.lat,
     lng: item.lng,
@@ -6766,7 +6767,7 @@ copy_button.addEventListener('click', function () {
     extra: {
       tags: [
         item.country || null,
-        `${item.year}-${item.month}` || null,
+        `${months[(item.month)-1]} ${item.year}` || null,
         ...(JSON.parse(item.types) || [])
       ].filter(Boolean)
     }
