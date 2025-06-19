@@ -66,6 +66,8 @@ exports.handler = async function (event, context) {
         }
     }
 
+    conditions.push("lat IS NOT NULL");
+
     if (conditions.length > 0) {
         sql += " WHERE " + conditions.join(" AND ");
     }
