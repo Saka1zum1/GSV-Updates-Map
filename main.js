@@ -6149,7 +6149,7 @@ function drawMarkers(data) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
         <strong>spot type: </strong>${spot_type||''}<br>
-        <strong>spot date: </strong>${spot_date||''}br>
+        <strong>spot date: </strong>${spot_date||''}<br>
         <strong>region: </strong>${region||''}<br>
         <strong>archived time: </strong>${localTime||''}<br>
         <strong>archived by: </strong>${author||''}<br>

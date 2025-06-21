@@ -25,26 +25,32 @@ exports.handler = async function (event, context) {
         };
     }
 
-    let sql;
-    if (table === 'region_updates') {
-        sql = "SELECT country, region FROM `region_updates`";
-    } else {
-        sql = `SELECT * FROM \`${table}\``;
-    }
+    let sql = `SELECT * FROM \`${table}\``;
+
     let conditions = [];
     let params = [];
 
     // 时间字段适配
     let timeField = 'report_time';
+    if (table === 'SPOT') timeField = 'spot_date';
     if (table === 'altitude_data') timeField = null;
 
     // 时间范围
     if (timeField && since) {
-        conditions.push(`${timeField} >= ?`);
+        if (timeField === 'spot_date') {
+            conditions.push(`STR_TO_DATE(${timeField}, '%Y/%m/%d') >= FROM_UNIXTIME(?)`);
+        } else {
+            conditions.push(`${timeField} >= FROM_UNIXTIME(?)`);
+        }
         params.push(Number(since));
     }
+
     if (timeField && before) {
-        conditions.push(`${timeField} <= ?`);
+        if (timeField === 'spot_date') {
+            conditions.push(`STR_TO_DATE(${timeField}, '%Y/%m/%d') <= FROM_UNIXTIME(?)`);
+        } else {
+            conditions.push(`${timeField} <= FROM_UNIXTIME(?)`);
+        }
         params.push(Number(before));
     }
 
