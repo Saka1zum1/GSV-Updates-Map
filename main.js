@@ -6140,25 +6140,25 @@ function drawMarkers(data) {
         <strong>update type:</strong> ${typesList.map(type =>
           `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
         ).join(' ')}<br>
-        <strong>pano date:</strong> ${formatted_date}<br>
-        <strong>region:</strong> ${region}<br>
-        <strong>report time:</strong> ${localTime}<br>
-        <strong>report by:</strong> ${author}<br>
+        <strong>pano date: </strong>${formatted_date||''}<br>
+        <strong>region: </strong>${region||''}<br>
+        <strong>report time: </strong>${localTime||''}<br>
+        <strong>report by: </strong>${author||''}<br>
         <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-        <strong>spot type:</strong> ${spot_type}<br>
-        <strong>spot date:</strong> ${spot_date}<br>
-        <strong>region:</strong> ${region}<br>
-        <strong>archived time:</strong> ${localTime}<br>
-        <strong>archived by:</strong> ${author}<br>
+        <strong>spot type: </strong>${spot_type||''}<br>
+        <strong>spot date: </strong>${spot_date||''}br>
+        <strong>region: </strong>${region||''}<br>
+        <strong>archived time: </strong>${localTime||''}<br>
+        <strong>archived by: </strong>${author||''}<br>
         <img src="${img_url}" style="max-width: 100%; height: auto;">
       `;
       } else {
         popupContent = `
-        <strong>pano date:</strong> ${date}<br>
-        <strong>elevation:</strong> ${altitude}m<br>
+        <strong>pano date: </strong>${date||''}<br>
+        <strong>elevation: </strong>${altitude}m<br>
         <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       }
 
@@ -6430,6 +6430,8 @@ async function applyFilters() {
   } else if (isSpot) {
     spots_data = await loadTableData({
       table: 'spots',
+      since,
+      before,
       key: filter_check.country ? 'country' : undefined,
       value: filter_check.country || undefined
     });
