@@ -32,7 +32,7 @@ exports.handler = async function (event, context) {
 
     // 时间字段适配
     let timeField = 'report_time';
-    if (table === 'SPOT') timeField = 'spot_date';
+    if (table === 'spots') timeField = 'spot_date';
     if (table === 'altitude_data') timeField = null;
 
     // 时间范围
@@ -40,7 +40,8 @@ exports.handler = async function (event, context) {
         if (timeField === 'spot_date') {
             conditions.push(`STR_TO_DATE(${timeField}, '%Y/%m/%d') >= FROM_UNIXTIME(?)`);
         } else {
-            conditions.push(`${timeField} >= FROM_UNIXTIME(?)`);
+            conditions.push(`${timeField} >= ?`);
+            params.push(Number(since));
         }
         params.push(Number(since));
     }
@@ -49,7 +50,8 @@ exports.handler = async function (event, context) {
         if (timeField === 'spot_date') {
             conditions.push(`STR_TO_DATE(${timeField}, '%Y/%m/%d') <= FROM_UNIXTIME(?)`);
         } else {
-            conditions.push(`${timeField} <= FROM_UNIXTIME(?)`);
+            conditions.push(`${timeField} <= ?`);
+            params.push(Number(before));
         }
         params.push(Number(before));
     }
