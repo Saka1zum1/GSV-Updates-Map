@@ -41,7 +41,6 @@ exports.handler = async function (event, context) {
             conditions.push(`STR_TO_DATE(${timeField}, '%Y/%m/%d') >= FROM_UNIXTIME(?)`);
         } else {
             conditions.push(`${timeField} >= ?`);
-            params.push(Number(since));
         }
         params.push(Number(since));
     }
@@ -51,7 +50,6 @@ exports.handler = async function (event, context) {
             conditions.push(`STR_TO_DATE(${timeField}, '%Y/%m/%d') <= FROM_UNIXTIME(?)`);
         } else {
             conditions.push(`${timeField} <= ?`);
-            params.push(Number(before));
         }
         params.push(Number(before));
     }
