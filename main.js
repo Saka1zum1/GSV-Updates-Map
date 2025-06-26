@@ -6104,7 +6104,8 @@ function drawMarkers(data) {
   markers = [];
 
   data.forEach(item => {
-    const { lat, lng, author, types, report_time, date, year, month, panoId, source_link, sv_link, id, spot_type, spot_date, region, altitude } = item;
+    const { lat, lng, author, types, report_time, date, year, month, panoId, source_link, sv_link, id,
+            spot_type, spot_date, region, altitude, pinpoint } = item;
     let typesList = [];
     if (typeof types === 'string') {
       try {
@@ -6140,24 +6141,25 @@ function drawMarkers(data) {
         <strong>update type:</strong> ${typesList.map(type =>
           `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
         ).join(' ')}<br>
-        <strong>pano date: </strong>${formatted_date||''}<br>
-        <strong>region: </strong>${region||''}<br>
-        <strong>report time: </strong>${localTime||''}<br>
-        <strong>report by: </strong>${author||''}<br>
+        <strong>pano date: </strong>${formatted_date || ''}<br>
+        <strong>region: </strong>${region || ''}<br>
+        <strong>report time: </strong>${localTime || ''}<br>
+        <strong>report by: </strong>${author || ''}<br>
         <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-        <strong>spot type: </strong>${spot_type||''}<br>
-        <strong>spot date: </strong>${spot_date||''}<br>
-        <strong>region: </strong>${region||''}<br>
-        <strong>archived time: </strong>${localTime||''}<br>
-        <strong>archived by: </strong>${author||''}<br>
+        <strong>spot type: </strong>${spot_type || ''}<br>
+        <strong>spot date: </strong>${spot_date || ''}<br>
+        <strong>region: </strong>${region || ''}<br>
+        <strong>archived time: </strong>${localTime || ''}<br>
+        <strong>archived by: </strong>${author || ''}<br>
+        <strong>pinpointed by: </strong>${pinpoint || ''}<br>
         <img src="${img_url}" style="max-width: 100%; height: auto;">
       `;
       } else {
         popupContent = `
-        <strong>pano date: </strong>${date||''}<br>
+        <strong>pano date: </strong>${date || ''}<br>
         <strong>elevation: </strong>${altitude}m<br>
         <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       }
@@ -6175,7 +6177,7 @@ function drawMarkers(data) {
 
     marker.on('click', function () {
       let link = sv_link || `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`
-      
+
       if (source_link) {
         link = source_link; // If links exist, open the first one
       }
@@ -6379,7 +6381,7 @@ function monthInRange(pano_date, monthRange) {
 
   const startIndex = months.indexOf(startMonth);
   const endIndex = months.indexOf(endMonth);
-  const panoIndex = (pano_date.month)-1;
+  const panoIndex = (pano_date.month) - 1;
   const panoYear = pano_date.year;
 
   if (startYear === endYear) {
@@ -6392,9 +6394,9 @@ function monthInRange(pano_date, monthRange) {
 }
 
 function getTimestamp(dateString) {
-  if(!dateString){
-  const now = new Date();
-  return Math.floor(now.getTime() / 1000);
+  if (!dateString) {
+    const now = new Date();
+    return Math.floor(now.getTime() / 1000);
   }
   const date = new Date(dateString);
   return Math.floor(date.getTime() / 1000);
@@ -6410,7 +6412,7 @@ function getMonthTimestamp() {
 async function loadTableData({ table, since, before, key, value }) {
   let url = `/.netlify/functions/getData?table=${table}`;
   if (since) url += `&since=${since}`;
-  else since=url += `&since=${getMonthTimestamp()}`
+  else since = url += `&since=${getMonthTimestamp()}`
   if (before) url += `&before=${before}`;
   if (key && value) url += `&key=${encodeURIComponent(key)}&value=${encodeURIComponent(value)}`;
   const response = await fetch(url);
@@ -6448,7 +6450,7 @@ async function applyFilters() {
   }
 
   filterdata = dataToFilter.filter(item => {
-    const matchesType = isPeak || filter_check.type.length === 0 ||intersect(filter_check.type, item.types ? JSON.parse(item.types) : []);;
+    const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, item.types ? JSON.parse(item.types) : []);;
 
     const inMonthRange = isSpot || filter_check.pano_date.length === 0 || monthInRange(item, filter_check.pano_date);
 
@@ -6758,7 +6760,7 @@ toggle_spot.addEventListener('click', function () {
 
 const copy_button = document.querySelector('.control.copy')
 copy_button.addEventListener('click', function () {
-  const months=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const formattedData = filterdata.map(item => ({
     lat: item.lat,
     lng: item.lng,
@@ -6769,7 +6771,7 @@ copy_button.addEventListener('click', function () {
     extra: {
       tags: [
         item.country || null,
-        `${months[(item.month)-1]} ${item.year}` || null,
+        `${months[(item.month) - 1]} ${item.year}` || null,
         ...(JSON.parse(item.types) || [])
       ].filter(Boolean)
     }
