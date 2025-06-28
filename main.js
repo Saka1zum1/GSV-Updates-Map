@@ -6772,6 +6772,7 @@ copy_button.addEventListener('click', function () {
     extra: {
       tags: [
         item.country || null,
+        item.author || null,
         `${months[(item.month) - 1]} ${item.year}` || null,
         ...(JSON.parse(item.types) || [])
       ].filter(Boolean)
