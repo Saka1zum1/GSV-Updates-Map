@@ -6106,7 +6106,8 @@ function drawMarkers(data) {
 
   data.forEach(item => {
     const { lat, lng, author, types, report_time, date, year, month, panoId, source_link, sv_link, id,
-            spot_type, spot_date, region, altitude, pinpoint } = item;
+            spot_type, spot_date, region, altitude, pinpoint, location } = item;
+    if (!location && !lat) return 
     let typesList = [];
     if (typeof types === 'string') {
       try {
@@ -6134,7 +6135,7 @@ function drawMarkers(data) {
     }
 
     let popupContent = '';
-    const marker = L.marker([lat, lng]);
+    const marker = L.marker([lat||location.y, lng||location.x]);
     marker.on('mouseover', async function () {
       var img_url = `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`
       if (typesList.length > 0) {

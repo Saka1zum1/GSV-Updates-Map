@@ -3,7 +3,7 @@ const mysql = require("mysql2/promise");
 const TABLE_FIELDS = {
     region_updates: ['country', 'region', 'month', 'year', 'panoId', 'report_time'],
     spots: ['messgae_id', 'author', 'country', 'region', 'panoId', 'report_time', 'spot_date', 'sv_link', 'source_link', 'lat', 'lng', 'spot_type'],
-    update_reports: ['messgae_id', 'author', 'country', 'region', 'month', 'year', 'panoId', 'report_time', 'lat', 'lng', 'types'],
+    update_reports: ['messgae_id', 'author', 'country', 'region', 'month', 'year', 'panoId', 'report_time', 'types'],
     altitude_data: ['id', 'panoId', 'lat', 'lng', 'date', 'country', 'altitude']
 };
 
@@ -72,7 +72,7 @@ exports.handler = async function (event, context) {
         }
     }
 
-    conditions.push("lat IS NOT NULL");
+    conditions.push("(lat IS NOT NULL OR location IS NOT NULL)");
 
     if (conditions.length > 0) {
         sql += " WHERE " + conditions.join(" AND ");
