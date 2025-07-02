@@ -6362,7 +6362,7 @@ function drawHeatmap(data) {
   if (heatmapLayer) {
     ht.removeLayer(heatmapLayer);
   }
-  const heatData = data.map(item => [item.lat, item.lng, 100]);
+  const heatData = data.map(item => [item.location.y, item.location.x, 100]);
   heatmapLayer = L.heatLayer(heatData, {
     radius: 10,
     blur: 5,
@@ -6461,7 +6461,7 @@ async function applyFilters() {
     const matchesRegion = !filter_check.region || filter_check.region === item.region;
 
     const pointInPolygon = filter_check.poly.length === 0 || filter_check.poly.some(polygon => polygon.getLatLngs().some(latlngs => {
-      const point = L.latLng(item.lat, item.lng);
+      const point = L.latLng(item.location.y, item.location.x);
       const poly = L.polygon(latlngs);
       return poly.contains(point);
     }));
@@ -6764,8 +6764,8 @@ const copy_button = document.querySelector('.control.copy')
 copy_button.addEventListener('click', function () {
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const formattedData = filterdata.map(item => ({
-    lat: item.lat,
-    lng: item.lng,
+    lat: item.location.y,
+    lng: item.location.x,
     heading: 0,
     pitch: 0,
     zoom: 0,
