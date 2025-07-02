@@ -6123,7 +6123,7 @@ function drawMarkers(data) {
     }
 
     if (report_time) {
-      var localTime = new Date(report_time * 1000).toLocaleString();
+      var localTime = new Date(Number(report_time) * 1000).toLocaleString();
     }
 
     if (year && month) {
