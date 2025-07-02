@@ -8,6 +8,7 @@ exports.handler = async function (event, context) {
         database: "default",
         port: process.env.MYSQL_PORT ? Number(process.env.MYSQL_PORT) : 3306,
         charset: "utf8mb4"
+        bigNumberStrings: true
     };
 
     const { country, region, year, month } = event.queryStringParameters || {};
