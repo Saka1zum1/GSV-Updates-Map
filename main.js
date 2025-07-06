@@ -6106,8 +6106,8 @@ function drawMarkers(data) {
 
   data.forEach(item => {
     const { author, types, report_time, date, year, month, panoId, source_link, sv_link, id,
-            spot_type, spot_date, region, altitude, pinpoint, location } = item;
-    if (!location) return 
+      spot_type, spot_date, region, altitude, pinpoint, location } = item;
+    if (!location) return
     let typesList = [];
     if (typeof types === 'string') {
       try {
@@ -6140,7 +6140,7 @@ function drawMarkers(data) {
       var img_url = `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`
       if (typesList.length > 0) {
         popupContent = `
-        <strong>update type:</strong> ${typesList.map(type =>
+        <strong>update type: </strong>${typesList.map(type =>
           `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
         ).join(' ')}<br>
         <strong>pano date: </strong>${formatted_date || ''}<br>
@@ -6151,7 +6151,7 @@ function drawMarkers(data) {
       } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-        <strong>spot type: </strong>${spot_type || ''}<br>
+        <strong>spot type: </strong>${`<img src="./assets/${spot_type.toLowerCase()}.webp" style="width: 20px; height: auto;" alt="${spot_type.toLowerCase()}" />`}<br>
         <strong>spot date: </strong>${spot_date || ''}<br>
         <strong>region: </strong>${region || ''}<br>
         <strong>archived time: </strong>${localTime || ''}<br>
@@ -6207,6 +6207,22 @@ function debounce(func, delay) {
     clearTimeout(timeout);
     timeout = setTimeout(func, delay);
   };
+}
+
+function updateTypeCheckboxVisibility() {
+  const allowedTypesInSpot = ['gen1', 'gen2', 'gen3', 'gen4', 'smallcam', 'badcam', 'gen4trekker'];
+  document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
+    const type = checkbox.dataset.type.toLowerCase();
+    if (isSpot) {
+      if (allowedTypesInSpot.includes(type)) {
+        checkbox.parentElement.style.display = '';
+      } else {
+        checkbox.parentElement.style.display = 'none';
+      }
+    } else {
+      checkbox.parentElement.style.display = '';
+    }
+  });
 }
 
 function createSearchPopup() {
@@ -6372,7 +6388,8 @@ function drawHeatmap(data) {
 }
 
 function intersect(array1, array2) {
-  return array1.some(element => array2.includes(element));
+  const lowerArray2 = array2.map(e => e.toLowerCase());
+  return array1.some(element => lowerArray2.includes(element.toLowerCase()));
 }
 
 function monthInRange(pano_date, monthRange) {
@@ -6452,7 +6469,10 @@ async function applyFilters() {
   }
 
   filterdata = dataToFilter.filter(item => {
-    const matchesType = isPeak || filter_check.type.length === 0 || intersect(filter_check.type, item.types ? JSON.parse(item.types) : []);;
+    const matchesType = isPeak ||
+      filter_check.type.length === 0 ||
+      intersect(filter_check.type, item.types ? JSON.parse(item.types) : []) ||
+      intersect(filter_check.type, item.spot_type ? [item.spot_type] : []);
 
     const inMonthRange = isSpot || filter_check.pano_date.length === 0 || monthInRange(item, filter_check.pano_date);
 
@@ -6746,6 +6766,7 @@ toggle_peak.addEventListener('click', function () {
     isSpot = false
     applyFilters()
   }
+  updateTypeCheckboxVisibility()
 });
 
 const toggle_spot = document.querySelector('.control.spot')
@@ -6787,7 +6808,6 @@ copy_button.addEventListener('click', function () {
     console.error('Failed to copy to clipboard', err);
   });
 });
-
 
 const filter_type = document.querySelector('.filter.type')
 const checkboxContainer = document.getElementById('checkboxContainer-type');
