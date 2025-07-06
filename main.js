@@ -6220,7 +6220,11 @@ function updateTypeCheckboxVisibility() {
         checkbox.parentElement.style.display = 'none';
       }
     } else {
-      checkbox.parentElement.style.display = '';
+      if (allowedTypesInSpot.includes(type)) {
+        checkbox.parentElement.style.display = 'none';
+      } else {
+        checkbox.parentElement.style.display = '';
+      }
     }
   });
 }
@@ -6766,7 +6770,6 @@ toggle_peak.addEventListener('click', function () {
     isSpot = false
     applyFilters()
   }
-  updateTypeCheckboxVisibility()
 });
 
 const toggle_spot = document.querySelector('.control.spot')
@@ -6779,6 +6782,7 @@ toggle_spot.addEventListener('click', function () {
     isPeak = false
     applyFilters()
   }
+  updateTypeCheckboxVisibility()
 });
 
 const copy_button = document.querySelector('.control.copy')
