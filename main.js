@@ -6155,7 +6155,7 @@ function drawMarkers(data) {
       } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-        <strong>spot type: </strong>${`<img src="./assets/${spot_type?spot_type.toLowerCase():''}.png" style="width: 20px; height: auto;" />`}<br>
+        <strong>spot type: </strong>${`<img src="./assets/${spot_type ? spot_type.toLowerCase() : ''}.webp" style="width: 20px; height: auto;" />`}<br>
         <strong>spot date: </strong>${spot_date || ''}<br>
         <strong>region: </strong>${region || ''}<br>
         <strong>archived time: </strong>${localTime || ''}<br>
@@ -6219,6 +6219,7 @@ function updateTypeCheckboxVisibility() {
   const allowedTypesInSpot = ['gen1', 'gen2', 'gen3', 'gen4', 'smallcam', 'badcam', 'gen4trekker'];
   document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
     const type = checkbox.dataset.type.toLowerCase();
+    if (type == 'smallcam') return
     if (isSpot) {
       if (allowedTypesInSpot.includes(type)) {
         checkbox.parentElement.style.display = '';
