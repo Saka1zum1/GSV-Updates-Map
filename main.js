@@ -6053,6 +6053,7 @@ const specialDates = {
 
 };
 
+
 function getFlagEmoji(countryCode) {
   return countryCode
     .toUpperCase()
@@ -6060,6 +6061,7 @@ function getFlagEmoji(countryCode) {
     .map(char => String.fromCodePoint(0x1F1E6 - 65 + char.charCodeAt(0)))
     .join('');
 }
+
 
 async function fetchCachedImage(channel_id, id) {
   const cacheKey = `${channel_id}-${id}`;
@@ -6095,9 +6097,11 @@ async function fetch_attachments(channel_id, message_id) {
   }
 }
 
+
 function isDateInRange(date, startDate, endDate) {
   return date >= startDate && date <= endDate;
 }
+
 
 function drawMarkers(data) {
   clustermarkers.clearLayers();
@@ -6151,7 +6155,7 @@ function drawMarkers(data) {
       } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-        <strong>spot type: </strong>${`<img src="./assets/${spot_type.toLowerCase()}.webp" style="width: 20px; height: auto;" alt="${spot_type.toLowerCase()}" />`}<br>
+        <strong>spot type: </strong>${`<img src="./assets/${spot_type?spot_type.toLowerCase():''}.webp" style="width: 20px; height: auto;" />`}<br>
         <strong>spot date: </strong>${spot_date || ''}<br>
         <strong>region: </strong>${region || ''}<br>
         <strong>archived time: </strong>${localTime || ''}<br>
@@ -6201,6 +6205,7 @@ function drawMarkers(data) {
   }
 }
 
+
 function debounce(func, delay) {
   let timeout;
   return function () {
@@ -6208,6 +6213,7 @@ function debounce(func, delay) {
     timeout = setTimeout(func, delay);
   };
 }
+
 
 function updateTypeCheckboxVisibility() {
   const allowedTypesInSpot = ['gen1', 'gen2', 'gen3', 'gen4', 'smallcam', 'badcam', 'gen4trekker'];
@@ -6228,6 +6234,7 @@ function updateTypeCheckboxVisibility() {
     }
   });
 }
+
 
 function createSearchPopup() {
   let popup = document.getElementById('search-popup');
@@ -6378,6 +6385,7 @@ function isInPolygon(polygon) {
   return { lat: lat, lng: lng };
 }
 
+
 function drawHeatmap(data) {
   if (heatmapLayer) {
     ht.removeLayer(heatmapLayer);
@@ -6391,10 +6399,12 @@ function drawHeatmap(data) {
   }).addTo(ht);
 }
 
+
 function intersect(array1, array2) {
   const lowerArray2 = array2.map(e => e.toLowerCase());
   return array1.some(element => lowerArray2.includes(element.toLowerCase()));
 }
+
 
 function monthInRange(pano_date, monthRange) {
   const [startMonth, startYear] = monthRange[0].split(' ');
@@ -6416,6 +6426,7 @@ function monthInRange(pano_date, monthRange) {
   }
 }
 
+
 function getTimestamp(dateString) {
   if (!dateString) {
     const now = new Date();
@@ -6424,6 +6435,7 @@ function getTimestamp(dateString) {
   const date = new Date(dateString);
   return Math.floor(date.getTime() / 1000);
 }
+
 
 function getMonthTimestamp() {
   const now = new Date();
@@ -6900,3 +6912,5 @@ document.addEventListener("keydown", function (event) {
     });
   }
 });
+
+updateTypeCheckboxVisibility()
