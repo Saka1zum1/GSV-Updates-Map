@@ -6155,7 +6155,7 @@ function drawMarkers(data) {
       } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-        <strong>spot type: </strong>${`<img src="./assets/${spot_type?spot_type.toLowerCase():''}.webp" style="width: 20px; height: auto;" />`}<br>
+        <strong>spot type: </strong>${`<img src="./assets/${spot_type?spot_type.toLowerCase():''}.png" style="width: 20px; height: auto;" />`}<br>
         <strong>spot date: </strong>${spot_date || ''}<br>
         <strong>region: </strong>${region || ''}<br>
         <strong>archived time: </strong>${localTime || ''}<br>
