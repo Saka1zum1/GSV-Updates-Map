@@ -6813,7 +6813,13 @@ copy_button.addEventListener('click', function () {
         item.country || null,
         item.author || null,
         `${months[(item.month) - 1]} ${item.year}` || null,
-        ...(JSON.parse(item.types) || [])
+        ...(() => {
+          try {
+            return JSON.parse(item.types || item.camera);
+          } catch {
+            return [];
+          }
+        })()
       ].filter(Boolean)
     }
   }));
