@@ -6110,7 +6110,7 @@ function drawMarkers(data) {
 
   data.forEach(item => {
     const { author, types, report_time, date, year, month, panoId, source_link, sv_link, id,
-      spot_type, spot_date, region, altitude, pinpoint, location } = item;
+      camera, spot_date, region, altitude, pinpoint, location } = item;
     if (!location) return
     let typesList = [];
     if (typeof types === 'string') {
@@ -6155,7 +6155,7 @@ function drawMarkers(data) {
       } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-        <strong>spot type: </strong>${`<img src="./assets/${spot_type ? spot_type.toLowerCase() : ''}.webp" style="width: 20px; height: auto;" />`}<br>
+        <strong>spot type: </strong>${`<img src="./assets/${camera ? camera.toLowerCase() : ''}.webp" style="width: 20px; height: auto;" />`}<br>
         <strong>spot date: </strong>${spot_date || ''}<br>
         <strong>region: </strong>${region || ''}<br>
         <strong>archived time: </strong>${localTime || ''}<br>
@@ -6489,7 +6489,7 @@ async function applyFilters() {
     const matchesType = isPeak ||
       filter_check.type.length === 0 ||
       intersect(filter_check.type, item.types ? JSON.parse(item.types) : []) ||
-      intersect(filter_check.type, item.spot_type ? [item.spot_type] : []);
+      intersect(filter_check.type, item.camera ? [item.camera] : []);
 
     const inMonthRange = isSpot || filter_check.pano_date.length === 0 || monthInRange(item, filter_check.pano_date);
 
