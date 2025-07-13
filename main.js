@@ -6144,10 +6144,10 @@ function drawMarkers(data) {
       var img_url = `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`
       if (typesList.length > 0) {
         popupContent = `
-        <strong>update type: </strong>${typesList.map(type =>
+        <strong>update types: </strong>${typesList.map(type =>
           `<img src="./assets/${type}.webp" style="width: 20px; height: auto;" alt="${type}" />`
         ).join(' ')}<br>
-        <strong>pano date: </strong>${formatted_date || ''}<br>
+        <strong>coverage date: </strong>${formatted_date || ''}<br>
         <strong>region: </strong>${region || ''}<br>
         <strong>report time: </strong>${localTime || ''}<br>
         <strong>report by: </strong>${author || ''}<br>
@@ -6155,8 +6155,8 @@ function drawMarkers(data) {
       } else if (source_link || sv_link) {
         img_url = `https://cdn.whereisthegooglecar.com/images/${id}.webp`
         popupContent = `
-        <strong>spot type: </strong>${`<img src="./assets/${camera ? camera.toLowerCase() : ''}.webp" style="width: 20px; height: auto;" />`}<br>
-        <strong>spot date: </strong>${spot_date || ''}<br>
+        <strong>camera: </strong>${`<img src="./assets/${camera ? camera.toLowerCase() : ''}.webp" style="width: 20px; height: auto;" />`}<br>
+        <strong>spotting date: </strong>${spot_date || ''}<br>
         <strong>region: </strong>${region || ''}<br>
         <strong>archived time: </strong>${localTime || ''}<br>
         <strong>archived by: </strong>${author || ''}<br>
@@ -6165,7 +6165,7 @@ function drawMarkers(data) {
       `;
       } else {
         popupContent = `
-        <strong>pano date: </strong>${date || ''}<br>
+        <strong>coverage date: </strong>${date || ''}<br>
         <strong>elevation: </strong>${altitude}m<br>
         <img src="${img_url}" style="max-width: 100%; height: auto;">`;
       }
