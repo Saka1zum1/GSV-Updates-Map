@@ -14,18 +14,27 @@ exports.handler = async function (event, context) {
     if (!lat || !lng || !radius) {
         return {
             statusCode: 400,
-            body: JSON.stringify({ error: "Missing lat, lng or radius parameter" }),
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ data: null, error: true }),
         };
     }
 
     let sql = `
-        SELECT *
+        SELECT
+            panoId,
+            message_id,
+            channel_id,
+            ST_X(location) AS lng,
+            ST_Y(location) AS lat,
+            ST_Distance_Sphere(location, POINT(?, ?)) AS distance
         FROM \`${table}\`
         WHERE ST_Distance_Sphere(location, POINT(?, ?)) <= ?
     `;
-    const params = [parseFloat(lng), parseFloat(lat), parseFloat(radius)];
+    const params = [
+        parseFloat(lng), parseFloat(lat), // for distance
+        parseFloat(lng), parseFloat(lat), parseFloat(radius) // for where
+    ];
 
-    // 增加 year 和 month 条件
     if (year) {
         sql += " AND year = ?";
         params.push(Number(year));
@@ -35,21 +44,42 @@ exports.handler = async function (event, context) {
         params.push(Number(month));
     }
 
-    sql += " LIMIT 100";
+    sql += " ORDER BY ST_Distance_Sphere(location, POINT(?, ?)) ASC LIMIT 1";
+    params.push(parseFloat(lng), parseFloat(lat)); // for ORDER BY
 
     try {
         const connection = await mysql.createConnection(connectionConfig);
         const [rows] = await connection.execute(sql, params);
         await connection.end();
-        return {
-            statusCode: 200,
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(rows),
-        };
+
+        if (rows.length) {
+            const { panoId, message_id, channel_id, lat, lng, distance } = rows[0];
+            return {
+                statusCode: 200,
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    data: { panoId, message_id, channel_id, lat, lng, distance },
+                    error: false
+                }),
+            };
+        } else {
+            return {
+                statusCode: 200,
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    data: null,
+                    error: false
+                }),
+            };
+        }
     } catch (err) {
         return {
             statusCode: 500,
-            body: JSON.stringify({ error: "Error fetching data: " + err.message }),
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                data: null,
+                error: true
+            }),
         };
     }
 }
