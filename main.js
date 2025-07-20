@@ -6011,7 +6011,7 @@ let update_data, altitude_data, spots_data, filterdata, countries
 let datepicker
 let currentView = 'days'
 let filter_check = {
-  report_date: [getMonthTimestamp(), getTimestamp()],
+  report_date: [null, getTimestamp()],
   type: [],
   pano_date: [],
   poly: [],
