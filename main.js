@@ -6448,7 +6448,7 @@ function getMonthTimestamp() {
 async function loadTableData({ table, since, before, key, value }) {
   let url = `/.netlify/functions/getData?table=${table}`;
   if (since) url += `&since=${since}`;
-  else since = url += `&since=${getMonthTimestamp()}`
+  if (!since && !key) since= url += `&since=${getMonthTimestamp()}`
   if (before) url += `&before=${before}`;
   if (key && value) url += `&key=${encodeURIComponent(key)}&value=${encodeURIComponent(value)}`;
   const response = await fetch(url);
