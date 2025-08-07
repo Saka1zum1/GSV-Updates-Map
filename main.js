@@ -6027,6 +6027,7 @@ const cluster_on = './assets/markers.svg'
 const cluster_off = './assets/marker.svg'
 const clustermarkers = new L.MarkerClusterGroup()
 const specialDates = {
+  '2025-08-06T22:42:00Z': 'badcam',
   '2025-06-28T11:21:00Z': 'vn',
   '2025-06-03T01:14:00Z': 'na',
   '2025-03-31T19:36:00Z': 'smallcam',
@@ -6620,7 +6621,7 @@ function initDatePicker(view = 'days', minView = 'days') {
           const flagEmoji = getFlagEmoji(matchingDates[randomIndex].countryCode);
           if (matchingDates[randomIndex].countryCode.length != 2) {
             return {
-              html: `<div class="custom-cell"><img class="emoji" style="width:24px; height:${matchingDates[randomIndex].countryCode == 'smallcam' ? "20px" : "14px"}" src="./assets/${matchingDates[randomIndex].countryCode}.png"></div>`,
+              html: `<div class="custom-cell"><img class="emoji" style="width:24px; height:${['smallcam', 'badcam'].includes(matchingDates[randomIndex].countryCode) ? "20px" : "14px"}" src="./assets/${matchingDates[randomIndex].countryCode}.png"></div>`,
               classes: 'custom-cell'
             };
           }
