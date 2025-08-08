@@ -6054,6 +6054,22 @@ const specialDates = {
 
 };
 
+const icons = {
+  gen1: L.icon({ iconUrl: './assets/markers/marker-green.png', iconAnchor: [12, 41] }),
+  gen2or3: L.icon({ iconUrl: './assets/markers/marker-violet.png', iconAnchor: [12, 41] }),
+  gen4: L.icon({ iconUrl: './assets/markers/marker-blue.png', iconAnchor: [12, 41] }),
+  newroad: L.icon({ iconUrl: './assets/markers/marker-red.png', iconAnchor: [12, 41] }),
+  noblueline: L.icon({ iconUrl: './assets/markers/marker-pink.png', iconAnchor: [12, 41] }),
+}
+
+
+function getIcon(types) {
+  if (types.some(t => t.includes('gen1'))) return icons.gen1
+  if (types.some(t => t.includes('gen2') || t.includes('gen3'))) return icons.gen2or3
+  if (types.some(t => t.includes('newroad'))) return icons.newroad
+  if (types.some(t => t.includes('noblueline'))) return icons.noblueline
+  return icons.gen4
+}
 
 function getFlagEmoji(countryCode) {
   return countryCode
@@ -6140,7 +6156,8 @@ function drawMarkers(data) {
     }
 
     let popupContent = '';
-    const marker = L.marker([location.y, location.x]);
+    const update_type_icon = getIcon(typesList)
+    const marker = L.marker([location.y, location.x], { icon: update_type_icon });
     marker.on('mouseover', async function () {
       var img_url = `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`
       if (typesList.length > 0) {
@@ -6173,6 +6190,8 @@ function drawMarkers(data) {
 
       this.bindPopup(popupContent, {
         autoPan: true,
+        direction: 'top',
+        offset: [0, -41],
       }).openPopup();
     });
 
