@@ -6241,7 +6241,7 @@ function updateTypeCheckboxVisibility() {
   const allowedTypesInSpot = ['gen1', 'gen2', 'gen3', 'gen4', 'smallcam', 'badcam', 'gen4trekker'];
   document.querySelectorAll('.checkbox-item input[type="checkbox"]').forEach(checkbox => {
     const type = checkbox.dataset.type.toLowerCase();
-    if (type == 'smallcam') return
+    if (type == 'smallcam'||type =='badcam') return
     if (isSpot) {
       if (allowedTypesInSpot.includes(type)) {
         checkbox.parentElement.style.display = '';
