@@ -6205,7 +6205,7 @@ function drawMarkers(data) {
 
     marker.on('click', function () {
       let link = sv_link || `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`
-
+      if(isPeak) link = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${location.y},${location.x}` 
       if (source_link) {
         link = source_link; // If links exist, open the first one
       }
