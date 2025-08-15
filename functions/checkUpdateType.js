@@ -10,28 +10,28 @@ exports.handler = async function (event, context) {
         charset: "utf8mb4"
     };
 
-    const { country, region, year, month, channel_id } = event.queryStringParameters || {};
+    const { country, region, year, month } = event.queryStringParameters || {};
     if (!country || !year || !month) {
         return {
             statusCode: 400,
             body: JSON.stringify({ error: "Missing required parameters: country, year, month" }),
         };
     }
-    if (!channel_id) channel_id = '747031995770470460'
+
     try {
         const connection = await mysql.createConnection(connectionConfig);
 
         const [rows] = await connection.execute(`
-    SELECT
-        MAX(CASE WHEN country = ? AND region = ? AND year = ? AND month = ? AND channel_id = ? THEN 1 ELSE 0 END) AS has_region,
-        MAX(CASE WHEN country = ? AND year = ? AND month = ? AND channel_id = ? THEN 1 ELSE 0 END) AS has_country,
-        MAX(CASE WHEN region = ? AND year = ? AND channel_id = ? THEN 1 ELSE 0 END) AS has_year
-    FROM update_reports`,
-            [
-                country, region, year, month, channel_id,
-                country, year, month, channel_id,
-                region, year, channel_id
-            ]);
+            SELECT
+                MAX(CASE WHEN country = ? AND region = ? AND year = ? AND month = ? THEN 1 ELSE 0 END) AS has_region,
+                MAX(CASE WHEN country = ? AND year = ? AND month = ? THEN 1 ELSE 0 END) AS has_country,
+                MAX(CASE WHEN region = ? AND year = ? THEN 1 ELSE 0 END) AS has_year
+            FROM update_reports
+        `, [
+            country, region, year, month,
+            country, year, month,
+            region, year
+        ]);
 
         await connection.end();
 
