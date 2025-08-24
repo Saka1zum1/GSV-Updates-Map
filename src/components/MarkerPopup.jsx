@@ -1,8 +1,9 @@
 import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock } from 'lucide-react';
 
 const MarkerPopup = ({ item }) => {
-    const { author, types, report_time, year, month, panoId, region, altitude, camera, spot_date } = item;
+    const { id, author, types, report_time, year, month, panoId, region, altitude, camera, spot_date} = item;
 
+    // Handle types for both update_reports and spots data
     let typesList = [];
     if (typeof types === 'string') {
         try {
@@ -19,7 +20,11 @@ const MarkerPopup = ({ item }) => {
 
     const localTime = report_time ? new Date(Number(report_time) * 1000).toLocaleString() : '';
     const panoDate = year && month ? new Date(year, month - 1).toLocaleString('en-US', { month: 'short', year: 'numeric' }) : '';
-    const imgUrl = `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`;
+    
+    // Use different image sources based on data type
+    const imgUrl = spot_date ? 
+        `https://cdn.whereisthegooglecar.com/images/${id}.webp` :
+        `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`;
 
     return (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden w-60">
@@ -49,9 +54,19 @@ const MarkerPopup = ({ item }) => {
                             {typesList.map((type, index) => (
                                 <div key={index} className="flex items-center rounded-full py-1">
                                     <img
-                                        src={`/assets/${type}.webp`}
+                                        src={`/assets/${type.toLowerCase()}.webp`}
                                         alt={type}
                                         className="w-4 h-4"
+                                        onError={(e) => {
+                                            // Prevent infinite loop - only try once with original case
+                                            if (!e.target.hasAttribute('data-fallback-tried')) {
+                                                e.target.setAttribute('data-fallback-tried', 'true');
+                                                e.target.src = `/assets/${type}.webp`;
+                                            } else {
+                                                // If both attempts fail, hide the image
+                                                e.target.style.display = 'none';
+                                            }
+                                        }}
                                     />
                                 </div>
                             ))}
@@ -68,21 +83,23 @@ const MarkerPopup = ({ item }) => {
                                 src={`/assets/${camera.toLowerCase()}.webp`}
                                 alt={camera}
                                 className="w-5 h-5"
+                                onError={(e) => {
+                                    e.target.style.display = 'none';
+                                }}
                             />
-                            <span className="text-sm text-gray-600 dark:text-gray-300 capitalize">{camera}</span>
                         </div>
                     </div>
                 )}
 
-                {/* Coverage Date */}
-                {panoDate && (
+                {/* Coverage Date (only for non-spot data) */}
+                {panoDate && !spot_date && (
                     <div className="flex items-center space-x-3">
                         <Calendar className="w-4 h-4 text-gray-500" />
                         <span className="text-sm text-gray-600 dark:text-gray-300">{panoDate}</span>
                     </div>
                 )}
 
-                {/* Spotting Date */}
+                {/* Spotting Date (only for spot data) */}
                 {spot_date && (
                     <div className="flex items-center space-x-3">
                         <Calendar className="w-4 h-4 text-gray-500" />

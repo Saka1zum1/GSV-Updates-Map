@@ -1,5 +1,7 @@
 import { getMonthTimestamp } from './constants.js';
 
+// Cache for ongoing requests to prevent duplicates
+const ongoingRequests = new Map();
 
 // Load table data from API
 export const loadTableData = async ({ table, since, before, key, value }) => {
@@ -27,19 +29,33 @@ export const loadTableData = async ({ table, since, before, key, value }) => {
     
     const url = `/.netlify/functions/getData?${params.toString()}`;
     
-    const response = await fetch(url);
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    // Check if we already have an ongoing request for this URL
+    if (ongoingRequests.has(url)) {
+      console.log('Reusing ongoing request for:', url);
+      return await ongoingRequests.get(url);
     }
     
-    const data = await response.json();
+    // Create new request and cache it
+    const requestPromise = fetch(url).then(async (response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      
+      if (data.error) {
+        throw new Error(data.error);
+      }
+      
+      return data;
+    }).finally(() => {
+      // Remove from cache when request completes
+      ongoingRequests.delete(url);
+    });
     
-    if (data.error) {
-      throw new Error(data.error);
-    }
+    ongoingRequests.set(url, requestPromise);
     
-    return data;
+    return await requestPromise;
     
   } catch (error) {
     console.error(`Error loading ${table} data:`, error);

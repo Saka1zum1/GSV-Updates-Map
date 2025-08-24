@@ -95,6 +95,13 @@ export const getMonthTimestamp = () => {
     return Math.floor(firstDay.getTime() / 1000);
 };
 
+// Get timestamp for one month ago from today
+export const getOneMonthAgoTimestamp = () => {
+    const now = new Date();
+    const oneMonthAgo = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
+    return Math.floor(oneMonthAgo.getTime() / 1000);
+};
+
 // Check if date is in range
 export const isDateInRange = (date, startDate, endDate) => {
     return date >= startDate && date <= endDate;

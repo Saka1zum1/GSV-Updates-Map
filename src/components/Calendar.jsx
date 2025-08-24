@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import AirDatepicker from 'air-datepicker';
 import 'air-datepicker/air-datepicker.css';
 import '../styles/calendar-dark-mode.css';
@@ -7,12 +7,21 @@ import { specialDates, isDateInRange, getFlagEmoji } from '../utils/constants.js
 const CalendarWidget = ({
     isRangeMode,
     currentView,
+    selectedDates = [],
     onDateSelect,
     onToggleMode,
     onToggleView
 }) => {
     const calendarRef = useRef(null);
     const datepickerRef = useRef(null);
+    const [internalSelectedDates, setInternalSelectedDates] = useState(selectedDates);
+
+    // Sync external selectedDates with internal state
+    useEffect(() => {
+        if (JSON.stringify(selectedDates) !== JSON.stringify(internalSelectedDates)) {
+            setInternalSelectedDates(selectedDates);
+        }
+    }, [selectedDates]);
 
     useEffect(() => {
         if (!calendarRef.current) return;
@@ -27,8 +36,28 @@ const CalendarWidget = ({
             view: currentView,
             minView: currentView,
             range: isRangeMode,
-            onSelect({ date }) {
-                onDateSelect(date);
+            selectedDates: selectedDates,
+            multipleDates: false, // Prevent multiple date selection when not in range mode
+            onSelect({ date, formattedDate, datepicker }) {
+                // Prevent infinite loops by checking if dates actually changed
+                const currentSelectedDates = datepicker.selectedDates || [];
+                
+                if (JSON.stringify(currentSelectedDates) !== JSON.stringify(internalSelectedDates)) {
+                    // Update internal state
+                    setInternalSelectedDates(currentSelectedDates);
+                    
+                    // In range mode, only update when we have a complete range or starting new selection
+                    if (isRangeMode) {
+                        if (currentSelectedDates.length === 1 || currentSelectedDates.length === 2) {
+                            onDateSelect(currentSelectedDates);
+                        }
+                    } else {
+                        // Single date mode - always update
+                        if (currentSelectedDates.length > 0) {
+                            onDateSelect(currentSelectedDates);
+                        }
+                    }
+                }
             },
             onRenderCell({ date, cellType }) {
                 if (cellType === 'day') {
@@ -36,6 +65,11 @@ const CalendarWidget = ({
                     startOfDay.setHours(0, 0, 0, 0);
                     const endOfDay = new Date(date);
                     endOfDay.setHours(23, 59, 59, 999);
+
+                    // Check if this is today
+                    const today = new Date();
+                    today.setHours(0, 0, 0, 0);
+                    const isToday = startOfDay.getTime() === today.getTime();
 
                     const matchingDates = [];
 
@@ -51,21 +85,32 @@ const CalendarWidget = ({
                         const { countryCode } = matchingDates[randomIndex];
 
                         const cellStyle = 'display:flex;align-items:center;justify-content:center;width:24px;height:18px;';
+                        const todayStyle = isToday ? 'background-color:#fef3c7;border-radius:4px;' : '';
+                        
                         if (countryCode.length !== 2) {
                             return {
-                                html: `<div class="custom-cell" style="${cellStyle}"><img style="width:24px;height:18px;object-fit:contain;" src="/assets/${countryCode}.png" alt="${countryCode}"></div>`,
-                                classes: 'custom-cell'
+                                html: `<div class="custom-cell" style="${cellStyle}${todayStyle}"><img style="width:24px;height:18px;object-fit:contain;" src="/assets/${countryCode}.png" alt="${countryCode}"></div>`,
+                                classes: isToday ? 'custom-cell today-cell' : 'custom-cell'
                             };
                         } else {
                             const flagEmoji = getFlagEmoji(countryCode);
                             return {
-                                html: `<div class="custom-cell" style="${cellStyle}"><span class="font-flags text-lg" style="font-size:18px;line-height:18px;">${flagEmoji}</span></div>`
+                                html: `<div class="custom-cell" style="${cellStyle}${todayStyle}"><span class="font-flags text-lg" style="font-size:18px;line-height:18px;">${flagEmoji}</span></div>`,
+                                classes: isToday ? 'custom-cell today-cell' : 'custom-cell'
                             };
                         }
+                    } else if (isToday) {
+                        // Today cell without special date
+                        return {
+                            classes: 'today-cell',
+                            attrs: {
+                                style: 'background-color:#fef3c7;border-radius:4px;'
+                            }
+                        };
                     }
                 }
             },
-            autoClose: false,
+            autoClose: isRangeMode ? false : true, // Auto close for single date mode
             locale: {
                 days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
@@ -85,7 +130,7 @@ const CalendarWidget = ({
                 datepickerRef.current.destroy();
             }
         };
-    }, [isRangeMode, currentView, onDateSelect]);
+    }, [isRangeMode, currentView, onDateSelect, specialDates]);
 
     const getViewButtonText = () => {
         switch (currentView) {

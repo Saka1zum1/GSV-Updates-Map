@@ -85,3 +85,23 @@
 .dark .air-datepicker-body--cells {
     background: #1f2937 !important;
 }
+
+/* Today cell styling */
+.air-datepicker-cell.today-cell {
+    background-color: #ead582 !important;
+    color:#1f2937 !important;
+    border-radius: 4px !important;
+}
+
+.dark .air-datepicker-cell.today-cell {
+    background-color: #d97706 !important;
+    border-radius: 4px !important;
+}
+
+.air-datepicker-cell.today-cell:hover {
+    background-color: #fde68a !important;
+}
+
+.dark .air-datepicker-cell.today-cell:hover {
+    background-color: #b45309 !important;
+}

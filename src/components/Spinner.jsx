@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Spinner = ({ 
-    size = 'medium', 
-    color = 'blue', 
+const Spinner = ({
+    size = 'medium',
+    color = 'blue',
     className = '',
     showText = false,
     text = 'Loading...'
@@ -23,7 +23,7 @@ const Spinner = ({
 
     return (
         <div className={`flex flex-col items-center justify-center ${className}`}>
-            <div 
+            <div
                 className={`
                     ${sizeClasses[size]} 
                     ${colorClasses[color]} 
@@ -41,29 +41,31 @@ const Spinner = ({
 };
 
 // 全屏加载组件
-export const FullScreenSpinner = ({ 
-    title = 'Loading...', 
+export const FullScreenSpinner = ({
+    title = 'Loading...',
     subtitle = null,
     color = 'blue'
 }) => {
     return (
-        <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
-            <Spinner size="large" color={color} />
-            <div className="text-xl text-gray-600 dark:text-gray-300 animate-pulse mt-4">
-                {title}
-            </div>
-            {subtitle && (
-                <div className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                    {subtitle}
+        <div className="fixed w-screen h-screen flex flex-col items-center justify-center bg-white/50 dark:bg-gray-900/70 backdrop-blur-sm z-40">
+            <div className="bg-white dark:bg-gray-800 rounded-xl px-8 py-6 shadow-lg border border-gray-200 dark:border-gray-700 flex flex-col items-center">
+                <Spinner size="large" color={color} />
+                <div className="text-xl text-gray-600 dark:text-gray-300 animate-pulse mt-4">
+                    {title}
                 </div>
-            )}
+                {subtitle && (
+                    <div className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+                        {subtitle}
+                    </div>
+                )}
+            </div>
         </div>
     );
 };
 
 // 内联加载组件
-export const InlineSpinner = ({ 
-    text = 'Loading...', 
+export const InlineSpinner = ({
+    text = 'Loading...',
     size = 'small',
     color = 'blue'
 }) => {

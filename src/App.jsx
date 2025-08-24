@@ -12,11 +12,12 @@ function App() {
     const {
         filteredData,
         countries,
+        countriesMap,
+        regionsMap,
         loading,
         error,
         filters,
         mapMode,
-        applyFilters,
         updateFilters,
         updateMapMode
     } = useMapData();
@@ -32,6 +33,11 @@ function App() {
 
     const handleOpacityChange = useCallback((value) => {
         setGsvOpacity(value);
+    }, []);
+
+    // Dummy function for backward compatibility - filters now auto-apply
+    const handleApplyFilters = useCallback(() => {
+        // Filters are automatically applied via useEffect in useMapData hook
     }, []);
 
     // Extract unique authors from data
@@ -51,15 +57,12 @@ function App() {
 
     drawCreatedRef.current = (layer) => {
         updateFilters({ poly: [...filters.poly, layer] });
-        applyFilters();
     };
     drawEditedRef.current = (layers) => {
         updateFilters({ poly: layers });
-        applyFilters();
     };
     drawDeletedRef.current = () => {
         updateFilters({ poly: [] });
-        applyFilters();
     };
 
     // html dark class
@@ -87,16 +90,14 @@ function App() {
             isPeak: !mapMode.isPeak,
             isSpot: false
         });
-        applyFilters();
-    }, [mapMode.isPeak, updateMapMode, applyFilters]);
+    }, [mapMode.isPeak, updateMapMode]);
 
     const handleToggleSpot = useCallback(() => {
         updateMapMode({
             isSpot: !mapMode.isSpot,
             isPeak: false
         });
-        applyFilters();
-    }, [mapMode.isSpot, updateMapMode, applyFilters]);
+    }, [mapMode.isSpot, updateMapMode]);
 
     const handleCopyJSON = useCallback(() => {
         const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -224,9 +225,13 @@ function App() {
     const handleDateSelect = useCallback((dates) => {
         if (!dates || dates.length === 0) return;
 
+        console.log('Date select:', dates, 'Range mode:', calendarState.isRangeMode);
+
         let startDate, endDate;
 
-        if (dates.length > 1 && calendarState.isRangeMode) {
+        // Handle range mode properly
+        if (calendarState.isRangeMode && dates.length === 2) {
+            // Two dates selected in range mode
             if (calendarState.currentView === 'months') {
                 startDate = new Date(dates[0].getFullYear(), dates[0].getMonth(), 1);
                 endDate = new Date(dates[1].getFullYear(), dates[1].getMonth() + 1, 0);
@@ -234,10 +239,11 @@ function App() {
                 startDate = new Date(dates[0].getFullYear(), 0, 1);
                 endDate = new Date(dates[1].getFullYear(), 11, 31);
             } else {
-                startDate = dates[0];
-                endDate = dates[1];
+                startDate = new Date(dates[0]);
+                endDate = new Date(dates[1]);
             }
         } else {
+            // Single date or first date in range mode
             const localdate = new Date(dates[0]);
             if (calendarState.currentView === 'months') {
                 startDate = new Date(localdate.getFullYear(), localdate.getMonth(), 1);
@@ -246,19 +252,77 @@ function App() {
                 startDate = new Date(localdate.getFullYear(), 0, 1);
                 endDate = new Date(localdate.getFullYear(), 11, 31);
             } else {
-                startDate = localdate;
-                endDate = new Date(localdate.getTime() + 86400000);
+                startDate = new Date(localdate);
+                // For single date mode or incomplete range, end date is same as start date + 1 day
+                if (calendarState.isRangeMode && dates.length === 1) {
+                    endDate = new Date(localdate); // For incomplete range, keep same date until second date is selected
+                } else {
+                    endDate = new Date(localdate.getTime() + 86400000); // Add one day for single mode
+                }
             }
         }
 
-        updateFilters({
-            report_date: [
-                Math.floor(startDate.getTime() / 1000),
-                Math.floor(endDate.getTime() / 1000) + 86400
-            ]
-        });
-        applyFilters();
-    }, [calendarState, updateFilters, applyFilters]);
+        // Only update if we have a complete selection (single mode or completed range)
+        if (!calendarState.isRangeMode || dates.length === 2) {
+            const startTimestamp = Math.floor(startDate.getTime() / 1000);
+            const endTimestamp = Math.floor(endDate.getTime() / 1000);
+            
+            console.log('Updating filters with date range:', { 
+                start: new Date(startTimestamp * 1000), 
+                end: new Date(endTimestamp * 1000) 
+            });
+            
+            updateFilters({
+                report_date: [startTimestamp, endTimestamp]
+            });
+        }
+    }, [calendarState, updateFilters]);
+
+    // Get selected dates for calendar display
+    const getSelectedDates = useCallback(() => {
+        if (!filters.report_date || !filters.report_date[0] || !filters.report_date[1]) {
+            return [];
+        }
+
+        const startDate = new Date(filters.report_date[0] * 1000);
+        const endDate = new Date(filters.report_date[1] * 1000);
+
+        // Ensure we're using the correct dates based on calendar view and mode
+        if (calendarState.currentView === 'months') {
+            const startMonth = new Date(startDate.getFullYear(), startDate.getMonth(), 1);
+            const endMonth = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
+            
+            if (calendarState.isRangeMode && startMonth.getTime() !== endMonth.getTime()) {
+                return [startMonth, endMonth];
+            } else {
+                return [startMonth];
+            }
+        } else if (calendarState.currentView === 'years') {
+            const startYear = new Date(startDate.getFullYear(), 0, 1);
+            const endYear = new Date(endDate.getFullYear(), 0, 1);
+            
+            if (calendarState.isRangeMode && startYear.getTime() !== endYear.getTime()) {
+                return [startYear, endYear];
+            } else {
+                return [startYear];
+            }
+        } else {
+            // Days view - for one month range, we should show it as a range
+            const timeDiff = endDate.getTime() - startDate.getTime();
+            const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+            
+            // If the range is more than a few days and calendar is in range mode, show as range
+            if (calendarState.isRangeMode && daysDiff > 7) {
+                return [startDate, endDate];
+            } else if (daysDiff > 7) {
+                // If it's a long range but not in range mode, just show start date
+                return [startDate];
+            } else {
+                // Short range or single day
+                return [startDate];
+            }
+        }
+    }, [filters.report_date, calendarState.isRangeMode, calendarState.currentView]);
 
     const handleToggleCalendarMode = useCallback(() => {
         updateCalendarState({ isRangeMode: !calendarState.isRangeMode });
@@ -282,28 +346,26 @@ function App() {
         updateCalendarState({ currentView: newView });
     }, [calendarState.currentView, updateCalendarState]);
 
-    if (loading) {
-        return (
-            <FullScreenSpinner 
-                title="Loading map data..."
-                subtitle="Please wait while we fetch the latest Street View updates"
-                color="blue"
-            />
-        );
-    }
-
-    if (error) {
-        return (
-            <div className="flex items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
-                <div className="text-xl text-red-600 dark:text-red-400">Error: {error}</div>
-            </div>
-        );
-    }
-
     return (
         <div className={
             'relative w-full h-screen font-flags bg-gray-100 dark:bg-gray-900'
         }>
+            {/* Loading Overlay - Non-blocking */}
+            {loading && (
+                <FullScreenSpinner 
+                    title="Loading map data..."
+                    subtitle="Please wait while we fetch the latest Street View updates"
+                    color="blue"
+                />
+            )}
+
+            {/* Error Notification */}
+            {error && (
+                <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-50 bg-red-100 dark:bg-red-900 border border-red-400 dark:border-red-600 text-red-700 dark:text-red-300 px-4 py-3 rounded shadow-lg">
+                    <p>Error: {error}</p>
+                </div>
+            )}
+
             {/* Top Navigation Bar */}
             <TopNavBar
                 isHeatmap={isHeatmap}
@@ -347,8 +409,10 @@ function App() {
                 isSpot={mapMode.isSpot}
                 isPeak={mapMode.isPeak}
                 countries={countries}
+                countriesMap={countriesMap}
+                regionsMap={regionsMap}
                 authors={authors}
-                onApplyFilters={applyFilters}
+                onApplyFilters={handleApplyFilters}
                 isOpen={filterSidebarOpen}
                 setIsOpen={setFilterSidebarOpen}
             />
@@ -357,6 +421,7 @@ function App() {
             <CompactCalendarWidget
                 isRangeMode={calendarState.isRangeMode}
                 currentView={calendarState.currentView}
+                selectedDates={getSelectedDates()}
                 onDateSelect={handleDateSelect}
                 onToggleMode={handleToggleCalendarMode}
                 onToggleView={handleToggleCalendarView}

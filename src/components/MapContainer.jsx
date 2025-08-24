@@ -190,7 +190,7 @@ const MapContainer = ({
 
         return () => {
             markersRef.current = [];
-            
+
             if (mapInstanceRef.current) {
                 mapInstanceRef.current.remove();
                 mapInstanceRef.current = null;
@@ -214,7 +214,7 @@ const MapContainer = ({
 
         // Update URLs for existing GSV layers
         const { gsvLayer, gsvLayer2, gsvLayer3 } = gsvLayersRef.current;
-        
+
         if (gsvLayer && gsvLayer.setUrl) {
             gsvLayer.setUrl(gsvUrl);
         }
@@ -229,7 +229,7 @@ const MapContainer = ({
     // Separate useEffect for opacity control - prevents map re-rendering
     useEffect(() => {
         if (!gsvLayersRef.current) return;
-        
+
         // Update opacity for all GSV layers without re-creating them
         Object.values(gsvLayersRef.current).forEach(layer => {
             if (layer && typeof layer.setOpacity === 'function') {
@@ -282,8 +282,8 @@ const MapContainer = ({
         mapData.forEach(item => {
             if (!item.location) return;
 
-            const { location, panoId, types } = item;
-            
+            const { location, panoId, types, source_link } = item;
+
             // Parse types for icon selection
             let typesList = [];
             if (typeof types === 'string') {
@@ -306,10 +306,10 @@ const MapContainer = ({
             // Create popup container and render React component
             const popupContainer = document.createElement('div');
             popupContainer.style.visibility = 'hidden';
-            
+
             const popupRoot = createRoot(popupContainer);
             popupRoot.render(<MarkerPopup item={item} />);
-            
+
             // Store root for cleanup
             marker.popupRoot = popupRoot;
 
@@ -318,7 +318,7 @@ const MapContainer = ({
                 offset: [0, -41],
                 className: 'custom-popup',
                 closeButton: false,
-                
+
             });
 
             // Setup event handlers with the React-rendered popup
@@ -335,7 +335,7 @@ const MapContainer = ({
 
             marker.on('click', function () {
                 const link = `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`;
-                window.open(link, '_blank');
+                window.open(source_link ? source_link : link, '_blank');
             });
 
             if (isCluster) {
