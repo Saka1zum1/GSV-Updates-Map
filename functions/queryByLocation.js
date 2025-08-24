@@ -1,3 +1,4 @@
+require("dotenv").config();
 const mysql = require("mysql2/promise");
 
 exports.handler = async function (event, context) {
