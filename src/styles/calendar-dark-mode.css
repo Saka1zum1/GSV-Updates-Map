@@ -105,3 +105,37 @@
 .dark .air-datepicker-cell.today-cell:hover {
     background-color: #b45309 !important;
 }
+
+/* Calendar container integration - remove gaps for mobile */
+.calendar-container {
+    /* Remove any default padding/margin that creates gaps */
+    padding: 0;
+    margin: 0;
+}
+
+/* Integrate air-datepicker seamlessly with container */
+.calendar-container .air-datepicker {
+    /* Remove air-datepicker's own border and use container's styling */
+    border: none !important;
+    border-radius: 0 0 8px 8px !important; /* Match container's bottom radius */
+    box-shadow: none !important;
+    /* Ensure it fills the container completely */
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* Dark mode air-datepicker integration */
+.dark .calendar-container .air-datepicker {
+    border: none !important;
+    border-radius: 0 0 8px 8px !important;
+    box-shadow: none !important;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 640px) {
+    .calendar-container .air-datepicker {
+        /* Ensure full width on mobile */
+        width: 100% !important;
+        min-width: auto !important;
+    }
+}
