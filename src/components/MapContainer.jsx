@@ -372,10 +372,19 @@ const MapContainer = ({
 
         if (heatData.length > 0) {
             heatmapLayerRef.current = L.heatLayer(heatData, {
-                radius: 10,
-                blur: 5,
-                maxZoom: 20,
-                maxIntensity: 1,
+                radius: 20, // Increased from 25 for bigger heat spots
+                blur: 25, // Increased from 15 for smoother blending
+                minOpacity: 0.4, // Minimum opacity for better visibility
+                max: 2.0, // Maximum intensity for color scaling
+                maxZoom: 18,
+                gradient: {
+                    0.0: "blue",
+                    0.2: "cyan",
+                    0.4: "lime",
+                    0.6: "yellow",
+                    0.8: "orange",
+                    1.0: "red",
+                },
             }).addTo(mapInstanceRef.current);
         }
     };

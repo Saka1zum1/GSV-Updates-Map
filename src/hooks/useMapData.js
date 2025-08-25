@@ -214,8 +214,13 @@ export const useMapData = () => {
                     filters.camera.length === 0 ||
                     (item.camera && filters.camera.includes(item.camera.toLowerCase()));
 
+                // Author filter
+                const matchesAuthor = !filters.author ||
+                    filters.author.length === 0 ||
+                    (item.author && filters.author.includes(item.author));
+
                 return matchesType && inMonthRange && pointInPolygon &&
-                    matchesCountry && matchesRegion && inDateRange && matchesCamera;
+                    matchesCountry && matchesRegion && inDateRange && matchesCamera && matchesAuthor;
             });
 
             setFilteredData(filtered);
@@ -223,7 +228,7 @@ export const useMapData = () => {
             setError(err.message);
             console.error('Error applying filters:', err);
         }
-    }, [updateData, altitudeData, spotsData, filters.type, filters.country, filters.region, filters.camera, filters.pano_date, mapMode]);
+    }, [updateData, altitudeData, spotsData, filters.type, filters.country, filters.region, filters.camera, filters.author, filters.pano_date, mapMode]);
 
     // Load data when date range or mode changes (but not on initial load)
     useEffect(() => {

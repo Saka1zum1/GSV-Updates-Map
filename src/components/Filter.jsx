@@ -223,7 +223,7 @@ const FilterPanel = ({
 
             {/* Filter Sidebar */}
             <div className={`
-                fixed top-20 left-0 h-[calc(100vh-8rem)] w-85 overflow-y-auto bg-white dark:bg-gray-900 shadow-2xl z-[1000]
+                fixed top-20 left-0 h-[calc(100vh-8rem)] overflow-y-auto w-85 bg-white dark:bg-gray-900 shadow-2xl z-[1000]
                 transform transition-transform duration-300 ease-in-out border-r border-gray-200 dark:border-gray-700
                 ${isOpen ? 'translate-x-0' : '-translate-x-full'}
             `}>
@@ -239,7 +239,7 @@ const FilterPanel = ({
                 </div>
 
                 {/* Filter Content */}
-                <div className="flex-1 min-w-80 overflow-y-auto p-4 space-y-2">
+                <div className="flex-1 min-w-80 p-4 space-y-2">
                     {/* Update Types Filter */}
                     <div className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
                         { !isSpot &&<SectionHeader
