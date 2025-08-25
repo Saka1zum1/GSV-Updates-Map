@@ -10,8 +10,10 @@ import '../styles/popup.css';
 // Import required Leaflet plugins
 import 'leaflet.markercluster';
 import 'leaflet.heat';
-import 'leaflet-draw';
 import 'leaflet-contextmenu';
+
+// Import the local leaflet-draw plugin
+import '../../public/leaflet-draw/leaflet.draw.js';
 
 import {
     getIconType,
@@ -39,6 +41,7 @@ const MapContainer = ({
     const clusterGroupRef = useRef(null);
     const heatmapLayerRef = useRef(null);
     const drawnItemsRef = useRef(null);
+    const drawControlRef = useRef(null);
     const gsvLayersRef = useRef({});
 
     // Initialize map (once only)
@@ -99,9 +102,9 @@ const MapContainer = ({
             ],
             center: [0, 0],
             zoom: 2,
-            preferCanvas: true,
+            preferCanvas: false,
             zoomControl: false,
-            worldCopyJump: true,
+            worldCopyJump: false,
             attributionControl: false,
             zoomAnimation: true,
             maxZoom: 18
@@ -139,41 +142,54 @@ const MapContainer = ({
         // Add layer control
         L.control.layers(baseMaps, overlayMaps, { position: "bottomleft" }).addTo(map);
 
-        // Initialize drawing
+        // Initialize Leaflet Draw
         drawnItemsRef.current = new L.FeatureGroup().addTo(map);
+        
         const drawControl = new L.Control.Draw({
+            position: 'bottomleft',
+            draw: {
+                polygon: {
+                    allowIntersection: false,
+                    showArea: true
+                },
+                rectangle: true,
+                circle: false,
+                circlemarker: false,
+                marker: false,
+                polyline: false
+            },
             edit: {
                 featureGroup: drawnItemsRef.current,
-                poly: { allowIntersection: false }
-            },
-            draw: {
-                polygon: { allowIntersection: false, showArea: true },
-                polyline: false,
-                circle: false,
-                marker: false,
-                circlemarker: false
-            },
-            position: 'bottomleft'
+                remove: true
+            }
         });
-        drawControl.addTo(map);
+        
+        drawControlRef.current = drawControl;
+        map.addControl(drawControl);
 
-        // Drawing event handlers
-        map.on(L.Draw.Event.CREATED, (e) => {
+        // Draw event handlers
+        map.on(L.Draw.Event.CREATED, function (e) {
             const layer = e.layer;
             drawnItemsRef.current.addLayer(layer);
-            onDrawCreated?.current?.(layer);
+            if (onDrawCreated && onDrawCreated.current) {
+                onDrawCreated.current(layer);
+            }
         });
 
-        map.on(L.Draw.Event.EDITED, (e) => {
+        map.on(L.Draw.Event.EDITED, function (e) {
             const layers = [];
-            e.layers.eachLayer((layer) => {
+            e.layers.eachLayer(function (layer) {
                 layers.push(layer);
             });
-            onDrawEdited?.current?.(layers);
+            if (onDrawEdited && onDrawEdited.current) {
+                onDrawEdited.current(layers);
+            }
         });
 
-        map.on(L.Draw.Event.DELETED, () => {
-            onDrawDeleted?.current?.();
+        map.on(L.Draw.Event.DELETED, function (e) {
+            if (onDrawDeleted && onDrawDeleted.current) {
+                onDrawDeleted.current();
+            }
         });
 
         // Initialize cluster group
@@ -195,6 +211,19 @@ const MapContainer = ({
         gsvLayersRef.current.gsvLayer3.setUrl(gsv3Url);
 
         return () => {
+            // Clean up draw control
+            if (drawControlRef.current && mapInstanceRef.current) {
+                mapInstanceRef.current.removeControl(drawControlRef.current);
+                drawControlRef.current = null;
+            }
+
+            // Clean up drawn items
+            if (drawnItemsRef.current && mapInstanceRef.current) {
+                mapInstanceRef.current.removeLayer(drawnItemsRef.current);
+                drawnItemsRef.current = null;
+            }
+
+            // Clean up markers
             markersRef.current.forEach(marker => {
                 if (marker.popupRoot) {
                     marker.popupRoot.unmount();
@@ -202,6 +231,7 @@ const MapContainer = ({
             });
             markersRef.current = [];
 
+            // Clean up map
             if (mapInstanceRef.current) {
                 mapInstanceRef.current.remove();
                 mapInstanceRef.current = null;
