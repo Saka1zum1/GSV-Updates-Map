@@ -389,7 +389,7 @@ function App() {
             />
 
             {/* Map Container */}
-            <div className="pt-16 h-full">
+            <div className="pt-14 sm:pt-16 h-full">
                 <MapContainer
                     data={filteredData}
                     onDrawCreated={drawCreatedRef}

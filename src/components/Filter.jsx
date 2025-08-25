@@ -223,7 +223,8 @@ const FilterPanel = ({
 
             {/* Filter Sidebar */}
             <div className={`
-                fixed top-20 left-0 h-[calc(100vh-8rem)] overflow-y-auto w-85 bg-white dark:bg-gray-900 shadow-2xl z-[1000]
+                fixed top-16 left-0 h-[calc(100vh-4rem)] overflow-y-auto 
+                w-full sm:w-85 bg-white dark:bg-gray-900 shadow-2xl z-[1000]
                 transform transition-transform duration-300 ease-in-out border-r border-gray-200 dark:border-gray-700
                 ${isOpen ? 'translate-x-0' : '-translate-x-full'}
             `}>
@@ -239,7 +240,7 @@ const FilterPanel = ({
                 </div>
 
                 {/* Filter Content */}
-                <div className="flex-1 min-w-80 p-4 space-y-2">
+                <div className="flex-1 p-3 sm:p-4 space-y-2">
                     {/* Update Types Filter */}
                     <div className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
                         { !isSpot &&<SectionHeader
@@ -251,8 +252,8 @@ const FilterPanel = ({
                         />}
                         
                         {expandedSections.types && !isSpot && (
-                            <div className="p-4 border-t border-gray-100 dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
-                                <div className="grid grid-cols-4 gap-2">
+                            <div className="p-3 sm:p-4 border-t border-gray-100 dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
+                                <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
                                     {getVisibleTypes().map(type => (
                                         <button
                                             key={type}
@@ -267,7 +268,7 @@ const FilterPanel = ({
                                             <img 
                                                 src={`/assets/${type}.webp`} 
                                                 alt={type}
-                                                className="w-8 h-8 mx-auto"
+                                                className="w-6 h-6 sm:w-8 sm:h-8 mx-auto"
                                                 onError={(e) => {
                                                     e.target.style.display = 'none';
                                                 }}
@@ -297,8 +298,8 @@ const FilterPanel = ({
                             {expandedSections.camera ? <ChevronDown size={16} className="text-gray-600 dark:text-gray-400" /> : <ChevronRight size={16} className="text-gray-600 dark:text-gray-400" />}
                         </button>
                         {expandedSections.camera && (
-                            <div className="p-4 border-t border-gray-100 dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
-                                <div className="grid grid-cols-4 gap-2">
+                            <div className="p-3 sm:p-4 border-t border-gray-100 dark:border-gray-700 bg-gray-50 dark:bg-gray-800">
+                                <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
                                     {cameraTypes.map(camera => (
                                         <button
                                             key={camera}
@@ -313,7 +314,7 @@ const FilterPanel = ({
                                             <img 
                                                 src={`/assets/${camera}.webp`} 
                                                 alt={camera}
-                                                className="w-8 h-8 mx-auto"
+                                                className="w-6 h-6 sm:w-8 sm:h-8 mx-auto"
                                                 onError={(e) => {
                                                     e.target.style.display = 'none';
                                                 }}
