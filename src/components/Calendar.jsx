@@ -38,6 +38,7 @@ const CalendarWidget = ({
             range: isRangeMode,
             selectedDates: selectedDates,
             multipleDates: false, // Prevent multiple date selection when not in range mode
+            inline: true, // Make it inline to fit container better
             onSelect({ date, formattedDate, datepicker }) {
                 // Prevent infinite loops by checking if dates actually changed
                 const currentSelectedDates = datepicker.selectedDates || [];
@@ -142,7 +143,8 @@ const CalendarWidget = ({
     };
 
     return (
-        <div className="fixed top-16 sm:top-20 right-2 sm:right-4 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 w-80 sm:w-auto max-w-[calc(100vw-1rem)]">
+        <div className="fixed top-16 sm:top-20 right-2 sm:right-4 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 
+                        w-80 sm:w-auto max-w-[calc(100vw-1rem)] overflow-hidden">
             {/* Calendar controls */}
             <div className="flex bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
                 <button
@@ -162,8 +164,8 @@ const CalendarWidget = ({
             </div>
 
             {/* Calendar */}
-            <div className="p-2">
-                <div ref={calendarRef}></div>
+            <div className="p-0">
+                <div ref={calendarRef} className="air-datepicker-inline"></div>
             </div>
         </div>
     );

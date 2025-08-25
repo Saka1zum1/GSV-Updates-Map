@@ -15,7 +15,8 @@ import {
     Eye,
     Camera,
     Menu,
-    X
+    X,
+    Calendar
 } from 'lucide-react';
 const TopNavBar = ({
     isHeatmap,
@@ -35,7 +36,9 @@ const TopNavBar = ({
     isDarkTheme,
     gsvOpacity,
     onOpacityChange,
-    onToggleFilterSidebar
+    onToggleFilterSidebar,
+    calendarVisible,
+    onToggleCalendar
 }) => {
     const [showExportMenu, setShowExportMenu] = useState(false);
     const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -66,9 +69,9 @@ const TopNavBar = ({
 
     return (
         <div className="fixed top-0 left-0 right-0 z-[1100] bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-            <div className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-3">
+            <div className="flex items-center justify-between px-2 sm:px-4 py-2 sm:py-3 max-w-full">
                 {/* Left Section - Logo & Title */}
-                <div className="flex items-center min-w-0 flex-1 sm:flex-none">
+                <div className="flex items-center min-w-0 flex-shrink-0">
                     <img className="h-8 w-8 sm:h-10 sm:w-10 mr-2 flex-shrink-0" src="/assets/favicon.png" alt="Logo" />
                     <h1 className="text-sm sm:text-lg font-semibold text-gray-800 dark:text-gray-100 truncate">
                         <span className="sm:hidden">VirtualStreets</span>
@@ -78,6 +81,19 @@ const TopNavBar = ({
 
                 {/* Mobile Menu Button */}
                 <div className="sm:hidden flex items-center space-x-2">
+                    {/* Calendar Toggle - Mobile only */}
+                    <button
+                        onClick={onToggleCalendar}
+                        className={`flex items-center justify-center w-8 h-8 rounded-lg transition-colors ${
+                            calendarVisible 
+                                ? 'bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400' 
+                                : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        }`}
+                        title="Toggle Calendar"
+                    >
+                        <Calendar size={18} />
+                    </button>
+                    
                     {/* Theme Toggle */}
                     <button
                         onClick={onToggleTheme}
@@ -98,24 +114,32 @@ const TopNavBar = ({
                 </div>
 
                 {/* Desktop Layout */}
-                <div className="hidden sm:flex items-center justify-between flex-1">
+                <div className="hidden sm:flex items-center flex-1 justify-between min-w-0">
                     {/* Theme Toggle - Desktop */}
-                    <button
-                        onClick={onToggleTheme}
-                        className="flex items-center space-x-2 px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
-                                 rounded-lg transition-colors text-sm font-medium ml-4"
-                        title="Toggle Theme"
-                    >
-                        {isDarkTheme ? <Sun size={20} /> : <Moon size={20} />}
-                    </button>
+                    <div className="flex-shrink-0 ml-2 md:ml-4">
+                        <button
+                            onClick={onToggleTheme}
+                            className="flex items-center space-x-2 px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
+                                     rounded-lg transition-colors text-sm font-medium"
+                            title="Toggle Theme"
+                        >
+                            {isDarkTheme ? <Sun size={20} /> : <Moon size={20} />}
+                        </button>
+                    </div>
 
                     {/* Center Section - View Controls */}
-                    <div className="flex items-center space-x-2">
+                    <div className="flex items-center space-x-1 lg:space-x-2 flex-shrink-0">
                         <NavButton
                             icon={Filter}
                             label="Filter"
                             isActive={false}
                             onClick={onToggleFilterSidebar}
+                        />
+                        <NavButton
+                            icon={Calendar}
+                            label="Calendar"
+                            isActive={calendarVisible}
+                            onClick={onToggleCalendar}
                         />
                         <NavButton
                             icon={Camera}
@@ -144,12 +168,12 @@ const TopNavBar = ({
                     </div>
 
                     {/* Right Section - Export & Settings */}
-                    <div className="flex items-center space-x-2">
+                    <div className="flex items-center space-x-1 lg:space-x-2 flex-shrink-0">
                         {/* Export Dropdown */}
                         <div className="relative">
                             <button
                                 onClick={() => setShowExportMenu(!showExportMenu)}
-                                className="flex items-center space-x-2 px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
+                                className="flex items-center space-x-1 lg:space-x-2 px-2 lg:px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
                                          rounded-lg transition-colors text-sm font-medium border border-transparent"
                             >
                                 <Download size={20} />
@@ -199,20 +223,20 @@ const TopNavBar = ({
                         {/* Color Scheme */}
                         <button
                             onClick={onToggleColor}
-                            className="flex items-center space-x-2 px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
+                            className="flex items-center space-x-1 lg:space-x-2 px-2 lg:px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
                                      rounded-lg transition-colors text-sm font-medium"
                             title="Color Scheme"
                         >
                             <Palette size={20} />
                             <div
-                                className="w-4 h-4 rounded-full border border-gray-300 dark:border-gray-600"
+                                className="w-4 h-4 rounded-full border border-gray-300 dark:border-gray-600 flex-shrink-0"
                                 style={{ backgroundColor: colorOptions[colorPreference] }}
                             />
                         </button>
                         
-                        {/* GSV Opacity Slider */}
-                        <div className="hidden lg:flex items-center space-x-2 px-2">
-                            <Eye size={20} className="text-gray-700 dark:text-gray-200" />
+                        {/* GSV Opacity Slider - Now visible on medium+ screens */}
+                        <div className="hidden md:flex items-center space-x-2 px-2">
+                            <Eye size={20} className="text-gray-700 dark:text-gray-200 flex-shrink-0" />
                             <input
                                 id="gsv-opacity"
                                 type="range"
@@ -221,9 +245,9 @@ const TopNavBar = ({
                                 step={0.01}
                                 value={gsvOpacity}
                                 onChange={e => onOpacityChange(Number(e.target.value))}
-                                className="w-24 h-2 accent-blue-500"
+                                className="w-16 lg:w-20 h-2 accent-blue-500"
                             />
-                            <span className="text-xs w-8 text-center text-gray-700 dark:text-gray-200">{Math.round(gsvOpacity * 100)}%</span>
+                            <span className="text-xs w-8 text-center text-gray-700 dark:text-gray-200 flex-shrink-0">{Math.round(gsvOpacity * 100)}%</span>
                         </div>
                     </div>
                 </div>
@@ -245,6 +269,21 @@ const TopNavBar = ({
                             >
                                 <Filter size={18} />
                                 <span>Filter</span>
+                            </button>
+                            
+                            <button
+                                onClick={() => {
+                                    onToggleCalendar();
+                                    setShowMobileMenu(false);
+                                }}
+                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${
+                                    calendarVisible
+                                        ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
+                                        : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                }`}
+                            >
+                                <Calendar size={18} />
+                                <span>Calendar</span>
                             </button>
                             
                             <button
@@ -291,22 +330,22 @@ const TopNavBar = ({
                                 <Flame size={18} />
                                 <span>Heatmap</span>
                             </button>
+
+                            <button
+                                onClick={() => {
+                                    onToggleCluster();
+                                    setShowMobileMenu(false);
+                                }}
+                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${
+                                    isCluster
+                                        ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
+                                        : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                }`}
+                            >
+                                <Layers size={18} />
+                                <span>Cluster</span>
+                            </button>
                         </div>
-                        
-                        <button
-                            onClick={() => {
-                                onToggleCluster();
-                                setShowMobileMenu(false);
-                            }}
-                            className={`w-full flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${
-                                isCluster
-                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
-                            }`}
-                        >
-                            <Layers size={18} />
-                            <span>Cluster</span>
-                        </button>
 
                         {/* Export Options */}
                         <div className="pt-2 border-t border-gray-200 dark:border-gray-700">
