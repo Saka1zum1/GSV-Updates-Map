@@ -16,7 +16,9 @@ export default {
                 }
             },
             fontFamily: {
-                flags: ['TwemojiCountryFlags', 'sans-serif'],
+                'inter': ['Inter', 'Helvetica Neue', 'Arial', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'sans-serif'],
+                'flags': ['TwemojiCountryFlags', 'sans-serif'],
+                'sans': ['Inter', 'Helvetica Neue', 'Arial', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'sans-serif'],
             }
         },
     },
