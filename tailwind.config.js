@@ -16,6 +16,7 @@ export default {
                 }
             },
             fontFamily: {
+                sans: ['Inter', 'Arial', 'TwemojiCountryFlags', 'sans-serif'],
                 flags: ['TwemojiCountryFlags', 'sans-serif'],
             }
         },

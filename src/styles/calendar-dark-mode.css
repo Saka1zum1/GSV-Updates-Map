@@ -89,7 +89,7 @@
 /* Today cell styling */
 .air-datepicker-cell.today-cell {
     background-color: #ead582 !important;
-    color:#1f2937 !important;
+    color: #1f2937 !important;
     border-radius: 4px !important;
 }
 
@@ -106,36 +106,27 @@
     background-color: #b45309 !important;
 }
 
-/* Calendar inline styling fixes */
-.air-datepicker-inline {
-    position: static !important;
-    margin: 0 !important;
-    padding: 0 !important;
+.calendar-container {
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-container .air-datepicker {
     border: none !important;
+    border-radius: 0 0 8px 8px !important;
     box-shadow: none !important;
-    border-radius: 0 !important;
-    background: transparent !important;
+    min-width: auto;
 }
 
-.air-datepicker-inline .air-datepicker {
-    position: static !important;
-    margin: 0 !important;
-    padding: 0 !important;
+.dark .calendar-container .air-datepicker {
     border: none !important;
+    border-radius: 0 0 8px 8px !important;
     box-shadow: none !important;
-    border-radius: 0 !important;
-    background: transparent !important;
 }
 
-/* Remove extra spacing */
-.air-datepicker--pointer {
-    display: none !important;
-}
-
-.air-datepicker-body {
-    padding: 8px 12px 12px 12px !important;
-}
-
-.air-datepicker-nav {
-    padding: 8px 12px !important;
+@media (max-width: 640px) {
+    .calendar-container .air-datepicker {
+        width: 100% !important;
+        min-width: auto !important;
+    }
 }

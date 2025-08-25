@@ -149,14 +149,14 @@ const CalendarWidget = ({
             <div className="flex bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
                 <button
                     onClick={onToggleMode}
-                    className="flex-1 px-2 sm:px-3 py-2 text-xs font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700
+                    className="flex-1 px-2 py-2 text-xs font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700
                              transition-colors duration-200 border-r border-gray-200 dark:border-gray-700"
                 >
                     {isRangeMode ? 'Range' : 'Single'}
                 </button>
                 <button
                     onClick={onToggleView}
-                    className="flex-1 px-2 sm:px-3 py-2 text-xs font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700
+                    className="flex-1 px-2 py-2 text-xs font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700
                              transition-colors duration-200"
                 >
                     {getViewButtonText()}
@@ -164,8 +164,8 @@ const CalendarWidget = ({
             </div>
 
             {/* Calendar */}
-            <div className="p-0">
-                <div ref={calendarRef} className="air-datepicker-inline"></div>
+            <div className="calendar-container">
+                <div ref={calendarRef}></div>
             </div>
         </div>
     );

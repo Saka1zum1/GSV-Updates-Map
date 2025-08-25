@@ -4,14 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
-    font-family: 'Inter', 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'TwemojiCountryFlags', sans-serif;
+    font-family: 'TwemojiCountryFlags';
     src: url("https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/TwemojiCountryFlags.woff2") format("woff2");
 }
 
 body {
+    @apply font-sans;
     margin: 0;
-    font-family: "TwemojiCountryFlags", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

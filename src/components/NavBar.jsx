@@ -74,8 +74,7 @@ const TopNavBar = ({
                 <div className="flex items-center min-w-0 flex-shrink-0">
                     <img className="h-8 w-8 sm:h-10 sm:w-10 mr-2 flex-shrink-0" src="/assets/favicon.png" alt="Logo" />
                     <h1 className="text-sm sm:text-lg font-semibold text-gray-800 dark:text-gray-100 truncate">
-                        <span className="sm:hidden">VirtualStreets</span>
-                        <span className="hidden sm:inline">VirtualStreets Updates Map</span>
+                        <span className="sm:inline">VirtualStreets Updates Map</span>
                     </h1>
                 </div>
 
@@ -84,16 +83,15 @@ const TopNavBar = ({
                     {/* Calendar Toggle - Mobile only */}
                     <button
                         onClick={onToggleCalendar}
-                        className={`flex items-center justify-center w-8 h-8 rounded-lg transition-colors ${
-                            calendarVisible 
-                                ? 'bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400' 
-                                : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
-                        }`}
+                        className={`flex items-center justify-center w-8 h-8 rounded-lg transition-colors ${calendarVisible
+                            ? 'bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400'
+                            : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
+                            }`}
                         title="Toggle Calendar"
                     >
                         <Calendar size={18} />
                     </button>
-                    
+
                     {/* Theme Toggle */}
                     <button
                         onClick={onToggleTheme}
@@ -103,7 +101,7 @@ const TopNavBar = ({
                     >
                         {isDarkTheme ? <Sun size={18} /> : <Moon size={18} />}
                     </button>
-                    
+
                     <button
                         onClick={() => setShowMobileMenu(!showMobileMenu)}
                         className="flex items-center justify-center w-8 h-8 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
@@ -233,7 +231,7 @@ const TopNavBar = ({
                                 style={{ backgroundColor: colorOptions[colorPreference] }}
                             />
                         </button>
-                        
+
                         {/* GSV Opacity Slider - Now visible on medium+ screens */}
                         <div className="hidden md:flex items-center space-x-2 px-2">
                             <Eye size={20} className="text-gray-700 dark:text-gray-200 flex-shrink-0" />
@@ -270,62 +268,44 @@ const TopNavBar = ({
                                 <Filter size={18} />
                                 <span>Filter</span>
                             </button>
-                            
-                            <button
-                                onClick={() => {
-                                    onToggleCalendar();
-                                    setShowMobileMenu(false);
-                                }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${
-                                    calendarVisible
-                                        ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                        : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
-                                }`}
-                            >
-                                <Calendar size={18} />
-                                <span>Calendar</span>
-                            </button>
-                            
+
                             <button
                                 onClick={() => {
                                     onToggleSpot();
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${
-                                    isSpot
-                                        ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                        : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
-                                }`}
+                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${isSpot
+                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
+                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                    }`}
                             >
                                 <Camera size={18} />
                                 <span>Spottings</span>
                             </button>
-                            
+
                             <button
                                 onClick={() => {
                                     onTogglePeak();
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${
-                                    isPeak
-                                        ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                        : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
-                                }`}
+                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${isPeak
+                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
+                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                    }`}
                             >
                                 <Mountain size={18} />
                                 <span>Peaks</span>
                             </button>
-                            
+
                             <button
                                 onClick={() => {
                                     onToggleHeatmap();
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${
-                                    isHeatmap
-                                        ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                        : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
-                                }`}
+                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${isHeatmap
+                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
+                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                    }`}
                             >
                                 <Flame size={18} />
                                 <span>Heatmap</span>
@@ -336,14 +316,28 @@ const TopNavBar = ({
                                     onToggleCluster();
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${
-                                    isCluster
-                                        ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                        : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
-                                }`}
+                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${isCluster
+                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
+                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                    }`}
                             >
                                 <Layers size={18} />
                                 <span>Cluster</span>
+                            </button>
+
+                            <button
+                                onClick={() => {
+                                    onToggleColor();
+                                    setShowMobileMenu(false);
+                                }}
+                                className="flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium
+                                           text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600"
+                            >
+                                <div
+                                    className="w-4 h-4 rounded-full border border-gray-300 dark:border-gray-600"
+                                    style={{ backgroundColor: colorOptions[colorPreference] }}
+                                />
+                                <span>Color Scheme</span>
                             </button>
                         </div>
 
@@ -383,23 +377,8 @@ const TopNavBar = ({
                             </div>
                         </div>
 
-                        {/* Color & Opacity Controls */}
+                        {/* Opacity Controls */}
                         <div className="pt-2 border-t border-gray-200 dark:border-gray-700 space-y-3">
-                            <button
-                                onClick={() => {
-                                    onToggleColor();
-                                    setShowMobileMenu(false);
-                                }}
-                                className="w-full flex items-center space-x-3 px-3 py-3 rounded-lg text-left hover:bg-gray-50 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-200 dark:border-gray-600"
-                            >
-                                <Palette size={18} />
-                                <span>Change Color Scheme</span>
-                                <div
-                                    className="w-4 h-4 rounded-full border border-gray-300 dark:border-gray-600 ml-auto"
-                                    style={{ backgroundColor: colorOptions[colorPreference] }}
-                                />
-                            </button>
-                            
                             {/* GSV Opacity Slider - Mobile */}
                             <div className="flex items-center space-x-3 px-3 py-2">
                                 <Eye size={18} className="text-gray-700 dark:text-gray-200" />

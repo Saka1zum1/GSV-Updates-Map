@@ -226,8 +226,6 @@ function App() {
     const handleDateSelect = useCallback((dates) => {
         if (!dates || dates.length === 0) return;
 
-        console.log('Date select:', dates, 'Range mode:', calendarState.isRangeMode);
-
         let startDate, endDate;
 
         // Handle range mode properly
@@ -267,11 +265,6 @@ function App() {
         if (!calendarState.isRangeMode || dates.length === 2) {
             const startTimestamp = Math.floor(startDate.getTime() / 1000);
             const endTimestamp = Math.floor(endDate.getTime() / 1000);
-            
-            console.log('Updating filters with date range:', { 
-                start: new Date(startTimestamp * 1000), 
-                end: new Date(endTimestamp * 1000) 
-            });
             
             updateFilters({
                 report_date: [startTimestamp, endTimestamp]
@@ -349,7 +342,7 @@ function App() {
 
     return (
         <div className={
-            'relative w-full h-screen font-flags bg-gray-100 dark:bg-gray-900'
+            'relative w-screen h-full font-flags bg-gray-100 dark:bg-gray-900'
         }>
             {/* Loading Overlay - Non-blocking */}
             {loading && (
@@ -392,7 +385,7 @@ function App() {
             />
 
             {/* Map Container */}
-            <div className="pt-14 sm:pt-16 h-full">
+            <div className="h-screen">
                 <MapContainer
                     data={filteredData}
                     onDrawCreated={drawCreatedRef}
@@ -415,6 +408,7 @@ function App() {
                 countriesMap={countriesMap}
                 regionsMap={regionsMap}
                 authors={authors}
+                filteredData={filteredData}
                 onApplyFilters={handleApplyFilters}
                 isOpen={filterSidebarOpen}
                 setIsOpen={setFilterSidebarOpen}

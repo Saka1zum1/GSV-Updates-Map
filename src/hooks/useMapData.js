@@ -29,7 +29,8 @@ export const useMapData = () => {
         poly: [],
         country: null,
         region: null,
-        camera: []
+        camera: [],
+        dateRange: null // 新增 dateRange 过滤器
     });
 
     // Map state
@@ -219,8 +220,15 @@ export const useMapData = () => {
                     filters.author.length === 0 ||
                     (item.author && filters.author.includes(item.author));
 
+                // Date range filter (year/month based)
+                const matchesDateRange = !filters.dateRange ||
+                    (!item.year && !item.month) ||
+                    (item.year >= filters.dateRange.fromYear && item.year <= filters.dateRange.toYear &&
+                     (item.year > filters.dateRange.fromYear || item.month >= filters.dateRange.fromMonth) &&
+                     (item.year < filters.dateRange.toYear || item.month <= filters.dateRange.toMonth));
+
                 return matchesType && inMonthRange && pointInPolygon &&
-                    matchesCountry && matchesRegion && inDateRange && matchesCamera && matchesAuthor;
+                    matchesCountry && matchesRegion && inDateRange && matchesCamera && matchesAuthor && matchesDateRange;
             });
 
             setFilteredData(filtered);
@@ -228,7 +236,7 @@ export const useMapData = () => {
             setError(err.message);
             console.error('Error applying filters:', err);
         }
-    }, [updateData, altitudeData, spotsData, filters.type, filters.country, filters.region, filters.camera, filters.author, filters.pano_date, mapMode]);
+    }, [updateData, altitudeData, spotsData, filters.type, filters.country, filters.region, filters.camera, filters.author, filters.pano_date, filters.dateRange, mapMode]);
 
     // Load data when date range or mode changes (but not on initial load)
     useEffect(() => {

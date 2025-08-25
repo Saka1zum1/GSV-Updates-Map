@@ -189,6 +189,11 @@ const MapContainer = ({
         gsvLayersRef.current.gsvLayer3.setUrl(gsv3Url);
 
         return () => {
+            markersRef.current.forEach(marker => {
+                if (marker.popupRoot) {
+                    marker.popupRoot.unmount();
+                }
+            });
             markersRef.current = [];
 
             if (mapInstanceRef.current) {
@@ -267,9 +272,7 @@ const MapContainer = ({
         }
 
         markersRef.current.forEach(marker => {
-            if (marker.popupRoot) {
-                marker.popupRoot.unmount();
-            }
+            // 只移除 marker，不做 popupRoot.unmount
             if (mapInstanceRef.current.hasLayer(marker)) {
                 mapInstanceRef.current.removeLayer(marker);
             }
