@@ -105,3 +105,37 @@
 .dark .air-datepicker-cell.today-cell:hover {
     background-color: #b45309 !important;
 }
+
+/* Calendar inline styling fixes */
+.air-datepicker-inline {
+    position: static !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+.air-datepicker-inline .air-datepicker {
+    position: static !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+/* Remove extra spacing */
+.air-datepicker--pointer {
+    display: none !important;
+}
+
+.air-datepicker-body {
+    padding: 8px 12px 12px 12px !important;
+}
+
+.air-datepicker-nav {
+    padding: 8px 12px !important;
+}

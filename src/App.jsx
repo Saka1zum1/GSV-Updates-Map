@@ -30,6 +30,7 @@ function App() {
     const [cluster, setCluster] = usePersistentState('cluster', true);
     const [isHeatmap, setIsHeatmap] = usePersistentState('isHeatmap', false);
     const [gsvOpacity, setGsvOpacity] = usePersistentState('gsvOpacity', 1);
+    const [calendarVisible, setCalendarVisible] = usePersistentState('calendarVisible', true);
 
     const handleOpacityChange = useCallback((value) => {
         setGsvOpacity(value);
@@ -386,6 +387,8 @@ function App() {
                 gsvOpacity={gsvOpacity}
                 onOpacityChange={handleOpacityChange}
                 onToggleFilterSidebar={() => setFilterSidebarOpen(open => !open)}
+                calendarVisible={calendarVisible}
+                onToggleCalendar={() => setCalendarVisible(prev => !prev)}
             />
 
             {/* Map Container */}
@@ -418,14 +421,16 @@ function App() {
             />
 
             {/* Compact Calendar Widget */}
-            <CompactCalendarWidget
-                isRangeMode={calendarState.isRangeMode}
-                currentView={calendarState.currentView}
-                selectedDates={getSelectedDates()}
-                onDateSelect={handleDateSelect}
-                onToggleMode={handleToggleCalendarMode}
-                onToggleView={handleToggleCalendarView}
-            />
+            {calendarVisible && (
+                <CompactCalendarWidget
+                    isRangeMode={calendarState.isRangeMode}
+                    currentView={calendarState.currentView}
+                    selectedDates={getSelectedDates()}
+                    onDateSelect={handleDateSelect}
+                    onToggleMode={handleToggleCalendarMode}
+                    onToggleView={handleToggleCalendarView}
+                />
+            )}
         </div>
     );
 }
