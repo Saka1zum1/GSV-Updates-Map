@@ -4,6 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom tooltip text sizes */
+@layer utilities {
+  .text-xxs {
+    font-size: 0.625rem; /* 10px */
+    line-height: 0.75rem; /* 12px */
+  }
+  
+  .text-xxxs {
+    font-size: 0.5rem; /* 8px */
+    line-height: 0.625rem; /* 10px */
+  }
+}
 
 @font-face {
     font-family: 'TwemojiCountryFlags';

@@ -1,28 +1,17 @@
-import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock } from 'lucide-react';
+import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock, Waves, Radar } from 'lucide-react';
 
 const MarkerPopup = ({ item }) => {
-    const { id, author, types, report_time, year, month, panoId, region, altitude, camera, spot_date} = item;
+    const { id, author, types, camera, report_time, spot_date, year, month, panoId, region, altitude, pinpoint } = item;
 
     // Handle types for both update_reports and spots data
     let typesList = [];
-    if (typeof types === 'string') {
-        try {
-            typesList = JSON.parse(types);
-            if (!Array.isArray(typesList)) {
-                typesList = types.split(',').map(t => t.trim()).filter(Boolean);
-            }
-        } catch {
-            typesList = types.split(',').map(t => t.trim()).filter(Boolean);
-        }
-    } else if (Array.isArray(types)) {
-        typesList = types;
-    }
+    if (types) typesList = JSON.parse(types);
 
     const localTime = report_time ? new Date(Number(report_time) * 1000).toLocaleString() : '';
     const panoDate = year && month ? new Date(year, month - 1).toLocaleString('en-US', { month: 'short', year: 'numeric' }) : '';
-    
+
     // Use different image sources based on data type
-    const imgUrl = spot_date ? 
+    const imgUrl = spot_date ?
         `https://cdn.whereisthegooglecar.com/images/${id}.webp` :
         `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`;
 
@@ -118,7 +107,7 @@ const MarkerPopup = ({ item }) => {
                 {/* Elevation */}
                 {altitude && (
                     <div className="flex items-center space-x-3">
-                        <Mountain className="w-4 h-4 text-gray-500" />
+                        {altitude > 0 ? <Mountain className="w-4 h-4 text-gray-500" /> : <Waves className="w-4 h-4 text-gray-500 rotate-180" />}
                         <span className="text-sm text-gray-600 dark:text-gray-300">{altitude}m</span>
                     </div>
                 )}
@@ -128,6 +117,13 @@ const MarkerPopup = ({ item }) => {
                     <div className="flex items-center space-x-3">
                         <User className="w-4 h-4 text-gray-500" />
                         <span className="text-sm text-gray-600 dark:text-gray-300">{author}</span>
+                    </div>
+                )}
+
+                {pinpoint && (
+                    <div className="flex items-center space-x-3">
+                        <Radar className="w-4 h-4 text-gray-500" />
+                        <span className="text-sm text-gray-600 dark:text-gray-300">{pinpoint}</span>
                     </div>
                 )}
 

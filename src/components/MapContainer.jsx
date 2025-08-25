@@ -21,6 +21,7 @@ import {
 } from '../utils/constants.js';
 import { createRoot } from 'react-dom/client';
 import MarkerPopup from './MarkerPopup.jsx';
+import { PanoramasLayer } from '../utils/PanoramasLayer.js';
 
 const MapContainer = ({
     data,
@@ -78,6 +79,9 @@ const MapContainer = ({
         const gsvLayer2 = L.tileLayer("", { pane: "coveragePane", opacity: gsvOpacity });
         const gsvLayer3 = L.tileLayer("", { pane: "coveragePane", opacity: gsvOpacity });
 
+        // Create GSV Zoom Coverage layer
+        const panoramasLayer = new PanoramasLayer({pane: "panoramasPane"});
+
         // Store references to GSV layers for opacity and color control
         gsvLayersRef.current = {
             gsvLayer,
@@ -124,10 +128,12 @@ const MapContainer = ({
         const overlayMaps = {
             "Google street view": gsvLayersRef.current.gsvLayer,
             "Google street view official only": gsvLayersRef.current.gsvLayer2,
-            "Google street view Unofficial only": gsvLayersRef.current.gsvLayer3
+            "Google street view unofficial only": gsvLayersRef.current.gsvLayer3,
+            "Show panoramas(Requires zoom 16+)": panoramasLayer
         };
 
         roadmapLayer.addTo(map);
+        panoramasLayer.addTo(map);
         gsvLayersRef.current.gsvLayer.addTo(map);
 
         // Add layer control
@@ -213,9 +219,9 @@ const MapContainer = ({
         const [backgroundcolor, borderColor] = colorOptions[selectedColor];
 
         // Generate new URLs with updated colors
-        const gsvUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`;
-        const gsv2Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
-        const gsv3Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.35`
+        const gsvUrl = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m16%212sen%213sUS%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212sp.c%3A${encodeURIComponent(backgroundcolor)}%2Cs.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.5`;
+        const gsv2Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e2*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212ss.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.5`
+        const gsv3Url = `https://maps.googleapis.com/maps/vt?pb=%211m5%211m4%211i{z}%212i{x}%213i{y}%214i256%212m8%211e2%212ssvv%214m2%211scc%212s*211m3*211e3*212b1*213e2*211m3*211e10*212b1*213e2*212b1*214b1%214m2%211ssvl%212s*212b1%213m17%212sen%213sUS%215e18%2112m4%211e68%212m2%211sset%212sRoadmap%2112m3%211e37%212m1%211ssmartmaps%2112m4%211e26%212m2%211sstyles%212sp.c%3A${encodeURIComponent(backgroundcolor)}%2Cs.e%3Ag.f%7Cp.c%3A${encodeURIComponent(backgroundcolor)}%7Cp.w%3A1%2Cs.e%3Ag.s%7Cp.c%3A${encodeURIComponent(borderColor)}%7Cp.w%3A3%215m1%215f1.5`
 
         // Update URLs for existing GSV layers
         const { gsvLayer, gsvLayer2, gsvLayer3 } = gsvLayersRef.current;
@@ -272,7 +278,6 @@ const MapContainer = ({
         }
 
         markersRef.current.forEach(marker => {
-            // 只移除 marker，不做 popupRoot.unmount
             if (mapInstanceRef.current.hasLayer(marker)) {
                 mapInstanceRef.current.removeLayer(marker);
             }

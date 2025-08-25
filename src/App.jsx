@@ -385,7 +385,7 @@ function App() {
             />
 
             {/* Map Container */}
-            <div className="h-screen">
+            <div className="h-screen pt-12 sm:pt-16">
                 <MapContainer
                     data={filteredData}
                     onDrawCreated={drawCreatedRef}

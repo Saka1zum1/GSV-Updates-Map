@@ -1,0 +1,36 @@
+/* Collapsible component styles */
+[data-scope="collapsible"] {
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+[data-scope="collapsible"][data-state="open"] {
+  height: var(--height, auto);
+  opacity: 1;
+}
+
+[data-scope="collapsible"][data-state="closed"] {
+  height: 0;
+  opacity: 0;
+}
+
+/* Smooth animation for content inside collapsible */
+[data-scope="collapsible"] > div {
+  transition: transform 0.3s ease-in-out;
+  will-change: transform;
+}
+
+[data-scope="collapsible"][data-state="open"] > div {
+  transform: translateY(0);
+}
+
+[data-scope="collapsible"][data-state="closed"] > div {
+  transform: translateY(-8px);
+}
+
+/* Additional animation refinements */
+[data-scope="collapsible"] {
+  transform-origin: top;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}

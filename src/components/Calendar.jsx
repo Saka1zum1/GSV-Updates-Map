@@ -144,7 +144,7 @@ const CalendarWidget = ({
 
     return (
         <div className="fixed top-16 sm:top-20 right-2 sm:right-4 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 
-                        w-80 sm:w-auto max-w-[calc(100vw-1rem)] overflow-hidden">
+                        w-72 sm:w-80 md:w-auto max-w-[calc(100vw-1rem)] max-h-[calc(100vh-5rem)] overflow-hidden">
             {/* Calendar controls */}
             <div className="flex bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
                 <button
@@ -164,7 +164,7 @@ const CalendarWidget = ({
             </div>
 
             {/* Calendar */}
-            <div className="calendar-container">
+            <div className="calendar-container overflow-hidden">
                 <div ref={calendarRef}></div>
             </div>
         </div>
