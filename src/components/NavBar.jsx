@@ -203,7 +203,10 @@ const TopNavBar = ({
                         {/* Export Dropdown */}
                         <div className="relative">
                             <button
-                                onClick={() => setShowExportMenu(!showExportMenu)}
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    setShowExportMenu(!showExportMenu);
+                                }}
                                 className="flex items-center space-x-1 lg:space-x-2 px-2 lg:px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
                                          rounded-lg transition-colors text-sm font-medium border border-transparent"
                             >
@@ -211,44 +214,6 @@ const TopNavBar = ({
                                 <span className="hidden xl:inline">Export</span>
                                 <ChevronDown size={16} className="hidden xl:inline" />
                             </button>
-
-                            {showExportMenu && (
-                                <div className="absolute right-0 top-full mt-1 bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 
-                                              min-w-48 z-[1200]">
-                                    <div className="py-1">
-                                        <button
-                                            onClick={() => {
-                                                onCopyJSON();
-                                                setShowExportMenu(false);
-                                            }}
-                                            className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
-                                        >
-                                            <Copy size={18} />
-                                            <span>Copy JSON to Clipboard</span>
-                                        </button>
-                                        <button
-                                            onClick={() => {
-                                                onDownloadJSON();
-                                                setShowExportMenu(false);
-                                            }}
-                                            className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
-                                        >
-                                            <Database size={18} />
-                                            <span>Download JSON File</span>
-                                        </button>
-                                        <button
-                                            onClick={() => {
-                                                onDownloadCSV();
-                                                setShowExportMenu(false);
-                                            }}
-                                            className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
-                                        >
-                                            <FileText size={18} />
-                                            <span>Download CSV File</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            )}
                         </div>
 
                         {/* Color Scheme */}
@@ -435,6 +400,49 @@ const TopNavBar = ({
                                 />
                                 <span className="text-xs w-10 text-center text-gray-700 dark:text-gray-200">{Math.round(gsvOpacity * 100)}%</span>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {/* Export Dropdown Menu - Rendered as sibling to backdrop for proper z-index layering */}
+            {showExportMenu && (
+                <div className="fixed top-[calc(3rem+1rem)] right-4 z-[1200] hidden xl:block">
+                    <div 
+                        className="bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 min-w-48 mr-[5.5rem]"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <div className="py-1">
+                            <button
+                                onClick={() => {
+                                    onCopyJSON();
+                                    setShowExportMenu(false);
+                                }}
+                                className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
+                            >
+                                <Copy size={18} />
+                                <span>Copy JSON to Clipboard</span>
+                            </button>
+                            <button
+                                onClick={() => {
+                                    onDownloadJSON();
+                                    setShowExportMenu(false);
+                                }}
+                                className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
+                            >
+                                <Database size={18} />
+                                <span>Download JSON File</span>
+                            </button>
+                            <button
+                                onClick={() => {
+                                    onDownloadCSV();
+                                    setShowExportMenu(false);
+                                }}
+                                className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
+                            >
+                                <FileText size={18} />
+                                <span>Download CSV File</span>
+                            </button>
                         </div>
                     </div>
                 </div>
