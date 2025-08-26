@@ -72,11 +72,12 @@ export const getIconType = (types) => {
 
 // Convert country code to flag emoji
 export const getFlagEmoji = (countryCode) => {
-    return countryCode
-        .toUpperCase()
-        .split('')
-        .map(char => String.fromCodePoint(0x1F1E6 - 65 + char.charCodeAt(0)))
-        .join('');
+    return countryCode ?
+        countryCode
+            .toUpperCase()
+            .split('')
+            .map(char => String.fromCodePoint(0x1F1E6 - 65 + char.charCodeAt(0)))
+            .join('') : '❌';
 };
 
 // Get current timestamp

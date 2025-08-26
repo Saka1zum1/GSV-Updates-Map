@@ -71,8 +71,7 @@ export const useMapData = () => {
         report_date: [getOneMonthAgoTimestamp(), getTimestamp()],
         type: [],
         poly: [],
-        countries: [],
-        regions: [],
+        countryandregion: {}, 
         camera: [],
         author: [],
         dateRange: null 
@@ -204,13 +203,16 @@ export const useMapData = () => {
                         intersect(filters.type, item.types ? JSON.parse(item.types) : [])
                 }
 
-                const matchesCountry = !filters.countries ||
-                    filters.countries.length === 0 ||
-                    (item.country && filters.countries.includes(item.country.toUpperCase()));
+                const matchesCountry = !filters.countryandregion ||
+                    Object.keys(filters.countryandregion).length === 0 ||
+                    (item.country && Object.keys(filters.countryandregion).includes(item.country.toUpperCase()));
 
-                const matchesRegion = !filters.regions ||
-                    filters.regions.length === 0 ||
-                    (item.region && filters.regions.includes(item.region));
+                const matchesRegion = !filters.countryandregion ||
+                    Object.keys(filters.countryandregion).length === 0 ||
+                    !item.region ||
+                    Object.values(filters.countryandregion).some(regions => 
+                        regions.includes(item.region)
+                    );
 
                 const pointInPolygon = filters.poly.length === 0 ||
                     filters.poly.some(polygon => {
@@ -255,7 +257,7 @@ export const useMapData = () => {
             setError(err.message);
             console.error('Error applying filters:', err);
         }
-    }, [updateData, altitudeData, spotsData, filters.type, filters.countries, filters.regions, filters.camera, filters.author, filters.dateRange, filters.poly, mapMode]);
+    }, [updateData, altitudeData, spotsData, filters.type, filters.countryandregion, filters.camera, filters.author, filters.dateRange, filters.poly, mapMode]);
 
     // Load data when date range or mode changes (but not on initial load)
     useEffect(() => {

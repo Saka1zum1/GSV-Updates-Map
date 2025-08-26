@@ -164,12 +164,15 @@ const FilterPanel = ({
 
         Object.entries(filteredCountriesMap).forEach(([countryCode, countryData]) => {
             // 添加国家选项
+            const selectedRegions = filters.countryandregion[countryCode] || [];
+            const isCountrySelected = Object.keys(filters.countryandregion).includes(countryCode);
+            
             options.push({
                 type: 'country',
                 code: countryCode,
                 name: countryData.name,
                 countryCode: countryCode,
-                isSelected: (filters.countries || []).includes(countryCode),
+                isSelected: isCountrySelected,
                 itemCount: locationItemCounts.countryCounts[countryCode] || 0
             });
 
@@ -181,7 +184,7 @@ const FilterPanel = ({
                     name: region.name,
                     countryCode: countryCode,
                     countryName: countryData.name,
-                    isSelected: (filters.regions || []).includes(region.code),
+                    isSelected: selectedRegions.includes(region.code),
                     itemCount: locationItemCounts.regionCounts[region.code] || 0
                 });
             });
@@ -450,7 +453,7 @@ const FilterPanel = ({
                             <AccordionSection
                                 title="Country & Region"
                                 icon={Globe}
-                                badge={(filters.countries?.length || 0) + (filters.regions?.length || 0) || null}
+                                badge={Object.keys(filters.countryandregion || {}).length + Object.values(filters.countryandregion || {}).reduce((total, regions) => total + regions.length, 0) || null}
                                 isExpanded={expandedSections.location}
                                 onToggle={() => toggleSection('location')}
                             >
@@ -477,27 +480,35 @@ const FilterPanel = ({
                                                 key={`${option.type}-${option.countryCode}-${option.code}`}
                                                 onClick={() => {
                                                     if (option.type === 'country') {
-                                                        const newCountries = option.isSelected
-                                                            ? (filters.countries || []).filter(c => c !== option.code)
-                                                            : [...(filters.countries || []), option.code];
-                                                        onUpdateFilters({
-                                                            countries: newCountries,
-                                                            // Clear regions that don't belong to selected countries
-                                                            regions: (filters.regions || []).filter(r =>
-                                                                newCountries.some(countryCode =>
-                                                                    countriesMap[countryCode]?.regions.some(region => region.code === r)
-                                                                )
-                                                            )
-                                                        });
+                                                        const newCountryAndRegion = { ...filters.countryandregion };
+                                                        if (option.isSelected) {
+                                                            // 移除整个国家及其地区
+                                                            delete newCountryAndRegion[option.code];
+                                                        } else {
+                                                            // 添加国家，初始化为空地区数组
+                                                            newCountryAndRegion[option.code] = [];
+                                                        }
+                                                        onUpdateFilters({ countryandregion: newCountryAndRegion });
                                                     } else {
-                                                        const newRegions = option.isSelected
-                                                            ? (filters.regions || []).filter(r => r !== option.code)
-                                                            : [...(filters.regions || []), option.code];
-                                                        onUpdateFilters({
-                                                            regions: newRegions,
-                                                            // Ensure parent country is selected
-                                                            countries: [...new Set([...(filters.countries || []), option.countryCode])]
-                                                        });
+                                                        const newCountryAndRegion = { ...filters.countryandregion };
+                                                        const countryCode = option.countryCode;
+                                                        
+                                                        // 确保国家存在
+                                                        if (!newCountryAndRegion[countryCode]) {
+                                                            newCountryAndRegion[countryCode] = [];
+                                                        }
+                                                        
+                                                        if (option.isSelected) {
+                                                            // 移除地区
+                                                            newCountryAndRegion[countryCode] = newCountryAndRegion[countryCode].filter(r => r !== option.code);
+                                                            // 如果地区数组为空，保留国家（只选择国家，不选择地区）
+                                                        } else {
+                                                            // 添加地区
+                                                            if (!newCountryAndRegion[countryCode].includes(option.code)) {
+                                                                newCountryAndRegion[countryCode].push(option.code);
+                                                            }
+                                                        }
+                                                        onUpdateFilters({ countryandregion: newCountryAndRegion });
                                                     }
                                                 }}
                                                 className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white dark:hover:bg-gray-600
@@ -538,28 +549,25 @@ const FilterPanel = ({
                                         )}
                                     </div>
 
-                                    {((filters.countries && filters.countries.length > 0) || (filters.regions && filters.regions.length > 0)) && (
+                                    {Object.keys(filters.countryandregion || {}).length > 0 && (
                                         <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-600">
-                                            {((filters.countries && filters.countries.length > 0) || (filters.regions && filters.regions.length > 0)) && (
-                                                <div className="mb-2 px-3 py-2 bg-blue-50 dark:bg-blue-900 rounded text-xs">
-                                                    <span className="text-blue-700 dark:text-blue-200">
-                                                        Selected:
-                                                        {filters.countries && filters.countries.map(countryCode =>
-                                                            countriesMap[countryCode]?.name || countryCode
-                                                        ).join(', ')}
-                                                        {filters.regions && filters.regions.length > 0 && (
-                                                            <>
-                                                                {filters.countries && filters.countries.length > 0 && ', '}
-                                                                {filters.regions.join(', ')}
-                                                            </>
-                                                        )}
-                                                    </span>
-                                                </div>
-                                            )}
+                                            <div className="mb-2 px-3 py-2 bg-blue-50 dark:bg-blue-900 rounded text-xs">
+                                                <span className="text-blue-700 dark:text-blue-200">
+                                                    Selected:
+                                                    {Object.entries(filters.countryandregion).map(([countryCode, regions]) => {
+                                                        const countryName = countriesMap[countryCode]?.name || countryCode;
+                                                        if (regions.length === 0) {
+                                                            return countryName;
+                                                        } else {
+                                                            return `${countryName} (${regions.join(', ')})`;
+                                                        }
+                                                    }).join('; ')}
+                                                </span>
+                                            </div>
 
                                             <button
                                                 onClick={() => {
-                                                    onUpdateFilters({ countries: [], regions: [] });
+                                                    onUpdateFilters({ countryandregion: {} });
                                                 }}
                                                 className="w-full px-3 py-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-900 rounded-lg 
                                                            transition-colors text-sm font-medium"

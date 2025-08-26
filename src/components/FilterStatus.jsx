@@ -104,26 +104,40 @@ const FilterStatus = ({
             });
         }
 
-        // Country filter
-        if (filters.countries && filters.countries.length > 0) {
-            const countryNames = filters.countries.map(code => countries[code] || code);
-            activeFilters.push({
-                id: 'countries',
-                type: 'location',
-                label: countryNames,
-                icon: Globe,
-                onRemove: () => onUpdateFilters({ countries: [] })
-            });
-        }
-
-        // Region filter
-        if (filters.regions && filters.regions.length > 0) {
-            activeFilters.push({
-                id: 'regions',
-                type: 'location',
-                label: filters.regions,
-                icon: MapPin,
-                onRemove: () => onUpdateFilters({ regions: [] })
+        // Country and Region filter (combined)
+        if (filters.countryandregion && Object.keys(filters.countryandregion).length > 0) {
+            Object.entries(filters.countryandregion).forEach(([countryCode, regions]) => {
+                const countryName = countries[countryCode] || countryCode;
+                
+                // Add country entry
+                activeFilters.push({
+                    id: `country-${countryCode}`,
+                    type: 'country',
+                    label: countryName,
+                    countryCode: countryCode,
+                    icon: Globe,
+                    onRemove: () => {
+                        const newCountryAndRegion = { ...filters.countryandregion };
+                        delete newCountryAndRegion[countryCode];
+                        onUpdateFilters({ countryandregion: newCountryAndRegion });
+                    }
+                });
+                
+                // Add region entries for this country
+                regions.forEach(regionCode => {
+                    activeFilters.push({
+                        id: `region-${regionCode}`,
+                        type: 'region',
+                        label: regionCode,
+                        countryCode: countryCode,
+                        icon: MapPin,
+                        onRemove: () => {
+                            const newCountryAndRegion = { ...filters.countryandregion };
+                            newCountryAndRegion[countryCode] = newCountryAndRegion[countryCode].filter(r => r !== regionCode);
+                            onUpdateFilters({ countryandregion: newCountryAndRegion });
+                        }
+                    });
+                });
             });
         }
 
@@ -213,56 +227,38 @@ const FilterStatus = ({
                             <div className="p-2 space-y-1">
                                 {activeFilters.map((filter) => {
                                     const IconComponent = filter.icon;
-                                    if (filter.id === 'countries' && Array.isArray(filter.label)) {
-                                        return filter.label.map((item, index) => (
+                                    
+                                    // Handle country and region filters with hierarchical display
+                                    if (filter.type === 'country' || filter.type === 'region') {
+                                        return (
                                             <div
-                                                key={`country-${item}`}
-                                                className="flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group"
+                                                key={filter.id}
+                                                className={`flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group ${
+                                                    filter.type === 'region' ? 'ml-4' : ''
+                                                }`}
                                             >
                                                 <div className="flex items-center gap-2 flex-1 min-w-0">
-                                                    <Globe className="w-4 h-4 text-gray-500" />
-                                                    <span className="font-flags text-base">{getFlagEmoji(filters.countries[index])}</span>
-                                                    <span className="text-sm text-gray-700 dark:text-gray-300 truncate">{item}</span>
+                                                    <IconComponent className="w-4 h-4 text-gray-500" />
+                                                    <span className="font-flags text-base">{getFlagEmoji(filter.countryCode)}</span>
+                                                    <span className="text-sm text-gray-700 dark:text-gray-300 truncate">
+                                                        {filter.label}
+                                                    </span>
                                                 </div>
                                                 <button
                                                     onClick={(e) => {
                                                         e.stopPropagation();
-                                                        const newCountries = filters.countries.filter((c, i) => i !== index);
-                                                        onUpdateFilters({ countries: newCountries });
+                                                        filter.onRemove();
                                                     }}
                                                     className="flex-shrink-0 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-all duration-200"
-                                                    title="Remove country filter"
+                                                    title={`Remove ${filter.type} filter`}
                                                 >
                                                     <X className="w-3 h-3" />
                                                 </button>
                                             </div>
-                                        ));
+                                        );
                                     }
-                                    if (filter.id === 'regions' && Array.isArray(filter.label)) {
-                                        return filter.label.map((item, index) => (
-                                            <div
-                                                key={`region-${item}`}
-                                                className="flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group"
-                                            >
-                                                <div className="flex items-center gap-2 flex-1 min-w-0">
-                                                    <MapPin className="w-4 h-4 text-gray-500" />
-                                                    <span className="text-sm text-gray-700 dark:text-gray-300 truncate">{item}</span>
-                                                </div>
-                                                <button
-                                                    onClick={(e) => {
-                                                        e.stopPropagation();
-                                                        const newRegions = filters.regions.filter((r, i) => i !== index);
-                                                        onUpdateFilters({ regions: newRegions });
-                                                    }}
-                                                    className="flex-shrink-0 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-all duration-200"
-                                                    title="Remove region filter"
-                                                >
-                                                    <X className="w-3 h-3" />
-                                                </button>
-                                            </div>
-                                        ));
-                                    }
-                                    // ...existing code...
+                                    
+                                    // Handle other filter types
                                     return (
                                         <div
                                             key={filter.id}
@@ -320,7 +316,7 @@ const FilterStatus = ({
                                                 className="flex-shrink-0 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-all duration-200"
                                                 title="Remove filter"
                                             >
-                                                { <X className="w-3 h-3" />}
+                                                <X className="w-3 h-3" />
                                             </button>}
                                         </div>
                                     );
@@ -336,8 +332,7 @@ const FilterStatus = ({
                                     onUpdateFilters({
                                         type: [],
                                         camera: [],
-                                        countries: [],
-                                        regions: [],
+                                        countryandregion: {},
                                         author: [],
                                         poly: [],
                                         pano_date: []
