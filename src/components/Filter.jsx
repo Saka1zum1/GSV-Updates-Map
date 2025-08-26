@@ -59,7 +59,7 @@ const FilterPanel = ({
         const types = updateTypes.filter(type => !allowedTypesInSpot.includes(type) ||
             ['smallcam', 'badcam', 'gen4trekker'].includes(type));
 
-        // �?item 数量降序排序
+        // item 数量降序排序
         return types.sort((a, b) => (typeItemCounts.typeCounts[b] || 0) - (typeItemCounts.typeCounts[a] || 0));
     };
 
@@ -133,14 +133,14 @@ const FilterPanel = ({
         }
     }, [filteredCountriesData.shouldExpand]);
 
-    // 利用regionsMap获取地区对应的国家信�?
+    // 利用regionsMap获取地区对应的国家信
     const getCountryForRegion = (regionCode) => {
         return regionsMap ? regionsMap[regionCode] : null;
     };
 
     // 智能地区选择处理 - 利用regionsMap自动设置国家
     const handleRegionSelect = (regionCode, countryCode) => {
-        // 使用regionsMap验证地区是否属于正确的国�?
+        // 使用regionsMap验证地区是否属于正确的国
         const expectedCountry = getCountryForRegion(regionCode);
         if (expectedCountry && expectedCountry !== countryCode) {
             countryCode = expectedCountry;
@@ -218,7 +218,7 @@ const FilterPanel = ({
         return counts;
     }, [filteredData]);
 
-    // 计算每个 update type �?camera type �?item 数量
+    // 计算每个 update type camera type item 数量
     const typeItemCounts = useMemo(() => {
         const typeCounts = {};
         const cameraCounts = {};
@@ -249,7 +249,7 @@ const FilterPanel = ({
 
 
 
-    // Camera types选项 - 按数量排�?
+    // Camera types
     const cameraTypes = [
         'gen1', 'gen2', 'gen3', 'gen4', 'gen4trekker', 'badcam', 'smallcam'
     ].sort((a, b) => (typeItemCounts.cameraCounts[b] || 0) - (typeItemCounts.cameraCounts[a] || 0));
@@ -545,7 +545,7 @@ const FilterPanel = ({
                                                         Selected: {countriesMap && countriesMap[filters.country] ? countriesMap[filters.country].name : filters.country}
                                                         {filters.region && (
                                                             <>
-                                                                {' �?'}
+                                                                {' '}
                                                                 {countriesMap && countriesMap[filters.country] ?
                                                                     countriesMap[filters.country].regions.find(r => r.code === filters.region)?.name || filters.region
                                                                     : filters.region
@@ -573,7 +573,7 @@ const FilterPanel = ({
 
                         {/* Author Filter */}
                         <AccordionSection
-                            title="Authors"
+                            title="Author"
                             icon={User}
                             badge={filters.author?.length || null}
                             isExpanded={expandedSections.author}
@@ -628,7 +628,7 @@ const FilterPanel = ({
                                             className="w-full px-3 py-2 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg 
                                                        transition-colors text-sm font-medium"
                                         >
-                                            Clear All Authors
+                                            Clear Author
                                         </button>
                                     </div>
                                 )}

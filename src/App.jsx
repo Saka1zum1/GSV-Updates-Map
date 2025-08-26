@@ -3,6 +3,7 @@ import usePersistentState from './hooks/usePersistentState.js';
 import MapContainer from './components/MapContainer.jsx';
 import TopNavBar from './components/NavBar.jsx';
 import FilterPanel from './components/Filter.jsx';
+import FilterStatus from './components/FilterStatus.jsx';
 import CompactCalendarWidget from './components/Calendar.jsx';
 import { FullScreenSpinner } from './components/Spinner.jsx';
 import { useMapData, useCalendar } from './hooks/useMapData.js';
@@ -397,6 +398,15 @@ function App() {
                     gsvOpacity={gsvOpacity}
                 />
             </div>
+
+            {/* Filter Status Widget */}
+            <FilterStatus
+                filteredData={filteredData}
+                filters={filters}
+                onUpdateFilters={updateFilters}
+                countries={countries}
+                regionsMap={regionsMap}
+            />
 
             {/* Left Sidebar Filter */}
             <FilterPanel

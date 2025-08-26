@@ -9,6 +9,54 @@ import {
     allowedTypesInSpot
 } from '../utils/constants.js';
 
+// Utility function to check if a point is inside a polygon
+const isPointInPolygon = (point, layer) => {
+    if (!point || !layer || !point.x || !point.y) return false;
+    
+    let coordinates = [];
+    
+    try {
+        // Extract coordinates from Leaflet layer
+        if (layer.getLatLngs) {
+            const latlngs = layer.getLatLngs();
+            if (Array.isArray(latlngs[0])) {
+                // Polygon with potentially multiple rings
+                coordinates = latlngs[0].map(coord => [coord.lng, coord.lat]);
+            } else {
+                // Simple polygon or rectangle
+                coordinates = latlngs.map(coord => [coord.lng, coord.lat]);
+            }
+        } else if (layer._latlngs) {
+            // Alternative way to get coordinates
+            const latlngs = Array.isArray(layer._latlngs[0]) ? layer._latlngs[0] : layer._latlngs;
+            coordinates = latlngs.map(coord => [coord.lng, coord.lat]);
+        }
+        
+        if (coordinates.length < 3) return false;
+        
+        // Ray casting algorithm for point in polygon
+        const x = point.x;
+        const y = point.y;
+        let inside = false;
+        
+        for (let i = 0, j = coordinates.length - 1; i < coordinates.length; j = i++) {
+            const xi = coordinates[i][0];
+            const yi = coordinates[i][1];
+            const xj = coordinates[j][0];
+            const yj = coordinates[j][1];
+            
+            if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) {
+                inside = !inside;
+            }
+        }
+        
+        return inside;
+    } catch (error) {
+        console.warn('Error in point-in-polygon calculation:', error);
+        return false;
+    }
+};
+
 // Hook for managing map data and filters
 export const useMapData = () => {
     const [updateData, setUpdateData] = useState([]);
@@ -171,8 +219,7 @@ export const useMapData = () => {
 
                 const pointInPolygon = filters.poly.length === 0 ||
                     filters.poly.some(polygon => {
-                        // Simplified polygon check - in real implementation use proper point-in-polygon algorithm
-                        return true;
+                        return isPointInPolygon(item.location, polygon);
                     });
 
                 // Check date range for both spot mode and regular mode
@@ -213,7 +260,7 @@ export const useMapData = () => {
             setError(err.message);
             console.error('Error applying filters:', err);
         }
-    }, [updateData, altitudeData, spotsData, filters.type, filters.country, filters.region, filters.camera, filters.author, filters.pano_date, filters.dateRange, mapMode]);
+    }, [updateData, altitudeData, spotsData, filters.type, filters.country, filters.region, filters.camera, filters.author, filters.pano_date, filters.dateRange, filters.poly, mapMode]);
 
     // Load data when date range or mode changes (but not on initial load)
     useEffect(() => {

@@ -86,7 +86,7 @@ const CalendarWidget = ({
                         const { countryCode } = matchingDates[randomIndex];
 
                         const cellStyle = 'display:flex;align-items:center;justify-content:center;width:24px;height:18px;';
-                        const todayStyle = isToday ? 'background-color:#fef3c7;border-radius:4px;' : '';
+                        const todayStyle = isToday ? 'background-color:none;border-radius:4px;' : '';
                         
                         if (countryCode.length !== 2) {
                             return {

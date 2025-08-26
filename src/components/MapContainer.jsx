@@ -44,6 +44,33 @@ const MapContainer = ({
     const drawControlRef = useRef(null);
     const gsvLayersRef = useRef({});
 
+    // Helper function to normalize coordinates for worldCopyJump
+    const normalizeLatLngs = (latlngs) => {
+        if (!Array.isArray(latlngs)) return latlngs;
+        
+        return latlngs.map(coordArray => {
+            if (Array.isArray(coordArray) && coordArray.length > 0 && Array.isArray(coordArray[0])) {
+                // Handle nested arrays (polygon with holes)
+                return coordArray.map(coord => normalizeCoord(coord));
+            } else {
+                // Handle simple coordinate array
+                return normalizeCoord(coordArray);
+            }
+        });
+    };
+
+    const normalizeCoord = (coord) => {
+        if (coord && typeof coord.lng !== 'undefined') {
+            // Normalize longitude to [-180, 180] range
+            let lng = coord.lng;
+            while (lng > 180) lng -= 360;
+            while (lng < -180) lng += 360;
+            
+            return L.latLng(coord.lat, lng);
+        }
+        return coord;
+    };
+
     // Initialize map (once only)
     useEffect(() => {
         if (!mapRef.current || mapInstanceRef.current) return;
@@ -172,6 +199,14 @@ const MapContainer = ({
         // Draw event handlers
         map.on(L.Draw.Event.CREATED, function (e) {
             const layer = e.layer;
+            
+            // Fix coordinates for worldCopyJump compatibility
+            if (layer instanceof L.Polygon || layer instanceof L.Rectangle) {
+                const latlngs = layer.getLatLngs();
+                const normalizedLatLngs = normalizeLatLngs(latlngs);
+                layer.setLatLngs(normalizedLatLngs);
+            }
+            
             drawnItemsRef.current.addLayer(layer);
             if (onDrawCreated && onDrawCreated.current) {
                 onDrawCreated.current(layer);
@@ -181,6 +216,12 @@ const MapContainer = ({
         map.on(L.Draw.Event.EDITED, function (e) {
             const layers = [];
             e.layers.eachLayer(function (layer) {
+                // Fix coordinates for edited layers
+                if (layer instanceof L.Polygon || layer instanceof L.Rectangle) {
+                    const latlngs = layer.getLatLngs();
+                    const normalizedLatLngs = normalizeLatLngs(latlngs);
+                    layer.setLatLngs(normalizedLatLngs);
+                }
                 layers.push(layer);
             });
             if (onDrawEdited && onDrawEdited.current) {
