@@ -151,35 +151,12 @@ export const useMapData = () => {
             const filtered = dataToFilter.filter(item => {
                 // Type filtering logic differs for spot mode vs regular mode
                 let matchesType;
-                if (mapMode.isSpot) {
-                    // For spot mode, only filter by update types, not camera types
-                    // Camera types are handled by the camera filter separately
-                    if (filters.type.length === 0) {
-                        matchesType = true;
-                    } else {
-                        const itemTypes = item.types ? 
-                            (typeof item.types === 'string' ? 
-                                (item.types.startsWith('[') ? JSON.parse(item.types) : [item.types]) : 
-                                item.types) : [];
-                        
-                        // Only check update types, exclude camera types (gen1, gen2, etc.)
-                        const updateTypesOnly = filters.type.filter(type => 
-                            !allowedTypesInSpot.includes(type)
-                        );
-                        
-                        if (updateTypesOnly.length === 0) {
-                            matchesType = true;
-                        } else {
-                            matchesType = intersect(updateTypesOnly, itemTypes.map(t => t.toLowerCase()));
-                        }
-                    }
-                } else if (mapMode.isPeak) {
+                if (mapMode.isSpot || mapMode.isPeak) {
                     matchesType = true; // Peak mode doesn't filter by type
                 } else {
                     // Regular update reports mode
                     matchesType = filters.type.length === 0 ||
-                        intersect(filters.type, item.types ? JSON.parse(item.types) : []) ||
-                        intersect(filters.type, item.camera ? [item.camera] : []);
+                        intersect(filters.type, item.types ? JSON.parse(item.types) : [])
                 }
 
                 const inMonthRange = mapMode.isSpot ||
@@ -213,7 +190,7 @@ export const useMapData = () => {
                 const matchesCamera = !mapMode.isSpot ||
                     !filters.camera ||
                     filters.camera.length === 0 ||
-                    (item.camera && filters.camera.includes(item.camera.toLowerCase()));
+                    intersect(filters.camera, item.camera ? [item.camera] : []);
 
                 // Author filter
                 const matchesAuthor = !filters.author ||
