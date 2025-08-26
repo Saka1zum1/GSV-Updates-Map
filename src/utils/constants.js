@@ -17,6 +17,7 @@ export const colorOptions = {
 
 // Special dates with country codes or special markers
 export const specialDates = {
+    '2025-08-25T17:06:00Z': 'cr',
     '2025-08-13T18:28:00Z': 'np',
     '2025-08-06T22:42:00Z': 'badcam',
     '2025-06-28T11:21:00Z': 'vn',
@@ -42,7 +43,7 @@ export const specialDates = {
     '2023-09-29T03:53:00Z': 'mc',
     '2023-08-01T03:10:00Z': 'il',
     '2023-07-24T20:03:00Z': 'de',
-    '2022-11-18T23:12:00Z': 'qa'
+    '2022-11-18T23:12:00Z': 'qa',
 };
 
 // Update types that are allowed in spot mode

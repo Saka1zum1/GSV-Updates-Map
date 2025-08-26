@@ -4,7 +4,6 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import 'leaflet-contextmenu/dist/leaflet.contextmenu.css';
-import 'leaflet-draw/dist/leaflet.draw-src.css';
 import '../styles/popup.css';
 
 // Import required Leaflet plugins
@@ -14,6 +13,7 @@ import 'leaflet-contextmenu';
 
 // Import the local leaflet-draw plugin
 import '../../public/leaflet-draw/leaflet.draw.js';
+import '../../public/leaflet-draw/leaflet.draw.css';
 
 import {
     getIconType,
@@ -83,7 +83,7 @@ const MapContainer = ({
         const gsvLayer3 = L.tileLayer("", { pane: "coveragePane", opacity: gsvOpacity });
 
         // Create GSV Zoom Coverage layer
-        const panoramasLayer = new PanoramasLayer({pane: "panoramasPane"});
+        const panoramasLayer = new PanoramasLayer({ pane: "panoramasPane" });
 
         // Store references to GSV layers for opacity and color control
         gsvLayersRef.current = {
@@ -143,27 +143,29 @@ const MapContainer = ({
         L.control.layers(baseMaps, overlayMaps, { position: "bottomleft" }).addTo(map);
 
         // Initialize Leaflet Draw
-        drawnItemsRef.current = new L.FeatureGroup().addTo(map);
-        
+        drawnItemsRef.current = new L.GeoJSON().addTo(map);
+
         const drawControl = new L.Control.Draw({
             position: 'bottomleft',
             draw: {
+                polyline: false,
+                marker: false,
+                circlemarker: false,
+                circle: false,
                 polygon: {
                     allowIntersection: false,
-                    showArea: true
+                    drawError: {
+                        color: '#e1e100',
+                        message:
+                            '<strong>Polygon draw does not allow intersections!<strong> (allowIntersection: false)',
+                    },
+                    shapeOptions: { color: '#5d8ce3' },
                 },
-                rectangle: true,
-                circle: false,
-                circlemarker: false,
-                marker: false,
-                polyline: false
+                rectangle: { shapeOptions: { color: '#5d8ce3' } },
             },
-            edit: {
-                featureGroup: drawnItemsRef.current,
-                remove: true
-            }
-        });
-        
+            edit: { featureGroup: drawnItemsRef.current },
+        })
+
         drawControlRef.current = drawControl;
         map.addControl(drawControl);
 
