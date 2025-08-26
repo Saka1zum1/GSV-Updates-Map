@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom tooltip text sizes */
+@layer utilities {
+  .text-xxs {
+    font-size: 0.625rem; /* 10px */
+    line-height: 0.75rem; /* 12px */
+  }
+  
+  .text-xxxs {
+    font-size: 0.5rem; /* 8px */
+    line-height: 0.625rem; /* 10px */
+  }
+}
+
+@font-face {
+    font-family: 'TwemojiCountryFlags';
+    src: url("https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/TwemojiCountryFlags.woff2") format("woff2");
+}
+
+body {
+    @apply font-sans;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Leaflet map styles */
+.leaflet-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom tooltip styles */
+.custom-tooltip {
+    @apply absolute z-50 bg-gray-800 text-white text-sm rounded px-2 py-1 whitespace-nowrap pointer-events-none opacity-0 transition-opacity duration-300;
+}
+
+.custom-tooltip.visible {
+    @apply opacity-100;
+}

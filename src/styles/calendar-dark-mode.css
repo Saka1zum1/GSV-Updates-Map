@@ -1,0 +1,132 @@
+/* Air Datepicker Dark Mode Styles */
+.dark .air-datepicker {
+    background: #1f2937 !important;
+    border: 1px solid #374151 !important;
+    color: #e5e7eb !important;
+}
+
+.dark .air-datepicker--navigation {
+    border-bottom: 1px solid #374151 !important;
+}
+
+.dark .air-datepicker-nav {
+    background: #1f2937 !important;
+    border-bottom: 1px solid #374151 !important;
+}
+
+.dark .air-datepicker-nav--title {
+    color: #e5e7eb !important;
+}
+
+.dark .air-datepicker-nav--action {
+    color: #9ca3af !important;
+}
+
+.dark .air-datepicker-nav--action:hover {
+    background: #374151 !important;
+    color: #e5e7eb !important;
+}
+
+.dark .air-datepicker-cell {
+    color: #e5e7eb !important;
+}
+
+.dark .air-datepicker-cell:hover {
+    background: #374151 !important;
+    color: #e5e7eb !important;
+}
+
+.dark .air-datepicker-cell.-current- {
+    background: #1d4ed8 !important;
+    color: #ffffff !important;
+}
+
+.dark .air-datepicker-cell.-selected- {
+    background: #2563eb !important;
+    color: #ffffff !important;
+}
+
+.dark .air-datepicker-cell.-selected-:hover {
+    background: #1d4ed8 !important;
+}
+
+.dark .air-datepicker-cell.-in-range- {
+    background: #3b82f6 !important;
+    color: #ffffff !important;
+}
+
+.dark .air-datepicker-cell.-range-from-,
+.dark .air-datepicker-cell.-range-to- {
+    background: #2563eb !important;
+    color: #ffffff !important;
+}
+
+.dark .air-datepicker-cell.-other-month- {
+    color: #6b7280 !important;
+}
+
+.dark .air-datepicker-cell.-disabled- {
+    color: #4b5563 !important;
+}
+
+.dark .air-datepicker--day-names {
+    background: #1f2937 !important;
+    border-bottom: 1px solid #374151 !important;
+}
+
+.dark .air-datepicker--day-name {
+    color: #9ca3af !important;
+}
+
+.dark .air-datepicker-body--day-names {
+    background: #1f2937 !important;
+}
+
+.dark .air-datepicker-body--cells {
+    background: #1f2937 !important;
+}
+
+/* Today cell styling */
+.air-datepicker-cell.today-cell {
+    background-color: #ead582 !important;
+    color: #1f2937 !important;
+    border-radius: 4px !important;
+}
+
+.dark .air-datepicker-cell.today-cell {
+    background-color: #d97706 !important;
+    border-radius: 4px !important;
+}
+
+.air-datepicker-cell.today-cell:hover {
+    background-color: #fde68a !important;
+}
+
+.dark .air-datepicker-cell.today-cell:hover {
+    background-color: #b45309 !important;
+}
+
+.calendar-container {
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-container .air-datepicker {
+    border: none !important;
+    border-radius: 0 0 8px 8px !important;
+    box-shadow: none !important;
+    min-width: auto;
+}
+
+.dark .calendar-container .air-datepicker {
+    border: none !important;
+    border-radius: 0 0 8px 8px !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 640px) {
+    .calendar-container .air-datepicker {
+        width: 100% !important;
+        min-width: auto !important;
+    }
+}

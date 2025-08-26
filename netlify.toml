@@ -1,5 +1,7 @@
 [build]
   functions = "functions"
+  command = "npm run build"
+  publish = "dist"
 
 [functions]
   node_bundler = "esbuild"
@@ -7,6 +9,10 @@
 
 [dev]
   functions = "functions"
+  command = "npm run dev:vite"
+  port = 8888
+  targetPort = 5173
+  framework = "#custom"
 
 [functions."*"]
   node_version = "18"
