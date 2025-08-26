@@ -167,12 +167,6 @@ const TopNavBar = ({
                             onClick={onToggleFilterSidebar}
                         />
                         <NavButton
-                            icon={Calendar}
-                            label="Calendar"
-                            isActive={calendarVisible}
-                            onClick={onToggleCalendar}
-                        />
-                        <NavButton
                             icon={Camera}
                             label="Spottings"
                             isActive={isSpot}
@@ -195,6 +189,12 @@ const TopNavBar = ({
                             label="Cluster"
                             isActive={isCluster}
                             onClick={onToggleCluster}
+                        />
+                        <NavButton
+                            icon={Calendar}
+                            label="Calendar"
+                            isActive={calendarVisible}
+                            onClick={onToggleCalendar}
                         />
                     </div>
 
@@ -408,7 +408,7 @@ const TopNavBar = ({
             {/* Export Dropdown Menu - Rendered as sibling to backdrop for proper z-index layering */}
             {showExportMenu && (
                 <div className="fixed top-[calc(3rem+1rem)] right-4 z-[1200] hidden xl:block">
-                    <div 
+                    <div
                         className="bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 min-w-48 mr-[5.5rem]"
                         onClick={(e) => e.stopPropagation()}
                     >

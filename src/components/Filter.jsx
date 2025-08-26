@@ -81,11 +81,11 @@ const FilterPanel = ({
     };
 
     const getFlagEmoji = (countryCode) => {
-        return countryCode
-            .toUpperCase()
-            .split('')
-            .map(char => String.fromCodePoint(0x1F1E6 - 65 + char.charCodeAt(0)))
-            .join('');
+        return countryCode ?
+            countryCode.toUpperCase()
+                .split('')
+                .map(char => String.fromCodePoint(0x1F1E6 - 65 + char.charCodeAt(0)))
+                .join('') : '❌';
     };
 
     // 过滤功能 - 使用countriesMap进行搜索，利用regionsMap优化显示
@@ -138,20 +138,6 @@ const FilterPanel = ({
         return regionsMap ? regionsMap[regionCode] : null;
     };
 
-    // 智能地区选择处理 - 利用regionsMap自动设置国家
-    const handleRegionSelect = (regionCode, countryCode) => {
-        // 使用regionsMap验证地区是否属于正确的国
-        const expectedCountry = getCountryForRegion(regionCode);
-        if (expectedCountry && expectedCountry !== countryCode) {
-            countryCode = expectedCountry;
-        }
-
-        onUpdateFilters({
-            country: countryCode,
-            region: filters.region === regionCode ? null : regionCode
-        });
-    };
-
     // 计算每个国家和地区在筛选后数据中的item数量
     const locationItemCounts = useMemo(() => {
         const countryCounts = {};
@@ -183,7 +169,7 @@ const FilterPanel = ({
                 code: countryCode,
                 name: countryData.name,
                 countryCode: countryCode,
-                isSelected: filters.country === countryCode && !filters.region,
+                isSelected: (filters.countries || []).includes(countryCode),
                 itemCount: locationItemCounts.countryCounts[countryCode] || 0
             });
 
@@ -195,7 +181,7 @@ const FilterPanel = ({
                     name: region.name,
                     countryCode: countryCode,
                     countryName: countryData.name,
-                    isSelected: filters.region === region.code,
+                    isSelected: (filters.regions || []).includes(region.code),
                     itemCount: locationItemCounts.regionCounts[region.code] || 0
                 });
             });
@@ -464,7 +450,7 @@ const FilterPanel = ({
                             <AccordionSection
                                 title="Country & Region"
                                 icon={Globe}
-                                badge={filters.country ? '1' : null}
+                                badge={(filters.countries?.length || 0) + (filters.regions?.length || 0) || null}
                                 isExpanded={expandedSections.location}
                                 onToggle={() => toggleSection('location')}
                             >
@@ -491,12 +477,27 @@ const FilterPanel = ({
                                                 key={`${option.type}-${option.countryCode}-${option.code}`}
                                                 onClick={() => {
                                                     if (option.type === 'country') {
+                                                        const newCountries = option.isSelected
+                                                            ? (filters.countries || []).filter(c => c !== option.code)
+                                                            : [...(filters.countries || []), option.code];
                                                         onUpdateFilters({
-                                                            country: option.isSelected ? null : option.code,
-                                                            region: null
+                                                            countries: newCountries,
+                                                            // Clear regions that don't belong to selected countries
+                                                            regions: (filters.regions || []).filter(r =>
+                                                                newCountries.some(countryCode =>
+                                                                    countriesMap[countryCode]?.regions.some(region => region.code === r)
+                                                                )
+                                                            )
                                                         });
                                                     } else {
-                                                        handleRegionSelect(option.code, option.countryCode);
+                                                        const newRegions = option.isSelected
+                                                            ? (filters.regions || []).filter(r => r !== option.code)
+                                                            : [...(filters.regions || []), option.code];
+                                                        onUpdateFilters({
+                                                            regions: newRegions,
+                                                            // Ensure parent country is selected
+                                                            countries: [...new Set([...(filters.countries || []), option.countryCode])]
+                                                        });
                                                     }
                                                 }}
                                                 className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white dark:hover:bg-gray-600
@@ -537,19 +538,19 @@ const FilterPanel = ({
                                         )}
                                     </div>
 
-                                    {(filters.country || filters.region) && (
+                                    {((filters.countries && filters.countries.length > 0) || (filters.regions && filters.regions.length > 0)) && (
                                         <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-600">
-                                            {filters.region && regionsMap && (
+                                            {((filters.countries && filters.countries.length > 0) || (filters.regions && filters.regions.length > 0)) && (
                                                 <div className="mb-2 px-3 py-2 bg-blue-50 dark:bg-blue-900 rounded text-xs">
                                                     <span className="text-blue-700 dark:text-blue-200">
-                                                        Selected: {countriesMap && countriesMap[filters.country] ? countriesMap[filters.country].name : filters.country}
-                                                        {filters.region && (
+                                                        Selected:
+                                                        {filters.countries && filters.countries.map(countryCode =>
+                                                            countriesMap[countryCode]?.name || countryCode
+                                                        ).join(', ')}
+                                                        {filters.regions && filters.regions.length > 0 && (
                                                             <>
-                                                                {' '}
-                                                                {countriesMap && countriesMap[filters.country] ?
-                                                                    countriesMap[filters.country].regions.find(r => r.code === filters.region)?.name || filters.region
-                                                                    : filters.region
-                                                                }
+                                                                {filters.countries && filters.countries.length > 0 && ', '}
+                                                                {filters.regions.join(', ')}
                                                             </>
                                                         )}
                                                     </span>
@@ -558,7 +559,7 @@ const FilterPanel = ({
 
                                             <button
                                                 onClick={() => {
-                                                    onUpdateFilters({ country: null, region: null });
+                                                    onUpdateFilters({ countries: [], regions: [] });
                                                 }}
                                                 className="w-full px-3 py-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-900 rounded-lg 
                                                            transition-colors text-sm font-medium"
