@@ -208,11 +208,10 @@ export const useMapData = () => {
                     (item.country && Object.keys(filters.countryandregion).includes(item.country.toUpperCase()));
 
                 const matchesRegion = !filters.countryandregion ||
-                    Object.keys(filters.countryandregion).length === 0 ||
-                    !item.region ||
-                    Object.values(filters.countryandregion).some(regions => 
-                        regions.includes(item.region)
-                    );
+                      Object.keys(filters.countryandregion).length === 0 ||
+                      !item.region || 
+                      Object.values(filters.countryandregion).every(regions => regions.length === 0) || // 如果所有国家的 region 都为空，则不过滤 region
+                      Object.values(filters.countryandregion).some(regions => regions.includes(item.region));
 
                 const pointInPolygon = filters.poly.length === 0 ||
                     filters.poly.some(polygon => {
