@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { X, Calendar, MapPin, Camera, User, Shapes } from 'lucide-react';
-import { getOneMonthAgoTimestamp, getTimestamp } from '../utils/constants.js';
+import { X, Calendar, MapPin, Camera, User, Shapes, Globe } from 'lucide-react';
+import { getOneMonthAgoTimestamp, getTimestamp, getFlagEmoji } from '../utils/constants.js';
 
-const FilterStatus = ({ 
-    filteredData = [], 
-    filters = {}, 
-    onUpdateFilters, 
-    countries = {}, 
-    regionsMap = {} 
+const FilterStatus = ({
+    filteredData = [],
+    filters = {},
+    onUpdateFilters,
+    countries = {},
+    mapMode = {}
 }) => {
     const [isExpanded, setIsExpanded] = useState(false);
     const dropdownRef = useRef(null);
@@ -35,14 +35,15 @@ const FilterStatus = ({
             const startDate = new Date(filters.report_date[0] * 1000);
             const endDate = new Date(filters.report_date[1] * 1000);
             const isSameMonth = startDate.getMonth() === endDate.getMonth() && startDate.getFullYear() === endDate.getFullYear();
-            
+
+            const userLocale = navigator.language || 'default';
             let dateLabel;
             if (isSameMonth) {
-                dateLabel = `Report Date: ${startDate.toLocaleDateString('en-US', {month: 'short', year: 'numeric' })}`;
+                dateLabel = `Report Date: ${startDate.toLocaleDateString(userLocale, { day: 'numeric', month: 'numeric', year: 'numeric' })}`;
             } else {
-                dateLabel = `Report Date: ${startDate.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })} - ${endDate.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}`;
+                dateLabel = `Report Date: ${startDate.toLocaleDateString(userLocale, { day: 'numeric', month: 'numeric', year: 'numeric' })} ~ ${endDate.toLocaleDateString(userLocale, { day: 'numeric', month: 'numeric', year: 'numeric' })}`;
             }
-            
+
             activeFilters.push({
                 id: 'report_date',
                 type: 'date',
@@ -59,17 +60,18 @@ const FilterStatus = ({
         if (filters.dateRange) {
             const { fromYear, fromMonth, toYear, toMonth } = filters.dateRange;
             let label = '';
+            const userLocale = navigator.language || 'default';
             if (fromYear && fromMonth && toYear && toMonth) {
                 const fromDate = new Date(fromYear, fromMonth - 1);
                 const toDate = new Date(toYear, toMonth - 1);
                 if (fromYear === toYear && fromMonth === toMonth) {
-                    label = fromDate.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+                    label = fromDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' });
                 } else {
-                    label = `${fromDate.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })} - ${toDate.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}`;
+                    label = `${fromDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' })} - ${toDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' })}`;
                 }
             } else if (fromYear && fromMonth) {
                 const fromDate = new Date(fromYear, fromMonth - 1);
-                label = fromDate.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+                label = fromDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' });
             }
             activeFilters.push({
                 id: 'coverage_date',
@@ -103,25 +105,25 @@ const FilterStatus = ({
         }
 
         // Country filter
-        if (filters.country) {
-            const countryName = countries[filters.country] || filters.country;
+        if (filters.countries && filters.countries.length > 0) {
+            const countryNames = filters.countries.map(code => countries[code] || code);
             activeFilters.push({
-                id: 'country',
+                id: 'countries',
                 type: 'location',
-                label: `Country: ${countryName}`,
-                icon: MapPin,
-                onRemove: () => onUpdateFilters({ country: null })
+                label: countryNames,
+                icon: Globe,
+                onRemove: () => onUpdateFilters({ countries: [] })
             });
         }
 
         // Region filter
-        if (filters.region) {
+        if (filters.regions && filters.regions.length > 0) {
             activeFilters.push({
-                id: 'region',
+                id: 'regions',
                 type: 'location',
-                label: `Region: ${filters.region}`,
+                label: filters.regions,
                 icon: MapPin,
-                onRemove: () => onUpdateFilters({ region: null })
+                onRemove: () => onUpdateFilters({ regions: [] })
             });
         }
 
@@ -160,19 +162,25 @@ const FilterStatus = ({
                 onClick={() => setIsExpanded(!isExpanded)}
                 className={`
                     flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg shadow-lg transition-all duration-200
-                    ${hasActiveFilters 
-                        ? 'bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-green-600 dark:text-white' 
+                    ${hasActiveFilters
+                        ? 'bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-blue-600 dark:text-white'
                         : 'bg-white hover:bg-gray-50 text-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200'
                     }
                 `}
             >
-                
+
                 {hasActiveFilters && (
                     <span className="bg-white bg-opacity-40 px-1 sm:px-1.5 py-0.5 rounded text-xs font-medium">
                         {activeFilters.length}
                     </span>
                 )}
-                
+                <span className="font-medium text-sm">
+                    {filteredData.length.toLocaleString()}
+                </span>
+
+                <span className="text-xs text-white-600 dark:text-white-400">
+                    {mapMode.isSpot ? 'spotting' : 'location'}{filteredData.length === 1 ? '' : 's'}
+                </span>
                 <svg
                     className={`w-3 h-3 transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
                     fill="none"
@@ -205,6 +213,56 @@ const FilterStatus = ({
                             <div className="p-2 space-y-1">
                                 {activeFilters.map((filter) => {
                                     const IconComponent = filter.icon;
+                                    if (filter.id === 'countries' && Array.isArray(filter.label)) {
+                                        return filter.label.map((item, index) => (
+                                            <div
+                                                key={`country-${item}`}
+                                                className="flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group"
+                                            >
+                                                <div className="flex items-center gap-2 flex-1 min-w-0">
+                                                    <Globe className="w-4 h-4 text-gray-500" />
+                                                    <span className="font-flags text-base">{getFlagEmoji(filters.countries[index])}</span>
+                                                    <span className="text-sm text-gray-700 dark:text-gray-300 truncate">{item}</span>
+                                                </div>
+                                                <button
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        const newCountries = filters.countries.filter((c, i) => i !== index);
+                                                        onUpdateFilters({ countries: newCountries });
+                                                    }}
+                                                    className="flex-shrink-0 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-all duration-200"
+                                                    title="Remove country filter"
+                                                >
+                                                    <X className="w-3 h-3" />
+                                                </button>
+                                            </div>
+                                        ));
+                                    }
+                                    if (filter.id === 'regions' && Array.isArray(filter.label)) {
+                                        return filter.label.map((item, index) => (
+                                            <div
+                                                key={`region-${item}`}
+                                                className="flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group"
+                                            >
+                                                <div className="flex items-center gap-2 flex-1 min-w-0">
+                                                    <MapPin className="w-4 h-4 text-gray-500" />
+                                                    <span className="text-sm text-gray-700 dark:text-gray-300 truncate">{item}</span>
+                                                </div>
+                                                <button
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        const newRegions = filters.regions.filter((r, i) => i !== index);
+                                                        onUpdateFilters({ regions: newRegions });
+                                                    }}
+                                                    className="flex-shrink-0 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-all duration-200"
+                                                    title="Remove region filter"
+                                                >
+                                                    <X className="w-3 h-3" />
+                                                </button>
+                                            </div>
+                                        ));
+                                    }
+                                    // ...existing code...
                                     return (
                                         <div
                                             key={filter.id}
@@ -254,17 +312,16 @@ const FilterStatus = ({
                                                     </>
                                                 )}
                                             </div>
-                                            <button
+                                            {filter.id != 'report_date' && <button
                                                 onClick={(e) => {
-                                                    if(filter.id==='report_date') return;
                                                     e.stopPropagation();
                                                     filter.onRemove();
                                                 }}
                                                 className="flex-shrink-0 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-all duration-200"
                                                 title="Remove filter"
                                             >
-                                                {filter.id!='report_date'&&<X className="w-3 h-3" />}
-                                            </button>
+                                                { <X className="w-3 h-3" />}
+                                            </button>}
                                         </div>
                                     );
                                 })}
@@ -279,8 +336,8 @@ const FilterStatus = ({
                                     onUpdateFilters({
                                         type: [],
                                         camera: [],
-                                        country: null,
-                                        region: null,
+                                        countries: [],
+                                        regions: [],
                                         author: [],
                                         poly: [],
                                         pano_date: []

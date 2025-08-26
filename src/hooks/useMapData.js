@@ -1,12 +1,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { loadTableData, loadCountriesData } from '../utils/api.js';
 import {
-    getMonthTimestamp,
     getOneMonthAgoTimestamp,
     intersect,
-    monthInRange,
     getTimestamp,
-    allowedTypesInSpot
 } from '../utils/constants.js';
 
 // Utility function to check if a point is inside a polygon
@@ -73,12 +70,12 @@ export const useMapData = () => {
     const [filters, setFilters] = useState({
         report_date: [getOneMonthAgoTimestamp(), getTimestamp()],
         type: [],
-        pano_date: [],
         poly: [],
-        country: null,
-        region: null,
+        countries: [],
+        regions: [],
         camera: [],
-        dateRange: null // 新增 dateRange 过滤器
+        author: [],
+        dateRange: null 
     });
 
     // Map state
@@ -207,15 +204,13 @@ export const useMapData = () => {
                         intersect(filters.type, item.types ? JSON.parse(item.types) : [])
                 }
 
-                const inMonthRange = mapMode.isSpot ||
-                    filters.pano_date.length === 0 ||
-                    monthInRange(item, filters.pano_date);
+                const matchesCountry = !filters.countries ||
+                    filters.countries.length === 0 ||
+                    (item.country && filters.countries.includes(item.country.toUpperCase()));
 
-                const matchesCountry = !filters.country ||
-                    item.country === filters.country.toUpperCase();
-
-                const matchesRegion = !filters.region ||
-                    filters.region === item.region;
+                const matchesRegion = !filters.regions ||
+                    filters.regions.length === 0 ||
+                    (item.region && filters.regions.includes(item.region));
 
                 const pointInPolygon = filters.poly.length === 0 ||
                     filters.poly.some(polygon => {
@@ -251,7 +246,7 @@ export const useMapData = () => {
                      (item.year > filters.dateRange.fromYear || item.month >= filters.dateRange.fromMonth) &&
                      (item.year < filters.dateRange.toYear || item.month <= filters.dateRange.toMonth));
 
-                return matchesType && inMonthRange && pointInPolygon &&
+                return matchesType && pointInPolygon &&
                     matchesCountry && matchesRegion && inDateRange && matchesCamera && matchesAuthor && matchesDateRange;
             });
 
@@ -260,7 +255,7 @@ export const useMapData = () => {
             setError(err.message);
             console.error('Error applying filters:', err);
         }
-    }, [updateData, altitudeData, spotsData, filters.type, filters.country, filters.region, filters.camera, filters.author, filters.pano_date, filters.dateRange, filters.poly, mapMode]);
+    }, [updateData, altitudeData, spotsData, filters.type, filters.countries, filters.regions, filters.camera, filters.author, filters.dateRange, filters.poly, mapMode]);
 
     // Load data when date range or mode changes (but not on initial load)
     useEffect(() => {

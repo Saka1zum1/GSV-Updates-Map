@@ -129,7 +129,7 @@ const MapContainer = ({
             ],
             center: [0, 0],
             zoom: 2,
-            preferCanvas: false,
+            preferCanvas: true,
             zoomControl: false,
             worldCopyJump: false,
             attributionControl: false,

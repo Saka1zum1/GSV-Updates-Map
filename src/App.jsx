@@ -8,6 +8,7 @@ import CompactCalendarWidget from './components/Calendar.jsx';
 import { FullScreenSpinner } from './components/Spinner.jsx';
 import { useMapData, useCalendar } from './hooks/useMapData.js';
 import { colorOptions } from './utils/constants.js';
+import { X } from 'lucide-react';
 
 function App() {
     const {
@@ -22,6 +23,8 @@ function App() {
         updateFilters,
         updateMapMode
     } = useMapData();
+
+    const [errorVisible, setErrorVisible] = useState(true);
 
     const { calendarState, updateCalendarState } = useCalendar();
 
@@ -114,10 +117,11 @@ function App() {
                 tags: [
                     item.country || null,
                     item.author || null,
+                    item.camera || null,
                     `${months[(item.month) - 1]} ${item.year}` || null,
                     ...(() => {
                         try {
-                            return JSON.parse(item.types || item.camera);
+                            return JSON.parse(item.types);
                         } catch {
                             return [];
                         }
@@ -355,9 +359,16 @@ function App() {
             )}
 
             {/* Error Notification */}
-            {error && (
-                <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-50 bg-red-100 dark:bg-red-900 border border-red-400 dark:border-red-600 text-red-700 dark:text-red-300 px-4 py-3 rounded shadow-lg">
-                    <p>Error: {error}</p>
+            {error && errorVisible && (
+                <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-50 bg-red-100 dark:bg-red-900 border border-red-400 dark:border-red-600 text-red-700 dark:text-red-300 px-4 py-3 rounded shadow-lg flex items-center gap-3">
+                    <p className="flex-1">Error: {error}</p>
+                    <button
+                        onClick={() => setErrorVisible(false)}
+                        className="rounded-full hover:bg-red-200 dark:hover:bg-red-800 text-red-700 dark:text-red-300"
+                        title="Close"
+                    >
+                        <X className="absolute w-4 h-4 top-1 right-1" />
+                    </button>
                 </div>
             )}
 
@@ -405,7 +416,7 @@ function App() {
                 filters={filters}
                 onUpdateFilters={updateFilters}
                 countries={countries}
-                regionsMap={regionsMap}
+                mapMode={mapMode}
             />
 
             {/* Left Sidebar Filter */}
