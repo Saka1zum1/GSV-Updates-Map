@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Search, X, MapPin, Loader2, Navigation, AlertCircle } from 'lucide-react';
 import Spinner from './Spinner.jsx';
 import { getFlagEmoji } from '../utils/constants.js';
+import { geocode, queryByLocation } from '../utils/api.js';
 import usePersistentState from '../hooks/usePersistentState.js';
 
 const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
@@ -41,90 +42,31 @@ const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
     }, [searchQuery, isOpen]);
 
     const performSearch = async (query) => {
-        // Check if query is coordinates (lat,lng format)
-        const coordMatch = query.match(/^(-?\d+\.?\d*),\s*(-?\d+\.?\d*)$/);
-        if (coordMatch) {
-            const lat = parseFloat(coordMatch[1]);
-            const lng = parseFloat(coordMatch[2]);
-
-            if (lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
-                setSearchResults([{
-                    id: 'coordinates',
-                    display_name: `Coordinates: ${lat}, ${lng}`,
-                    lat: lat,
-                    lon: lng,
-                    countryCode: null,
-                    type: 'coordinates'
-                }]);
-                return;
-            }
-        }
-
         setIsLoading(true);
         try {
-            // Get user's preferred language
-            const userLanguage = navigator.language || navigator.languages?.[0] || 'en';
-
-            // Use Nominatim reverse geocoding service
-            const response = await fetch(
-                `https://nominatim.openstreetmap.org/search?` +
-                `q=${encodeURIComponent(query)}&` +
-                `format=json&` +
-                `addressdetails=1&` +
-                `limit=5&` +
-                `extratags=1&` +
-                `accept-language=${userLanguage}`
-            );
-
-            if (response.ok) {
-                const data = await response.json();
-                const results = data.map((item, index) => ({
-                    id: `${item.place_id || index}`,
-                    display_name: item.display_name,
-                    lat: parseFloat(item.lat),
-                    lon: parseFloat(item.lon),
-                    countryCode: item.address?.country_code?.toUpperCase(),
-                    type: item.type || 'place',
-                    importance: item.importance || 0
-                }));
-
-                // Sort by importance
-                results.sort((a, b) => (b.importance || 0) - (a.importance || 0));
-                setSearchResults(results);
-            }
+            const results = await geocode(query);
+            setSearchResults(results);
         } catch (error) {
             console.error('Search error:', error);
             setSearchResults([]);
         } finally {
             setIsLoading(false);
         }
-    };
-
-    const handleLocationSelect = async (result) => {
+    };    const handleLocationSelect = async (result) => {
         setSelectedResult(result);
 
         try {
-            // Call the queryByLocation function
-            const response = await fetch(
-                `/.netlify/functions/queryByLocation?` +
-                `lat=${result.lat}&` +
-                `lng=${result.lon}&` +
-                `radius=${searchRadius}`
-            );
-
-            if (response.ok) {
-                const data = await response.json();
-                onLocationSelect({
-                    location: result,
-                    radius: searchRadius,
-                    data: data.data,
-                    coordinates: { lat: result.lat, lng: result.lon }
-                });
-                onClose();
-                resetForm();
-            } else {
-                console.error('Query failed:', response.statusText);
-            }
+            // Call the queryByLocation function using the API util
+            const data = await queryByLocation(result.lat, result.lon, searchRadius);
+            
+            onLocationSelect({
+                location: result,
+                radius: searchRadius,
+                data: data.data,
+                coordinates: { lat: result.lat, lng: result.lon }
+            });
+            onClose();
+            resetForm();
         } catch (error) {
             console.error('Location query error:', error);
         }

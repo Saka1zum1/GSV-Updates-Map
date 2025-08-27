@@ -8,6 +8,7 @@ import CompactCalendarWidget from './components/Calendar.jsx';
 import { FullScreenSpinner } from './components/Spinner.jsx';
 import { useMapData, useCalendar } from './hooks/useMapData.js';
 import { colorOptions } from './utils/constants.js';
+import { queryByLocation, reverseGeocode } from './utils/api.js';
 import { X } from 'lucide-react';
 
 function App() {
@@ -63,41 +64,36 @@ function App() {
         if (!searchResult) return;
 
         try {
-            // Query data at new location
-            const response = await fetch(
-                `/.netlify/functions/queryByLocation?` +
-                `lat=${newLat}&` +
-                `lng=${newLng}&` +
-                `radius=${searchResult.radius}`
-            );
+            // 1. Reverse geocode 获取新地名和国家代码
+            const geoData = await reverseGeocode(newLat, newLng);
 
-            if (response.ok) {
-                const data = await response.json();
+            // 2. 查询新位置的数据
+            const data = await queryByLocation(newLat, newLng, searchResult.radius);
 
-                // Update search result with new location and data
-                const updatedSearchResult = {
-                    ...searchResult,
-                    coordinates: { lat: newLat, lng: newLng },
-                    data: data.data,
-                    location: {
-                        ...searchResult.location,
-                        display_name: `${newLat.toFixed(6)}, ${newLng.toFixed(6)}`
-                    }
-                };
+            // 3. 更新 searchResult
+            const updatedSearchResult = {
+                ...searchResult,
+                coordinates: { lat: newLat, lng: newLng },
+                data: data.data,
+                location: {
+                    ...searchResult.location,
+                    display_name: geoData.display_name,
+                    countryCode: geoData.countryCode
+                }
+            };
 
-                setSearchResult(updatedSearchResult);
+            setSearchResult(updatedSearchResult);
 
-                // Update filters
-                updateFilters({
-                    search: {
-                        address: updatedSearchResult.location.display_name,
-                        lat: newLat,
-                        lng: newLng,
-                        radius: searchResult.radius,
-                        countryCode: searchResult.location?.countryCode || null,
-                    }
-                });
-            }
+            // 4. 更新 filters
+            updateFilters({
+                search: {
+                    address: geoData.display_name,
+                    lat: newLat,
+                    lng: newLng,
+                    radius: searchResult.radius,
+                    countryCode: geoData.countryCode
+                }
+            });
         } catch (error) {
             console.error('Failed to update search location:', error);
         }
@@ -421,7 +417,7 @@ function App() {
             {/* Loading Overlay - Non-blocking */}
             {loading && (
                 <FullScreenSpinner
-                    title={mapMode.isSpot ? "Loading google street view car spottings..." :
+                    title={mapMode.isSpot ? "Loading Google Street View car spottings..." :
                         mapMode.isPeak ? "Loading peak locations" : "Loading google street view updates..."}
                     subtitle="Please wait while we fetching data"
                     color="blue"

@@ -74,3 +74,126 @@ export const loadCountriesData = async () => {
     return {};
   }
 };
+
+// Query data by location
+export const queryByLocation = async (lat, lng, radius) => {
+  try {
+    const response = await fetch(
+      `/.netlify/functions/queryByLocation?` +
+      `lat=${lat}&lng=${lng}&radius=${radius}`
+    );
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    
+    if (data.error) {
+      throw new Error(data.error);
+    }
+    
+    return data;
+  } catch (error) {
+    console.error('Error querying by location:', error);
+    throw error;
+  }
+};
+
+// Reverse geocode coordinates to get address and country info
+export const reverseGeocode = async (lat, lng, language = null) => {
+  try {
+    const userLanguage = language || navigator.language || navigator.languages?.[0] || 'en';
+    
+    const response = await fetch(
+      `https://nominatim.openstreetmap.org/reverse?` +
+      `lat=${lat}&lon=${lng}&format=json&addressdetails=1&accept-language=${userLanguage}`
+    );
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    
+    return {
+      display_name: data.display_name || `${lat.toFixed(6)}, ${lng.toFixed(6)}`,
+      countryCode: data.address?.country_code?.toUpperCase() || null,
+      country: data.address?.country || null,
+      city: data.address?.city || data.address?.town || data.address?.village || null,
+      state: data.address?.state || null,
+      raw: data
+    };
+  } catch (error) {
+    console.error('Error in reverse geocoding:', error);
+    // Return fallback data
+    return {
+      display_name: `${lat.toFixed(6)}, ${lng.toFixed(6)}`,
+      countryCode: null,
+      country: null,
+      city: null,
+      state: null,
+      raw: null
+    };
+  }
+};
+
+// Forward geocode address to get coordinates and location info
+export const geocode = async (query, language = null, limit = 5) => {
+  try {
+    // Check if query is coordinates (lat,lng format)
+    const coordMatch = query.match(/^(-?\d+\.?\d*),\s*(-?\d+\.?\d*)$/);
+    if (coordMatch) {
+      const lat = parseFloat(coordMatch[1]);
+      const lng = parseFloat(coordMatch[2]);
+      
+      if (lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+        return [{
+          id: 'coordinates',
+          display_name: `Coordinates: ${lat}, ${lng}`,
+          lat: lat,
+          lon: lng,
+          countryCode: null,
+          type: 'coordinates'
+        }];
+      }
+    }
+    
+    const userLanguage = language || navigator.language || navigator.languages?.[0] || 'en';
+    
+    const response = await fetch(
+      `https://nominatim.openstreetmap.org/search?` +
+      `q=${encodeURIComponent(query)}&` +
+      `format=json&` +
+      `addressdetails=1&` +
+      `limit=${limit}&` +
+      `extratags=1&` +
+      `accept-language=${userLanguage}`
+    );
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    
+    const results = data.map((item, index) => ({
+      id: `${item.place_id || index}`,
+      display_name: item.display_name,
+      lat: parseFloat(item.lat),
+      lon: parseFloat(item.lon),
+      countryCode: item.address?.country_code?.toUpperCase(),
+      type: item.type || 'place',
+      importance: item.importance || 0,
+      raw: item
+    }));
+    
+    // Sort by importance
+    results.sort((a, b) => (b.importance || 0) - (a.importance || 0));
+    
+    return results;
+  } catch (error) {
+    console.error('Error in geocoding:', error);
+    return [];
+  }
+};

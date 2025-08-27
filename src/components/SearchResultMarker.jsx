@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useImperativeHandle, forwardRef } from 'react';
 import L from 'leaflet';
-import { calculateDistance, debounce, searchResultIcon } from '../utils/constants.js';
+import { calculateDistance, debounce, searchResultIcon, getFlagEmoji } from '../utils/constants.js';
 
 const SearchResultMarker = forwardRef(({
     map,
@@ -11,7 +11,7 @@ const SearchResultMarker = forwardRef(({
     const markerRef = useRef(null);
     const circleRef = useRef(null);
     const [isDragging, setIsDragging] = useState(false);
-    const [dragStartPos, setDragStartPos] = useState(null);
+    const dragStartPosRef = useRef(null);
 
     // Debounced location update function
     const debouncedLocationUpdate = useRef(
@@ -92,8 +92,8 @@ const SearchResultMarker = forwardRef(({
                 </div>
                 
                 <div class="space-y-2 text-xs">
-                    <p class="text-gray-700 dark:text-gray-300 break-words">
-                        ${location.display_name}
+                    <p class="text-gray-700 dark:text-gray-300 break-words font-flags">
+                    ${getFlagEmoji(location.countryCode)}  ${location.display_name}
                     </p>
                     <p class="text-gray-500 dark:text-gray-400">
                         ${coordinates.lat.toFixed(6)}, ${coordinates.lng.toFixed(6)}
@@ -148,7 +148,7 @@ const SearchResultMarker = forwardRef(({
         // Handle marker drag events
         marker.on('dragstart', (e) => {
             setIsDragging(true);
-            setDragStartPos(e.target.getLatLng());
+            dragStartPosRef.current = e.target.getLatLng();
             marker.closePopup();
         });
 
@@ -159,14 +159,16 @@ const SearchResultMarker = forwardRef(({
 
         marker.on('dragend', (e) => {
             const newPos = e.target.getLatLng();
-            const startPos = dragStartPos;
-            
-            if (startPos && calculateDistance(startPos.lat, startPos.lng, newPos.lat, newPos.lng) > 100) {
-                debouncedLocationUpdate(newPos.lat, newPos.lng);
+            const startPos = dragStartPosRef.current;
+
+            if (startPos && calculateDistance(startPos.lat, startPos.lng, newPos.lat, newPos.lng) > 50) {
+                 debouncedLocationUpdate(newPos.lat, newPos.lng);
+            } else {
+                console.warn('Distance too small or no start position');
             }
 
             setIsDragging(false);
-            setDragStartPos(null);
+            dragStartPosRef.current = null;
 
             setTimeout(() => {
                 if (markerRef.current && !isDragging) {
