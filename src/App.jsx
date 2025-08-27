@@ -65,11 +65,11 @@ function App() {
 
         try {
             // 1. Reverse geocode 获取新地名和国家代码
-            const geoData = await reverseGeocode(newLat, newLng);
-
-            // 2. 查询新位置的数据
-            const data = await queryByLocation(newLat, newLng, searchResult.radius);
-
+            // 并发请求 reverseGeocode 和 queryByLocation
+            const [geoData, data] = await Promise.all([
+                reverseGeocode(newLat, newLng),
+                queryByLocation(newLat, newLng, searchResult.radius)]);
+         
             // 3. 更新 searchResult
             const updatedSearchResult = {
                 ...searchResult,
