@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { X, Calendar, MapPin, Camera, User, Shapes, Globe } from 'lucide-react';
+import { X, Calendar, MapPin, Camera, User, Shapes, Globe, Search } from 'lucide-react';
 import { getOneMonthAgoTimestamp, getTimestamp, getFlagEmoji } from '../utils/constants.js';
 
 const FilterStatus = ({
@@ -160,6 +160,17 @@ const FilterStatus = ({
                 label: `Area filter: ${filters.poly.length} Shapes${filters.poly.length > 1 ? 's' : ''}`,
                 icon: Shapes,
                 onRemove: () => onUpdateFilters({ poly: [] })
+            });
+        }
+
+        // Search filter
+        if (filters.search && filters.search.trim() !== '') {
+            activeFilters.push({
+                id: 'search',
+                type: 'search',
+                label: `Search: ${filters.search}`,
+                icon: Search,
+                onRemove: () => onUpdateFilters({ search: '' })
             });
         }
 
@@ -335,7 +346,8 @@ const FilterStatus = ({
                                         countryandregion: {},
                                         author: [],
                                         poly: [],
-                                        pano_date: []
+                                        pano_date: [],
+                                        search: ''
                                     });
                                     setIsExpanded(false);
                                 }}
