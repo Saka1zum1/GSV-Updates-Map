@@ -1,7 +1,11 @@
 import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock, Waves, Radar } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 const MarkerPopup = ({ item }) => {
     const { id, author, types, camera, report_time, spot_date, year, month, panoId, region, altitude, pinpoint } = item;
+    const [imageLoaded, setImageLoaded] = useState(false);
+    const [shouldLoadImage, setShouldLoadImage] = useState(false);
+    const [imageError, setImageError] = useState(false);
 
     // Handle types for both update_reports and spots data
     let typesList = [];
@@ -15,19 +19,63 @@ const MarkerPopup = ({ item }) => {
         `https://cdn.whereisthegooglecar.com/images/${id}.webp` :
         `https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=${panoId}&cb_client=maps_sv.tactile.gps&w=1024&h=768&yaw=0&pitch=0&thumbfov=100`;
 
+    // Auto-load image after a short delay when popup is rendered
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShouldLoadImage(true);
+        }, 300); // Delay image loading by 300ms to allow popup to render first
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    // Load image immediately when user hovers over image area
+    const handleImageLoad = () => {
+        if (!shouldLoadImage) {
+            setShouldLoadImage(true);
+        }
+    };
+
+    const handleImageError = () => {
+        setImageError(true);
+    };
+
+    const handleImageLoadSuccess = () => {
+        setImageLoaded(true);
+    };
+
     return (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden w-60">
             {/* Header Image */}
-            <div className="relative h-32 bg-gray-200 dark:bg-gray-700">
-                <img
-                    src={imgUrl}
-                    alt="Street View"
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                        e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'flex';
-                    }}
-                />
+            <div 
+                className="relative h-32 bg-gray-200 dark:bg-gray-700 cursor-pointer"
+                onMouseEnter={handleImageLoad}
+                onClick={handleImageLoad}
+            >
+                {shouldLoadImage && !imageError ? (
+                    <img
+                        src={imgUrl}
+                        alt="Street View"
+                        className="w-full h-full object-cover transition-opacity duration-300"
+                        onLoad={handleImageLoadSuccess}
+                        onError={handleImageError}
+                        style={{ opacity: imageLoaded ? 1 : 0.7 }}
+                    />
+                ) : (
+                    <div className="w-full h-full bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
+                        <div className="text-center">
+                            <MapPin className="w-8 h-8 text-gray-500 mx-auto mb-2" />
+                            {imageError ? (
+                                <span className="text-xs text-gray-500">Image unavailable</span>
+                            ) : (
+                                <span className="text-xs text-gray-500">
+                                    {shouldLoadImage ? "Loading..." : "Hover to load image"}
+                                </span>
+                            )}
+                        </div>
+                    </div>
+                )}
+                
+                {/* Fallback placeholder for image errors - hidden by default */}
                 <div className="hidden w-full h-full bg-gray-300 dark:bg-gray-600 items-center justify-center">
                     <MapPin className="w-8 h-8 text-gray-500" />
                 </div>

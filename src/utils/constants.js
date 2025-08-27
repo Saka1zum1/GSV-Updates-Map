@@ -1,3 +1,48 @@
+export const searchResultIcon = L.divIcon({
+    className: 'search-location-marker',
+    html: `
+                <div style="
+                    width: 24px; 
+                    height: 24px; 
+                    background: #3b82f6; 
+                    border: 3px solid white; 
+                    border-radius: 50%; 
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+                    position: relative;
+                    animation: search-pulse 2s ease-in-out infinite;
+                    cursor: grab;
+                ">
+                    <div style="
+                        position: absolute;
+                        top: -8px;
+                        left: -8px;
+                        width: 40px;
+                        height: 40px;
+                        border: 2px solid #3b82f6;
+                        border-radius: 50%;
+                        opacity: 0.3;
+                        animation: search-pulse-ring 2s ease-in-out infinite;
+                    "></div>
+                </div>
+                <style>
+                    @keyframes search-pulse {
+                        0%, 100% { transform: scale(1); }
+                        50% { transform: scale(1.1); }
+                    }
+                    @keyframes search-pulse-ring {
+                        0% { transform: scale(1); opacity: 0.3; }
+                        50% { transform: scale(1.2); opacity: 0.1; }
+                        100% { transform: scale(1.4); opacity: 0; }
+                    }
+                    .search-location-marker:active {
+                        cursor: grabbing !important;
+                    }
+                </style>
+            `,
+    iconSize: [24, 24],
+    iconAnchor: [12, 12]
+});
+
 // Color options for the map coverage display
 export const colorOptions = {
     Default: ['1098ad', '99e9f2'],
@@ -143,6 +188,18 @@ export const debounce = (func, delay) => {
         clearTimeout(timeout);
         timeout = setTimeout(() => func.apply(this, args), delay);
     };
+};
+
+// Calculate distance between two lat/lng points using Haversine formula (meters)
+export const calculateDistance = (lat1, lng1, lat2, lng2) => {
+    const R = 6371000; // Earth's radius in meters
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLng = (lng2 - lng1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+        Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c;
 };
 
 export function copyCoords(e) {

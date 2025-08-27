@@ -4,6 +4,7 @@ import {
     getOneMonthAgoTimestamp,
     intersect,
     getTimestamp,
+    calculateDistance
 } from '../utils/constants.js';
 
 // Utility function to check if a point is inside a polygon
@@ -180,7 +181,7 @@ export const useMapData = () => {
         }
     }, [filters.report_date, mapMode.isPeak, mapMode.isSpot]);
 
-    // Apply local filters to loaded data
+    // Apply local filters to loaded data with extended debouncing
     const applyFilters = useCallback(() => {
         try {
             let dataToFilter;
@@ -250,25 +251,16 @@ export const useMapData = () => {
 
                 // Search filter (geographical distance)
                 const matchesSearch = !filters.search || !filters.search.lat || !filters.search.lng || !filters.search.radius ||
-                    (() => {
-                        const itemLat = item.location.y;
-                        const itemLng = item.location.x;
-                        const searchLat = filters.search.lat;
-                        const searchLng = filters.search.lng;
-                        const searchRadius = filters.search.radius;
-                        
-                        // Calculate distance using Haversine formula
-                        const R = 6371000; // Earth's radius in meters
-                        const dLat = (searchLat - itemLat) * Math.PI / 180;
-                        const dLng = (searchLng - itemLng) * Math.PI / 180;
-                        const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-                                Math.cos(itemLat * Math.PI / 180) * Math.cos(searchLat * Math.PI / 180) *
-                                Math.sin(dLng/2) * Math.sin(dLng/2);
-                        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-                        const distance = R * c;
-                        
-                        return distance <= searchRadius;
-                    })();
+                        (() => {
+                            const itemLat = item.location.y;
+                            const itemLng = item.location.x;
+                            const searchLat = filters.search.lat;
+                            const searchLng = filters.search.lng;
+                            const searchRadius = filters.search.radius;
+
+                            const distance = calculateDistance(itemLat, itemLng, searchLat, searchLng);
+                            return distance <= searchRadius;
+                        })();
 
                 return matchesType && pointInPolygon &&
                     matchesCountry && matchesRegion && inDateRange && matchesCamera && matchesAuthor && matchesDateRange && matchesSearch;
@@ -300,16 +292,16 @@ export const useMapData = () => {
         }
     }, [filters.report_date, mapMode.isPeak, mapMode.isSpot, isInitialized]);
 
-    // Apply local filters when data or filters change
+    // Apply local filters when data or filters change with extended debouncing
     useEffect(() => {
         // Only apply filters if we have initial data loaded
         const hasInitialData = updateData.length > 0 || altitudeData.length > 0 || spotsData.length > 0;
         if (!hasInitialData) return;
 
-        // Add a small delay to debounce rapid filter changes
+        // Add a longer delay to debounce rapid filter changes and reduce marker re-rendering
         const timeoutId = setTimeout(() => {
             applyFilters();
-        }, 100);
+        }, 300);
 
         return () => clearTimeout(timeoutId);
     }, [applyFilters]);

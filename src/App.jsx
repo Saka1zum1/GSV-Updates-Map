@@ -43,8 +43,7 @@ function App() {
 
     const handleLocationSearch = useCallback((searchData) => {
         setSearchResult(searchData);
-        console.log('Location search result:', searchData);
-        
+
         // Update filters with search data
         if (searchData && searchData.location && searchData.coordinates && searchData.radius) {
             updateFilters({
@@ -52,10 +51,62 @@ function App() {
                     address: searchData.location.display_name,
                     lat: searchData.coordinates.lat,
                     lng: searchData.coordinates.lng,
-                    radius: searchData.radius
+                    radius: searchData.radius,
+                    countryCode: searchData.location?.countryCode || null,
                 }
             });
         }
+    }, [updateFilters]);
+
+    // Handle search location update (when dragged)
+    const handleSearchLocationUpdate = useCallback(async (newLat, newLng) => {
+        if (!searchResult) return;
+
+        try {
+            // Query data at new location
+            const response = await fetch(
+                `/.netlify/functions/queryByLocation?` +
+                `lat=${newLat}&` +
+                `lng=${newLng}&` +
+                `radius=${searchResult.radius}`
+            );
+
+            if (response.ok) {
+                const data = await response.json();
+
+                // Update search result with new location and data
+                const updatedSearchResult = {
+                    ...searchResult,
+                    coordinates: { lat: newLat, lng: newLng },
+                    data: data.data,
+                    location: {
+                        ...searchResult.location,
+                        display_name: `${newLat.toFixed(6)}, ${newLng.toFixed(6)}`
+                    }
+                };
+
+                setSearchResult(updatedSearchResult);
+
+                // Update filters
+                updateFilters({
+                    search: {
+                        address: updatedSearchResult.location.display_name,
+                        lat: newLat,
+                        lng: newLng,
+                        radius: searchResult.radius,
+                        countryCode: searchResult.location?.countryCode || null,
+                    }
+                });
+            }
+        } catch (error) {
+            console.error('Failed to update search location:', error);
+        }
+    }, [searchResult, updateFilters]);
+
+    // Handle search result removal
+    const handleSearchResultRemove = useCallback(() => {
+        setSearchResult(null);
+        updateFilters({ search: null });
     }, [updateFilters]);
 
     // Dummy function for backward compatibility - filters now auto-apply
@@ -288,7 +339,7 @@ function App() {
         if (!calendarState.isRangeMode || dates.length === 2) {
             const startTimestamp = Math.floor(startDate.getTime() / 1000);
             const endTimestamp = Math.floor(endDate.getTime() / 1000);
-            
+
             updateFilters({
                 report_date: [startTimestamp, endTimestamp]
             });
@@ -308,7 +359,7 @@ function App() {
         if (calendarState.currentView === 'months') {
             const startMonth = new Date(startDate.getFullYear(), startDate.getMonth(), 1);
             const endMonth = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
-            
+
             if (calendarState.isRangeMode && startMonth.getTime() !== endMonth.getTime()) {
                 return [startMonth, endMonth];
             } else {
@@ -317,7 +368,7 @@ function App() {
         } else if (calendarState.currentView === 'years') {
             const startYear = new Date(startDate.getFullYear(), 0, 1);
             const endYear = new Date(endDate.getFullYear(), 0, 1);
-            
+
             if (calendarState.isRangeMode && startYear.getTime() !== endYear.getTime()) {
                 return [startYear, endYear];
             } else {
@@ -327,7 +378,7 @@ function App() {
             // Days view - for one month range, we should show it as a range
             const timeDiff = endDate.getTime() - startDate.getTime();
             const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
-            
+
             // If the range is more than a few days and calendar is in range mode, show as range
             if (calendarState.isRangeMode && daysDiff > 7) {
                 return [startDate, endDate];
@@ -369,9 +420,10 @@ function App() {
         }>
             {/* Loading Overlay - Non-blocking */}
             {loading && (
-                <FullScreenSpinner 
-                    title="Loading map data..."
-                    subtitle="Please wait while we fetch the latest Street View updates"
+                <FullScreenSpinner
+                    title={mapMode.isSpot ? "Loading google street view car spottings..." :
+                        mapMode.isPeak ? "Loading peak locations" : "Loading google street view updates..."}
+                    subtitle="Please wait while we fetching data"
                     color="blue"
                 />
             )}
@@ -427,6 +479,8 @@ function App() {
                     colorPreference={colorPreference}
                     gsvOpacity={gsvOpacity}
                     searchResult={searchResult}
+                    onSearchLocationUpdate={handleSearchLocationUpdate}
+                    onSearchResultRemove={handleSearchResultRemove}
                 />
             </div>
 
@@ -437,6 +491,7 @@ function App() {
                 onUpdateFilters={updateFilters}
                 countries={countries}
                 mapMode={mapMode}
+                onSearchResultRemove={handleSearchResultRemove}
             />
 
             {/* Left Sidebar Filter */}

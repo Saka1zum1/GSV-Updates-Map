@@ -7,7 +7,8 @@ const FilterStatus = ({
     filters = {},
     onUpdateFilters,
     countries = {},
-    mapMode = {}
+    mapMode = {},
+    onSearchResultRemove
 }) => {
     const [isExpanded, setIsExpanded] = useState(false);
     const dropdownRef = useRef(null);
@@ -169,10 +170,16 @@ const FilterStatus = ({
             activeFilters.push({
                 id: 'search',
                 type: 'search',
-                label: filters.search.address,
+                label: `${filters.search?.countryCode?getFlagEmoji(filters.search.countryCode)+' ':''}${filters.search.address}`,
                 radius: radiusKm,
                 icon: Search,
-                onRemove: () => onUpdateFilters({ search: null })
+                onRemove: () => {
+                    onUpdateFilters({ search: null });
+                    // Also remove the search result marker from map
+                    if (onSearchResultRemove) {
+                        onSearchResultRemove();
+                    }
+                }
             });
         }
 
