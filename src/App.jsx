@@ -35,9 +35,15 @@ function App() {
     const [isHeatmap, setIsHeatmap] = usePersistentState('isHeatmap', false);
     const [gsvOpacity, setGsvOpacity] = usePersistentState('gsvOpacity', 1);
     const [calendarVisible, setCalendarVisible] = usePersistentState('calendarVisible', true);
+    const [searchResult, setSearchResult] = useState(null);
 
     const handleOpacityChange = useCallback((value) => {
         setGsvOpacity(value);
+    }, []);
+
+    const handleLocationSearch = useCallback((searchData) => {
+        setSearchResult(searchData);
+        console.log('Location search result:', searchData);
     }, []);
 
     // Dummy function for backward compatibility - filters now auto-apply
@@ -394,6 +400,7 @@ function App() {
                 onToggleFilterSidebar={() => setFilterSidebarOpen(open => !open)}
                 calendarVisible={calendarVisible}
                 onToggleCalendar={() => setCalendarVisible(prev => !prev)}
+                onLocationSearch={handleLocationSearch}
             />
 
             {/* Map Container */}
@@ -407,6 +414,7 @@ function App() {
                     isCluster={cluster}
                     colorPreference={colorPreference}
                     gsvOpacity={gsvOpacity}
+                    searchResult={searchResult}
                 />
             </div>
 

@@ -33,7 +33,8 @@ const MapContainer = ({
     isHeatmap,
     isCluster,
     colorPreference,
-    gsvOpacity
+    gsvOpacity,
+    searchResult
 }) => {
     const mapRef = useRef(null);
     const mapInstanceRef = useRef(null);
@@ -43,6 +44,8 @@ const MapContainer = ({
     const drawnItemsRef = useRef(null);
     const drawControlRef = useRef(null);
     const gsvLayersRef = useRef({});
+    const searchMarkerRef = useRef(null);
+    const searchCircleRef = useRef(null);
 
     // Helper function to normalize coordinates for worldCopyJump
     const normalizeLatLngs = (latlngs) => {
@@ -501,6 +504,127 @@ const MapContainer = ({
             drawMarkers(data);
         }
     }, [data, isHeatmap, isCluster]);
+
+    // Handle search results
+    useEffect(() => {
+        if (!mapInstanceRef.current || !searchResult) return;
+
+        const map = mapInstanceRef.current;
+        
+        // Remove existing search markers
+        if (searchMarkerRef.current) {
+            map.removeLayer(searchMarkerRef.current);
+            searchMarkerRef.current = null;
+        }
+        if (searchCircleRef.current) {
+            map.removeLayer(searchCircleRef.current);
+            searchCircleRef.current = null;
+        }
+
+        const { coordinates, location, radius, data: queryData } = searchResult;
+
+        // Create search location marker
+        const searchIcon = L.divIcon({
+            className: 'search-location-marker',
+            html: `
+                <div style="
+                    width: 24px; 
+                    height: 24px; 
+                    background: #3b82f6; 
+                    border: 3px solid white; 
+                    border-radius: 50%; 
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+                    position: relative;
+                    animation: search-pulse 2s ease-in-out infinite;
+                ">
+                    <div style="
+                        position: absolute;
+                        top: -8px;
+                        left: -8px;
+                        width: 40px;
+                        height: 40px;
+                        border: 2px solid #3b82f6;
+                        border-radius: 50%;
+                        opacity: 0.3;
+                        animation: search-pulse-ring 2s ease-in-out infinite;
+                    "></div>
+                </div>
+                <style>
+                    @keyframes search-pulse {
+                        0%, 100% { transform: scale(1); }
+                        50% { transform: scale(1.1); }
+                    }
+                    @keyframes search-pulse-ring {
+                        0% { transform: scale(1); opacity: 0.3; }
+                        50% { transform: scale(1.2); opacity: 0.1; }
+                        100% { transform: scale(1.4); opacity: 0; }
+                    }
+                </style>
+            `,
+            iconSize: [24, 24],
+            iconAnchor: [12, 12]
+        });
+
+        searchMarkerRef.current = L.marker([coordinates.lat, coordinates.lng], {
+            icon: searchIcon
+        }).addTo(map);
+
+        // Create search radius circle
+        searchCircleRef.current = L.circle([coordinates.lat, coordinates.lng], {
+            radius: radius,
+            fillColor: '#3b82f6',
+            fillOpacity: 0.1,
+            color: '#3b82f6',
+            weight: 2,
+            opacity: 0.5
+        }).addTo(map);
+
+        // Create popup content
+        const popupContent = `
+            <div class="search-result-popup">
+                <h3 style="margin: 0 0 8px 0; font-size: 14px; font-weight: bold;">
+                    Search Result
+                </h3>
+                <p style="margin: 0 0 8px 0; font-size: 12px; word-break: break-word;">
+                    ${location.display_name}
+                </p>
+                <p style="margin: 0 0 8px 0; font-size: 11px; color: #666;">
+                    ${coordinates.lat.toFixed(6)}, ${coordinates.lng.toFixed(6)}
+                </p>
+                <p style="margin: 0; font-size: 11px; color: #666;">
+                    Search radius: ${radius >= 1000 ? `${(radius / 1000).toFixed(1)}km` : `${radius}m`}
+                </p>
+                ${queryData ? `
+                    <hr style="margin: 8px 0; border: none; border-top: 1px solid #eee;">
+                    <p style="margin: 0; font-size: 11px; color: #28a745; font-weight: bold;">
+                        ✓ Data found at this location
+                    </p>
+                ` : `
+                    <hr style="margin: 8px 0; border: none; border-top: 1px solid #eee;">
+                    <p style="margin: 0; font-size: 11px; color: #666;">
+                        No data found within search radius
+                    </p>
+                `}
+            </div>
+        `;
+
+        searchMarkerRef.current.bindPopup(popupContent, {
+            maxWidth: 300,
+            className: 'search-popup'
+        });
+
+        // Fit map to show search area
+        const bounds = searchCircleRef.current.getBounds();
+        map.fitBounds(bounds, { padding: [20, 20] });
+
+        // Open popup after a short delay
+        setTimeout(() => {
+            if (searchMarkerRef.current) {
+                searchMarkerRef.current.openPopup();
+            }
+        }, 500);
+
+    }, [searchResult]);
 
     return (
         <div

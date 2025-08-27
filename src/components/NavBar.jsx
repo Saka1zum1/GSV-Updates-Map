@@ -16,8 +16,10 @@ import {
     Camera,
     Menu,
     X,
-    Calendar
+    Calendar,
+    Search
 } from 'lucide-react';
+import SearchModal from './SearchModal.jsx';
 const TopNavBar = ({
     isHeatmap,
     isCluster,
@@ -38,10 +40,12 @@ const TopNavBar = ({
     onOpacityChange,
     onToggleFilterSidebar,
     calendarVisible,
-    onToggleCalendar
+    onToggleCalendar,
+    onLocationSearch
 }) => {
     const [showExportMenu, setShowExportMenu] = useState(false);
     const [showMobileMenu, setShowMobileMenu] = useState(false);
+    const [showSearchModal, setShowSearchModal] = useState(false);
 
     const NavButton = ({ icon: Icon, label, isActive, onClick, className = "" }) => (
         <button
@@ -145,7 +149,7 @@ const TopNavBar = ({
                 </div>
 
                 {/* Desktop Layout */}
-                <div className="hidden xl:flex items-center flex-1 justify-between min-w-0 overflow-x-auto">
+                <div className="hidden xl:flex items-center flex-1 justify-between min-w-0">
                     {/* Theme Toggle - Desktop */}
                     <div className="flex-shrink-0 ml-2 md:ml-4">
                         <button
@@ -159,7 +163,13 @@ const TopNavBar = ({
                     </div>
 
                     {/* Center Section - View Controls */}
-                    <div className="flex items-center space-x-1 lg:space-x-2 flex-shrink-0 overflow-x-auto max-w-[40vw]">
+                    <div className="flex items-center space-x-1 lg:space-x-2 flex-shrink-0">
+                        <NavButton
+                            icon={Search}
+                            label="Search"
+                            isActive={false}
+                            onClick={() => setShowSearchModal(true)}
+                        />
                         <NavButton
                             icon={Filter}
                             label="Filter"
@@ -190,16 +200,10 @@ const TopNavBar = ({
                             isActive={isCluster}
                             onClick={onToggleCluster}
                         />
-                        <NavButton
-                            icon={Calendar}
-                            label="Calendar"
-                            isActive={calendarVisible}
-                            onClick={onToggleCalendar}
-                        />
                     </div>
 
                     {/* Right Section - Export & Settings */}
-                    <div className="flex items-center space-x-1 lg:space-x-2 flex-shrink-0 overflow-x-auto max-w-[35vw]">
+                    <div className="flex items-center space-x-1 lg:space-x-2 flex-shrink-0">
                         {/* Export Dropdown */}
                         <div className="relative">
                             <button
@@ -230,7 +234,7 @@ const TopNavBar = ({
                             />
                         </button>
 
-                        {/* GSV Opacity Slider - Now visible on medium+ screens */}
+                        {/* GSV Opacity Slider - Now visible on large+ screens */}
                         <div className="hidden lg:flex items-center space-x-2 px-2">
                             <Eye size={20} className="text-gray-700 dark:text-gray-200 flex-shrink-0" />
                             <input
@@ -263,6 +267,18 @@ const TopNavBar = ({
                     <div className="px-3 py-4 space-y-3">
                         {/* View Controls */}
                         <div className="grid grid-cols-2 gap-2">
+                            <button
+                                onClick={() => {
+                                    setShowSearchModal(true);
+                                    setShowMobileMenu(false);
+                                }}
+                                className="flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium
+                                           text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600"
+                            >
+                                <Search size={18} />
+                                <span>Search</span>
+                            </button>
+
                             <button
                                 onClick={() => {
                                     onToggleFilterSidebar();
@@ -344,6 +360,20 @@ const TopNavBar = ({
                                     style={{ backgroundColor: colorOptions[colorPreference] }}
                                 />
                                 <span>Color Scheme</span>
+                            </button>
+
+                            <button
+                                onClick={() => {
+                                    onToggleCalendar();
+                                    setShowMobileMenu(false);
+                                }}
+                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${calendarVisible
+                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
+                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                    }`}
+                            >
+                                <Calendar size={18} />
+                                <span>Calendar</span>
                             </button>
                         </div>
 
@@ -461,6 +491,15 @@ const TopNavBar = ({
                 <div
                     className="fixed inset-0 z-[1050] bg-black bg-opacity-25 xl:hidden"
                     onClick={() => setShowMobileMenu(false)}
+                />
+            )}
+
+            {/* Search Modal */}
+            {showSearchModal && (
+                <SearchModal
+                    isOpen={showSearchModal}
+                    onClose={() => setShowSearchModal(false)}
+                    onLocationSelect={onLocationSearch}
                 />
             )}
         </div>
