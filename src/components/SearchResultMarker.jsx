@@ -92,9 +92,11 @@ const SearchResultMarker = forwardRef(({
                 </div>
                 
                 <div class="space-y-2 text-xs">
-                    <p class="text-gray-700 dark:text-gray-300 break-words font-flags">
-                    ${getFlagEmoji(location.countryCode)}  ${location.display_name}
-                    </p>
+                    ${
+                        location.countryCode
+                        ? `<p class="text-gray-700 dark:text-gray-300 break-words font-flags">
+                        ${getFlagEmoji(location.countryCode)}  ${location.display_name}</p>`
+                        : ''}
                     <p class="text-gray-500 dark:text-gray-400">
                         ${coordinates.lat.toFixed(6)}, ${coordinates.lng.toFixed(6)}
                     </p>
