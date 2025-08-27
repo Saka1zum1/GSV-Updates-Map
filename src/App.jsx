@@ -44,7 +44,19 @@ function App() {
     const handleLocationSearch = useCallback((searchData) => {
         setSearchResult(searchData);
         console.log('Location search result:', searchData);
-    }, []);
+        
+        // Update filters with search data
+        if (searchData && searchData.location && searchData.coordinates && searchData.radius) {
+            updateFilters({
+                search: {
+                    address: searchData.location.display_name,
+                    lat: searchData.coordinates.lat,
+                    lng: searchData.coordinates.lng,
+                    radius: searchData.radius
+                }
+            });
+        }
+    }, [updateFilters]);
 
     // Dummy function for backward compatibility - filters now auto-apply
     const handleApplyFilters = useCallback(() => {

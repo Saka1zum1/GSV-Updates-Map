@@ -164,13 +164,15 @@ const FilterStatus = ({
         }
 
         // Search filter
-        if (filters.search && filters.search.trim() !== '') {
+        if (filters.search && filters.search.address && filters.search.lat && filters.search.lng && filters.search.radius) {
+            const radiusKm = (filters.search.radius / 1000).toFixed(0);
             activeFilters.push({
                 id: 'search',
                 type: 'search',
-                label: `Search: ${filters.search}`,
+                label: filters.search.address,
+                radius: radiusKm,
                 icon: Search,
-                onRemove: () => onUpdateFilters({ search: '' })
+                onRemove: () => onUpdateFilters({ search: null })
             });
         }
 
@@ -310,6 +312,20 @@ const FilterStatus = ({
                                                             ))}
                                                         </div>
                                                     </div>
+                                                ) : filter.id === 'search' ? (
+                                                    <div className="flex items-center space-x-3 flex-1 min-w-0">
+                                                        <Search className="w-4 h-4 text-gray-500 flex-shrink-0" />
+                                                        <div className="flex-1 min-w-0">
+                                                            <div className="flex items-center space-x-2">
+                                                                <span className="text-lg font-bold text-blue-600 dark:text-blue-400">
+                                                                    {filter.radius}km
+                                                                </span>
+                                                            </div>
+                                                            <div className="text-xs text-gray-500 dark:text-gray-400 truncate">
+                                                                {filter.label}
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 ) : (
                                                     <>
                                                         <IconComponent className="w-4 h-4 text-gray-400 flex-shrink-0" />
@@ -347,7 +363,7 @@ const FilterStatus = ({
                                         author: [],
                                         poly: [],
                                         pano_date: [],
-                                        search: ''
+                                        search: null
                                     });
                                     setIsExpanded(false);
                                 }}

@@ -74,7 +74,8 @@ export const useMapData = () => {
         countryandregion: {}, 
         camera: [],
         author: [],
-        dateRange: null 
+        dateRange: null,
+        search: null // { address, lat, lng, radius }
     });
 
     // Map state
@@ -247,8 +248,30 @@ export const useMapData = () => {
                      (item.year > filters.dateRange.fromYear || item.month >= filters.dateRange.fromMonth) &&
                      (item.year < filters.dateRange.toYear || item.month <= filters.dateRange.toMonth));
 
+                // Search filter (geographical distance)
+                const matchesSearch = !filters.search || !filters.search.lat || !filters.search.lng || !filters.search.radius ||
+                    (() => {
+                        const itemLat = item.location.y;
+                        const itemLng = item.location.x;
+                        const searchLat = filters.search.lat;
+                        const searchLng = filters.search.lng;
+                        const searchRadius = filters.search.radius;
+                        
+                        // Calculate distance using Haversine formula
+                        const R = 6371000; // Earth's radius in meters
+                        const dLat = (searchLat - itemLat) * Math.PI / 180;
+                        const dLng = (searchLng - itemLng) * Math.PI / 180;
+                        const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                                Math.cos(itemLat * Math.PI / 180) * Math.cos(searchLat * Math.PI / 180) *
+                                Math.sin(dLng/2) * Math.sin(dLng/2);
+                        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+                        const distance = R * c;
+                        
+                        return distance <= searchRadius;
+                    })();
+
                 return matchesType && pointInPolygon &&
-                    matchesCountry && matchesRegion && inDateRange && matchesCamera && matchesAuthor && matchesDateRange;
+                    matchesCountry && matchesRegion && inDateRange && matchesCamera && matchesAuthor && matchesDateRange && matchesSearch;
             });
 
             setFilteredData(filtered);
@@ -256,7 +279,7 @@ export const useMapData = () => {
             setError(err.message);
             console.error('Error applying filters:', err);
         }
-    }, [updateData, altitudeData, spotsData, filters.type, filters.countryandregion, filters.camera, filters.author, filters.dateRange, filters.poly, mapMode]);
+    }, [updateData, altitudeData, spotsData, filters.type, filters.countryandregion, filters.camera, filters.author, filters.dateRange, filters.poly, filters.search, mapMode]);
 
     // Load data when date range or mode changes (but not on initial load)
     useEffect(() => {
