@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
-import { Search, X, MapPin, Loader2, Navigation, AlertCircle } from 'lucide-react';
+import {Search, MapPin, X, Navigation, AlertCircle } from 'lucide-react';
 import Spinner from './Spinner.jsx';
 import { getFlagEmoji } from '../utils/constants.js';
-import { geocode, queryByLocation } from '../utils/api.js';
+import { geocode } from '../utils/api.js';
 import usePersistentState from '../hooks/usePersistentState.js';
 
 const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
@@ -13,6 +13,8 @@ const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
     const [selectedResult, setSelectedResult] = useState(null);
     const inputRef = useRef(null);
     const searchTimeoutRef = useRef(null);
+
+
 
     // Focus input when modal opens
     useEffect(() => {
@@ -52,17 +54,17 @@ const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
         } finally {
             setIsLoading(false);
         }
-    }; const handleLocationSelect = async (result) => {
+    };
+    const handleLocationSelect = async (result) => {
         setSelectedResult(result);
 
         try {
-            // Call the queryByLocation function using the API util
-            const data = await queryByLocation(result.lat, result.lon, searchRadius);
-
+            // 直接传递搜索结果，不再调用queryByLocation
+            // 让useMapData hook通过client-side filtering处理数据过滤
             onLocationSelect({
                 location: result,
                 radius: searchRadius,
-                data: data.data,
+                data: null, // 不再预查询数据，由客户端过滤处理
                 coordinates: { lat: result.lat, lng: result.lon }
             });
             onClose();
@@ -152,8 +154,8 @@ const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
                                 min={10}
                                 max={500}
                                 step={10}
-                                value={searchRadius/1000}
-                                onChange={(e) => setSearchRadius(Number(e.target.value)/1000)}
+                                value={searchRadius / 1000}
+                                onChange={(e) => setSearchRadius(Number(e.target.value) / 1000)}
                                 className="w-10 px-2 py-1 border border-gray-300 dark:border-gray-600 rounded text-sm text-gray-600 dark:text-gray-400 bg-white dark:bg-gray-800 text-right"
                             />
                             <span className="text-sm text-gray-600 dark:text-gray-400 w-6">km</span>

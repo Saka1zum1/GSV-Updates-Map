@@ -74,12 +74,21 @@ const FilterStatus = ({
                 const fromDate = new Date(fromYear, fromMonth - 1);
                 label = fromDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' });
             }
+            const hasOtherFilters = () => {
+                return (filters.type && filters.type.length > 0) ||
+                    (filters.camera && filters.camera.length > 0) ||
+                    (filters.countryandregion && Object.keys(filters.countryandregion).length > 0) ||
+                    (filters.author && filters.author.length > 0) ||
+                    (filters.poly && filters.poly.length > 0) ||
+                    (filters.search && filters.search.lat && filters.search.lng);
+            };
+
             activeFilters.push({
                 id: 'coverage_date',
                 type: 'coverage_date',
                 label: `Coverage Date: ${label}`,
                 icon: Calendar,
-                onRemove: () => onUpdateFilters({ dateRange: null })
+                onRemove: hasOtherFilters() ? () => onUpdateFilters({ dateRange: null }) : null
             });
         }
 
@@ -109,7 +118,7 @@ const FilterStatus = ({
         if (filters.countryandregion && Object.keys(filters.countryandregion).length > 0) {
             Object.entries(filters.countryandregion).forEach(([countryCode, regions]) => {
                 const countryName = countries[countryCode] || countryCode;
-                
+
                 // Add country entry
                 activeFilters.push({
                     id: `country-${countryCode}`,
@@ -123,7 +132,7 @@ const FilterStatus = ({
                         onUpdateFilters({ countryandregion: newCountryAndRegion });
                     }
                 });
-                
+
                 // Add region entries for this country
                 regions.forEach(regionCode => {
                     activeFilters.push({
@@ -170,7 +179,7 @@ const FilterStatus = ({
             activeFilters.push({
                 id: 'search',
                 type: 'search',
-                label: `${filters.search?.countryCode?getFlagEmoji(filters.search.countryCode)+' ':''}${filters.search.address}`,
+                label: `${filters.search?.countryCode ? getFlagEmoji(filters.search.countryCode) + ' ' : ''}${filters.search.address}`,
                 radius: radiusKm,
                 icon: Search,
                 onRemove: () => {
@@ -247,15 +256,14 @@ const FilterStatus = ({
                             <div className="p-2 space-y-1">
                                 {activeFilters.map((filter) => {
                                     const IconComponent = filter.icon;
-                                    
+
                                     // Handle country and region filters with hierarchical display
                                     if (filter.type === 'country' || filter.type === 'region') {
                                         return (
                                             <div
                                                 key={filter.id}
-                                                className={`flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group ${
-                                                    filter.type === 'region' ? 'ml-4' : ''
-                                                }`}
+                                                className={`flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group ${filter.type === 'region' ? 'ml-4' : ''
+                                                    }`}
                                             >
                                                 <div className="flex items-center gap-2 flex-1 min-w-0">
                                                     <IconComponent className="w-4 h-4 text-gray-500" />
@@ -264,7 +272,7 @@ const FilterStatus = ({
                                                         {filter.label}
                                                     </span>
                                                 </div>
-                                                <button
+                                                {filter.onRemove && <button
                                                     onClick={(e) => {
                                                         e.stopPropagation();
                                                         filter.onRemove();
@@ -273,11 +281,11 @@ const FilterStatus = ({
                                                     title={`Remove ${filter.type} filter`}
                                                 >
                                                     <X className="w-3 h-3" />
-                                                </button>
+                                                </button>}
                                             </div>
                                         );
                                     }
-                                    
+
                                     // Handle other filter types
                                     return (
                                         <div
@@ -342,7 +350,7 @@ const FilterStatus = ({
                                                     </>
                                                 )}
                                             </div>
-                                            {filter.id != 'report_date' && <button
+                                            {filter.id !== 'report_date' && filter.onRemove && <button
                                                 onClick={(e) => {
                                                     e.stopPropagation();
                                                     filter.onRemove();
@@ -370,9 +378,13 @@ const FilterStatus = ({
                                         author: [],
                                         poly: [],
                                         pano_date: [],
+                                        dateRange: null,
                                         search: null
                                     });
                                     setIsExpanded(false);
+                                    if (onSearchResultRemove) {
+                                        onSearchResultRemove();
+                                    }
                                 }}
                                 className="w-full px-3 py-2 text-xs font-medium text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-md transition-colors"
                             >

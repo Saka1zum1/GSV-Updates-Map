@@ -8,7 +8,7 @@ import CompactCalendarWidget from './components/Calendar.jsx';
 import { FullScreenSpinner } from './components/Spinner.jsx';
 import { useMapData, useCalendar } from './hooks/useMapData.js';
 import { colorOptions } from './utils/constants.js';
-import { queryByLocation, reverseGeocode } from './utils/api.js';
+import { reverseGeocode } from './utils/api.js';
 import { X } from 'lucide-react';
 
 function App() {
@@ -64,17 +64,11 @@ function App() {
         if (!searchResult) return;
 
         try {
-            // 1. Reverse geocode 获取新地名和国家代码
-            // 并发请求 reverseGeocode 和 queryByLocation
-            const [geoData, data] = await Promise.all([
-                reverseGeocode(newLat, newLng),
-                queryByLocation(newLat, newLng, searchResult.radius)]);
+            const geoData = await reverseGeocode(newLat, newLng);
          
-            // 3. 更新 searchResult
             const updatedSearchResult = {
                 ...searchResult,
                 coordinates: { lat: newLat, lng: newLng },
-                data: data.data,
                 location: {
                     ...searchResult.location,
                     display_name: geoData.display_name,
@@ -84,7 +78,6 @@ function App() {
 
             setSearchResult(updatedSearchResult);
 
-            // 4. 更新 filters
             updateFilters({
                 search: {
                     address: geoData.display_name,
@@ -467,6 +460,7 @@ function App() {
             <div className="h-screen pt-12 sm:pt-16">
                 <MapContainer
                     data={filteredData}
+                    filteredData={filteredData}
                     onDrawCreated={drawCreatedRef}
                     onDrawEdited={drawEditedRef}
                     onDrawDeleted={drawDeletedRef}

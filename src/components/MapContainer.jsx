@@ -30,6 +30,7 @@ import SearchResultMarker from './SearchResultMarker.jsx';
 
 const MapContainer = ({
     data,
+    filteredData,
     onDrawCreated,
     onDrawEdited,
     onDrawDeleted,
@@ -553,6 +554,7 @@ const MapContainer = ({
                 <SearchResultMarker
                     map={mapInstanceRef.current}
                     searchResult={searchResult}
+                    filteredData={filteredData}
                     onLocationUpdate={onSearchLocationUpdate}
                     onRemove={onSearchResultRemove}
                 />

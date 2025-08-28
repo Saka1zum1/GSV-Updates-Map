@@ -1,4 +1,4 @@
-import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock, Waves, Radar } from 'lucide-react';
+import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock, Waves, Radar, Hourglass } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const MarkerPopup = ({ item }) => {
@@ -63,12 +63,12 @@ const MarkerPopup = ({ item }) => {
                 ) : (
                     <div className="w-full h-full bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
                         <div className="text-center">
-                            <MapPin className="w-8 h-8 text-gray-500 mx-auto mb-2" />
+                            <Hourglass className="w-8 h-8 text-gray-500 mx-auto mb-2" />
                             {imageError ? (
                                 <span className="text-xs text-gray-500">Image unavailable</span>
                             ) : (
                                 <span className="text-xs text-gray-500">
-                                    {shouldLoadImage ? "Loading..." : "Hover to load image"}
+                                    Loading...
                                 </span>
                             )}
                         </div>

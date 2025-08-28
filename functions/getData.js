@@ -85,6 +85,8 @@ exports.handler = async function (event, context) {
         sql += ` ORDER BY ${timeField} DESC`;
     }
 
+    sql += " LIMIT 10000";
+
     try {
         const connection = await mysql.createConnection(connectionConfig);
         const [rows] = await connection.execute(sql, params);

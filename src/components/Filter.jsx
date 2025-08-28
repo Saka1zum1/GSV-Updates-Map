@@ -278,7 +278,7 @@ const FilterPanel = ({
                 <div className="flex-1 overflow-hidden">
                     <AccordionContainer className="p-3 sm:p-4">
                         {/* Update Types Filter */}
-                        {!isSpot && isPeak && (
+                        {!isSpot && (!
                             <AccordionSection
                                 title="Update Types"
                                 icon={Filter}
@@ -493,12 +493,12 @@ const FilterPanel = ({
                                                     } else {
                                                         const newCountryAndRegion = { ...filters.countryandregion };
                                                         const countryCode = option.countryCode;
-
+                                                        
                                                         // 确保国家存在
                                                         if (!newCountryAndRegion[countryCode]) {
                                                             newCountryAndRegion[countryCode] = [];
                                                         }
-
+                                                        
                                                         if (option.isSelected) {
                                                             // 移除地区
                                                             newCountryAndRegion[countryCode] = newCountryAndRegion[countryCode].filter(r => r !== option.code);

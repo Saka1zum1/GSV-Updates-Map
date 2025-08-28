@@ -6,15 +6,14 @@ import { createRoot } from 'react-dom/client'
 
 function setPopupLoading(marker) {
     const loadingDiv = document.createElement('div');
-    loadingDiv.className = "flex flex-col items-center justify-center p-8 min-h-[120px]";
+    loadingDiv.className = "flex dark:bg-gray-800 flex-col items-center justify-center p-8 min-h-[120px] rounded-lg shadow-lg";
     marker.setPopupContent(loadingDiv);
-    // 用 React 18 createRoot 渲染 Spinner
     const root = createRoot(loadingDiv);
     root.render(
         <>
             <div className="flex flex-col items-center justify-center">
                 <Spinner size="medium" color="blue" />
-                <div className="mt-3 text-gray-600 dark:text-gray-300 text-sm animate-pulse">searching...</div>
+                <div className="mt-3 text-gray-600  dark:text-gray-300 text-sm animate-pulse">searching...</div>
             </div>
         </>
     );
@@ -23,6 +22,7 @@ function setPopupLoading(marker) {
 const SearchResultMarker = forwardRef(({
     map,
     searchResult,
+    filteredData = [],
     onLocationUpdate,
     onRemove
 }, ref) => {
@@ -68,7 +68,7 @@ const SearchResultMarker = forwardRef(({
         // Cleanup previous markers
         cleanup();
 
-        const { coordinates, location, radius, data: queryData } = searchResult;
+        const { coordinates, location, radius} = searchResult;
 
         // Create marker with draggable option
         const marker = L.marker([coordinates.lat, coordinates.lng], {
@@ -89,6 +89,17 @@ const SearchResultMarker = forwardRef(({
         }).addTo(map);
 
         circleRef.current = circle;
+
+        // 计算半径内符合当前过滤条件的项目数量
+        const itemsInRadius = filteredData.filter(item => {
+            const itemLat = item.location.y;
+            const itemLng = item.location.x;
+            const distance = calculateDistance(itemLat, itemLng, coordinates.lat, coordinates.lng);
+            return distance <= radius;
+        });
+        
+        const hasData = itemsInRadius.length > 0;
+        const itemCount = itemsInRadius.length;
 
         // Create popup content with dark mode support
         const popupContainer = document.createElement('div');
@@ -117,25 +128,22 @@ const SearchResultMarker = forwardRef(({
                     <p class="text-gray-500 dark:text-gray-400">
                         ${coordinates.lat.toFixed(6)}, ${coordinates.lng.toFixed(6)}
                     </p>
-                    <p class="text-gray-500 dark:text-gray-400">
-                        Search radius: ${radius >= 1000 ? `${(radius / 1000).toFixed(1)}km` : `${radius}m`}
-                    </p>
                     
                     <hr class="border-gray-200 dark:border-gray-600">
                     
-                    ${queryData ? `
+                    ${hasData ? `
                         <div class="flex items-center gap-2 text-green-600 dark:text-green-400 font-medium">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                                data found at this location
+                            ${itemCount} items found within ${radius >= 1000 ? `${Math.floor(radius / 1000)}km` : `${radius}m`} radius
                         </div>
                     ` : `
                         <div class="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
                             </svg>
-                                No data found within search radius
+                            No items found within search radius
                         </div>
                     `}
                     
@@ -210,7 +218,7 @@ const SearchResultMarker = forwardRef(({
 
         return cleanup;
 
-    }, [map, searchResult, onLocationUpdate, onRemove, debouncedLocationUpdate]);
+    }, [map, searchResult, filteredData, onLocationUpdate, onRemove, debouncedLocationUpdate]);
 
     return null;
 });
