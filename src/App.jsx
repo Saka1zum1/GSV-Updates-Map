@@ -417,8 +417,8 @@ function App() {
             {/* Loading Overlay - Non-blocking */}
             {loading && (
                 <FullScreenSpinner
-                    title={mapMode.isSpot ? "Loading Google Street View car spottings..." :
-                        mapMode.isPeak ? "Loading peak locations" : "Loading google street view updates..."}
+                    title={mapMode.isSpot ? "Loading spottings..." :
+                        mapMode.isPeak ? "Loading peak locations" : "Loading updates..."}
                     subtitle="Please wait while we fetching data"
                     color="blue"
                 />

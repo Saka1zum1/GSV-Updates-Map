@@ -1,6 +1,24 @@
 import { useEffect, useRef, useState, useImperativeHandle, forwardRef } from 'react';
 import L from 'leaflet';
 import { calculateDistance, debounce, searchResultIcon, getFlagEmoji } from '../utils/constants.js';
+import Spinner from './Spinner';
+import { createRoot } from 'react-dom/client'
+
+function setPopupLoading(marker) {
+    const loadingDiv = document.createElement('div');
+    loadingDiv.className = "flex flex-col items-center justify-center p-8 min-h-[120px]";
+    marker.setPopupContent(loadingDiv);
+    // 用 React 18 createRoot 渲染 Spinner
+    const root = createRoot(loadingDiv);
+    root.render(
+        <>
+            <div className="flex flex-col items-center justify-center">
+                <Spinner size="medium" color="blue" />
+                <div className="mt-3 text-gray-600 dark:text-gray-300 text-sm animate-pulse">searching...</div>
+            </div>
+        </>
+    );
+}
 
 const SearchResultMarker = forwardRef(({
     map,
@@ -92,11 +110,10 @@ const SearchResultMarker = forwardRef(({
                 </div>
                 
                 <div class="space-y-2 text-xs">
-                    ${
-                        location.countryCode
-                        ? `<p class="text-gray-700 dark:text-gray-300 break-words font-flags">
+                    ${location.countryCode
+                ? `<p class="text-gray-700 dark:text-gray-300 break-words font-flags">
                         ${getFlagEmoji(location.countryCode)}  ${location.display_name}</p>`
-                        : ''}
+                : ''}
                     <p class="text-gray-500 dark:text-gray-400">
                         ${coordinates.lat.toFixed(6)}, ${coordinates.lng.toFixed(6)}
                     </p>
@@ -164,7 +181,8 @@ const SearchResultMarker = forwardRef(({
             const startPos = dragStartPosRef.current;
 
             if (startPos && calculateDistance(startPos.lat, startPos.lng, newPos.lat, newPos.lng) > 50) {
-                 debouncedLocationUpdate(newPos.lat, newPos.lng);
+                setPopupLoading(marker);
+                debouncedLocationUpdate(newPos.lat, newPos.lng);
             } else {
                 console.warn('Distance too small or no start position');
             }

@@ -52,13 +52,13 @@ const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
         } finally {
             setIsLoading(false);
         }
-    };    const handleLocationSelect = async (result) => {
+    }; const handleLocationSelect = async (result) => {
         setSelectedResult(result);
 
         try {
             // Call the queryByLocation function using the API util
             const data = await queryByLocation(result.lat, result.lon, searchRadius);
-            
+
             onLocationSelect({
                 location: result,
                 radius: searchRadius,
@@ -141,15 +141,22 @@ const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
                             <input
                                 type="range"
                                 min="1000"
-                                max="200000"
+                                max="500000"
                                 step="1000"
                                 value={searchRadius}
                                 onChange={(e) => setSearchRadius(Number(e.target.value))}
                                 className="flex-1 h-2 accent-blue-500"
                             />
-                            <span className="text-sm text-gray-600 dark:text-gray-400 w-16 text-right">
-                                {(searchRadius / 1000).toFixed(0)}km
-                            </span>
+                            <input
+                                type="text"
+                                min={10}
+                                max={500}
+                                step={10}
+                                value={searchRadius/1000}
+                                onChange={(e) => setSearchRadius(Number(e.target.value)/1000)}
+                                className="w-10 px-2 py-1 border border-gray-300 dark:border-gray-600 rounded text-sm text-gray-600 dark:text-gray-400 bg-white dark:bg-gray-800 text-right"
+                            />
+                            <span className="text-sm text-gray-600 dark:text-gray-400 w-6">km</span>
                         </div>
                     </div>
                     {/* Search Results */}
