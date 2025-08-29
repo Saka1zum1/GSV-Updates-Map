@@ -278,7 +278,7 @@ const FilterPanel = ({
                 <div className="flex-1 overflow-hidden">
                     <AccordionContainer className="p-3 sm:p-4">
                         {/* Update Types Filter */}
-                        {!isSpot && (!
+                        {!isSpot && (
                             <AccordionSection
                                 title="Update Types"
                                 icon={Filter}
