@@ -42,11 +42,11 @@ const CalendarWidget = ({
             onSelect({ date, formattedDate, datepicker }) {
                 // Prevent infinite loops by checking if dates actually changed
                 const currentSelectedDates = datepicker.selectedDates || [];
-                
+
                 if (JSON.stringify(currentSelectedDates) !== JSON.stringify(internalSelectedDates)) {
                     // Update internal state
                     setInternalSelectedDates(currentSelectedDates);
-                    
+
                     // In range mode, only update when we have a complete range or starting new selection
                     if (isRangeMode) {
                         if (currentSelectedDates.length === 1 || currentSelectedDates.length === 2) {
@@ -61,54 +61,65 @@ const CalendarWidget = ({
                 }
             },
             onRenderCell({ date, cellType }) {
+                let isToday = false;
+                const startOfDay = new Date(date);
+                startOfDay.setHours(0, 0, 0, 0);
+                const endOfDay = new Date(date);
+                endOfDay.setHours(23, 59, 59, 999);
+                const today = new Date();
                 if (cellType === 'day') {
-                    const startOfDay = new Date(date);
-                    startOfDay.setHours(0, 0, 0, 0);
-                    const endOfDay = new Date(date);
-                    endOfDay.setHours(23, 59, 59, 999);
-
-                    // Check if this is today
-                    const today = new Date();
                     today.setHours(0, 0, 0, 0);
-                    const isToday = startOfDay.getTime() === today.getTime();
+                    isToday = startOfDay.getTime() === today.getTime();
+                } else if (cellType === 'month') {
+                    isToday = date.getFullYear() === today.getFullYear() && date.getMonth() === today.getMonth();
+                } else if (cellType === 'year') {
+                    isToday = date.getFullYear() === today.getFullYear();
+                }
 
-                    const matchingDates = [];
+                const matchingDates = [];
 
-                    for (const [timestamp, countryCode] of Object.entries(specialDates)) {
-                        const specialDate = new Date(timestamp);
-                        if (isDateInRange(specialDate, startOfDay, endOfDay)) {
-                            matchingDates.push({ timestamp, countryCode });
-                        }
+                for (const [timestamp, countryCode] of Object.entries(specialDates)) {
+                    const specialDate = new Date(timestamp);
+                    if (isDateInRange(specialDate, startOfDay, endOfDay)) {
+                        matchingDates.push({ timestamp, countryCode });
                     }
+                }
 
-                    if (matchingDates.length > 0) {
-                        const randomIndex = Math.floor(Math.random() * matchingDates.length);
-                        const { countryCode } = matchingDates[randomIndex];
+                if (matchingDates.length > 0) {
+                    const randomIndex = Math.floor(Math.random() * matchingDates.length);
+                    const { countryCode } = matchingDates[randomIndex];
 
-                        const cellStyle = 'display:flex;align-items:center;justify-content:center;width:24px;height:18px;';
-                        const todayStyle = isToday ? 'background-color:none;border-radius:4px;' : '';
-                        
-                        if (countryCode.length !== 2) {
-                            return {
-                                html: `<div class="custom-cell" style="${cellStyle}${todayStyle}"><img style="width:24px;height:18px;object-fit:contain;" src="/assets/${countryCode}.png" alt="${countryCode}"></div>`,
-                                classes: isToday ? 'custom-cell today-cell' : 'custom-cell'
-                            };
-                        } else {
-                            const flagEmoji = getFlagEmoji(countryCode);
-                            return {
-                                html: `<div class="custom-cell" style="${cellStyle}${todayStyle}"><span class="font-flags text-lg" style="font-size:18px;line-height:18px;">${flagEmoji}</span></div>`,
-                                classes: isToday ? 'custom-cell today-cell' : 'custom-cell'
-                            };
-                        }
-                    } else if (isToday) {
-                        // Today cell without special date
+                    const cellStyle = 'display:flex;align-items:center;justify-content:center;width:24px;height:18px;';
+                    const todayStyle = isToday ? 'background-color:none;border-radius:4px;' : '';
+
+                    if (countryCode.length !== 2) {
                         return {
-                            classes: 'today-cell',
-                            attrs: {
-                                style: 'background-color:#fef3c7;border-radius:4px;'
-                            }
+                            html: `<div class="custom-cell" style="${cellStyle}${todayStyle}"><img style="width:24px;height:18px;object-fit:contain;" src="/assets/${countryCode}.png" alt="${countryCode}"></div>`,
+                            classes: isToday ? 'custom-cell today-cell' : 'custom-cell'
+                        };
+                    } else {
+                        const flagEmoji = getFlagEmoji(countryCode);
+                        return {
+                            html: `<div class="custom-cell" style="${cellStyle}${todayStyle}"><span class="font-flags text-lg" style="font-size:18px;line-height:18px;">${flagEmoji}</span></div>`,
+                            classes: isToday ? 'custom-cell today-cell' : 'custom-cell'
                         };
                     }
+                } else if (isToday) {
+                    // Today cell without special date
+                    return {
+                        classes: 'today-cell',
+                        attrs: {
+                            style: 'background-color:#fef3c7;border-radius:4px;'
+                        }
+                    };
+                } else if (isToday) {
+                    // month或year视图下的today cell样式
+                    return {
+                        classes: 'today-cell',
+                        attrs: {
+                            style: 'background-color:#fef3c7;border-radius:4px;'
+                        }
+                    };
                 }
             },
             autoClose: isRangeMode ? false : true, // Auto close for single date mode
@@ -143,8 +154,8 @@ const CalendarWidget = ({
     };
 
     return (
-        <div className="fixed top-16 sm:top-20 right-2 sm:right-4 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 
-                        w-72 sm:w-80 md:w-auto max-w-[calc(100vw-1rem)] max-h-[calc(100vh-5rem)] overflow-hidden">
+        <div className="fixed top-20 sm:top-22 right-2 sm:right-4 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 
+                        w-60 sm:w-70 md:w-80 max-w-[calc(100vw-1rem)] max-h-[calc(100vh-5rem)] overflow-hidden">
             {/* Calendar controls */}
             <div className="flex bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
                 <button

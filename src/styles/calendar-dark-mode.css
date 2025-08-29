@@ -88,22 +88,22 @@
 
 /* Today cell styling */
 .air-datepicker-cell.today-cell {
-    background-color: #ead582 !important;
+    background-color: #fde68a !important;
     color: #1f2937 !important;
     border-radius: 4px !important;
 }
 
 .dark .air-datepicker-cell.today-cell {
-    background-color: #d97706 !important;
+    background-color: #fa853d !important;
     border-radius: 4px !important;
 }
 
 .air-datepicker-cell.today-cell:hover {
-    background-color: #fde68a !important;
+    background-color: #f0c829 !important;
 }
 
 .dark .air-datepicker-cell.today-cell:hover {
-    background-color: #b45309 !important;
+    background-color: #f76a12 !important;
 }
 
 .calendar-container {
