@@ -155,7 +155,7 @@ const SearchModal = ({ isOpen, onClose, onLocationSelect }) => {
                                 max={500}
                                 step={10}
                                 value={searchRadius / 1000}
-                                onChange={(e) => setSearchRadius(Number(e.target.value) / 1000)}
+                                onChange={(e) => setSearchRadius(Number(e.target.value) * 1000)}
                                 className="w-10 px-2 py-1 border border-gray-300 dark:border-gray-600 rounded text-sm text-gray-600 dark:text-gray-400 bg-white dark:bg-gray-800 text-right"
                             />
                             <span className="text-sm text-gray-600 dark:text-gray-400 w-6">km</span>
