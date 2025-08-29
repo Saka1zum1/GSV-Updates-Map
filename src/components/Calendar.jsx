@@ -155,7 +155,7 @@ const CalendarWidget = ({
 
     return (
         <div className="fixed top-20 sm:top-22 right-2 sm:right-4 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 
-                        w-60 sm:w-70 md:w-80 max-w-[calc(100vw-1rem)] max-h-[calc(100vh-5rem)] overflow-hidden">
+                        w-60 sm:w-70 md:w-auto max-w-[calc(100vw-1rem)] max-h-[calc(100vh-5rem)] overflow-hidden">
             {/* Calendar controls */}
             <div className="flex bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
                 <button
