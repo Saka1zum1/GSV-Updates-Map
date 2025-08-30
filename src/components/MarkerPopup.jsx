@@ -1,8 +1,9 @@
 import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock, Waves, Radar, Hourglass } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { getFlagEmoji } from '../utils/constants';
 
 const MarkerPopup = ({ item }) => {
-    const { id, author, types, camera, report_time, spot_date, year, month, panoId, region, altitude, pinpoint } = item;
+    const { id, author, types, camera, report_time, spot_date, year, month, panoId, country, region, altitude, pinpoint } = item;
     const [imageLoaded, setImageLoaded] = useState(false);
     const [shouldLoadImage, setShouldLoadImage] = useState(false);
     const [imageError, setImageError] = useState(false);
@@ -148,7 +149,7 @@ const MarkerPopup = ({ item }) => {
                 {region && (
                     <div className="flex items-center space-x-3">
                         <MapPin className="w-4 h-4 text-gray-500" />
-                        <span className="text-sm text-gray-600 dark:text-gray-300">{region}</span>
+                        <span className="text-sm text-gray-600 dark:text-gray-300 font-flags">{region} {getFlagEmoji(country)}</span>
                     </div>
                 )}
 
