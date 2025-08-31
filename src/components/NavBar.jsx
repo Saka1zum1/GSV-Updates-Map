@@ -215,7 +215,6 @@ const TopNavBar = ({
                                          rounded-lg transition-colors text-sm font-medium border border-transparent"
                             >
                                 <Download size={20} />
-                                <span className="hidden xl:inline">Export</span>
                                 <ChevronDown size={16} className="hidden xl:inline" />
                             </button>
                         </div>
