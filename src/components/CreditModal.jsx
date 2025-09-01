@@ -69,55 +69,6 @@ const CreditModal = ({ isOpen, onClose }) => {
                         </div>
                     </div>
 
-                    {/* Developer */}
-                    <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
-                        <div className="flex items-center space-x-3 mb-3">
-                            <Code size={22} className="text-green-500" />
-                            <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Developer</h4>
-                        </div>
-                        <div className="ml-8 space-y-2">
-                            <div className="flex items-center space-x-2">
-                                <BsGithub size={18} className="text-gray dark:text-gray-200" />
-                                <a
-                                    href="https://github.com/Saka1zum1"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-base text-blue-600 dark:text-blue-400 hover:underline"
-                                >
-                                    kakageo • 卡卡
-                                </a>
-                            </div>
-                            <p className="text-md text-gray-600 dark:text-gray-400">
-                                Project creator and lead developer
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* License */}
-                    <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
-                        <div className="flex items-center space-x-3 mb-3">
-                            <FileIcon size={22} className="text-indigo-500" />
-                            <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">License</h4>
-                        </div>
-                        <div className="ml-8 space-y-2">
-                            <p className="text-base text-gray-700 dark:text-gray-300">
-                                This project is open source and distributed under the MIT License.
-                            </p>
-                            <div className="flex items-center space-x-2">
-                                <BsGithub size={20} className="text-gray dark:text-gray-200" />
-                                <a
-                                    href="https://github.com/Saka1zum1/GSV-Updates-Map"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-md text-blue-600 dark:text-blue-400 hover:underline text-sm"
-                                >
-                                    View on GitHub
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
                     {/* Data Sources */}
                     <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
                         <div className="flex items-center space-x-3 mb-3">
@@ -189,12 +140,62 @@ const CreditModal = ({ isOpen, onClose }) => {
                             </div>
                         </div>
                     </div>
+
+                    
+                    {/* Developer */}
+                    <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
+                        <div className="flex items-center space-x-3 mb-3">
+                            <Code size={22} className="text-green-500" />
+                            <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Developer</h4>
+                        </div>
+                        <div className="ml-8 space-y-2">
+                            <div className="flex items-center space-x-2">
+                                <BsGithub size={20} className="text-gray dark:text-gray-200" />
+                                <a
+                                    href="https://github.com/Saka1zum1"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-base text-blue-600 dark:text-blue-400 hover:underline"
+                                >
+                                    kakageo • 卡卡
+                                </a>
+                            </div>
+                            <p className="text-md text-gray-600 dark:text-gray-400">
+                                Project creator and lead developer
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* License */}
+                    <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
+                        <div className="flex items-center space-x-3 mb-3">
+                            <FileIcon size={22} className="text-indigo-500" />
+                            <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">License</h4>
+                        </div>
+                        <div className="ml-8 space-y-2">
+                            <p className="text-base text-gray-700 dark:text-gray-300">
+                                This project is open source and distributed under the MIT License.
+                            </p>
+                            <div className="flex items-center space-x-2">
+                                <BsGithub size={20} className="text-gray dark:text-gray-200" />
+                                <a
+                                    href="https://github.com/Saka1zum1/GSV-Updates-Map"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-md text-blue-600 dark:text-blue-400 hover:underline text-sm"
+                                >
+                                    View on GitHub
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                     {/* Version Information */}
                     <div className="border-t border-gray-200 dark:border-gray-600 p-2">
                         <div className="text-center text-sm text-gray-500 dark:text-gray-400 items-center">
                             <p>
-                                <Box size={16} className="inline text-red-500 mx-1" />
+                                <Box size={16} className="inline text-red-500 dark:text-green-500 mx-1" />
                                 Version 1.0.0 • September 2025
                             </p>
                         </div>
