@@ -39,9 +39,9 @@ const CreditModal = ({ isOpen, onClose }) => {
             {/* Modal */}
             <div className="relative bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 w-full max-w-2xl mx-4 max-h-[80vh] flex flex-col">
                 {/* Header */}
-                <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-600">
-                    <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100 flex items-center space-x-2">
-                        <Heart size={24} className="text-red-500" />
+                <div className="flex items-center justify-between p-2 border-b border-gray-200 dark:border-gray-600">
+                    <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 flex items-center space-x-2">
+                        <Heart size={26} className="text-red-500" />
                         <span>Credits</span>
                     </h2>
                     <button
@@ -57,9 +57,9 @@ const CreditModal = ({ isOpen, onClose }) => {
                     {/* Project Information */}
                     <div className="space-y-4">
                         <div className="flex items-center space-x-3">
-                            <Globe size={20} className="text-blue-500" />
+                            <Globe size={24} className="text-blue-500" />
                             <div>
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
+                                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
                                     VirtualStreets Updates Map
                                 </h3>
                                 <p className="text-sm text-gray-600 dark:text-gray-400">
@@ -72,8 +72,8 @@ const CreditModal = ({ isOpen, onClose }) => {
                     {/* Developer */}
                     <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
                         <div className="flex items-center space-x-3 mb-3">
-                            <Code size={20} className="text-green-500" />
-                            <h4 className="text-md font-semibold text-gray-900 dark:text-gray-100">Developer</h4>
+                            <Code size={22} className="text-green-500" />
+                            <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Developer</h4>
                         </div>
                         <div className="ml-8 space-y-2">
                             <div className="flex items-center space-x-2">
@@ -82,12 +82,12 @@ const CreditModal = ({ isOpen, onClose }) => {
                                     href="https://github.com/Saka1zum1"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-blue-600 dark:text-blue-400 hover:underline"
+                                    className="text-base text-blue-600 dark:text-blue-400 hover:underline"
                                 >
                                     kakageo • 卡卡
                                 </a>
                             </div>
-                            <p className="text-sm text-gray-600 dark:text-gray-400">
+                            <p className="text-md text-gray-600 dark:text-gray-400">
                                 Project creator and lead developer
                             </p>
                         </div>
@@ -96,20 +96,20 @@ const CreditModal = ({ isOpen, onClose }) => {
                     {/* License */}
                     <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
                         <div className="flex items-center space-x-3 mb-3">
-                            <FileIcon size={20} className="text-indigo-500" />
-                            <h4 className="text-md font-semibold text-gray-900 dark:text-gray-100">License</h4>
+                            <FileIcon size={22} className="text-indigo-500" />
+                            <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">License</h4>
                         </div>
                         <div className="ml-8 space-y-2">
-                            <p className="text-sm text-gray-700 dark:text-gray-300">
+                            <p className="text-base text-gray-700 dark:text-gray-300">
                                 This project is open source and distributed under the MIT License.
                             </p>
                             <div className="flex items-center space-x-2">
-                                <BsGithub size={18} className="text-gray dark:text-gray-200" />
+                                <BsGithub size={20} className="text-gray dark:text-gray-200" />
                                 <a
                                     href="https://github.com/Saka1zum1/GSV-Updates-Map"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-blue-600 dark:text-blue-400 hover:underline text-sm"
+                                    className="text-md text-blue-600 dark:text-blue-400 hover:underline text-sm"
                                 >
                                     View on GitHub
                                 </a>
@@ -121,35 +121,35 @@ const CreditModal = ({ isOpen, onClose }) => {
                     {/* Data Sources */}
                     <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
                         <div className="flex items-center space-x-3 mb-3">
-                            <MdCloud size={20} className="text-orange-500" />
-                            <h4 className="text-md font-semibold text-gray-900 dark:text-gray-100">Data Sources</h4>
+                            <MdCloud size={22} className="text-orange-500" />
+                            <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Data Sources</h4>
                         </div>
                         <div className="ml-8 space-y-2 text-sm">
-                            <p className="flex text-gray-700 dark:text-gray-300 gap-2">
-                                <FcGoogle size={18} />
+                            <p className="flex text-gray-700 dark:text-gray-300 gap-2 items-center">
+                                <FcGoogle size={20} />
                                 <a href="https://www.google.com/maps"
                                     target="_blank"
-                                    className="text-blue-600 dark:text-blue-400 hover:underline">
+                                    className="text-base text-blue-600 dark:text-blue-400 hover:underline">
                                     Google Maps
                                 </a>
                                 <span>— Base mapping and Street View coverage data</span>
                             </p>
-                            <p className="flex text-gray-700 dark:text-gray-300 gap-2">
-                                <BsDiscord size={18} fill={"#5865f2"} />
+                            <p className="flex text-gray-700 dark:text-gray-300 gap-2 items-center">
+                                <BsDiscord size={20} fill={"#5865f2"} />
                                 <a href="https://discord.com/channels/747030604897452130"
                                     target="_blank"
-                                    className="text-blue-600 dark:text-blue-400 hover:underline">
+                                    className="text-base text-blue-600 dark:text-blue-400 hover:underline">
                                     VirtualStreets
                                 </a>
                                 <span>— Community-contributed Street View updates and car spottings</span>
                             </p>
-                            <p className="flex text-gray-700 dark:text-gray-300 gap-2">
-                                <WITGCIcon width={18} height={18}
+                            <p className="flex text-gray-700 dark:text-gray-300 gap-2 items-center">
+                                <WITGCIcon width={20} height={20}
                                     className="text-gray-800 dark:text-gray-200" />
                                 <a
                                     href="https://www.whereisthegooglecar.com/"
                                     target="_blank"
-                                    className="text-blue-600 dark:text-blue-400 hover:underline"
+                                    className="text-base text-blue-600 dark:text-blue-400 hover:underline"
                                 >
                                     Where Is The Google Car
                                 </a>
@@ -161,8 +161,8 @@ const CreditModal = ({ isOpen, onClose }) => {
                     {/* Special Thanks */}
                     <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
                         <div className="flex items-center space-x-3 mb-3">
-                            <Users size={20} className="text-pink-500" />
-                            <h4 className="text-md font-semibold text-gray-900 dark:text-gray-100">Special Thanks</h4>
+                            <Users size={22} className="text-pink-500" />
+                            <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Special Thanks</h4>
                         </div>
                         <div className="ml-8 space-y-2 text-sm">
                             <p className="text-gray-700 dark:text-gray-300">
@@ -172,7 +172,7 @@ const CreditModal = ({ isOpen, onClose }) => {
                                 • Community members from VirtualStreets who actively track Street View updates
                             </p>
                             <div className="text-gray-700 dark:text-gray-300">
-                                <span className="block font-semibold mb-1">Great thanks to
+                                <span className="block text-base font-semibold mb-1">Great thanks to
                                     <a href="https://github.com/ReAnnannanna" target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline mx-1">ReAnna</a>,
                                     <a href="https://github.com/sk-zk" target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline mx-1">skzk</a>,
                                     <a href="https://github.com/tzhf" target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline mx-1">rollin</a>, and
@@ -181,7 +181,7 @@ const CreditModal = ({ isOpen, onClose }) => {
                                 <span className="block ml-4 text-gray-500 dark:text-gray-400">for their inspiration and contributions. Portions of this project's code are derived from their repositories.</span>
                             </div>
                             <div className="text-gray-700 dark:text-gray-300">
-                                <span className="block font-semibold mb-1">Great thanks to
+                                <span className="block text-base font-semibold mb-1">Great thanks to
                                     <a href="https://github.com/ktzug" target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline mx-1">ktz</a> and
                                     <a href="https://github.com/sebm253" target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline mx-1">cane</a>
                                 </span>
@@ -189,17 +189,16 @@ const CreditModal = ({ isOpen, onClose }) => {
                             </div>
                         </div>
                     </div>
-
+                </div>
                     {/* Version Information */}
-                    <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
-                        <div className="text-center text-xs text-gray-500 dark:text-gray-400">
+                    <div className="border-t border-gray-200 dark:border-gray-600 p-2">
+                        <div className="text-center text-sm text-gray-500 dark:text-gray-400 items-center">
                             <p>
-                                <Box size={14} className="inline text-red-500 mx-1" />
+                                <Box size={16} className="inline text-red-500 mx-1" />
                                 Version 1.0.0 • September 2025
                             </p>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     );
