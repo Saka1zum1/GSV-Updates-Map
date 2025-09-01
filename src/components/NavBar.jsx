@@ -17,9 +17,11 @@ import {
     Menu,
     X,
     Calendar,
-    Search
+    Search,
+    Info
 } from 'lucide-react';
 import SearchModal from './SearchModal.jsx';
+import CreditModal from './CreditModal.jsx';
 const TopNavBar = ({
     isHeatmap,
     isCluster,
@@ -46,6 +48,7 @@ const TopNavBar = ({
     const [showExportMenu, setShowExportMenu] = useState(false);
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const [showSearchModal, setShowSearchModal] = useState(false);
+    const [showCreditModal, setShowCreditModal] = useState(false);
 
     const NavButton = ({ icon: Icon, label, isActive, onClick, className = "" }) => (
         <button
@@ -151,7 +154,7 @@ const TopNavBar = ({
                 {/* Desktop Layout */}
                 <div className="hidden xl:flex items-center flex-1 justify-between min-w-0">
                     {/* Theme Toggle - Desktop */}
-                    <div className="flex-shrink-0 ml-2 md:ml-4">
+                    <div className="flex ml-2 md:ml-4">
                         <button
                             onClick={onToggleTheme}
                             className="flex items-center space-x-2 px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
@@ -159,6 +162,15 @@ const TopNavBar = ({
                             title="Toggle Theme"
                         >
                             {isDarkTheme ? <Sun size={20} /> : <Moon size={20} />}
+                        </button>
+                        {/* Credits Button */}
+                        <button
+                            onClick={() => setShowCreditModal(true)}
+                            className="flex items-center space-x-1 lg:space-x-2 px-2 lg:px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
+                                     rounded-lg transition-colors text-sm font-medium border border-transparent"
+                            title="Credits"
+                        >
+                            <Info size={20} />
                         </button>
                     </div>
 
@@ -363,16 +375,14 @@ const TopNavBar = ({
 
                             <button
                                 onClick={() => {
-                                    onToggleCalendar();
+                                    setShowCreditModal(true);
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${calendarVisible
-                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
-                                    }`}
+                                className="flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium
+                                           text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600"
                             >
-                                <Calendar size={18} />
-                                <span>Calendar</span>
+                                <Info size={18} />
+                                <span>Credits</span>
                             </button>
                         </div>
 
@@ -499,6 +509,14 @@ const TopNavBar = ({
                     isOpen={showSearchModal}
                     onClose={() => setShowSearchModal(false)}
                     onLocationSelect={onLocationSearch}
+                />
+            )}
+
+            {/* Credit Modal */}
+            {showCreditModal && (
+                <CreditModal
+                    isOpen={showCreditModal}
+                    onClose={() => setShowCreditModal(false)}
                 />
             )}
         </div>
