@@ -36,6 +36,7 @@ function App() {
     const [isHeatmap, setIsHeatmap] = usePersistentState('isHeatmap', false);
     const [gsvOpacity, setGsvOpacity] = usePersistentState('gsvOpacity', 1);
     const [calendarVisible, setCalendarVisible] = usePersistentState('calendarVisible', true);
+    const [useDeckGL, setUseDeckGL] = usePersistentState('useDeckGL', false);
     const [searchResult, setSearchResult] = useState(null);
 
     const handleOpacityChange = useCallback((value) => {
@@ -144,9 +145,26 @@ function App() {
     }, [mapMode.isHeatmap, updateMapMode]);
 
     const handleToggleCluster = useCallback(() => {
-        setCluster(prev => !prev);
-        updateMapMode({ isCluster: !mapMode.isCluster });
-    }, [mapMode.isCluster, updateMapMode]);
+        const newClusterState = !cluster;
+        setCluster(newClusterState);
+        updateMapMode({ isCluster: newClusterState });
+        
+        // 如果启用cluster，自动禁用WebGL
+        if (newClusterState && useDeckGL) {
+            setUseDeckGL(false);
+        }
+    }, [cluster, useDeckGL, updateMapMode]);
+
+    const handleToggleDeckGL = useCallback(() => {
+        const newDeckGLState = !useDeckGL;
+        setUseDeckGL(newDeckGLState);
+        
+        // 如果启用WebGL，自动禁用cluster
+        if (newDeckGLState && cluster) {
+            setCluster(false);
+            updateMapMode({ isCluster: false });
+        }
+    }, [useDeckGL, cluster, updateMapMode]);
 
     const handleTogglePeak = useCallback(() => {
         updateMapMode({
@@ -437,10 +455,12 @@ function App() {
                 isCluster={cluster}
                 isPeak={mapMode.isPeak}
                 isSpot={mapMode.isSpot}
+                useDeckGL={useDeckGL}
                 onToggleHeatmap={handleToggleHeatmap}
                 onToggleCluster={handleToggleCluster}
                 onTogglePeak={handleTogglePeak}
                 onToggleSpot={handleToggleSpot}
+                onToggleDeckGL={handleToggleDeckGL}
                 onCopyJSON={handleCopyJSON}
                 onDownloadJSON={handleDownloadJSON}
                 onDownloadCSV={handleDownloadCSV}
@@ -468,6 +488,7 @@ function App() {
                     isCluster={cluster}
                     colorPreference={colorPreference}
                     gsvOpacity={gsvOpacity}
+                    useDeckGL={useDeckGL}
                     searchResult={searchResult}
                     onSearchLocationUpdate={handleSearchLocationUpdate}
                     onSearchResultRemove={handleSearchResultRemove}

@@ -11,7 +11,11 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@deck.gl/core": "^9.1.14",
+    "@deck.gl/layers": "^9.1.14",
+    "@deck.gl/react": "^9.1.14",
     "air-datepicker": "^3.5.3",
+    "deck.gl": "^9.1.14",
     "dotenv": "^17.2.1",
     "leaflet": "^1.9.4",
     "leaflet-contextmenu": "^1.4.0",

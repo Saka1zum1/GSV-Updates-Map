@@ -18,6 +18,10 @@
     color: #e5e7eb !important;
 }
 
+.dark .air-datepicker-nav--title:hover {
+    background: #1d4ed8 !important;
+}
+
 .dark .air-datepicker-nav--action {
     color: #9ca3af !important;
 }

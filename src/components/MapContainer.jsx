@@ -19,14 +19,13 @@ import {
     getIconType,
     colorOptions,
     copyCoords,
-    openNearestPano,
-    calculateDistance
+    openNearestPano
 } from '../utils/constants.js';
 import { createRoot } from 'react-dom/client';
 import MarkerPopup from './MarkerPopup.jsx';
 import { PanoramasLayer } from '../utils/PanoramasLayer.js';
 import SearchResultMarker from './SearchResultMarker.jsx';
-
+import { createWebGLMarkerLayer } from './WebGLMarkerLayer.jsx';
 
 const MapContainer = ({
     data,
@@ -50,6 +49,7 @@ const MapContainer = ({
     const drawnItemsRef = useRef(null);
     const drawControlRef = useRef(null);
     const gsvLayersRef = useRef({});
+    const webglLayerRef = useRef(null);
 
     // Helper function to normalize coordinates for worldCopyJump
     const normalizeLatLngs = (latlngs) => {
@@ -260,6 +260,8 @@ const MapContainer = ({
         gsvLayersRef.current.gsvLayer2.setUrl(gsv2Url);
         gsvLayersRef.current.gsvLayer3.setUrl(gsv3Url);
 
+        // WebGL layer will be created automatically based on marker count in drawMarkers
+
         return () => {
             // Clean up draw control
             if (drawControlRef.current && mapInstanceRef.current) {
@@ -273,10 +275,19 @@ const MapContainer = ({
                 drawnItemsRef.current = null;
             }
 
+            // Clean up WebGL layer
+            if (webglLayerRef.current && mapInstanceRef.current) {
+                mapInstanceRef.current.removeLayer(webglLayerRef.current);
+                webglLayerRef.current = null;
+            }
+
             // Clean up markers
             markersRef.current.forEach(marker => {
                 if (marker.popupRoot) {
-                    marker.popupRoot.unmount();
+                    // 异步卸载避免渲染冲突
+                    setTimeout(() => {
+                        marker.popupRoot.unmount();
+                    }, 0);
                 }
             });
             markersRef.current = [];
@@ -345,9 +356,48 @@ const MapContainer = ({
         });
     };
 
-    // Draw markers
+    // Draw markers with intelligent rendering mode selection
     const drawMarkers = (mapData) => {
         if (!mapInstanceRef.current) return;
+
+        // Determine rendering mode based on marker count and settings
+        const markerCount = mapData ? mapData.length : 0;
+        const shouldUseWebGL = markerCount > 100 && !isHeatmap && !isCluster;
+
+        // Use WebGL rendering for large datasets
+        if (shouldUseWebGL) {
+            // Clean up traditional markers first
+            if (clusterGroupRef.current && mapInstanceRef.current.hasLayer(clusterGroupRef.current)) {
+                mapInstanceRef.current.removeLayer(clusterGroupRef.current);
+                clusterGroupRef.current.clearLayers();
+            }
+            markersRef.current.forEach(marker => {
+                if (marker.popupRoot) {
+                    setTimeout(() => marker.popupRoot.unmount(), 0);
+                }
+                if (mapInstanceRef.current.hasLayer(marker)) {
+                    mapInstanceRef.current.removeLayer(marker);
+                }
+            });
+            markersRef.current = [];
+
+            // Create or update WebGL layer
+            if (!webglLayerRef.current) {
+                webglLayerRef.current = createWebGLMarkerLayer({
+                    data: mapData || []
+                });
+                webglLayerRef.current.addTo(mapInstanceRef.current);
+            } else {
+                webglLayerRef.current.setData(mapData);
+            }
+            return;
+        }
+
+        // Clean up WebGL layer if using traditional markers
+        if (webglLayerRef.current && mapInstanceRef.current.hasLayer(webglLayerRef.current)) {
+            mapInstanceRef.current.removeLayer(webglLayerRef.current);
+            webglLayerRef.current = null;
+        }
 
         // Clear existing markers and cluster group
         if (clusterGroupRef.current && mapInstanceRef.current.hasLayer(clusterGroupRef.current)) {
@@ -358,9 +408,11 @@ const MapContainer = ({
         }
 
         markersRef.current.forEach(marker => {
-            // Clean up React roots before removing markers
+            // Clean up React roots asynchronously to avoid rendering conflicts
             if (marker.popupRoot) {
-                marker.popupRoot.unmount();
+                setTimeout(() => {
+                    marker.popupRoot.unmount();
+                }, 0);
             }
             if (mapInstanceRef.current.hasLayer(marker)) {
                 mapInstanceRef.current.removeLayer(marker);
@@ -371,108 +423,134 @@ const MapContainer = ({
         // If no data, just clear and return
         if (!mapData || mapData.length === 0) return;
 
-        mapData.forEach(item => {
-            if (!item.location) return;
+        // Performance optimization: batch marker creation
+        const batchSize = 100;
+        const totalBatches = Math.ceil(mapData.length / batchSize);
+        let currentBatch = 0;
 
-            const { location, panoId, types, source_link } = item;
+        const processBatch = () => {
+            const start = currentBatch * batchSize;
+            const end = Math.min(start + batchSize, mapData.length);
+            
+            for (let i = start; i < end; i++) {
+                const item = mapData[i];
+                if (!item.location) continue;
 
-            // Parse types for icon selection
-            let typesList = [];
-            if (typeof types === 'string') {
-                try {
-                    typesList = JSON.parse(types);
-                    if (!Array.isArray(typesList)) {
+                const { location, panoId, types, source_link } = item;
+
+                // Parse types for icon selection
+                let typesList = [];
+                if (typeof types === 'string') {
+                    try {
+                        typesList = JSON.parse(types);
+                        if (!Array.isArray(typesList)) {
+                            typesList = types.split(',').map(t => t.trim()).filter(Boolean);
+                        }
+                    } catch {
                         typesList = types.split(',').map(t => t.trim()).filter(Boolean);
                     }
-                } catch {
-                    typesList = types.split(',').map(t => t.trim()).filter(Boolean);
+                } else if (Array.isArray(types)) {
+                    typesList = types;
                 }
-            } else if (Array.isArray(types)) {
-                typesList = types;
+
+                const iconType = getIconType(typesList);
+                const icon = createIcon(iconType);
+                const marker = L.marker([location.y, location.x], { icon });
+
+                // Create lazy popup - only render when first opened
+                let popupRendered = false;
+                let popupContainer = null;
+                let popupRoot = null;
+
+                const ensurePopupRendered = () => {
+                    if (popupRendered) return popupContainer;
+                    
+                    popupContainer = document.createElement('div');
+                    popupContainer.style.visibility = 'hidden';
+
+                    popupRoot = createRoot(popupContainer);
+                    popupRoot.render(<MarkerPopup item={item} />);
+                    
+                    popupRendered = true;
+                    
+                    // Store root for cleanup
+                    marker.popupRoot = popupRoot;
+                    
+                    return popupContainer;
+                };
+
+                // Initially bind with empty popup
+                marker.bindPopup('', {
+                    direction: 'top',
+                    offset: [0, -41],
+                    className: 'custom-popup',
+                    closeButton: false,
+                });
+
+                // Setup event handlers with lazy popup rendering and throttling
+                let hoverTimeout = null;
+                
+                marker.on('mouseover', function () {
+                    if (this.isPopupOpen()) return;
+                    
+                    // Clear any pending hover timeout
+                    if (hoverTimeout) clearTimeout(hoverTimeout);
+                    
+                    // Add small delay to avoid rendering popup on quick mouse movements
+                    hoverTimeout = setTimeout(() => {
+                        // Render popup content on first hover
+                        const container = ensurePopupRendered();
+                        this.setPopupContent(container);
+                        setTimeout(() => {
+                            container.style.visibility = 'visible';
+                            this.openPopup();
+                        }, 0);
+                    }, 150); // Reduced delay for better responsiveness
+                });
+
+                marker.on('mouseout', function () {
+                    // Clear hover timeout to prevent popup rendering if mouse leaves quickly
+                    if (hoverTimeout) {
+                        clearTimeout(hoverTimeout);
+                        hoverTimeout = null;
+                    }
+                    this.closePopup();
+                });
+
+                marker.on('click', function () {
+                    const link = `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`;
+                    window.open(source_link ? source_link : link, '_blank');
+                });
+
+                if (isCluster) {
+                    clusterGroupRef.current.addLayer(marker);
+                } else {
+                    mapInstanceRef.current.addLayer(marker);
+                }
+
+                markersRef.current.push(marker);
             }
 
-            const iconType = getIconType(typesList);
-            const icon = createIcon(iconType);
-            const marker = L.marker([location.y, location.x], { icon });
-
-            // Create lazy popup - only render when first opened
-            let popupRendered = false;
-            let popupContainer = null;
-            let popupRoot = null;
-
-            const ensurePopupRendered = () => {
-                if (popupRendered) return popupContainer;
-                
-                popupContainer = document.createElement('div');
-                popupContainer.style.visibility = 'hidden';
-
-                popupRoot = createRoot(popupContainer);
-                popupRoot.render(<MarkerPopup item={item} />);
-                
-                popupRendered = true;
-                
-                // Store root for cleanup
-                marker.popupRoot = popupRoot;
-                
-                return popupContainer;
-            };
-
-            // Initially bind with empty popup
-            marker.bindPopup('', {
-                direction: 'top',
-                offset: [0, -41],
-                className: 'custom-popup',
-                closeButton: false,
-            });
-
-            // Setup event handlers with lazy popup rendering and throttling
-            let hoverTimeout = null;
+            currentBatch++;
             
-            marker.on('mouseover', function () {
-                if (this.isPopupOpen()) return;
-                
-                // Clear any pending hover timeout
-                if (hoverTimeout) clearTimeout(hoverTimeout);
-                
-                // Add small delay to avoid rendering popup on quick mouse movements
-                hoverTimeout = setTimeout(() => {
-                    // Render popup content on first hover
-                    const container = ensurePopupRendered();
-                    this.setPopupContent(container);
-                    setTimeout(() => {
-                        container.style.visibility = 'visible';
-                        this.openPopup();
-                    }, 0);
-                }, 200);
-            });
-
-            marker.on('mouseout', function () {
-                // Clear hover timeout to prevent popup rendering if mouse leaves quickly
-                if (hoverTimeout) {
-                    clearTimeout(hoverTimeout);
-                    hoverTimeout = null;
+            // Schedule next batch if there are more to process
+            if (currentBatch < totalBatches) {
+                // Use requestIdleCallback for better performance, fall back to setTimeout
+                if (window.requestIdleCallback) {
+                    window.requestIdleCallback(processBatch, { timeout: 16 });
+                } else {
+                    setTimeout(processBatch, 1);
                 }
-                this.closePopup();
-            });
-
-            marker.on('click', function () {
-                const link = `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`;
-                window.open(source_link ? source_link : link, '_blank');
-            });
-
-            if (isCluster) {
-                clusterGroupRef.current.addLayer(marker);
             } else {
-                mapInstanceRef.current.addLayer(marker);
+                // All batches completed, add cluster group to map if clustering is enabled
+                if (isCluster && clusterGroupRef.current && clusterGroupRef.current.getLayers().length > 0) {
+                    mapInstanceRef.current.addLayer(clusterGroupRef.current);
+                }
             }
+        };
 
-            markersRef.current.push(marker);
-        });
-
-        // Add cluster group to map if clustering is enabled
-        if (isCluster && clusterGroupRef.current && clusterGroupRef.current.getLayers().length > 0) {
-            mapInstanceRef.current.addLayer(clusterGroupRef.current);
-        }
+        // Start processing the first batch
+        processBatch();
     };
 
     // Draw heatmap

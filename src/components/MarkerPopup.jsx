@@ -1,9 +1,9 @@
-import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock, Waves, Radar, Hourglass } from 'lucide-react';
+import { Calendar, MapPin, User, Camera, Mountain, Shapes, Clock, Waves, Radar, Hourglass, ExternalLink } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { getFlagEmoji } from '../utils/constants';
 
-const MarkerPopup = ({ item }) => {
-    const { id, author, types, camera, report_time, spot_date, year, month, panoId, country, region, altitude, pinpoint } = item;
+const MarkerPopup = ({ item, showLink = false, resetKey }) => {
+    const { id, author, types, camera, report_time, spot_date, year, month, panoId, country, region, altitude, pinpoint, source_link, sv_link } = item;
     const [imageLoaded, setImageLoaded] = useState(false);
     const [shouldLoadImage, setShouldLoadImage] = useState(false);
     const [imageError, setImageError] = useState(false);
@@ -22,12 +22,17 @@ const MarkerPopup = ({ item }) => {
 
     // Auto-load image after a short delay when popup is rendered
     useEffect(() => {
+        // Reset states when resetKey changes (new popup instance)
+        setImageLoaded(false);
+        setShouldLoadImage(false);
+        setImageError(false);
+        
         const timer = setTimeout(() => {
             setShouldLoadImage(true);
         }, 300); // Delay image loading by 300ms to allow popup to render first
 
         return () => clearTimeout(timer);
-    }, []);
+    }, [resetKey]); // Reset when resetKey changes
 
     // Load image immediately when user hovers over image area
     const handleImageLoad = () => {
@@ -47,7 +52,7 @@ const MarkerPopup = ({ item }) => {
     return (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden w-60">
             {/* Header Image */}
-            <div 
+            <div
                 className="relative h-32 bg-gray-200 dark:bg-gray-700 cursor-pointer"
                 onMouseEnter={handleImageLoad}
                 onClick={handleImageLoad}
@@ -75,7 +80,7 @@ const MarkerPopup = ({ item }) => {
                         </div>
                     </div>
                 )}
-                
+
                 {/* Fallback placeholder for image errors - hidden by default */}
                 <div className="hidden w-full h-full bg-gray-300 dark:bg-gray-600 items-center justify-center">
                     <MapPin className="w-8 h-8 text-gray-500" />
@@ -180,6 +185,38 @@ const MarkerPopup = ({ item }) => {
                 {localTime && (
                     <div className="flex items-center gap-3 text-xs text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-600 pt-2">
                         <Clock className="w-4 h-4 text-gray-500" /> {localTime}
+                    </div>
+                )}
+
+                {/* Source Link (only for WebGL markers) */}
+                {showLink && source_link && (
+                    <div className="border-t border-gray-200 dark:border-gray-600 pt-2">
+                        <a
+                            href={source_link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 text-sm font-medium transition-colors"
+                            onClick={(e) => e.stopPropagation()} // 防止事件冒泡
+                        >
+                            <ExternalLink className="w-4 h-4" />
+                            Open Source
+                        </a>
+                    </div>
+                )}
+
+                {/* Street View Link (only for WebGL markers) */}
+                {showLink && (sv_link || panoId) && (
+                    <div className="border-t border-gray-200 dark:border-gray-600 pt-2">
+                        <a
+                            href={sv_link ? sv_link : `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 text-sm font-medium transition-colors"
+                            onClick={(e) => e.stopPropagation()} // 防止事件冒泡
+                        >
+                            <ExternalLink className="w-4 h-4" />
+                            Open Street View
+                        </a>
                     </div>
                 )}
             </div>
