@@ -58,22 +58,10 @@ const FilterStatus = ({
         }
 
         // Coverage Date filter (dateRange)
-        if (filters.dateRange) {
-            const { fromYear, fromMonth, toYear, toMonth } = filters.dateRange;
-            let label = '';
+        if (filters.dateRange && filters.dateRange.fromDate && filters.dateRange.toDate) {
+            const { fromDate, toDate } = filters.dateRange;
             const userLocale = navigator.language || 'default';
-            if (fromYear && fromMonth && toYear && toMonth) {
-                const fromDate = new Date(fromYear, fromMonth - 1);
-                const toDate = new Date(toYear, toMonth - 1);
-                if (fromYear === toYear && fromMonth === toMonth) {
-                    label = fromDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' });
-                } else {
-                    label = `${fromDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' })} - ${toDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' })}`;
-                }
-            } else if (fromYear && fromMonth) {
-                const fromDate = new Date(fromYear, fromMonth - 1);
-                label = fromDate.toLocaleDateString(userLocale, { month: 'short', year: 'numeric' });
-            }
+            const label = `${fromDate} to ${toDate}`;
             const hasOtherFilters = () => {
                 return (filters.type && filters.type.length > 0) ||
                     (filters.camera && filters.camera.length > 0) ||

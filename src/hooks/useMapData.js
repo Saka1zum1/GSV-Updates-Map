@@ -10,9 +10,9 @@ import {
 // Utility function to check if a point is inside a polygon
 const isPointInPolygon = (point, layer) => {
     if (!point || !layer || !point.x || !point.y) return false;
-    
+
     let coordinates = [];
-    
+
     try {
         // Extract coordinates from Leaflet layer
         if (layer.getLatLngs) {
@@ -29,25 +29,25 @@ const isPointInPolygon = (point, layer) => {
             const latlngs = Array.isArray(layer._latlngs[0]) ? layer._latlngs[0] : layer._latlngs;
             coordinates = latlngs.map(coord => [coord.lng, coord.lat]);
         }
-        
+
         if (coordinates.length < 3) return false;
-        
+
         // Ray casting algorithm for point in polygon
         const x = point.x;
         const y = point.y;
         let inside = false;
-        
+
         for (let i = 0, j = coordinates.length - 1; i < coordinates.length; j = i++) {
             const xi = coordinates[i][0];
             const yi = coordinates[i][1];
             const xj = coordinates[j][0];
             const yj = coordinates[j][1];
-            
+
             if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) {
                 inside = !inside;
             }
         }
-        
+
         return inside;
     } catch (error) {
         console.warn('Error in point-in-polygon calculation:', error);
@@ -72,7 +72,7 @@ export const useMapData = () => {
         report_date: [getOneMonthAgoTimestamp(), getTimestamp()],
         type: [],
         poly: [],
-        countryandregion: {}, 
+        countryandregion: {},
         camera: [],
         author: [],
         dateRange: null,
@@ -102,7 +102,7 @@ export const useMapData = () => {
                 setUpdateData(updateReports);
                 setFilteredData(updateReports);
                 setCountries(countriesData);
-                
+
                 // Set the initial request key to prevent duplicate loading
                 const requestKey = JSON.stringify({
                     table: 'update_reports',
@@ -125,17 +125,17 @@ export const useMapData = () => {
 
     // Apply filters - separated into data loading and local filtering
     const loadDataRef = useRef(null);
-    
+
     const loadData = useCallback(async () => {
         // Prevent concurrent requests
         if (loading || loadDataRef.current) return;
-        
+
         try {
             loadDataRef.current = true;
             setLoading(true);
             let since = filters.report_date?.[0];
             let before = filters.report_date?.[1];
-            
+
             // Create a unique key for this data request (only date and mode matter for backend)
             const requestKey = JSON.stringify({
                 table: mapMode.isPeak ? 'altitude_data' : mapMode.isSpot ? 'spots' : 'update_reports',
@@ -143,14 +143,14 @@ export const useMapData = () => {
                 before,
                 mapMode: { isPeak: mapMode.isPeak, isSpot: mapMode.isSpot }
             });
-            
+
             // If this is the same request as last time, skip it
             if (requestKey === lastFilterRequest) {
                 setLoading(false);
                 loadDataRef.current = false;
                 return;
             }
-            
+
             setLastFilterRequest(requestKey);
 
             if (mapMode.isPeak) {
@@ -171,7 +171,7 @@ export const useMapData = () => {
                 });
                 setUpdateData(data);
             }
-            
+
         } catch (err) {
             setError(err.message);
             console.error('Error loading data:', err);
@@ -185,7 +185,7 @@ export const useMapData = () => {
     const applyFilters = useCallback(() => {
         try {
             let dataToFilter;
-            
+
             if (mapMode.isPeak) {
                 dataToFilter = altitudeData;
             } else if (mapMode.isSpot) {
@@ -210,10 +210,10 @@ export const useMapData = () => {
                     (item.country && Object.keys(filters.countryandregion).includes(item.country.toUpperCase()));
 
                 const matchesRegion = !filters.countryandregion ||
-                      Object.keys(filters.countryandregion).length === 0 ||
-                      !item.region || 
-                      Object.values(filters.countryandregion).every(regions => regions.length === 0) || // 如果所有国家的 region 都为空，则不过滤 region
-                      Object.values(filters.countryandregion).some(regions => regions.includes(item.region));
+                    Object.keys(filters.countryandregion).length === 0 ||
+                    !item.region ||
+                    Object.values(filters.countryandregion).every(regions => regions.length === 0) || // 如果所有国家的 region 都为空，则不过滤 region
+                    Object.values(filters.countryandregion).some(regions => regions.includes(item.region));
 
                 const pointInPolygon = filters.poly.length === 0 ||
                     filters.poly.some(polygon => {
@@ -225,11 +225,11 @@ export const useMapData = () => {
                     // For spot mode, check spot_date
                     (!item.spot_date ||
                         (getTimestamp(item.spot_date) >= filters.report_date[0] &&
-                         getTimestamp(item.spot_date) <= filters.report_date[1])) :
+                            getTimestamp(item.spot_date) <= filters.report_date[1])) :
                     // For regular mode, check report_date
                     (!item.report_date ||
                         (getTimestamp(item.report_date) >= filters.report_date[0] &&
-                         getTimestamp(item.report_date) <= filters.report_date[1]));
+                            getTimestamp(item.report_date) <= filters.report_date[1]));
 
                 // Camera filter - only applies in spot mode
                 const matchesCamera = !mapMode.isSpot ||
@@ -245,22 +245,21 @@ export const useMapData = () => {
                 // Date range filter (year/month based)
                 const matchesDateRange = !filters.dateRange ||
                     (!item.year && !item.month) ||
-                    (item.year >= filters.dateRange.fromYear && item.year <= filters.dateRange.toYear &&
-                     (item.year > filters.dateRange.fromYear || item.month >= filters.dateRange.fromMonth) &&
-                     (item.year < filters.dateRange.toYear || item.month <= filters.dateRange.toMonth));
+                    (`${item.year}-${String(item.month).padStart(2, '0')}` >= filters.dateRange.fromDate &&
+                        `${item.year}-${String(item.month).padStart(2, '0')}` <= filters.dateRange.toDate);
 
                 // Search filter (geographical distance)
                 const matchesSearch = !filters.search || !filters.search.lat || !filters.search.lng || !filters.search.radius ||
-                        (() => {
-                            const itemLat = item.location.y;
-                            const itemLng = item.location.x;
-                            const searchLat = filters.search.lat;
-                            const searchLng = filters.search.lng;
-                            const searchRadius = filters.search.radius;
+                    (() => {
+                        const itemLat = item.location.y;
+                        const itemLng = item.location.x;
+                        const searchLat = filters.search.lat;
+                        const searchLng = filters.search.lng;
+                        const searchRadius = filters.search.radius;
 
-                            const distance = calculateDistance(itemLat, itemLng, searchLat, searchLng);
-                            return distance <= searchRadius;
-                        })();
+                        const distance = calculateDistance(itemLat, itemLng, searchLat, searchLng);
+                        return distance <= searchRadius;
+                    })();
 
                 return matchesType && pointInPolygon &&
                     matchesCountry && matchesRegion && inDateRange && matchesCamera && matchesAuthor && matchesDateRange && matchesSearch;
@@ -277,7 +276,7 @@ export const useMapData = () => {
     useEffect(() => {
         // Skip if not yet initialized to prevent duplicate initial load
         if (!isInitialized) return;
-        
+
         // Create the key directly here to avoid dependency issues
         const currentKey = JSON.stringify({
             table: mapMode.isPeak ? 'altitude_data' : mapMode.isSpot ? 'spots' : 'update_reports',
@@ -285,7 +284,7 @@ export const useMapData = () => {
             before: filters.report_date?.[1],
             mapMode: { isPeak: mapMode.isPeak, isSpot: mapMode.isSpot }
         });
-        
+
         // Only load if the key is different
         if (currentKey !== lastFilterRequest) {
             loadData();
@@ -336,14 +335,14 @@ export const useMapData = () => {
             if (item.country) {
                 const countryCode = item.country.toUpperCase();
                 const countryName = countries[countryCode] || countryCode;
-                
+
                 if (!countriesMap[countryCode]) {
                     countriesMap[countryCode] = {
                         name: countryName,
                         regions: new Set()
                     };
                 }
-                
+
                 if (item.region) {
                     const regionCode = item.region;
                     countriesMap[countryCode].regions.add(regionCode);

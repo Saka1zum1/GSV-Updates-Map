@@ -7,10 +7,7 @@ import {
     Camera,
     X,
     Check,
-    ChevronDown,
-    ChevronRight,
     Search,
-    Settings
 } from 'lucide-react';
 import { updateTypes, allowedTypesInSpot } from '../utils/constants.js';
 import AccordionSection from './AccordionSection.jsx';
@@ -21,9 +18,7 @@ const FilterPanel = ({
     filters,
     onUpdateFilters,
     isSpot,
-    isPeak,
     countriesMap,
-    regionsMap,
     authors = [],
     filteredData = [],
     isOpen,
@@ -41,13 +36,6 @@ const FilterPanel = ({
         author: ''
     });
     const [expandedCountries, setExpandedCountries] = useState({});
-
-    const toggleCountryExpansion = (countryCode) => {
-        setExpandedCountries(prev => ({
-            ...prev,
-            [countryCode]: !prev[countryCode]
-        }));
-    };
 
     const toggleSection = (section) => {
         setExpandedSections(prev => ({
@@ -138,11 +126,6 @@ const FilterPanel = ({
             }));
         }
     }, [filteredCountriesData.shouldExpand]);
-
-    // 利用regionsMap获取地区对应的国家信
-    const getCountryForRegion = (regionCode) => {
-        return regionsMap ? regionsMap[regionCode] : null;
-    };
 
     // 计算每个国家和地区在筛选后数据中的item数量
     const locationItemCounts = useMemo(() => {
@@ -375,7 +358,7 @@ const FilterPanel = ({
                                             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">From Year/Month</label>
                                             <input
                                                 type="month"
-                                                value={filters.dateRange ? `${filters.dateRange.fromYear}-${filters.dateRange.fromMonth.toString().padStart(2, '0')}` : '2007-01'}
+                                                value={filters.dateRange?filters.dateRange.fromDate:'2007-01'}
                                                 className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm
                                                            bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
                                                            focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -384,18 +367,12 @@ const FilterPanel = ({
                                                         onUpdateFilters({ dateRange: null });
                                                         return;
                                                     }
-                                                    const [year, month] = e.target.value.split('-');
-                                                    const fromYear = parseInt(year);
-                                                    const fromMonth = parseInt(month);
-                                                    const toYear = filters.dateRange?.toYear || fromYear;
-                                                    const toMonth = filters.dateRange?.toMonth || fromMonth;
-
+                                                    const fromDate = e.target.value;
+                                                    const toDate = filters.dateRange?.toDate || getCurrentMonthDate();
                                                     onUpdateFilters({
                                                         dateRange: {
-                                                            fromYear,
-                                                            fromMonth,
-                                                            toYear,
-                                                            toMonth
+                                                            fromDate,
+                                                            toDate
                                                         }
                                                     });
                                                 }}
@@ -405,7 +382,7 @@ const FilterPanel = ({
                                             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">To Year/Month</label>
                                             <input
                                                 type="month"
-                                                value={filters.dateRange ? `${filters.dateRange.toYear}-${filters.dateRange.toMonth.toString().padStart(2, '0')}` : getCurrentMonthDate()}
+                                                value={filters.dateRange?filters.dateRange.toDate:getCurrentMonthDate()}
                                                 className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm
                                                            bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
                                                            focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -414,18 +391,12 @@ const FilterPanel = ({
                                                         onUpdateFilters({ dateRange: null });
                                                         return;
                                                     }
-                                                    const [year, month] = e.target.value.split('-');
-                                                    const toYear = parseInt(year);
-                                                    const toMonth = parseInt(month);
-                                                    const fromYear = filters.dateRange?.fromYear || toYear;
-                                                    const fromMonth = filters.dateRange?.fromMonth || toMonth;
-
+                                                    const toDate = e.target.value;
+                                                    const fromDate = filters.dateRange?.fromDate || '2007-01';
                                                     onUpdateFilters({
                                                         dateRange: {
-                                                            fromYear,
-                                                            fromMonth,
-                                                            toYear,
-                                                            toMonth
+                                                            fromDate,
+                                                            toDate
                                                         }
                                                     });
                                                 }}
@@ -435,7 +406,7 @@ const FilterPanel = ({
                                             <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-600">
                                                 <div className="mb-2 px-3 py-2 bg-blue-50 dark:bg-blue-900 rounded text-xs">
                                                     <span className="text-blue-700 dark:text-blue-200">
-                                                        Selected: {filters.dateRange.fromYear}/{filters.dateRange.fromMonth.toString().padStart(2, '0')} - {filters.dateRange.toYear}/{filters.dateRange.toMonth.toString().padStart(2, '0')}
+                                                        Selected: {filters.dateRange.fromDate} to {filters.dateRange.toDate}
                                                     </span>
                                                 </div>
                                                 <button
