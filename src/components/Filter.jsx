@@ -8,11 +8,14 @@ import {
     X,
     Check,
     Search,
+    PinIcon,
+    PinOffIcon,
 } from 'lucide-react';
 import { updateTypes, allowedTypesInSpot } from '../utils/constants.js';
 import AccordionSection from './AccordionSection.jsx';
 import AccordionContainer from './AccordionContainer.jsx';
 import '../styles/collapsible.css';
+import { use } from 'react';
 
 const FilterPanel = ({
     filters,
@@ -24,6 +27,10 @@ const FilterPanel = ({
     isOpen,
     setIsOpen
 }) => {
+
+    const [isPinned, setIsPinned] = useState(false);
+    const [expandedCountries, setExpandedCountries] = useState({});
+
     const [expandedSections, setExpandedSections] = useState({
         types: true,
         camera: false,
@@ -31,11 +38,11 @@ const FilterPanel = ({
         location: false,
         author: false
     });
+
     const [searchQueries, setSearchQueries] = useState({
         country: '',
         author: ''
     });
-    const [expandedCountries, setExpandedCountries] = useState({});
 
     const toggleSection = (section) => {
         setExpandedSections(prev => ({
@@ -249,17 +256,31 @@ const FilterPanel = ({
                 w-80 sm:w-96 max-w-[calc(100vw-1rem)] bg-white dark:bg-gray-900 shadow-2xl z-[1000]
                 transform transition-transform duration-300 ease-in-out border-r border-gray-200 dark:border-gray-700
                 flex flex-col
-                ${isOpen ? 'translate-x-0' : '-translate-x-full'}
+                ${(!isOpen && !isPinned) ? '-translate-x-full' : 'translate-x-0'}
             `}>
-                {/* Fixed Header */}
+                {/* Header */}
                 <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700 flex-shrink-0 bg-white dark:bg-gray-900">
                     <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100">Filters</h2>
-                    <button
-                        onClick={() => setIsOpen(false)}
-                        className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
-                    >
-                        <X size={20} className="text-gray-500 dark:text-gray-400" />
-                    </button>
+                    <div className="flex items-center space-x-2">
+                        <button
+                            onClick={() => {
+                                setIsPinned(!isPinned);
+                            }}
+                            className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
+                            title={isPinned ? "Unpin filter panel" : "Pin filter panel"}
+                        >
+                            {isPinned ?
+                                <PinIcon size={20} className="text-blue-500 dark:text-blue-400" /> :
+                                <PinOffIcon size={20} className="text-gray-500 dark:text-gray-400" />
+                            }
+                        </button>
+                        <button
+                            onClick={() => {setIsOpen(false); setIsPinned(false)} }
+                            className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
+                        >
+                            <X size={20} className="text-gray-500 dark:text-gray-400" />
+                        </button>
+                    </div>
                 </div>
 
                 {/* Scrollable Content */}
@@ -358,7 +379,7 @@ const FilterPanel = ({
                                             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">From Year/Month</label>
                                             <input
                                                 type="month"
-                                                value={filters.dateRange?filters.dateRange.fromDate:'2007-01'}
+                                                value={filters.dateRange ? filters.dateRange.fromDate : '2007-01'}
                                                 className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm
                                                            bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
                                                            focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -382,7 +403,7 @@ const FilterPanel = ({
                                             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">To Year/Month</label>
                                             <input
                                                 type="month"
-                                                value={filters.dateRange?filters.dateRange.toDate:getCurrentMonthDate()}
+                                                value={filters.dateRange ? filters.dateRange.toDate : getCurrentMonthDate()}
                                                 className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm
                                                            bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
                                                            focus:outline-none focus:ring-2 focus:ring-blue-500"

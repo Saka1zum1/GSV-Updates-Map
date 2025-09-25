@@ -138,7 +138,7 @@ const MapContainer = ({
             zoom: 2,
             preferCanvas: true,
             zoomControl: false,
-            worldCopyJump: false,
+            worldCopyJump: true,
             attributionControl: false,
             zoomAnimation: true,
             maxZoom: 18

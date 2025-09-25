@@ -60,23 +60,13 @@ const FilterStatus = ({
         // Coverage Date filter (dateRange)
         if (filters.dateRange && filters.dateRange.fromDate && filters.dateRange.toDate) {
             const { fromDate, toDate } = filters.dateRange;
-            const userLocale = navigator.language || 'default';
             const label = `${fromDate} to ${toDate}`;
-            const hasOtherFilters = () => {
-                return (filters.type && filters.type.length > 0) ||
-                    (filters.camera && filters.camera.length > 0) ||
-                    (filters.countryandregion && Object.keys(filters.countryandregion).length > 0) ||
-                    (filters.author && filters.author.length > 0) ||
-                    (filters.poly && filters.poly.length > 0) ||
-                    (filters.search && filters.search.lat && filters.search.lng);
-            };
-
             activeFilters.push({
                 id: 'coverage_date',
                 type: 'coverage_date',
                 label: `Coverage Date: ${label}`,
                 icon: Calendar,
-                onRemove: hasOtherFilters() ? () => onUpdateFilters({ dateRange: null }) : null
+                onRemove: () => { onUpdateFilters({ dateRange: null }) }
             });
         }
 
@@ -299,9 +289,13 @@ const FilterStatus = ({
                                                         </div>
                                                     </div>
                                                 ) : filter.id === 'type' ? (
-                                                    <div className="flex items-center space-x-3">
+                                                    <div className="flex items-center space-x-2">
                                                         <Shapes className="w-4 h-4 text-gray-500" />
+                                                        <span className="text-sm text-gray-700 dark:text-gray-300 truncate">
+                                                            Update Types:
+                                                        </span>
                                                         <div className="flex items-center space-x-2">
+
                                                             {Array.isArray(filter.label) && filter.label.map((type) => (
                                                                 <img
                                                                     key={type}
