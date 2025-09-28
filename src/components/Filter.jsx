@@ -270,7 +270,7 @@ const FilterPanel = ({
                             title={isPinned ? "Unpin filter panel" : "Pin filter panel"}
                         >
                             {isPinned ?
-                                <PinIcon size={20} className="text-blue-500 dark:text-blue-400" /> :
+                                <PinIcon size={20} className="text-green-400 dark:text-blue-400" /> :
                                 <PinOffIcon size={20} className="text-gray-500 dark:text-gray-400" />
                             }
                         </button>

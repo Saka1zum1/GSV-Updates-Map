@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { X, Calendar, MapPin, Camera, User, Shapes, Globe, Search } from 'lucide-react';
+import { X, Calendar, MapPin, Camera, User, Shapes, Globe, Search, BarChart2 } from 'lucide-react';
+import TimeDistributionChart from './TimeDistributionChart';
 import { getOneMonthAgoTimestamp, getTimestamp, getFlagEmoji } from '../utils/constants.js';
 
 const FilterStatus = ({
@@ -10,6 +11,7 @@ const FilterStatus = ({
     mapMode = {},
     onSearchResultRemove
 }) => {
+    const [showChart, setShowChart] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
     const dropdownRef = useRef(null);
 
@@ -179,15 +181,16 @@ const FilterStatus = ({
     return (
         <div className="fixed top-12 sm:top-16 left-2 z-30" ref={dropdownRef}>
             {/* Main Counter Button */}
-            <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className={`
-                    flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg shadow-lg transition-all duration-200
-                    ${hasActiveFilters
-                        ? 'bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-blue-600 dark:text-white'
-                        : 'bg-white hover:bg-gray-50 text-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200'
-                    }
-                `}
+            <div className="flex items-center gap-2">
+                <button
+                    onClick={() => setIsExpanded(!isExpanded)}
+                    className={`
+                        flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg shadow-lg transition-all duration-200
+                        ${hasActiveFilters
+                            ? 'bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-blue-600 dark:text-white'
+                            : 'bg-white hover:bg-gray-50 text-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200'
+                        }
+                    `}
             >
 
                 {hasActiveFilters && (
@@ -211,6 +214,31 @@ const FilterStatus = ({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
             </button>
+            
+            {(mapMode.isSpot || !mapMode.isSpot) && (
+                <button
+                    onClick={() => setShowChart(!showChart)}
+                    className={`
+                        flex items-center justify-center w-9 h-9 rounded-lg shadow-lg transition-all duration-200
+                        ${showChart
+                            ? 'bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-blue-600 dark:text-white'
+                            : 'bg-white hover:bg-gray-50 text-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200'
+                        }
+                    `}
+                    title="Toggle time distribution chart"
+                >
+                    <BarChart2 size={18} />
+                </button>
+            )}
+            </div>
+
+            {/* Time Distribution Chart */}
+            {showChart && (mapMode.isSpot || !mapMode.isSpot) && (
+                <TimeDistributionChart
+                    data={filteredData}
+                    onClose={() => setShowChart(false)}
+                />
+            )}
 
             {/* Dropdown Menu */}
             {isExpanded && (
