@@ -215,14 +215,12 @@ const FilterStatus = ({
                 </svg>
             </button>
             
-            {(mapMode.isSpot || !mapMode.isSpot) && (
+            {!mapMode.isPeak && (
                 <button
                     onClick={() => setShowChart(!showChart)}
                     className={`
                         flex items-center justify-center w-9 h-9 rounded-lg shadow-lg transition-all duration-200
-                        ${showChart
-                            ? 'bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-blue-600 dark:text-white'
-                            : 'bg-white hover:bg-gray-50 text-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200'
+                        bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-blue-600
                         }
                     `}
                     title="Toggle time distribution chart"
@@ -233,7 +231,7 @@ const FilterStatus = ({
             </div>
 
             {/* Time Distribution Chart */}
-            {showChart && (mapMode.isSpot || !mapMode.isSpot) && (
+            {showChart && !mapMode.isPeak && (
                 <TimeDistributionChart
                     data={filteredData}
                     onClose={() => setShowChart(false)}
