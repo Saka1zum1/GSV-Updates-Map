@@ -24,9 +24,9 @@ exports.handler = async function (event, context) {
 
         const [rows] = await connection.execute(channel_id ? `
             SELECT
-                MAX(CASE WHEN country = ? AND region = ? AND year = ? AND month = ? AND channel_id = ? THEN 1 ELSE 0 END) AS has_region,
-                MAX(CASE WHEN country = ? AND year = ? AND month = ? AND channel_id = ? THEN 1 ELSE 0 END) AS has_country,
-                MAX(CASE WHEN region = ? AND year = ? AND channel_id = ? THEN 1 ELSE 0 END) AS has_year
+                MAX(CASE WHEN (country = ? AND region = ? AND year = ? AND month = ? AND (channel_id = ? OR channel_id = 1408362784424591360)) THEN 1 ELSE 0 END) AS has_region,
+                MAX(CASE WHEN (country = ? AND year = ? AND month = ? AND (channel_id = ? OR channel_id = 1408362784424591360)) THEN 1 ELSE 0 END) AS has_country,
+                MAX(CASE WHEN (region = ? AND year = ? AND (channel_id = ? OR channel_id = 1408362784424591360)) THEN 1 ELSE 0 END) AS has_year
             FROM update_reports
         ` : `
             SELECT
