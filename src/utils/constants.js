@@ -102,7 +102,7 @@ export const updateTypes = [
     'newcountry', 'newregion', 'newarea', 'newtown', 'newstreet',
     'newroad', 'newisland', 'newyear', 'gen1update', 'gen2update',
     'gen3update', 'ariupdate', 'newsmallcam', 'newtrekker',
-    'newtripod', 'newsquare', 'newbadcam', 'smallcam',
+    'newtripod', 'newgen4', 'newbadcam', 'smallcam',
     'gen4trekker', 'gen4', 'gen3', 'gen2', 'gen1', 'badcam'
 ];
 
