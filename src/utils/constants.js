@@ -114,8 +114,7 @@ export const updateTypes = [
 export const getIconType = (types) => {
     if (types.some(t => t.includes('gen1'))) return 'gen1';
     if (types.some(t => t.includes('gen2') || t.includes('gen3'))) return 'gen2or3';
-    if (types.some(t => t.includes('newroad'))) return 'newroad';
-    if (types.some(t => t.includes('noblueline'))) return 'noblueline';
+    if (types.some(t => t.includes('newroad')|| t.includes('newstreet')|| t.includes('noblueline'))) return 'newroad';
     return 'gen4';
 };
 
