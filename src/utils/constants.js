@@ -62,6 +62,7 @@ export const colorOptions = {
 
 // Special dates with country codes or special markers
 export const specialDates = {
+    '2025-11-22T17:20:00Z': 'py',
     '2025-11-02T00:47:00Z': 'ba',
     '2025-11-01T18:56:00Z': 'cy',
     '2025-10-21T05:37:00Z': 'om',
