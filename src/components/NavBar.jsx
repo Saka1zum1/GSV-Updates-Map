@@ -99,6 +99,16 @@ const TopNavBar = ({
                         <Calendar size={18} />
                     </button>
 
+                    <button
+                        onClick={() => {
+                            onToggleFilterSidebar();
+                        }}
+                        className='flex items-center justify-center w-8 h-8 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        title="Open Filter"
+                    >
+                        <Filter size={18} />
+                    </button>
+
                     {/* Theme Toggle */}
                     <button
                         onClick={onToggleTheme}
@@ -130,6 +140,16 @@ const TopNavBar = ({
                         title="Toggle Calendar"
                     >
                         <Calendar size={18} />
+                    </button>
+
+                    <button
+                        onClick={() => {
+                            onToggleFilterSidebar();
+                        }}
+                        className='flex items-center justify-center w-8 h-8 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        title="Open Filter"
+                    >
+                        <Filter size={18} />
                     </button>
 
                     {/* Theme Toggle */}
