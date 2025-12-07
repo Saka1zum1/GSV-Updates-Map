@@ -11,16 +11,18 @@ const mysql = require("mysql2/promise");
 exports.handler = async function (event, context) {
     const connectionConfig = {
         host: process.env.MYSQL_HOST,
-        user: "mysql",
+        user: process.env.MYSQL_USER || "mysql",
         password: process.env.MYSQL_PASSWORD,
-        database: "default",
+        database: process.env.MYSQL_DATABASE || "default",
         port: process.env.MYSQL_PORT ? Number(process.env.MYSQL_PORT) : 3306,
         charset: "utf8mb4",
         supportBigNumbers: true,
         bigNumberStrings: true
     };
 
-    const { userId, year = '2024', type } = event.queryStringParameters || {};
+    // Default to current year if not specified
+    const currentYear = new Date().getFullYear();
+    const { userId, year = currentYear.toString(), type } = event.queryStringParameters || {};
 
     // Validate required parameters
     if (!userId) {
