@@ -22,6 +22,7 @@ import {
 } from 'lucide-react';
 import SearchModal from './SearchModal.jsx';
 import CreditModal from './CreditModal.jsx';
+import AnnualReportButton from './AnnualReportButton.jsx';
 const TopNavBar = ({
     isHeatmap,
     isCluster,
@@ -119,6 +120,9 @@ const TopNavBar = ({
                         {isDarkTheme ? <Sun size={18} /> : <Moon size={18} />}
                     </button>
 
+                    {/* Annual Report Button - Mobile */}
+                    <AnnualReportButton />
+
                     <button
                         onClick={() => setShowMobileMenu(!showMobileMenu)}
                         className="flex items-center justify-center w-8 h-8 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
@@ -162,6 +166,9 @@ const TopNavBar = ({
                         {isDarkTheme ? <Sun size={18} /> : <Moon size={18} />}
                     </button>
 
+                    {/* Annual Report Button - Tablet */}
+                    <AnnualReportButton />
+
                     <button
                         onClick={() => setShowMobileMenu(!showMobileMenu)}
                         className="flex items-center justify-center w-8 h-8 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
@@ -174,7 +181,7 @@ const TopNavBar = ({
                 {/* Desktop Layout */}
                 <div className="hidden xl:flex items-center flex-1 justify-between min-w-0">
                     {/* Theme Toggle - Desktop */}
-                    <div className="flex ml-2 md:ml-4">
+                    <div className="flex items-center ml-2 md:ml-4 space-x-2">
                         <button
                             onClick={onToggleTheme}
                             className="flex items-center space-x-2 px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
@@ -183,6 +190,10 @@ const TopNavBar = ({
                         >
                             {isDarkTheme ? <Sun size={20} /> : <Moon size={20} />}
                         </button>
+                        {/* Annual Report Button */}
+                        <div className="relative">
+                            <AnnualReportButton />
+                        </div>
                         {/* Credits Button */}
                         <button
                             onClick={() => setShowCreditModal(true)}

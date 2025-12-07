@@ -40,17 +40,25 @@ export async function fetchDiscordUser(accessToken) {
 }
 
 /**
- * Load annual report data from JSON file
+ * Load annual report data from backend API
+ * @param {string} userId - Discord user ID
  * @param {number} year - Report year (e.g., 2024)
+ * @param {string} type - Optional report type ("update" or "spot")
  * @returns {Promise<Array>} Array of annual reports
- * @throws {Error} If file not found or invalid JSON
+ * @throws {Error} If request fails or no data found
  */
-export async function loadAnnualReportData(year = 2024) {
+export async function loadAnnualReportData(userId, year = 2024, type = null) {
     try {
-        const response = await fetch(`/data/user_annual_report_${year}.json`);
+        let url = `/.netlify/functions/getAnnualReport?userId=${encodeURIComponent(userId)}&year=${year}`;
+        if (type) {
+            url += `&type=${encodeURIComponent(type)}`;
+        }
+        
+        const response = await fetch(url);
         
         if (!response.ok) {
-            const error = new Error(`Failed to load annual report data: ${response.status} ${response.statusText}`);
+            const errorData = await response.json().catch(() => ({}));
+            const error = new Error(errorData.error || `Failed to load annual report data: ${response.status} ${response.statusText}`);
             error.status = response.status;
             throw error;
         }
