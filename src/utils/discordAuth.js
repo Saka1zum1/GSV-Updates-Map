@@ -43,19 +43,28 @@ export async function fetchDiscordUser(accessToken) {
  * Load annual report data from JSON file
  * @param {number} year - Report year (e.g., 2024)
  * @returns {Promise<Array>} Array of annual reports
+ * @throws {Error} If file not found or invalid JSON
  */
 export async function loadAnnualReportData(year = 2024) {
     try {
         const response = await fetch(`/data/user_annual_report_${year}.json`);
         
         if (!response.ok) {
-            throw new Error(`Failed to load annual report data: ${response.status}`);
+            const error = new Error(`Failed to load annual report data: ${response.status} ${response.statusText}`);
+            error.status = response.status;
+            throw error;
         }
         
-        return await response.json();
+        const data = await response.json();
+        if (!Array.isArray(data)) {
+            throw new Error('Annual report data must be an array');
+        }
+        
+        return data;
     } catch (error) {
         console.error('Error loading annual report data:', error);
-        return [];
+        // Re-throw to let caller handle the error appropriately
+        throw error;
     }
 }
 
@@ -104,8 +113,10 @@ export function formatDate(dateString) {
 }
 
 /**
- * Get weekday name from number (0-6, 0=Monday)
- * @param {number} day - Day number (0-6)
+ * Get weekday name from number
+ * Note: Uses custom numbering where 0=Monday (not JavaScript's 0=Sunday convention)
+ * This matches the backend data structure from VirtualStreets/virtualstreets-update-bot
+ * @param {number} day - Day number (0-6, where 0=Monday, 6=Sunday)
  * @returns {string} Weekday name
  */
 export function getWeekdayName(day) {

@@ -5,7 +5,10 @@
 
 export const DISCORD_CONFIG = {
     // Discord OAuth2 Client ID - Replace with actual value or use environment variable
-    CLIENT_ID: import.meta.env.VITE_DISCORD_CLIENT_ID || 'YOUR_DISCORD_CLIENT_ID',
+    CLIENT_ID: import.meta.env.VITE_DISCORD_CLIENT_ID || (() => {
+        console.warn('VITE_DISCORD_CLIENT_ID not set. Please configure environment variables. See DISCORD_OAUTH_SETUP.md');
+        return 'YOUR_DISCORD_CLIENT_ID';
+    })(),
     
     // OAuth2 Redirect URI - Must match the one registered in Discord Developer Portal
     REDIRECT_URI: import.meta.env.VITE_DISCORD_REDIRECT_URI || `${window.location.origin}/report`,

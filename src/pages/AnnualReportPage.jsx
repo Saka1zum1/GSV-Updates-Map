@@ -44,7 +44,16 @@ const AnnualReportPage = () => {
                     setUser(discordUser);
 
                     // Load annual report data
-                    const reports = await loadAnnualReportData(2024);
+                    let reports = [];
+                    try {
+                        reports = await loadAnnualReportData(2024);
+                    } catch (dataError) {
+                        // Handle data loading errors specifically
+                        if (dataError.status === 404) {
+                            throw new Error('Annual report data file not found. Please check that public/data/user_annual_report_2024.json exists.');
+                        }
+                        throw dataError;
+                    }
 
                     // Find user's report
                     const report = findUserReport(reports, discordUser.id);

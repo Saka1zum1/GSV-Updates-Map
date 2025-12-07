@@ -1,6 +1,12 @@
 import React from 'react';
 import { getAuthorizationUrl } from '../../config/discord.js';
 
+// Discord brand colors - official Discord branding
+const DISCORD_COLORS = {
+    BLURPLE: '#5865F2',
+    BLURPLE_DARK: '#4752C4'
+};
+
 /**
  * Discord Login Button Component
  * Initiates Discord OAuth2 Implicit Flow
@@ -51,7 +57,12 @@ const DiscordLogin = () => {
                 {/* Login Button */}
                 <button
                     onClick={handleLogin}
-                    className="w-full bg-[#5865F2] hover:bg-[#4752C4] text-white font-semibold py-4 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 flex items-center justify-center gap-3 shadow-lg"
+                    style={{
+                        backgroundColor: DISCORD_COLORS.BLURPLE
+                    }}
+                    onMouseEnter={(e) => e.currentTarget.style.backgroundColor = DISCORD_COLORS.BLURPLE_DARK}
+                    onMouseLeave={(e) => e.currentTarget.style.backgroundColor = DISCORD_COLORS.BLURPLE}
+                    className="w-full text-white font-semibold py-4 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 active:scale-95 flex items-center justify-center gap-3 shadow-lg"
                     aria-label="Login with Discord"
                 >
                     <svg width="24" height="24" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg">

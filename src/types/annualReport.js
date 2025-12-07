@@ -108,5 +108,3 @@ export const REPORT_TYPES = {
 };
 
 export const MIN_DATA_THRESHOLD = 10; // Minimum records to show full report
-
-export default {};

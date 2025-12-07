@@ -130,8 +130,8 @@ const StoryModal = ({ report, onClose }) => {
                     </button>
                 </div>
 
-                {/* Keyboard navigation hint */}
-                <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 text-white/50 text-xs backdrop-blur-sm bg-black/20 px-3 py-1 rounded-full hidden md:block">
+                {/* Keyboard navigation hint - visible on all screen sizes for accessibility */}
+                <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 text-white/50 text-xs backdrop-blur-sm bg-black/20 px-3 py-1 rounded-full">
                     Use ← → arrow keys to navigate
                 </div>
             </div>
