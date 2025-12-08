@@ -29,19 +29,30 @@ const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) =
         const audio = audioRef.current;
         if (!audio) return;
 
-        // Create audio context and analyser
-        const AudioContext = window.AudioContext || window.webkitAudioContext;
-        const audioContext = new AudioContext();
-        const analyser = audioContext.createAnalyser();
-        analyser.fftSize = 256;
-        
-        const source = audioContext.createMediaElementSource(audio);
-        source.connect(analyser);
-        analyser.connect(audioContext.destination);
+        try {
+            // Create audio context and analyser
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            if (!AudioContext) {
+                console.warn('Web Audio API not supported in this browser');
+                return;
+            }
 
-        audioContextRef.current = audioContext;
-        analyserRef.current = analyser;
-        sourceRef.current = source;
+            const audioContext = new AudioContext();
+            const analyser = audioContext.createAnalyser();
+            analyser.fftSize = 256;
+            
+            const source = audioContext.createMediaElementSource(audio);
+            source.connect(analyser);
+            analyser.connect(audioContext.destination);
+
+            audioContextRef.current = audioContext;
+            analyserRef.current = analyser;
+            sourceRef.current = source;
+        } catch (err) {
+            console.error('Error initializing audio context:', err);
+            // Graceful degradation - player will still work without visualization
+            return;
+        }
 
         // Auto-play if requested
         if (autoPlay) {
@@ -159,7 +170,7 @@ const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) =
                 src={musicUrl}
                 loop
                 preload="auto"
-                style={{ display: 'none' }}
+                hidden
             />
 
             {/* Control button with music-reactive animation */}
@@ -234,7 +245,7 @@ const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) =
                                          [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white
                                          [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:h-3 
                                          [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:border-0"
-                                style={{ writingMode: 'bt-lr', WebkitAppearance: 'slider-vertical' }}
+                                style={{ writingMode: 'bt-lr', webkitAppearance: 'slider-vertical' }}
                                 orient="vertical"
                             />
 
