@@ -5,7 +5,7 @@ const mysql = require("mysql2/promise");
  * Netlify Function to fetch annual report data for a specific user
  * Query parameters:
  * - userId: Discord user ID (required)
- * - year: Report year (default: 2024)
+ * - year: Report year (default: 2025)
  * - type: Report type - "update" or "spot" (optional, returns both if not specified)
  */
 exports.handler = async function (event, context) {
@@ -37,13 +37,8 @@ exports.handler = async function (event, context) {
         const connection = await mysql.createConnection(connectionConfig);
 
         // Build query based on parameters
-        let sql = `SELECT * FROM annual_reports WHERE author_id = ? AND report_year = ?`;
+        let sql = `SELECT * FROM annual_reports WHERE author_id = ? AND year = ?`;
         let params = [userId, parseInt(year)];
-
-        if (type && (type === 'update' || type === 'spot')) {
-            sql += ` AND report_type = ?`;
-            params.push(type);
-        }
 
         const [rows] = await connection.execute(sql, params);
         await connection.end();

@@ -18,11 +18,12 @@ import {
     X,
     Calendar,
     Search,
-    Info
+    Info,
+    Award,
+    Loader2
 } from 'lucide-react';
 import SearchModal from './SearchModal.jsx';
 import CreditModal from './CreditModal.jsx';
-import AnnualReportButton from './AnnualReportButton.jsx';
 const TopNavBar = ({
     isHeatmap,
     isCluster,
@@ -44,7 +45,9 @@ const TopNavBar = ({
     onToggleFilterSidebar,
     calendarVisible,
     onToggleCalendar,
-    onLocationSearch
+    onLocationSearch,
+    onOpenYearInReview,
+    yearInReviewLoading
 }) => {
     const [showExportMenu, setShowExportMenu] = useState(false);
     const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -100,7 +103,20 @@ const TopNavBar = ({
                         <Calendar size={18} />
                     </button>
 
+                    {/* Annual Report Button - Mobile */}
                     <button
+                        onClick={onOpenYearInReview}
+                        disabled={yearInReviewLoading}
+                        className={`flex items-center justify-center w-8 h-8 rounded-lg transition-all duration-200
+                            bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
+                            text-white shadow-md hover:shadow-lg
+                            ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
+                        title="Wrapped 2025"
+                    >
+                        {yearInReviewLoading ? <Loader2 size={18} className="animate-spin" /> : <Award size={18} />}
+                    </button>
+
+                    {/*<button
                         onClick={() => {
                             onToggleFilterSidebar();
                         }}
@@ -108,7 +124,7 @@ const TopNavBar = ({
                         title="Open Filter"
                     >
                         <Filter size={18} />
-                    </button>
+                    </button>*/}
 
                     {/* Theme Toggle */}
                     <button
@@ -119,9 +135,6 @@ const TopNavBar = ({
                     >
                         {isDarkTheme ? <Sun size={18} /> : <Moon size={18} />}
                     </button>
-
-                    {/* Annual Report Button - Mobile */}
-                    <AnnualReportButton />
 
                     <button
                         onClick={() => setShowMobileMenu(!showMobileMenu)}
@@ -167,7 +180,17 @@ const TopNavBar = ({
                     </button>
 
                     {/* Annual Report Button - Tablet */}
-                    <AnnualReportButton />
+                    <button
+                        onClick={onOpenYearInReview}
+                        disabled={yearInReviewLoading}
+                        className={`flex items-center justify-center w-8 h-8 rounded-lg transition-all duration-200
+                            bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
+                            text-white shadow-md hover:shadow-lg
+                            ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
+                        title="Year in Review"
+                    >
+                        {yearInReviewLoading ? <Loader2 size={18} className="animate-spin" /> : <Award size={18} />}
+                    </button>
 
                     <button
                         onClick={() => setShowMobileMenu(!showMobileMenu)}
@@ -192,7 +215,18 @@ const TopNavBar = ({
                         </button>
                         {/* Annual Report Button */}
                         <div className="relative">
-                            <AnnualReportButton />
+                            <button
+                                onClick={onOpenYearInReview}
+                                disabled={yearInReviewLoading}
+                                className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-all duration-200 text-sm font-medium
+                                    bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
+                                    text-white shadow-md hover:shadow-lg transform hover:scale-105 border border-transparent
+                                    ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
+                                title={`View Your Wrapped ${new Date().getFullYear()}`}
+                            >
+                                {yearInReviewLoading ? <Loader2 size={20} className="animate-spin" /> : <Award size={20} />}
+                                <span>Wrapped {new Date().getFullYear()}</span>
+                            </button>
                         </div>
                         {/* Credits Button */}
                         <button

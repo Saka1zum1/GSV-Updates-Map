@@ -42,18 +42,22 @@ export async function fetchDiscordUser(accessToken) {
 /**
  * Load annual report data from backend API
  * @param {string} userId - Discord user ID
- * @param {number} year - Report year (e.g., 2024)
+ * @param {number} year - Report year (e.g., 2025)
  * @param {string} type - Optional report type ("update" or "spot")
  * @returns {Promise<Array>} Array of annual reports
  * @throws {Error} If request fails or no data found
  */
-export async function loadAnnualReportData(userId, year = 2024, type = null) {
+export async function loadAnnualReportData(userId, year = 2025, type = null) {
     try {
-        let url = `/.netlify/functions/getAnnualReport?userId=${encodeURIComponent(userId)}&year=${year}`;
+        // Determine the correct base URL based on environment
+        const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        const baseUrl = isDevelopment ? 'http://localhost:8888' : '';
+        
+        let url = `${baseUrl}/.netlify/functions/getAnnualReport?userId=${encodeURIComponent(userId)}&year=${year}`;
         if (type) {
             url += `&type=${encodeURIComponent(type)}`;
         }
-        
+
         const response = await fetch(url);
         
         if (!response.ok) {
@@ -68,7 +72,26 @@ export async function loadAnnualReportData(userId, year = 2024, type = null) {
             throw new Error('Annual report data must be an array');
         }
         
-        return data;
+        // Transform data: flatten the content field to top level for easier access
+        const transformedData = data.map(report => {
+            if (report.content && typeof report.content === 'object') {
+                // Merge content fields with top-level fields
+                // Keep original top-level fields (author_id, year, report_type, created_at)
+                // But content fields take precedence if there's a conflict
+                return {
+                    ...report,
+                    ...report.content,
+                    // Preserve metadata
+                    db_author_id: report.author_id,
+                    db_year: report.year,
+                    db_report_type: report.report_type,
+                    db_created_at: report.created_at
+                };
+            }
+            return report;
+        });
+        
+        return transformedData;
     } catch (error) {
         console.error('Error loading annual report data:', error);
         // Re-throw to let caller handle the error appropriately

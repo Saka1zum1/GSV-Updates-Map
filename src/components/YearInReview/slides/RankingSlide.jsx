@@ -1,126 +1,74 @@
 import React from 'react';
-import { Trophy, Award, TrendingUp } from 'lucide-react';
-import { getMonthName } from '../../../utils/discordAuth.js';
 
 /**
- * Ranking Statistics Slide
- * @param {Object} props - Component props
- * @param {Object} props.report - Annual report data
+ * Ranking Slide - Community standing (Netease style)
  */
 const RankingSlide = ({ report }) => {
-    if (!report || !report.ranking_stats) return null;
+    const rankingStats = report?.ranking_stats;
+    const totalRank = rankingStats?.total_rank;
+    const percentile = rankingStats?.total_rank_percentile;
 
-    const { ranking_stats } = report;
-    const {
-        total_rank,
-        total_rank_percentile,
-        country_ranks,
-        best_month_rank,
-        best_month
-    } = ranking_stats;
+    // Get rank badge info
+    const getRankBadge = (rank, percentile) => {
+        if (rank === 1) return { badge: '👑', title: '#1 Coverage Hunter', desc: 'The undisputed champion!', gradient: 'from-yellow-400 to-amber-500' };
+        if (rank <= 3) return { badge: '🥇', title: 'Top 3 Elite', desc: 'Among the very best!', gradient: 'from-yellow-300 to-orange-400' };
+        if (rank <= 10) return { badge: '🌟', title: 'Top 10', desc: 'A true coverage legend!', gradient: 'from-purple-400 to-pink-500' };
+        if (percentile >= 90) return { badge: '💎', title: 'Top 10%', desc: 'Diamond tier contributor!', gradient: 'from-blue-400 to-cyan-400' };
+        if (percentile >= 75) return { badge: '🔥', title: 'Top 25%', desc: 'Rising through the ranks!', gradient: 'from-orange-400 to-red-500' };
+        if (percentile >= 50) return { badge: '⭐', title: 'Top 50%', desc: 'Above average explorer!', gradient: 'from-blue-500 to-indigo-500' };
+        return { badge: '🌱', title: 'Growing', desc: 'Every journey starts somewhere!', gradient: 'from-green-400 to-emerald-500' };
+    };
 
-    // Get top country rankings
-    const topCountryRanks = Object.entries(country_ranks || {})
-        .sort((a, b) => a[1] - b[1])
-        .slice(0, 5);
+    const rankInfo = getRankBadge(totalRank, percentile);
 
     return (
-        <div className="flex flex-col h-full px-6 py-8 overflow-y-auto">
+        <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
             {/* Header */}
-            <div className="text-center mb-6">
-                <h2 className="text-3xl md:text-4xl font-bold mb-2 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-                    Rankings & Achievements
-                </h2>
-                <p className="text-gray-600 dark:text-gray-400">
-                    Your standing in the community
-                </p>
+            <p className="text-white/60 text-lg mb-8">
+                In the coverage community, you ranked
+            </p>
+
+            {/* Rank badge */}
+            <div className="mb-6">
+                <div className="text-6xl mb-4">{rankInfo.badge}</div>
+                <div className={`text-5xl md:text-7xl font-bold bg-gradient-to-r ${rankInfo.gradient} bg-clip-text text-transparent`}>
+                    #{totalRank || '--'}
+                </div>
             </div>
 
-            {/* Overall Ranking */}
-            <div className="glass-effect rounded-xl p-8 text-center mb-6 transform hover:scale-105 transition-transform">
-                <Trophy className="w-16 h-16 text-yellow-500 dark:text-yellow-400 mx-auto mb-4" />
-                <div className="text-5xl font-bold text-yellow-600 dark:text-yellow-400 mb-2">
-                    #{total_rank}
+            {/* Title and description */}
+            <div className="mb-8">
+                <div className="text-2xl font-bold text-white mb-2">
+                    {rankInfo.title}
                 </div>
-                <div className="text-sm text-gray-600 dark:text-gray-400 uppercase tracking-wide mb-2">
-                    Overall Ranking
+                <div className="text-white/60">
+                    {rankInfo.desc}
                 </div>
-                {total_rank_percentile && (
-                    <div className="text-lg text-gray-700 dark:text-gray-300">
-                        Top <span className="font-bold text-yellow-600 dark:text-yellow-400">
-                            {total_rank_percentile.toFixed(1)}%
-                        </span>
+            </div>
+
+            {/* Percentile visualization */}
+            {percentile && (
+                <div className="w-full max-w-sm">
+                    <div className="flex justify-between text-xs text-white/40 mb-2">
+                        <span>Top {(100 - percentile).toFixed(1)}%</span>
+                        <span>of all contributors</span>
                     </div>
-                )}
-            </div>
-
-            {/* Best Month */}
-            {best_month_rank && best_month && (
-                <div className="glass-effect rounded-lg p-6 mb-6">
-                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4 flex items-center gap-2">
-                        <Award className="w-5 h-5 text-orange-500" />
-                        Best Monthly Performance
-                    </h3>
-                    <div className="flex items-center justify-between">
-                        <div>
-                            <div className="text-2xl font-bold text-orange-600 dark:text-orange-400">
-                                #{best_month_rank}
-                            </div>
-                            <div className="text-sm text-gray-600 dark:text-gray-400">
-                                in {getMonthName(best_month)}
-                            </div>
-                        </div>
-                        <div className="text-4xl">🏆</div>
+                    <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+                        <div 
+                            className={`h-full bg-gradient-to-r ${rankInfo.gradient} rounded-full transition-all duration-1000`}
+                            style={{ width: `${percentile}%` }}
+                        />
                     </div>
                 </div>
             )}
 
-            {/* Country Rankings */}
-            {topCountryRanks.length > 0 && (
-                <div className="glass-effect rounded-lg p-6">
-                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4 flex items-center gap-2">
-                        <TrendingUp className="w-5 h-5 text-blue-500" />
-                        Top Country Rankings
-                    </h3>
-                    <div className="space-y-3">
-                        {topCountryRanks.map(([country, rank], index) => {
-                            const medals = ['🥇', '🥈', '🥉'];
-                            const medal = medals[index] || '🏅';
-                            
-                            return (
-                                <div
-                                    key={country}
-                                    className="flex items-center justify-between p-3 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-lg"
-                                >
-                                    <div className="flex items-center gap-3">
-                                        <span className="text-2xl">{medal}</span>
-                                        <div>
-                                            <div className="font-medium text-gray-800 dark:text-gray-200">
-                                                {country}
-                                            </div>
-                                            <div className="text-xs text-gray-500 dark:text-gray-400">
-                                                Rank #{rank}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                                        #{rank}
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            )}
-
-            {/* Encouragement */}
-            <div className="mt-6 text-center">
-                <p className="text-gray-600 dark:text-gray-400 italic">
-                    Keep up the great work! 🌟
-                </p>
-            </div>
+            {/* Fun fact */}
+            <p className="mt-8 text-white/40 text-xs max-w-sm">
+                Rankings are based on total contributions across the year 📊
+            </p>
         </div>
     );
 };
 
 export default RankingSlide;
+                            
