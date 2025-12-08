@@ -622,6 +622,7 @@ function App() {
                 user={yearInReviewUser}
                 isOpen={showYearInReview}
                 onClose={handleCloseYearInReview}
+                musicUrl="/assets/annual-report-bg-music.mp3"
             />
 
             {/* Year in Review Loading Overlay */}

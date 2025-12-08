@@ -13,12 +13,20 @@ import UpdateTypesSlide from './slides/UpdateTypesSlide.jsx';
 import StreakSlide from './slides/StreakSlide.jsx';
 import RankingSlide from './slides/RankingSlide.jsx';
 import SummarySlide from './slides/SummarySlide.jsx';
+import BackgroundMusicPlayer from './BackgroundMusicPlayer.jsx';
 
 /**
  * Year in Review Modal - Netease Cloud Music Style
  * Immersive full-screen story experience
+ * 
+ * @param {Object} props - Component props
+ * @param {Object} props.report - Annual report data
+ * @param {Object} props.user - User information
+ * @param {Function} props.onClose - Close handler
+ * @param {boolean} props.isOpen - Whether modal is open
+ * @param {string} props.musicUrl - Optional background music URL (mp3 or m4a)
  */
-const YearInReviewModal = ({ report, user, onClose, isOpen }) => {
+const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [direction, setDirection] = useState(0); // -1 for prev, 1 for next
     const [isAnimating, setIsAnimating] = useState(false);
@@ -240,6 +248,14 @@ const YearInReviewModal = ({ report, user, onClose, isOpen }) => {
                 <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white/40 text-xs animate-pulse">
                     Tap or swipe to continue →
                 </div>
+            )}
+
+            {/* Background Music Player */}
+            {musicUrl && (
+                <BackgroundMusicPlayer 
+                    musicUrl={musicUrl}
+                    autoPlay={false}
+                />
             )}
         </div>
     );
