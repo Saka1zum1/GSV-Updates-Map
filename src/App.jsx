@@ -93,7 +93,7 @@ function App() {
                 const discordUser = await fetchDiscordUser(token);
                 
                 // Verify developer access
-                if (discordUser.id !== DEVELOPER_AUTHOR_ID) {
+                if (!DEVELOPER_AUTHOR_IDS.includes(discordUser.id)) {
                     setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
                     return;
                 }
