@@ -6,10 +6,22 @@ import FilterPanel from './components/Filter.jsx';
 import FilterStatus from './components/FilterStatus.jsx';
 import CompactCalendarWidget from './components/Calendar.jsx';
 import { FullScreenSpinner } from './components/Spinner.jsx';
+import YearInReviewModal from './components/YearInReview/YearInReviewModal.jsx';
 import { useMapData, useCalendar } from './hooks/useMapData.js';
 import { colorOptions } from './utils/constants.js';
 import { reverseGeocode } from './utils/api.js';
 import { X } from 'lucide-react';
+import {
+    parseAccessTokenFromHash,
+    clearAccessTokenFromUrl,
+    fetchDiscordUser,
+    loadAnnualReportData,
+    hasSufficientData
+} from './utils/discordAuth.js';
+import { MIN_DATA_THRESHOLD } from './types/annualReport.js';
+
+// Developer-only access (年度报告功能当前仅对开发者可见)
+const DEVELOPER_AUTHOR_ID = '1042644958911402096';
 
 function App() {
     const {
@@ -38,6 +50,96 @@ function App() {
     const [calendarVisible, setCalendarVisible] = usePersistentState('calendarVisible', true);
     const [useDeckGL, setUseDeckGL] = usePersistentState('useDeckGL', false);
     const [searchResult, setSearchResult] = useState(null);
+
+    // Year in Review state
+    const [showYearInReview, setShowYearInReview] = useState(false);
+    const [yearInReviewUser, setYearInReviewUser] = useState(null);
+    const [yearInReviewReport, setYearInReviewReport] = useState(null);
+    const [yearInReviewLoading, setYearInReviewLoading] = useState(false);
+    const [yearInReviewError, setYearInReviewError] = useState(null);
+
+    // Handle Year in Review modal
+    const handleOpenYearInReview = useCallback(async () => {
+        // Check if we already have data loaded
+        if (yearInReviewUser && yearInReviewReport) {
+            // Re-check developer access before opening
+            if (yearInReviewUser.id !== DEVELOPER_AUTHOR_ID) {
+                setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
+                return;
+            }
+            setShowYearInReview(true);
+            return;
+        }
+
+        // Check for existing auth token in URL (redirect from Discord)
+        const token = parseAccessTokenFromHash();
+        
+        if (token) {
+            // Clear token from URL immediately to prevent re-processing
+            clearAccessTokenFromUrl();
+            
+            // Prevent duplicate processing if already loading
+            if (yearInReviewLoading) {
+                console.log('Year in Review already loading, skipping duplicate request');
+                return;
+            }
+            
+            setYearInReviewLoading(true);
+            setYearInReviewError(null);
+
+            try {
+                // Fetch user info from Discord
+                const discordUser = await fetchDiscordUser(token);
+                setYearInReviewUser(discordUser);
+
+                // Check developer access
+                if (discordUser.id !== DEVELOPER_AUTHOR_ID) {
+                    setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
+                    return;
+                }
+
+                // Load annual report data
+                let reports = [];
+                try {
+                    reports = await loadAnnualReportData(discordUser.id, 2025, 'update');
+                } catch (dataError) {
+                    if (dataError.status !== 404) throw dataError;
+                }
+
+                const report = reports.length > 0 ? reports[0] : null;
+                if (report && hasSufficientData(report, MIN_DATA_THRESHOLD)) {
+                    setYearInReviewReport(report);
+                    setShowYearInReview(true);
+                } else {
+                    setYearInReviewError(`You need at least ${MIN_DATA_THRESHOLD} contributions to view your Year in Review. Keep exploring! 🌍`);
+                }
+            } catch (err) {
+                console.error('Year in Review error:', err);
+                setYearInReviewError(err.message || 'Failed to load your Year in Review');
+            } finally {
+                setYearInReviewLoading(false);
+            }
+        } else {
+            // No token - redirect to Discord OAuth
+            const { DISCORD_CONFIG } = await import('./config/discord.js');
+            window.location.href = DISCORD_CONFIG.AUTH_URL;
+        }
+    }, [yearInReviewUser, yearInReviewReport, yearInReviewLoading]);
+
+    const handleCloseYearInReview = useCallback(() => {
+        setShowYearInReview(false);
+        setYearInReviewError(null);
+    }, []);
+
+    // Check for Year in Review auth callback on mount (runs once)
+    useEffect(() => {
+        const token = parseAccessTokenFromHash();
+        if (token && !yearInReviewLoading && !yearInReviewUser) {
+            // Automatically open Year in Review if we have a token and haven't started loading yet
+            handleOpenYearInReview();
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     const handleOpacityChange = useCallback((value) => {
         setGsvOpacity(value);
@@ -474,6 +576,8 @@ function App() {
                 calendarVisible={calendarVisible}
                 onToggleCalendar={() => setCalendarVisible(prev => !prev)}
                 onLocationSearch={handleLocationSearch}
+                onOpenYearInReview={handleOpenYearInReview}
+                yearInReviewLoading={yearInReviewLoading}
             />
 
             {/* Map Container */}
@@ -531,6 +635,46 @@ function App() {
                     onToggleMode={handleToggleCalendarMode}
                     onToggleView={handleToggleCalendarView}
                 />
+            )}
+
+            {/* Year in Review Modal */}
+            <YearInReviewModal
+                report={yearInReviewReport}
+                user={yearInReviewUser}
+                isOpen={showYearInReview}
+                onClose={handleCloseYearInReview}
+                musicUrl="/assets/bg.mp3"
+                autoPlay={true}
+            />
+
+            {/* Year in Review Loading Overlay */}
+            {yearInReviewLoading && (
+                <FullScreenSpinner
+                    title="Loading Your Year in Review..."
+                    subtitle="Connecting to Discord and fetching your data"
+                    color="purple"
+                />
+            )}
+
+            {/* Year in Review Error Notification */}
+            {yearInReviewError && (
+                <div className="fixed inset-0 z-[9998] flex items-center justify-center bg-black/50 backdrop-blur-sm">
+                    <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 max-w-md mx-4 text-center shadow-2xl">
+                        <div className="text-5xl mb-4">😢</div>
+                        <h2 className="text-xl font-bold text-gray-800 dark:text-gray-200 mb-3">
+                            Year in Review
+                        </h2>
+                        <p className="text-gray-600 dark:text-gray-400 mb-6">
+                            {yearInReviewError}
+                        </p>
+                        <button
+                            onClick={handleCloseYearInReview}
+                            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white rounded-lg transition-all"
+                        >
+                            Got it
+                        </button>
+                    </div>
+                </div>
             )}
         </div>
     );
