@@ -19,12 +19,11 @@ const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
         return { period: 'Night Owl', emoji: '🦉', desc: 'Burning the midnight oil for coverage!' };
     };
 
-    // Format hour to 12-hour format
+    // Format hour to 12-hour format (input is 0-23)
     const formatHour = (hour) => {
         if (hour === undefined || hour === null) return '--';
-        const suffix = hour >= 12 ? 'PM' : 'AM';
-        const displayHour = hour % 12 || 12;
-        return `${displayHour}:00 ${suffix}`;
+
+        return `${hour}:00`;
     };
 
     const timeInfo = getTimePeriod(peakHour);
@@ -48,10 +47,10 @@ const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
             </div>
 
             {/* Peak stats grid */}
-            <div className="grid grid-cols-3 gap-4 w-full max-w-md">
+            <div className="grid grid-cols-3 gap-2 md:gap-4 w-full max-w-md px-4">
                 {/* Peak Hour */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                    <div className="text-2xl font-bold text-blue-400 mb-1">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-2 md:p-4">
+                    <div className="text-lg md:text-2xl font-bold text-blue-400 mb-1">
                         {formatHour(peakHour)}
                     </div>
                     <div className="text-xs text-white/50">
@@ -60,8 +59,8 @@ const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
                 </div>
 
                 {/* Peak Day */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                    <div className="text-2xl font-bold text-purple-400 mb-1">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-2 md:p-4">
+                    <div className="text-lg md:text-2xl font-bold text-purple-400 mb-1">
                         {getWeekdayName(peakWeekday)?.slice(0, 3) || '--'}
                     </div>
                     <div className="text-xs text-white/50">
@@ -70,8 +69,8 @@ const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
                 </div>
 
                 {/* Peak Month */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4">
-                    <div className="text-2xl font-bold text-pink-400 mb-1">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-2 md:p-4">
+                    <div className="text-lg md:text-2xl font-bold text-pink-400 mb-1">
                         {getMonthName(peakMonth)?.slice(0, 3) || '--'}
                     </div>
                     <div className="text-xs text-white/50">

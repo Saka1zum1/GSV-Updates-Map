@@ -7,53 +7,18 @@ import React from 'react';
 const UpdateTypesSlide = ({ report }) => {
     const updates = report?.updates;
     const typesObj = updates?.types || {};
-    const typesDistribution = Object.entries(typesObj).reduce((acc, [type, data]) => {
-        acc[type] = data.count;
-        return acc;
-    }, {});
-    const topTypes = updates?.top_types?.map(t => t.type) || [];
+    const topTypes = updates?.top_types || [];
 
-    // Sort types by count and get top 6
-    const sortedTypes = Object.entries(typesDistribution)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 6);
+    const totalTypes = Object.keys(typesObj).length;
 
-    const totalTypes = Object.keys(typesDistribution).length;
-    const maxCount = sortedTypes.length > 0 ? sortedTypes[0][1] : 1;
+    // Get the #1 type from top_types
+    const favoriteTypeData = topTypes.length > 0 ? topTypes[0] : null;
+    const favoriteType = favoriteTypeData?.type;
 
-    // Get display name for update type
-    const getTypeName = (type) => {
-        const names = {
-            'newcountry': 'New Country',
-            'newregion': 'New Region',
-            'newarea': 'New Area',
-            'newtown': 'New Town',
-            'newstreet': 'New Street',
-            'newroad': 'New Road',
-            'newisland': 'New Island',
-            'newyear': 'New Year Coverage',
-            'gen1update': 'Gen 1 Update',
-            'gen2update': 'Gen 2 Update',
-            'gen3update': 'Gen 3 Update',
-            'ariupdate': 'ARI Update',
-            'newsmallcam': 'New Small Cam',
-            'newtrekker': 'New Trekker',
-            'newtripod': 'New Tripod',
-            'newgen4': 'New Gen 4',
-            'newbadcam': 'New Bad Cam',
-            'smallcam': 'Small Cam',
-            'gen4trekker': 'Gen 4 Trekker',
-            'gen4': 'Gen 4',
-            'gen3': 'Gen 3',
-            'gen2': 'Gen 2',
-            'gen1': 'Gen 1',
-            'badcam': 'Bad Cam'
-        };
-        return names[type] || type;
+    const getRankMedal = (rank) => {
+        const medals = { 1: '🏆', 2: '🥈', 3: '🥉' };
+        return medals[rank] || `#${rank}`;
     };
-
-    // Get the #1 type
-    const favoriteType = sortedTypes.length > 0 ? sortedTypes[0][0] : null;
 
     return (
         <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
@@ -63,9 +28,10 @@ const UpdateTypesSlide = ({ report }) => {
             </p>
 
             {/* Favorite type highlight */}
-            {favoriteType && (
+            {favoriteType && favoriteTypeData && (
                 <div className="mb-8">
                     <div className="relative inline-block mb-4">
+                        <div className="absolute -top-3 -right-3 text-2xl md:text-3xl">{getRankMedal(favoriteTypeData.rank)}</div>
                         <img 
                             src={`/assets/${favoriteType}.webp`}
                             alt={favoriteType}
@@ -77,37 +43,34 @@ const UpdateTypesSlide = ({ report }) => {
                         {/* Glow effect */}
                         <div className="absolute inset-0 bg-blue-500/20 blur-2xl rounded-full" />
                     </div>
-                    <div className="text-3xl md:text-4xl font-bold text-white mb-2">
-                        {getTypeName(favoriteType)}
-                    </div>
                     <div className="text-white/60">
-                        {sortedTypes[0][1].toLocaleString()} contributions
+                        {favoriteTypeData.count.toLocaleString()} reports
                     </div>
                 </div>
             )}
 
             {/* Other top types grid */}
-            {sortedTypes.length > 1 && (
-                <div className="w-full max-w-md">
-                    <p className="text-xs text-white/40 uppercase tracking-wider mb-4">
-                        Also loved
-                    </p>
-                    <div className="grid grid-cols-5 gap-2">
-                        {sortedTypes.slice(1).map(([type, count]) => (
+            {topTypes.length > 1 && (
+                <div className="w-full max-w-2xl">
+                    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+                        {topTypes.map(({ type, count, rank }) => (
                             <div 
                                 key={type}
-                                className="bg-white/10 backdrop-blur-sm rounded-lg p-2 flex flex-col items-center"
-                                title={`${getTypeName(type)}: ${count}`}
+                                className="relative bg-white/10 backdrop-blur-sm rounded-lg p-3 flex flex-col items-center"
                             >
+                                <div className="absolute top-0 right-1 text-white/80 text-xs md:text-sm bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">{getRankMedal(rank)}</div>
                                 <img 
                                     src={`/assets/${type}.webp`}
                                     alt={type}
-                                    className="w-8 h-8 md:w-10 md:h-10 object-contain mb-1"
+                                    className="w-10 h-10 md:w-12 md:h-12 object-contain mb-2"
                                     onError={(e) => {
                                         e.target.src = '/assets/gen4.webp';
                                     }}
                                 />
-                                <span className="text-white/70 text-xs">{count}</span>
+                                <span className="text-white font-medium text-xs md:text-sm">{count}</span>
+                                <span className="text-xxs text-white/40">
+                                    reports
+                                </span>
                             </div>
                         ))}
                     </div>

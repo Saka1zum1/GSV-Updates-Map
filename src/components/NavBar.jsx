@@ -109,7 +109,7 @@ const TopNavBar = ({
                         disabled={yearInReviewLoading}
                         className={`flex items-center justify-center w-8 h-8 rounded-lg transition-all duration-200
                             bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
-                            text-white shadow-md hover:shadow-lg
+                            text-white shadow-md hover:shadow-lg border border-transparent
                             ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
                         title="Wrapped 2025"
                     >
@@ -185,7 +185,7 @@ const TopNavBar = ({
                         disabled={yearInReviewLoading}
                         className={`flex items-center justify-center w-8 h-8 rounded-lg transition-all duration-200
                             bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
-                            text-white shadow-md hover:shadow-lg
+                            text-white shadow-md hover:shadow-lg border border-transparent
                             ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
                         title="Year in Review"
                     >
@@ -220,7 +220,7 @@ const TopNavBar = ({
                                 disabled={yearInReviewLoading}
                                 className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-all duration-200 text-sm font-medium
                                     bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
-                                    text-white shadow-md hover:shadow-lg transform hover:scale-105 border border-transparent
+                                    text-white shadow-md hover:shadow-lg border border-transparent
                                     ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
                                 title={`View Your Wrapped ${new Date().getFullYear()}`}
                             >

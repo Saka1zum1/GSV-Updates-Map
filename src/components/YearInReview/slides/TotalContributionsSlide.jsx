@@ -6,26 +6,15 @@ import React from 'react';
  */
 const TotalContributionsSlide = ({ report }) => {
     const totalCount = report?.total_count || report?.total || 0;
-    const dailyAverage = report?.daily_average || 0;
-    const reportType = report?.report_type || 'update';
+    const dailyAverage = report?.daily_avg || 0;
 
     // Generate a fun comparison
     const getComparison = (count) => {
         if (count >= 1000) return `That's like exploring a new place every ${Math.round(365 / count * 100) / 100} hours!`;
-        if (count >= 500) return `You're in the top tier of coverage hunters!`;
+        if (count >= 500) return `You're in the top tier of new coverage hunters!`;
         if (count >= 100) return `That's serious dedication to the map!`;
         if (count >= 50) return `Quality over quantity, right?`;
         return `Every discovery counts!`;
-    };
-
-    // Get emoji based on report type
-    const getTypeEmoji = () => {
-        return reportType === 'update' ? '📍' : '📸';
-    };
-
-    // Get action verb based on report type
-    const getActionVerb = () => {
-        return reportType === 'update' ? 'coverage updates' : 'interesting spots';
     };
 
     return (
@@ -44,11 +33,6 @@ const TotalContributionsSlide = ({ report }) => {
                 <div className="absolute inset-0 text-7xl md:text-9xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent blur-2xl opacity-30">
                     {totalCount.toLocaleString()}
                 </div>
-            </div>
-
-            {/* Type label */}
-            <div className="text-xl md:text-2xl text-white/80 mb-8">
-                {getTypeEmoji()} {getActionVerb()}
             </div>
 
             {/* Daily average */}
