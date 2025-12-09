@@ -9,21 +9,9 @@ const SummarySlide = ({ report, user }) => {
     const totalCount = report?.total_count || report?.total || 0;
     const countriesCount = report?.geo?.countries || 0;
     const regionsCount = report?.geo?.regions || 0;
-    const longestStreak = report?.streak?.longest || 0;
     const activeDays = report?.streak?.active_days || 0;
     const rank = report?.updates?.rank;
-    const percentile = report?.updates?.percentile;
     const dailyAvg = report?.daily_avg || 0;
-
-    // Build dynamic achievements based on data
-    const achievements = [];
-    if (totalCount >= 500) achievements.push('500+ Contributions');
-    if (countriesCount >= 40) achievements.push('World Explorer');
-    if (regionsCount >= 300) achievements.push('Regional Master');
-    if (longestStreak >= 10) achievements.push(`${longestStreak}-Day Streak`);
-    if (percentile && percentile >= 95) achievements.push('Top 5% Contributor');
-    if (report?.global_stats?.first_country_report?.length > 0) achievements.push('First Reporter');
-    if (dailyAvg >= 2) achievements.push('Daily Contributor');
 
     return (
         <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
@@ -38,7 +26,7 @@ const SummarySlide = ({ report, user }) => {
             </h2>
 
             <p className="text-white/70 text-lg mb-8 max-w-md">
-                Thanks for being part of the Street View coverage community
+                Thanks for being part of the VirtualStreets
             </p>
 
             {/* Quick stats summary */}
@@ -61,30 +49,13 @@ const SummarySlide = ({ report, user }) => {
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-yellow-400">#{rank || '--'}</div>
-                    <div className="text-xs text-white/50">global rank</div>
+                    <div className="text-xs text-white/50">community rank</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-pink-400">{dailyAvg.toFixed(1)}</div>
-                    <div className="text-xs text-white/50">daily avg</div>
+                    <div className="text-xs text-white/50">daily average</div>
                 </div>
             </div>
-
-            {/* Achievements badges */}
-            {achievements.length > 0 && (
-                <div className="mb-8">
-                    <p className="text-xs text-white/40 uppercase tracking-wider mb-3">Achievements Unlocked</p>
-                    <div className="flex flex-wrap justify-center gap-2">
-                        {achievements.slice(0, 4).map((achievement, index) => (
-                            <span 
-                                key={index}
-                                className="px-3 py-1 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 border border-yellow-500/30 rounded-full text-yellow-400 text-xs"
-                            >
-                                🏆 {achievement}
-                            </span>
-                        ))}
-                    </div>
-                </div>
-            )}
 
             {/* Call to action */}
             <div className="space-y-4">
@@ -100,7 +71,7 @@ const SummarySlide = ({ report, user }) => {
 
             {/* Year badge */}
             <div className="mt-8 px-6 py-2 rounded-full bg-white/5 text-white/40 text-sm">
-                #{year}Wrapped
+                #{year} Wrapped
             </div>
         </div>
     );

@@ -7,8 +7,9 @@ import FilterStatus from './components/FilterStatus.jsx';
 import CompactCalendarWidget from './components/Calendar.jsx';
 import { FullScreenSpinner } from './components/Spinner.jsx';
 import YearInReviewModal from './components/YearInReview/YearInReviewModal.jsx';
+import ReportConfirmationModal from './components/YearInReview/ReportConfirmationModal.jsx';
 import { useMapData, useCalendar } from './hooks/useMapData.js';
-import { colorOptions } from './utils/constants.js';
+import { colorOptions, DEVELOPER_AUTHOR_IDS} from './utils/constants.js';
 import { reverseGeocode } from './utils/api.js';
 import { X } from 'lucide-react';
 import {
@@ -19,9 +20,6 @@ import {
     hasSufficientData
 } from './utils/discordAuth.js';
 import { MIN_DATA_THRESHOLD } from './types/annualReport.js';
-
-// Developer-only access (年度报告功能当前仅对开发者可见)
-const DEVELOPER_AUTHOR_ID = '1042644958911402096';
 
 function App() {
     const {
@@ -57,13 +55,17 @@ function App() {
     const [yearInReviewReport, setYearInReviewReport] = useState(null);
     const [yearInReviewLoading, setYearInReviewLoading] = useState(false);
     const [yearInReviewError, setYearInReviewError] = useState(null);
+    
+    // New states for separated auth flow
+    const [showReportConfirmation, setShowReportConfirmation] = useState(false);
+    const [reportGenerationLoading, setReportGenerationLoading] = useState(false);
+    const [discordUserAuthed, setDiscordUserAuthed] = useState(null); // Cache for authed user without report
 
-    // Handle Year in Review modal
+    // Handle Year in Review button click - check auth state
     const handleOpenYearInReview = useCallback(async () => {
-        // Check if we already have data loaded
+        // State 1: Already have report, just open modal
         if (yearInReviewUser && yearInReviewReport) {
-            // Re-check developer access before opening
-            if (yearInReviewUser.id !== DEVELOPER_AUTHOR_ID) {
+            if (!DEVELOPER_AUTHOR_IDS.includes(yearInReviewUser.id)) {
                 setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
                 return;
             }
@@ -71,71 +73,123 @@ function App() {
             return;
         }
 
-        // Check for existing auth token in URL (redirect from Discord)
+        // State 2: Already authed, but no report yet - show confirmation dialog
+        if (discordUserAuthed && !yearInReviewReport) {
+            setShowReportConfirmation(true);
+            return;
+        }
+
+        // State 3: Not authed - check if there's a token in URL from OAuth redirect
         const token = parseAccessTokenFromHash();
         
         if (token) {
-            // Clear token from URL immediately to prevent re-processing
+            // OAuth callback received
             clearAccessTokenFromUrl();
-            
-            // Prevent duplicate processing if already loading
-            if (yearInReviewLoading) {
-                console.log('Year in Review already loading, skipping duplicate request');
-                return;
-            }
-            
             setYearInReviewLoading(true);
             setYearInReviewError(null);
 
             try {
                 // Fetch user info from Discord
                 const discordUser = await fetchDiscordUser(token);
-                setYearInReviewUser(discordUser);
-
-                // Check developer access
+                
+                // Verify developer access
                 if (discordUser.id !== DEVELOPER_AUTHOR_ID) {
                     setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
                     return;
                 }
 
-                // Load annual report data
-                let reports = [];
+                // Cache the authed user
+                setDiscordUserAuthed(discordUser);
+                
+                // Save to sessionStorage for persistence
                 try {
-                    reports = await loadAnnualReportData(discordUser.id, 2025, 'update');
-                } catch (dataError) {
-                    if (dataError.status !== 404) throw dataError;
+                    sessionStorage.setItem('yir_authed_user', JSON.stringify(discordUser));
+                } catch (e) {
+                    console.warn('Could not cache authed user:', e);
                 }
 
-                const report = reports.length > 0 ? reports[0] : null;
-                if (report && hasSufficientData(report, MIN_DATA_THRESHOLD)) {
-                    setYearInReviewReport(report);
-                    setShowYearInReview(true);
-                } else {
-                    setYearInReviewError(`You need at least ${MIN_DATA_THRESHOLD} contributions to view your Year in Review. Keep exploring! 🌍`);
-                }
+                // Show confirmation dialog to generate report
+                setShowReportConfirmation(true);
             } catch (err) {
-                console.error('Year in Review error:', err);
-                setYearInReviewError(err.message || 'Failed to load your Year in Review');
+                console.error('Discord auth error:', err);
+                setYearInReviewError('Failed to authenticate with Discord. Please try again.');
             } finally {
                 setYearInReviewLoading(false);
             }
         } else {
-            // No token - redirect to Discord OAuth
+            // No token and not authed - redirect to Discord OAuth
+            sessionStorage.setItem('yir_user_initiated', 'true');
             const { DISCORD_CONFIG } = await import('./config/discord.js');
             window.location.href = DISCORD_CONFIG.AUTH_URL;
         }
-    }, [yearInReviewUser, yearInReviewReport, yearInReviewLoading]);
+    }, [yearInReviewUser, yearInReviewReport, discordUserAuthed]);
+
+    // Handle report generation confirmation
+    const handleConfirmReportGeneration = useCallback(async () => {
+        if (!discordUserAuthed) return;
+
+        setReportGenerationLoading(true);
+        setYearInReviewError(null);
+
+        try {
+            // Load annual report data
+            let reports = [];
+            try {
+                reports = await loadAnnualReportData(discordUserAuthed.id, 2025, 'update');
+            } catch (dataError) {
+                if (dataError.status !== 404) throw dataError;
+            }
+
+            const report = reports.length > 0 ? reports[0] : null;
+            if (report && hasSufficientData(report, MIN_DATA_THRESHOLD)) {
+                // Cache report data
+                setYearInReviewReport(report);
+                setYearInReviewUser(discordUserAuthed);
+                
+                // Save to sessionStorage
+                try {
+                    sessionStorage.setItem('yir_cached_report', JSON.stringify(report));
+                    sessionStorage.setItem('yir_user_confirmed_report', 'true');
+                } catch (e) {
+                    console.warn('Could not cache report data:', e);
+                }
+
+                // Close confirmation modal and show report
+                setShowReportConfirmation(false);
+                setShowYearInReview(true);
+            } else {
+                setYearInReviewError(`You need at least ${MIN_DATA_THRESHOLD} contributions to view your 2025 Wrapped. Keep exploring! 🌍`);
+            }
+        } catch (err) {
+            console.error('Report generation error:', err);
+            setYearInReviewError('Failed to generate your report. Please try again.');
+        } finally {
+            setReportGenerationLoading(false);
+        }
+    }, [discordUserAuthed]);
+
+    // Handle closing confirmation modal
+    const handleCloseReportConfirmation = useCallback(() => {
+        setShowReportConfirmation(false);
+    }, []);
 
     const handleCloseYearInReview = useCallback(() => {
         setShowYearInReview(false);
         setYearInReviewError(null);
     }, []);
 
+    const [canAutoplayMusic, setCanAutoplayMusic] = useState(false);
+
     // Check for Year in Review auth callback on mount (runs once)
     useEffect(() => {
         const token = parseAccessTokenFromHash();
         if (token && !yearInReviewLoading && !yearInReviewUser) {
-            // Automatically open Year in Review if we have a token and haven't started loading yet
+            const userInitiated = sessionStorage.getItem('yir_user_initiated') === 'true';
+            if (userInitiated) {
+                setCanAutoplayMusic(true);
+                sessionStorage.removeItem('yir_user_initiated');
+            }
+
             handleOpenYearInReview();
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -643,14 +697,24 @@ function App() {
                 user={yearInReviewUser}
                 isOpen={showYearInReview}
                 onClose={handleCloseYearInReview}
+                countries={countries}
                 musicUrl="/assets/bg.mp3"
-                autoPlay={true}
+                canAutoplayMusic={canAutoplayMusic}
+            />
+
+            {/* Report Confirmation Modal */}
+            <ReportConfirmationModal
+                isOpen={showReportConfirmation}
+                onClose={handleCloseReportConfirmation}
+                onConfirm={handleConfirmReportGeneration}
+                isLoading={reportGenerationLoading}
+                userName={discordUserAuthed?.username || discordUserAuthed?.global_name || 'User'}
             />
 
             {/* Year in Review Loading Overlay */}
             {yearInReviewLoading && (
                 <FullScreenSpinner
-                    title="Loading Your Year in Review..."
+                    title="Loading Your 2025 Wrapped..."
                     subtitle="Connecting to Discord and fetching your data"
                     color="purple"
                 />
@@ -662,7 +726,7 @@ function App() {
                     <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 max-w-md mx-4 text-center shadow-2xl">
                         <div className="text-5xl mb-4">😢</div>
                         <h2 className="text-xl font-bold text-gray-800 dark:text-gray-200 mb-3">
-                            Year in Review
+                            2025 Wrapped
                         </h2>
                         <p className="text-gray-600 dark:text-gray-400 mb-6">
                             {yearInReviewError}

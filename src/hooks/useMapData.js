@@ -94,10 +94,42 @@ export const useMapData = () => {
                 setLoading(true);
                 const since = getOneMonthAgoTimestamp();
 
-                const [updateReports, countriesData] = await Promise.all([
-                    loadTableData({ table: 'update_reports', since }),
-                    loadCountriesData()
-                ]);
+                // Try to load countries data from sessionStorage cache first
+                let countriesData = null;
+                const cachedCountries = sessionStorage.getItem('countries_data');
+                const cacheTimestamp = sessionStorage.getItem('countries_cache_time');
+                const cacheAge = cacheTimestamp ? Date.now() - parseInt(cacheTimestamp, 10) : Infinity;
+                
+                // Use cache if it's less than 1 hour old
+                if (cachedCountries && cacheAge < 3600000) {
+                    try {
+                        countriesData = JSON.parse(cachedCountries);
+                        console.log('Using cached countries data');
+                    } catch (e) {
+                        console.warn('Failed to parse cached countries data:', e);
+                    }
+                }
+
+                // Fetch data - only fetch countries if not cached
+                const dataPromises = [loadTableData({ table: 'update_reports', since })];
+                if (!countriesData) {
+                    dataPromises.push(loadCountriesData());
+                }
+
+                const results = await Promise.all(dataPromises);
+                const updateReports = results[0];
+                
+                if (!countriesData) {
+                    countriesData = results[1];
+                    // Cache countries data
+                    try {
+                        sessionStorage.setItem('countries_data', JSON.stringify(countriesData));
+                        sessionStorage.setItem('countries_cache_time', Date.now().toString());
+                        console.log('Cached countries data');
+                    } catch (e) {
+                        console.warn('Failed to cache countries data:', e);
+                    }
+                }
 
                 setUpdateData(updateReports);
                 setFilteredData(updateReports);

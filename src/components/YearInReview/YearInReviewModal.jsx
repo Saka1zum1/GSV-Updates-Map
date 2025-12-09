@@ -11,11 +11,12 @@ import TopCountriesSlide from './slides/TopCountriesSlide.jsx';
 import TopRegionsSlide from './slides/TopRegionsSlide.jsx';
 import FavoriteTimeSlide from './slides/FavoriteTimeSlide.jsx';
 import BusiestDaySlide from './slides/BusiestDaySlide.jsx';
+import ReactionsSlide from './slides/ReactionsSlide.jsx';
 import UpdateTypesSlide from './slides/UpdateTypesSlide.jsx';
 import StreakSlide from './slides/StreakSlide.jsx';
 import RankingSlide from './slides/RankingSlide.jsx';
-import GlobalFirstsSlide from './slides/GlobalFirstsSlide.jsx';
-import SummarySlide from './slides/SummarySlide.jsx';
+import GlobalFirstsSlide from './slides/GlobalSlide.jsx';
+import SummarySlide from './slides/SummarySlide.jsx'
 import BackgroundMusicPlayer from './BackgroundMusicPlayer.jsx';
 
 /**
@@ -28,8 +29,9 @@ import BackgroundMusicPlayer from './BackgroundMusicPlayer.jsx';
  * @param {Function} props.onClose - Close handler
  * @param {boolean} props.isOpen - Whether modal is open
  * @param {string} props.musicUrl - Optional background music URL (mp3 or m4a)
+ * @param {boolean} props.canAutoplayMusic - Whether music can autoplay (user initiated flow)
  */
-const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
+const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries, canAutoplayMusic = false }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [direction, setDirection] = useState(0); // -1 for prev, 1 for next
     const [isAnimating, setIsAnimating] = useState(false);
@@ -62,6 +64,11 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
         // Add busiest day slide if available
         if (report.time?.busiest_day && report.time?.busiest_day_count) {
             slideList.push({ id: 'busiest-day', component: BusiestDaySlide });
+        }
+
+        // Add reactions slide if available
+        if (report.reactions&& report.reactions.top_msg_id) {
+            slideList.push({ id: 'reactions', component: ReactionsSlide });
         }
 
         // Add content stats if available (updates with types)
@@ -97,20 +104,6 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
 
     const musicRef = React.useRef(null);
 
-    // Attempt to start music when modal opens
-    useEffect(() => {
-        if (isOpen && musicUrl && musicRef.current && typeof musicRef.current.play === 'function') {
-            // small delay to let audio element mount
-            const t = setTimeout(() => {
-                musicRef.current.play().catch(err => {
-                    console.warn('Autoplay via ref prevented or failed:', err);
-                });
-            }, 50);
-
-            return () => clearTimeout(t);
-        }
-    }, [isOpen, musicUrl]);
-
     // Navigation handlers
     const goToNext = useCallback(() => {
         if (currentSlide < totalSlides - 1 && !isAnimating) {
@@ -139,10 +132,11 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
         }
     }, [currentSlide, isAnimating]);
 
-    // Keyboard navigation
+    // Keyboard navigation - also allows music to start via spacebar/enter on overlay
     useEffect(() => {
         const handleKeyDown = (e) => {
             if (!isOpen) return;
+            
             if (e.key === 'ArrowRight' || e.key === ' ') {
                 e.preventDefault();
                 goToNext();
@@ -158,15 +152,15 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [isOpen, goToNext, goToPrev, onClose]);
 
-    // Touch swipe support - vertical for mobile
+    // Touch swipe support - horizontal for mobile
     const [touchStart, setTouchStart] = useState(null);
-    const handleTouchStart = (e) => setTouchStart(e.touches[0].clientY);
+    const handleTouchStart = (e) => setTouchStart(e.touches[0].clientX);
     const handleTouchEnd = (e) => {
         if (!touchStart) return;
-        const diff = touchStart - e.changedTouches[0].clientY;
+        const diff = touchStart - e.changedTouches[0].clientX;
         if (Math.abs(diff) > 50) {
-            if (diff > 0) goToNext(); // Swipe up -> next
-            else goToPrev(); // Swipe down -> prev
+            if (diff > 0) goToNext(); // Swipe left -> next
+            else goToPrev(); // Swipe right -> prev
         }
         setTouchStart(null);
     };
@@ -226,14 +220,14 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
             </div>
 
             {/* Main content area */}
-            <div className="relative h-full flex items-center justify-center px-4 py-20 overflow-hidden">
+            <div className="relative h-full flex items-center justify-center px-2 md:px-4 py-16 md:py-20 overflow-hidden">
                 <div 
                     className={`w-full max-w-2xl mx-auto transform transition-all duration-500 ease-out ${
                         isAnimating 
                             ? direction > 0 
-                                ? 'opacity-0 md:translate-x-8 translate-y-8 md:translate-y-0' 
-                                : 'opacity-0 md:-translate-x-8 -translate-y-8 md:translate-y-0'
-                            : 'opacity-100 translate-x-0 translate-y-0'
+                                ? 'opacity-0 translate-x-8' 
+                                : 'opacity-0 -translate-x-8'
+                            : 'opacity-100 translate-x-0'
                     }`}
                 >
                     {CurrentSlideComponent && (
@@ -243,13 +237,14 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
                             getFlagEmoji={getFlagEmoji}
                             getWeekdayName={getWeekdayName}
                             getMonthName={getMonthName}
+                            countries={countries}
                         />
                     )}
                 </div>
             </div>
 
-            {/* Navigation buttons */}
-            <div className="absolute bottom-8 left-0 right-0 flex items-center justify-between px-6 z-50">
+            {/* Navigation buttons - hidden on mobile */}
+            <div className="absolute bottom-8 left-0 right-0 hidden md:flex items-center justify-between px-6 z-50">
                 <button
                     onClick={goToPrev}
                     disabled={currentSlide === 0}
@@ -261,11 +256,6 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
                 >
                     <ChevronLeft size={28} />
                 </button>
-
-                {/* Page indicator */}
-                <div className="text-white/60 text-sm font-medium">
-                    {currentSlide + 1} / {totalSlides}
-                </div>
 
                 <button
                     onClick={goToNext}
@@ -282,9 +272,9 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
 
             {/* Tap hint for mobile - only show on first slide */}
             {currentSlide === 0 && (
-                <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white/40 text-xs animate-pulse">
+                <div className="absolute bottom-8 md:bottom-24 left-1/2 transform -translate-x-1/2 text-white/40 text-xs animate-pulse z-40">
                     <span className="hidden md:inline">Tap or press → to continue</span>
-                    <span className="md:hidden">Swipe up to continue ↑</span>
+                    <span className="md:hidden">Swipe left to continue →</span>
                 </div>
             )}
 
@@ -293,9 +283,10 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
                 <BackgroundMusicPlayer 
                     ref={musicRef}
                     musicUrl={musicUrl}
-                    autoPlay={true}
+                    autoPlay={canAutoplayMusic}
                 />
             )}
+
         </div>
     );
 };
