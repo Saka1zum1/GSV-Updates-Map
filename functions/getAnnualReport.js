@@ -51,28 +51,39 @@ exports.handler = async function (event, context) {
             };
         }
 
-        // Parse JSON fields if they are stored as strings
+        // Parse and flatten content field
         const reports = rows.map(row => {
-            const report = { ...row };
+            let content = row.content;
             
-            // Parse JSON fields
-            const jsonFields = [
-                'time_stats', 'geo_stats', 'content_stats', 
-                'spot_content_stats', 'streak_stats', 'ranking_stats',
-                'interaction_stats', 'milestones', 'custom_data'
-            ];
-            
-            jsonFields.forEach(field => {
-                if (report[field] && typeof report[field] === 'string') {
-                    try {
-                        report[field] = JSON.parse(report[field]);
-                    } catch (e) {
-                        console.error(`Error parsing ${field}:`, e);
-                    }
+            // Parse content if it's a string
+            if (typeof content === 'string') {
+                try {
+                    content = JSON.parse(content);
+                } catch (e) {
+                    console.error('Error parsing content field:', e);
+                    content = {};
                 }
-            });
+            }
             
-            return report;
+            // Flatten content to top level while keeping metadata
+            return {
+                // Database metadata fields
+                author_id: row.author_id,
+                year: row.year,
+                created_at: row.created_at,
+                
+                // Content fields - flattened to top level
+                ...content,
+                
+                // Ensure report_year exists for compatibility
+                report_year: content.year || row.year,
+                
+                // Ensure author_name from content
+                author_name: content.author_name || null,
+                
+                // Total count (combines updates and spots)
+                total_count: (content.updates?.count || 0) + (content.spots?.count || 0)
+            };
         });
 
         return {

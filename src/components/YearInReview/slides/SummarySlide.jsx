@@ -4,20 +4,31 @@ import React from 'react';
  * Summary Slide - Final wrap-up with sharing option
  */
 const SummarySlide = ({ report, user }) => {
-    const year = report?.report_year || new Date().getFullYear();
+    const year = report?.report_year || report?.year || new Date().getFullYear();
     const userName = user?.username || report?.author_name || 'Explorer';
-    const totalCount = report?.total_count || 0;
-    const countriesCount = report?.geo_stats?.countries_count || 0;
-    const longestStreak = report?.streak_stats?.longest_streak_days || 0;
-    const rank = report?.ranking_stats?.total_rank;
+    const totalCount = report?.total_count || report?.total || 0;
+    const countriesCount = report?.geo?.countries || 0;
+    const regionsCount = report?.geo?.regions || 0;
+    const longestStreak = report?.streak?.longest || 0;
+    const activeDays = report?.streak?.active_days || 0;
+    const rank = report?.updates?.rank;
+    const percentile = report?.updates?.percentile;
+    const dailyAvg = report?.daily_avg || 0;
 
-    // Get achievements
-    const achievements = report?.milestones?.achievements || [];
+    // Build dynamic achievements based on data
+    const achievements = [];
+    if (totalCount >= 500) achievements.push('500+ Contributions');
+    if (countriesCount >= 40) achievements.push('World Explorer');
+    if (regionsCount >= 300) achievements.push('Regional Master');
+    if (longestStreak >= 10) achievements.push(`${longestStreak}-Day Streak`);
+    if (percentile && percentile >= 95) achievements.push('Top 5% Contributor');
+    if (report?.global_stats?.first_country_report?.length > 0) achievements.push('First Reporter');
+    if (dailyAvg >= 2) achievements.push('Daily Contributor');
 
     return (
         <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
             {/* Celebration emoji */}
-            <div className="text-6xl mb-6 animate-bounce">
+            <div className="text-6xl mb-2 animate-bounce">
                 🎉
             </div>
 
@@ -31,7 +42,7 @@ const SummarySlide = ({ report, user }) => {
             </p>
 
             {/* Quick stats summary */}
-            <div className="grid grid-cols-2 gap-4 w-full max-w-sm mb-8">
+            <div className="grid grid-cols-2 gap-3 w-full max-w-sm mb-8">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-blue-400">{totalCount}</div>
                     <div className="text-xs text-white/50">contributions</div>
@@ -41,12 +52,20 @@ const SummarySlide = ({ report, user }) => {
                     <div className="text-xs text-white/50">countries</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
-                    <div className="text-2xl font-bold text-orange-400">{longestStreak}</div>
-                    <div className="text-xs text-white/50">day streak</div>
+                    <div className="text-2xl font-bold text-green-400">{regionsCount}</div>
+                    <div className="text-xs text-white/50">regions</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+                    <div className="text-2xl font-bold text-orange-400">{activeDays}</div>
+                    <div className="text-xs text-white/50">active days</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-yellow-400">#{rank || '--'}</div>
-                    <div className="text-xs text-white/50">ranking</div>
+                    <div className="text-xs text-white/50">global rank</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
+                    <div className="text-2xl font-bold text-pink-400">{dailyAvg.toFixed(1)}</div>
+                    <div className="text-xs text-white/50">daily avg</div>
                 </div>
             </div>
 

@@ -5,13 +5,15 @@ import React from 'react';
  * Uses flag emojis and visual bars
  */
 const TopCountriesSlide = ({ report, getFlagEmoji }) => {
-    const geoStats = report?.geo_stats;
-    const countriesCount = geoStats?.countries_count || 0;
-    const regionsCount = geoStats?.regions_count || 0;
-    const topCountries = geoStats?.top_countries || {};
+    const geo = report?.geo;
+    const countriesCount = geo?.countries || 0;
+    const regionsCount = geo?.regions || 0;
+    const topCountries = geo?.top_countries || {};
 
     // Get top 5 countries sorted by count
+    // topCountries format: { "AR": { "rank": 9, "count": 22 }, ... }
     const topCountriesArray = Object.entries(topCountries)
+        .map(([code, data]) => [code, data.count])
         .sort((a, b) => b[1] - a[1])
         .slice(0, 5);
     

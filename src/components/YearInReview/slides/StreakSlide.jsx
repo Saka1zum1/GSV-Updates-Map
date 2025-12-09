@@ -4,12 +4,12 @@ import React from 'react';
  * Streak Slide - Consistency and dedication
  */
 const StreakSlide = ({ report }) => {
-    const streakStats = report?.streak_stats;
-    const longestStreak = streakStats?.longest_streak_days || 0;
-    const currentStreak = streakStats?.current_streak_days || 0;
-    const activeDays = streakStats?.active_days || 0;
-    const activeWeeks = streakStats?.active_weeks || 0;
-    const activeMonths = streakStats?.active_months || 0;
+    const streak = report?.streak;
+    const longestStreak = streak?.longest || 0;
+    const currentStreak = streak?.current || 0;
+    const activeDays = streak?.active_days || 0;
+    const activeWeeks = streak?.active_weeks || 0;
+    const activeMonths = streak?.active_months || 0;
 
     // Get dedication level
     const getDedicationLevel = (streak) => {

@@ -8,10 +8,13 @@ import IntroSlide from './slides/IntroSlide.jsx';
 import JourneyStartSlide from './slides/JourneyStartSlide.jsx';
 import TotalContributionsSlide from './slides/TotalContributionsSlide.jsx';
 import TopCountriesSlide from './slides/TopCountriesSlide.jsx';
+import TopRegionsSlide from './slides/TopRegionsSlide.jsx';
 import FavoriteTimeSlide from './slides/FavoriteTimeSlide.jsx';
+import BusiestDaySlide from './slides/BusiestDaySlide.jsx';
 import UpdateTypesSlide from './slides/UpdateTypesSlide.jsx';
 import StreakSlide from './slides/StreakSlide.jsx';
 import RankingSlide from './slides/RankingSlide.jsx';
+import GlobalFirstsSlide from './slides/GlobalFirstsSlide.jsx';
 import SummarySlide from './slides/SummarySlide.jsx';
 import BackgroundMusicPlayer from './BackgroundMusicPlayer.jsx';
 
@@ -41,29 +44,47 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
             { id: 'total', component: TotalContributionsSlide },
         ];
 
-        // Add geo slide if has geo data
-        if (report.geo_stats?.countries_count > 0) {
+        // Add geo slides if has geo data
+        if (report.geo?.countries > 0) {
             slideList.push({ id: 'countries', component: TopCountriesSlide });
+        }
+        
+        // Add top regions slide if has regions data
+        if (report.geo?.regions > 0 && report.geo?.top_regions?.length > 0) {
+            slideList.push({ id: 'regions', component: TopRegionsSlide });
         }
 
         // Add time stats if available
-        if (report.time_stats) {
+        if (report.time) {
             slideList.push({ id: 'time', component: FavoriteTimeSlide });
         }
+        
+        // Add busiest day slide if available
+        if (report.time?.busiest_day && report.time?.busiest_day_count) {
+            slideList.push({ id: 'busiest-day', component: BusiestDaySlide });
+        }
 
-        // Add content stats if available
-        if (report.content_stats?.types_distribution) {
+        // Add content stats if available (updates with types)
+        if (report.updates?.types) {
             slideList.push({ id: 'types', component: UpdateTypesSlide });
         }
 
         // Add streak stats if available
-        if (report.streak_stats) {
+        if (report.streak) {
             slideList.push({ id: 'streak', component: StreakSlide });
         }
 
         // Add ranking if available
-        if (report.ranking_stats?.total_rank) {
+        if (report.updates?.rank) {
             slideList.push({ id: 'ranking', component: RankingSlide });
+        }
+        
+        // Add global achievements if available
+        const hasGlobalAchievements = 
+            (report.global_stats?.first_country_report?.length > 0) ||
+            (report.global_stats?.top_country_report?.length > 0);
+        if (hasGlobalAchievements) {
+            slideList.push({ id: 'global-firsts', component: GlobalFirstsSlide });
         }
 
         // Always end with summary
@@ -73,6 +94,22 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
     }, [report]);
 
     const totalSlides = slides.length;
+
+    const musicRef = React.useRef(null);
+
+    // Attempt to start music when modal opens
+    useEffect(() => {
+        if (isOpen && musicUrl && musicRef.current && typeof musicRef.current.play === 'function') {
+            // small delay to let audio element mount
+            const t = setTimeout(() => {
+                musicRef.current.play().catch(err => {
+                    console.warn('Autoplay via ref prevented or failed:', err);
+                });
+            }, 50);
+
+            return () => clearTimeout(t);
+        }
+    }, [isOpen, musicUrl]);
 
     // Navigation handlers
     const goToNext = useCallback(() => {
@@ -121,15 +158,15 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [isOpen, goToNext, goToPrev, onClose]);
 
-    // Touch swipe support
+    // Touch swipe support - vertical for mobile
     const [touchStart, setTouchStart] = useState(null);
-    const handleTouchStart = (e) => setTouchStart(e.touches[0].clientX);
+    const handleTouchStart = (e) => setTouchStart(e.touches[0].clientY);
     const handleTouchEnd = (e) => {
         if (!touchStart) return;
-        const diff = touchStart - e.changedTouches[0].clientX;
+        const diff = touchStart - e.changedTouches[0].clientY;
         if (Math.abs(diff) > 50) {
-            if (diff > 0) goToNext();
-            else goToPrev();
+            if (diff > 0) goToNext(); // Swipe up -> next
+            else goToPrev(); // Swipe down -> prev
         }
         setTouchStart(null);
     };
@@ -194,9 +231,9 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
                     className={`w-full max-w-2xl mx-auto transform transition-all duration-500 ease-out ${
                         isAnimating 
                             ? direction > 0 
-                                ? 'opacity-0 translate-x-8' 
-                                : 'opacity-0 -translate-x-8'
-                            : 'opacity-100 translate-x-0'
+                                ? 'opacity-0 md:translate-x-8 translate-y-8 md:translate-y-0' 
+                                : 'opacity-0 md:-translate-x-8 -translate-y-8 md:translate-y-0'
+                            : 'opacity-100 translate-x-0 translate-y-0'
                     }`}
                 >
                     {CurrentSlideComponent && (
@@ -246,15 +283,17 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl }) => {
             {/* Tap hint for mobile - only show on first slide */}
             {currentSlide === 0 && (
                 <div className="absolute bottom-24 left-1/2 transform -translate-x-1/2 text-white/40 text-xs animate-pulse">
-                    Tap or swipe to continue →
+                    <span className="hidden md:inline">Tap or press → to continue</span>
+                    <span className="md:hidden">Swipe up to continue ↑</span>
                 </div>
             )}
 
             {/* Background Music Player */}
             {musicUrl && (
                 <BackgroundMusicPlayer 
+                    ref={musicRef}
                     musicUrl={musicUrl}
-                    autoPlay={false}
+                    autoPlay={true}
                 />
             )}
         </div>

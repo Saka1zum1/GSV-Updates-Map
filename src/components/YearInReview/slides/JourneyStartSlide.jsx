@@ -4,8 +4,8 @@ import React from 'react';
  * Journey Start Slide - When the user started their journey
  */
 const JourneyStartSlide = ({ report }) => {
-    const streakStats = report?.streak_stats;
-    const firstDate = streakStats?.first_activity_date;
+    const streak = report?.streak;
+    const firstDate = streak?.first_date;
     
     // Parse the first activity date
     const formatDate = (dateStr) => {
@@ -21,7 +21,7 @@ const JourneyStartSlide = ({ report }) => {
     };
 
     const dateInfo = formatDate(firstDate);
-    const activeDays = streakStats?.active_days || 0;
+    const activeDays = streak?.active_days || 0;
 
     return (
         <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">

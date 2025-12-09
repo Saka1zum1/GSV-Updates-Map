@@ -72,26 +72,8 @@ export async function loadAnnualReportData(userId, year = 2025, type = null) {
             throw new Error('Annual report data must be an array');
         }
         
-        // Transform data: flatten the content field to top level for easier access
-        const transformedData = data.map(report => {
-            if (report.content && typeof report.content === 'object') {
-                // Merge content fields with top-level fields
-                // Keep original top-level fields (author_id, year, report_type, created_at)
-                // But content fields take precedence if there's a conflict
-                return {
-                    ...report,
-                    ...report.content,
-                    // Preserve metadata
-                    db_author_id: report.author_id,
-                    db_year: report.year,
-                    db_report_type: report.report_type,
-                    db_created_at: report.created_at
-                };
-            }
-            return report;
-        });
-        
-        return transformedData;
+        // Backend already flattened the content field, return as-is
+        return data;
     } catch (error) {
         console.error('Error loading annual report data:', error);
         // Re-throw to let caller handle the error appropriately

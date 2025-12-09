@@ -5,7 +5,7 @@ import React from 'react';
  * Netease style: Large impactful number with context
  */
 const TotalContributionsSlide = ({ report }) => {
-    const totalCount = report?.total_count || 0;
+    const totalCount = report?.total_count || report?.total || 0;
     const dailyAverage = report?.daily_average || 0;
     const reportType = report?.report_type || 'update';
 

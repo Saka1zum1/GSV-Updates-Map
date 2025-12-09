@@ -20,6 +20,9 @@ import {
 } from './utils/discordAuth.js';
 import { MIN_DATA_THRESHOLD } from './types/annualReport.js';
 
+// Developer-only access (年度报告功能当前仅对开发者可见)
+const DEVELOPER_AUTHOR_ID = '1042644958911402096';
+
 function App() {
     const {
         filteredData,
@@ -59,6 +62,11 @@ function App() {
     const handleOpenYearInReview = useCallback(async () => {
         // Check if we already have data loaded
         if (yearInReviewUser && yearInReviewReport) {
+            // Re-check developer access before opening
+            if (yearInReviewUser.id !== DEVELOPER_AUTHOR_ID) {
+                setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
+                return;
+            }
             setShowYearInReview(true);
             return;
         }
@@ -67,8 +75,15 @@ function App() {
         const token = parseAccessTokenFromHash();
         
         if (token) {
-            // Clear token from URL
+            // Clear token from URL immediately to prevent re-processing
             clearAccessTokenFromUrl();
+            
+            // Prevent duplicate processing if already loading
+            if (yearInReviewLoading) {
+                console.log('Year in Review already loading, skipping duplicate request');
+                return;
+            }
+            
             setYearInReviewLoading(true);
             setYearInReviewError(null);
 
@@ -76,6 +91,12 @@ function App() {
                 // Fetch user info from Discord
                 const discordUser = await fetchDiscordUser(token);
                 setYearInReviewUser(discordUser);
+
+                // Check developer access
+                if (discordUser.id !== DEVELOPER_AUTHOR_ID) {
+                    setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
+                    return;
+                }
 
                 // Load annual report data
                 let reports = [];
@@ -103,18 +124,18 @@ function App() {
             const { DISCORD_CONFIG } = await import('./config/discord.js');
             window.location.href = DISCORD_CONFIG.AUTH_URL;
         }
-    }, [yearInReviewUser, yearInReviewReport]);
+    }, [yearInReviewUser, yearInReviewReport, yearInReviewLoading]);
 
     const handleCloseYearInReview = useCallback(() => {
         setShowYearInReview(false);
         setYearInReviewError(null);
     }, []);
 
-    // Check for Year in Review auth callback on mount
+    // Check for Year in Review auth callback on mount (runs once)
     useEffect(() => {
         const token = parseAccessTokenFromHash();
-        if (token) {
-            // Automatically open Year in Review if we have a token
+        if (token && !yearInReviewLoading && !yearInReviewUser) {
+            // Automatically open Year in Review if we have a token and haven't started loading yet
             handleOpenYearInReview();
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -622,7 +643,8 @@ function App() {
                 user={yearInReviewUser}
                 isOpen={showYearInReview}
                 onClose={handleCloseYearInReview}
-                musicUrl="/assets/annual-report-bg-music.mp3"
+                musicUrl="/assets/bg.mp3"
+                autoPlay={true}
             />
 
             {/* Year in Review Loading Overlay */}

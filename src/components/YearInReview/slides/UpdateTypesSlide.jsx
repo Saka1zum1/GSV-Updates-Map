@@ -5,9 +5,13 @@ import React from 'react';
  * Uses actual update type images from assets
  */
 const UpdateTypesSlide = ({ report }) => {
-    const contentStats = report?.content_stats;
-    const typesDistribution = contentStats?.types_distribution || {};
-    const topTypes = contentStats?.top_types || [];
+    const updates = report?.updates;
+    const typesObj = updates?.types || {};
+    const typesDistribution = Object.entries(typesObj).reduce((acc, [type, data]) => {
+        acc[type] = data.count;
+        return acc;
+    }, {});
+    const topTypes = updates?.top_types?.map(t => t.type) || [];
 
     // Sort types by count and get top 6
     const sortedTypes = Object.entries(typesDistribution)

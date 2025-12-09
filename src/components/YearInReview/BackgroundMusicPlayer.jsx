@@ -1,6 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Volume2, VolumeX, Pause, Play } from 'lucide-react';
-
+import React, { useState, useRef, useEffect, useImperativeHandle } from 'react';
+import { MdMusicNote, MdMusicOff } from 'react-icons/md';
 /**
  * Background Music Player Component
  * Supports MP3 and M4A formats with music-reactive animations
@@ -10,10 +9,9 @@ import { Volume2, VolumeX, Pause, Play } from 'lucide-react';
  * @param {boolean} props.autoPlay - Whether to auto-play on mount
  * @param {string} props.className - Additional CSS classes
  */
-const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) => {
+const BackgroundMusicPlayer = React.forwardRef(({ musicUrl, autoPlay = false, className = '' }, ref) => {
     const [isPlaying, setIsPlaying] = useState(false);
-    const [isMuted, setIsMuted] = useState(false);
-    const [volume, setVolume] = useState(0.5);
+    const [hasInteracted, setHasInteracted] = useState(false);
     const [audioData, setAudioData] = useState(new Uint8Array(0));
     
     const audioRef = useRef(null);
@@ -22,56 +20,97 @@ const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) =
     const sourceRef = useRef(null);
     const animationRef = useRef(null);
 
-    // Initialize audio context and analyser
-    useEffect(() => {
-        if (!musicUrl) return;
-
-        const audio = audioRef.current;
-        if (!audio) return;
+    // Function to initialize Web Audio API (only called on user interaction)
+    const initAudioContext = () => {
+        if (audioContextRef.current) {
+            if (audioContextRef.current.state === 'suspended') {
+                audioContextRef.current.resume();
+            }
+            return;
+        }
 
         try {
-            // Create audio context and analyser
             const AudioContext = window.AudioContext || window.webkitAudioContext;
-            if (!AudioContext) {
-                console.warn('Web Audio API not supported in this browser');
-                return;
-            }
+            if (!AudioContext) return;
 
             const audioContext = new AudioContext();
             const analyser = audioContext.createAnalyser();
             analyser.fftSize = 256;
             
-            const source = audioContext.createMediaElementSource(audio);
-            source.connect(analyser);
-            analyser.connect(audioContext.destination);
+            const audio = audioRef.current;
+            // Important for Web Audio API to work with media elements
+            if (audio) {
+                const source = audioContext.createMediaElementSource(audio);
+                source.connect(analyser);
+                analyser.connect(audioContext.destination);
 
-            audioContextRef.current = audioContext;
-            analyserRef.current = analyser;
-            sourceRef.current = source;
+                audioContextRef.current = audioContext;
+                analyserRef.current = analyser;
+                sourceRef.current = source;
+            }
         } catch (err) {
             console.error('Error initializing audio context:', err);
-            // Graceful degradation - player will still work without visualization
-            return;
         }
+    };
 
-        // Auto-play if requested
-        if (autoPlay) {
-            audio.play().then(() => {
+    // expose imperative play/pause methods to parent via ref
+    useImperativeHandle(ref, () => ({
+        play: async () => {
+            const audio = audioRef.current;
+            if (!audio) return;
+            try {
+                initAudioContext();
+                // resume audio context if needed
+                if (audioContextRef.current && audioContextRef.current.state === 'suspended') {
+                    await audioContextRef.current.resume();
+                }
+                await audio.play();
                 setIsPlaying(true);
-            }).catch(err => {
-                console.warn('Auto-play prevented:', err);
-            });
+                setHasInteracted(true);
+            } catch (err) {
+                console.warn('Imperative play failed:', err);
+            }
+        },
+        pause: () => {
+            const audio = audioRef.current;
+            if (!audio) return;
+            audio.pause();
+            setIsPlaying(false);
         }
+    }));
 
+    // Handle Autoplay (Simple playback without Web Audio initially)
+    useEffect(() => {
+        if (autoPlay && !hasInteracted) {
+            const audio = audioRef.current;
+            if (audio) {
+                // Try to play directly
+                const playPromise = audio.play();
+                
+                if (playPromise !== undefined) {
+                    playPromise.then(() => {
+                        setIsPlaying(true);
+                        setHasInteracted(true);
+                    }).catch(error => {
+                        console.warn('Autoplay prevented:', error);
+                        setIsPlaying(false);
+                    });
+                }
+            }
+        }
+    }, [autoPlay, hasInteracted]);
+
+    // Cleanup on unmount
+    useEffect(() => {
         return () => {
             if (animationRef.current) {
                 cancelAnimationFrame(animationRef.current);
             }
-            if (audioContext.state !== 'closed') {
-                audioContext.close();
+            if (audioContextRef.current && audioContextRef.current.state !== 'closed') {
+                audioContextRef.current.close();
             }
         };
-    }, [musicUrl, autoPlay]);
+    }, []);
 
     // Analyze audio data for visualization
     useEffect(() => {
@@ -105,14 +144,11 @@ const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) =
     // Toggle play/pause
     const togglePlay = async () => {
         const audio = audioRef.current;
-        const audioContext = audioContextRef.current;
-
+        
         if (!audio) return;
 
-        // Resume audio context if suspended
-        if (audioContext && audioContext.state === 'suspended') {
-            await audioContext.resume();
-        }
+        // Initialize Web Audio on first interaction
+        initAudioContext();
 
         if (isPlaying) {
             audio.pause();
@@ -121,27 +157,11 @@ const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) =
             try {
                 await audio.play();
                 setIsPlaying(true);
+                setHasInteracted(true);
             } catch (err) {
                 console.error('Playback error:', err);
+                setIsPlaying(false);
             }
-        }
-    };
-
-    // Toggle mute
-    const toggleMute = () => {
-        const audio = audioRef.current;
-        if (audio) {
-            audio.muted = !isMuted;
-            setIsMuted(!isMuted);
-        }
-    };
-
-    // Handle volume change
-    const handleVolumeChange = (e) => {
-        const newVolume = parseFloat(e.target.value);
-        setVolume(newVolume);
-        if (audioRef.current) {
-            audioRef.current.volume = newVolume;
         }
     };
 
@@ -163,18 +183,18 @@ const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) =
     }
 
     return (
-        <div className={`fixed bottom-6 right-6 z-50 ${className}`}>
+        <div className={`fixed top-4 left-4 z-40 ${className}`}>
             {/* Hidden audio element */}
             <audio
                 ref={audioRef}
                 src={musicUrl}
                 loop
                 preload="auto"
-                hidden
+                crossOrigin="anonymous"
             />
 
             {/* Control button with music-reactive animation */}
-            <div className="relative group">
+            <div className="relative">
                 {/* Pulsing ring effect when playing */}
                 {isPlaying && (
                     <>
@@ -196,96 +216,28 @@ const BackgroundMusicPlayer = ({ musicUrl, autoPlay = false, className = '' }) =
                     </>
                 )}
 
-                {/* Main button */}
+                {/* Main button with music note icon */}
                 <button
                     onClick={togglePlay}
-                    className="relative w-14 h-14 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
+                    className="relative w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm
                                text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center
                                transform hover:scale-110 active:scale-95"
                     style={{
                         transform: isPlaying ? `scale(${1 + intensity * 0.15})` : 'scale(1)',
                         transition: isPlaying ? 'transform 0.1s ease-out' : 'transform 0.2s ease'
                     }}
-                    title={isPlaying ? 'Pause Music' : 'Play Music'}
+                    title={isPlaying ? 'Pause Background Music' : 'Play Background Music'}
                 >
                     {isPlaying ? (
-                        <Pause className="w-6 h-6" fill="currentColor" />
+                        <MdMusicNote className="w-6 h-6" />
                     ) : (
-                        <Play className="w-6 h-6 ml-0.5" fill="currentColor" />
+                        <MdMusicOff className="w-6 h-6" />
                     )}
                 </button>
 
-                {/* Volume control (shows on hover) */}
-                <div className="absolute bottom-full right-0 mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none group-hover:pointer-events-auto">
-                    <div className="bg-gray-900/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-lg p-3 shadow-xl">
-                        <div className="flex flex-col items-center gap-2">
-                            {/* Mute button */}
-                            <button
-                                onClick={toggleMute}
-                                className="w-8 h-8 rounded-full hover:bg-white/10 flex items-center justify-center text-white transition-colors"
-                                title={isMuted ? 'Unmute' : 'Mute'}
-                            >
-                                {isMuted ? (
-                                    <VolumeX className="w-4 h-4" />
-                                ) : (
-                                    <Volume2 className="w-4 h-4" />
-                                )}
-                            </button>
-
-                            {/* Volume slider */}
-                            <input
-                                type="range"
-                                min="0"
-                                max="1"
-                                step="0.01"
-                                value={volume}
-                                onChange={handleVolumeChange}
-                                className="w-24 h-1 bg-gray-600 rounded-lg appearance-none cursor-pointer
-                                         [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 
-                                         [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-white
-                                         [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:h-3 
-                                         [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-white [&::-moz-range-thumb]:border-0"
-                                style={{ writingMode: 'bt-lr', webkitAppearance: 'slider-vertical' }}
-                                orient="vertical"
-                            />
-
-                            {/* Volume percentage */}
-                            <span className="text-white text-xs">
-                                {Math.round(volume * 100)}%
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Visual equalizer bars when playing */}
-                {isPlaying && (
-                    <div className="absolute -right-16 top-1/2 transform -translate-y-1/2 flex items-end gap-1 h-10">
-                        {Array.from({ length: 5 }).map((_, i) => {
-                            // Use different frequency ranges for each bar
-                            const startIdx = Math.floor((audioData.length / 5) * i);
-                            const endIdx = Math.floor((audioData.length / 5) * (i + 1));
-                            const slice = audioData.slice(startIdx, endIdx);
-                            const barIntensity = slice.length > 0 
-                                ? slice.reduce((a, b) => a + b, 0) / slice.length / 255 
-                                : 0;
-                            const barHeight = 4 + barIntensity * 36; // 4px to 40px
-
-                            return (
-                                <div
-                                    key={i}
-                                    className="w-1 bg-gradient-to-t from-blue-400 to-purple-400 rounded-full"
-                                    style={{
-                                        height: `${barHeight}px`,
-                                        transition: 'height 0.1s ease-out'
-                                    }}
-                                />
-                            );
-                        })}
-                    </div>
-                )}
             </div>
         </div>
     );
-};
+});
 
 export default BackgroundMusicPlayer;

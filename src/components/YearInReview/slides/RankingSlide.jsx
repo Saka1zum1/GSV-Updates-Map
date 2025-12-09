@@ -4,9 +4,9 @@ import React from 'react';
  * Ranking Slide - Community standing (Netease style)
  */
 const RankingSlide = ({ report }) => {
-    const rankingStats = report?.ranking_stats;
-    const totalRank = rankingStats?.total_rank;
-    const percentile = rankingStats?.total_rank_percentile;
+    const updates = report?.updates;
+    const totalRank = updates?.rank;
+    const percentile = updates?.percentile;
 
     // Get rank badge info
     const getRankBadge = (rank, percentile) => {

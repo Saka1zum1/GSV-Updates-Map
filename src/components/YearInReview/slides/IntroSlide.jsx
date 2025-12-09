@@ -5,7 +5,7 @@ import React from 'react';
  * Netease style: Full-screen, minimal text, emotional impact
  */
 const IntroSlide = ({ report, user }) => {
-    const year = report?.report_year || new Date().getFullYear();
+    const year = report?.report_year || report?.year || new Date().getFullYear();
     const userName = user?.username || report?.author_name || 'Explorer';
 
     return (

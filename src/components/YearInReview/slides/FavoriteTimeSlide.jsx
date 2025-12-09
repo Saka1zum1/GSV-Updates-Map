@@ -5,10 +5,10 @@ import React from 'react';
  * Shows peak hour, day, and month with personality
  */
 const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
-    const timeStats = report?.time_stats;
-    const peakHour = timeStats?.peak_hour;
-    const peakWeekday = timeStats?.peak_weekday;
-    const peakMonth = timeStats?.peak_month;
+    const time = report?.time;
+    const peakHour = time?.peak_hour;
+    const peakWeekday = time?.peak_weekday;
+    const peakMonth = time?.peak_month;
 
     // Get time period description
     const getTimePeriod = (hour) => {
