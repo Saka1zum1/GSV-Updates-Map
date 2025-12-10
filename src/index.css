@@ -16,6 +16,79 @@
     font-size: 0.5rem; /* 8px */
     line-height: 0.625rem; /* 10px */
   }
+  
+  /* Safe area inset utilities for mobile browsers (iOS Safari, etc.) */
+  /* Uses max(0px, env()) for graceful degradation on non-iOS browsers */
+  .pt-safe {
+    padding-top: max(0px, env(safe-area-inset-top));
+  }
+  
+  .pb-safe {
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
+  }
+  
+  .pl-safe {
+    padding-left: max(0px, env(safe-area-inset-left));
+  }
+  
+  .pr-safe {
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
+  
+  /* Combined safe area padding utilities */
+  .px-safe {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
+  
+  .py-safe {
+    padding-top: max(0px, env(safe-area-inset-top));
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
+  }
+  
+  /* Safe area with additional spacing for Year in Review slides */
+  .pt-safe-plus {
+    padding-top: max(3rem, calc(env(safe-area-inset-top) + 3rem));
+  }
+  
+  .pt-safe-plus-lg {
+    padding-top: max(4rem, calc(env(safe-area-inset-top) + 4rem));
+  }
+  
+  .pb-safe-plus {
+    padding-bottom: max(2rem, calc(env(safe-area-inset-bottom) + 2rem));
+  }
+  
+  .pb-safe-plus-xl {
+    padding-bottom: max(4rem, calc(env(safe-area-inset-bottom) + 4rem));
+  }
+  
+  .pt-pb-safe-plus-xl {
+    padding-top: max(4rem, calc(env(safe-area-inset-top) + 4rem));
+    padding-bottom: max(4rem, calc(env(safe-area-inset-bottom) + 4rem));
+  }
+  
+  .px-safe-plus-sm {
+    padding-left: max(0.5rem, calc(env(safe-area-inset-left) + 0.5rem));
+    padding-right: max(0.5rem, calc(env(safe-area-inset-right) + 0.5rem));
+  }
+  
+  /* Top positioning with safe area for fixed elements */
+  .top-safe {
+    top: max(0px, env(safe-area-inset-top));
+  }
+  
+  .top-safe-plus-sm {
+    top: max(1rem, calc(env(safe-area-inset-top) + 0.5rem));
+  }
+  
+  .top-safe-plus {
+    top: max(1rem, calc(env(safe-area-inset-top) + 1rem));
+  }
+  
+  .right-safe-plus {
+    right: max(1rem, calc(env(safe-area-inset-right) + 0.5rem));
+  }
 }
 
 @font-face {

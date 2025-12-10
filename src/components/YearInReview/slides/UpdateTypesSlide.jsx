@@ -3,6 +3,10 @@ import React from 'react';
 /**
  * Update Types Slide - What kind of updates the user contributed
  * Uses actual update type images from assets
+ * 
+ * Mobile Layout:
+ * - Uses pt-safe-plus, px-safe, pb-safe for complete safe area support
+ * - Centered content respects iOS safe areas on all sides
  */
 const UpdateTypesSlide = ({ report }) => {
     const updates = report?.updates;
@@ -21,7 +25,7 @@ const UpdateTypesSlide = ({ report }) => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
+        <div className="flex flex-col items-center justify-center min-h-[60vh] text-center pt-safe-plus px-safe pb-safe">
             {/* Header */}
             <p className="text-white/60 text-lg mb-4">
                 Your signature style?
