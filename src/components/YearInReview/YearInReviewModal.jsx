@@ -186,24 +186,28 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
                 <div className="absolute w-64 h-64 bg-pink-500/10 rounded-full blur-3xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" style={{ animationDelay: '2s' }} />
             </div>
 
-            {/* Progress bar at top */}
-            <div className="absolute top-0 left-0 right-0 h-1 bg-white/10 z-50">
+            {/* Progress bar at top with safe area support */}
+            <div className="absolute left-0 right-0 h-1 bg-white/10 z-50 top-safe" style={{ top: 'env(safe-area-inset-top)' }}>
                 <div 
                     className="h-full bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 transition-all duration-500 ease-out"
                     style={{ width: `${progress}%` }}
                 />
             </div>
 
-            {/* Close button */}
+            {/* Close button with safe area support */}
             <button
                 onClick={onClose}
-                className="absolute top-4 right-4 z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white"
+                className="absolute z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white pr-safe"
+                style={{ 
+                    top: 'max(1rem, calc(env(safe-area-inset-top) + 0.5rem))',
+                    right: 'max(1rem, env(safe-area-inset-right))'
+                }}
             >
                 <X size={24} />
             </button>
 
-            {/* Slide indicators */}
-            <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-50 flex gap-1.5">
+            {/* Slide indicators with safe area support */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 z-50 flex gap-1.5" style={{ top: 'max(1rem, calc(env(safe-area-inset-top) + 0.5rem))' }}>
                 {slides.map((_, index) => (
                     <button
                         key={index}
@@ -219,8 +223,13 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
                 ))}
             </div>
 
-            {/* Main content area */}
-            <div className="relative h-full flex items-center justify-center px-2 md:px-4 py-16 md:py-20 overflow-hidden">
+            {/* Main content area with safe area support */}
+            <div className="relative h-full flex items-center justify-center px-safe overflow-hidden" style={{ 
+                paddingLeft: 'max(0.5rem, env(safe-area-inset-left))',
+                paddingRight: 'max(0.5rem, env(safe-area-inset-right))',
+                paddingTop: 'max(4rem, calc(env(safe-area-inset-top) + 4rem))',
+                paddingBottom: 'max(4rem, calc(env(safe-area-inset-bottom) + 2rem))'
+            }}>
                 <div 
                     className={`w-full max-w-2xl mx-auto transform transition-all duration-500 ease-out ${
                         isAnimating 

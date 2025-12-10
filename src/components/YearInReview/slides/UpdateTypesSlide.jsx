@@ -21,7 +21,7 @@ const UpdateTypesSlide = ({ report }) => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
+        <div className="flex flex-col items-center justify-center min-h-[60vh] text-center pt-safe-plus px-safe pb-safe">
             {/* Header */}
             <p className="text-white/60 text-lg mb-4">
                 Your signature style?

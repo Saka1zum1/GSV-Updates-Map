@@ -20,8 +20,8 @@ const TopRegionsSlide = ({ report, getFlagEmoji, countries }) => {
 
     return (
         <div className="flex flex-col h-full min-h-screen overflow-y-auto">
-            {/* Fixed header section */}
-            <div className="flex-shrink-0 py-6 md:py-10 text-center px-4">
+            {/* Fixed header section with safe area support for mobile browsers */}
+            <div className="flex-shrink-0 pt-safe-plus-lg pb-6 md:py-10 text-center px-4">
                 <p className="text-white/60 text-base md:text-xl mt-2 md:mt-4 mb-2 md:mb-4">
                     You explored
                 </p>
@@ -38,9 +38,9 @@ const TopRegionsSlide = ({ report, getFlagEmoji, countries }) => {
                 </p>
             </div>
 
-            {/* Scrollable content section */}
+            {/* Scrollable content section with safe area padding */}
             {displayRegions.length > 0 && (
-                <div className="flex-1 overflow-y-auto pb-8 md:pb-16 px-2 md:px-6 lg:px-8">
+                <div className="flex-1 overflow-y-auto pb-safe px-2 md:px-6 lg:px-8" style={{ paddingBottom: 'max(2rem, env(safe-area-inset-bottom))' }}>
                     <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 md:gap-4 lg:gap-5">
                     
                     {displayRegions.map((item, index) => {
