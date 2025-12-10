@@ -48,7 +48,7 @@ const TopCountriesSlide = ({ report, getFlagEmoji, countries }) => {
 
             {/* Scrollable content section with safe area padding */}
             {topCountriesArray.length > 0 && (
-                <div className="flex-1 overflow-y-auto pb-safe px-4 md:px-8" style={{ paddingBottom: 'max(2rem, env(safe-area-inset-bottom))' }}>
+                <div className="flex-1 overflow-y-auto px-4 md:px-8" style={{ paddingBottom: 'max(2rem, env(safe-area-inset-bottom))' }}>
                     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
                     
                     {topCountriesArray.map((item, index) => {

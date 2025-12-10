@@ -202,7 +202,7 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             {/* Close button with safe area support */}
             <button
                 onClick={onClose}
-                className="absolute z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white pr-safe"
+                className="absolute z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white"
                 style={{ 
                     top: 'max(1rem, calc(env(safe-area-inset-top) + 0.5rem))',
                     right: 'max(1rem, env(safe-area-inset-right))'
@@ -229,7 +229,7 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             </div>
 
             {/* Main content area with safe area support */}
-            <div className="relative h-full flex items-center justify-center px-safe overflow-hidden" style={{ 
+            <div className="relative h-full flex items-center justify-center overflow-hidden" style={{ 
                 paddingLeft: 'max(0.5rem, env(safe-area-inset-left))',
                 paddingRight: 'max(0.5rem, env(safe-area-inset-right))',
                 paddingTop: 'max(4rem, calc(env(safe-area-inset-top) + 4rem))',
