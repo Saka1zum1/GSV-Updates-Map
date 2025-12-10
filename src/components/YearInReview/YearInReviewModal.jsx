@@ -229,12 +229,7 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             </div>
 
             {/* Main content area with safe area support */}
-            <div className="relative h-full flex items-center justify-center overflow-hidden" style={{ 
-                paddingLeft: 'max(0.5rem, env(safe-area-inset-left))',
-                paddingRight: 'max(0.5rem, env(safe-area-inset-right))',
-                paddingTop: 'max(4rem, calc(env(safe-area-inset-top) + 4rem))',
-                paddingBottom: 'max(4rem, calc(env(safe-area-inset-bottom) + 2rem))'
-            }}>
+            <div className="relative h-full flex items-center justify-center overflow-hidden pt-safe-plus-xl pb-safe-plus-xl px-safe-plus-sm">
                 <div 
                     className={`w-full max-w-2xl mx-auto transform transition-all duration-500 ease-out ${
                         isAnimating 

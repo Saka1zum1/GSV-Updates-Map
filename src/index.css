@@ -55,6 +55,23 @@
     padding-top: max(4rem, calc(env(safe-area-inset-top) + 4rem));
   }
   
+  .pt-safe-plus-xl {
+    padding-top: max(4rem, calc(env(safe-area-inset-top) + 4rem));
+  }
+  
+  .pb-safe-plus {
+    padding-bottom: max(2rem, calc(env(safe-area-inset-bottom) + 2rem));
+  }
+  
+  .pb-safe-plus-xl {
+    padding-bottom: max(4rem, calc(env(safe-area-inset-bottom) + 2rem));
+  }
+  
+  .px-safe-plus-sm {
+    padding-left: max(0.5rem, env(safe-area-inset-left));
+    padding-right: max(0.5rem, env(safe-area-inset-right));
+  }
+  
   /* Top positioning with safe area for fixed elements */
   .top-safe {
     top: max(0px, env(safe-area-inset-top));
