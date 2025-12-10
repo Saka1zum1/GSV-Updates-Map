@@ -229,7 +229,7 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             </div>
 
             {/* Main content area with safe area support */}
-            <div className="relative h-full flex items-center justify-center overflow-hidden pt-safe-plus-xl pb-safe-plus-xl px-safe-plus-sm">
+            <div className="relative h-full flex items-center justify-center overflow-hidden pt-pb-safe-plus-xl px-safe-plus-sm">
                 <div 
                     className={`w-full max-w-2xl mx-auto transform transition-all duration-500 ease-out ${
                         isAnimating 

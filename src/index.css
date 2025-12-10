@@ -55,16 +55,17 @@
     padding-top: max(4rem, calc(env(safe-area-inset-top) + 4rem));
   }
   
-  .pt-safe-plus-xl {
-    padding-top: max(4rem, calc(env(safe-area-inset-top) + 4rem));
-  }
-  
   .pb-safe-plus {
     padding-bottom: max(2rem, calc(env(safe-area-inset-bottom) + 2rem));
   }
   
   .pb-safe-plus-xl {
-    padding-bottom: max(4rem, calc(env(safe-area-inset-bottom) + 2rem));
+    padding-bottom: max(2rem, calc(env(safe-area-inset-bottom) + 4rem));
+  }
+  
+  .pt-pb-safe-plus-xl {
+    padding-top: max(4rem, calc(env(safe-area-inset-top) + 4rem));
+    padding-bottom: max(2rem, calc(env(safe-area-inset-bottom) + 4rem));
   }
   
   .px-safe-plus-sm {
