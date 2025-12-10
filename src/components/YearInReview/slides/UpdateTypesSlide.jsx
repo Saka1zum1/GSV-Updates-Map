@@ -3,6 +3,10 @@ import React from 'react';
 /**
  * Update Types Slide - What kind of updates the user contributed
  * Uses actual update type images from assets
+ * 
+ * Mobile Layout:
+ * - Uses pt-safe-plus, px-safe, pb-safe for complete safe area support
+ * - Centered content respects iOS safe areas on all sides
  */
 const UpdateTypesSlide = ({ report }) => {
     const updates = report?.updates;

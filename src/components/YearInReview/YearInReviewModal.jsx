@@ -23,6 +23,11 @@ import BackgroundMusicPlayer from './BackgroundMusicPlayer.jsx';
  * Year in Review Modal - Netease Cloud Music Style
  * Immersive full-screen story experience
  * 
+ * Mobile Safe Area Support:
+ * - Progress bar, close button, and slide indicators use safe area insets
+ * - Main content area respects safe areas on all sides with fallback values
+ * - Ensures proper spacing on iOS devices with notches and rounded corners
+ * 
  * @param {Object} props - Component props
  * @param {Object} props.report - Annual report data
  * @param {Object} props.user - User information

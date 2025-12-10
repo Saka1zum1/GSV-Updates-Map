@@ -3,6 +3,11 @@ import React from 'react';
 /**
  * Top Countries Slide - Geographic exploration highlights
  * Uses flag emojis and visual bars
+ * 
+ * Mobile Layout:
+ * - Uses pt-safe-plus-lg for top padding to account for iOS safe areas (notch, status bar)
+ * - Header section positioned below browser UI and progress dots
+ * - Scrollable content with safe area bottom padding
  */
 const TopCountriesSlide = ({ report, getFlagEmoji, countries }) => {
     const geo = report?.geo;
