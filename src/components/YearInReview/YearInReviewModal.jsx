@@ -23,11 +23,6 @@ import BackgroundMusicPlayer from './BackgroundMusicPlayer.jsx';
  * Year in Review Modal - Netease Cloud Music Style
  * Immersive full-screen story experience
  * 
- * Mobile Safe Area Support:
- * - Progress bar, close button, and slide indicators use safe area insets
- * - Main content area respects safe areas on all sides with fallback values
- * - Ensures proper spacing on iOS devices with notches and rounded corners
- * 
  * @param {Object} props - Component props
  * @param {Object} props.report - Annual report data
  * @param {Object} props.user - User information
@@ -191,24 +186,24 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
                 <div className="absolute w-64 h-64 bg-pink-500/10 rounded-full blur-3xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-pulse" style={{ animationDelay: '2s' }} />
             </div>
 
-            {/* Progress bar at top with safe area support */}
-            <div className="absolute left-0 right-0 h-1 bg-white/10 z-50 top-safe">
+            {/* Progress bar at top */}
+            <div className="absolute top-0 left-0 right-0 h-1 bg-white/10 z-50">
                 <div 
                     className="h-full bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 transition-all duration-500 ease-out"
                     style={{ width: `${progress}%` }}
                 />
             </div>
 
-            {/* Close button with safe area support */}
+            {/* Close button */}
             <button
                 onClick={onClose}
-                className="absolute top-safe-plus-sm right-safe-plus z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white"
+                className="absolute top-4 right-4 z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white"
             >
                 <X size={24} />
             </button>
 
-            {/* Slide indicators with safe area support */}
-            <div className="absolute top-safe-plus-sm left-1/2 transform -translate-x-1/2 z-50 flex gap-1.5">
+            {/* Slide indicators */}
+            <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-50 flex gap-1.5">
                 {slides.map((_, index) => (
                     <button
                         key={index}
@@ -224,8 +219,8 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
                 ))}
             </div>
 
-            {/* Main content area with safe area support */}
-            <div className="relative h-full flex items-center justify-center overflow-hidden pt-pb-safe-plus-xl px-safe-plus-sm">
+            {/* Main content area */}
+            <div className="relative h-full flex items-center justify-center px-2 md:px-4 py-16 md:py-20 overflow-hidden">
                 <div 
                     className={`w-full max-w-2xl mx-auto transform transition-all duration-500 ease-out ${
                         isAnimating 

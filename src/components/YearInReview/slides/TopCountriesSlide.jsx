@@ -3,11 +3,6 @@ import React from 'react';
 /**
  * Top Countries Slide - Geographic exploration highlights
  * Uses flag emojis and visual bars
- * 
- * Mobile Layout:
- * - Uses pt-safe-plus-lg for top padding to account for iOS safe areas (notch, status bar)
- * - Header section positioned below browser UI and progress dots
- * - Scrollable content with safe area bottom padding
  */
 const TopCountriesSlide = ({ report, getFlagEmoji, countries }) => {
     const geo = report?.geo;
@@ -28,8 +23,8 @@ const TopCountriesSlide = ({ report, getFlagEmoji, countries }) => {
 
     return (
         <div className="flex flex-col h-full min-h-screen overflow-y-auto">
-            {/* Fixed header section with safe area support for mobile browsers */}
-            <div className="flex-shrink-0 pt-safe-plus-lg pb-6 md:py-10 text-center px-4">
+            {/* Fixed header section */}
+            <div className="flex-shrink-0 py-6 md:py-10 text-center px-4">
                 <p className="text-white/60 text-base md:text-xl mt-2 md:mt-4 mb-2 md:mb-4">
                     Your contributions spanned across
                 </p>
@@ -46,9 +41,9 @@ const TopCountriesSlide = ({ report, getFlagEmoji, countries }) => {
                 </p>
             </div>
 
-            {/* Scrollable content section with safe area padding */}
+            {/* Scrollable content section */}
             {topCountriesArray.length > 0 && (
-                <div className="flex-1 overflow-y-auto pb-safe-plus px-4 md:px-8">
+                <div className="flex-1 overflow-y-auto pb-8 md:pb-16 px-4 md:px-8">
                     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
                     
                     {topCountriesArray.map((item, index) => {
