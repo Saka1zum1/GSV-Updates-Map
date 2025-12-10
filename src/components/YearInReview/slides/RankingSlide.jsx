@@ -10,9 +10,9 @@ const RankingSlide = ({ report }) => {
 
     // Get rank badge info
     const getRankBadge = (rank, percentile) => {
-        if (rank === 1) return { badge: '👑', title: '#1 Coverage Hunter', desc: 'The undisputed champion!', gradient: 'from-yellow-400 to-amber-500' };
-        if (rank <= 3) return { badge: '🥇', title: 'Top 3 Elite', desc: 'Among the very best!', gradient: 'from-yellow-300 to-orange-400' };
-        if (rank <= 10) return { badge: '🌟', title: 'Top 10', desc: 'A true coverage legend!', gradient: 'from-purple-400 to-pink-500' };
+        if (rank === 1) return { badge: '👑', title: 'Champion', desc: 'The undisputed champion!', gradient: 'from-yellow-400 to-amber-500' };
+        if (rank === 2) return { badge: '🥈', title: 'Top2', desc: 'Among the very best!', gradient: 'from-gray-300 to-gray-500' };
+        if (rank === 3) return { badge: '🥉', title: 'Top3', desc: 'Among the very best!', gradient: 'from-orange-400 to-orange-600' };
         if (percentile >= 90) return { badge: '💎', title: 'Top 10%', desc: 'Diamond tier contributor!', gradient: 'from-blue-400 to-cyan-400' };
         if (percentile >= 75) return { badge: '🔥', title: 'Top 25%', desc: 'Rising through the ranks!', gradient: 'from-orange-400 to-red-500' };
         if (percentile >= 50) return { badge: '⭐', title: 'Top 50%', desc: 'Above average explorer!', gradient: 'from-blue-500 to-indigo-500' };
@@ -24,8 +24,8 @@ const RankingSlide = ({ report }) => {
     return (
         <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
             {/* Header */}
-            <p className="text-white/60 text-lg mb-8">
-                In the coverage community, you ranked
+            <p className="text-white/60 text-xl mb-8">
+                In the community, you ranked
             </p>
 
             {/* Rank badge */}

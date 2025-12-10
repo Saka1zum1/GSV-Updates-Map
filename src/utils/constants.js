@@ -43,7 +43,7 @@ export const searchResultIcon = L.divIcon({
     iconAnchor: [12, 12]
 });
 
-export const DEVELOPER_AUTHOR_IDS = ['1042644958911402096', '575338164269613066', '126447967665127425']; // Add more developer IDs as needed
+export const DEVELOPER_AUTHOR_IDS = ['1042644958911402096']; // Add more developer IDs as needed
 
 // Color options for the map coverage display
 export const colorOptions = {

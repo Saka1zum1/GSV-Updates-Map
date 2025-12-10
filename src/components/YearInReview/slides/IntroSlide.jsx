@@ -23,7 +23,7 @@ const IntroSlide = ({ report, user }) => {
             </h1>
 
             {/* User greeting */}
-            <div className="space-y-3 md:space-y-4 px-4">
+            <div className="flexspace-y-3 md:space-y-4 px-4">
                 <p className="text-lg md:text-xl lg:text-2xl text-white/80">
                     Hey, <span className="text-blue-400 font-semibold">@{userName}</span>
                 </p>

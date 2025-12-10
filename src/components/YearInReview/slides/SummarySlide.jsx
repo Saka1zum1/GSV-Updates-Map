@@ -16,7 +16,7 @@ const SummarySlide = ({ report, user }) => {
     return (
         <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
             {/* Celebration emoji */}
-            <div className="text-6xl mb-2 animate-bounce">
+            <div className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl mb-2 animate-bounce">
                 🎉
             </div>
 

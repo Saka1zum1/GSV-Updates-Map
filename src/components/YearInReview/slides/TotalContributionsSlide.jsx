@@ -7,6 +7,8 @@ import React from 'react';
 const TotalContributionsSlide = ({ report }) => {
     const totalCount = report?.total_count || report?.total || 0;
     const dailyAverage = report?.daily_avg || 0;
+    const updatesCount = report?.updates?.count || 0;
+    const spotsCount = report?.spots?.count || 0;
 
     // Generate a fun comparison
     const getComparison = (count) => {
@@ -37,6 +39,18 @@ const TotalContributionsSlide = ({ report }) => {
 
             {/* Daily average */}
             <div className="flex items-center gap-6 mb-8">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4">
+                    <div className="text-3xl font-bold text-white">
+                        {updatesCount}
+                    </div>
+                    <div className="text-sm text-white/60">update reports</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4">
+                    <div className="text-3xl font-bold text-white">
+                        {spotsCount}
+                    </div>
+                    <div className="text-sm text-white/60">car spottings</div>
+                </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4">
                     <div className="text-3xl font-bold text-white">
                         {dailyAverage.toFixed(1)}

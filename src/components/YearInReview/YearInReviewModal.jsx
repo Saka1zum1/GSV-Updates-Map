@@ -13,6 +13,7 @@ import FavoriteTimeSlide from './slides/FavoriteTimeSlide.jsx';
 import BusiestDaySlide from './slides/BusiestDaySlide.jsx';
 import ReactionsSlide from './slides/ReactionsSlide.jsx';
 import UpdateTypesSlide from './slides/UpdateTypesSlide.jsx';
+import SpottingsSlide from './slides/SpottingsSlide.jsx';
 import StreakSlide from './slides/StreakSlide.jsx';
 import RankingSlide from './slides/RankingSlide.jsx';
 import GlobalFirstsSlide from './slides/GlobalSlide.jsx';
@@ -39,7 +40,6 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
     // Define slides based on available data
     const slides = useMemo(() => {
         if (!report) return [];
-        
         const slideList = [
             { id: 'intro', component: IntroSlide },
             { id: 'journey-start', component: JourneyStartSlide },
@@ -56,6 +56,14 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             slideList.push({ id: 'regions', component: TopRegionsSlide });
         }
 
+        // Add content stats if available (updates with types)
+        if (report.updates?.types) {
+            slideList.push({ id: 'types', component: UpdateTypesSlide });
+        }
+
+        if (report.spots?.count) {
+            slideList.push({ id: 'cameras', component: SpottingsSlide });
+        }
         // Add time stats if available
         if (report.time) {
             slideList.push({ id: 'time', component: FavoriteTimeSlide });
@@ -69,11 +77,6 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
         // Add reactions slide if available
         if (report.reactions&& report.reactions.top_msg_id) {
             slideList.push({ id: 'reactions', component: ReactionsSlide });
-        }
-
-        // Add content stats if available (updates with types)
-        if (report.updates?.types) {
-            slideList.push({ id: 'types', component: UpdateTypesSlide });
         }
 
         // Add streak stats if available

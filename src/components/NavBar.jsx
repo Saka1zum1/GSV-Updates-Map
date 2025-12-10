@@ -111,7 +111,7 @@ const TopNavBar = ({
                             bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
                             text-white shadow-md hover:shadow-lg border border-transparent
                             ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
-                        title="Wrapped 2025"
+                        title="2025 Wrapped"
                     >
                         {yearInReviewLoading ? <Loader2 size={18} className="animate-spin" /> : <Award size={18} />}
                     </button>
@@ -222,10 +222,10 @@ const TopNavBar = ({
                                     bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
                                     text-white shadow-md hover:shadow-lg border border-transparent
                                     ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
-                                title={`View Your Wrapped ${new Date().getFullYear()}`}
+                                title={`View Your 2025 Wrapped`}
                             >
                                 {yearInReviewLoading ? <Loader2 size={20} className="animate-spin" /> : <Award size={20} />}
-                                <span>Wrapped {new Date().getFullYear()}</span>
+                                <span>2025 Wrapped</span>
                             </button>
                         </div>
                         {/* Credits Button */}
