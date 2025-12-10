@@ -192,7 +192,7 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             </div>
 
             {/* Progress bar at top with safe area support */}
-            <div className="absolute left-0 right-0 h-1 bg-white/10 z-50 top-safe" style={{ top: 'env(safe-area-inset-top)' }}>
+            <div className="absolute left-0 right-0 h-1 bg-white/10 z-50 top-safe">
                 <div 
                     className="h-full bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 transition-all duration-500 ease-out"
                     style={{ width: `${progress}%` }}

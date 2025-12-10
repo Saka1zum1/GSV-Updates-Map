@@ -18,49 +18,50 @@
   }
   
   /* Safe area inset utilities for mobile browsers (iOS Safari, etc.) */
+  /* Uses max(0px, env()) for graceful degradation on non-iOS browsers */
   .pt-safe {
-    padding-top: env(safe-area-inset-top);
+    padding-top: max(0px, env(safe-area-inset-top));
   }
   
   .pb-safe {
-    padding-bottom: env(safe-area-inset-bottom);
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
   }
   
   .pl-safe {
-    padding-left: env(safe-area-inset-left);
+    padding-left: max(0px, env(safe-area-inset-left));
   }
   
   .pr-safe {
-    padding-right: env(safe-area-inset-right);
+    padding-right: max(0px, env(safe-area-inset-right));
   }
   
   /* Combined safe area padding utilities */
   .px-safe {
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
   }
   
   .py-safe {
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
+    padding-top: max(0px, env(safe-area-inset-top));
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
   }
   
   /* Safe area with additional spacing for Year in Review slides */
   .pt-safe-plus {
-    padding-top: calc(env(safe-area-inset-top) + 3rem);
+    padding-top: max(3rem, calc(env(safe-area-inset-top) + 3rem));
   }
   
   .pt-safe-plus-lg {
-    padding-top: calc(env(safe-area-inset-top) + 4rem);
+    padding-top: max(4rem, calc(env(safe-area-inset-top) + 4rem));
   }
   
   /* Top positioning with safe area for fixed elements */
   .top-safe {
-    top: env(safe-area-inset-top);
+    top: max(0px, env(safe-area-inset-top));
   }
   
   .top-safe-plus {
-    top: calc(env(safe-area-inset-top) + 1rem);
+    top: max(1rem, calc(env(safe-area-inset-top) + 1rem));
   }
 }
 
