@@ -69,8 +69,8 @@
   }
   
   .px-safe-plus-sm {
-    padding-left: max(0.5rem, env(safe-area-inset-left));
-    padding-right: max(0.5rem, env(safe-area-inset-right));
+    padding-left: max(0.5rem, calc(env(safe-area-inset-left) + 0.5rem));
+    padding-right: max(0.5rem, calc(env(safe-area-inset-right) + 0.5rem));
   }
   
   /* Top positioning with safe area for fixed elements */
@@ -78,8 +78,16 @@
     top: max(0px, env(safe-area-inset-top));
   }
   
+  .top-safe-plus-sm {
+    top: max(1rem, calc(env(safe-area-inset-top) + 0.5rem));
+  }
+  
   .top-safe-plus {
     top: max(1rem, calc(env(safe-area-inset-top) + 1rem));
+  }
+  
+  .right-safe-plus {
+    right: max(1rem, calc(env(safe-area-inset-right) + 0.5rem));
   }
 }
 

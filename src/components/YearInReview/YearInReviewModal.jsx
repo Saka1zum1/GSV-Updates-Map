@@ -202,17 +202,13 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             {/* Close button with safe area support */}
             <button
                 onClick={onClose}
-                className="absolute z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white"
-                style={{ 
-                    top: 'max(1rem, calc(env(safe-area-inset-top) + 0.5rem))',
-                    right: 'max(1rem, env(safe-area-inset-right))'
-                }}
+                className="absolute top-safe-plus-sm right-safe-plus z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white"
             >
                 <X size={24} />
             </button>
 
             {/* Slide indicators with safe area support */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 z-50 flex gap-1.5" style={{ top: 'max(1rem, calc(env(safe-area-inset-top) + 0.5rem))' }}>
+            <div className="absolute top-safe-plus-sm left-1/2 transform -translate-x-1/2 z-50 flex gap-1.5">
                 {slides.map((_, index) => (
                     <button
                         key={index}
