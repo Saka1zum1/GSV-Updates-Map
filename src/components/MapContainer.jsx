@@ -50,11 +50,22 @@ const MapContainer = ({
     const drawControlRef = useRef(null);
     const gsvLayersRef = useRef({});
     const webglLayerRef = useRef(null);
+    const measureStateRef = useRef({
+        isActive: false,
+        points: [],
+        polyline: null,
+        markers: [],
+        tooltip: null,
+        distanceLabel: null,
+        floaterEl: null,
+        floatingLatLng: null,
+        _repositionHandler: null
+    });
 
     // Helper function to normalize coordinates for worldCopyJump
     const normalizeLatLngs = (latlngs) => {
         if (!Array.isArray(latlngs)) return latlngs;
-        
+
         return latlngs.map(coordArray => {
             if (Array.isArray(coordArray) && coordArray.length > 0 && Array.isArray(coordArray[0])) {
                 // Handle nested arrays (polygon with holes)
@@ -72,7 +83,7 @@ const MapContainer = ({
             let lng = coord.lng;
             while (lng > 180) lng -= 360;
             while (lng < -180) lng += 360;
-            
+
             return L.latLng(coord.lat, lng);
         }
         return coord;
@@ -133,6 +144,20 @@ const MapContainer = ({
             contextmenuItems: [
                 { text: 'Copy Coordinates', callback: copyCoords },
                 { text: 'See Nearest Pano', callback: openNearestPano },
+                '-',
+                {
+                    text: 'Measure Distance',
+                    callback: () => {
+                        const state = measureStateRef.current;
+                        if (!state.isActive) {
+                            startMeasurement();
+                        }
+                    }
+                },
+                {
+                    text: 'Clear Measurement',
+                    callback: () => clearMeasurement()
+                }
             ],
             center: [0, 0],
             zoom: 2,
@@ -148,9 +173,13 @@ const MapContainer = ({
         map.createPane("labelPane");
         map.createPane("panoramasPane");
         map.createPane("coveragePane");
+        map.createPane("measurePane");
+        // Make tooltip pane render above measure and other panes so labels aren't hidden
+        if (map.getPane('tooltipPane')) map.getPane('tooltipPane').style.zIndex = 1000;
         map.getPane("labelPane").style.zIndex = 300;
         map.getPane("panoramasPane").style.zIndex = 500;
         map.getPane("coveragePane").style.zIndex = 200;
+        map.getPane("measurePane").style.zIndex = 1000;
 
         // Add base layers
         const baseMaps = {
@@ -175,6 +204,207 @@ const MapContainer = ({
 
         // Add layer control
         L.control.layers(baseMaps, overlayMaps, { position: "bottomleft" }).addTo(map);
+
+        // Measurement helpers
+        const formatDistance = (meters) => {
+            return meters >= 1000 ? `${(meters / 1000).toFixed(2)} km` : `${Math.round(meters)} m`;
+        };
+
+        const updateTooltip = () => {
+            const state = measureStateRef.current;
+            if (state.points.length === 0) return;
+
+            // Use an absolutely positioned floating label (DOM) so text size remains fixed regardless of zoom
+            // Create floater if necessary
+            if (!state.floaterEl) {
+                const el = document.createElement('div');
+                el.className = 'measure-floating-label';
+                // position absolute so it's positioned relative to the map container
+                el.style.position = 'absolute';
+                el.style.zIndex = '2000';
+                el.style.pointerEvents = 'none';
+                el.style.display = 'none';
+                // ensure map container is a positioned element so absolute children are relative to it
+                if (!map.getContainer().style.position) map.getContainer().style.position = 'relative';
+                map.getContainer().appendChild(el);
+                state.floaterEl = el;
+
+                // reposition handler bound to map movements
+                state._repositionHandler = () => {
+                    if (!state.floatingLatLng) return;
+                    const p = map.latLngToContainerPoint(state.floatingLatLng);
+                    state.floaterEl.style.left = `${p.x}px`;
+                    state.floaterEl.style.top = `${p.y}px`;
+                };
+                map.on('move zoom viewreset', state._repositionHandler);
+                +                // ensure initial placement in case point already set
+                    +                state._repositionHandler();
+            }
+
+            // show appropriate text
+            if (state.points.length === 1) {
+                const ll = state.points[0];
+                if (ll && isFinite(ll.lat) && isFinite(ll.lng)) {
+                    state.floaterEl.innerText = 'Click to set end point';
+                    state.floatingLatLng = ll;
+                    const p = map.latLngToContainerPoint(ll);
+                    state.floaterEl.style.left = `${p.x}px`;
+                    state.floaterEl.style.top = `${p.y}px`;
+                    state.floaterEl.style.display = 'block';
+                }
+            } else if (state.points.length === 2) {
+                const distance = state.points[0].distanceTo(state.points[1]);
+                const midpoint = L.latLng(
+                    (state.points[0].lat + state.points[1].lat) / 2,
+                    (state.points[0].lng + state.points[1].lng) / 2
+                );
+                if (isFinite(midpoint.lat) && isFinite(midpoint.lng)) {
+                    state.floaterEl.innerText = formatDistance(distance);
+                    state.floatingLatLng = midpoint;
+                    const p = map.latLngToContainerPoint(midpoint);
+                    state.floaterEl.style.left = `${p.x}px`;
+                    state.floaterEl.style.top = `${p.y}px`;
+                    state.floaterEl.style.display = 'block';
+                }
+            }
+        };
+
+        const clearMeasurement = () => {
+            const state = measureStateRef.current;
+
+            if (state.polyline && map.hasLayer(state.polyline)) {
+                map.removeLayer(state.polyline);
+            }
+            state.polyline = null;
+
+            state.markers.forEach(marker => {
+                try {
+                    if (marker && marker._measureDragHandler) {
+                        marker.off('drag', marker._measureDragHandler);
+                        marker.off('dragend', marker._measureDragHandler);
+                        marker._measureDragHandler = null;
+                    }
+                } catch (e) { }
+                if (map.hasLayer(marker)) map.removeLayer(marker);
+            });
+            state.markers = [];
+
+            // remove floating label and its map event listener
+            if (state.floaterEl && state.floaterEl.parentNode) {
+                try {
+                    map.off('move zoom viewreset', state._repositionHandler);
+                } catch (e) { }
+                state.floaterEl.parentNode.removeChild(state.floaterEl);
+            }
+            state.floaterEl = null;
+            state.floatingLatLng = null;
+            state._repositionHandler = null;
+
+            if (state.distanceLabel && map.hasLayer(state.distanceLabel)) {
+                map.removeLayer(state.distanceLabel);
+            }
+            state.distanceLabel = null;
+
+            if (state.tooltip && map.hasLayer(state.tooltip)) {
+                map.removeLayer(state.tooltip);
+            }
+            state.tooltip = null;
+
+            state.points = [];
+            state.isActive = false;
+            map.getContainer().style.cursor = '';
+        };
+
+        const startMeasurement = () => {
+            clearMeasurement();
+            const state = measureStateRef.current;
+            state.isActive = true;
+            map.getContainer().style.cursor = 'crosshair';
+        };
+
+        const addMeasurePoint = (latlng) => {
+            const state = measureStateRef.current;
+            if (!state.isActive) return;
+            if (state.points.length >= 2) return;
+
+            state.points.push(latlng);
+
+            const marker = L.circleMarker(latlng, {
+                radius: 6,
+                color: '#1a73e8',
+                fillColor: '#fff',
+                fillOpacity: 1,
+                weight: 3,
+                pane: 'measurePane'
+            }).addTo(map);
+            state.markers.push(marker);
+            // make marker a draggable marker wrapper so it can be enabled later
+            // convert circleMarker to marker for uniform handling
+            const index = state.points.length - 1;
+            const iconHtml = `<div class="measure-point" data-index="${index}"></div>`;
+            const pointMarker = L.marker(latlng, {
+                icon: L.divIcon({ className: 'measure-point-wrapper', html: iconHtml }),
+                draggable: false,
+                pane: 'measurePane'
+            }).addTo(map);
+            // replace the circleMarker with the marker
+            if (map.hasLayer(marker)) map.removeLayer(marker);
+            state.markers[state.markers.length - 1] = pointMarker;
+            // prepare drag handler placeholder
+            pointMarker._measureDragHandler = null;
+
+            if (state.points.length === 2) {
+                state.polyline = L.polyline(state.points, {
+                    color: '#1a73e8',
+                    weight: 3,
+                    opacity: 0.85,
+                    pane: 'measurePane'
+                }).addTo(map);
+                finishMeasurement();
+            }
+
+            updateTooltip();
+        };
+
+        const finishMeasurement = () => {
+            const state = measureStateRef.current;
+            if (!state.isActive || state.points.length < 2) return;
+            state.isActive = false;
+            map.getContainer().style.cursor = '';
+            updateTooltip();
+            // enable dragging for the start point and add drag handler to update in real-time
+            // enable dragging for both endpoints and add handlers to update in real-time
+            state.markers.forEach((m, idx) => {
+                try {
+                    if (m && m.dragging) m.dragging.enable();
+                } catch (e) { }
+
+                const dragHandler = function () {
+                    const newLatLng = this.getLatLng();
+                    state.points[idx] = newLatLng;
+                    if (state.polyline) state.polyline.setLatLngs(state.points);
+                    updateTooltip();
+                };
+
+                // attach handlers (remove previous if present)
+                if (m && m._measureDragHandler) {
+                    m.off('drag', m._measureDragHandler);
+                    m.off('dragend', m._measureDragHandler);
+                }
+                if (m) {
+                    m._measureDragHandler = dragHandler;
+                    m.on('drag', dragHandler);
+                    m.on('dragend', dragHandler);
+                }
+            });
+        };
+
+        // Add measurement click handler
+        map.on('click', (e) => {
+            if (measureStateRef.current.isActive && !e.originalEvent.defaultPrevented) {
+                addMeasurePoint(e.latlng);
+            }
+        });
 
         // Initialize Leaflet Draw
         drawnItemsRef.current = new L.GeoJSON().addTo(map);
@@ -206,14 +436,14 @@ const MapContainer = ({
         // Draw event handlers
         map.on(L.Draw.Event.CREATED, function (e) {
             const layer = e.layer;
-            
+
             // Fix coordinates for worldCopyJump compatibility
             if (layer instanceof L.Polygon || layer instanceof L.Rectangle) {
                 const latlngs = layer.getLatLngs();
                 const normalizedLatLngs = normalizeLatLngs(latlngs);
                 layer.setLatLngs(normalizedLatLngs);
             }
-            
+
             drawnItemsRef.current.addLayer(layer);
             if (onDrawCreated && onDrawCreated.current) {
                 onDrawCreated.current(layer);
@@ -290,6 +520,8 @@ const MapContainer = ({
                     }, 0);
                 }
             });
+            // Clean up measurement
+            clearMeasurement();
             markersRef.current = [];
 
             // Clean up map
@@ -431,7 +663,7 @@ const MapContainer = ({
         const processBatch = () => {
             const start = currentBatch * batchSize;
             const end = Math.min(start + batchSize, mapData.length);
-            
+
             for (let i = start; i < end; i++) {
                 const item = mapData[i];
                 if (!item.location) continue;
@@ -464,18 +696,18 @@ const MapContainer = ({
 
                 const ensurePopupRendered = () => {
                     if (popupRendered) return popupContainer;
-                    
+
                     popupContainer = document.createElement('div');
                     popupContainer.style.visibility = 'hidden';
 
                     popupRoot = createRoot(popupContainer);
                     popupRoot.render(<MarkerPopup item={item} />);
-                    
+
                     popupRendered = true;
-                    
+
                     // Store root for cleanup
                     marker.popupRoot = popupRoot;
-                    
+
                     return popupContainer;
                 };
 
@@ -489,13 +721,13 @@ const MapContainer = ({
 
                 // Setup event handlers with lazy popup rendering and throttling
                 let hoverTimeout = null;
-                
+
                 marker.on('mouseover', function () {
                     if (this.isPopupOpen()) return;
-                    
+
                     // Clear any pending hover timeout
                     if (hoverTimeout) clearTimeout(hoverTimeout);
-                    
+
                     // Add small delay to avoid rendering popup on quick mouse movements
                     hoverTimeout = setTimeout(() => {
                         // Render popup content on first hover
@@ -517,22 +749,34 @@ const MapContainer = ({
                     this.closePopup();
                 });
 
-                marker.on('click', function () {
+                marker.on('click', function (e) {
+                    // prevent triggering map click (which could add measure points)
+                    L.DomEvent.stopPropagation(e);
                     const link = `https://www.google.com/maps/@?api=1&map_action=pano&pano=${panoId}`;
                     window.open(source_link ? source_link : link, '_blank');
                 });
 
-                if (isCluster) {
-                    clusterGroupRef.current.addLayer(marker);
-                } else {
-                    mapInstanceRef.current.addLayer(marker);
+                try {
+                    if (isCluster) {
+                        // make sure marker has valid latlng before adding to cluster
+                        const ll = marker.getLatLng && marker.getLatLng();
+                        if (!ll || !isFinite(ll.lat) || !isFinite(ll.lng)) {
+                            console.warn('[drawMarkers] skipping marker with invalid latlng', ll, item);
+                        } else {
+                            clusterGroupRef.current.addLayer(marker);
+                        }
+                    } else {
+                        mapInstanceRef.current.addLayer(marker);
+                    }
+                } catch (err) {
+                    console.error('[drawMarkers] error adding marker', err, item);
                 }
 
                 markersRef.current.push(marker);
             }
 
             currentBatch++;
-            
+
             // Schedule next batch if there are more to process
             if (currentBatch < totalBatches) {
                 // Use requestIdleCallback for better performance, fall back to setTimeout

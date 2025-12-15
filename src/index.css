@@ -44,3 +44,41 @@ body {
 .custom-tooltip.visible {
     @apply opacity-100;
 }
+
+/* Measurement tooltip tweaks */
+.measure-tooltip {
+  pointer-events: none;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Visible label used as fallback for measured distance */
+.measure-distance-label-wrapper {
+  pointer-events: none;
+  background: rgba(255,255,255,0.95);
+  color: #1a73e8;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 13px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.28);
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+}
+
+.measure-distance-label { color: #1a73e8; }
+
+/* Marker icon used for measurement endpoints */
+.measure-point-wrapper { width: 18px; height: 18px; display: inline-block; transform: translate(-50%, -50%); }
+.measure-point { width: 14px; height: 14px; border: 3px solid #1a73e8; background: white; border-radius: 50%; box-sizing: border-box; }
+
+/* Floating label shown for measurements; fixed-size and doesn't scale with zoom */
+.measure-floating-label {
+  position: absolute;
+  transform: translate(-50%, -120%);
+  color: #1a73e8;
+  font-weight: 700;
+  font-size: 14px; /* fixed */
+  pointer-events: none;
+  border: white;
+  white-space: nowrap;
+}

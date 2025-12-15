@@ -19,11 +19,16 @@ const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
         return { period: 'Night Owl', emoji: '🦉', desc: 'Burning the midnight oil for coverage!' };
     };
 
-    // Format hour to 12-hour format (input is 0-23)
-    const formatHour = (hour) => {
-        if (hour === undefined || hour === null) return '--';
+    // Format hour to 12-hour format and convert UTC to local time
+    const formatHour = (utcHour) => {
+        if (utcHour === undefined || utcHour === null) return '--';
 
-        return `${hour}:00`;
+        // Convert UTC hour to local hour
+        const timezoneOffsetHours = -new Date().getTimezoneOffset() / 60;
+        const localHour = Math.round((utcHour + timezoneOffsetHours) % 24);
+        const normalizedHour = localHour < 0 ? localHour + 24 : localHour;
+
+        return `${normalizedHour}:00`;
     };
 
     const timeInfo = getTimePeriod(peakHour);
@@ -81,7 +86,7 @@ const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
 
             {/* Fun fact */}
             <p className="mt-8 text-white/40 text-xs max-w-sm">
-                Your timezone says a lot about when you spot coverage changes around the world 🌍
+              Your activity patterns reveal when you're most active! 🌍
             </p>
         </div>
     );
