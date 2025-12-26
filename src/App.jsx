@@ -65,10 +65,6 @@ function App() {
     const handleOpenYearInReview = useCallback(async () => {
         // State 1: Already have report, just open modal
         if (yearInReviewUser && yearInReviewReport) {
-            if (!DEVELOPER_AUTHOR_IDS.includes(yearInReviewUser.id)) {
-                setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
-                return;
-            }
             setShowYearInReview(true);
             return;
         }
@@ -92,12 +88,6 @@ function App() {
                 // Fetch user info from Discord
                 const discordUser = await fetchDiscordUser(token);
                 
-                // Verify developer access
-                if (!DEVELOPER_AUTHOR_IDS.includes(discordUser.id)) {
-                    setYearInReviewError('This feature is currently in beta and available only to developers. Stay tuned for the official release! 🚀');
-                    return;
-                }
-
                 // Cache the authed user
                 setDiscordUserAuthed(discordUser);
                 

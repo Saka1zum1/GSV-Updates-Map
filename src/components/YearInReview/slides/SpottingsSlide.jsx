@@ -18,6 +18,11 @@ const SpottingsSlide = ({ report }) => {
     const topCameraData = topCameras.length > 0 ? topCameras[0] : null;
     const favoriteCamera = topCameraData?.camera;
 
+    const getRankMedal = (rank) => {
+        const medals = { 1: '🏆', 2: '🥈', 3: '🥉' };
+        return medals[rank] || `#${rank}`;
+    };
+
     // Map camera names to asset file names
     const getCameraAsset = (camera) => {
         const assetMap = {
@@ -44,7 +49,7 @@ const SpottingsSlide = ({ report }) => {
                 <div className="mb-2 sm:mb-3 md:mb-4">
                     <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-3 sm:px-4 md:px-5 py-1.5 sm:py-2 md:py-2.5">
                         <span className="text-white font-medium text-xs sm:text-sm md:text-base">
-                            #{spottingsRank} in community
+                            {getRankMedal(spottingsRank)} in community
                         </span>
                         {percentile && (
                             <span className="text-white/60 text-xs sm:text-sm">

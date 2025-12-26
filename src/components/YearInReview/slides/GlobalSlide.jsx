@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) => {
     const globalStats = report?.global_stats || {};
@@ -13,6 +14,7 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
         return typeMap[type] || 'gen4update';
     };
 
+    const [page, setPage] = useState(0);
     const allAchievements = [];
 
     (globalStats.first_country_report || []).forEach(item => {
@@ -22,7 +24,7 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
             title: countries?.[item.country] || item.country,
             badge: '1st Report of the Year',
             value: '⚡',
-            subtitle: '',
+            subtitle: 'update',
             gradient: 'from-blue-500/10 via-cyan-500/10 to-teal-500/10',
             border: 'border-blue-500/20 hover:border-blue-500/40',
             badgeColor: 'bg-blue-500/30 text-blue-300'
@@ -78,7 +80,7 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
             title: getMonthName ? getMonthName(item.month) : `Month ${item.month}`,
             badge: '1st of the Month',
             value: '⚡',
-            subtitle: 'spottings',
+            subtitle: 'spotting',
             gradient: 'from-purple-500/10 via-pink-500/10 to-rose-500/10',
             border: 'border-purple-500/20 hover:border-purple-500/40',
             badgeColor: 'bg-purple-500/30 text-purple-300'
@@ -90,9 +92,9 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
             type: 'first_country_spot',
             icon: getFlagEmoji ? getFlagEmoji(item.country) : item.country,
             title: countries?.[item.country] || item.country,
-            badge: '1st Yearly',
+            badge: '1st Report of the Year',
             value: '⚡',
-            subtitle: 'spottings',
+            subtitle: 'spotting',
             gradient: 'from-green-500/10 via-emerald-500/10 to-teal-500/10',
             border: 'border-green-500/20 hover:border-green-500/40',
             badgeColor: 'bg-green-500/30 text-green-300'
@@ -113,9 +115,21 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
         });
     });
 
+    const pageSize = 8;
+
+    useEffect(() => {
+        setPage(0);
+    }, [allAchievements.length]);
+
+    const totalPages = Math.max(1, Math.ceil(allAchievements.length / pageSize));
+    const handlePrev = () => setPage((prev) => Math.max(0, prev - 1));
+    const handleNext = () => setPage((prev) => Math.min(totalPages - 1, prev + 1));
+    const startIndex = page * pageSize;
+    const displayedAchievements = allAchievements.slice(startIndex, startIndex + pageSize);
+    const startDisplay = allAchievements.length ? startIndex + 1 : 0;
+    const endDisplay = Math.min(startIndex + displayedAchievements.length, allAchievements.length);
+
     if (allAchievements.length === 0) return null;
-    
-    const displayedAchievements = allAchievements.slice(0, 8);
 
 
     return (
@@ -163,10 +177,30 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
             </div>
 
             <div className="inline-flex items-center md:mt-1 gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-gradient-to-r from-yellow-500/20 to-orange-500/20 rounded-full border border-yellow-500/30">
-                <span className="text-lg sm:text-xl md:text-2xl">🏆</span>
-                <span className="text-white font-medium text-xs sm:text-sm md:text-base">
-                    {displayedAchievements.length} of {allAchievements.length} Achievement{displayedAchievements.length !== 1 ? 's' : ''} Shown
-                </span>
+                <button
+                    type="button"
+                    aria-label="Previous achievements"
+                    onClick={handlePrev}
+                    disabled={page === 0 || totalPages <= 1}
+                    className="p-1.5 rounded-full bg-white/10 border border-yellow-500/30 text-white/80 hover:border-yellow-400/60 disabled:opacity-40 disabled:cursor-not-allowed transition"
+                >
+                    <AiOutlineLeft className="text-white/90" size={18} />
+                </button>
+                <div className="inline-flex items-center gap-2">
+                    <span className="text-lg sm:text-xl md:text-2xl">🏆</span>
+                    <span className="text-white font-medium text-xs sm:text-sm md:text-base">
+                        {startDisplay}-{endDisplay} of {allAchievements.length} Achievement{allAchievements.length !== 1 ? 's' : ''} Shown
+                    </span>
+                </div>
+                <button
+                    type="button"
+                    aria-label="Next achievements"
+                    onClick={handleNext}
+                    disabled={page >= totalPages - 1 || totalPages <= 1}
+                    className="p-1.5 rounded-full bg-white/10 border border-yellow-500/30 text-white/80 hover:border-yellow-400/60 disabled:opacity-40 disabled:cursor-not-allowed transition"
+                >
+                    <AiOutlineRight className="text-white/90" size={18} />
+                </button>
             </div>
         </div>
     );
