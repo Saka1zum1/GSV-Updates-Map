@@ -5,7 +5,6 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
     const globalStats = report?.global_stats || {};
 
     const getCameraAsset = (camera) => {
-        console.log('Camera type:', camera);
         const assetMap = {
             'Gen4': 'gen4',
             'Gen4Trekker': 'gen4trekker',
