@@ -3,19 +3,86 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) => {
     const globalStats = report?.global_stats || {};
-    
-    const getUpdateTypeAsset = (type) => {
-        const typeMap = {
-            'ariupdate': 'ariupdate', 'gen3update': 'gen3update', 'newcountry': 'newcountry',
-            'newregion': 'newregion', 'newsmallcam': 'newsmallcam', 'newyear': 'newyear',
-            'smallcam': 'smallcam', 'newtrekker': 'newtrekker', 'gen1update': 'gen1update',
-            'gen2update': 'gen2update', 'gen4update': 'gen4update'
+
+    const getCameraAsset = (camera) => {
+        console.log('Camera type:', camera);
+        const assetMap = {
+            'Gen4': 'gen4',
+            'Gen4Trekker': 'gen4trekker',
+            'SmallCam': 'smallcam',
+            'BadCam': 'badcam',
+            'Gen1': 'gen1',
+            'Gen2': 'gen2',
+            'Gen3': 'gen3'
         };
-        return typeMap[type] || 'gen4update';
+        return assetMap[camera] || 'gen4';
     };
 
     const [page, setPage] = useState(0);
     const allAchievements = [];
+
+    // First report of the year
+    if (globalStats.first_report) {
+        allAchievements.push({
+            type: 'first_report',
+            image: '/assets/newyear.webp',
+            title: 'First Report',
+            badge: '1st Report of the Year',
+            value: '⚡',
+            subtitle: 'update',
+            gradient: 'from-purple-500/10 via-pink-500/10 to-red-500/10',
+            border: 'border-purple-500/20 hover:border-purple-500/40',
+            badgeColor: 'bg-purple-500/30 text-purple-300'
+        });
+    }
+
+    // First spotting of the year
+    if (globalStats.first_spot) {
+        allAchievements.push({
+            type: 'first_spot',
+            icon: '📸',
+            title: 'First Spotting',
+            badge: '1st Report of the Year',
+            value: '⚡',
+            subtitle: 'spotting',
+            gradient: 'from-blue-500/10 via-indigo-500/10 to-purple-500/10',
+            border: 'border-blue-500/20 hover:border-blue-500/40',
+            badgeColor: 'bg-blue-500/30 text-blue-300'
+        });
+    }
+
+
+    // Top pinpoints
+    if (globalStats.top_pinpoints) {
+        const item = globalStats.top_pinpoints;
+        allAchievements.push({
+            type: 'top_pinpoints',
+            icon: '📍',
+            title: 'Pinpoint Master',
+            badge: 'Top Rank',
+            value: item.count,
+            subtitle: 'pinpoints',
+            gradient: 'from-rose-500/10 via-pink-500/10 to-red-500/10',
+            border: 'border-rose-500/20 hover:border-rose-500/40',
+            badgeColor: 'bg-rose-500/30 text-rose-300'
+        });
+    }
+
+    // Top reactions
+    if (globalStats.top_reactions) {
+        const item = globalStats.top_reactions;
+        allAchievements.push({
+            type: 'top_reactions',
+            image: 'https://cdn.discordapp.com/emojis/851305317950292001.webp',
+            title: '',
+            badge: 'Most Reactions Received',
+            value: item.count,
+            subtitle: 'reactions',
+            gradient: 'from-pink-500/10 via-rose-500/10 to-red-500/10',
+            border: 'border-pink-500/20 hover:border-pink-500/40',
+            badgeColor: 'bg-pink-500/30 text-pink-300'
+        });
+    }
 
     (globalStats.first_country_report || []).forEach(item => {
         allAchievements.push({
@@ -45,45 +112,31 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
         });
     });
 
-    (globalStats.top_camera_report || []).forEach(item => {
+    (globalStats.top_camera_spot || []).forEach(item => {
         allAchievements.push({
-            type: 'top_camera_report',
-            image: `/assets/${getUpdateTypeAsset(item.type)}.webp`,
-            title: item.type.charAt(0).toUpperCase() + item.type.slice(1),
+            type: 'top_camera_spotting',
+            image: `/assets/${getCameraAsset(item.camera)}.webp`,
+            title: `${item.camera}`,
             badge: 'Top Rank',
             value: item.count,
-            subtitle: 'updates',
+            subtitle: 'spottings',
             gradient: 'from-yellow-500/10 via-orange-500/10 to-red-500/10',
             border: 'border-yellow-500/20 hover:border-yellow-500/40',
             badgeColor: 'bg-yellow-500/30 text-yellow-300'
         });
     });
 
-    (globalStats.first_camera_report || []).forEach(item => {
+    (globalStats.first_camera_spot || []).forEach(item => {
         allAchievements.push({
-            type: 'first_camera_report',
-            image: `/assets/${getUpdateTypeAsset(item.type)}.webp`,
-            title: item.type.charAt(0).toUpperCase() + item.type.slice(1),
+            type: 'first_camera_spottting',
+            image: `/assets/${getCameraAsset(item.camera)}.webp`,
+            title: `${item.camera}`,
             badge: '1st Report',
             value: '⚡',
-            subtitle: 'update',
+            subtitle: 'spotting',
             gradient: 'from-blue-500/10 via-cyan-500/10 to-teal-500/10',
             border: 'border-blue-500/20 hover:border-blue-500/40',
             badgeColor: 'bg-blue-500/30 text-blue-300'
-        });
-    });
-
-    (globalStats.first_month_spot || []).forEach(item => {
-        allAchievements.push({
-            type: 'first_month_spot',
-            icon: '📅',
-            title: getMonthName ? getMonthName(item.month) : `Month ${item.month}`,
-            badge: '1st of the Month',
-            value: '⚡',
-            subtitle: 'spotting',
-            gradient: 'from-purple-500/10 via-pink-500/10 to-rose-500/10',
-            border: 'border-purple-500/20 hover:border-purple-500/40',
-            badgeColor: 'bg-purple-500/30 text-purple-300'
         });
     });
 
@@ -112,6 +165,21 @@ const GlobalFirstsSlide = ({ report, getFlagEmoji, countries, getMonthName }) =>
             gradient: 'from-orange-500/10 via-red-500/10 to-pink-500/10',
             border: 'border-orange-500/20 hover:border-orange-500/40',
             badgeColor: 'bg-orange-500/30 text-orange-300'
+        });
+    });
+
+    // Top update types
+    (globalStats.top_update_type || []).forEach(item => {
+        allAchievements.push({
+            type: 'top_update_type',
+            image: `/assets/${item.type}.webp`,
+            title: '',
+            badge: 'Top Rank',
+            value: item.count,
+            subtitle: 'reports',
+            gradient: 'from-violet-500/10 via-purple-500/10 to-fuchsia-500/10',
+            border: 'border-violet-500/20 hover:border-violet-500/40',
+            badgeColor: 'bg-violet-500/30 text-violet-300'
         });
     });
 

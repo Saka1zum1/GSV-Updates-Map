@@ -89,10 +89,17 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             slideList.push({ id: 'ranking', component: RankingSlide });
         }
         
-        // Add global achievements if available
-        const hasGlobalAchievements = 
-            (report.global_stats?.first_country_report?.length > 0) ||
-            (report.global_stats?.top_country_report?.length > 0);
+        // Add global achievements if available (check any key for non-empty values)
+        const hasGlobalAchievements = !!(
+            report.global_stats &&
+            Object.values(report.global_stats).some((value) => {
+                if (value == null) return false;
+                if (Array.isArray(value)) return value.length > 0;
+                if (typeof value === 'object') return Object.keys(value).length > 0;
+                return Boolean(value);
+            })
+        );
+
         if (hasGlobalAchievements) {
             slideList.push({ id: 'global-firsts', component: GlobalFirstsSlide });
         }

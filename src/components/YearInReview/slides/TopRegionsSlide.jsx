@@ -77,7 +77,7 @@ const TopRegionsSlide = ({ report, getFlagEmoji, countries }) => {
                                             {count}
                                         </div>
                                         <div className="text-white/40 text-xxs sm:text-xs hidden sm:block">
-                                            contributions
+                                            {count === 1 ? 'countribution' : 'contributions'}
                                         </div>
                                     </div>
                                 </div>

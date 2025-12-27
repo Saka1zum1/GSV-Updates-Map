@@ -120,7 +120,7 @@ const SpottingsSlide = ({ report }) => {
 
             {/* Total camera types stat */}
             <div className="mt-3 sm:mt-4 md:mt-5 lg:mt-6 text-white/50 text-xs sm:text-md md:text-base">
-                <span className="text-white font-medium">{totalCameraTypes}</span> different camera types collected
+                <span className="text-white font-medium">{totalCameraTypes}</span> {totalCameraTypes == 1 ? 'camera type collected' : 'different camera types collected'}
             </div>
         </div>
     );

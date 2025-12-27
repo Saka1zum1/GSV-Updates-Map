@@ -10,12 +10,18 @@ const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
     const peakWeekday = time?.peak_weekday;
     const peakMonth = time?.peak_month;
 
-    // Get time period description
-    const getTimePeriod = (hour) => {
-        if (hour === undefined || hour === null) return { period: 'Unknown', emoji: '⏰' };
-        if (hour >= 5 && hour < 12) return { period: 'Morning', emoji: '🌅', desc: 'Early bird catches the coverage!' };
-        if (hour >= 12 && hour < 17) return { period: 'Afternoon', emoji: '☀️', desc: 'Peak productivity hours!' };
-        if (hour >= 17 && hour < 21) return { period: 'Evening', emoji: '🌆', desc: 'After-work explorer!' };
+    // Get time period description (UTC -> local hour)
+    const getTimePeriod = (utcHour) => {
+        if (utcHour === undefined || utcHour === null) return { period: 'Unknown', emoji: '⏰' };
+
+        // Convert UTC hour to local hour (handle fractional offsets)
+        const timezoneOffsetHours = -new Date().getTimezoneOffset() / 60;
+        const localHourRaw = (utcHour + timezoneOffsetHours) % 24;
+        const localHour = Math.floor(localHourRaw < 0 ? localHourRaw + 24 : localHourRaw);
+
+        if (localHour >= 5 && localHour < 12) return { period: 'Morning', emoji: '🌅', desc: 'Early bird catches the coverage!' };
+        if (localHour >= 12 && localHour < 17) return { period: 'Afternoon', emoji: '☀️', desc: 'Peak productivity hours!' };
+        if (localHour >= 17 && localHour < 21) return { period: 'Evening', emoji: '🌆', desc: 'After-work explorer!' };
         return { period: 'Night Owl', emoji: '🦉', desc: 'Burning the midnight oil for coverage!' };
     };
 
@@ -23,12 +29,12 @@ const FavoriteTimeSlide = ({ report, getWeekdayName, getMonthName }) => {
     const formatHour = (utcHour) => {
         if (utcHour === undefined || utcHour === null) return '--';
 
-        // Convert UTC hour to local hour
+        // Convert UTC hour to local hour (handle fractional offsets)
         const timezoneOffsetHours = -new Date().getTimezoneOffset() / 60;
-        const localHour = Math.round((utcHour + timezoneOffsetHours) % 24);
-        const normalizedHour = localHour < 0 ? localHour + 24 : localHour;
+        const localHourRaw = (utcHour + timezoneOffsetHours) % 24;
+        const localHour = Math.floor(localHourRaw < 0 ? localHourRaw + 24 : localHourRaw);
 
-        return `${normalizedHour}:00`;
+        return `${localHour}:00`;
     };
 
     const timeInfo = getTimePeriod(peakHour);
