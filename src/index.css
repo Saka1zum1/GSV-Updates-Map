@@ -65,20 +65,19 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.measure-distance-label { color: #1a73e8; }
-
 /* Marker icon used for measurement endpoints */
 .measure-point-wrapper { width: 18px; height: 18px; display: inline-block; transform: translate(-50%, -50%); }
-.measure-point { width: 14px; height: 14px; border: 3px solid #1a73e8; background: white; border-radius: 50%; box-sizing: border-box; }
+.measure-point { width: 14px; height: 14px; border: 3px solid #e81a2b; background: white; border-radius: 50%; box-sizing: border-box; }
 
 /* Floating label shown for measurements; fixed-size and doesn't scale with zoom */
 .measure-floating-label {
   position: absolute;
   transform: translate(-50%, -120%);
-  color: #1a73e8;
+  color: #e61f36;
   font-weight: 700;
   font-size: 14px; /* fixed */
   pointer-events: none;
+  box-shadow: #7bace4;
   border: white;
   white-space: nowrap;
 }

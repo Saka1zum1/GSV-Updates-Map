@@ -173,13 +173,15 @@ const MapContainer = ({
         map.createPane("labelPane");
         map.createPane("panoramasPane");
         map.createPane("coveragePane");
-        map.createPane("measurePane");
+        map.createPane("measureLinePane");
+        map.createPane("measurePointPane");
         // Make tooltip pane render above measure and other panes so labels aren't hidden
         if (map.getPane('tooltipPane')) map.getPane('tooltipPane').style.zIndex = 1000;
         map.getPane("labelPane").style.zIndex = 300;
         map.getPane("panoramasPane").style.zIndex = 500;
         map.getPane("coveragePane").style.zIndex = 200;
-        map.getPane("measurePane").style.zIndex = 1000;
+        map.getPane("measureLinePane").style.zIndex = 450;
+        map.getPane("measurePointPane").style.zIndex = 700;
 
         // Add base layers
         const baseMaps = {
@@ -237,8 +239,8 @@ const MapContainer = ({
                     state.floaterEl.style.top = `${p.y}px`;
                 };
                 map.on('move zoom viewreset', state._repositionHandler);
-                +                // ensure initial placement in case point already set
-                    +                state._repositionHandler();
+                // ensure initial placement in case point already set
+                state._repositionHandler();
             }
 
             // show appropriate text
@@ -277,15 +279,10 @@ const MapContainer = ({
             }
             state.polyline = null;
 
-            state.markers.forEach(marker => {
-                try {
-                    if (marker && marker._measureDragHandler) {
-                        marker.off('drag', marker._measureDragHandler);
-                        marker.off('dragend', marker._measureDragHandler);
-                        marker._measureDragHandler = null;
-                    }
-                } catch (e) { }
-                if (map.hasLayer(marker)) map.removeLayer(marker);
+            state.markers.forEach(pointData => {
+                if (pointData && pointData.cleanup) {
+                    pointData.cleanup();
+                }
             });
             state.markers = [];
 
@@ -329,74 +326,142 @@ const MapContainer = ({
 
             state.points.push(latlng);
 
-            const marker = L.circleMarker(latlng, {
-                radius: 6,
-                color: '#1a73e8',
-                fillColor: '#fff',
-                fillOpacity: 1,
-                weight: 3,
-                pane: 'measurePane'
-            }).addTo(map);
-            state.markers.push(marker);
-            // make marker a draggable marker wrapper so it can be enabled later
-            // convert circleMarker to marker for uniform handling
-            const index = state.points.length - 1;
-            const iconHtml = `<div class="measure-point" data-index="${index}"></div>`;
-            const pointMarker = L.marker(latlng, {
-                icon: L.divIcon({ className: 'measure-point-wrapper', html: iconHtml }),
-                draggable: false,
-                pane: 'measurePane'
-            }).addTo(map);
-            // replace the circleMarker with the marker
-            if (map.hasLayer(marker)) map.removeLayer(marker);
-            state.markers[state.markers.length - 1] = pointMarker;
-            // prepare drag handler placeholder
-            pointMarker._measureDragHandler = null;
+            // Create a pure DOM element for the measurement point instead of Leaflet marker
+            const pointEl = document.createElement('div');
+            pointEl.className = 'measure-point-overlay';
+            pointEl.style.cssText = `
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                transform: translate(-50%, -50%);
+                cursor: grab;
+                z-index: 10000;
+                pointer-events: auto;
+            `;
+            
+            const innerCircle = document.createElement('div');
+            innerCircle.style.cssText = `
+                width: 14px;
+                height: 14px;
+                border: 3px solid #1a73e8;
+                background: white;
+                border-radius: 50%;
+                box-sizing: border-box;
+            `;
+            pointEl.appendChild(innerCircle);
+            
+            // Position the element
+            const updatePointPosition = (latLng) => {
+                const point = map.latLngToContainerPoint(latLng);
+                pointEl.style.left = `${point.x}px`;
+                pointEl.style.top = `${point.y}px`;
+            };
+            
+            updatePointPosition(latlng);
+            map.getContainer().appendChild(pointEl);
+            
+            // Make it draggable
+            let isDragging = false;
+            let dragStartX, dragStartY;
+            
+            const onMouseDown = (e) => {
+                isDragging = true;
+                dragStartX = e.clientX;
+                dragStartY = e.clientY;
+                pointEl.style.cursor = 'grabbing';
+                e.stopPropagation();
+                e.preventDefault();
+            };
+            
+            const onMouseMove = (e) => {
+                if (!isDragging) return;
+                
+                const containerPoint = map.latLngToContainerPoint(latlng);
+                const deltaX = e.clientX - dragStartX;
+                const deltaY = e.clientY - dragStartY;
+                
+                const newContainerPoint = L.point(containerPoint.x + deltaX, containerPoint.y + deltaY);
+                const newLatLng = map.containerPointToLatLng(newContainerPoint);
+                
+                const idx = state.points.indexOf(latlng);
+                if (idx !== -1) {
+                    state.points[idx] = newLatLng;
+                    latlng = newLatLng;
+                }
+                
+                updatePointPosition(newLatLng);
+                
+                if (state.polyline) {
+                    state.polyline.setLatLngs(state.points);
+                }
+                
+                updateTooltip();
+                
+                dragStartX = e.clientX;
+                dragStartY = e.clientY;
+                
+                e.stopPropagation();
+                e.preventDefault();
+            };
+            
+            const onMouseUp = (e) => {
+                if (isDragging) {
+                    isDragging = false;
+                    pointEl.style.cursor = 'grab';
+                    e.stopPropagation();
+                    e.preventDefault();
+                }
+            };
+            
+            pointEl.addEventListener('mousedown', onMouseDown);
+            document.addEventListener('mousemove', onMouseMove);
+            document.addEventListener('mouseup', onMouseUp);
+            
+            // Update position on map movement
+            const mapMoveHandler = () => {
+                if (!isDragging) {
+                    updatePointPosition(latlng);
+                }
+            };
+            map.on('move', mapMoveHandler);
+            map.on('zoom', mapMoveHandler);
+            
+            // Store references for cleanup
+            const pointData = {
+                element: pointEl,
+                latLng: latlng,
+                updatePosition: updatePointPosition,
+                mapMoveHandler: mapMoveHandler,
+                cleanup: () => {
+                    pointEl.removeEventListener('mousedown', onMouseDown);
+                    document.removeEventListener('mousemove', onMouseMove);
+                    document.removeEventListener('mouseup', onMouseUp);
+                    map.off('move', mapMoveHandler);
+                    map.off('zoom', mapMoveHandler);
+                    if (pointEl.parentNode) {
+                        pointEl.parentNode.removeChild(pointEl);
+                    }
+                }
+            };
+            
+            state.markers.push(pointData);
 
             if (state.points.length === 2) {
                 state.polyline = L.polyline(state.points, {
                     color: '#1a73e8',
                     weight: 3,
                     opacity: 0.85,
-                    pane: 'measurePane'
+                    pane: 'measureLinePane',
+                    interactive: false
                 }).addTo(map);
-                finishMeasurement();
+                // disable pointer events on polyline path element
+                try {
+                    const pathEl = state.polyline.getElement && state.polyline.getElement();
+                    if (pathEl) pathEl.style.pointerEvents = 'none';
+                } catch (e) { }
             }
 
             updateTooltip();
-        };
-
-        const finishMeasurement = () => {
-            const state = measureStateRef.current;
-            if (!state.isActive || state.points.length < 2) return;
-            state.isActive = false;
-            map.getContainer().style.cursor = '';
-            updateTooltip();
-            // enable dragging for the start point and add drag handler to update in real-time
-            // enable dragging for both endpoints and add handlers to update in real-time
-            state.markers.forEach((m, idx) => {
-                try {
-                    if (m && m.dragging) m.dragging.enable();
-                } catch (e) { }
-
-                const dragHandler = function () {
-                    const newLatLng = this.getLatLng();
-                    state.points[idx] = newLatLng;
-                    if (state.polyline) state.polyline.setLatLngs(state.points);
-                    updateTooltip();
-                };
-
-                // attach handlers (remove previous if present)
-                if (m && m._measureDragHandler) {
-                    m.off('drag', m._measureDragHandler);
-                    m.off('dragend', m._measureDragHandler);
-                }
-                if (m) {
-                    m._measureDragHandler = dragHandler;
-                    m.on('drag', dragHandler);
-                    m.on('dragend', dragHandler);
-                }
-            });
         };
 
         // Add measurement click handler
