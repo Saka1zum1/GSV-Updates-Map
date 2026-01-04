@@ -104,7 +104,7 @@ const TopNavBar = ({
                     </button>
 
                     {/* Annual Report Button - Mobile */}
-                    <button
+                    {/* <button
                         onClick={onOpenYearInReview}
                         disabled={yearInReviewLoading}
                         className={`flex items-center justify-center w-8 h-8 rounded-lg transition-all duration-200
@@ -114,9 +114,9 @@ const TopNavBar = ({
                         title="2025 Wrapped"
                     >
                         {yearInReviewLoading ? <Loader2 size={18} className="animate-spin" /> : <Award size={18} />}
-                    </button>
+                    </button>*/}
 
-                    {/*<button
+                    <button
                         onClick={() => {
                             onToggleFilterSidebar();
                         }}
@@ -124,7 +124,7 @@ const TopNavBar = ({
                         title="Open Filter"
                     >
                         <Filter size={18} />
-                    </button>*/}
+                    </button>
 
                     {/* Theme Toggle */}
                     <button
@@ -213,21 +213,6 @@ const TopNavBar = ({
                         >
                             {isDarkTheme ? <Sun size={20} /> : <Moon size={20} />}
                         </button>
-                        {/* Annual Report Button */}
-                        <div className="relative">
-                            <button
-                                onClick={onOpenYearInReview}
-                                disabled={yearInReviewLoading}
-                                className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-all duration-200 text-sm font-medium
-                                    bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 
-                                    text-white shadow-md hover:shadow-lg border border-transparent
-                                    ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
-                                title={`View Your 2025 Wrapped`}
-                            >
-                                {yearInReviewLoading ? <Loader2 size={20} className="animate-spin" /> : <Award size={20} />}
-                                <span>2025 Wrapped</span>
-                            </button>
-                        </div>
                         {/* Credits Button */}
                         <button
                             onClick={() => setShowCreditModal(true)}
@@ -237,6 +222,19 @@ const TopNavBar = ({
                         >
                             <Info size={20} />
                         </button>
+                        {/* Annual Report Button */}
+                        <div className="relative">
+                            <button
+                                onClick={onOpenYearInReview}
+                                disabled={yearInReviewLoading}
+                                className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-all duration-200 text-sm font-medium
+                                    shadow-md hover:shadow-lg border border-transparent dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700
+                                    ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
+                                title={`View Your 2025 Wrapped`}
+                            >
+                                {yearInReviewLoading ? <Loader2 size={20} className="animate-spin" /> : <Award size={20} />}
+                            </button>
+                        </div>
                     </div>
 
                     {/* Center Section - View Controls */}
