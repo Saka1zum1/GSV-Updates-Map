@@ -223,12 +223,12 @@ const TopNavBar = ({
                             <Info size={20} />
                         </button>
                         {/* Annual Report Button */}
-                        <div className="relative">
+                        <div className="flex items-center ml-2 md:ml-4 space-x-2">
                             <button
                                 onClick={onOpenYearInReview}
                                 disabled={yearInReviewLoading}
-                                className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-all duration-200 text-sm font-medium
-                                    shadow-md hover:shadow-lg border border-transparent dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700
+                                className={`flex items-center space-x-1 lg:space-x-2 px-2 lg:px-3 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
+                                     rounded-lg transition-colors text-sm font-medium border border-transparent
                                     ${yearInReviewLoading ? 'opacity-50 cursor-wait' : ''}`}
                                 title={`View Your 2025 Wrapped`}
                             >
