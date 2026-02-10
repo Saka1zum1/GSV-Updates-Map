@@ -14,7 +14,7 @@ exports.handler = async function (event, context) {
         user: process.env.MYSQL_USER || "mysql",
         password: process.env.MYSQL_PASSWORD,
         database: process.env.MYSQL_DATABASE || "default",
-        port: process.env.MYSQL_PORT ? Number(process.env.MYSQL_PORT) : 3306,
+        port: process.env.MYSQL_PORT ? Number(process.env.MYSQL_PORT) : 15700,
         charset: "utf8mb4",
         supportBigNumbers: true,
         bigNumberStrings: true

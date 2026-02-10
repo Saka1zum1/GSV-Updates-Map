@@ -1,21 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <title>Maintenance</title>
-  <style>
-    body {
-      display: flex;
-      height: 90vh;
-      justify-content: center;
-      align-items: center;
-      font-family: system-ui, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-    }
-  </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7CBKXYFQZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-E7CBKXYFQZ');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" />
+    <title>VirtualStreets Updates Map</title>
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <style>
+        @font-face {
+            font-family: "TwemojiCountryFlags";
+            src: url("https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/TwemojiCountryFlags.woff2") format("woff2");
+        }
+    </style>
 </head>
+
 <body>
-  <h1>🚧 Site under maintenance</h1>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
 </body>
+
 </html>
