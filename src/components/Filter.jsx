@@ -59,12 +59,53 @@ const FilterPanel = ({
         return types.sort((a, b) => (typeItemCounts.typeCounts[b] || 0) - (typeItemCounts.typeCounts[a] || 0));
     };
 
-    const handleTypeToggle = (type) => {
-        const newTypes = filters.type.includes(type)
-            ? filters.type.filter(t => t !== type)
-            : [...filters.type, type];
+    // Helper function to get button state: 'none', 'include', or 'exclude'
+    const getTypeButtonState = (type) => {
+        if (filters.type.includes(type)) return 'include';
+        if (filters.typeExclude.includes(type)) return 'exclude';
+        return 'none';
+    };
 
-        onUpdateFilters({ type: newTypes });
+    // Three-state toggle for types: none -> include -> exclude -> none
+    const handleTypeToggle = (type, isExcludeClick = false) => {
+        if (isExcludeClick) {
+            // Direct exclude/include toggle via right area click
+            const isCurrentlyExcluded = filters.typeExclude.includes(type);
+            const newTypeExclude = isCurrentlyExcluded
+                ? filters.typeExclude.filter(t => t !== type)
+                : filters.typeExclude.includes(type)
+                    ? filters.typeExclude
+                    : [...filters.typeExclude, type];
+            
+            // Remove from include if we're adding to exclude
+            const newType = !isCurrentlyExcluded && !filters.type.includes(type)
+                ? filters.type
+                : filters.type.filter(t => t !== type);
+            
+            onUpdateFilters({ type: newType, typeExclude: newTypeExclude });
+        } else {
+            // Normal cycle: none -> include -> exclude -> none
+            const currentState = getTypeButtonState(type);
+            
+            if (currentState === 'none') {
+                // Add to include
+                onUpdateFilters({
+                    type: [...filters.type, type],
+                    typeExclude: filters.typeExclude.filter(t => t !== type)
+                });
+            } else if (currentState === 'include') {
+                // Move to exclude
+                onUpdateFilters({
+                    type: filters.type.filter(t => t !== type),
+                    typeExclude: [...filters.typeExclude, type]
+                });
+            } else {
+                // Remove from exclude (back to none)
+                onUpdateFilters({
+                    typeExclude: filters.typeExclude.filter(t => t !== type)
+                });
+            }
+        }
     };
 
     const handleAuthorToggle = (author) => {
@@ -239,12 +280,41 @@ const FilterPanel = ({
         'gen1', 'gen2', 'gen3', 'gen4', 'gen4trekker', 'badcam', 'smallcam'
     ].sort((a, b) => (typeItemCounts.cameraCounts[b] || 0) - (typeItemCounts.cameraCounts[a] || 0));
 
-    const handleCameraToggle = (camera) => {
-        const currentCameras = filters.camera || [];
-        const newCameras = currentCameras.includes(camera)
-            ? currentCameras.filter(c => c !== camera)
-            : [...currentCameras, camera];
-        onUpdateFilters({ camera: newCameras });
+    const handleCameraToggle = (camera, isExcludeClick = false) => {
+        if (isExcludeClick) {
+            // Direct exclude/include toggle via right area click
+            const currentCameras = filters.camera || [];
+            const currentExcluded = filters.cameraExclude || [];
+            const isCurrentlyExcluded = currentExcluded.includes(camera);
+            
+            const newCameraExclude = isCurrentlyExcluded
+                ? currentExcluded.filter(c => c !== camera)
+                : [...currentExcluded, camera];
+            
+            const newCamera = currentCameras.filter(c => c !== camera);
+            
+            onUpdateFilters({ camera: newCamera, cameraExclude: newCameraExclude });
+        } else {
+            // Normal cycle: none -> include -> exclude -> none
+            const currentCameras = filters.camera || [];
+            const currentExcluded = filters.cameraExclude || [];
+            const isIncluded = currentCameras.includes(camera);
+            const isExcluded = currentExcluded.includes(camera);
+            
+            if (!isIncluded && !isExcluded) {
+                // Add to include
+                onUpdateFilters({ camera: [...currentCameras, camera], cameraExclude: currentExcluded });
+            } else if (isIncluded) {
+                // Move to exclude
+                onUpdateFilters({
+                    camera: currentCameras.filter(c => c !== camera),
+                    cameraExclude: [...currentExcluded, camera]
+                });
+            } else {
+                // Remove from exclude (back to none)
+                onUpdateFilters({ cameraExclude: currentExcluded.filter(c => c !== camera) });
+            }
+        }
     };
 
     return (
@@ -291,35 +361,49 @@ const FilterPanel = ({
                             <AccordionSection
                                 title="Update Types"
                                 icon={Filter}
-                                badge={filters.type.length || null}
+                                badge={(filters.type.length || 0) + (filters.typeExclude.length || 0) || null}
                                 isExpanded={expandedSections.types}
                                 onToggle={() => toggleSection('types')}
                             >
                                 <div className="p-3 sm:p-4">
                                     <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
-                                        {getVisibleTypes().map(type => (
-                                            <button
-                                                key={type}
-                                                onClick={() => handleTypeToggle(type)}
-                                                className={`p-2 rounded-lg transition-colors border relative ${filters.type.includes(type)
-                                                    ? 'bg-blue-50 dark:bg-blue-900 border-blue-200 dark:border-blue-700'
-                                                    : 'bg-white dark:bg-gray-700 border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
-                                                    }`}
-                                                title={`${type} (${typeItemCounts.typeCounts[type] || 0} items)`}
-                                            >
-                                                <img
-                                                    src={`/assets/${type}.webp`}
-                                                    alt={type}
-                                                    className="w-6 h-6 sm:w-8 sm:h-8 mx-auto"
-                                                    onError={(e) => {
-                                                        e.target.style.display = 'none';
-                                                    }}
-                                                />
-                                                <span className="absolute -top-1 -right-1 bg-yellow-400 dark:bg-orange-400 text-grey dark:text-white text-xxs rounded-full w-5 h-5 flex items-center justify-center">
-                                                    {typeItemCounts.typeCounts[type] || 0}
-                                                </span>
-                                            </button>
-                                        ))}
+                                        {getVisibleTypes().map(type => {
+                                            const state = getTypeButtonState(type);
+                                            const isIncluded = state === 'include';
+                                            const isExcluded = state === 'exclude';
+                                            return (
+                                                <div key={type} className="relative group">
+                                                    <button
+                                                        onClick={() => handleTypeToggle(type, false)}
+                                                        className={`w-full p-2 rounded-lg transition-colors border relative ${
+                                                            isIncluded
+                                                                ? 'bg-blue-50 dark:bg-blue-900 border-blue-200 dark:border-blue-700'
+                                                                : isExcluded
+                                                                    ? 'bg-red-50 dark:bg-red-900 border-red-200 dark:border-red-700'
+                                                                    : 'bg-white dark:bg-gray-700 border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+                                                        }`}
+                                                        title={`${type} (${typeItemCounts.typeCounts[type] || 0} items) - Click to toggle include/exclude`}
+                                                    >
+                                                        <img
+                                                            src={`/assets/${type}.webp`}
+                                                            alt={type}
+                                                            className={`w-6 h-6 sm:w-8 sm:h-8 mx-auto ${isExcluded ? 'opacity-50' : ''}`}
+                                                            onError={(e) => {
+                                                                e.target.style.display = 'none';
+                                                            }}
+                                                        />
+                                                        <span className="absolute -top-1 -right-1 bg-yellow-400 dark:bg-orange-400 text-grey dark:text-white text-xxs rounded-full w-5 h-5 flex items-center justify-center">
+                                                            {typeItemCounts.typeCounts[type] || 0}
+                                                        </span>
+                                                        {isExcluded && (
+                                                            <span className="absolute inset-0 flex items-center justify-center">
+                                                                <X size={14} className="text-red-600 dark:text-red-400 font-bold" />
+                                                            </span>
+                                                        )}
+                                                    </button>
+                                                </div>
+                                            );
+                                        })}
                                     </div>
                                 </div>
                             </AccordionSection>
@@ -330,35 +414,50 @@ const FilterPanel = ({
                             <AccordionSection
                                 title="Camera Types"
                                 icon={Camera}
-                                badge={filters.camera?.length || null}
+                                badge={(filters.camera?.length || 0) + (filters.cameraExclude?.length || 0) || null}
                                 isExpanded={expandedSections.camera}
                                 onToggle={() => toggleSection('camera')}
                             >
                                 <div className="p-3 sm:p-4">
                                     <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
-                                        {cameraTypes.map(camera => (
-                                            <button
-                                                key={camera}
-                                                onClick={() => handleCameraToggle(camera)}
-                                                className={`p-2 rounded-lg transition-colors border relative ${filters.camera?.includes(camera)
-                                                    ? 'bg-blue-50 dark:bg-blue-900 border-blue-200 dark:border-blue-700'
-                                                    : 'bg-white dark:bg-gray-700 border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
-                                                    }`}
-                                                title={`${camera} (${typeItemCounts.cameraCounts[camera] || 0} items)`}
-                                            >
-                                                <img
-                                                    src={`/assets/${camera}.webp`}
-                                                    alt={camera}
-                                                    className="w-6 h-6 sm:w-8 sm:h-8 mx-auto"
-                                                    onError={(e) => {
-                                                        e.target.style.display = 'none';
-                                                    }}
-                                                />
-                                                <span className="absolute -top-1 -right-1 bg-yellow-400 dark:bg-orange-400 text-grey dark:text-white text-xxs rounded-full w-5 h-5 flex items-center justify-center">
-                                                    {typeItemCounts.cameraCounts[camera] || 0}
-                                                </span>
-                                            </button>
-                                        ))}
+                                        {cameraTypes.map(camera => {
+                                            const currentCameras = filters.camera || [];
+                                            const currentExcluded = filters.cameraExclude || [];
+                                            const isIncluded = currentCameras.includes(camera);
+                                            const isExcluded = currentExcluded.includes(camera);
+                                            return (
+                                                <div key={camera} className="relative group">
+                                                    <button
+                                                        onClick={() => handleCameraToggle(camera, false)}
+                                                        className={`w-full p-2 rounded-lg transition-colors border relative ${
+                                                            isIncluded
+                                                                ? 'bg-blue-50 dark:bg-blue-900 border-blue-200 dark:border-blue-700'
+                                                                : isExcluded
+                                                                    ? 'bg-red-50 dark:bg-red-900 border-red-200 dark:border-red-700'
+                                                                    : 'bg-white dark:bg-gray-700 border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+                                                        }`}
+                                                        title={`${camera} (${typeItemCounts.cameraCounts[camera] || 0} items) - Click to toggle include/exclude`}
+                                                    >
+                                                        <img
+                                                            src={`/assets/${camera}.webp`}
+                                                            alt={camera}
+                                                            className={`w-6 h-6 sm:w-8 sm:h-8 mx-auto ${isExcluded ? 'opacity-50' : ''}`}
+                                                            onError={(e) => {
+                                                                e.target.style.display = 'none';
+                                                            }}
+                                                        />
+                                                        <span className="absolute -top-1 -right-1 bg-yellow-400 dark:bg-orange-400 text-grey dark:text-white text-xxs rounded-full w-5 h-5 flex items-center justify-center">
+                                                            {typeItemCounts.cameraCounts[camera] || 0}
+                                                        </span>
+                                                        {isExcluded && (
+                                                            <span className="absolute inset-0 flex items-center justify-center">
+                                                                <X size={14} className="text-red-600 dark:text-red-400 font-bold" />
+                                                            </span>
+                                                        )}
+                                                    </button>
+                                                </div>
+                                            );
+                                        })}
                                     </div>
                                 </div>
                             </AccordionSection>

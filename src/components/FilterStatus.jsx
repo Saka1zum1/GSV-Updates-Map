@@ -83,6 +83,18 @@ const FilterStatus = ({
             });
         }
 
+        // Type exclude filter
+        if (filters.typeExclude && filters.typeExclude.length > 0) {
+            activeFilters.push({
+                id: 'typeExclude',
+                type: 'typeExclude',
+                label: filters.typeExclude, // pass array for rendering
+                icon: Shapes,
+                isExclude: true,
+                onRemove: () => onUpdateFilters({ typeExclude: [] })
+            });
+        }
+
         // Camera filter
         if (filters.camera && filters.camera.length > 0) {
             activeFilters.push({
@@ -91,6 +103,18 @@ const FilterStatus = ({
                 label: filters.camera, // pass array for rendering
                 icon: Camera,
                 onRemove: () => onUpdateFilters({ camera: [] })
+            });
+        }
+
+        // Camera exclude filter
+        if (filters.cameraExclude && filters.cameraExclude.length > 0) {
+            activeFilters.push({
+                id: 'cameraExclude',
+                type: 'cameraExclude',
+                label: filters.cameraExclude, // pass array for rendering
+                icon: Camera,
+                isExclude: true,
+                onRemove: () => onUpdateFilters({ cameraExclude: [] })
             });
         }
 
@@ -297,16 +321,17 @@ const FilterStatus = ({
                                             className="flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group"
                                         >
                                             <div className="flex items-center gap-2 flex-1 min-w-0">
-                                                {filter.id === 'camera' ? (
+                                                {filter.id === 'camera' || filter.id === 'cameraExclude' ? (
                                                     <div className="flex items-center space-x-3">
-                                                        <Camera className="w-4 h-4 text-gray-500" />
+                                                        <Camera className={`w-4 h-4 ${filter.isExclude ? 'text-red-500' : 'text-gray-500'}`} />
+                                                        {filter.isExclude && <span className="text-xs font-semibold text-red-600 dark:text-red-400">NOT</span>}
                                                         <div className="flex items-center space-x-2">
                                                             {Array.isArray(filter.label) && filter.label.map((camera) => (
                                                                 <img
                                                                     key={camera}
                                                                     src={`/assets/${camera.toLowerCase()}.webp`}
                                                                     alt={camera}
-                                                                    className="w-5 h-5"
+                                                                    className={`w-5 h-5 ${filter.isExclude ? 'opacity-50' : ''}`}
                                                                     onError={(e) => {
                                                                         e.target.style.display = 'none';
                                                                     }}
@@ -314,20 +339,20 @@ const FilterStatus = ({
                                                             ))}
                                                         </div>
                                                     </div>
-                                                ) : filter.id === 'type' ? (
+                                                ) : filter.id === 'type' || filter.id === 'typeExclude' ? (
                                                     <div className="flex items-center space-x-2">
-                                                        <Shapes className="w-4 h-4 text-gray-500" />
+                                                        <Shapes className={`w-4 h-4 ${filter.isExclude ? 'text-red-500' : 'text-gray-500'}`} />
+                                                        {filter.isExclude && <span className="text-xs font-semibold text-red-600 dark:text-red-400">NOT</span>}
                                                         <span className="text-sm text-gray-700 dark:text-gray-300 truncate">
-                                                            Update Types:
+                                                            {filter.isExclude ? 'Update Types (Excluded):' : 'Update Types:'}
                                                         </span>
                                                         <div className="flex items-center space-x-2">
-
                                                             {Array.isArray(filter.label) && filter.label.map((type) => (
                                                                 <img
                                                                     key={type}
                                                                     src={`/assets/${type.toLowerCase()}.webp`}
                                                                     alt={type}
-                                                                    className="w-5 h-5"
+                                                                    className={`w-5 h-5 ${filter.isExclude ? 'opacity-50' : ''}`}
                                                                     onError={(e) => {
                                                                         e.target.style.display = 'none';
                                                                     }}
@@ -381,7 +406,9 @@ const FilterStatus = ({
                                 onClick={() => {
                                     onUpdateFilters({
                                         type: [],
+                                        typeExclude: [],
                                         camera: [],
+                                        cameraExclude: [],
                                         countryandregion: {},
                                         author: [],
                                         poly: [],

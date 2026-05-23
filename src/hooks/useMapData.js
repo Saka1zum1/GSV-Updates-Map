@@ -71,9 +71,11 @@ export const useMapData = () => {
     const [filters, setFilters] = useState({
         report_date: [getOneMonthAgoTimestamp(), getTimestamp()],
         type: [],
+        typeExclude: [],
         poly: [],
         countryandregion: {},
         camera: [],
+        cameraExclude: [],
         author: [],
         dateRange: null,
         search: null // { address, lat, lng, radius }
@@ -233,8 +235,15 @@ export const useMapData = () => {
                     matchesType = true; // Peak mode doesn't filter by type
                 } else {
                     // Regular update reports mode
-                    matchesType = filters.type.length === 0 ||
-                        intersect(filters.type, item.types ? JSON.parse(item.types) : [])
+                    const itemTypes = item.types ? JSON.parse(item.types) : [];
+                    
+                    // If include types are specified, at least one must match
+                    const matchesInclude = filters.type.length === 0 || intersect(filters.type, itemTypes);
+                    
+                    // If exclude types are specified, none should match
+                    const matchesExclude = filters.typeExclude.length === 0 || !intersect(filters.typeExclude, itemTypes);
+                    
+                    matchesType = matchesInclude && matchesExclude;
                 }
 
                 const matchesCountry = !filters.countryandregion ||
@@ -264,10 +273,18 @@ export const useMapData = () => {
                             getTimestamp(item.report_date) <= filters.report_date[1]));
 
                 // Camera filter - only applies in spot mode
-                const matchesCamera = !mapMode.isSpot ||
+                const cameraValue = item.camera ? [item.camera.toLowerCase()] : [];
+                const matchesIncludeCamera = !mapMode.isSpot ||
                     !filters.camera ||
                     filters.camera.length === 0 ||
-                    intersect(filters.camera, item.camera ? [item.camera] : []);
+                    intersect(filters.camera, cameraValue);
+                    
+                const matchesExcludeCamera = !mapMode.isSpot ||
+                    !filters.cameraExclude ||
+                    filters.cameraExclude.length === 0 ||
+                    !intersect(filters.cameraExclude, cameraValue);
+                    
+                const matchesCamera = matchesIncludeCamera && matchesExcludeCamera;
 
                 // Author filter
                 const matchesAuthor = !filters.author ||
@@ -302,7 +319,7 @@ export const useMapData = () => {
             setError(err.message);
             console.error('Error applying filters:', err);
         }
-    }, [updateData, altitudeData, spotsData, filters.type, filters.countryandregion, filters.camera, filters.author, filters.dateRange, filters.poly, filters.search, mapMode]);
+    }, [updateData, altitudeData, spotsData, filters.type, filters.typeExclude, filters.countryandregion, filters.camera, filters.cameraExclude, filters.author, filters.dateRange, filters.poly, filters.search, mapMode]);
 
     // Load data when date range or mode changes (but not on initial load)
     useEffect(() => {
