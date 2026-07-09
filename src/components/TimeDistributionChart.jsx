@@ -181,9 +181,10 @@ const TimeDistributionChart = ({ data, onClose }) => {
                                 e.stopPropagation(); // Prevent drag from interfering
                                 onClose();
                             }}
-                            className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors touch-manipulation"
+                            className="btn-dismiss btn-dismiss--icon touch-manipulation"
+                            title="Close chart"
                         >
-                            <X size={20} className="text-gray-500 hover:text-red-500 dark:text-gray-200 dark:hover:text-red-500" />
+                            <X size={20} />
                         </button>
                     </div>
                 </div>

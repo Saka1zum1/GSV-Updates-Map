@@ -203,30 +203,23 @@ const FilterStatus = ({
     const hasActiveFilters = activeFilters.length > 0;
 
     return (
-        <div className="fixed top-12 sm:top-16 left-2 z-30" ref={dropdownRef}>
+        <div className="filter-status-widget" ref={dropdownRef}>
             {/* Main Counter Button */}
             <div className="flex items-center gap-2">
                 <button
                     onClick={() => setIsExpanded(!isExpanded)}
-                    className={`
-                        flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg shadow-lg transition-all duration-200
-                        ${hasActiveFilters
-                            ? 'bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-blue-600 dark:text-white'
-                            : 'bg-white hover:bg-gray-50 text-gray-800 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200'
-                        }
-                    `}
-            >
-
+                    className={`filter-status-btn ${hasActiveFilters ? 'filter-status-btn--active' : ''}`}
+                >
                 {hasActiveFilters && (
-                    <span className="bg-white bg-opacity-40 px-1 sm:px-1.5 py-0.5 rounded text-xs font-medium">
+                    <span className="bg-white bg-opacity-40 px-1 sm:px-1.5 py-0.5 rounded text-xs font-medium font-mono-num">
                         {activeFilters.length}
                     </span>
                 )}
-                <span className="font-medium text-sm">
+                <span className="filter-status-count">
                     {filteredData.length.toLocaleString()}
                 </span>
 
-                <span className="text-xs text-white-600 dark:text-white-400">
+                <span className="text-xs opacity-80">
                     {mapMode.isSpot ? 'spotting' : 'location'}{filteredData.length === 1 ? '' : 's'}
                 </span>
                 <svg
@@ -242,11 +235,7 @@ const FilterStatus = ({
             {!mapMode.isPeak && (
                 <button
                     onClick={() => setShowChart(!showChart)}
-                    className={`
-                        flex items-center justify-center w-9 h-9 rounded-lg shadow-lg transition-all duration-200
-                        bg-gray-600 hover:bg-green-600 text-white dark:bg-gray-700 dark:hover:bg-blue-600
-                        }
-                    `}
+                    className="filter-status-btn filter-status-btn--active w-9 h-9 !p-0 justify-center"
                     title="Toggle time distribution chart"
                 >
                     <BarChart2 size={18} />
@@ -264,17 +253,17 @@ const FilterStatus = ({
 
             {/* Dropdown Menu */}
             {isExpanded && (
-                <div className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 overflow-hidden backdrop-blur-sm">
-                    <div className="p-3 border-b border-gray-200 dark:border-gray-600 bg-gray-50 dark:bg-gray-700">
-                        <h3 className="font-medium text-gray-900 dark:text-gray-100 text-sm">
+                <div className="filter-status-dropdown">
+                    <div className="filter-status-dropdown-header">
+                        <h3 className="font-medium text-sm font-display">
                             Filter Status
                         </h3>
-                        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 font-mono-num">
                             {filteredData.length.toLocaleString()} items displayed
                         </p>
                     </div>
 
-                    <div className="max-h-64 overflow-y-auto">
+                    <div className="max-h-64 custom-scroll">
                         {activeFilters.length === 0 ? (
                             <div className="p-4 text-center text-gray-500 dark:text-gray-400 text-sm">
                                 <Shapes className="w-8 h-8 mx-auto mb-2 opacity-50" />
@@ -290,8 +279,7 @@ const FilterStatus = ({
                                         return (
                                             <div
                                                 key={filter.id}
-                                                className={`flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group ${filter.type === 'region' ? 'ml-4' : ''
-                                                    }`}
+                                                className={`filter-tag group ${filter.type === 'region' ? 'ml-4' : ''}`}
                                             >
                                                 <div className="flex items-center gap-2 flex-1 min-w-0">
                                                     <IconComponent className="w-4 h-4 text-gray-500" />
@@ -305,7 +293,7 @@ const FilterStatus = ({
                                                         e.stopPropagation();
                                                         filter.onRemove();
                                                     }}
-                                                    className="flex-shrink-0 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-all duration-200"
+                                                    className="btn-dismiss btn-dismiss--icon-sm btn-dismiss--fade flex-shrink-0"
                                                     title={`Remove ${filter.type} filter`}
                                                 >
                                                     <X className="w-3 h-3" />
@@ -318,7 +306,7 @@ const FilterStatus = ({
                                     return (
                                         <div
                                             key={filter.id}
-                                            className="flex items-center justify-between p-2 rounded-md hover:bg-gray-50 dark:hover:bg-gray-700 group"
+                                            className="filter-tag group"
                                         >
                                             <div className="flex items-center gap-2 flex-1 min-w-0">
                                                 {filter.id === 'camera' || filter.id === 'cameraExclude' ? (
@@ -388,7 +376,7 @@ const FilterStatus = ({
                                                     e.stopPropagation();
                                                     filter.onRemove();
                                                 }}
-                                                className="flex-shrink-0 p-1 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-all duration-200"
+                                                className="btn-dismiss btn-dismiss--icon-sm btn-dismiss--fade flex-shrink-0"
                                                 title="Remove filter"
                                             >
                                                 <X className="w-3 h-3" />
@@ -421,7 +409,7 @@ const FilterStatus = ({
                                         onSearchResultRemove();
                                     }
                                 }}
-                                className="w-full px-3 py-2 text-xs font-medium text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-md transition-colors"
+                                className="filter-clear-btn"
                             >
                                 Clear All Filters
                             </button>

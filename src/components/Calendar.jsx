@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import AirDatepicker from 'air-datepicker';
 import 'air-datepicker/air-datepicker.css';
-import '../styles/calendar-dark-mode.css';
 import { specialDates, isDateInRange, getFlagEmoji } from '../utils/constants.js';
 
 const CalendarWidget = ({
@@ -154,28 +153,25 @@ const CalendarWidget = ({
     };
 
     return (
-        <div className="fixed top-20 sm:top-22 right-2 sm:right-4 z-[1000] bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 
-                        w-60 sm:w-70 md:w-auto max-w-[calc(100vw-1rem)] max-h-[calc(100vh-5rem)] overflow-hidden">
+        <div className="calendar-widget">
             {/* Calendar controls */}
-            <div className="flex bg-gray-50 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
+            <div className="calendar-controls">
                 <button
                     onClick={onToggleMode}
-                    className="flex-1 px-2 py-2 text-xs font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700
-                             transition-colors duration-200 border-r border-gray-200 dark:border-gray-700"
+                    className="calendar-control-btn"
                 >
                     {isRangeMode ? 'Range' : 'Single'}
                 </button>
                 <button
                     onClick={onToggleView}
-                    className="flex-1 px-2 py-2 text-xs font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700
-                             transition-colors duration-200"
+                    className="calendar-control-btn"
                 >
                     {getViewButtonText()}
                 </button>
             </div>
 
             {/* Calendar */}
-            <div className="calendar-container overflow-hidden">
+            <div className="calendar-container overflow-hidden custom-scroll">
                 <div ref={calendarRef}></div>
             </div>
         </div>

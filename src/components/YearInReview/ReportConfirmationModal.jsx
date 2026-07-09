@@ -21,12 +21,13 @@ const ReportConfirmationModal = ({
 
     return (
         <div className="fixed inset-0 z-[9998] flex items-center justify-center bg-black/60 backdrop-blur-md">
-            <div className="bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 rounded-2xl p-8 max-w-md mx-4 shadow-2xl border border-white/10">
+            <div className="relative bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 rounded-2xl p-8 max-w-md mx-4 shadow-2xl border border-white/10">
                 {/* Close button */}
                 <button
                     onClick={onClose}
                     disabled={isLoading}
-                    className="absolute top-4 right-4 p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all disabled:opacity-50"
+                    className="btn-dismiss btn-dismiss--round absolute top-4 right-4 disabled:opacity-50"
+                    title="Close"
                 >
                     <X size={20} />
                 </button>
@@ -66,7 +67,7 @@ const ReportConfirmationModal = ({
                     <button
                         onClick={onClose}
                         disabled={isLoading}
-                        className="flex-1 px-4 py-3 rounded-lg bg-white/10 hover:bg-white/20 text-white font-medium transition-all disabled:opacity-50"
+                        className="btn-dismiss btn-dismiss--block flex-1 disabled:opacity-50"
                     >
                         Cancel
                     </button>

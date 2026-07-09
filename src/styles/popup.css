@@ -20,9 +20,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    border-radius: 50%;
+    border-radius: 0.375rem;
     width: 24px;
     height: 24px;
     display: flex;
@@ -32,11 +30,21 @@
     line-height: 1;
     text-decoration: none;
     z-index: 10;
-    transition: background-color 0.2s ease;
+    border: 1px solid transparent;
+    color: var(--color-text, #0f172a);
+    background-color: transparent;
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .custom-popup .leaflet-popup-close-button:hover {
-    background: rgba(0, 0, 0, 0.8);
+    color: var(--color-danger, #b91c1c);
+    background-color: var(--color-danger-soft, #fee2e2);
+    border-color: var(--color-danger, #b91c1c);
+}
+
+.custom-popup .leaflet-popup-close-button span,
+.custom-popup .leaflet-popup-close-button {
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
 
 /* Dark mode support */

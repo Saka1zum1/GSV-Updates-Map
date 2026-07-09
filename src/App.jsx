@@ -11,7 +11,7 @@ import ReportConfirmationModal from './components/YearInReview/ReportConfirmatio
 import { useMapData, useCalendar } from './hooks/useMapData.js';
 import { colorOptions, DEVELOPER_AUTHOR_IDS} from './utils/constants.js';
 import { reverseGeocode } from './utils/api.js';
-import { X } from 'lucide-react';
+import { X, AlertCircle } from 'lucide-react';
 import {
     parseAccessTokenFromHash,
     clearAccessTokenFromUrl,
@@ -148,7 +148,7 @@ function App() {
                 setShowReportConfirmation(false);
                 setShowYearInReview(true);
             } else {
-                setYearInReviewError(`You need at least ${MIN_DATA_THRESHOLD} contributions to view your 2025 Wrapped. Keep exploring! 🌍`);
+                setYearInReviewError(`You need at least ${MIN_DATA_THRESHOLD} contributions to view your 2025 Wrapped. Keep exploring!`);
             }
         } catch (err) {
             console.error('Report generation error:', err);
@@ -568,9 +568,7 @@ function App() {
     }, [calendarState.currentView, updateCalendarState]);
 
     return (
-        <div className={
-            'relative w-screen h-full font-flags bg-gray-100 dark:bg-gray-900'
-        }>
+        <div className="app-root">
             {/* Loading Overlay - Non-blocking */}
             {loading && (
                 <FullScreenSpinner
@@ -583,14 +581,15 @@ function App() {
 
             {/* Error Notification */}
             {error && errorVisible && (
-                <div className="absolute top-20 left-1/2 transform -translate-x-1/2 z-50 bg-red-100 dark:bg-red-900 border border-red-400 dark:border-red-600 text-red-700 dark:text-red-300 px-4 py-3 rounded shadow-lg flex items-center gap-3">
+                <div className="error-toast">
+                    <AlertCircle className="w-5 h-5 flex-shrink-0" />
                     <p className="flex-1">Error: {error}</p>
                     <button
                         onClick={() => setErrorVisible(false)}
-                        className="rounded-full hover:bg-red-200 dark:hover:bg-red-800 text-red-700 dark:text-red-300"
+                        className="btn-dismiss btn-dismiss--icon rounded-full"
                         title="Close"
                     >
-                        <X className="absolute w-4 h-4 top-1 right-1" />
+                        <X className="w-4 h-4" />
                     </button>
                 </div>
             )}
@@ -625,7 +624,7 @@ function App() {
             />
 
             {/* Map Container */}
-            <div className="h-screen pt-12 sm:pt-16">
+            <div className="app-map-area">
                 <MapContainer
                     data={filteredData}
                     filteredData={filteredData}
@@ -712,18 +711,22 @@ function App() {
 
             {/* Year in Review Error Notification */}
             {yearInReviewError && (
-                <div className="fixed inset-0 z-[9998] flex items-center justify-center bg-black/50 backdrop-blur-sm">
-                    <div className="bg-white dark:bg-gray-800 rounded-2xl p-8 max-w-md mx-4 text-center shadow-2xl">
-                        <div className="text-5xl mb-4">😢</div>
-                        <h2 className="text-xl font-bold text-gray-800 dark:text-gray-200 mb-3">
+                <div className="overlay-backdrop">
+                    <div className="modal-card">
+                        <div className="flex justify-center mb-4">
+                            <div className="w-16 h-16 rounded-full bg-red-100 dark:bg-red-900/40 flex items-center justify-center">
+                                <AlertCircle className="w-8 h-8 text-red-500 dark:text-red-400" />
+                            </div>
+                        </div>
+                        <h2 className="modal-card-title">
                             2025 Wrapped
                         </h2>
-                        <p className="text-gray-600 dark:text-gray-400 mb-6">
+                        <p className="modal-card-text">
                             {yearInReviewError}
                         </p>
                         <button
                             onClick={handleCloseYearInReview}
-                            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white rounded-lg transition-all"
+                            className="btn-primary"
                         >
                             Got it
                         </button>

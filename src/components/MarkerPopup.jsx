@@ -60,6 +60,8 @@ const MarkerPopup = ({ item, showLink = false, resetKey }) => {
                 {shouldLoadImage && !imageError ? (
                     <img
                         src={imgUrl}
+                        crossOrigin="anonymous"
+                        referrerPolicy="origin"
                         alt="Street View"
                         className="w-full h-full object-cover transition-opacity duration-300"
                         onLoad={handleImageLoadSuccess}

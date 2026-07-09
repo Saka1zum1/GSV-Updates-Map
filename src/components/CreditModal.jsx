@@ -46,9 +46,10 @@ const CreditModal = ({ isOpen, onClose }) => {
                     </h2>
                     <button
                         onClick={onClose}
-                        className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
+                        className="btn-dismiss btn-dismiss--icon"
+                        title="Close"
                     >
-                        <X size={24} className="text-gray-500 dark:text-gray-400" />
+                        <X size={24} />
                     </button>
                 </div>
 

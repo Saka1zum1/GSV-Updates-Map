@@ -113,7 +113,7 @@ const SearchResultMarker = forwardRef(({
                         </svg>
                         Search Result
                     </h3>
-                    <button class="search-result-close p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded transition-colors">
+                    <button class="search-result-close">
                         <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                         </svg>

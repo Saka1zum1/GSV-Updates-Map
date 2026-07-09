@@ -207,7 +207,8 @@ const YearInReviewModal = ({ report, user, onClose, isOpen, musicUrl, countries,
             {/* Close button */}
             <button
                 onClick={onClose}
-                className="absolute top-4 right-4 z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-all text-white"
+                className="btn-dismiss btn-dismiss--round absolute top-4 right-4 z-50"
+                title="Close"
             >
                 <X size={24} />
             </button>

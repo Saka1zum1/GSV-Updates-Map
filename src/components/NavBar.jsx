@@ -57,14 +57,7 @@ const TopNavBar = ({
     const NavButton = ({ icon: Icon, label, isActive, onClick, className = "" }) => (
         <button
             onClick={onClick}
-            className={`
-                flex items-center space-x-2 px-2 lg:px-3 py-2 rounded-lg transition-all duration-200 text-sm font-medium
-                ${isActive
-                    ? 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border border-blue-200 dark:border-blue-700'
-                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border border-transparent'
-                }
-                ${className}
-            `}
+            className={`nav-btn ${isActive ? 'nav-btn--active' : ''} ${className}`}
             title={label}
         >
             <Icon size={20} />
@@ -79,12 +72,12 @@ const TopNavBar = ({
     ];
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-[1100] bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
-            <div className="flex items-center justify-between px-2 sm:px-4 py-2 sm:py-3 max-w-full min-h-[3rem] sm:min-h-[4rem]">
+        <div className="nav-bar">
+            <div className="nav-bar-inner">
                 {/* Left Section - Logo & Title */}
                 <div className="flex items-center min-w-0 flex-shrink-0">
                     <img className="h-8 w-8 sm:h-10 sm:w-10 mr-2 flex-shrink-0" src="/assets/favicon.png" alt="Logo" />
-                    <h1 className="text-sm sm:text-lg font-semibold text-gray-800 dark:text-gray-100 truncate">
+                    <h1 className="nav-title">
                         <span className="sm:inline">VirtualStreets Updates Map</span>
                     </h1>
                 </div>
@@ -94,10 +87,7 @@ const TopNavBar = ({
                     {/* Calendar Toggle - Mobile only */}
                     <button
                         onClick={onToggleCalendar}
-                        className={`flex items-center justify-center w-8 h-8 rounded-lg transition-colors ${calendarVisible
-                            ? 'bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400'
-                            : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
-                            }`}
+                        className={`nav-icon-btn ${calendarVisible ? 'nav-icon-btn--active' : ''}`}
                         title="Toggle Calendar"
                     >
                         <Calendar size={18} />
@@ -120,7 +110,7 @@ const TopNavBar = ({
                         onClick={() => {
                             onToggleFilterSidebar();
                         }}
-                        className='flex items-center justify-center w-8 h-8 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        className="nav-icon-btn"
                         title="Open Filter"
                     >
                         <Filter size={18} />
@@ -129,8 +119,7 @@ const TopNavBar = ({
                     {/* Theme Toggle */}
                     <button
                         onClick={onToggleTheme}
-                        className="flex items-center justify-center w-8 h-8 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
-                                 rounded-lg transition-colors"
+                        className="nav-icon-btn"
                         title="Toggle Theme"
                     >
                         {isDarkTheme ? <Sun size={18} /> : <Moon size={18} />}
@@ -150,10 +139,7 @@ const TopNavBar = ({
                     {/* Calendar Toggle */}
                     <button
                         onClick={onToggleCalendar}
-                        className={`flex items-center justify-center w-8 h-8 rounded-lg transition-colors ${calendarVisible
-                            ? 'bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400'
-                            : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
-                            }`}
+                        className={`nav-icon-btn ${calendarVisible ? 'nav-icon-btn--active' : ''}`}
                         title="Toggle Calendar"
                     >
                         <Calendar size={18} />
@@ -163,7 +149,7 @@ const TopNavBar = ({
                         onClick={() => {
                             onToggleFilterSidebar();
                         }}
-                        className='flex items-center justify-center w-8 h-8 rounded-lg transition-colors text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        className="nav-icon-btn"
                         title="Open Filter"
                     >
                         <Filter size={18} />
@@ -172,8 +158,7 @@ const TopNavBar = ({
                     {/* Theme Toggle */}
                     <button
                         onClick={onToggleTheme}
-                        className="flex items-center justify-center w-8 h-8 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 
-                                 rounded-lg transition-colors"
+                        className="nav-icon-btn"
                         title="Toggle Theme"
                     >
                         {isDarkTheme ? <Sun size={18} /> : <Moon size={18} />}
@@ -252,6 +237,12 @@ const TopNavBar = ({
                             onClick={onToggleFilterSidebar}
                         />
                         <NavButton
+                            icon={Calendar}
+                            label="Calendar"
+                            isActive={calendarVisible}
+                            onClick={onToggleCalendar}
+                        />
+                        <NavButton
                             icon={Camera}
                             label="Spottings"
                             isActive={isSpot}
@@ -319,7 +310,7 @@ const TopNavBar = ({
                                 step={0.01}
                                 value={gsvOpacity}
                                 onChange={e => onOpacityChange(Number(e.target.value))}
-                                className="w-16 xl:w-20 h-2 accent-blue-500"
+                                className="w-16 xl:w-20 range-slider"
                             />
                             <span className="text-xs w-8 text-center text-gray-700 dark:text-gray-200 flex-shrink-0">{Math.round(gsvOpacity * 100)}%</span>
                         </div>
@@ -329,25 +320,16 @@ const TopNavBar = ({
 
             {/* Mobile Menu */}
             {showMobileMenu && (
-                <div
-                    className="xl:hidden bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 relative z-[1100]"
-                    style={{
-                        maxHeight: 'calc(100vh - 3.5rem)',
-                        overflowY: 'auto',
-                        overscrollBehavior: 'contain',
-                        WebkitOverflowScrolling: 'touch',
-                    }}
-                >
+                <div className="nav-mobile-menu">
                     <div className="px-3 py-4 space-y-3">
                         {/* View Controls */}
-                        <div className="grid grid-cols-2 gap-2">
+                        <div className="mobile-menu-grid">
                             <button
                                 onClick={() => {
                                     setShowSearchModal(true);
                                     setShowMobileMenu(false);
                                 }}
-                                className="flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium
-                                           text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600"
+                                className="mobile-menu-btn"
                             >
                                 <Search size={18} />
                                 <span>Search</span>
@@ -358,8 +340,7 @@ const TopNavBar = ({
                                     onToggleFilterSidebar();
                                     setShowMobileMenu(false);
                                 }}
-                                className="flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium
-                                           text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600"
+                                className="mobile-menu-btn"
                             >
                                 <Filter size={18} />
                                 <span>Filter</span>
@@ -370,9 +351,9 @@ const TopNavBar = ({
                                     onToggleSpot();
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${isSpot
-                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                className={`mobile-menu-btn ${isSpot
+                                    ? 'mobile-menu-btn--active'
+                                    : ''
                                     }`}
                             >
                                 <Camera size={18} />
@@ -384,9 +365,9 @@ const TopNavBar = ({
                                     onTogglePeak();
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${isPeak
-                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                className={`mobile-menu-btn ${isPeak
+                                    ? 'mobile-menu-btn--active'
+                                    : ''
                                     }`}
                             >
                                 <Mountain size={18} />
@@ -398,9 +379,9 @@ const TopNavBar = ({
                                     onToggleHeatmap();
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${isHeatmap
-                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                className={`mobile-menu-btn ${isHeatmap
+                                    ? 'mobile-menu-btn--active'
+                                    : ''
                                     }`}
                             >
                                 <Flame size={18} />
@@ -412,9 +393,9 @@ const TopNavBar = ({
                                     onToggleCluster();
                                     setShowMobileMenu(false);
                                 }}
-                                className={`flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium border ${isCluster
-                                    ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border-blue-200 dark:border-blue-700'
-                                    : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border-gray-200 dark:border-gray-600'
+                                className={`mobile-menu-btn ${isCluster
+                                    ? 'mobile-menu-btn--active'
+                                    : ''
                                     }`}
                             >
                                 <Layers size={18} />
@@ -426,8 +407,7 @@ const TopNavBar = ({
                                     onToggleColor();
                                     setShowMobileMenu(false);
                                 }}
-                                className="flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium
-                                           text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600"
+                                className="mobile-menu-btn"
                             >
                                 <div
                                     className="w-4 h-4 rounded-full border border-gray-300 dark:border-gray-600"
@@ -441,8 +421,7 @@ const TopNavBar = ({
                                     setShowCreditModal(true);
                                     setShowMobileMenu(false);
                                 }}
-                                className="flex items-center justify-center space-x-2 px-3 py-3 rounded-lg transition-colors text-sm font-medium
-                                           text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600"
+                                className="mobile-menu-btn"
                             >
                                 <Info size={18} />
                                 <span>Credits</span>
@@ -498,7 +477,7 @@ const TopNavBar = ({
                                     step={0.01}
                                     value={gsvOpacity}
                                     onChange={e => onOpacityChange(Number(e.target.value))}
-                                    className="flex-1 h-2 accent-blue-500"
+                                    className="flex-1 range-slider"
                                 />
                                 <span className="text-xs w-10 text-center text-gray-700 dark:text-gray-200">{Math.round(gsvOpacity * 100)}%</span>
                             </div>
@@ -511,7 +490,7 @@ const TopNavBar = ({
             {showExportMenu && (
                 <div className="fixed top-[calc(3rem+1rem)] right-4 z-[1200] hidden xl:block">
                     <div
-                        className="bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 min-w-48 mr-[5.5rem]"
+                        className="nav-dropdown mr-[5.5rem]"
                         onClick={(e) => e.stopPropagation()}
                     >
                         <div className="py-1">
@@ -520,7 +499,7 @@ const TopNavBar = ({
                                     onCopyJSON();
                                     setShowExportMenu(false);
                                 }}
-                                className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
+                                className="nav-dropdown-item"
                             >
                                 <Copy size={18} />
                                 <span>Copy JSON to Clipboard</span>
@@ -530,7 +509,7 @@ const TopNavBar = ({
                                     onDownloadJSON();
                                     setShowExportMenu(false);
                                 }}
-                                className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
+                                className="nav-dropdown-item"
                             >
                                 <Database size={18} />
                                 <span>Download JSON File</span>
@@ -540,7 +519,7 @@ const TopNavBar = ({
                                     onDownloadCSV();
                                     setShowExportMenu(false);
                                 }}
-                                className="w-full text-left px-4 py-2 hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center space-x-3 text-gray-700 dark:text-gray-200"
+                                className="nav-dropdown-item"
                             >
                                 <FileText size={18} />
                                 <span>Download CSV File</span>

@@ -47,14 +47,14 @@ export const FullScreenSpinner = ({
     color = 'blue'
 }) => {
     return (
-        <div className="fixed w-screen h-screen flex flex-col items-center justify-center bg-white/50 dark:bg-gray-900/70 backdrop-blur-sm z-40">
-            <div className="bg-white dark:bg-gray-800 rounded-xl px-8 py-6 shadow-lg border border-gray-200 dark:border-gray-700 flex flex-col items-center">
+        <div className="spinner-overlay">
+            <div className="spinner-card">
                 <Spinner size="large" color={color} />
-                <div className="text-xl text-gray-600 dark:text-gray-300 animate-pulse mt-4">
+                <div className="spinner-text">
                     {title}
                 </div>
                 {subtitle && (
-                    <div className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+                    <div className="spinner-subtext">
                         {subtitle}
                     </div>
                 )}

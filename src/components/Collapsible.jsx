@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-const Collapsible = ({ 
-    isOpen, 
-    children, 
+const Collapsible = ({
+    isOpen,
+    children,
     className = "",
     maxHeight = 'auto',
     minHeight = '0px'
@@ -11,25 +11,20 @@ const Collapsible = ({
     const contentRef = useRef(null);
     const resizeObserverRef = useRef(null);
 
-    // Calculate content height
+    const isCapped = maxHeight && maxHeight !== 'auto';
+
     useEffect(() => {
         if (!contentRef.current) return;
 
         const updateHeight = () => {
             if (contentRef.current) {
-                const scrollHeight = contentRef.current.scrollHeight;
-                setHeight(`${scrollHeight}px`);
+                setHeight(`${contentRef.current.scrollHeight}px`);
             }
         };
 
-        // Initial calculation
         updateHeight();
 
-        // Setup resize observer
-        resizeObserverRef.current = new ResizeObserver(() => {
-            updateHeight();
-        });
-
+        resizeObserverRef.current = new ResizeObserver(updateHeight);
         resizeObserverRef.current.observe(contentRef.current);
 
         return () => {
@@ -40,20 +35,22 @@ const Collapsible = ({
         };
     }, [children]);
 
-    const computedHeight = isOpen ? 
-        (maxHeight === 'auto' ? height : `min(${height}, ${maxHeight})`) : 
-        minHeight;
+    const computedHeight = isOpen
+        ? (isCapped ? `min(${height}, ${maxHeight})` : height)
+        : minHeight;
+
+    const isScrollable = isOpen && isCapped;
 
     const containerStyle = {
         height: computedHeight,
-        overflow: isOpen ? 'auto' : 'hidden',
+        overflow: isScrollable ? 'auto' : 'hidden',
         transition: 'height 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
     };
 
     return (
         <div
             style={containerStyle}
-            className={`${className} transition-all duration-300`}
+            className={`${className} transition-all duration-300${isScrollable ? ' custom-scroll filter-section-scroll' : ''}`}
             data-scope="collapsible"
             data-state={isOpen ? 'open' : 'closed'}
         >

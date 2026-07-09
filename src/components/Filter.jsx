@@ -14,8 +14,17 @@ import {
 import { updateTypes, allowedTypesInSpot } from '../utils/constants.js';
 import AccordionSection from './AccordionSection.jsx';
 import AccordionContainer from './AccordionContainer.jsx';
-import '../styles/collapsible.css';
-import { use } from 'react';
+
+const CountryFlag = ({ countryCode }) => {
+    if (!countryCode) {
+        return <Globe size={16} className="filter-input-icon flex-shrink-0" />;
+    }
+    const flagEmoji = countryCode.toUpperCase()
+        .split('')
+        .map(char => String.fromCodePoint(0x1F1E6 - 65 + char.charCodeAt(0)))
+        .join('');
+    return <span className="font-flags text-base flex-shrink-0">{flagEmoji}</span>;
+};
 
 const FilterPanel = ({
     filters,
@@ -115,14 +124,6 @@ const FilterPanel = ({
             : [...currentAuthors, author];
 
         onUpdateFilters({ author: newAuthors });
-    };
-
-    const getFlagEmoji = (countryCode) => {
-        return countryCode ?
-            countryCode.toUpperCase()
-                .split('')
-                .map(char => String.fromCodePoint(0x1F1E6 - 65 + char.charCodeAt(0)))
-                .join('') : '❌';
     };
 
     const getCurrentMonthDate = () => {
@@ -321,40 +322,33 @@ const FilterPanel = ({
         <>
 
             {/* Filter Sidebar */}
-            <div className={`
-                fixed top-12 sm:top-16 left-0 h-[calc(100vh-3rem)] sm:h-[calc(100vh-4rem)] 
-                w-80 sm:w-96 max-w-[calc(100vw-1rem)] bg-white dark:bg-gray-900 shadow-2xl z-[1000]
-                transform transition-transform duration-300 ease-in-out border-r border-gray-200 dark:border-gray-700
-                flex flex-col
-                ${(!isOpen && !isPinned) ? '-translate-x-full' : 'translate-x-0'}
-            `}>
+            <div className={`filter-sidebar ${(!isOpen && !isPinned) ? 'filter-sidebar--closed' : 'filter-sidebar--open'}`}>
                 {/* Header */}
-                <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700 flex-shrink-0 bg-white dark:bg-gray-900">
-                    <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-100">Filters</h2>
+                <div className="filter-sidebar-header">
+                    <h2 className="filter-sidebar-title">Filters</h2>
                     <div className="flex items-center space-x-2">
                         <button
-                            onClick={() => {
-                                setIsPinned(!isPinned);
-                            }}
-                            className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
+                            onClick={() => setIsPinned(!isPinned)}
+                            className="btn-icon"
                             title={isPinned ? "Unpin filter panel" : "Pin filter panel"}
                         >
                             {isPinned ?
-                                <PinIcon size={20} className="text-green-400 dark:text-blue-400" /> :
-                                <PinOffIcon size={20} className="text-gray-500 dark:text-gray-400" />
+                                <PinIcon size={20} className="text-green-500 dark:text-blue-400" /> :
+                                <PinOffIcon size={20} />
                             }
                         </button>
                         <button
-                            onClick={() => {setIsOpen(false); setIsPinned(false)} }
-                            className="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
+                            onClick={() => { setIsOpen(false); setIsPinned(false); }}
+                            className="btn-dismiss btn-dismiss--icon"
+                            title="Close filters"
                         >
-                            <X size={20} className="text-gray-500 dark:text-gray-400" />
+                            <X size={20} />
                         </button>
                     </div>
                 </div>
 
-                {/* Scrollable Content */}
-                <div className="flex-1 overflow-hidden">
+                {/* Filter sections — each expanded section gets at most one scrollbar */}
+                <div className="filter-sidebar-body">
                     <AccordionContainer className="p-3 sm:p-4">
                         {/* Update Types Filter */}
                         {!isSpot && (
@@ -364,6 +358,8 @@ const FilterPanel = ({
                                 badge={(filters.type.length || 0) + (filters.typeExclude.length || 0) || null}
                                 isExpanded={expandedSections.types}
                                 onToggle={() => toggleSection('types')}
+                                canReset={(filters.type.length > 0) || (filters.typeExclude.length > 0)}
+                                onReset={() => onUpdateFilters({ type: [], typeExclude: [] })}
                             >
                                 <div className="p-3 sm:p-4">
                                     <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
@@ -375,12 +371,9 @@ const FilterPanel = ({
                                                 <div key={type} className="relative group">
                                                     <button
                                                         onClick={() => handleTypeToggle(type, false)}
-                                                        className={`w-full p-2 rounded-lg transition-colors border relative ${
-                                                            isIncluded
-                                                                ? 'bg-blue-50 dark:bg-blue-900 border-blue-200 dark:border-blue-700'
-                                                                : isExcluded
-                                                                    ? 'bg-red-50 dark:bg-red-900 border-red-200 dark:border-red-700'
-                                                                    : 'bg-white dark:bg-gray-700 border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+                                                        className={`filter-chip-btn ${
+                                                            isIncluded ? 'filter-chip-btn--include' :
+                                                            isExcluded ? 'filter-chip-btn--exclude' : ''
                                                         }`}
                                                         title={`${type} (${typeItemCounts.typeCounts[type] || 0} items) - Click to toggle include/exclude`}
                                                     >
@@ -392,7 +385,7 @@ const FilterPanel = ({
                                                                 e.target.style.display = 'none';
                                                             }}
                                                         />
-                                                        <span className="absolute -top-1 -right-1 bg-yellow-400 dark:bg-orange-400 text-grey dark:text-white text-xxs rounded-full w-5 h-5 flex items-center justify-center">
+                                                        <span className={`filter-count-badge${!(typeItemCounts.typeCounts[type]) ? ' filter-count-badge--empty' : ''}`}>
                                                             {typeItemCounts.typeCounts[type] || 0}
                                                         </span>
                                                         {isExcluded && (
@@ -417,6 +410,8 @@ const FilterPanel = ({
                                 badge={(filters.camera?.length || 0) + (filters.cameraExclude?.length || 0) || null}
                                 isExpanded={expandedSections.camera}
                                 onToggle={() => toggleSection('camera')}
+                                canReset={(filters.camera?.length > 0) || (filters.cameraExclude?.length > 0)}
+                                onReset={() => onUpdateFilters({ camera: [], cameraExclude: [] })}
                             >
                                 <div className="p-3 sm:p-4">
                                     <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
@@ -429,12 +424,9 @@ const FilterPanel = ({
                                                 <div key={camera} className="relative group">
                                                     <button
                                                         onClick={() => handleCameraToggle(camera, false)}
-                                                        className={`w-full p-2 rounded-lg transition-colors border relative ${
-                                                            isIncluded
-                                                                ? 'bg-blue-50 dark:bg-blue-900 border-blue-200 dark:border-blue-700'
-                                                                : isExcluded
-                                                                    ? 'bg-red-50 dark:bg-red-900 border-red-200 dark:border-red-700'
-                                                                    : 'bg-white dark:bg-gray-700 border-gray-200 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600'
+                                                        className={`filter-chip-btn ${
+                                                            isIncluded ? 'filter-chip-btn--include' :
+                                                            isExcluded ? 'filter-chip-btn--exclude' : ''
                                                         }`}
                                                         title={`${camera} (${typeItemCounts.cameraCounts[camera] || 0} items) - Click to toggle include/exclude`}
                                                     >
@@ -446,7 +438,7 @@ const FilterPanel = ({
                                                                 e.target.style.display = 'none';
                                                             }}
                                                         />
-                                                        <span className="absolute -top-1 -right-1 bg-yellow-400 dark:bg-orange-400 text-grey dark:text-white text-xxs rounded-full w-5 h-5 flex items-center justify-center">
+                                                        <span className={`filter-count-badge${!(typeItemCounts.cameraCounts[camera]) ? ' filter-count-badge--empty' : ''}`}>
                                                             {typeItemCounts.cameraCounts[camera] || 0}
                                                         </span>
                                                         {isExcluded && (
@@ -471,17 +463,17 @@ const FilterPanel = ({
                                 badge={filters.dateRange ? '1' : null}
                                 isExpanded={expandedSections.date}
                                 onToggle={() => toggleSection('date')}
+                                canReset={!!filters.dateRange}
+                                onReset={() => onUpdateFilters({ dateRange: null })}
                             >
                                 <div className="p-4">
                                     <div className="space-y-3">
                                         <div>
-                                            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">From Year/Month</label>
+                                            <label className="filter-label">From Year/Month</label>
                                             <input
                                                 type="month"
                                                 value={filters.dateRange ? filters.dateRange.fromDate : '2023-01'}
-                                                className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm
-                                                           bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
-                                                           focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                                className="filter-input"
                                                 onChange={(e) => {
                                                     if (!e.target.value) {
                                                         onUpdateFilters({ dateRange: null });
@@ -499,13 +491,11 @@ const FilterPanel = ({
                                             />
                                         </div>
                                         <div>
-                                            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">To Year/Month</label>
+                                            <label className="filter-label">To Year/Month</label>
                                             <input
                                                 type="month"
                                                 value={filters.dateRange ? filters.dateRange.toDate : getCurrentMonthDate()}
-                                                className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm
-                                                           bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
-                                                           focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                                className="filter-input"
                                                 onChange={(e) => {
                                                     if (!e.target.value) {
                                                         onUpdateFilters({ dateRange: null });
@@ -524,20 +514,9 @@ const FilterPanel = ({
                                         </div>
                                         {filters.dateRange && (
                                             <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-600">
-                                                <div className="mb-2 px-3 py-2 bg-blue-50 dark:bg-blue-900 rounded text-xs">
-                                                    <span className="text-blue-700 dark:text-blue-200">
-                                                        Selected: {filters.dateRange.fromDate} to {filters.dateRange.toDate}
-                                                    </span>
+                                                <div className="filter-selection-summary">
+                                                    Selected: {filters.dateRange.fromDate} to {filters.dateRange.toDate}
                                                 </div>
-                                                <button
-                                                    onClick={() => {
-                                                        onUpdateFilters({ dateRange: null });
-                                                    }}
-                                                    className="w-full px-3 py-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-900 rounded-lg 
-                                                               transition-colors text-sm font-medium"
-                                                >
-                                                    Clear Date Range
-                                                </button>
                                             </div>
                                         )}
                                     </div>
@@ -553,25 +532,24 @@ const FilterPanel = ({
                                 badge={Object.keys(filters.countryandregion || {}).length + Object.values(filters.countryandregion || {}).reduce((total, regions) => total + regions.length, 0) || null}
                                 isExpanded={expandedSections.location}
                                 onToggle={() => toggleSection('location')}
+                                canReset={Object.keys(filters.countryandregion || {}).length > 0}
+                                onReset={() => onUpdateFilters({ countryandregion: {} })}
                             >
-                                <div className="p-4">
-                                    <div className="mb-3">
+                                <div className="filter-section-body">
+                                    <div className="filter-section-search-sticky">
                                         <div className="relative">
-                                            <Search size={16} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500" />
+                                            <Search size={16} className="filter-input-icon absolute left-3 top-1/2 transform -translate-y-1/2" />
                                             <input
                                                 type="text"
                                                 placeholder="Search countries and regions..."
                                                 value={searchQueries.country}
                                                 onChange={(e) => setSearchQueries(prev => ({ ...prev, country: e.target.value }))}
-                                                className="w-full pl-10 pr-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm
-                                                           bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
-                                                           placeholder-gray-500 dark:placeholder-gray-400
-                                                           focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                                className="filter-input filter-input--search"
                                             />
                                         </div>
                                     </div>
 
-                                    <div className="max-h-64 overflow-y-auto space-y-1">
+                                    <div className="filter-section-list">
                                         {locationOptions.map((option) => (
                                             <button
                                                 key={`${option.type}-${option.countryCode}-${option.code}`}
@@ -579,10 +557,8 @@ const FilterPanel = ({
                                                     if (option.type === 'country') {
                                                         const newCountryAndRegion = { ...filters.countryandregion };
                                                         if (option.isSelected) {
-                                                            // 移除整个国家及其地区
                                                             delete newCountryAndRegion[option.code];
                                                         } else {
-                                                            // 添加国家，初始化为空地区数组
                                                             newCountryAndRegion[option.code] = [];
                                                         }
                                                         onUpdateFilters({ countryandregion: newCountryAndRegion });
@@ -590,17 +566,13 @@ const FilterPanel = ({
                                                         const newCountryAndRegion = { ...filters.countryandregion };
                                                         const countryCode = option.countryCode;
 
-                                                        // 确保国家存在
                                                         if (!newCountryAndRegion[countryCode]) {
                                                             newCountryAndRegion[countryCode] = [];
                                                         }
 
                                                         if (option.isSelected) {
-                                                            // 移除地区
                                                             newCountryAndRegion[countryCode] = newCountryAndRegion[countryCode].filter(r => r !== option.code);
-                                                            // 如果地区数组为空，保留国家（只选择国家，不选择地区）
                                                         } else {
-                                                            // 添加地区
                                                             if (!newCountryAndRegion[countryCode].includes(option.code)) {
                                                                 newCountryAndRegion[countryCode].push(option.code);
                                                             }
@@ -608,24 +580,21 @@ const FilterPanel = ({
                                                         onUpdateFilters({ countryandregion: newCountryAndRegion });
                                                     }
                                                 }}
-                                                className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white dark:hover:bg-gray-600
-                                                        flex items-center justify-between transition-colors text-sm
-                                                ${option.isSelected ?
-                                                        (option.type === 'country' ?
-                                                            'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border border-blue-200 dark:border-blue-700' :
-                                                            'bg-green-50 dark:bg-green-900 text-green-700 dark:text-green-200 border border-green-200 dark:border-green-700'
-                                                        ) :
-                                                        'text-gray-700 dark:text-gray-200'}`}
+                                                className={`filter-list-item ${
+                                                    option.isSelected ?
+                                                        (option.type === 'country' ? 'filter-list-item--country-selected' : 'filter-list-item--region-selected') :
+                                                        ''
+                                                }`}
                                             >
-                                                <div className="flex items-center space-x-2">
-                                                    <span className="font-flags text-base">{getFlagEmoji(option.countryCode)}</span>
-                                                    <div className="flex flex-col flex-1">
-                                                        <div className="flex items-center justify-between">
+                                                <div className="flex items-center space-x-2 min-w-0">
+                                                    <CountryFlag countryCode={option.countryCode} />
+                                                    <div className="flex flex-col flex-1 min-w-0">
+                                                        <div className="flex items-center justify-between gap-2">
                                                             <span className={`truncate ${option.type === 'country' ? 'font-medium' : 'font-normal'}`}>
                                                                 {option.name}
                                                             </span>
                                                             <span
-                                                                className="ml-2 inline-flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 text-xs text-gray-700 dark:text-gray-200 px-2 py-1"
+                                                                className="filter-item-count"
                                                                 title={`${option.itemCount} items`}
                                                             >
                                                                 {option.itemCount}
@@ -634,24 +603,23 @@ const FilterPanel = ({
                                                     </div>
                                                 </div>
                                                 {option.isSelected && (
-                                                    <Check size={14} className={`${option.type === 'country' ? 'text-blue-600 dark:text-blue-400' : 'text-green-600 dark:text-green-400'}`} />
+                                                    <Check size={14} className={`flex-shrink-0 ${option.type === 'country' ? 'text-blue-600 dark:text-blue-400' : 'text-green-600 dark:text-green-400'}`} />
                                                 )}
                                             </button>
                                         ))}
 
                                         {locationOptions.length === 0 && searchQueries.country && (
-                                            <div className="text-center py-4 text-gray-500 dark:text-gray-400 text-sm">
+                                            <div className="text-center py-4 text-sm" style={{ color: 'var(--color-text-muted)' }}>
                                                 No countries or regions found matching "{searchQueries.country}"
                                             </div>
                                         )}
                                     </div>
 
                                     {Object.keys(filters.countryandregion || {}).length > 0 && (
-                                        <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-600">
-                                            <div className="mb-2 px-3 py-2 bg-blue-50 dark:bg-blue-900 rounded text-xs">
-                                                <span className="text-blue-700 dark:text-blue-200">
-                                                    Selected:
-                                                    {Object.entries(filters.countryandregion).map(([countryCode, regions]) => {
+                                        <div className="filter-section-footer">
+                                            <div className="filter-selection-summary">
+                                                Selected:
+                                                {Object.entries(filters.countryandregion).map(([countryCode, regions]) => {
                                                         const countryName = countriesMap[countryCode]?.name || countryCode;
                                                         if (regions.length === 0) {
                                                             return countryName;
@@ -659,18 +627,7 @@ const FilterPanel = ({
                                                             return `${countryName} (${regions.join(', ')})`;
                                                         }
                                                     }).join('; ')}
-                                                </span>
                                             </div>
-
-                                            <button
-                                                onClick={() => {
-                                                    onUpdateFilters({ countryandregion: {} });
-                                                }}
-                                                className="w-full px-3 py-2 text-red-600 hover:bg-red-50 dark:hover:bg-red-900 rounded-lg 
-                                                           transition-colors text-sm font-medium"
-                                            >
-                                                Clear Selection
-                                            </button>
                                         </div>
                                     )}
                                 </div>
@@ -684,60 +641,45 @@ const FilterPanel = ({
                             badge={filters.author?.length || null}
                             isExpanded={expandedSections.author}
                             onToggle={() => toggleSection('author')}
+                            canReset={filters.author?.length > 0}
+                            onReset={() => onUpdateFilters({ author: [] })}
                         >
-                            <div className="p-4">
-                                <div className="mb-3">
+                            <div className="filter-section-body">
+                                <div className="filter-section-search-sticky">
                                     <div className="relative">
-                                        <Search size={16} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500" />
+                                        <Search size={16} className="filter-input-icon absolute left-3 top-1/2 transform -translate-y-1/2" />
                                         <input
                                             type="text"
                                             placeholder="Search authors..."
                                             value={searchQueries.author}
                                             onChange={(e) => setSearchQueries(prev => ({ ...prev, author: e.target.value }))}
-                                            className="w-full pl-10 pr-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-sm
-                                                       bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100
-                                                       placeholder-gray-500 dark:placeholder-gray-400
-                                                       focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                            className="filter-input filter-input--search"
                                         />
                                     </div>
                                 </div>
 
-                                <div className="max-h-48 overflow-y-auto space-y-1">
+                                <div className="filter-section-list">
                                     {filteredAuthors.slice(0, 10).map(author => (
                                         <button
                                             key={author}
                                             onClick={() => handleAuthorToggle(author)}
-                                            className={`w-full text-left px-3 py-2 rounded-lg hover:bg-white dark:hover:bg-gray-600
-                                                        flex items-center justify-between transition-colors text-sm text-gray-700 dark:text-gray-200
-                                                ${filters.author?.includes(author) ? 'bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-200 border border-blue-200 dark:border-blue-700' : ''}`}
+                                            className={`filter-list-item ${
+                                                filters.author?.includes(author) ? 'filter-list-item--country-selected' : ''
+                                            }`}
                                         >
                                             <span className="truncate flex items-center gap-2">
                                                 {author}
                                                 <span
-                                                    className="ml-1 inline-flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 text-xs text-gray-700 dark:text-gray-200 w-6 h-6"
+                                                    className="filter-item-count w-6 h-6"
                                                     title={`${authorItemCounts[author] || 0} items`}
                                                 >
                                                     {authorItemCounts[author] || 0}
                                                 </span>
                                             </span>
-                                            {filters.author?.includes(author) && <Check size={14} className="text-blue-600 dark:text-blue-400" />}
+                                            {filters.author?.includes(author) && <Check size={14} className="text-blue-600 dark:text-blue-400 flex-shrink-0" />}
                                         </button>
                                     ))}
                                 </div>
-
-                                {filters.author?.length > 0 && (
-                                    <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
-                                        <button
-                                            onClick={() => {
-                                                onUpdateFilters({ author: [] });
-                                            }}
-                                            className="w-full px-3 py-2 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg 
-                                                       transition-colors text-sm font-medium"
-                                        >
-                                            Clear Author
-                                        </button>
-                                    </div>
-                                )}
                             </div>
                         </AccordionSection>
                     </AccordionContainer>
@@ -747,7 +689,7 @@ const FilterPanel = ({
             {/* Backdrop */}
             {isOpen && (
                 <div
-                    className="fixed inset-0 bg-black bg-opacity-30 z-[999] top-12 sm:top-16"
+                    className="filter-backdrop animate-fade-in"
                     onClick={() => setIsOpen(false)}
                 />
             )}
