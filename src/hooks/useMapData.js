@@ -94,7 +94,7 @@ export const useMapData = () => {
         const initData = async () => {
             try {
                 setLoading(true);
-                const since = getOneMonthAgoTimestamp();
+                const [since, before] = filters.report_date;
 
                 // Try to load countries data from sessionStorage cache first
                 let countriesData = null;
@@ -113,7 +113,7 @@ export const useMapData = () => {
                 }
 
                 // Fetch data - only fetch countries if not cached
-                const dataPromises = [loadTableData({ table: 'update_reports', since })];
+                const dataPromises = [loadTableData({ table: 'update_reports', since, before })];
                 if (!countriesData) {
                     dataPromises.push(loadCountriesData());
                 }
@@ -141,7 +141,7 @@ export const useMapData = () => {
                 const requestKey = JSON.stringify({
                     table: 'update_reports',
                     since,
-                    before: getTimestamp(),
+                    before,
                     mapMode: { isPeak: false, isSpot: false }
                 });
                 setLastFilterRequest(requestKey);

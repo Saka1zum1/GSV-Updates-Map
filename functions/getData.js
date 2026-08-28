@@ -93,7 +93,10 @@ exports.handler = async function (event, context) {
         await connection.end();
         return {
             statusCode: 200,
-            headers: { "Content-Type": "application/json" },
+            headers: {
+                "Content-Type": "application/json",
+                "Cache-Control": "public, max-age=300, s-maxage=300"
+            },
             body: JSON.stringify(rows),
         };
     } catch (err) {

@@ -2,6 +2,36 @@ import { getMonthTimestamp } from './constants.js';
 
 // Cache for ongoing requests to prevent duplicates
 const ongoingRequests = new Map();
+const TABLE_DATA_CACHE_TTL = 5 * 60 * 1000;
+
+const getCachedTableData = (url) => {
+  try {
+    const cached = sessionStorage.getItem(`table-data:${url}`);
+    if (!cached) return null;
+
+    const { timestamp, data } = JSON.parse(cached);
+    if (Date.now() - timestamp >= TABLE_DATA_CACHE_TTL) {
+      sessionStorage.removeItem(`table-data:${url}`);
+      return null;
+    }
+
+    return data;
+  } catch (error) {
+    sessionStorage.removeItem(`table-data:${url}`);
+    return null;
+  }
+};
+
+const cacheTableData = (url, data) => {
+  try {
+    sessionStorage.setItem(`table-data:${url}`, JSON.stringify({
+      timestamp: Date.now(),
+      data
+    }));
+  } catch (error) {
+    // Ignore unavailable or full sessionStorage and keep the request successful.
+  }
+};
 
 // Load table data from API
 export const loadTableData = async ({ table, since, before, key, value }) => {
@@ -28,6 +58,11 @@ export const loadTableData = async ({ table, since, before, key, value }) => {
     }
     
     const url = `/.netlify/functions/getData?${params.toString()}`;
+
+    const cachedData = getCachedTableData(url);
+    if (cachedData !== null) {
+      return cachedData;
+    }
     
     // Check if we already have an ongoing request for this URL
     if (ongoingRequests.has(url)) {
@@ -46,6 +81,8 @@ export const loadTableData = async ({ table, since, before, key, value }) => {
       if (data.error) {
         throw new Error(data.error);
       }
+
+      cacheTableData(url, data);
       
       return data;
     }).finally(() => {
