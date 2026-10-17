@@ -120,7 +120,7 @@ const MapContainer = ({
 
         const cartoLightLayer = L.tileLayer("https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_4mxa_1_1e2b9bbf43f68c76f9cf607f", { subdomains: ["a", "b", "c"] });
 
-        const cartoDarkLayer = L.tileLayer("https://basemaps.cartocdn.com/rastertiles/dark-matter/{z}/{x}/{y}.png?key=cb1_4mxa_1_1e2b9bbf43f68c76f9cf607f", { subdomains: ["a", "b", "c"] });
+        const cartoDarkLayer = L.tileLayer("https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=cb1_4mxa_1_1e2b9bbf43f68c76f9cf607f", { subdomains: ["a", "b", "c"] });
 
         // Create initial GSV layers (will be updated by color preference effect)
         const gsvLayer = L.tileLayer("", { pane: "coveragePane", opacity: gsvOpacity });
